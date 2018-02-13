@@ -14,13 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Four Score and More
-email: example@example.com
+email: ~
 description: >-
   ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to (a) assist teachers and students by providing extensive exercise materials, allowing them to focus not on creating the resources, but how best to use and adapt them for their own purposes; (b) provide interactive teaching guides that provide feedback of a kind, quality, and consistency that may complement or stand in for a human teacher; (c) democratise access by providing everything for free online, and with user-friendly instructions so that anyone interested can develop their skills for free.
-baseurl: "/fourscoreandmore" # the subpath of your site, e.g. /blog
-url: "https://pjcdawkins.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: ~ # the subpath of your site, e.g. /blog
+url: ~ # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown

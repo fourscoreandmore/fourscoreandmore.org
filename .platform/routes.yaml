@@ -1,0 +1,6 @@
+https://{default}:
+  type: upstream
+  upstream: site:http
+https://www.{default}:
+  type: redirect
+  to: https://www.{default}
