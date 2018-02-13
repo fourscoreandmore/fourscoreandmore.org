@@ -5,5 +5,5 @@ https://www.{default}:
   type: redirect
   to: https://{default}
 https://master-7rqtwti-gpms3vphhdy4i.eu.platform.sh:
-  type: upstream
-  upstream: site:http
+  type: redirect
+  to: https://{default}
