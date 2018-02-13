@@ -3,6 +3,8 @@ layout: page
 title: Four Score and More
 ---
 
+## This copy of the site shows changes committed to the [GitHub pull request](https://github.com/pjcdawkins/fourscoreandmore.org/pull/1).
+
 ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
 
 1. Assist teachers and students by providing extensive exercise materials, allowing them to focus not on creating the resources, but how best to use and adapt them for their own purposes.
