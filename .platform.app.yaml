@@ -16,7 +16,7 @@ web:
       passthru: false
       expires: 5m
       rules:
-        '\.(js|css|jpe?g|png|gif)$':
+        '\.(js|css|jpe?g|png|gif|ico)$':
           expires: 10m
 
 hooks:

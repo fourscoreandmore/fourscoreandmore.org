@@ -8,20 +8,20 @@ body {
 }
 
 .site-title-wrapper {
-  width: auto;
-  white-space: nowrap;
-  overflow: hidden;
   float: left;
+  margin-right: 36px; /* the width of the menu icon */
 }
 .site-title {
-  font-size: 22px;
-  display: inline;
+  font-size: 20px;
+  display: inline-block;
   float: none;
   vertical-align: middle;
 }
 .site-logo {
-  display: inline-block;
+  display: block;
+  float: left;
   margin-right: 5px;
+  margin-top: 5px;
 }
 .logo {
   float: right;
