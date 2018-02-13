@@ -17,10 +17,10 @@ lang: en_GB
 description: |
   ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory.
 
-# Social links
-social_sites:
-  facebook: FourScoreAndMore
-  twitter: FourScoreAndMore
+# Social links - let's register these?
+#social_sites:
+#  facebook: FourScoreAndMore
+#  twitter: FourScoreAndMore
 
 # Build settings
 markdown: kramdown
