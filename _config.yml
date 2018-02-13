@@ -1,26 +1,29 @@
+# Most of the following tags are used for the SEO template.
+# See https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+
 # The site title, used in various places.
 title: Four Score and More
 
+# A short description.
+description: A social initiative providing high-quality musical resources.
+
 # The logo.
 logo: assets/logo.png
-
-# Make URLs "pretty": "/page/" instead of "/page.html".
-permalink: pretty
 
 # The filenames of pages that should appear in the main menu.
 header_pages:
   - scores-of-scores.md
   - cut-outs.md
 
-# SEO tags: see https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 lang: en_GB
-description: |
-  ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory.
 
 # Social links - let's register these?
 #social_sites:
 #  facebook: FourScoreAndMore
 #  twitter: FourScoreAndMore
+
+# Make URLs "pretty": "/page/" instead of "/page.html".
+permalink: pretty
 
 # Build settings
 markdown: kramdown
