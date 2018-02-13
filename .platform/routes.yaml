@@ -3,4 +3,7 @@ https://{default}:
   upstream: site:http
 https://www.{default}:
   type: redirect
-  to: https://www.{default}
+  to: https://{default}
+https://master-7rqtwti-gpms3vphhdy4i.eu.platform.sh:
+  type: upstream
+  upstream: site:http
