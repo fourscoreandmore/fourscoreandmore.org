@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project 2: Cut-Outs'
+title: 'Project 2: Cut Outs'
 ---
 
 ## Overview
