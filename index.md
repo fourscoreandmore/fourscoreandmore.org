@@ -3,7 +3,7 @@ layout: page
 title: Four Score and More
 ---
 
-<img src="/images/logo.png" alt="Four Score and More logo" width="195" height="88" class="logo" />
+<img src="/images/logo.png" width="96" alt="Four Score and More logo" class="logo">
 
 ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
 
