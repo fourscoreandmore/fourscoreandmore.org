@@ -1,6 +1,9 @@
 # The site title, used in various places.
 title: Four Score and More
 
+# Make URLs "pretty": "/page/" instead of "/page.html".
+permalink: pretty
+
 # The filenames of pages that should appear in the main menu.
 header_pages:
   - scores-of-scores.md
