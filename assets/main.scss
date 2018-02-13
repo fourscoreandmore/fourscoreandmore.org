@@ -7,7 +7,28 @@ body {
   font: 16px/1.5 'Open Sans', sans-serif;
 }
 
+.site-title-wrapper {
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  float: left;
+}
+.site-title {
+  font-size: 22px;
+  display: inline;
+  float: none;
+  vertical-align: middle;
+}
+.site-logo {
+  display: inline-block;
+  margin-right: 5px;
+}
 .logo {
   float: right;
   margin: 0 0 10px 20px;
+}
+
+.footer {
+  font-size: 15px;
+  color: #828282;
 }

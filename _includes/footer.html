@@ -3,30 +3,7 @@
 
   <div class="wrapper">
 
-    <div class="footer-col-wrapper">
-
-      {% if site.email %}
-        <div class="footer-col footer-col-1">
-          <ul class="contact-list">
-            <li class="p-name">
-              {% if site.author %}
-                {{ site.author | escape }}
-              {% else %}
-                {{ site.title | escape }}
-              {% endif %}
-              </li>
-              {% if site.email %}
-              <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-              {% endif %}
-          </ul>
-        </div>
-      {% endif %}
-
-      <div class="footer-col footer-col-2">
-        {% include social.html %}
-      </div>
-
-    </div>
+    <p>&copy; {{ "now" | date: "%Y" }} Four Score and More. All rights reserved.</p>
 
   </div>
 
