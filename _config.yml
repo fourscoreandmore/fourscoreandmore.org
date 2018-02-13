@@ -1,6 +1,9 @@
 # The site title, used in various places.
 title: Four Score and More
 
+# The logo.
+logo: assets/logo.png
+
 # Make URLs "pretty": "/page/" instead of "/page.html".
 permalink: pretty
 
