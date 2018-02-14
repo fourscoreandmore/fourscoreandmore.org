@@ -12,8 +12,8 @@ logo: images/logo.png
 
 # The filenames of pages that should appear in the main menu.
 header_pages:
-  - scores-of-scores.md
-  - cut-outs.md
+  - scores-of-scores/index.md
+  - cut-outs/index.md
 
 lang: en_GB
 
