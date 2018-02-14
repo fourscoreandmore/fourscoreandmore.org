@@ -16,7 +16,7 @@ web:
       passthru: '/404/index.html'
       expires: 5m
       rules:
-        '\.(js|css|jpe?g|png|gif|ico)$':
+        '\.(js|css|jpe?g|png|gif|ico|svg)$':
           expires: 10m
 
 hooks:

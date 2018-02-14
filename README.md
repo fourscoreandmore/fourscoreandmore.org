@@ -1,6 +1,6 @@
 # Four Score and More
 
-<img src="/images/logo.png" width="96" alt="Four Score and More logo">
+<img src="/images/logo.svg" width="96" alt="Four Score and More logo">
 
 > ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory.
 
