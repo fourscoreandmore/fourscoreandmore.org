@@ -3,6 +3,8 @@ layout: post
 title: 'Lieder Corpus Project'
 ---
 
+_Part of [Scores of Scores](/scores-of-scores)._
+
 Notes for transcribers
 ---
 
