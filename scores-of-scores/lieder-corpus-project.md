@@ -17,10 +17,10 @@ In this project you’ll find a wonderful corpus of songs … or rather just the
 Basically this is a normal [OpenScore](https://openscore.cc) encoding project, except that here some of the job has been done for you! Simply:
 
 1. Pick an available score [from the spreadsheet](https://docs.google.com/spreadsheets/d/1KHeLrjdcF1X5LMhtFzE3pnS_cmQH8ZIxGU9QUFCts9I/edit?usp=sharing).
-1. Update the spreadsheet to assign yourself (add your MuseScore username).
+1. Update the spreadsheet to assign yourself (add your MuseScore username in a comment).
 1. Find the template score via the "Template score URL" link. The score's description will include a link to a recommended IMSLP source score (a PDF).
 1. Open the template score in MuseScore, add a piano part, and encode away!
-1. Upload your finished score to the [Lieder Corpus pilot group](https://musescore.com/groups/lieder-corpus-pilot). Set the status to "REVIEW" in the spreadsheet.
+1. Upload your finished score to the [Lieder Corpus pilot group](https://musescore.com/groups/lieder-corpus-pilot). Update the spreadsheet (via a comment) to request a review.
 1. Rinse and repeat!
 
 ## FAQs
