@@ -23,6 +23,8 @@ Everyone is welcome to contribute to the encoding effort through OpenScore. Here
 
 Apart from helping the musical world, encoders themselves also benefit from the task: copy-editing music is a very worthwhile pursuit that musicians have used as part of their education for as long as records exist. The story of Wagner copying out Beethoven’s Ninth Symphony twice stands as a famous testament to this. So, encode on and perhaps someday you’ll write world-changing, epic operas!
 
+The [Lieder Corpus project](/scores-of-scores/lieder-corpus-project) is the first effort of _Scores of Scores_. Hundreds of German and French songs will be transcribed and made available copyright-free (under a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license)
+
 ## Launch event
 
 In association with the Cambridge Big Data Strategic Research Initiative, Cambridge Digital Humanities Network and the University of Cambridge Faculty of Music, a ‘Scores of Scores’ event will take place on June 19, combining elements of a conference, workshop, hackathon, and ‘encodathon’. Everyone is welcome, though spaces are limited and registration is essential. Please follow this link: [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora).
