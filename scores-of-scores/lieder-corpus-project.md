@@ -92,16 +92,18 @@ Absolutely! Apart from helping the music community, encoders benefit from the ta
 
 I hope you find these acceptable at least for the time being. Most of them we can automate a fix for if we choose to later (e.g. after the main encoding drive). If you are sure you’ve found something that doesn’t correspond to this policy then please do make the change. Please get in touch if you discover consistent errors or editorial policy decisions that should be on this list!
 
-## Who’s Who?
+## Who’s Who? Main points of Contact:
 
-Lieder Corpus Project managers:
+Principal Investigator:
+- [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham)
 
+Lieder Corpus Project Technical Manager:
 - Patrick Dawkins ([pjcdawkins](https://musescore.com/pjcdawkins))
-- Dan Rootham ([DanielR](https://musescore.com/danielr))
 
-Supervisors:
+MuseScore / OpenScore Manager:
+- Peter Jonas ([shoogle](https://musescore.com/shoogle))
 
-- Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore manager
-- [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham) - principal investigator
+Reviewers
+- Various
 
 Many thanks for being a part of this initiative. Here’s to a great encoded corpus in the making!
