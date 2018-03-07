@@ -19,7 +19,7 @@ Basically this is a normal [OpenScore](https://openscore.cc) encoding project, e
 1. Pick an available score [from the spreadsheet](https://docs.google.com/spreadsheets/d/1KHeLrjdcF1X5LMhtFzE3pnS_cmQH8ZIxGU9QUFCts9I/edit?usp=sharing).
 1. Update the spreadsheet to assign yourself (add your MuseScore username in a comment).
 1. Find the template score via the "Template score URL" link. The score's description will include a link to a recommended IMSLP source score (a PDF).
-1. Open the template score in MuseScore, add a piano part, and encode away!
+1. Open the template score in MuseScore and encode away!
 1. Upload your finished score to the [Lieder Corpus pilot group](https://musescore.com/groups/lieder-corpus-pilot). Update the spreadsheet (via a comment) to request a review.
 1. Rinse and repeat!
 
@@ -31,7 +31,7 @@ This is an important candidate repertoire for transcription for many reasons:
 
   - The repertoire needs to exist in multiple keys to support different singers’ ranges. Encoded formats give full flexibility.
 
-  - It is a key repertoire for the teaching of music theory for various reasons (about which you’ll see more from me in due course!), not least of which being that it’s a great way to improve the representation of women composers on the syllabus.
+  - It is a key repertoire for the teaching of music theory for various reasons (about which see also our parallel work-in-progress [Project 2, Cut Outs](https://fourscoreandmore.org/cut-outs/), not least of which being that it’s a great way to improve the representation of women composers on the syllabus.
 
   - The encoding of vocal lines and text is already well underway thanks to another, previous para-academic project which has provide the starting point here.
 
@@ -41,7 +41,7 @@ We have inherited this corpus of vocal lines from Leigh Van Handel et al. who cr
 
 **Are they perfect?**
 
-Unfortunately not. Converting file formats can be hazardous business. I have used some great existing code for converting these files (thanks Myke Cuthbert, Craig Sapp, et al.!) and written some more to fix certain problems unique to these pieces, but it’s hard to get a 100% success rate. Look out for the occasional:
+Unfortunately not. Converting file formats can be hazardous business. I have used some great existing code for converting these files (thanks Myke Cuthbert, Craig Sapp, et al.!), written some more to fix certain problems unique to these pieces, and fixed a lot of little errors, but it’s hard to get a 100% success rate when transcribing, or when converting, let alone when doing both! Look out for the occasional:
 
 - Odd lyrics, e.g. with `}` or a number.
 - More odd lyrics: with accents that should / shouldn’t be there.
@@ -51,11 +51,11 @@ Unfortunately not. Converting file formats can be hazardous business. I have use
 
 **Are the vocal lines complete?**
 
-Often not. Please do encode the rest of the melodic line and text if you’re happy to do so. If the song is long, then perhaps focus on another, shorter piece first so we can get more songs finished. If all of the music is there, but not all of the verses, then that’s fine for now – thanks! We’re aiming for complete music.
+Often not. Please do encode the rest of the melodic line and text if you’re happy to do so. If the song is long, then perhaps focus on another, shorter piece first so we can get more songs finished. If all of the music is there but not all of the verses, then that’s fine for now – thanks! We’re aiming for complete music.
 
 **Why aren’t there piano parts?**
 
-That wasn’t part of the Van Handel et al. study and it turns out to be much more reliable simply to add the part in MuseScore than to add them automatically.
+That simply wasn’t part of the Van Handel et al. study. Anyway, we had to leave some of the fun for you!
 
 **Is there an Editorial ‘policy’?**
 
@@ -63,11 +63,11 @@ Absolutely … of a sort. [See below](#editorial-policy).
 
 **I can’t find my score on IMSLP. Little help please?**
 
-Many apologies. If it’s a question of insufficient information then there’s a nearly complete list of composer, title, opus numbers information in the .CSV file provided – you can open this up in Excel or similar find your song and hopefully then have more information for searching. If it’s definitely not on IMSLP then we’ll have to put it there!
+If you're sure that your score doesn't match up with the IMSLP URL given then please accept our apologies and get in touch with your designated driver … I mean reviewer.
 
 **What key should I use?**
 
-Often, IMSLP will have the same song in multiple keys. If so, pick the one that matches the file you have and go for it! Where IMSLP only has other keys, please transpose the file and do your transcription in the key of the IMSLP source (rechecking the vocal line's accidentals). You’ll find that’s much easier!
+Often, IMSLP will have the same song in multiple keys. We've tried to upload scores in the original key and direct you to a page that matches this so you can transcribe in the key of the IMSLP source. If there's a mismatch then get in touch.
 
 **This score is corrupted / unacceptably full or errors.**
 
@@ -81,27 +81,39 @@ I sure do! The main one is to look out for any repetitions, either exact or part
 
 Absolutely! Apart from helping the music community, encoders benefit from the task of copy-editing music itself – musicians have written out scores as part of their education for as long as records exist. The story of Wagner copying out Beethoven’s Ninth Symphony twice stands as a famous testament to this.
 
+**I eat 1,500 songs for breakfast, when are we going to do the rest?**
+
+Wow. Ok. A few thoughts:
+
+- Let's knuckle down and do these ones first please.
+- We are definitely very happy to accept other French and German 19th century lieder that are not on the current list if they're on IMSLP in a public domain edition.
+- We don't mind you uploading other PD lieder, but we might not have time to review them right now.
+
+**This project is so awesome, I want to help in other ways**
+
+Great! Please get in touch if you want to help review, or if you'd be happy to help in other ways, like uploading to IMSLP public domain editions of scores which are not currently on that site, but which we have in the repository. Finally, anything you can do to help publicise this would be really great, not just among other transcribers but among everyone that stands to benefit from knowing about this corpus.
+
 ## Editorial ‘policy’
 
 ‘Policy’ is in quotes here because we are simply aiming for a pragmatic solution with minimal adjustments to reach a plausible editorial level. Basically, this is a summary of what you will find (and should do in any new encoding):
 
 - Refer to OpenScore's general [Tips for Transcribers](https://musescore.com/shoogle/scores/3434266)
-- Separate stems (no beams) for notes with one syllable
-- No melisma continuation lines
+- Separate stems (no beams) for notes with one syllable (though leave beams if they're already in and make musical sense).
+- No melisma continuation lines required (though leave them if they're already in)
 - Use `ss` (not the Eszett `ß`) and similar
 
 I hope you find these acceptable at least for the time being. Most of them we can automate a fix for if we choose to later (e.g. after the main encoding drive). If you are sure you’ve found something that doesn’t correspond to this policy then please do make the change. Please get in touch if you discover consistent errors or editorial policy decisions that should be on this list!
 
 ## Who’s Who?
 
-Lieder Corpus Project managers:
+The wonderful team of Lieder Corpus Project Managers includes:
 
 - Patrick Dawkins ([pjcdawkins](https://musescore.com/pjcdawkins))
 - Dan Rootham ([DanielR](https://musescore.com/danielr))
 
-Supervisors:
+The Supervisors are:
 
 - Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore manager
-- [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham) - principal investigator
+- [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham) - Principal Investigator
 
 Many thanks for being a part of this initiative. Here’s to a great encoded corpus in the making!
