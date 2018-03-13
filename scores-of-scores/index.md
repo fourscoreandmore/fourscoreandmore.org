@@ -24,6 +24,23 @@ We aim to engage with the widest possible public: anyone interested in music, of
 
 The online repository ensures that there is no geographical barrier to encoding or accessing the scores. Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.com): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types. Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
 
+<!--
+Logo files.
+
+This uses plain HTML as we want control over the image width and alignment.
+
+If you don't want such control for other images, you can use plain Markdown.
+See: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
+-->
+<div class="image-collection">
+  <a href="https://openscore.cc">
+    <img src="/images/openscore-logo.png" alt="OpenScore logo" width="240">
+  </a>
+  <a href="https://musescore.com">
+    <img src="/images/musescore-logo.png" alt="MuseScore logo" width="200">
+  </a>
+</div>
+
 ## How can people get involved?
 
 Everyone is welcome to contribute to the encoding effort through OpenScore. Here’s the information for prospective contributors: [OpenScore: How You Can Get Involved](https://musescore.org/en/user/57401/blog/2017/07/11/openscore-how-you-can-get-involved).
