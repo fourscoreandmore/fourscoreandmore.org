@@ -1,11 +1,18 @@
 ---
 layout: post
-title: 'Project 1: Scores of Scores'
+title: 'Scores of Scores'
 ---
 
-## Overview and motivation
+The 'Scores of Scores' lieder corpus encoding project is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
 
-‘Scores of Scores’ is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We will create and release publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
+## Page menu for Scores of Scores
+
+1. This page (an introduction).
+2. The [Notes for transcribers](/scores-of-scores/lieder-corpus-project)
+3. ['Learn by Doing Lieder Transcription': Exercises for Intrepid Students](/scores-of-scores/learn-by-doing)
+4. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora).
+
+## Overview and motivation
 
 [IMSLP](http://imslp.org/) has led the way with an initiative to provide the world with a huge repository of over 125,000 out-of-copyright musical scores in PDF (image) format. This has greatly democratised access to music, and enabled musicians to explore the repertoire more widely, more easily. This is great, but people are able to engage with music in much more direct and varied ways when they have access to ‘encoded’ score: not PDFs, but files which can be opened in free notation software like ‘MuseScore’ and adapted for specific tasks. The difference is the same as that between looking at an image of text and being able to edit that text in a word-processor. There are some corpora of scores in these editable formats, but they are inconsistent in their coverage and quality. Similarly, the existing ‘Optical Music Recognition’ software for converting from image to encoded format is not yet up to the task at scale and will be helped along by having reliable image-encoding pairs to work with.
 
