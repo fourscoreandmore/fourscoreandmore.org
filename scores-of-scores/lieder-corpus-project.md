@@ -5,7 +5,7 @@ title: 'Lieder Corpus Project'
 
 _Part of [Scores of Scores](/scores-of-scores)._
 
-Notes for transcribers
+Notes for Transcribers
 ---
 
 Welcome!
@@ -99,8 +99,9 @@ Great! Please get in touch if you want to help review, or if you'd be happy to h
 
 - Refer to OpenScore's general [Tips for Transcribers](https://musescore.com/shoogle/scores/3434266)
 - Separate stems (no beams) for notes with one syllable (though leave beams if they're already in and make musical sense).
-- No melisma continuation lines required (though leave them if they're already in)
+- No melisma continuation lines required (though again, leave them if they're already in)
 - Use `ss` (not the Eszett `ß`) and similar
+- We've used the 'en-dash' for the literal dash in French lyrics (e.g. ‘veux-tu’) to avoid it being read as the kind of dash used for 'syl-la-bic' joins during the file format conversion, though these can be corrected to dash in MuseScore using 'Ctrl+Hyphen' if you're feeling very editorial! Don't worry if you don't follow.
 
 I hope you find these acceptable at least for the time being. Most of them we can automate a fix for if we choose to later (e.g. after the main encoding drive). If you are sure you’ve found something that doesn’t correspond to this policy then please do make the change. Please get in touch if you discover consistent errors or editorial policy decisions that should be on this list!
 
