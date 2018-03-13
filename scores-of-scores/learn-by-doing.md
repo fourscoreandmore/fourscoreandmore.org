@@ -54,15 +54,15 @@ Still hungry for more? Now that you know the piece, you could see if you can wri
 - Take care to pace the whole: don’t overdo strong cadences etc. all the time.
 
 **Harmony: Some Common Extensions of Common Practice**
-> - Here's a summary of common harmonic tricks in musical notation: .
-
 - Frequent, transitory, local toncisations without firmly establishing key change.
 - Passing melodic chromaticisms linked to chromatic harmony (eg. IVb - aug6th - V and V - V+ - I).
 - Minor borrowings in major key (eg. iv-I).
 - Unexpected resolutions: use of enharmonic equivalence for remote modulation; chromatic pivot chords.
 - Modulation by changing construction with minimal voice-leading for dominant function in new key: e.g. major / minor triad into diminished, or dominant 7th into a diminished 7th.
 
-Ok that's enough to start with. Good luck, and here’s to a new generation of brilliant musicians in the making!
+Ok that's enough to start with.
+Good luck, and here’s to a new generation of brilliant musicians in the making!
 
 Thanks!
+
 Mark Gotham
