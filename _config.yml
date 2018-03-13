@@ -14,7 +14,7 @@ logo: images/logo.png
 header_pages:
   - scores-of-scores/index.md
   - cut-outs/index.md
-
+  - people/index.md
 lang: en_GB
 
 # Social links - let's register these?

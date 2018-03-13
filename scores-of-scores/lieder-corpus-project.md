@@ -108,13 +108,11 @@ I hope you find these acceptable at least for the time being. Most of them we ca
 ## Who’s Who?
 
 The wonderful team of Lieder Corpus Project Managers includes:
-
-- Patrick Dawkins ([pjcdawkins](https://musescore.com/pjcdawkins))
 - Dan Rootham ([DanielR](https://musescore.com/danielr))
 
 The Supervisors are:
 
-- Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore manager
+- Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore Manager
 - [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham) - Principal Investigator
 
 Many thanks for being a part of this initiative. Here’s to a great encoded corpus in the making!
