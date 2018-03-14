@@ -32,3 +32,17 @@ body {
   font-size: 15px;
   color: #828282;
 }
+
+.image-collection {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+}
