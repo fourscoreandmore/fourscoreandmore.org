@@ -14,11 +14,12 @@ A growing number of great people are contributing to FourScoreAndMore. Here is s
 
 We are delighted to have lucky to have a fantastic team of experts supporting and advising FourScoreAndMore, including:
 
-- The good people at [MuseScore](https://musescore.com), especially [Peter Jonas](https://musescore.com/shoogle), OpenScore Manager
-- [Edward Guo of IMSLP](http://imslp.org/)
-- Michael Scott Cuthbert, [Associate Professor at MIT](https://mta.mit.edu/person/michael-scott-cuthbert) and Founder of [Artusi](https://www.artusi.xyz/)
-- [Peter Gotham](https://uk.linkedin.com/in/peter-gotham-54884341), Third Sector Accountant
-- [Alexandra (Xann) Schwinn](http://alexandraschwinn.com/about/).
+- The good people at [MuseScore](https://musescore.com), especially [Peter Jonas](https://musescore.com/shoogle), OpenScore Manager;
+- [Edward Guo of IMSLP](http://imslp.org/);
+- Michael Scott Cuthbert, [Associate Professor at MIT](https://mta.mit.edu/person/michael-scott-cuthbert) and Founder of [Artusi](https://www.artusi.xyz/);
+- [Peter Gotham](https://uk.linkedin.com/in/peter-gotham-54884341), Third Sector Accountant;
+- [Alexandra (Xann) Schwinn](http://alexandraschwinn.com/about/);
+- [Karl Schwonik](http://www.karlschwonik.com/).
 
 ## Funders
 
