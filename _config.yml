@@ -14,6 +14,8 @@ logo: images/fourscoreandmore-logo.png
 header_pages:
   - scores-of-scores/index.md
   - cut-outs/index.md
+  - scored-up-scores/index.md
+  - simple-harmonic-motion/index.md
   - people/index.md
 lang: en_GB
 

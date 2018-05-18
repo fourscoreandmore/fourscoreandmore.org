@@ -9,7 +9,7 @@ title: 'Cut Outs'
 
 ‘Cut Outs’ will provide free access to thousands of such score exercises. Crucially, the user (student or teacher) will be able to tailor the exercises to their requirements. For instance, one commonly used exercise of this kind takes a Bach ‘chorale’ (hymn), leaves the hymn tune in place, and cuts out the other, accompanying parts at the ends of musical phrases. ‘Cuts Outs’ will enable users to download any of the Bach chorales adapted according to their requirements: with any number of accompanying parts missing, and with any span removed, from a single chord to completely empty accompanying parts. It will also offer a sequential ‘course’ whereby users can download exercises of progressively increasing difficulty and compare their work with the original chorale. The image below gives a sense of all this.
 
-This is part of a 'solution' file: Bach's original chorale, with the notes that have been removed from the exercise highlighted in read (four beats up to each cadence, in the alto and tenor parts).
+This is part of a 'solution' file: Bach's original chorale, with the notes that have been removed from the exercise highlighted in red (four beats up to each cadence, in the alto and tenor parts).
 <div class="image-collection">
     <img src="/images/CutOutChorale" alt="CutOuts Chorale Example" width="480">
 </div>

@@ -3,6 +3,8 @@ layout: page
 title: Four Score and More
 ---
 
+## About
+
 ‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
 
 1. Assist teachers and students by providing extensive exercise materials, allowing them to focus not on creating the resources, but how best to use and adapt them for their own purposes.
@@ -10,6 +12,8 @@ title: Four Score and More
 2. Provide interactive teaching guides that provide feedback of a kind, quality, and consistency that may complement or stand in for a human teacher.
 
 3. Democratise access by providing everything for free online, and with user-friendly instructions so that anyone interested can develop their skills for free.
+
+## Projects
 
 ‘Four Score and More’ has started out with four initial projects that are pressingly needed and/or extremely opportune, and which avoid duplicating of other fine projects out there:
 
@@ -20,12 +24,11 @@ uses.
 2. [**Cut Outs**](/cut-outs): musical scores with parts ‘cut out’ for the student to complete. This
 is an ancient teaching method given new life in the digital domain.
 
-3. **Scored-up Scores**: interactive introductions to works by encoding and
+3. [**Scored-up Scores**](/scored-up-scores): interactive introductions to works by encoding and
 visualising aspects of its structure for the user to explore.
 
-4. **Simple Harmonic Motion**: an interactive, online teacher of basic conducting
-technique (in collaboration with the Victoria University of Wellington, New
-Zealand).
+4. [**Simple Harmonic Motion**](/simple-harmonic-motion): an interactive, online teacher of basic conducting
+technique in collaboration with the Victoria University of Wellington, New Zealand.
 
 ## What’s in a name?
 
