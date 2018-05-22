@@ -11,7 +11,7 @@ title: 'Cut Outs'
 
 This is part of a 'solution' file: Bach's original chorale, with the notes that have been removed from the exercise highlighted in red (four beats up to each cadence, in the alto and tenor parts).
 <div class="image-collection">
-    <img src="/images/CutOutChorale" alt="CutOuts Chorale Example" width="480">
+    <img src="/images/CutOutChorale.png" alt="CutOuts Chorale Example" width="480">
 </div>
 
 We will offer this format for the full range of musical styles most commonly used for this task. For instance, Romantic song is another key repertoire here; the song repertoire is available for the use proposed by this project thanks to another ‘Four Score and More’ project, [‘Scores of Scores’](/scores-of-scores), which is crowd-sourcing computer encodings of those scores in collaboration with external companies (OpenScore/IMSLP) and a university partner ([Leigh VanHandel et al., Michigan State University](http://www.music.msu.edu/faculty/profile/leigh)).
