@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Simple Harmonic Motion'
+title: 'Scored-up Scores'
 ---
 
 Scored-up Scores is a plan (currently embryonic) to provide interactive introductions to works by encoding and
