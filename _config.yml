@@ -34,3 +34,7 @@ kramdown:
 theme: minima
 plugins:
   - jekyll-feed
+
+# Exclude files from processing by Jekyll.
+exclude:
+  - cut-outs-backend

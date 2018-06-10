@@ -7,7 +7,7 @@ title: 'Cut Outs'
 
 This page provides an introduction to the project, please click through to one of the following pages to read the 'how to' instructions and generate exercises.
 
-1. [Chorale Exercises](/cut-outs/Chorale-Exercises)
+1. [Chorale Exercises](/apps/chorales)
 
 2. [Lieder Exercises](/cut-outs/Lieder-Exercises)
 

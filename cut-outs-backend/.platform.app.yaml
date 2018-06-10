@@ -1,0 +1,30 @@
+name: cut-outs-backend
+
+type: "python:3.6"
+
+disk: 2048
+
+web:
+  commands:
+    start: python server.py
+
+  locations:
+    '/apps/static':
+      root: 'app/static'
+      allow: true
+      passthru: '/404/index.html'
+
+mounts:
+  '/app/templates/writable':
+    source: local
+    source_path: 'app/templates/writable'
+
+relationships:
+  site: "site:http"
+
+hooks:
+  build: |
+    pip install -r requirements.txt
+  deploy: |
+    set -e
+    curl --max-time 5 -sS site.internal/template/index.html > app/templates/writable/base.html

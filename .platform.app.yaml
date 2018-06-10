@@ -1,5 +1,7 @@
 name: site
 
+size: S
+
 build:
   flavor: none
 
@@ -15,6 +17,7 @@ web:
         - index.html
       passthru: '/404/index.html'
       expires: 5m
+      scripts: false
       rules:
         '\.(js|css|jpe?g|png|gif|ico|svg)$':
           expires: 10m
@@ -25,7 +28,7 @@ hooks:
     gem install bundler
     bundle install
     jekyll build
-    command -v platform || curl -sfS https://platform.sh/cli/installer | php
+    command -v platform >/dev/null || curl -sfS https://platform.sh/cli/installer | php
 
 crons:
   # Automatically redeploy master every month.

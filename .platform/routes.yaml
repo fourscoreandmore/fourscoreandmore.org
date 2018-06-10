@@ -4,6 +4,9 @@ https://{default}:
 https://www.{default}:
   type: redirect
   to: https://{default}
+https://{default}/apps:
+  type: upstream
+  upstream: cut-outs-backend:http
 https://master-7rqtwti-gpms3vphhdy4i.eu.platform.sh:
   type: redirect
   to: https://{default}

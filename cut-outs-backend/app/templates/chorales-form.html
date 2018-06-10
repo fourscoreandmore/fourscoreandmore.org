@@ -1,0 +1,48 @@
+{% extends "writable/base.html" %}
+
+{% block content %}
+    <link rel="stylesheet" href="/apps/static/main.css" />
+    <header class="post-header">
+      <h1 class="post-title p-name" itemprop="name headline">Chorales Exercise Generator</h1>
+    </header>
+
+    <p>This generates music theory completion exercises based on Bach chorales.</p>
+
+    <form action="" method="post">
+      {{ form.hidden_tag() }}
+
+
+        {{ form_field(form.originalScore, 32) }}
+        {{ form_field(form.beatsToCut, 3) }}
+        {{ form_field(form.partsToCut) }}
+        {{ form_field(form.shortScore) }}
+
+        <div class="form-actions">
+            <a class="btn btn-default" href="/apps/chorales">Reset</a>
+            {{ form.submit(class_='btn btn-primary') }}
+        </div>
+    </form>
+{% endblock %}
+
+{% macro form_errors(errors) %}
+    {% if errors %}
+        <ul class="form-errors">
+        {% for error in errors %}
+            <li class="form-error">{{ error }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+{%- endmacro %}
+
+{% macro form_field(field, size=None) %}
+    <div class="form-field">
+        {{ field.label }}
+        {% if size %}
+            {{ field(size=size) }}
+        {% else %}
+            {{ field() }}
+        {% endif %}
+        <div class="description">{{ field.description }}</div>
+        {{ form_errors(field.errors) }}
+    </div>
+{%- endmacro %}
