@@ -63,6 +63,7 @@ class LiederForm(FlaskForm):
         label="Song",
         validators=[DataRequired(), validateScorePath],
         filters=[cleanPath],
+        default="Schumann_Robert_-_Dichterliebe_Op.48_No.1_-_Im_wunderschonen_Monat_Mai.mxl",
         description="The original score (in MusicXML format) used as a base for the exercise.",
        )
 

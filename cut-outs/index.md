@@ -9,7 +9,7 @@ This page provides an introduction to the project, please click through to one o
 
 1. [Chorale Exercises](/apps/chorales)
 
-2. [Lieder Exercises](/cut-outs/Lieder-Exercises)
+2. [Lieder Exercises](/apps/lieder)
 
 ## Overview and motivation
 

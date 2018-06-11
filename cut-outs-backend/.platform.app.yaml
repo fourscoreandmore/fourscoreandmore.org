@@ -15,7 +15,11 @@ web:
       passthru: '/404/index.html'
 
 mounts:
-  '/app/templates/writable':
+  'resources/scores':
+    source: local
+    source_path: 'resources/scores'
+
+  'app/templates/writable':
     source: local
     source_path: 'app/templates/writable'
 
