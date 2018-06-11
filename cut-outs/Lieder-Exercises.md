@@ -21,13 +21,13 @@ Please make the following choices and click submit when you're ready:
 Search for and select one of the songs we have available (or opt for a random choice).
 
 2. RestBars
-Chose whether or not to leave the piano part in for the bars where the voice part is resting.
+Choose whether or not to leave the piano part in for the bars where the voice part is resting.
 
 3. Quarter Length Of Rest
-What does 'resting' mean? Chose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the 'leave rests' option with be activated (if selected).
+What does 'resting' mean? Chose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the 'leave rests' option will be activated (if selected).
 
 4. Leave Bass Line
-Whatever else is going on, leave the left hand piano part in tact and just work on the right hand.
+Whatever else is going on, leave the left hand piano part intact and just work on the right hand.
 
 5. Additions
 Having removed parts of the original score, you can now chose from the following additions:
