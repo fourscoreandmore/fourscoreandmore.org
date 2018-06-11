@@ -87,7 +87,7 @@ class LiederForm(FlaskForm):
 
     addition = SelectField(
         label="Additional features",
-        choices=[('transferTune', 'Transfer Tune'), ('chordHints', 'Chord Hints')],
+        choices=[('none', 'None'), ('transferTune', 'Transfer Tune'), ('chordHints', 'Chord Hints')],
         )
 
     harmonicRhythm = IntegerField(
