@@ -66,7 +66,7 @@ class LiederForm(FlaskForm):
         description="The original score (in MusicXML format) used as a base for the exercise.",
        )
 
-    preserveRestBars = IntegerField(
+    preserveRestBars = BooleanField(
         label="Preserve piano part in rests",
         default=True,
         description="Choose whether or not to leave the piano part in for the bars where the voice part is resting.",
