@@ -8,7 +8,7 @@ import re
 
 def normalizeScorePath(path):
     base_path=app.config["SCORE_PATH"]
-    abs=os.path.abspath(os.path.join(base_path, path))
+    abs=os.path.join(base_path, os.path.basename(path))
 
     if not os.path.isfile(abs):
         raise ValidationError("File not found: " + path)
