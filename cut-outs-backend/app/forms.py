@@ -2,21 +2,22 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, BooleanField, SelectField, SelectMultipleField, SubmitField, widgets
 from wtforms.validators import DataRequired, ValidationError
 from app import app
+import copy
 import os
 import re
 
 def normalizeScorePath(path):
     base_path=app.config["SCORE_PATH"]
-    path=os.path.abspath(os.path.join(base_path, path))
+    abs=os.path.abspath(os.path.join(base_path, path))
 
-    if not os.path.isfile(path):
+    if not os.path.isfile(abs):
         raise ValidationError("File not found: " + path)
 
-    return path
+    return abs
 
 
 def validateScorePath(form, field):
-    normalizeScorePath(field.data)
+    normalizeScorePath(copy.copy(field.data))
 
 
 def cleanPath(path):
