@@ -1,15 +1,20 @@
 .form-field, .form-actions {
-    margin: 10px 0;
+    margin: 10px 0 20px 0;
 }
 label {
     font-size: 1.1em;
 }
-input {
+input, select {
     font-size: 1em;
+    margin: 5px 0;
     padding: 3px 5px;
 }
 .description {
     font-style: oblique;
+}
+
+input.field-error, .field-error input {
+    border-color: red;
 }
 
 button, html [type=button], [type=reset], [type=submit] {
@@ -72,12 +77,13 @@ button, html [type=button], [type=reset], [type=submit] {
 
 ul.form-errors {
     color: red;
+    display: inline-block;
     list-style-type: none;
-    margin: 5px 0;
+    margin: 5px;
     padding: 0;
 }
 li.form-error {
-    padding: 0;
+    display: inline;
+    padding: 0 5px;
     margin: 0;
-    text-align: center;
 }

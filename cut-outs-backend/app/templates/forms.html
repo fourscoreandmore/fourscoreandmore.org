@@ -1,22 +1,25 @@
-{% macro form_errors(errors) %}
-{% if errors %}
-<ul class="form-errors">
-    {% for error in errors %}
-    <li class="form-error">{{ error }}</li>
-    {% endfor %}
-</ul>
-{% endif %}
-{%- endmacro %}
-
 {% macro form_field(field, size=None) %}
-<div class="form-field">
-    {{ field.label }}
-    {% if size %}
-    {{ field(size=size) }}
+    {% if field.errors %}
+        {% set fieldClasses = "field-error" %}
     {% else %}
-    {{ field() }}
+        {% set fieldClasses = "" %}
     {% endif %}
-    <div class="description">{{ field.description }}</div>
-    {{ form_errors(field.errors) }}
-</div>
+
+    <div class="form-field">
+        {{ field.label }}
+
+        {% if field.description %}
+        <div class="description">{{ field.description }}</div>
+        {% endif %}
+
+        {{ field(size=size, class_=fieldClasses) }}
+
+        {% if field.errors %}
+        <ul class="form-errors">
+            {% for error in field.errors %}
+            <li class="form-error">{{ error }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
 {%- endmacro %}

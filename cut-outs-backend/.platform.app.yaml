@@ -4,6 +4,10 @@ type: "python:3.6"
 
 disk: 2048
 
+variables:
+  env:
+    APP_PATH: '/apps'
+
 web:
   commands:
     start: python server.py
