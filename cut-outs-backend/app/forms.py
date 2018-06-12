@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, IntegerField, BooleanField, SelectField, SelectMultipleField, SubmitField, widgets
-from wtforms.validators import DataRequired, ValidationError
+from wtforms import StringField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets
+from wtforms.validators import DataRequired, ValidationError, NumberRange
 from app import app
 import copy
 import os
@@ -41,16 +41,20 @@ class ChoralesForm(FlaskForm):
     beatsToCut = IntegerField(
         label='Beats to cut',
         default=2,
+        validators=[NumberRange(min=1, max=16)],
+        description="Decide on a number of tactus beats ('crotchet' / 'quarter note') to cut from each phrase."
         )
 
     partsToCut = MultiCheckboxField(
         label="Voices to cut",
         choices=[('alto', 'Alto'), ('bass', 'Bass'), ('tenor', 'Tenor')],
+        description="Choose which voices to remove."
         )
 
-    shortScore = BooleanField(
-        label="Short score",
-        default=False
+    shortScore = RadioField(
+        label="Score type",
+        choices=[('full', 'Full score (four staves)'), ('short', 'Short score (two staves)')],
+        default='full',
         )
 
     submit = SubmitField(
@@ -76,7 +80,8 @@ class LiederForm(FlaskForm):
     restLength = IntegerField(
         label="Rest length",
         default=2,
-        description="What does 'resting' mean? Chose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the 'Preserve piano part in rests' option will be activated (if selected).",
+        validators=[NumberRange(min=1, max=16)],
+        description="What does 'resting' mean? Choose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the 'Preserve piano part in rests' option will be activated (if selected).",
         )
 
     preserveBass = BooleanField(
@@ -93,6 +98,8 @@ class LiederForm(FlaskForm):
     harmonicRhythm = IntegerField(
         label="Harmonic rhythm for chord hints",
         default=1,
+        validators=[NumberRange(min=1, max=16)],
+        description="If you chose the Chord Hints feature, what harmonic rhythm should these be based on? Please specify the length in 'quarter notes' ('crotchets') of that harmonic rhythm."
         )
 
     submit = SubmitField(

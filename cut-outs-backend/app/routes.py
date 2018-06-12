@@ -38,7 +38,7 @@ def generate_chorale_exercise(form):
         Alto="alto" in form.partsToCut.data,
         Tenor="tenor" in form.partsToCut.data,
         Bass="bass" in form.partsToCut.data,
-        shortScore=form.shortScore.data,
+        shortScore=form.shortScore.data is "short",
         writeFile=False)
 
     # Construct the filename for the generated exercise.
