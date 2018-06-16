@@ -1,16 +1,16 @@
-from flask import send_file, render_template, request
+from flask import send_file, render_template, redirect, request
 from app import app
 from app.forms import ChoralesForm, LiederForm, normalizeScorePath
 from app import TheoryExercises
 from music21 import converter
 import os
 
-@app.route('/apps')
+@app.route('/apps/')
 def index():
     return redirect('/cut-outs/', code=302)
 
 
-@app.route('/apps/chorales', methods=['GET', 'POST'])
+@app.route('/apps/chorales/', methods=['GET', 'POST'])
 def chorales():
     form=ChoralesForm(request.form)
     if form.validate_on_submit():
@@ -19,7 +19,7 @@ def chorales():
     return render_template('chorales-form.html', form=form)
 
 
-@app.route('/apps/lieder', methods=['GET', 'POST'])
+@app.route('/apps/lieder/', methods=['GET', 'POST'])
 def lieder():
     form=LiederForm(request.form)
     if form.validate_on_submit():
