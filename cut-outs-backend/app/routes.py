@@ -29,7 +29,7 @@ def lieder():
 
 
 def generate_chorale_exercise(form):
-    path = normalizeScorePath(form.originalScore.data)
+    path = normalizeScorePath(form.originalScore.data, subDir="chorales")
 
     # makeCadenceExercise returns two Music21 scores.
     (exercise, solution) = TheoryExercises.makeCadenceExercise(
@@ -56,7 +56,7 @@ def generate_chorale_exercise(form):
 
 
 def generate_lieder_exercise(form):
-    path = normalizeScorePath(form.originalScore.data)
+    path = normalizeScorePath(form.originalScore.data, subDir="lieder")
 
     # makeLiederExercise returns two Music21 scores.
     (exercise, solution) = TheoryExercises.makeLiederExercise(

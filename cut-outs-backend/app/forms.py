@@ -6,18 +6,23 @@ import copy
 import os
 import re
 
-def normalizeScorePath(path):
+def normalizeScorePath(path, subDir=""):
     base_path=app.config["SCORE_PATH"]
-    abs=os.path.join(base_path, os.path.basename(path))
+    prefixed=os.path.join(subDir, cleanPath(path))
+    abs=os.path.join(base_path, prefixed)
 
     if not os.path.isfile(abs):
-        raise ValidationError("File not found: " + path)
+        raise ValidationError("File not found: " + prefixed)
 
     return abs
 
 
-def validateScorePath(form, field):
-    normalizeScorePath(copy.copy(field.data))
+def validateLiedPath(form, field):
+    normalizeScorePath(copy.copy(field.data), subDir="lieder")
+
+
+def validateChoralePath(form, field):
+    normalizeScorePath(copy.copy(field.data), subDir="chorales")
 
 
 def cleanPath(path):
@@ -32,9 +37,9 @@ class MultiCheckboxField(SelectMultipleField):
 class ChoralesForm(FlaskForm):
     originalScore = StringField(
         label='Original chorale score',
-        validators=[DataRequired(), validateScorePath],
+        validators=[DataRequired(), validateChoralePath],
         filters=[cleanPath],
-        default="bwv256.mxl",
+        default="BWV 369.xml",
         description="The chorale score (in MusicXML format) used as a base for the exercise.",
         )
 
@@ -65,9 +70,9 @@ class ChoralesForm(FlaskForm):
 class LiederForm(FlaskForm):
     originalScore = StringField(
         label="Song",
-        validators=[DataRequired(), validateScorePath],
+        validators=[DataRequired(), validateLiedPath],
         filters=[cleanPath],
-        default="Schumann_Robert_-_Dichterliebe_Op.48_No.1_-_Im_wunderschonen_Monat_Mai.mxl",
+        default="Hensel_Fanny_Mendelssohn_-_5_Lieder_Op.10_No.5_-_Bergeslust.mxl",
         description="The original score (in MusicXML format) used as a base for the exercise.",
        )
 
