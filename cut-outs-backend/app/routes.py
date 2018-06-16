@@ -74,7 +74,7 @@ def generate_lieder_exercise(form):
         leaveRestBars=form.preserveRestBars.data,
         leaveBassLine=form.preserveBass.data,
         quarterLengthOfRest=form.restLength.data,
-        addition=None if form.addition.data is "none" else form.addition.data,
+        addition=(None if form.addition.data is "none" else form.addition.data),
         quarterLength=form.harmonicRhythm.data,
         writeFile=False)
 

@@ -1,8 +1,6 @@
-{% macro form_field(field, size=None) %}
+{% macro form_field(field, fieldClasses="") %}
     {% if field.errors %}
-        {% set fieldClasses = "field-error" %}
-    {% else %}
-        {% set fieldClasses = "" %}
+        {% set fieldClasses = fieldClasses + " field-error" %}
     {% endif %}
 
     <div class="form-field">
@@ -12,7 +10,7 @@
         <div class="description">{{ field.description }}</div>
         {% endif %}
 
-        {{ field(size=size, class_=fieldClasses) }}
+        {{ field(class_=fieldClasses) }}
 
         {% if field.errors %}
         <ul class="form-errors">
@@ -22,4 +20,15 @@
         </ul>
         {% endif %}
     </div>
+{%- endmacro %}
+{% macro form_chosen_js() %}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.6/chosen.min.css" integrity="sha256-J/z1NCedBCQqHE3FqpU/+0Ilx+vmhF6uPSv2BFF7kbI=" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.8.6/chosen.jquery.min.js" integrity="sha256-JJIYEYr/UCcobDVIeUx7xk+rBlTz04PywjNQf7fMg2Y=" crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function( $ ) {
+      $('select.chosen').chosen();
+    });
+  </script>
 {%- endmacro %}

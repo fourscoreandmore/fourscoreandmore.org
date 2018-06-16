@@ -87,3 +87,9 @@ li.form-error {
     padding: 0 5px;
     margin: 0;
 }
+
+.chosen-container-single .chosen-single {
+  font-size: 1em;
+  font-family: sans-serif;
+  background: #fff;
+}

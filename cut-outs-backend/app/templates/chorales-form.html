@@ -1,9 +1,11 @@
 {% extends "writable/base.html" %}
 
-{% from "forms.html" import form_field %}
+{% from "forms.html" import form_field, form_chosen_js %}
 
 {% block content %}
+    {{ form_chosen_js() }}
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+
     <header class="post-header">
       <h1 class="post-title p-name" itemprop="name headline">Chorales Exercise Generator</h1>
     </header>
@@ -15,8 +17,8 @@
     <form action="" method="post">
       {{ form.hidden_tag() }}
 
-        {{ form_field(form.originalScore) }}
-        {{ form_field(form.beatsToCut, 3) }}
+        {{ form_field(form.originalScore, fieldClasses="chosen") }}
+        {{ form_field(form.beatsToCut) }}
         {{ form_field(form.partsToCut) }}
         {{ form_field(form.shortScore) }}
 
