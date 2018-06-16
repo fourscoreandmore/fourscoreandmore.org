@@ -34,7 +34,14 @@ def get_score_index(path, reset=False):
         if filename.endswith('.xml') or filename.endswith('.mxl'):
             abspath = os.path.abspath(os.path.join(path, filename))
             score = converter.parse(abspath)
-            scoreName = "{} - {}".format(score.metadata.composer, score.metadata.title)
+
+            title = score.metadata.title
+            if score.metadata.movementNumber and score.metadata.movementNumber != title:
+                title += ": " + score.metadata.movementNumber
+            if score.metadata.movementName and score.metadata.movementName != title:
+                title += ", " + score.metadata.movementName
+
+            scoreName = "{} - {}".format(score.metadata.composer, title)
             index[filename] = scoreName
 
     with open(index_filename, 'w') as index_handle:
