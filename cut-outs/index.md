@@ -27,7 +27,7 @@ We also have plans to offer a sequential ‘course’ whereby users can follow a
 The image below is from one such solution file, and gives a sense of all this.
 This shows an extract from a Bach chorale, with the notes that have been removed from the exercise highlighted in red (four beats up to each cadence, in the alto and tenor parts only).
 <div class="image-collection">
-    <img src="/images/CutOutChorale" alt="CutOuts Chorale Example" width="580">
+    <img src="/images/CutOutChorale.png" alt="CutOuts Chorale Example" width="580">
 </div>
 
 Cut Outs initially offers two strands based on two of the repertoire most commonly-used for this task, the other being Romantic song.
