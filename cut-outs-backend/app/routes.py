@@ -7,7 +7,7 @@ import os
 
 @app.route('/apps')
 def index():
-    return ''
+    return redirect('/cut-outs/', code=302)
 
 
 @app.route('/apps/chorales', methods=['GET', 'POST'])
