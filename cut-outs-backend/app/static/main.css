@@ -90,10 +90,10 @@ li.form-error {
 }
 
 .chosen-container {
+  font-size: 1em;
   max-width: 100%;
 }
 .chosen-container .chosen-single {
-  font-size: 1em;
   font-family: sans-serif;
   background: #fff;
 }
