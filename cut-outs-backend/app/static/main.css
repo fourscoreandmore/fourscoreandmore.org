@@ -8,6 +8,7 @@ input, select {
     font-size: 1em;
     margin: 5px 0;
     padding: 3px 5px;
+    max-width: 100%;
 }
 .description {
     font-style: oblique;
@@ -88,7 +89,10 @@ li.form-error {
     margin: 0;
 }
 
-.chosen-container-single .chosen-single {
+.chosen-container {
+  max-width: 100%;
+}
+.chosen-container .chosen-single {
   font-size: 1em;
   font-family: sans-serif;
   background: #fff;
