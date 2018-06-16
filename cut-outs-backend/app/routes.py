@@ -28,6 +28,12 @@ def lieder():
     return render_template('lieder-form.html', form=form)
 
 
+@app.after_request
+def add_header(response):
+    response.cache_control.no_cache = True
+    return response
+
+
 def generate_chorale_exercise(form):
     path = normalizeScorePath(form.originalScore.data, subDir="chorales")
 

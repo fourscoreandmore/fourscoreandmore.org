@@ -17,6 +17,7 @@ web:
       root: 'app/static'
       allow: true
       passthru: '/404/index.html'
+      expires: 1h
 
 mounts:
   'resources/scores':
