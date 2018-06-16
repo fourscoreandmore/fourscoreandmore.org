@@ -1,33 +1,8 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets
-from wtforms.validators import DataRequired, ValidationError, NumberRange
+from wtforms.validators import DataRequired, NumberRange
 from app import app
-import copy
 import os
-import re
-
-def normalizeScorePath(path, subDir=""):
-    base_path=app.config["SCORE_PATH"]
-    prefixed=os.path.join(subDir, cleanPath(path))
-    abs=os.path.join(base_path, prefixed)
-
-    if not os.path.isfile(abs):
-        raise ValidationError("File not found: " + prefixed)
-
-    return abs
-
-
-def validateLiedPath(form, field):
-    normalizeScorePath(copy.copy(field.data), subDir="lieder")
-
-
-def validateChoralePath(form, field):
-    normalizeScorePath(copy.copy(field.data), subDir="chorales")
-
-
-def cleanPath(path):
-    return path.strip("/.")
-
 
 class MultiCheckboxField(SelectMultipleField):
     widget = widgets.ListWidget(prefix_label=False)
@@ -35,12 +10,10 @@ class MultiCheckboxField(SelectMultipleField):
 
 
 class ChoralesForm(FlaskForm):
-    originalScore = StringField(
-        label='Original chorale score',
-        validators=[DataRequired(), validateChoralePath],
-        filters=[cleanPath],
-        default="BWV 369.xml",
-        description="The chorale score (in MusicXML format) used as a base for the exercise.",
+    originalScore = SelectField(
+        label='Original chorale',
+        validators=[DataRequired()],
+        description="The chorale used as a base for the exercise.",
         )
 
     beatsToCut = IntegerField(
@@ -68,12 +41,10 @@ class ChoralesForm(FlaskForm):
 
 
 class LiederForm(FlaskForm):
-    originalScore = StringField(
+    originalScore = SelectField(
         label="Song",
-        validators=[DataRequired(), validateLiedPath],
-        filters=[cleanPath],
-        default="Hensel_Fanny_Mendelssohn_-_5_Lieder_Op.10_No.5_-_Bergeslust.mxl",
-        description="The original score (in MusicXML format) used as a base for the exercise.",
+        validators=[DataRequired()],
+        description="The original song used as a base for the exercise.",
        )
 
     preserveRestBars = BooleanField(

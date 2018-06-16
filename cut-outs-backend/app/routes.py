@@ -1,8 +1,9 @@
 from flask import send_file, render_template, redirect, request
 from app import app
-from app.forms import ChoralesForm, LiederForm, normalizeScorePath
-from app import TheoryExercises
+from app.forms import ChoralesForm, LiederForm
+from app import scores, TheoryExercises
 from music21 import converter
+import json
 import os
 
 @app.route('/apps/')
@@ -13,6 +14,8 @@ def index():
 @app.route('/apps/chorales/', methods=['GET', 'POST'])
 def chorales():
     form=ChoralesForm(request.form)
+    form.originalScore.choices = scores.list_scores(subDir="chorales");
+
     if form.validate_on_submit():
         return generate_chorale_exercise(form)
 
@@ -22,6 +25,7 @@ def chorales():
 @app.route('/apps/lieder/', methods=['GET', 'POST'])
 def lieder():
     form=LiederForm(request.form)
+    form.originalScore.choices = scores.list_scores(subDir="lieder");
     if form.validate_on_submit():
         return generate_lieder_exercise(form)
 
@@ -35,7 +39,7 @@ def add_header(response):
 
 
 def generate_chorale_exercise(form):
-    path = normalizeScorePath(form.originalScore.data, subDir="chorales")
+    path = scores.normalizeScorePath(form.originalScore.data, subDir="chorales")
 
     # makeCadenceExercise returns two Music21 scores.
     (exercise, solution) = TheoryExercises.makeCadenceExercise(
@@ -62,7 +66,7 @@ def generate_chorale_exercise(form):
 
 
 def generate_lieder_exercise(form):
-    path = normalizeScorePath(form.originalScore.data, subDir="lieder")
+    path = scores.normalizeScorePath(form.originalScore.data, subDir="lieder")
 
     # makeLiederExercise returns two Music21 scores.
     (exercise, solution) = TheoryExercises.makeLiederExercise(
@@ -70,7 +74,7 @@ def generate_lieder_exercise(form):
         leaveRestBars=form.preserveRestBars.data,
         leaveBassLine=form.preserveBass.data,
         quarterLengthOfRest=form.restLength.data,
-        addition=form.addition.data,
+        addition=None if form.addition.data is "none" else form.addition.data,
         quarterLength=form.harmonicRhythm.data,
         writeFile=False)
 
