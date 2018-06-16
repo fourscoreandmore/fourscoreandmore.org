@@ -5,7 +5,7 @@ title: 'Scores of Scores'
 
 The 'Scores of Scores' lieder corpus encoding project is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
 
-## Page menu for Scores of Scores
+## Menu
 
 1. This page (an introduction).
 2. The [Notes for transcribers](/scores-of-scores/lieder-corpus-project)

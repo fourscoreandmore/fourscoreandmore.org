@@ -3,9 +3,9 @@ layout: post
 title: 'Cut Outs'
 ---
 
-## Page menu for 'Cut Outs'
+## Exercise generators
 
-This page provides an introduction to the project, please click through to one of the following pages to read the 'how to' instructions and generate exercises.
+These are simple proof of concept applications:
 
 1. [Chorale Exercises](/apps/chorales)
 
