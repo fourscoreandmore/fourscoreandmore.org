@@ -1,4 +1,5 @@
 from app import TheoryExercises
+from app.scores import getScoreName
 import errno
 import music21
 import os
@@ -13,15 +14,19 @@ def mkdir_simple(directory):
 
 class ExerciseBase(object):
     def __init__(self, scoreFilename):
-        self.scoreFilename = scoreFilename
+        self.score = music21.converter.parse(scoreFilename)
         self._exercise = None
         self._solution = None
 
     @property
-    def filename_prefix(self):
-        clean = re.compile(r"\W")
+    def score_name(self):
+        return getScoreName(self.score)
 
-        return re.sub(clean, "_", os.path.basename(self.scoreFilename))
+    @property
+    def filename_prefix(self):
+        clean = re.compile(r"[^\w]+")
+
+        return re.sub(clean, "_", self.score_name)
 
 
 class ChoraleExercise(ExerciseBase):
@@ -37,11 +42,6 @@ class ChoraleExercise(ExerciseBase):
         self.shortScore = shortScore
         super().__init__(scoreFilename)
 
-    def _generate(self):
-        return TheoryExercises.makeCadenceExercise(
-            thisScore=music21.converter.parse(self.scoreFilename)
-        )
-
     @property
     def exercise(self):
         if not self._exercise:
@@ -52,14 +52,13 @@ class ChoraleExercise(ExerciseBase):
     @property
     def solution(self):
         if not self._solution:
-            print(self._generate())
             (self._exercise, self._solution) = self._generate()
 
         return self._solution
 
     def _generate(self):
         return TheoryExercises.makeCadenceExercise(
-            music21.converter.parse(self.scoreFilename),
+            self.score,
             numberOfBeatsToCut=self.beatsToCut,
             Alto="alto" in self.partsToCut,
             Tenor="tenor" in self.partsToCut,
@@ -70,8 +69,8 @@ class ChoraleExercise(ExerciseBase):
     @property
     def filename_prefix(self):
         prefix = super().filename_prefix
-        prefix += "-cut_" + str(self.beatsToCut)
-        prefix += "-parts_" + "".join([p[0].lower() for p in self.partsToCut])
+        prefix += "-cut" + str(self.beatsToCut)
+        prefix += "-from" + "".join([p[0].upper() for p in self.partsToCut])
         if self.shortScore:
             prefix += "-short"
 
@@ -131,7 +130,7 @@ class LiedExercise(ExerciseBase):
 
     def _generate(self):
         return TheoryExercises.makeLiederExercise(
-            music21.converter.parse(self.scoreFilename),
+            self.score,
             leaveRestBars=self.leaveRestBars,
             quarterLengthOfRest=self.quarterLengthOfRest,
             leaveBassLine=self.leaveBassLine,
@@ -144,13 +143,13 @@ class LiedExercise(ExerciseBase):
         prefix = super().filename_prefix
         if self.leaveRestBars:
             prefix += "-rests"
-            prefix += "_" + str(self.quarterLengthOfRest)
+            prefix += str(self.quarterLengthOfRest)
         if self.leaveBassLine:
-            prefix += "-with_bass"
+            prefix += "-withBass"
         if self.addition:
             prefix += "-" + str(self.addition)
             if self.addition == "chordHints":
-                prefix += "_" + str(self.quarterLength)
+                prefix += str(self.quarterLength)
 
         return prefix
 
