@@ -58,12 +58,12 @@ class ExerciseBase(object):
 
         exercise_xml_path = prefix + "-exercise.xml"
         if not os.path.exists(exercise_xml_path):
-            self.exercise.write(fmt="musicxml", fp=prefix + "-exercise.xml")
+            self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
         files.append( ("Exercise (MusicXML)", exercise_xml_path) )
 
         solution_xml_path = prefix + "-solution.xml"
         if not os.path.exists(solution_xml_path):
-            self.solution.write(fmt="musicxml", fp=prefix + "-solution.xml")
+            self.solution.write(fmt="musicxml", fp=solution_xml_path)
         files.append( ("Solution (MusicXML)", solution_xml_path) )
 
         return files

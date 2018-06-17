@@ -1,35 +1,20 @@
-{% extends "writable/base.html" %}
+{% extends "base/form-base.html" %}
 
-{% from "downloads.html" import list_downloads %}
-{% from "forms.html" import form_field, form_chosen_js %}
+{% from "macros/forms.html" import form_field %}
 
-{% block content %}
-    {{ form_chosen_js() }}
-    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+{% block page_title %}
+  Lieder Exercise Generator
+{% endblock %}
 
-    <header class="post-header">
-      <h1 class="post-title p-name" itemprop="name headline">Lieder Exercise Generator</h1>
-    </header>
+{% block page_description %}
+  <p>This generates music theory completion exercises based on Romantic songs.</p>
+{% endblock %}
 
-    <p><i>Part of <a href="/cut-outs">Cuts Outs</a></i></p>
-
-    <p>This generates music theory completion exercises based on Romantic songs.</p>
-
-    {{ list_downloads(download) }}
-
-    <form action="" method="post">
-      {{ form.hidden_tag() }}
-
-        {{ form_field(form.originalScore, fieldClasses="chosen") }}
-        {{ form_field(form.preserveRestBars) }}
-        {{ form_field(form.restLength) }}
-        {{ form_field(form.preserveBass) }}
-        {{ form_field(form.addition) }}
-        {{ form_field(form.harmonicRhythm) }}
-
-        <div class="form-actions">
-            <a class="btn btn-default" href="/apps/lieder">Reset</a>
-            {{ form.submit(class_='btn btn-primary') }}
-        </div>
-    </form>
+{% block form_fields %}
+  {{ form_field(form.originalScore, fieldClasses="chosen") }}
+  {{ form_field(form.preserveRestBars) }}
+  {{ form_field(form.restLength) }}
+  {{ form_field(form.preserveBass) }}
+  {{ form_field(form.addition) }}
+  {{ form_field(form.harmonicRhythm) }}
 {% endblock %}
