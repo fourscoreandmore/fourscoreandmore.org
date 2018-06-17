@@ -38,3 +38,6 @@ plugins:
 # Exclude files from processing by Jekyll.
 exclude:
   - cut-outs-backend
+
+# Enable GA.
+google_analytics: true
