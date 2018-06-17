@@ -95,12 +95,12 @@ class ChoraleExercise(ExerciseBase):
         exercise_xml_path = prefix + "-exercise.xml"
         if not os.path.exists(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
-        files.append( ("Exercise (MusicXML file)", exercise_xml_path) )
+        files.append( (self.score_name + ": Exercise (MusicXML file)", exercise_xml_path) )
 
         solution_xml_path = prefix + "-solution.xml"
         if not os.path.exists(solution_xml_path):
             self.solution.write(fmt="musicxml", fp=solution_xml_path)
-        files.append( ("Solution (MusicXML file)", solution_xml_path) )
+        files.append( (self.score_name + ": Solution (MusicXML file)", solution_xml_path) )
 
         return files
 
@@ -162,6 +162,6 @@ class LiedExercise(ExerciseBase):
         exercise_xml_path = prefix + "-exercise.xml"
         if not os.path.exists(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
-        files.append( ("Exercise (MusicXML file)", exercise_xml_path) )
+        files.append( (self.score_name + ": Exercise (MusicXML file)", exercise_xml_path) )
 
         return files
