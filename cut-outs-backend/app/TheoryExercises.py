@@ -86,7 +86,8 @@ def makeCadenceExercise(thisScore,
     # Full or Short Score + writes and returns
     if shortScore:
         shortEx = exercise.implode()
-        shortEx.parts[1].measure(0).clef = clef.BassClef()
+        firstMeasure = shortEx.parts[0].getElementsByClass('Measure')[0].measureNumber
+        shortEx.parts[1].measure(firstMeasure).clef = clef.BassClef()
         shortSoln = solution.implode()
         if writeFile==True:
             shortEx.write(fmt='musicxml', fp=path+'Exercise-'+title+'.xml')
@@ -135,6 +136,7 @@ def makeLiederExercise(score,
     topPart = score.parts[0]
 
     NumMeasures = len(score.parts[0].getElementsByClass('Measure'))
+    print(NumMeasures)
 
     # Find vocal rests
     restBars = [] # Remains empty if leaveRestBars==False
@@ -206,7 +208,7 @@ def addChords(score, quarterLength=1):
     if quarterLength not in validQuarterLengths:
         raise ValueError("Invalid quarter length: must be one of %r." % validQuarterLengths)
 
-    # Prepare dict of offset and pitches
+    # Prepare dict of offsets and corresponding lists of pitches
     chordDict = {}
     vpr = score.parts[0].recurse()
     for i in range(1, len(vpr.notesAndRests)): # starting pair index = [1] and [0]
@@ -234,7 +236,7 @@ def addChords(score, quarterLength=1):
         noDuplicatesChord = chord.Chord(list(set([y for y in chordDict[x][0]])))
         noDuplicatesChord.quarterLength = quarterLength
         chordDict[x][0] = noDuplicatesChord
-        measureOffset = int(chordDict[x][1])
+        measureOffset = round(chordDict[x][1], 2)
         adjustedBeatPosition = chordDict[x][2]
         finalStep = score.parts[1].getElementsByClass('Measure').getElementsByOffset(measureOffset)[0]
         finalStep.insert(adjustedBeatPosition, chordDict[x][0])
