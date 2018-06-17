@@ -11,7 +11,16 @@ def index():
 
 @app.route(app.config["SCORE_DOWNLOAD_URI_PREFIX"] + '<path:filename>')
 def custom_static(filename):
-    return send_from_directory(app.config["SCORE_DOWNLOAD_PATH"], filename)
+    mimetype = None
+    if filename.endswith(".xml") or filename.endswith(".musicxml"):
+        mimetype = "application/vnd.recordare.musicxml+xml"
+
+    return send_from_directory(
+        app.config["SCORE_DOWNLOAD_PATH"],
+        filename,
+        as_attachment=("download" in request.args),
+        mimetype=mimetype
+        )
 
 
 @app.route('/apps/chorales/', methods=['GET', 'POST'])

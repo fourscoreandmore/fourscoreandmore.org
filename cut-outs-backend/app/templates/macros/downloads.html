@@ -4,7 +4,7 @@
       <h2>Downloads</h2>
       <ul class="file-downloads">
       {% for name, file in download %}
-        <li><a href="{{ file }}" target="_blank" rel="noopener">{{ name }}</a></li>
+        <li><a href="{{ file }}?download=1">{{ name }}</a></li>
       {% endfor %}
       <ul>
     </div>
