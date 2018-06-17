@@ -70,10 +70,10 @@ class ChoraleExercise(ExerciseBase):
     @property
     def filename_prefix(self):
         prefix = super().filename_prefix
-        prefix += "-b" + str(self.beatsToCut)
-        prefix += "-p" + "".join([p[0].lower() for p in self.partsToCut])
+        prefix += "-cut_" + str(self.beatsToCut)
+        prefix += "-parts_" + "".join([p[0].lower() for p in self.partsToCut])
         if self.shortScore:
-            prefix += "-s"
+            prefix += "-short"
 
         return prefix
 
@@ -143,14 +143,14 @@ class LiedExercise(ExerciseBase):
     def filename_prefix(self):
         prefix = super().filename_prefix
         if self.leaveRestBars:
-            prefix += "-r"
-        prefix += "-rl" + str(self.quarterLengthOfRest)
+            prefix += "-rests"
+            prefix += "_" + str(self.quarterLengthOfRest)
         if self.leaveBassLine:
-            prefix += "-b"
+            prefix += "-with_bass"
         if self.addition:
             prefix += "-" + str(self.addition)
-        if self.quarterLength:
-            prefix += "-hr" + str(self.quarterLength)
+            if self.addition == "chordHints":
+                prefix += "_" + str(self.quarterLength)
 
         return prefix
 
