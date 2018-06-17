@@ -3,10 +3,14 @@
     <div class="result">
       <h2>Downloads</h2>
       <ul class="file-downloads">
-      {% for name, file in download %}
-        <li><a href="{{ file }}?download=1">{{ name }}</a></li>
-      {% endfor %}
-      <ul>
+        {% for (name, file) in download %}
+          <li><a href="{{ file }}?download=1">{{ name }}</a></li>
+        {% endfor %}
+      </ul>
+      <p class="description">
+        Install <a href="https://musescore.org/" target="_blank" rel="noopener">MuseScore</a>
+        to read MusicXML files.
+      </p>
     </div>
   {% endif %}
 {%- endmacro %}

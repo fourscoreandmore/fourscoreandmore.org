@@ -11,7 +11,7 @@ input, select {
     max-width: 100%;
 }
 .description {
-    font-style: oblique;
+    color: #333333;
 }
 
 input.field-error, .field-error input {
