@@ -6,6 +6,7 @@ from music21 import interval
 from music21 import stream
 from music21 import converter
 from music21 import metadata
+from music21 import clef
 
 from copy import deepcopy
 from math import floor
@@ -133,10 +134,12 @@ def makeLiederExercise(score,
 
     topPart = score.parts[0]
 
+    NumMeasures = len(score.parts[0].getElementsByClass('Measure'))
+
     # Find vocal rests
     restBars = [] # Remains empty if leaveRestBars==False
     if leaveRestBars==True:
-        for listIndex in range(len(topPart) - 1): # NB list starts at 0, measures at 1
+        for listIndex in range(0, NumMeasures - 1): # NB list is 0 to N; measures is 1 to (N-1)
             count = 0
             thisMeasure = topPart.getElementsByClass('Measure')[listIndex] # NB Above
             for item in thisMeasure.recurse().notesAndRests:
@@ -146,7 +149,7 @@ def makeLiederExercise(score,
                         restBars.append(listIndex + 1) # = measure number
                         break # No need to look at this measure any further
 
-    measuresToDo = [x for x in range(1, len(topPart)) if x not in restBars]
+    measuresToDo = [x for x in range(1, NumMeasures) if x not in restBars]
 
     # Removals
     for measureNumber in measuresToDo:
