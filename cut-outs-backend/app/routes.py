@@ -42,7 +42,7 @@ def chorales():
             download.append(
                 (title, path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", app.config["SCORE_DOWNLOAD_URI_PREFIX"]))
             )
-    else:
+    elif "partsToCut" not in request.form:
         # TODO: Find a way to set this as the default
         form.partsToCut.data = ['alto', 'tenor', 'bass']
 
