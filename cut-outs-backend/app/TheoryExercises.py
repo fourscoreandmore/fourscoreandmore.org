@@ -136,7 +136,6 @@ def makeLiederExercise(score,
     topPart = score.parts[0]
 
     NumMeasures = len(score.parts[0].getElementsByClass('Measure'))
-    print(NumMeasures)
 
     # Find vocal rests
     restBars = [] # Remains empty if leaveRestBars==False
