@@ -1,9 +1,7 @@
-from flask import send_file, render_template, redirect, request
+from flask import render_template, redirect, request, send_from_directory
 from app import app
 from app.forms import ChoralesForm, LiederForm
-from app import scores, TheoryExercises
-from music21 import converter
-import json
+from app import scores, TheoryExercises, exercises
 import os
 
 @app.route('/apps/')
@@ -11,82 +9,54 @@ def index():
     return redirect('/cut-outs/', code=302)
 
 
+@app.route(app.config["SCORE_DOWNLOAD_URI_PREFIX"] + '<path:filename>')
+def custom_static(filename):
+    return send_from_directory(app.config["SCORE_DOWNLOAD_PATH"], filename)
+
+
 @app.route('/apps/chorales/', methods=['GET', 'POST'])
 def chorales():
     form=ChoralesForm(request.form)
     form.originalScore.choices = scores.list_scores(subDir="chorales");
+    download = []
 
     if form.validate_on_submit():
-        return generate_chorale_exercise(form)
+        exercise = exercises.ChoraleExercise(
+            scores.normalizeScorePath(form.originalScore.data, subDir="chorales"),
+            beatsToCut=form.beatsToCut.data,
+            partsToCut=form.partsToCut.data,
+            shortScore=form.shortScore.data == 'short'
+        )
+        files = exercise.write(directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "chorales"))
+        download = []
+        for title, path in files:
+            download.append(
+                (title, path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", app.config["SCORE_DOWNLOAD_URI_PREFIX"]))
+            )
 
-    return render_template('chorales-form.html', form=form)
+    return render_template('chorales-form.html', form=form, download=download)
 
 
 @app.route('/apps/lieder/', methods=['GET', 'POST'])
 def lieder():
     form=LiederForm(request.form)
     form.originalScore.choices = scores.list_scores(subDir="lieder");
+    download = []
+
     if form.validate_on_submit():
-        return generate_lieder_exercise(form)
+        exercise = exercises.LiedExercise(
+            scores.normalizeScorePath(form.originalScore.data, subDir="lieder"),
+            leaveRestBars=form.preserveRestBars.data,
+            leaveBassLine=form.preserveBass.data,
+            quarterLengthOfRest=form.restLength.data,
+            addition=(None if form.addition.data is "none" else form.addition.data),
+            quarterLength=form.harmonicRhythm.data
+        )
+        files = exercise.write(directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder"))
+        download = []
+        for title, path in files:
+            download.append(
+                (title, path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", app.config["SCORE_DOWNLOAD_URI_PREFIX"]))
+            )
 
-    return render_template('lieder-form.html', form=form)
-
-
-@app.after_request
-def add_header(response):
-    response.cache_control.no_cache = True
-    return response
-
-
-def generate_chorale_exercise(form):
-    path = scores.normalizeScorePath(form.originalScore.data, subDir="chorales")
-
-    # makeCadenceExercise returns two Music21 scores.
-    (exercise, solution) = TheoryExercises.makeCadenceExercise(
-        converter.parse(path),
-        numberOfBeatsToCut=form.beatsToCut.data,
-        Alto="alto" in form.partsToCut.data,
-        Tenor="tenor" in form.partsToCut.data,
-        Bass="bass" in form.partsToCut.data,
-        shortScore=form.shortScore.data == 'short',
-        writeFile=False)
-
-    # Construct the filename for the generated exercise.
-    (name, _) = os.path.splitext(os.path.basename(path))
-    name = name or "chorale"
-    exercise_filename=name + "-exercise.xml"
-
-    # Write the exercise to a temp file and "send" it to the browser as an
-    # attachment.
-    temp_filename=exercise.write()
-    data=send_file(temp_filename, as_attachment=True, attachment_filename=exercise_filename)
-    os.remove(temp_filename)
-
-    return data
-
-
-def generate_lieder_exercise(form):
-    path = scores.normalizeScorePath(form.originalScore.data, subDir="lieder")
-
-    # makeLiederExercise returns two Music21 scores.
-    (exercise, solution) = TheoryExercises.makeLiederExercise(
-        converter.parse(path),
-        leaveRestBars=form.preserveRestBars.data,
-        leaveBassLine=form.preserveBass.data,
-        quarterLengthOfRest=form.restLength.data,
-        addition=(None if form.addition.data is "none" else form.addition.data),
-        quarterLength=form.harmonicRhythm.data,
-        writeFile=False)
-
-    # Construct the filename for the generated exercise.
-    (name, _) = os.path.splitext(os.path.basename(path))
-    name = name or "chorale"
-    exercise_filename=name + "-exercise.xml"
-
-    # Write the exercise to a temp file and "send" it to the browser as an
-    # attachment.
-    temp_filename=exercise.write()
-    data=send_file(temp_filename, as_attachment=True, attachment_filename=exercise_filename)
-    os.remove(temp_filename)
-
-    return data
+    return render_template('lieder-form.html', form=form, download=download)

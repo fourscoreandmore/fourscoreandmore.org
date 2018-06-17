@@ -20,6 +20,10 @@ web:
       expires: 1h
 
 mounts:
+  'download':
+    source: local
+    source_path: 'download'
+
   'resources/scores':
     source: local
     source_path: 'resources/scores'

@@ -6,3 +6,5 @@ class Config(object):
     PREFIX = os.environ.get('APP_PATH') or '/apps'
     SECRET_KEY = os.environ.get('PLATFORM_PROJECT_ENTROPY') or 'development_secret_key'
     SCORE_PATH = os.path.join(appRoot, "resources/scores")
+    SCORE_DOWNLOAD_URI_PREFIX = "/apps/download/scores/"
+    SCORE_DOWNLOAD_PATH = appRoot + "/download/scores"

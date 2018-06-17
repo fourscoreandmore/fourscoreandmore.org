@@ -1,0 +1,12 @@
+{% macro list_downloads(download) %}
+  {% if download %}
+    <div class="result">
+      <h2>Downloads</h2>
+      <ul class="file-downloads">
+      {% for name, file in download %}
+        <li><a href="{{ file }}" target="_blank" rel="noopener">{{ name }}</a></li>
+      {% endfor %}
+      <ul>
+    </div>
+  {% endif %}
+{%- endmacro %}

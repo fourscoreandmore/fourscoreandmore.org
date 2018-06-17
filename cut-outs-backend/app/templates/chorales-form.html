@@ -1,5 +1,6 @@
 {% extends "writable/base.html" %}
 
+{% from "downloads.html" import list_downloads %}
 {% from "forms.html" import form_field, form_chosen_js %}
 
 {% block content %}
@@ -13,6 +14,8 @@
     <p><i>Part of <a href="/cut-outs">Cuts Outs</a></i></p>
 
     <p>This generates music theory completion exercises based on Bach chorales.</p>
+
+    {{ list_downloads(download) }}
 
     <form action="" method="post">
       {{ form.hidden_tag() }}

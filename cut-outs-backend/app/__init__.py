@@ -9,6 +9,6 @@ app = Flask(
     static_url_path=app_path + '/static'
     )
 
-from app import routes
-
 app.config.from_object(Config())
+
+from app import routes
