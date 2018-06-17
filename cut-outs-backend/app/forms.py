@@ -19,14 +19,13 @@ class ChoralesForm(FlaskForm):
     beatsToCut = IntegerField(
         label='Beats to cut',
         default=2,
-        validators=[NumberRange(min=1, max=16)],
-        description="Decide on a number of tactus beats ('crotchet' / 'quarter note') to cut from each phrase."
+        validators=[NumberRange(min=1, max=64)],
+        description="The number of tactus beats ('crotchet' / 'quarter note') to cut from each phrase, before the pause."
         )
 
     partsToCut = MultiCheckboxField(
-        label="Voices to cut",
+        label="Voices to remove",
         choices=[('alto', 'Alto'), ('tenor', 'Tenor'), ('bass', 'Bass')],
-        description="Choose which voices to remove.",
         default=['alto', 'tenor', 'bass']
         )
 
@@ -43,28 +42,28 @@ class ChoralesForm(FlaskForm):
 
 class LiederForm(FlaskForm):
     originalScore = SelectField(
-        label="Song",
+        label="Original song",
         validators=[DataRequired()],
-        description="The original song used as a base for the exercise.",
+        description="The song used as a base for the exercise.",
        )
 
     preserveRestBars = BooleanField(
         label="Preserve piano part in rests",
         default=True,
-        description="Choose whether or not to leave the piano part in for the bars where the voice part is resting.",
+        description="Preserve the piano part in bars where the voice part is resting.",
         )
 
     restLength = IntegerField(
         label="Rest length",
         default=2,
         validators=[NumberRange(min=1, max=16)],
-        description="What does 'resting' mean? Choose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the 'Preserve piano part in rests' option will be activated (if selected).",
+        description="What does 'resting' mean? Choose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the piano part will be preserved.",
         )
 
     preserveBass = BooleanField(
         label="Preserve bass line",
         default=False,
-        description="Whatever else is going on, leave the left hand piano part intact and just work on the right hand.",
+        description="Leave the piano part's left hand intact, and just work on the right hand.",
         )
 
     addition = SelectField(
@@ -76,7 +75,7 @@ class LiederForm(FlaskForm):
         label="Harmonic rhythm for chord hints",
         default=1,
         validators=[NumberRange(min=1, max=16)],
-        description="If you chose the Chord Hints feature, what harmonic rhythm should these be based on? Please specify the length in 'quarter notes' ('crotchets') of that harmonic rhythm."
+        description="The harmonic rhythm (in 'quarter notes' / 'crotchets') of the chord hints."
         )
 
     submit = SubmitField(
