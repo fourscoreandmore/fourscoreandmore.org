@@ -97,3 +97,10 @@ li.form-error {
   font-family: sans-serif;
   background: #fff;
 }
+
+.result {
+    border: 0px solid #ccc;
+    border-width: 2px 0;
+    margin: 30px 10px;
+    padding: 10px;
+}
