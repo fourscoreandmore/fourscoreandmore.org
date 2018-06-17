@@ -4,11 +4,7 @@ jQuery(document).ready(function( $ ) {
   if (restLengthField.length > 0) {
     restLengthField.hide();
     $('input[name="preserveRestBars"]').change(function() {
-      if ($(this).prop('checked')) {
-        restLengthField.show();
-      } else {
-        restLengthField.hide();
-      }
+      restLengthField.toggle($(this).prop("checked"));
     });
   }
 
@@ -17,11 +13,7 @@ jQuery(document).ready(function( $ ) {
   if (harmonicRhythmField.length > 0) {
     harmonicRhythmField.hide();
     $('select[name="addition"]').change(function() {
-      if ($(this).val() === "chordHints") {
-        harmonicRhythmField.show();
-      } else {
-        harmonicRhythmField.hide();
-      }
+      harmonicRhythmField.toggle($(this).val() === "chordHints");
     });
   }
 });
