@@ -25,8 +25,9 @@ class ChoralesForm(FlaskForm):
 
     partsToCut = MultiCheckboxField(
         label="Voices to cut",
-        choices=[('alto', 'Alto'), ('bass', 'Bass'), ('tenor', 'Tenor')],
-        description="Choose which voices to remove."
+        choices=[('alto', 'Alto'), ('tenor', 'Tenor'), ('bass', 'Bass')],
+        description="Choose which voices to remove.",
+        default=['alto', 'tenor', 'bass']
         )
 
     shortScore = RadioField(
