@@ -5,6 +5,7 @@ import json
 import operator
 import os
 
+
 def getScoreName(score):
     title = score.metadata.title
     if score.metadata.movementNumber and score.metadata.movementNumber != title:
@@ -16,9 +17,9 @@ def getScoreName(score):
 
 
 def normalizeScorePath(path, subDir=""):
-    base_path=app.config["SCORE_PATH"]
-    prefixed=os.path.join(subDir, path.strip('./'))
-    abs=os.path.join(base_path, prefixed)
+    base_path = app.config["SCORE_PATH"]
+    prefixed = os.path.join(subDir, path.strip('./'))
+    abs = os.path.join(base_path, prefixed)
 
     if not os.path.isfile(abs):
         raise ValidationError("File not found: " + prefixed)

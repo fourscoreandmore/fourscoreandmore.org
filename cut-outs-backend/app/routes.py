@@ -4,6 +4,7 @@ from app.forms import ChoralesForm, LiederForm
 from app import scores, TheoryExercises, exercises
 import os
 
+
 @app.route('/apps/')
 def index():
     return redirect('/cut-outs/', code=302)
@@ -19,29 +20,31 @@ def custom_static(filename):
         app.config["SCORE_DOWNLOAD_PATH"],
         filename,
         as_attachment=("download" in request.args),
-        mimetype=mimetype
-        )
+        mimetype=mimetype)
 
 
 @app.route('/apps/chorales/', methods=['GET', 'POST'])
 def chorales():
-    form=ChoralesForm(request.form)
-    form.originalScore.choices = scores.list_scores(subDir="chorales");
+    form = ChoralesForm(request.form)
+    form.originalScore.choices = scores.list_scores(subDir="chorales")
     download = []
 
     if form.validate_on_submit():
         exercise = exercises.ChoraleExercise(
-            scores.normalizeScorePath(form.originalScore.data, subDir="chorales"),
+            scores.normalizeScorePath(
+                form.originalScore.data, subDir="chorales"),
             beatsToCut=form.beatsToCut.data,
             partsToCut=form.partsToCut.data,
-            shortScore=form.shortScore.data == 'short'
-        )
-        files = exercise.write(directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "chorales"))
+            shortScore=form.shortScore.data == 'short')
+        files = exercise.write(
+            directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"],
+                                   "chorales"))
         download = []
         for title, path in files:
-            download.append(
-                (title, path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", app.config["SCORE_DOWNLOAD_URI_PREFIX"]))
-            )
+            download.append((title,
+                             path.replace(
+                                 app.config["SCORE_DOWNLOAD_PATH"] + "/",
+                                 app.config["SCORE_DOWNLOAD_URI_PREFIX"])))
     elif "partsToCut" not in request.form:
         # TODO: Find a way to set this as the default
         form.partsToCut.data = ['alto', 'tenor', 'bass']
@@ -51,8 +54,8 @@ def chorales():
 
 @app.route('/apps/lieder/', methods=['GET', 'POST'])
 def lieder():
-    form=LiederForm(request.form)
-    form.originalScore.choices = scores.list_scores(subDir="lieder");
+    form = LiederForm(request.form)
+    form.originalScore.choices = scores.list_scores(subDir="lieder")
     download = []
 
     if form.validate_on_submit():
@@ -61,14 +64,16 @@ def lieder():
             leaveRestBars=form.preserveRestBars.data,
             leaveBassLine=form.preserveBass.data,
             quarterLengthOfRest=form.restLength.data,
-            addition=(None if form.addition.data == "none" else form.addition.data),
-            quarterLength=form.harmonicRhythm.data
-        )
-        files = exercise.write(directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder"))
+            addition=(None
+                      if form.addition.data == "none" else form.addition.data),
+            quarterLength=form.harmonicRhythm.data)
+        files = exercise.write(
+            directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder"))
         download = []
         for title, path in files:
-            download.append(
-                (title, path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", app.config["SCORE_DOWNLOAD_URI_PREFIX"]))
-            )
+            download.append((title,
+                             path.replace(
+                                 app.config["SCORE_DOWNLOAD_PATH"] + "/",
+                                 app.config["SCORE_DOWNLOAD_URI_PREFIX"])))
 
     return render_template('lieder-form.html', form=form, download=download)

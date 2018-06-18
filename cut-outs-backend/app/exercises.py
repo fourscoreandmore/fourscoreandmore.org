@@ -5,6 +5,7 @@ import music21
 import os
 import re
 
+
 def mkdir_simple(directory):
     try:
         os.makedirs(directory)
@@ -12,7 +13,9 @@ def mkdir_simple(directory):
         if e.errno != errno.EEXIST:
             raise
 
+
 class ExerciseBase(object):
+
     def __init__(self, scoreFilename):
         self.score = music21.converter.parse(scoreFilename)
         self._exercise = None
@@ -30,13 +33,12 @@ class ExerciseBase(object):
 
 
 class ChoraleExercise(ExerciseBase):
-    def __init__(
-        self,
-        scoreFilename,
-        beatsToCut=2,
-        partsToCut=["alto", "tenor", "bass"],
-        shortScore=False
-        ):
+
+    def __init__(self,
+                 scoreFilename,
+                 beatsToCut=2,
+                 partsToCut=["alto", "tenor", "bass"],
+                 shortScore=False):
         self.beatsToCut = beatsToCut
         self.partsToCut = partsToCut
         self.shortScore = shortScore
@@ -63,8 +65,7 @@ class ChoraleExercise(ExerciseBase):
             Alto="alto" in self.partsToCut,
             Tenor="tenor" in self.partsToCut,
             Bass="bass" in self.partsToCut,
-            shortScore=self.shortScore
-        )
+            shortScore=self.shortScore)
 
     @property
     def filename_prefix(self):
@@ -95,25 +96,27 @@ class ChoraleExercise(ExerciseBase):
         exercise_xml_path = prefix + "-exercise.xml"
         if not os.path.exists(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
-        files.append( (self.score_name + ": Exercise (MusicXML file)", exercise_xml_path) )
+        files.append((self.score_name + ": Exercise (MusicXML file)",
+                      exercise_xml_path))
 
         solution_xml_path = prefix + "-solution.xml"
         if not os.path.exists(solution_xml_path):
             self.solution.write(fmt="musicxml", fp=solution_xml_path)
-        files.append( (self.score_name + ": Solution (MusicXML file)", solution_xml_path) )
+        files.append((self.score_name + ": Solution (MusicXML file)",
+                      solution_xml_path))
 
         return files
 
+
 class LiedExercise(ExerciseBase):
-    def __init__(
-        self,
-        scoreFilename,
-        leaveRestBars=True,
-        quarterLengthOfRest=2,
-        leaveBassLine=False,
-        addition=None,
-        quarterLength=1
-        ):
+
+    def __init__(self,
+                 scoreFilename,
+                 leaveRestBars=True,
+                 quarterLengthOfRest=2,
+                 leaveBassLine=False,
+                 addition=None,
+                 quarterLength=1):
         self.leaveRestBars = leaveRestBars
         self.quarterLengthOfRest = quarterLengthOfRest
         self.leaveBassLine = leaveBassLine
@@ -135,8 +138,7 @@ class LiedExercise(ExerciseBase):
             quarterLengthOfRest=self.quarterLengthOfRest,
             leaveBassLine=self.leaveBassLine,
             addition=self.addition,
-            quarterLength=self.quarterLength
-        )
+            quarterLength=self.quarterLength)
 
     @property
     def filename_prefix(self):
@@ -162,6 +164,7 @@ class LiedExercise(ExerciseBase):
         exercise_xml_path = prefix + "-exercise.xml"
         if not os.path.exists(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
-        files.append( (self.score_name + ": Exercise (MusicXML file)", exercise_xml_path) )
+        files.append((self.score_name + ": Exercise (MusicXML file)",
+                      exercise_xml_path))
 
         return files
