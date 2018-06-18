@@ -1,7 +1,10 @@
 from app import app
 from natsort import natsorted
-from music21 import converter
+import music21.converter
+import music21.musicxml
+import xml.etree
 import json
+import logging
 import operator
 import os
 
@@ -44,8 +47,13 @@ def get_score_index(path, reset=False):
     for filename in os.listdir(path):
         if filename.endswith('.xml') or filename.endswith('.mxl'):
             abspath = os.path.abspath(os.path.join(path, filename))
-            score = converter.parse(abspath)
-            index[filename] = getScoreName(score)
+            try:
+                score = music21.converter.parse(abspath)
+                index[filename] = getScoreName(score)
+            except xml.etree.ElementTree.ParseError as e:
+                logging.error("Failed to parse score: " + abspath)
+            except music21.musicxml.xmlToM21.MusicXMLImportException as e:
+                logging.error("Failed to parse score: " + abspath)
 
     with open(index_filename, 'w') as index_handle:
         json.dump(index, index_handle)
