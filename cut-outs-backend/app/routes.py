@@ -75,5 +75,8 @@ def lieder():
                              path.replace(
                                  app.config["SCORE_DOWNLOAD_PATH"] + "/",
                                  app.config["SCORE_DOWNLOAD_URI_PREFIX"])))
+    elif "preserveRestBars" not in request.form:
+        # TODO: Find a way to set this as the default
+        form.preserveRestBars.data = True
 
     return render_template('lieder-form.html', form=form, download=download)
