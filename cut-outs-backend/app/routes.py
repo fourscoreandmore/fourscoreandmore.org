@@ -1,4 +1,4 @@
-from flask import render_template, redirect, request, send_from_directory
+from flask import abort, safe_join, render_template, redirect, request, send_from_directory
 from app import app
 from app.forms import ChoralesForm, LiederForm
 from app import scores, TheoryExercises, exercises
@@ -23,6 +23,18 @@ def custom_static(filename):
         mimetype=mimetype)
 
 
+@app.route('/apps/score/' + '<path:filename>')
+def display_score(filename):
+    if not os.path.exists(
+            safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
+        abort(404)
+
+    url = app.config["SCORE_DOWNLOAD_URI_PREFIX"] + filename
+
+    return render_template(
+        "display-music.html", file=url, basename=os.path.basename(filename))
+
+
 @app.route('/apps/chorales/', methods=['GET', 'POST'])
 def chorales():
     form = ChoralesForm(request.form)
@@ -41,10 +53,11 @@ def chorales():
                                    "chorales"))
         download = []
         for title, path in files:
-            download.append((title,
-                             path.replace(
-                                 app.config["SCORE_DOWNLOAD_PATH"] + "/",
-                                 app.config["SCORE_DOWNLOAD_URI_PREFIX"])))
+            download.append(
+                (title,
+                 path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/",
+                              app.config["SCORE_DOWNLOAD_URI_PREFIX"]),
+                 path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", "")))
     elif "partsToCut" not in request.form:
         # TODO: Find a way to set this as the default
         form.partsToCut.data = ['alto', 'tenor', 'bass']
@@ -71,10 +84,11 @@ def lieder():
             directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder"))
         download = []
         for title, path in files:
-            download.append((title,
-                             path.replace(
-                                 app.config["SCORE_DOWNLOAD_PATH"] + "/",
-                                 app.config["SCORE_DOWNLOAD_URI_PREFIX"])))
+            download.append(
+                (title,
+                 path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/",
+                              app.config["SCORE_DOWNLOAD_URI_PREFIX"]),
+                 path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", "")))
     elif "preserveRestBars" not in request.form:
         # TODO: Find a way to set this as the default
         form.preserveRestBars.data = True

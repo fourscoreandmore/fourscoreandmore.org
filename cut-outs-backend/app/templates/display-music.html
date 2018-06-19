@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four Score and More | Displaying: {{ basename }}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+<style type="text/css">
+div#container {
+  width: 1080px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+</style>
+<script type="text/javascript" src="{{ url_for('static', filename='opensheetmusicdisplay.min.js') }}"></script>
+</head>
+<body>
+  <noscript>
+    <p>If the file is not displayed, download it here: <a href="{{ file }}?download=1">{{ basename }}</a></p>
+  </noscript>
+  <div id="container"></div>
+  <script type="text/javascript">
+    var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("container");
+    osmd
+      .load("{{ file }}")
+      .then(
+        function() {
+          var autoZoom = function () {
+            var viewPortWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+            osmd.zoom = viewPortWidth < 480 ? 0.6 : 0.8;
+          };
+          window.addEventListener("resize", autoZoom, {passive: true});
+          autoZoom();
+          osmd.autoResize();
+          osmd.render();
+        }
+      );
+  </script>
+</body>
+</html>
