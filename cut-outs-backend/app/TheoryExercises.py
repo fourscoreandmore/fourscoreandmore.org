@@ -64,12 +64,12 @@ def makeCadenceExercise(thisScore,
     # Exercise
     for i in partsRefs:
         exPart = exercise.parts[i]
-        for noteOrRest in exPart.recurse().notesAndRests:
+        for noteOrRest in list(exPart.recurse().notesAndRests):
             uniqueOffsetID = noteOrRest.getOffsetInHierarchy(exPart)
             # NB same as but faster than = noteOrRest.activeSite.offset + noteOrRest.offset
             for position in fermataPositions:
                 if (position-numberOfBeatsToCut) <= uniqueOffsetID <= position:
-                    exPart.remove(noteOrRest, recurse=True)
+                    noteOrRest.activeSite.remove(noteOrRest, shiftOffsets=True)
 
     # Solution
     for i in partsRefs:
