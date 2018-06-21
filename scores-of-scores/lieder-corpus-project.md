@@ -20,7 +20,7 @@ Basically this is a normal [OpenScore](https://openscore.cc) encoding project, e
 1. Update the spreadsheet to assign yourself (add your MuseScore username in a comment).
 1. Find the template score via the "Template score URL" link. The score's description will include a link to a recommended IMSLP source score (a PDF).
 1. Open the template score in MuseScore and encode away!
-1. Upload your finished score to the [Lieder Corpus pilot group](https://musescore.com/groups/lieder-corpus-pilot). Update the spreadsheet (via a comment) to request a review.
+1. Upload your finished score to the [Lieder Corpus](https://musescore.com/openscore-lieder-corpus). Update the spreadsheet (via a comment) to request a review.
 1. Rinse and repeat!
 
 ## FAQs

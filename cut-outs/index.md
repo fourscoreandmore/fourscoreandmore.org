@@ -18,7 +18,7 @@ The title refers to the nature of the exercise: an original piece of music has p
 This teaching method has been in use for centuries as a way of enabling students to learn about composition and musical style through practical engagement.
 
 ‘Cut Outs’ provides free access to thousands of such score exercises.
-Crucially, the user (student or teacher) will be able to tailor the exercises to their requirements.
+Crucially, the user (student or teacher) can be able to tailor the exercises to their requirements.
 For instance, one commonly used exercise of this kind takes a Bach ‘chorale’ (hymn), leaves the hymn tune in place, and cuts out the other, accompanying parts at the ends of musical phrases.
 ‘Cuts Outs’ enables users to download any of the Bach chorales adapted according to their requirements: with any number of accompanying parts missing, and with any span removed, from a single chord to completely empty accompanying parts.
 We also have plans to offer a sequential ‘course’ whereby users can follow a course with exercises of progressively increasing difficulty.
