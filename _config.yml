@@ -12,10 +12,9 @@ logo: images/fourscoreandmore-logo.png
 
 # The filenames of pages that should appear in the main menu.
 header_pages:
-  - scores-of-scores/index.md
   - cut-outs/index.md
   - scored-up-scores/index.md
-  - simple-harmonic-motion/index.md
+  - working-in-harmony/index.md
   - people/index.md
 lang: en_GB
 
