@@ -54,4 +54,4 @@ Some properties of the row:
 
 ## Confused?
 
-Again, just [explore the score](/scored-up-scores/Webern-Symphonie.html) to get a sense of how this looks in action.
+Again, just [explore the interactive score](/scored-up-scores/Webern-Symphonie.html) to get a sense of how this looks in action.

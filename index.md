@@ -5,7 +5,7 @@ title: Four Score and More
 
 ## About
 
-‘Four Score and More’ is a social initiative providing high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
+‘Four Score and More’ is a social initiative founded in 2018 to provide high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
 
 1. Assist teachers and students by providing extensive exercise materials, allowing them to focus not on creating the resources, but how best to use and adapt them for their own purposes.
 
@@ -13,22 +13,30 @@ title: Four Score and More
 
 3. Democratise access by providing everything for free online, and with user-friendly instructions so that anyone interested can develop their skills for free.
 
-## Projects
+## Resources
 
-‘Four Score and More’ has started out with four initial projects that are pressingly needed and/or extremely opportune, and which avoid duplicating of other fine projects out there:
+By way of resources, we currently offer:
 
-1. [**Scores of Scores**](/scores-of-scores): a large-scale contribution to the encoding and public
-release of musical scores to enable a wide range of musical and pedagogical
-uses.
-
-2. [**Cut Outs**](/cut-outs): musical scores with parts ‘cut out’ for the student to complete. This
+* [**Cut Outs**](/cut-outs): musical scores with parts ‘cut out’ for the student to complete. This
 is an ancient teaching method given new life in the digital domain.
 
-3. [**Scored-up Scores**](/scored-up-scores): interactive introductions to works by encoding and
+... and we are now working on ...
+
+* [**Scored-up Scores**](/scored-up-scores): interactive introductions to works by encoding and
 visualising aspects of its structure for the user to explore.
 
-4. [**Simple Harmonic Motion**](/simple-harmonic-motion): an interactive, online teacher of basic conducting
+* [**Simple Harmonic Motion**](/simple-harmonic-motion): an interactive, online teacher of basic conducting
 technique in collaboration with the Victoria University of Wellington, New Zealand.
+
+## Participation Projects
+
+We also run participation projects whereby those learning music can also contribute to these kinds of projects while they learn.
+
+We began with:
+* [**Scores of Scores**](/scores-of-scores): a large-scale contribution to the provision of publicly-available encoded scores (necessary for [Cut Outs](/cut-outs), [Scored-up Scores](/scored-up-scores) and all projects like them).
+
+... and we are now focussed on ...
+* [**Working in Harmony**](/working-in-harmony): an effort to crowd-source a comparable corpus of harmonic analyses.
 
 ## What’s in a name?
 
