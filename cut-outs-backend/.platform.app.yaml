@@ -19,6 +19,10 @@ web:
       passthru: '/404/index.html'
       expires: 1h
 
+dependencies:
+    python3:
+       pipenv: '*'
+
 mounts:
   'download':
     source: local
@@ -37,7 +41,7 @@ relationships:
 
 hooks:
   build: |
-    pip install -r requirements.txt
+    pipenv install --system
   deploy: |
     set -e
     curl --max-time 5 -sS site.internal/template/index.html > app/templates/writable/base.html
