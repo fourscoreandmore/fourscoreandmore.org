@@ -17,7 +17,7 @@ As always, we provide all resources in .xml format so they you can open them in 
 - chose your own set of clefs for the Species exercises. Those given follow the modern Norton/Mann edition (1965).
 
 ## Rule of the Octave
-<a href="/ROTO/The Rule of the Octave.xml" download="ROTO">Download File</a>
+<a href="/ROTO/Rule_of_the_Octave.xml" download="ROTO">Download File</a>
 
 This section provides materials for practicing the 'Rule of the Octave' for harmonising diatonic music.
 The harmonisation here is in the form of three upper voices which are closely based on Fedele Fenaroli, Naples 1775, but preserve exactly voices throughout and avoid any suggestion of parallel octaves.
@@ -28,15 +28,20 @@ The file provides: the bass scale and
 This is designed to allow for the practice the component parts and literal realisations in order to build fluency with and abstraction of 'the rule'.
 
 ## Species Counterpoint
-<a href="/species/Gradus Exercises.musicxml" download="Species_Ex">Download File 1: Exercises</a>
-<a href="/species/Exercises and Solutions.musicxml" download="Species_Ex_Soln">Download File 2: Exercises and Solutions</a>
-<a href="/species/Distinct.musicxml" download="Species_Distinct">Download File 3: Distinct Formats</a>
+<a href="/and-more/species/Exercises.mxl" download="Species_Ex">Download File 1: Exercises</a>
+
+<a href="/and-more/species/Solutions.mxl" download="Species_Ex_Soln">Download File 2: Exercises and Solutions</a>
+
+<a href="/and-more/species/Annotated.mxl" download="Species_Annotated">Download File 3: Soluetions Annotated</a>
+
+<a href="/and-more/species/Distinct.mxl" download="Species_Distinct">Download File 4: Distinct Formats</a>
 
 This section provides materials relating to the full cantus firms exercises in Part 1 of Gradus ad Parnassum: writing in two voices (46 exercises in total).
 
 1. Full exercises: all of the cantus firmus exercises with only the cantus firmus present. (The numbers are not sequential here because the numbering includes all of Fux’s examples, including setting out what oblique motion is, for instance.)
 2. Full solutions: all of Fux’s solutions to those exercises (i.e. both cantus firmus and species).
-3. Distinct: All distinct cantus firms in upper and lower parts. All of the exercises are based on this and there is nothing to stop you doing any of the species exercise on all cantus firmus either able or below.
+3. Those solutions annotated with every harmonic interval.
+4. Distinct: All distinct cantus firms in upper and lower parts. All of the exercises are based on this and there is nothing to stop you doing any of the species exercise on all cantus firmus either able or below.
 
 Each exercise in 1 and 2 includes the following information:
 - Figure number (in the Norton/Mann edition, 1965).
