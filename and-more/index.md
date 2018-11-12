@@ -17,7 +17,7 @@ As always, we provide all resources in .xml format so they you can open them in 
 - chose your own set of clefs for the Species exercises. Those given follow the modern Norton/Mann edition (1965).
 
 ## Rule of the Octave
-<a href="/ROTO/Rule_of_the_Octave.xml" download="ROTO">Download File</a>
+<a href="/ROTO/Rule_of_the_Octave.xml" download="ROTO.mxl">Download File</a>
 
 This section provides materials for practicing the 'Rule of the Octave' for harmonising diatonic music.
 The harmonisation here is in the form of three upper voices which are closely based on Fedele Fenaroli, Naples 1775, but preserve exactly voices throughout and avoid any suggestion of parallel octaves.
@@ -28,13 +28,13 @@ The file provides: the bass scale and
 This is designed to allow for the practice the component parts and literal realisations in order to build fluency with and abstraction of 'the rule'.
 
 ## Species Counterpoint
-<a href="/and-more/species/Exercises.mxl" download="Species_Ex">Download File 1: Exercises</a>
+<a href="/and-more/species/Exercises.mxl" download="Species_Ex.mxl">Download File 1: Exercises</a>
 
-<a href="/and-more/species/Solutions.mxl" download="Species_Ex_Soln">Download File 2: Exercises and Solutions</a>
+<a href="/and-more/species/Solutions.mxl" download="Species_Ex_Soln.mxl">Download File 2: Exercises and Solutions</a>
 
-<a href="/and-more/species/Annotated.mxl" download="Species_Annotated">Download File 3: Soluetions Annotated</a>
+<a href="/and-more/species/Annotated.mxl" download="Species_Annotated.mxl">Download File 3: Soluetions Annotated</a>
 
-<a href="/and-more/species/Distinct.mxl" download="Species_Distinct">Download File 4: Distinct Formats</a>
+<a href="/and-more/species/Distinct.mxl" download="Species_Distinct.mxl">Download File 4: Distinct Formats</a>
 
 This section provides materials relating to the full cantus firms exercises in Part 1 of Gradus ad Parnassum: writing in two voices (46 exercises in total).
 
