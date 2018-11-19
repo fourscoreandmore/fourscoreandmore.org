@@ -1,12 +1,14 @@
-from music21 import common
-from music21 import exceptions21
-from music21 import pitch
-from music21 import chord
-from music21 import interval
-from music21 import stream
-from music21 import converter
-from music21 import metadata
 from music21 import clef
+from music21 import common
+from music21 import converter
+from music21 import chord
+from music21 import exceptions21
+from music21 import interval
+from music21 import layout
+from music21 import meter
+from music21 import metadata
+from music21 import pitch
+from music21 import stream
 
 from copy import deepcopy
 from math import floor
@@ -65,17 +67,18 @@ def makeCadenceExercise(thisScore,
     for i in partsRefs:
         exPart = exercise.parts[i]
         for noteOrRest in exPart.recurse().notesAndRests:
+            noteOrRest.stemDirection = 'unspecified' # PR to main music21 repo
             uniqueOffsetID = noteOrRest.getOffsetInHierarchy(exPart)
             # NB same as but faster than = noteOrRest.activeSite.offset + noteOrRest.offset
             for position in fermataPositions:
                 if (position-numberOfBeatsToCut) <= uniqueOffsetID <= position:
                     exPart.remove(noteOrRest, recurse=True)
 
-    # Solution
-    for i in partsRefs:
+        # Solution (same i references)
         solnPart = solution.parts[i]
         for noteOrRest in solnPart.recurse().notesAndRests:
-            uniqueOffsetID = noteOrRest.activeSite.offset + noteOrRest.offset
+            noteOrRest.stemDirection = 'unspecified' # PR to main music21 repo
+            uniqueOffsetID = noteOrRest.getOffsetInHierarchy(solnPart)
             for position in fermataPositions:
                 if (position-numberOfBeatsToCut) <= uniqueOffsetID <= position:
                     noteOrRest.style.color = 'red' #NB Style
@@ -83,18 +86,20 @@ def makeCadenceExercise(thisScore,
     path = '~/Desktop/ChoraleExercises/'
     title = thisScore.metadata.title
 
-    # Full or Short Score + writes and returns
+    # Full or Short Score + writes and returns. Heavyhanded approach to clef.
+    firstMeasure = exercise.parts[0].getElementsByClass('Measure')[0].measureNumber
     if shortScore:
         shortEx = exercise.implode()
-        firstMeasure = shortEx.parts[0].getElementsByClass('Measure')[0].measureNumber
-        shortEx.parts[1].measure(firstMeasure).clef = clef.BassClef()
         shortSoln = solution.implode()
+        shortEx.parts[1].measure(firstMeasure).clef = clef.BassClef()
+        shortSoln.parts[1].measure(firstMeasure).clef = clef.BassClef()
         if writeFile==True:
             shortEx.write(fmt='musicxml', fp=path+'Exercise-'+title+'.xml')
-            shortSoln.parts[1].measure(0).clef = clef.BassClef()
             shortSoln.write(fmt='musicxml', fp=path+'Solution-'+title+'.xml')
         return shortEx, shortSoln
     else:
+        exercise.parts[2].measure(firstMeasure).clef = clef.Treble8vbClef()
+        solution.parts[2].measure(firstMeasure).clef = clef.Treble8vbClef()
         if writeFile==True:
             exercise.write(fmt='musicxml', fp=path+'Exercise-'+title+'.xml')
             solution.write(fmt='musicxml', fp=path+'Solution-'+title+'.xml')
@@ -146,7 +151,10 @@ def makeLiederExercise(score,
             for item in thisMeasure.recurse().notesAndRests:
                 if item.isRest:
                     count += item.quarterLength
-                    if count >= quarterLengthOfRest:
+                    if count >= thisMeasure.quarterLength: # Special case for anacrustic pieces.
+                        restBars.append(listIndex + 1) # = measure number
+                        break # No need to look at this measure any further
+                    elif count >= quarterLengthOfRest:
                         restBars.append(listIndex + 1) # = measure number
                         break # No need to look at this measure any further
 
@@ -163,8 +171,9 @@ def makeLiederExercise(score,
     if addition not in validAdditions:
         raise ValueError("Invalid addition type: must be one of %r." % validAdditions)
     elif addition == 'transferTune':
-        score = transferTune(score, measuresToDo)
+        score = transferClefs(score, measuresToDo, transferTune=True)
     elif addition == 'chordHints':
+        score = transferClefs(score, measuresToDo, transferTune=False)
         score = addChords(score, quarterLength=quarterLength)
 
     # Scrub lyrics inherited into piano part
@@ -173,6 +182,11 @@ def makeLiederExercise(score,
             item.lyric = None
 
     name = score.metadata.title
+
+    staffGrouping = layout.StaffGroup([score.parts[1], score.parts[2]],
+                            name='Piano', abbreviation='Pno.', symbol='brace')
+    staffGrouping.barTogether = 'Mensurstrich'
+    score.insert(0, staffGrouping)
 
     if writeFile==True:
         score.write(fmt='musicxml', fp='~/Desktop/'+'Exercise - '+name+'.xml')
@@ -183,17 +197,60 @@ def makeLiederExercise(score,
 
 # LIEDER continued: Additions into the score
 
-def transferTune(score, measuresToDo):
+def transferClefs(score, measuresToDo, transferTune=False):
     '''
-    Transfers the melody line from a top part (voice) to second part (piano RH)
-    '''
+    Adjusts clefs to accommodate the new part (transferTune or chordHints).
+    Optionally also does the transferTune while it's at it:
+    transfers the melody line from a top part (voice) to second part (piano RH).
+    Tranfer tune is false by default so that transferClefs can be used with addChords instead.
+    ''' # TODO: integrate with leaveRestBars.
+
+    startAdditions = [measuresToDo[0]] # First in measuresToDo definitely a startAddition
+    startGaps = []
+    for index in range(1, len(measuresToDo)):
+        oneMoreThanLastEntry = measuresToDo[index-1] + 1
+        if measuresToDo[index] != oneMoreThanLastEntry:
+            startGaps.append(oneMoreThanLastEntry)
+            startAdditions.append(measuresToDo[index])
+
+        for measureNo in startGaps: # Insert redundant duplications to accommodate transfers
+            youAreHere = score.parts[1].measure(measureNo)
+            clf = youAreHere.getContextByClass('Clef')
+            newClef = clf.sign+str(clf.line) # TODO simplify this?
+            youAreHere.insert(0, clef.clefFromString(newClef))
 
     for measureNumber in measuresToDo: # trimmed down according to leaveRestBars
+
         whereFrom = score.parts[0].measure(measureNumber)
         whereTo = score.parts[1].measure(measureNumber)
+
+        if transferTune==True: # This is it for transferTune
+            for e in whereFrom.recurse().notesAndRests: # m.getElementsByClass():
+                whereTo.insert(e.getOffsetBySite(whereFrom), e)
+
+        oldClef = whereFrom.getContextByClass('Clef')
+        newClef = whereTo.getContextByClass('Clef')
+
+        if measureNumber in startAdditions:
+            if oldClef != newClef:
+                newClef = oldClef.sign+str(oldClef.line)
+                whereTo.insert(0, clef.clefFromString(newClef))
+
+    return score
+
+def transferTune(score, measuresToDo):
+    '''
+    Transfers the melody line from a top part (voice) to the piano right hand.
+    (Duplicates the above for running separately, without transfer clefs).
+    '''
+
+    for measureNumber in measuresToDo:
+
+        whereFrom = score.parts[0].measure(measureNumber)
+        whereTo = score.parts[1].measure(measureNumber)
+
         for e in whereFrom.recurse().notesAndRests: # m.getElementsByClass():
             whereTo.insert(e.getOffsetBySite(whereFrom), e)
-            # Ossia as below
 
     return score
 
@@ -215,7 +272,7 @@ def addChords(score, quarterLength=1):
         adjustedBeatPosition = floor(note2.offset / quarterLength) * quarterLength
         # i.e. floor(x * accuracy) / accuracy # signs reversed as < 1
         if adjustedBeatPosition != note2.offset: # metrically weak enough
-            if 'NotRest' in note2.classes: # both notes are notes, not rests
+            if 'NotRest' in note2.classes:
                 note1 = vpr.notesAndRests[i-1]
                 if 'NotRest' in note1.classes:
                     if abs(interval.notesToGeneric(note1, note2).directed) > 2: # a leap
@@ -234,11 +291,10 @@ def addChords(score, quarterLength=1):
     for x in chordDict.keys():
         noDuplicatesChord = chord.Chord(list(set([y for y in chordDict[x][0]])))
         noDuplicatesChord.quarterLength = quarterLength
-        chordDict[x][0] = noDuplicatesChord
-        measureOffset = round(chordDict[x][1], 2)
+        measureOffset = round(chordDict[x][1], 2) #NB not int
         adjustedBeatPosition = chordDict[x][2]
         finalStep = score.parts[1].getElementsByClass('Measure').getElementsByOffset(measureOffset)[0]
-        finalStep.insert(adjustedBeatPosition, chordDict[x][0])
+        finalStep.insert(adjustedBeatPosition, noDuplicatesChord)
 
     return score
 
