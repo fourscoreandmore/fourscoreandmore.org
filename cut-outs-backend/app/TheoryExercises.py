@@ -171,10 +171,11 @@ def makeLiederExercise(score,
     if addition not in validAdditions:
         raise ValueError("Invalid addition type: must be one of %r." % validAdditions)
     elif addition == 'transferTune':
-        score = transferClefs(score, measuresToDo, transferTune=True)
+        tempScore = transferClefs(score, measuresToDo)
+        score = transferTune(tempScore, measuresToDo)
     elif addition == 'chordHints':
-        score = transferClefs(score, measuresToDo, transferTune=False)
-        score = addChords(score, quarterLength=quarterLength)
+        tempScore = transferClefs(score, measuresToDo)
+        score = addChords(tempScore, quarterLength=quarterLength)
 
     # Scrub lyrics inherited into piano part
     for item in score.parts[1].recurse().notesAndRests:
@@ -197,12 +198,10 @@ def makeLiederExercise(score,
 
 # LIEDER continued: Additions into the score
 
-def transferClefs(score, measuresToDo, transferTune=False):
+def transferClefs(score, measuresToDo):
     '''
     Adjusts clefs to accommodate the new part (transferTune or chordHints).
     Optionally also does the transferTune while it's at it:
-    transfers the melody line from a top part (voice) to second part (piano RH).
-    Tranfer tune is false by default so that transferClefs can be used with addChords instead.
     ''' # TODO: integrate with leaveRestBars.
 
     startAdditions = [measuresToDo[0]] # First in measuresToDo definitely a startAddition
@@ -213,28 +212,20 @@ def transferClefs(score, measuresToDo, transferTune=False):
             startGaps.append(oneMoreThanLastEntry)
             startAdditions.append(measuresToDo[index])
 
-        for measureNo in startGaps: # Insert redundant duplications to accommodate transfers
-            youAreHere = score.parts[1].measure(measureNo)
-            clf = youAreHere.getContextByClass('Clef')
-            newClef = clf.sign+str(clf.line) # TODO simplify this?
-            youAreHere.insert(0, clef.clefFromString(newClef))
+    if measuresToDo[-1] != len(score.parts[0]):
+        finalGap = measuresToDo[-1] + 1
+        startGaps.append(finalGap)
 
-    for measureNumber in measuresToDo: # trimmed down according to leaveRestBars
-
-        whereFrom = score.parts[0].measure(measureNumber)
-        whereTo = score.parts[1].measure(measureNumber)
-
-        if transferTune==True: # This is it for transferTune
-            for e in whereFrom.recurse().notesAndRests: # m.getElementsByClass():
-                whereTo.insert(e.getOffsetBySite(whereFrom), e)
-
-        oldClef = whereFrom.getContextByClass('Clef')
-        newClef = whereTo.getContextByClass('Clef')
-
-        if measureNumber in startAdditions:
-            if oldClef != newClef:
-                newClef = oldClef.sign+str(oldClef.line)
-                whereTo.insert(0, clef.clefFromString(newClef))
+    for index in range(len(startAdditions)): # Either
+        vClefAdd = score.parts[0].measure(startAdditions[index]).getContextByClass('Clef')
+        pClefAdd = score.parts[1].measure(startAdditions[index]).getContextByClass('Clef')
+        vClefGap = score.parts[0].measure(startGaps[index]).getContextByClass('Clef')
+        pClefGap = score.parts[1].measure(startGaps[index]).getContextByClass('Clef')
+        if vClefAdd != pClefAdd:
+            AddClef = vClefAdd.sign+str(vClefAdd.line) # TODO simplify?
+            GapClef = pClefGap.sign+str(pClefGap.line)
+            score.parts[1].measure(startAdditions[index]).insert(0, clef.clefFromString(AddClef))
+            score.parts[1].measure(startGaps[index]).insert(0, clef.clefFromString(GapClef))
 
     return score
 
@@ -246,7 +237,9 @@ def transferTune(score, measuresToDo):
 
     for measureNumber in measuresToDo:
 
-        whereFrom = score.parts[0].measure(measureNumber)
+        topPartCopy = deepcopy(score.parts[0])
+
+        whereFrom = topPartCopy.measure(measureNumber)
         whereTo = score.parts[1].measure(measureNumber)
 
         for e in whereFrom.recurse().notesAndRests: # m.getElementsByClass():
