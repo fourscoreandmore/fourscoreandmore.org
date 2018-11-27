@@ -25,6 +25,15 @@ class ExerciseBase(object):
     def score_name(self):
         return getScoreName(self.score)
 
+    def can_use_saved_file(filepath):
+        if not os.path.exists(filepath):
+            return False
+
+        if os.path.getmtime(filepath) < os.path.getmtime(__file__):
+            return False
+
+        return True
+
     @property
     def filename_prefix(self):
         clean = re.compile(r"[^\w]+")
@@ -94,13 +103,13 @@ class ChoraleExercise(ExerciseBase):
         prefix = os.path.join(directory, self.filename_prefix)
 
         exercise_xml_path = prefix + "-exercise.xml"
-        if not os.path.exists(exercise_xml_path):
+        if not self.can_use_saved_file(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
         files.append((self.score_name + ": Exercise (MusicXML file)",
                       exercise_xml_path))
 
         solution_xml_path = prefix + "-solution.xml"
-        if not os.path.exists(solution_xml_path):
+        if not self.can_use_saved_file(solution_xml_path):
             self.solution.write(fmt="musicxml", fp=solution_xml_path)
         files.append((self.score_name + ": Solution (MusicXML file)",
                       solution_xml_path))
@@ -162,7 +171,7 @@ class LiedExercise(ExerciseBase):
         prefix = os.path.join(directory, self.filename_prefix)
 
         exercise_xml_path = prefix + "-exercise.xml"
-        if not os.path.exists(exercise_xml_path):
+        if not self.can_use_saved_file(exercise_xml_path):
             self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
         files.append((self.score_name + ": Exercise (MusicXML file)",
                       exercise_xml_path))
