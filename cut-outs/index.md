@@ -11,7 +11,7 @@ title: 'Cut Outs'
 
 ... and arguably also ...
 
-3. [Species Counterpoint Exercises](../and-more/index.md)
+3. [Species Counterpoint Exercises](../and-more/)
 
 ## Overview and motivation
 
