@@ -25,7 +25,7 @@ class ExerciseBase(object):
     def score_name(self):
         return getScoreName(self.score)
 
-    def can_use_saved_file(filepath):
+    def can_use_saved_file(self, filepath):
         if not os.path.exists(filepath):
             return False
 
