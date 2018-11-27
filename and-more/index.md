@@ -32,16 +32,16 @@ This is designed to allow for the practice the component parts and literal reali
 
 <a href="/and-more/species/Solutions.mxl" download="Species_Ex_Soln.mxl">Download File 2: Exercises and Solutions</a>
 
-<a href="/and-more/species/Annotated.mxl" download="Species_Annotated.mxl">Download File 3: Soluetions Annotated</a>
+<a href="/and-more/species/Annotated.mxl" download="Species_Annotated.mxl">Download File 3: Solutions Annotated</a>
 
 <a href="/and-more/species/Distinct.mxl" download="Species_Distinct.mxl">Download File 4: Distinct Formats</a>
 
-This section provides materials relating to the full cantus firms exercises in Part 1 of Gradus ad Parnassum: writing in two voices (46 exercises in total).
+This section provides materials relating to the full cantus firmus exercises in Part 1 of Gradus ad Parnassum: writing in two voices (46 exercises in total).
 
 1. Full exercises: all of the cantus firmus exercises with only the cantus firmus present. (The numbers are not sequential here because the numbering includes all of Fux’s examples, including setting out what oblique motion is, for instance.)
 2. Full solutions: all of Fux’s solutions to those exercises (i.e. both cantus firmus and species).
 3. Those solutions annotated with every harmonic interval.
-4. Distinct: All distinct cantus firms in upper and lower parts. All of the exercises are based on this and there is nothing to stop you doing any of the species exercise on all cantus firmus either able or below.
+4. Distinct: Every distinct cantus firmus in both upper and lower parts. All of the exercises are based on this, so this simple file distill all possible exercises: use this to do any species exercise, on any cantus firmus, and either above or below.
 
 Each exercise in 1 and 2 includes the following information:
 - Figure number (in the Norton/Mann edition, 1965).

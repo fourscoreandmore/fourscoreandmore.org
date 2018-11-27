@@ -5,7 +5,7 @@ title: Four Score and More
 
 ## About
 
-‘Four Score and More’ is a social initiative founded in 2018 to provide high-quality resources for the teaching and learning of music, particularly music theory. We have three primary goals, to:
+‘Four Score and More’ is a social initiative founded in 2018 to provide high-quality resources for the teaching and learning of music, particularly music theory. We aim to:
 
 1. Assist teachers and students by providing extensive exercise materials, allowing them to focus not on creating the resources, but how best to use and adapt them for their own purposes.
 
@@ -19,6 +19,8 @@ By way of resources, we currently offer:
 
 * [**Cut Outs**](/cut-outs): musical scores with parts ‘cut out’ for the student to complete. This
 is an ancient teaching method given new life in the digital domain.
+
+* [**... and more**](/and-more): more teaching resources covering Species Counterpoint and the Rule of the Octave, but in static files (i.e. with no fancy interactivity this time).
 
 ... and we are now working on ...
 
@@ -45,3 +47,7 @@ We began with:
 Clearly, it also puns on ‘for scores and more’, which summarises the initiative’s core project, focused on scores but also including other forms of engagement with music and musical pedagogy. Nerdier still, even the logo puns on the idea of _4+_, using the figured bass for an augmented 4th, enlarging it, and placing it within the stave to make it look like a treble clef.
 
 Anyway, hopefully it’s a memorable title, and a bit of fun.
+
+## People
+
+Speaking of names, please [click here](/people) to read all about the great people and funders behind ‘Four Score and More’.

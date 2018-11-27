@@ -8,32 +8,31 @@ at the centre of Four Score and More, deeply immersed in (at least co-running) e
 That person (also writing this text) is:
 - [Mark Gotham](http://music.cornell.edu/mark-gotham)
 
-Fortunately for him (me), a growing number of great people are contributing to FourScoreAndMore,
+Fortunately for him (me), a growing number of great people are contributing to 'Four Score And More',
 either as directly involved collaborators, or in important advisory roles.
 Here is some info on them:
 
 ## Collaborators
 
-#### Scores of Scores
+### Scores of Scores
 - The [MuseScore team](https://musescore.com), especially [Peter Jonas](https://musescore.com/shoogle), OpenScore Manager
 - [Edward Guo of IMSLP](http://imslp.org/)
 
-#### Cut Outs
+### Cut Outs
 - [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
 
-#### Simple Harmonic Motion
+### Simple Harmonic Motion
 - [Neil Dodgson](http://neildodgson.com/), [Professor at the Victoria University of Wellington, New Zealand](https://www.victoria.ac.nz/)
 - Sally Jane Norman, [Professor at and Director of the New Zealand School of Music](https://www.victoria.ac.nz/nzsm/about/staff/sallyjane-norman),
 
-#### Scored-up Scores
+### Scored-up Scores
 - [Laurent Pugin](https://dblp.uni-trier.de/pers/hd/p/Pugin:Laurent), [RISM](http://rism-ch.org/contact.html) and [Verovio](https://www.verovio.org/index.xhtml)
 
-#### Moments
+### Moments
 - [Ryaan Ahmed](ryaanahmed.com), musician, musicologist and developer at [Artusi](https://www.artusi.xyz/)
 - Michael Scott Cuthbert, [Associate Professor at MIT](https://mta.mit.edu/person/michael-scott-cuthbert) and Founder of [Artusi](https://www.artusi.xyz/)
 
 ## Advisory Board
-
 - [Katharine Ellis](https://www.mus.cam.ac.uk/directory/professor-katharine-ellis), 1684 Professor of Music, University of Cambridge;
 - Elena Anastopoulos, [ABRSM](https://gb.abrsm.org/en/home);
 - [Peter Gotham](https://uk.linkedin.com/in/peter-gotham-54884341), Third Sector Accountant;
@@ -41,7 +40,6 @@ Here is some info on them:
 - [Karl Schwonik](http://www.karlschwonik.com/).
 
 ## Funders
-
 Grateful acknowledgement goes to
 1. The [The University of Cambridge](https://www.cam.ac.uk/) for funding in support of ‘Scores of Scores’ and ‘Cut Outs’. Here are the specific funds and remit of our activity in those areas:
     - ‘Scores of Scores’ was funded by the [Arts and Humanities Impact Fund](https://www.ahssresearch.group.cam.ac.uk/AH-Impact-Fund).
@@ -56,6 +54,6 @@ Thank you all!
     <img src="/images/Cambridge.jpg" alt="Cambridge logo" width="240">
   </a>
   <a href="http://music.cornell.edu/">
-    <img src="/images/Cornell.svg" alt="Cornell logo" width="200">
+    <img src="/images/Cornell.svg" alt="Cornell logo" width="240">
   </a>
 </div>
