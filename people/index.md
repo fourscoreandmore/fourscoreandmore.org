@@ -41,7 +41,7 @@ Here is some info on them:
 
 ## Funders
 Grateful acknowledgement goes to
-1. The [The University of Cambridge](https://www.cam.ac.uk/) for funding in support of ‘Scores of Scores’ and ‘Cut Outs’. Here are the specific funds and remit of our activity in those areas:
+1. The [University of Cambridge](https://www.cam.ac.uk/) for funding in support of ‘Scores of Scores’ and ‘Cut Outs’. Here are the specific funds and remit of our activity in those areas:
     - ‘Scores of Scores’ was funded by the [Arts and Humanities Impact Fund](https://www.ahssresearch.group.cam.ac.uk/AH-Impact-Fund).
     - ‘Cut Outs’ was funded by the [The Teaching and Learning Innovation Fund](https://www.cctl.cam.ac.uk/support-and-training/funding/teaching-and-learning-innovation-fund).
     - Additionally a number of partners in Cambridge came together to put on the [‘Scores of Scores’ Launch Event](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora) (details on that page).
