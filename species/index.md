@@ -52,7 +52,7 @@ Finally, a note on clefs. Those given also follow the Norton/Mann edition (1965)
 #### Part I
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |5|1|d|Lower|
 |6|1|d|Upper|
 |11|1|e|Lower|
@@ -118,7 +118,7 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 #### Part II
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |101|1|d|1|
 |104|1|d|2|
 |105|1|d|3|
@@ -178,7 +178,7 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 #### Part III
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |160|1|d|2|
 |163|1|d|1|
 |164|1|d|3|
