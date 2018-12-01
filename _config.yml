@@ -13,6 +13,7 @@ logo: images/fourscoreandmore-logo.png
 # The filenames of pages that should appear in the main menu.
 header_pages:
   - cut-outs/index.md
+  - species/index.md
   - scored-up-scores/index.md
   - working-in-harmony/index.md
   - and-more/index.md

@@ -5,13 +5,13 @@ title: 'Cut Outs'
 
 ## Exercise generators
 
-1. [Chorale Exercises](/apps/chorales)
+- [Chorale Exercises](/apps/chorales)
 
-2. [Lieder Exercises](/apps/lieder)
+- [Lieder Exercises](/apps/lieder)
 
 ... and arguably also ...
 
-3. [Species Counterpoint Exercises](../and-more/index.md)
+- [Species Counterpoint Exercises](../species/index.md)
 
 ## Overview and motivation
 
