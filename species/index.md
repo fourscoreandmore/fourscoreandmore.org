@@ -40,7 +40,7 @@ Let us know if you have a strong preference for where we keep files.
 ## For Reference
 
 Each exercise includes the following information:
-- Figure number (in the modern Norton/Mann edition, 1965).*
+- Figure number (in the modern Norton/Mann edition, 1965).
 - Species type,
 - Modal final,
 - Cantus firmus part
@@ -49,7 +49,7 @@ For ease of reference, the following sub-section / tables set out that informati
 
 Finally, a note on clefs. Those given also follow the Norton/Mann edition (1965) for parts I and II. Part III keeps the same clefs throughout to be consistent both internally and with the modern choral score layout (treble, treble, treble 8, bass). Teachers may wish to choose their own clefs as part of adapting these files for class.
 
-#### Part I
+### Part I
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
 |---|---|---|---|
@@ -115,7 +115,7 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 <!-- To do: originalClefUpper, originalClefLower, replacementClefUpper, replacementClefLower
 (Original = Fux; Replacement = Mann) -->
 
-#### Part II
+### Part II
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
 |---|---|---|---|
@@ -175,7 +175,7 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 | A | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3| 3 counts at three octaves (A2, A3 and A4) |
 | C | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4 | 2 counts. Corresponds to the first case for Part I.|
 
-#### Part III
+### Part III
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
 |---|---|---|---|
