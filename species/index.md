@@ -17,7 +17,7 @@ For each of these sections, we provide four files:
 
 ## Downloads
 
-Check out the files [here](https://musescore.com/user/30425053/sets/5098106) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: A free account required for the download.
+Check out the files [here](https://musescore.com/user/30425053/sets/5098106) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: you need a (free) account to download files.
 
 | Part | Exercises | Solutions | Annotated | Distinct |
 |---|---|---|---|---|
