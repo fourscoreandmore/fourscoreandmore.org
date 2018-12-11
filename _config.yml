@@ -14,9 +14,10 @@ logo: images/fourscoreandmore-logo.png
 header_pages:
   - cut-outs/index.md
   - species/index.md
+  - partimenti/index.md
   - scored-up-scores/index.md
   - working-in-harmony/index.md
-  - and-more/index.md
+  # - and-more/index.md
 
 lang: en_GB
 
