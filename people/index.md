@@ -12,7 +12,7 @@ Fortunately for him (me), a growing number of great people are contributing to '
 either as directly involved collaborators, or in important advisory roles.
 Here is some info on them:
 
-## Collaborators
+## Collaborators and Credits
 
 ### Scores of Scores
 - The [MuseScore team](https://musescore.com), especially [Peter Jonas](https://musescore.com/shoogle), OpenScore Manager
@@ -20,6 +20,12 @@ Here is some info on them:
 
 ### Cut Outs
 - [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
+
+### Species
+- These files are based on public domain transcriptions by Jay Wilson (https://musescore.com/user/43726/) and (like most of our offerings) made using code built on top of the music21 library (http://web.mit.edu/music21/). Thank you Jay! Thank you music21!
+
+### Partimeti
+- Developed in consultation with the magnificent [Roger Moseley](https://music.cornell.edu/roger-moseley)
 
 ### Simple Harmonic Motion
 - [Neil Dodgson](http://neildodgson.com/), [Professor at the Victoria University of Wellington, New Zealand](https://www.victoria.ac.nz/)
