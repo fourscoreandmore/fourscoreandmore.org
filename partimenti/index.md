@@ -6,25 +6,29 @@ title: 'Partimenti'
 It's parti(mento) time!
 
 There's been a resurgence of attention lately to the position of practice in the teaching of music theory, both in the sense of 'practical' keyboard skills and the 'practice' of the composers we study.
-This has centered on reviving sets of 'schemas' based on short, 'partimento' bass lines that Eighteenth-Century musicians learned as stock-in-trade prototypes for improvisation and composition (the distinction between the two being much more slight for musicians of the time than we sometime suppose today).
+This has centred on reviving sets of 'schemas' based on short, 'partimento' bass lines that Eighteenth-Century musicians learned as stock-in-trade prototypes for improvisation and composition (the distinction between the two being much more slight for musicians of the time than we sometime suppose today).
 
 For further reading on this fascinating topic, we highly recommend [this excellent website](http://faculty-web.at.northwestern.edu/music/gjerdingen/partimenti/index.htm) by the modern master of this historical practice in teaching, Robert Gjerdingen. We've no wish to duplicate that fine resource; instead, we'll focus here as usual on the complementary provision of interactive resources that you can download and adjust for your own purposes.
 
-## On this page
+## Downloads
 
-This page provides the following resources connected to 'schemas', 'partimenti', and related phenomena. Further explanation of each component part follows this overview.
+Check out the files [here](https://musescore.com/user/30425053/sets/5098210) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: you need a (free) account to download files. Further explanation of each component part follows this overview.
 
-Rule of the Octave
-- Approaching the 'Rule' by incrementally nuancing a succession of parallel 63s
-- Part by Part: taking a closer look at the component parts of the 'Rule'.
+The Rule of the Octave
+- [Building the Rule](https://musescore.com/user/30425053/scores/5350123): Approaching the 'Rule' by incrementally nuancing a succession of parallel 63s
+- [Part by Part](https://musescore.com/user/30425053/scores/5350126): Taking a closer look at the component parts of the 'Rule'.
 
 Harmonising the scale with sequences
-- Open Score (one voice per part)
-- Short (piano) Score
+- [Open Score (one voice per part)](https://musescore.com/user/30425053/scores/5350118)
+- [Short (piano) Score](https://musescore.com/user/30425053/scores/5350121)
 
-Schemas
-- Representations of canonical schemas
-- Template scores: Sample template pieces based on combinations of schemas.
+Partimeti Prototypes: Representations of canonical schemas
+- [With Chordal Realisations](https://musescore.com/user/30425053/scores/5350117)
+- [Without Chords - Outer Voices Only](https://musescore.com/user/30425053/scores/5350116)
+
+Schema Scores: Templates for pieces based on combinations of schemas.
+- [Template 1](https://musescore.com/user/30425053/scores/5350113)
+- [Template 2](https://musescore.com/user/30425053/scores/5350111)
 
 ## More about those files
 
