@@ -1,3 +1,4 @@
+---
 layout: post
 title: 'Species'
 ---
@@ -9,14 +10,16 @@ This page provides the full cantus firmus exercises of Johann Joseph Fux's iconi
 
 For each of these sections, we provide four files:
 
-1. Full exercises: all of the cantus firmus exercises with only the cantus firmus present. Note that the numbers are not sequential here because the numbering includes all of Fux’s examples, including setting out what oblique motion is, for instance.
-2. Full solutions: all of Fux’s solutions to those exercises – i.e. both cantus firmus and additional part(s).
-3. Those solutions annotated with the interval between every note in each additional part and the cantus firmus.
-4. Distinct: Every distinct cantus firmus in all parts. All of the exercises are based on this, so these simple files distill all possible exercises: use this to do any species exercise, on any cantus firmus, and either above or below.
+1. Exercises: all of the cantus firmus exercises with only the cantus firmus present.
+2. Solutions: all of Fux’s solutions to those exercises – i.e. both the cantus firmus and the additional part(s).
+3. Annotations: Those solutions annotated with the interval that every note in each additional part forms with the cantus firmus.
+4. Distinct: Every distinct cantus firmus in all parts. All of the exercises are based on this format, so these simple files distill all possibilities: you can use this file to do any species exercise, on any cantus firmus, in any part arrangement.
+
+Everything is provided in an editable format for teachers to adjust freely for their own class’ needs and released under a correspondingly open licence.
 
 ## Downloads
 
-Check out the files [here](https://musescore.com/user/30425053/sets/5098106) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: A free account required for the download.
+Check out the files [here](https://musescore.com/user/30425053/sets/5098106) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: you need a (free) account to download files.
 
 | Part | Exercises | Solutions | Annotated | Distinct |
 |---|---|---|---|---|
@@ -39,7 +42,7 @@ Let us know if you have a strong preference for where we keep files.
 ## For Reference
 
 Each exercise includes the following information:
-- Figure number (in the modern Norton/Mann edition, 1965).*
+- Figure number (in the modern Norton/Mann edition, 1965).
 - Species type,
 - Modal final,
 - Cantus firmus part
@@ -48,10 +51,10 @@ For ease of reference, the following sub-section / tables set out that informati
 
 Finally, a note on clefs. Those given also follow the Norton/Mann edition (1965) for parts I and II. Part III keeps the same clefs throughout to be consistent both internally and with the modern choral score layout (treble, treble, treble 8, bass). Teachers may wish to choose their own clefs as part of adapting these files for class.
 
-#### Part I
+### Part I
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |5|1|d|Lower|
 |6|1|d|Upper|
 |11|1|e|Lower|
@@ -114,10 +117,10 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 <!-- To do: originalClefUpper, originalClefLower, replacementClefUpper, replacementClefLower
 (Original = Fux; Replacement = Mann) -->
 
-#### Part II
+### Part II
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |101|1|d|1|
 |104|1|d|2|
 |105|1|d|3|
@@ -174,10 +177,10 @@ Fux basically uses one cantus firmus for each modal final throughout. The note s
 | A | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3| 3 counts at three octaves (A2, A3 and A4) |
 | C | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4 | 2 counts. Corresponds to the first case for Part I.|
 
-#### Part III
+### Part III
 
 | Figure | Species | Mode (final) | Cantus Firmus Part |
-|---|---|---|
+|---|---|---|---|
 |160|1|d|2|
 |163|1|d|1|
 |164|1|d|3|
