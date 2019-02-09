@@ -6,7 +6,7 @@ title: 'People'
 Like a lot of start up enterprises liberally using the word 'we', there's actually one person
 at the centre of Four Score and More, deeply immersed in (at least co-running) each of the projects.
 That person (also writing this text) is:
-- [Mark Gotham](http://music.cornell.edu/mark-gotham)
+- [Mark Gotham](MG_bio.md)
 
 Fortunately for him (me), a growing number of great people are contributing to 'Four Score And More',
 either as directly involved collaborators, or in important advisory roles.
@@ -24,7 +24,7 @@ Here is some info on them:
 ### Species
 - These files are based on public domain transcriptions by Jay Wilson (https://musescore.com/user/43726/) and (like most of our offerings) made using code built on top of the music21 library (http://web.mit.edu/music21/). Thank you Jay! Thank you music21!
 
-### Partimeti
+### Partimenti
 - Developed in consultation with the magnificent [Roger Moseley](https://music.cornell.edu/roger-moseley)
 
 ### Simple Harmonic Motion
@@ -32,13 +32,15 @@ Here is some info on them:
 - Sally Jane Norman, [Professor at and Director of the New Zealand School of Music](https://www.victoria.ac.nz/nzsm/about/staff/sallyjane-norman),
 
 ### Scored-up Scores
-- [Laurent Pugin](https://dblp.uni-trier.de/pers/hd/p/Pugin:Laurent), [RISM](http://rism-ch.org/contact.html) and [Verovio](https://www.verovio.org/index.xhtml)
+- Made using code built on top of [Laurent Pugin](https://dblp.uni-trier.de/pers/hd/p/Pugin:Laurent)'s fabulous [Verovio](https://www.verovio.org/index.xhtml)
 
 ### Moments
+- Thanks to the people and teams who produced the score transcriptions on from which this data is extracted (several as detailed on that page).
+
+## Advisory Team
+
 - [Ryaan Ahmed](ryaanahmed.com), musician, musicologist and developer at [Artusi](https://www.artusi.xyz/)
 - Michael Scott Cuthbert, [Associate Professor at MIT](https://mta.mit.edu/person/michael-scott-cuthbert) and Founder of [Artusi](https://www.artusi.xyz/)
-
-## Advisory Board
 - [Katharine Ellis](https://www.mus.cam.ac.uk/directory/professor-katharine-ellis), 1684 Professor of Music, University of Cambridge;
 - Elena Anastopoulos, [ABRSM](https://gb.abrsm.org/en/home);
 - [Peter Gotham](https://uk.linkedin.com/in/peter-gotham-54884341), Third Sector Accountant;

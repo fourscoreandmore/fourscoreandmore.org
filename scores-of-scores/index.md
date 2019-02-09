@@ -10,7 +10,7 @@ The 'Scores of Scores' lieder corpus encoding project is a major contribution to
 1. This page (an introduction).
 2. The [Notes for transcribers](/scores-of-scores/lieder-corpus-project)
 3. ['Learn by Doing Lieder Transcription': Exercises for Intrepid Students](/scores-of-scores/learn-by-doing)
-4. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora).
+4. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
 
 ## Overview and motivation
 
@@ -47,7 +47,7 @@ The [Lieder Corpus project](/scores-of-scores/lieder-corpus-project) is an effor
 
 ## Launch event
 
-In association with the Cambridge Big Data Strategic Research Initiative, Cambridge Digital Humanities Network and the University of Cambridge Faculty of Music, a [‘Scores of Scores’ event](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora) took take place on 19 June 2018, combining elements of a conference, workshop, hackathon, and ‘encodathon’. This saw the launch of both the ‘Scores of Scores’ encodings, and also a first application of those scores: the [‘Cut Outs'](/cut-outs) automatic music theory exercises.
+In association with the Cambridge Big Data Strategic Research Initiative, Cambridge Digital Humanities Network and the University of Cambridge Faculty of Music, a [‘Scores of Scores’ event](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora) took take place on 19 June 2018, combining elements of a conference, workshop, hackathon, and ‘encodathon’. This saw the launch of both the ‘Scores of Scores’ encodings, and also a first application of those scores: the [‘Cut Outs'](/cut-outs) automatic music theory exercises.
 
 <div class="image-collection">
     <img src="/images/event/1.jpg" width="240">
