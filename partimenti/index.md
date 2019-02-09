@@ -22,7 +22,7 @@ Harmonising the scale with sequences
 - [Open Score (one voice per part)](https://musescore.com/user/30425053/scores/5350118)
 - [Short (piano) Score](https://musescore.com/user/30425053/scores/5350121)
 
-Partimeti Prototypes: Representations of canonical schemas
+Partimenti Prototypes: Representations of canonical schemas
 - [With Chordal Realisations](https://musescore.com/user/30425053/scores/5350117)
 - [Without Chords - Outer Voices Only](https://musescore.com/user/30425053/scores/5350116)
 
