@@ -11,7 +11,7 @@ title: 'Cut Outs'
 
 ... and arguably also ...
 
-3. [Species Counterpoint Exercises](../and-more/)
+- [Species Counterpoint Exercises](../species/index.md)
 
 ## Overview and motivation
 
@@ -25,7 +25,7 @@ This teaching method has been in use for centuries as a way of enabling student
 
 Once you have downloaded the musicXML file, you should be able to open it in any notation software.
 From there you can try things out, listen to the music (if you wish and if your teacher allows it!), or simply print a PDF to print off and work on at the desk or piano.
-If you don’t have a notation package, then download [MuseScore](https://musescore.org/) which is free, open source, great and getting better all the time.
+If you don’t have a notation package, then download [MuseScore](https://musescore.org/en/download) which is free, open source, great and getting better all the time.
 
 ## [Chorale Exercises](/apps/chorales)
 
