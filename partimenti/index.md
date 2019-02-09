@@ -22,7 +22,7 @@ Harmonising the scale with sequences
 - [Open Score (one voice per part)](https://musescore.com/user/30425053/scores/5350118)
 - [Short (piano) Score](https://musescore.com/user/30425053/scores/5350121)
 
-Partimeti Prototypes: Representations of canonical schemas
+Partimenti Prototypes: Representations of canonical schemas
 - [With Chordal Realisations](https://musescore.com/user/30425053/scores/5350117)
 - [Without Chords - Outer Voices Only](https://musescore.com/user/30425053/scores/5350116)
 
@@ -37,7 +37,7 @@ Schema Scores: Templates for pieces based on combinations of schemas.
 The 'Rule of the Octave' is a kind of cheat sheet for harmonising diatonic music: there's one chord for each scale degree and you can go a long way by just plugging them in on top of the bass line.
 The version of the harmonisation used here is closely based on that of Fedele Fenaroli (Naples 1775), but with a couple of modifications to preserve a consistent number of voices throughout (4vv, including the bass) and to avoid any suggestion of parallels.
 
-##### File 1: Approaching the 'Rule' from parallel 63s
+#### File 1: Approaching the 'Rule' from parallel 63s
 
 This section builds up a version of the Rule of the Octave by proceeding in incremental steps from parallel 63s to the rule proper.
 You could also think of this as a matter of moving from a flat to a rich harmonic hierarchy, or else as a 'Regolo recipe': how to make or understand the rule in four easy steps.
@@ -50,7 +50,7 @@ You could also think of this as a matter of moving from a flat to a rich harmoni
 
 4. Finally, we precede each of the tonic and dominant chords (including those in inversion) with 7ths. In one case, this also involves a chromatic alteration for a stronger sense of tonicising the dominant. Why do you think we might only make that change this one time, and not anywhere else in the progression?
 
-##### File 2: Examining the Rule Part by Part
+#### File 2: Examining the Rule Part by Part
 
 Having arrived at the 'Rule', this second file deconstructs it again so you can practice in parts, with any number of voices, and in any 'position' (inversion of the right hand harmonisation). Keep practicing each component part and in a range of keys to build fluency with and abstraction of 'the rule'. (NB: you can transpose scores in MuseScore with the 'Notes' menu: Notes/Transpose.)
 
@@ -66,7 +66,7 @@ Here the three versions (‘positions’ in Fenaroli’s language) are given by 
 * mediant (fifth system)
 * dominant (sixth system)
 
-#### Harmonising the Scale with Sequences
+### Harmonising the Scale with Sequences
 
 (NB: The open and short score versions of this material are otherwise identical so these introductory comments apply equally to both.)
 
@@ -90,7 +90,7 @@ Cycles of 5ths (scale connects alternate bass notes)
 - Ascending: 9-8 (and 10 to re-start, like the 7-6 ascending pattern)
 - Descending: 2-3 in a V42-I6 harmonic pattern, but diatonic (i.e. without tonicisations).
 
-#### Individual Schemas
+### Individual Schemas
 
 This document provides a set of schemas, with the constituent parts set out as prototypically as is possible in musical notation: that is, with melody and figured bass lines, along with chords in a middle part based on an automatic realisation of those figures.
 
@@ -119,7 +119,7 @@ More truly prototypical is the following list of information for each schema:
 | Converging Cadence | Cadence | [3, 2, 1, 7] | ['3', '4', '#4', '5'] | W S | [6, '6,5', '6,5', 5] |
 | Quiescenza | Post-Cadential | ['b7', '6', '7', '1'] | [1] | W S W S | ['b7', '6,4', '7,4,2', 5] |
 
-#### Schemas Combined (Proto-pieces)
+### Schemas Combined (Proto-pieces)
 
 As reflected in the above grid, one key element of these schemas is their order.
 
@@ -135,7 +135,7 @@ Some tips for getting started:
 
 ## ... and finally ... Buried Treasure for the Budding Theorist
 
-#### On symmetry in the ROTO
+### On symmetry in the ROTO
 
 The upper, melodic lines in the Rule of the Octave are intended to harmonise a symmetrical bass line (rising scale, falling scale), but they also exhibit a certain degree of symmetry themselves both overall and within each half.
 That property may seem obvious, given the symmetry of the bass, and the fact that they are deliberately static, conjunct lines, but tonal harmony is rather asymmetric by nature: think of the fundamental difference between I-V and V-I, for instance.

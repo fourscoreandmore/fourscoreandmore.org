@@ -10,10 +10,12 @@ This page provides the full cantus firmus exercises of Johann Joseph Fux's iconi
 
 For each of these sections, we provide four files:
 
-1. Full exercises: all of the cantus firmus exercises with only the cantus firmus present. Note that the numbers are not sequential here because the numbering includes all of Fux’s examples, including setting out what oblique motion is, for instance.
-2. Full solutions: all of Fux’s solutions to those exercises – i.e. both cantus firmus and additional part(s).
-3. Those solutions annotated with the interval between every note in each additional part and the cantus firmus.
-4. Distinct: Every distinct cantus firmus in all parts. All of the exercises are based on this, so these simple files distill all possible exercises: use this to do any species exercise, on any cantus firmus, and either above or below.
+1. Exercises: all of the cantus firmus exercises with only the cantus firmus present.
+2. Solutions: all of Fux’s solutions to those exercises – i.e. both the cantus firmus and the additional part(s).
+3. Annotations: Those solutions annotated with the interval that every note in each additional part forms with the cantus firmus.
+4. Distinct: Every distinct cantus firmus in all parts. All of the exercises are based on this format, so these simple files distill all possibilities: you can use this file to do any species exercise, on any cantus firmus, in any part arrangement.
+
+Everything is provided in an editable format for teachers to adjust freely for their own class’ needs and released under a correspondingly open licence.
 
 ## Downloads
 
