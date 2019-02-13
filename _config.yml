@@ -40,3 +40,7 @@ exclude:
 
 # Enable GA.
 google_analytics: true
+
+# Enable the relative links plugin.
+gems:
+  - jekyll-relative-links
