@@ -15,7 +15,7 @@ List of (and links to) research publications on
 
 ### Code
 - [Four Score and More code base](https://github.com/fourscoreandmore/fourscoreandmore.org)
-- All other, publically available code on [GitHub](https://github.com/MarkGotham)
+- All other, publicly available code on [GitHub](https://github.com/MarkGotham)
 
 ### Composition:
 - [Debut CD: ‘Utrumne est Ornatum’](http://www.regent-records.co.uk/product_details_349.htm)
