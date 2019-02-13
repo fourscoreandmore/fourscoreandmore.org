@@ -6,7 +6,7 @@ title: 'People'
 Like a lot of start up enterprises liberally using the word 'we', there's actually one person
 at the centre of Four Score and More, deeply immersed in (at least co-running) each of the projects.
 That person (also writing this text) is:
-- [Mark Gotham](./MG_bio.md)
+- [Mark Gotham](MG_bio/)
 
 Fortunately for him (me), a growing number of great people are contributing to 'Four Score And More',
 either as directly involved collaborators, or in important advisory roles.
