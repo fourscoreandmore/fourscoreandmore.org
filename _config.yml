@@ -31,8 +31,11 @@ markdown: kramdown
 kramdown:
   input: GFM
 theme: minima
+
+# Jekyll plugins
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 
 # Exclude files from processing by Jekyll.
 exclude:
@@ -42,5 +45,5 @@ exclude:
 google_analytics: true
 
 # Enable the relative links plugin.
-gems:
-  - jekyll-relative-links
+relative_links:
+  enabled: true
