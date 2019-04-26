@@ -22,7 +22,7 @@ Here is some info on them:
 - [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
 
 ### Species
-- These files are based on public domain transcriptions by Jay Wilson (https://musescore.com/user/43726/) and (like most of our offerings) made using code built on top of the music21 library (http://web.mit.edu/music21/). Thank you Jay! Thank you music21!
+- These files are based on public domain transcriptions by [Jay Wilson](https://musescore.com/user/43726/) and (like most of our offerings) made using code built on top of the [music21 library](http://web.mit.edu/music21/). Thank you Jay! Thank you music21!
 
 ### Partimenti
 - Developed in consultation with the magnificent [Roger Moseley](https://music.cornell.edu/roger-moseley)

@@ -88,8 +88,8 @@ Cycles of 5ths (scale connects alternate bass notes)
 - Descending 3: 'Zigzag' circle-of-fifths (note the outer-voice canon)
 - One Ascending form with 4-3 suspensions
 
-9-8 and 2-3: More Chains of Suspensions
-- Ascending: 9-8 (and 10 to re-start, like the 7-6 ascending pattern)
+2-3: More Chains of Suspensions
+- Ascending: with re-starts, like in the 7-6 ascending pattern.
 - Descending: 2-3 in a V42-I6 harmonic pattern, but diatonic (i.e. without tonicisations).
 
 ### Partimeti Prototypes: Representations of canonical schemas
