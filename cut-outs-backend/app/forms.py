@@ -75,9 +75,10 @@ class LiederForm(FlaskForm):
                  ('chordHints', 'Chord Hints')],
     )
 
-    harmonicRhythm = IntegerField(
+    harmonicRhythm = DecimalField(
         label="Harmonic rhythm for chord hints",
         default=1,
+        places=1,
         validators=[NumberRange(min=1, max=16)],
         description=
         "The harmonic rhythm (in 'quarter notes' / 'crotchets') of the chord hints."
