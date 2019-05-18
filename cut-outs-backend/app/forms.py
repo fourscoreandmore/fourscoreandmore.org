@@ -78,7 +78,7 @@ class LiederForm(FlaskForm):
     harmonicRhythm = DecimalField(
         label="Harmonic rhythm for chord hints",
         default=1,
-        places=1,
+        places=0,
         validators=[AnyOf((0.25, 0.5, 1, 1.5, 2, 3, 4))],
         description=
         "The harmonic rhythm (in 'quarter notes' / 'crotchets') of the chord hints."
