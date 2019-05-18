@@ -13,6 +13,8 @@ title: 'Cut Outs'
 
 - [Species Counterpoint Exercises](../species/index.md)
 
+- [Ground Bass Exercises](../grounded/index.md)
+
 ## Overview and motivation
 
 'Cut Outs' is a project providing free, tailored, music theory exercises for all.
