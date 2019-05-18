@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, DecimalField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets
-from wtforms.validators import DataRequired, NumberRange
+from wtforms.validators import AnyOf, DataRequired, NumberRange
 from app import app
 import os
 
@@ -79,7 +79,7 @@ class LiederForm(FlaskForm):
         label="Harmonic rhythm for chord hints",
         default=1,
         places=1,
-        validators=[NumberRange(min=1, max=16)],
+        validators=[AnyOf((0.25, 0.5, 1, 1.5, 2, 3, 4))],
         description=
         "The harmonic rhythm (in 'quarter notes' / 'crotchets') of the chord hints."
     )
