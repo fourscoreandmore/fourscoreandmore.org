@@ -46,7 +46,7 @@ You could also think of this as a matter of moving from a flat to a rich harmoni
 
 2. Next we put in strategic 53s on the first and last chords to give a sense of closure on the tonic.
 
-3. Then we add a 53s on the dominant chords of both ascending and descending forms to further nuance the hierarchy (these are important chords too).
+3. Then we set 53s on the dominant note of both ascending and descending forms to further nuance the hierarchy (these are important chords too!).
 
 4. Finally, we precede each of the tonic and dominant chords (including those in inversion) with 7ths. In one case, this also involves a chromatic alteration for a stronger sense of tonicising the dominant. Why do you think we might only make that change this one time, and not anywhere else in the progression?
 
@@ -75,14 +75,14 @@ Here the three versions (‘positions’ in Fenaroli’s language) are given by 
 We begin once again with a simple harmonisation of the scale using parallel 63 chords only, before proceeding to:
 
 5-6
-- Ascending: 5-6 on each bass notes
+- Ascending: a 5-6 move above each bass note
 - Descending: 5-6 on alternating bass notes
 
 7-6: Chains of Suspensions
 - Ascending: 7-6 (and 8 to re-start the pattern)
 - Descending: essentially parallel 63 chords with a delayed top line
 
-Cycles of 5ths (scale connects alternate bass notes)
+Cycles of 5ths (where the scale connects alternate bass notes)
 - Descending 1: Triads only
 - Descending 2: with 7ths and suspensions (cf. 7-6 descending)
 - Descending 3: 'Zigzag' circle-of-fifths (note the outer-voice canon)
@@ -137,7 +137,7 @@ Some tips for getting started:
 - Rhythm: Try picking a single, characteristic rhythm to serve as the basis for your piece and use it often (but not exactly: see how many different ways you can adapt it);
 - Melody: Introduce embellishments, decorating some stepwise motions with turns, for instance, and filling in some large leaps;
 - Accompaniment: introduce one or more characteristic pattern for chordal accompaniments like the 'Alberti Bass';
-- Texture: particularly for longer piece, vary the number of voices present, and the way they relate.****
+- Texture: particularly for longer piece, vary the number of voices present, and the way in which they relate.
 
 ## ... and finally ... Buried Treasure for the Budding Theorist
 
@@ -148,7 +148,7 @@ That property may seem obvious, given the symmetry of the bass, and the fact tha
 
 What we might call the 'overall palindrome' emerges more strongly than any other kinds of comparison among this set such as the possible internal palindrome in the ascending or descending lines, or the parallel (rotational symmetry) between those two halves.
 
-These are the four distinct forms to be considered from comparing ascending and descending versions with each other and with retrograde versions of themselves: there are six permutations in total, of which two pairs which are duplicates by definition:
+These are the four distinct forms to be considered from comparing ascending and descending versions with each other and with retrograde versions of themselves: there are six permutations in total, of which two pairs are duplicates by definition:
 + AscFwd/AscBwd: Palindrome over the first half (ascending scale)
 + AscFwd/DescFwd: Second part repeats the first (a kind of 'rotational' symmetry)
 + AscFwd/DescBwd: Palindrome overall

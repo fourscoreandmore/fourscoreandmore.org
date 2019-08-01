@@ -19,8 +19,8 @@ Basically, your task is to:
 
 ## Annotation Instructions
 
-- Pick the moment where each chord changes;
-- Click on the note in the highest voice at that point;
+- Decide where each chord change occurs;
+- Click on the note in the highest voice at that point (you may need to break up a note or rest into shorter values to add the harmony at the right point);
 - Click CTRL+K (Windows) CMD+K (Mac) to start entering a roman numeral.
 - Enter a roman numeral in the format described in the next section.
 
@@ -29,9 +29,9 @@ NB: For more on the delicate, interpretative art of harmonic analysis, you might
 ## Format and list of keys and numerals
 
 - New chord: For each new chord, specify the roman numeral in relation to the prevailing key, for instance 'I' for the tonic.
-- New key: For the start of a new key area (including, necessarily, the start of the piece), specify that key with dots on either side, combined with the roman numeral (e.g. '.G.I' for a move to G major and a tonic chord in that key). For a continuation of the prevailing key, there's no need to specify the key: just write in the roman numeral alone.
+- New key: For the start of a new key area (including, necessarily, the start of the piece), specify that key with dots on either side, combined with the roman numeral (e.g. '.G.I' for a move to G major and a tonic chord in that key). For a continuation of the prevailing key, there's no need to specify the key: just write in the roman numeral alone ('I').
 - Chord quality: don't forget to use upper case for Major (e.g. 'I'), lower case for minor ('i'), and add the symbols for a diminished triad ('o') or augmented triad ('+') as necessary.
-- Finally, specify any added notes not in the specified triad with '(+4)', for example (note the paretheses within the figure here to distinguish from augmented).
+- Finally, specify any added notes not in the specified triad with '(+4)', for example (note the parentheses within the figure here to distinguish from augmented).
 
 In summary, enter a roman numeral (that’s required), along with the following any or all of the other annotations (all optional) in the format: '.key.', 'root accidental', 'roman numeral', 'chord form', 'figure', 'additions'.
 
@@ -77,8 +77,3 @@ Write harmonic analyses in plain text documents following the notation style as 
 Again, the musical task and the roman numerals are exactly as above, but there are differences of syntax.
 
 All three methods can be fully and automatically integrated with one another so the choice is free from that perspective. On balance, I would suggest the score annotation method as it keeps both score and analysis in one place. You can also listen to the piece (or at least a computer rendered performance of it), and keep your place in the score.
-
-<!-- ## Submitting your work
-
-If you're working in a formal class then follow your instructors' instructions for submission.
-For lone wolves, please submit your files (whether annotated score, spreadsheets, or .rntxt files) via this dropbox: -->

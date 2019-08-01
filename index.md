@@ -10,7 +10,7 @@ title: Four Score and More
 We aim to provide resources that:
 - are immediately useful;
 - save teachers' preparation time so they can focus on teaching;
-- enhance the learning experience through interactivity (of playback, for instance);
+- enhance the learning experience, and / or enable a wider range of approaches;
 - help to democratise access by being free for all and accompanied by user-friendly instructions. We aim to enable anyone interested to develop their skills for free.
 
 ## [Resources](/resources)
