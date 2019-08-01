@@ -50,11 +50,10 @@ The [Lieder Corpus project](/scores-of-scores/lieder-corpus-project) is an effor
 In association with the Cambridge Big Data Strategic Research Initiative, Cambridge Digital Humanities Network and the University of Cambridge Faculty of Music, a [‘Scores of Scores’ event](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora) took take place on 19 June 2018, combining elements of a conference, workshop, hackathon, and ‘encodathon’. This saw the launch of both the ‘Scores of Scores’ encodings, and also a first application of those scores: the [‘Cut Outs'](/cut-outs) automatic music theory exercises.
 
 <div class="image-collection">
-    <img src="/images/event/1.jpg" width="240">
-    <img src="/images/event/2.jpg" width="240">
-    <img src="/images/event/3.jpg" width="240">
-    <img src="/images/event/4.jpg" width="240">
-    <img src="/images/event/5.jpg" width="240">
-    <img src="/images/event/6.jpg" width="240">
-  </a>
+  <a href="/images/event/1.JPG" target="_blank"><img src="/images/event/1-thumbnail.jpg" width="240" alt=""></a>
+  <a href="/images/event/2.JPG" target="_blank"><img src="/images/event/2-thumbnail.jpg" width="240" alt=""></a>
+  <a href="/images/event/3.JPG" target="_blank"><img src="/images/event/3-thumbnail.jpg" width="240" alt=""></a>
+  <a href="/images/event/4.JPG" target="_blank"><img src="/images/event/4-thumbnail.jpg" width="240" alt=""></a>
+  <a href="/images/event/5.JPG" target="_blank"><img src="/images/event/5-thumbnail.jpg" width="240" alt=""></a>
+  <a href="/images/event/6.JPG" target="_blank"><img src="/images/event/6-thumbnail.jpg" width="240" alt=""></a>
 </div>

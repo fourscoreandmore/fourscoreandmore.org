@@ -147,7 +147,7 @@ class LiedExercise(ExerciseBase):
             quarterLengthOfRest=self.quarterLengthOfRest,
             leaveBassLine=self.leaveBassLine,
             addition=self.addition,
-            quarterLength=self.quarterLength)
+            quarterLength=float(self.quarterLength))
 
     @property
     def filename_prefix(self):
