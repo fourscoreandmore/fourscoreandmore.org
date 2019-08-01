@@ -13,7 +13,7 @@ This page provides some notes on the Webern Symphonie extract shown in the [inte
 ## Canons
 
 Webern described this movement as a ‘double canon in contrary motion’ (i.e. melodic inversion).
-There are canons in each section, very much including this opening which sees a double canon between parts 1 and 2, and 3 and 4. The table below shows this along with the first two rows and instrument successions.
+There are canons in each section, very much including this opening which sees a double canon between parts 1 and 2, and 3 and 4. The table below shows how this works for the first two rows forms and corresponding instrument successions.
 
 Part | First Row | Instruments | Second Row | Instruments
 ---|---|---|---|---
@@ -29,7 +29,7 @@ There is also palindromic symmetry in the first pair (connecting to many other s
 
 The row matrix is set out below in a one possible configuration that sees the piece begin with P0 (Webern's sketches set this out with P and I swapped around).
 
-|I0|I9|I10|I11|I7|I8|I2|I1|I5|I4|I3|I6
+.|I0|I9|I10|I11|I7|I8|I2|I1|I5|I4|I3|I6
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---
 P0|A|F#|G|G#|E|F|B|A#|D|C#|C|D#|R0
 P3|C|A|A#|B|G|G#|D|C#|F|E|D#|F#|R3
@@ -43,7 +43,7 @@ P7|E|C#|D|D#|B|C|F#|F|A|G#|G|A#|R7
 P8|F|D|D#|E|C|C#|G|F#|A#|A|G#|B|R8
 P9|F#|D#|E|F|C#|D|G#|G|B|A#|A|C|R9
 P6|D#|C|C#|D|A#|B|F|E|G#|G|F#|A|R6
-|RI0|RI9|RI10|RI11|RI7|RI8|RI2|RI1|RI5|RI4|RI3|RI6
+.|RI0|RI9|RI10|RI11|RI7|RI8|RI2|RI1|RI5|RI4|RI3|RI6
 
 Some properties of the row:
 - The second hexachord is a retrograde of the first.

@@ -30,11 +30,11 @@ Here are links to the files for 2. and 3.
 
 This '[cheat sheet](https://musescore.com/user/30425053/scores/5438725)' shows how you can harmonise any bass interval in several different ways. It is organised by bass interval: both ascending and descending forms of each interval from minor seconds to tritones. This is supposed to help you work out your options - you definitely don't need to use all of these!
 
-Check out how the analysed pieces make judicious use of a few of those options, and especially where they avoid the main perfect cadences at the start/end of each ground iteration, just once of twice joining them together with a subtler seam.
+Check out how the analysed pieces make judicious use of a few of those options, and especially where they avoid the main perfect cadences at the start/end of each ground iteration, just once or twice joining them together with a subtler seam.
 
 ## 2. Composition Exercises
 
-These template scores allow you to try your hand at composing on the repertoire's great ground basses.
+These template scores allow you to try your hand at composing music based on some great ground basses from the repertoire.
 
 Take a template and try to compose:
 - a simple, diatonic harmonisation of the ground in blocks chords as a prototype, making sure to follow good voice-leading practice;

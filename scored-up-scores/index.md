@@ -8,10 +8,13 @@ by visualising aspects of the structure for the user to explore.
 
 ## Menu
 
-- This page (an introduction).
-- [Notes on Webern's Symphonie](/scored-up-scores/Webern-Symphonie-Notes)
-- [Interactive Score](/scored-up-scores/Webern-Interactive-Score.html). A prototype and work-in-progress showing the canons in the opening of Webern's Symphonie op.21.
+### Mozart: Piano Sonata No. 16 in C major, K. 545 ('Sonata Facile'), opening
+- [Interactive Score](/scored-up-scores/Mozart/Mozart.html). Take another look at a well-known work.
 
-## Other works
+### Webern: Symphonie op.21, opening.
+- [Notes on the piece](/scored-up-scores/Webern/Webern-Symphonie-Notes.md)
+- [Interactive Score](/scored-up-scores/Webern/Webern-Symphonie.html). A prototype and work-in-progress showing the canons in the opening of Webern's Symphonie op.21.
 
-We're not only interested in Webern (!). Other works are to follow so watch this space ...
+### Other works
+
+... will follow so watch this space! ... after all, we're not only interested in Mozart and Webern, nor only in the first few bars of pieces ...
