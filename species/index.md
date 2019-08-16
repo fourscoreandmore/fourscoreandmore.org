@@ -19,25 +19,24 @@ Everything is provided in an editable format for teachers to adjust freely for t
 
 ## Downloads
 
-Check out the files [here](https://musescore.com/user/30425053/sets/5098106) on [our MuseScore page](https://musescore.com/user/30425053/) where you can play them online and download them in your preferred format (mscz, xml, PDF). NB: you need a (free) account to download files.
+Files are hosted locally and downloadable in either .mscz or .mxl format.
+The .mscz format is for MuseScore specifically; you can open the .mxl files in any music notation software.
+
+In .mxl format:
 
 | Part | Exercises | Solutions | Annotated | Distinct |
 |---|---|---|---|---|
-|I|[I-Exercises](https://musescore.com/user/30425053/scores/5335421)|[I-Solutions](https://musescore.com/user/30425053/scores/5335423)|[I-Annotated](https://musescore.com/user/30425053/scores/5335417)|[I-Distinct](https://musescore.com/user/30425053/scores/5335420)|
-|II|[II-Exercises](https://musescore.com/user/30425053/scores/5335414)|[II-Solutions](https://musescore.com/user/30425053/scores/5335416)|[II-Annotated](https://musescore.com/user/30425053/scores/5335410)|[II-Distinct](https://musescore.com/user/30425053/scores/5335412)|
-|III|[III-Exercises](https://musescore.com/user/30425053/scores/5335395)|[III-Solutions](https://musescore.com/user/30425053/scores/5335398)|[III-Annotated](https://musescore.com/user/30425053/scores/5335380)|[III-Distinct](https://musescore.com/user/30425053/scores/5335391)|
+I|[I-Exercises.mxl](/downloads/I/I-Exercises.mxl)|[I-Solutions.mxl](/downloads/I/I-Solutions.mxl)|[I-Annotated.mxl](/downloads/I/I-Distinct.mxl)|[I-Distinct.mxl](/downloads/I/I-Distinct.mxl)|
+II|[II-Exercises.mxl](/downloads/II/II-Exercises.mxl)|[II-Solutions.mxl](/downloads/II/II-Solutions.mxl)|[II-Annotated.mxl](/downloads/II/II-Distinct.mxl)|[II-Distinct.mxl](/downloads/II/II-Distinct.mxl)|
+III|[III-Exercises.mxl](/downloads/III/III-Exercises.mxl)|[III-Solutions.mxl](/downloads/III/III-Solutions.mxl)|[III-Annotated.mxl](/downloads/III/III-Distinct.mxl)|[III-Distinct.mxl](/downloads/I/III-Distinct.mxl)|
 
-Files for Part I are also hosted locally in .mxl format which you can open in any music notation software:
+In .mscz format:
 
-<a href="/and-more/species/Exercises.mxl" download="Species_Ex.mxl">Download File 1: Exercises</a>
-
-<a href="/and-more/species/Solutions.mxl" download="Species_Ex_Soln.mxl">Download File 2: Exercises and Solutions</a>
-
-<a href="/and-more/species/Annotated.mxl" download="Species_Annotated.mxl">Download File 3: Solutions Annotated</a>
-
-<a href="/and-more/species/Distinct.mxl" download="Species_Distinct.mxl">Download File 4: Distinct Formats</a>
-
-Let us know if you have a strong preference for where we keep files.
+| Part | Exercises | Solutions | Annotated | Distinct |
+|---|---|---|---|---|
+I|[I-Exercises.mscz](/downloads/I/I-Exercises.mscz)|[I-Solutions.mscz](/downloads/I/I-Solutions.mscz)|[I-Annotated.mscz](/downloads/I/I-Distinct.mscz)|[I-Distinct.mscz](/downloads/I/I-Distinct.mscz)|
+II|[II-Exercises.mscz](/downloads/II/II-Exercises.mscz)|[II-Solutions.mscz](/downloads/II/II-Solutions.mscz)|[II-Annotated.mscz](/downloads/II/II-Distinct.mscz)|[II-Distinct.mscz](/downloads/II/II-Distinct.mscz)|
+III|[III-Exercises.mscz](/downloads/III/III-Exercises.mscz)|[III-Solutions.mscz](/downloads/III/III-Solutions.mscz)|[III-Annotated.mscz](/downloads/III/III-Distinct.mscz)|[III-Distinct.mscz](/downloads/I/III-Distinct.mscz)|
 
 ## For Reference
 
