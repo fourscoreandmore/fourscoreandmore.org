@@ -10,25 +10,24 @@ These files help you explore some of the ways to create effective ground bass co
 
 ## Files
 
-The set of ground bass files is currently hosted [here](https://musescore.com/user/30425053/sets/5098686).
-
-This includes:
-1. A [cheat sheet](https://musescore.com/user/30425053/scores/5438725) for re-harmonising any bass interval.
+1. A 'cheat sheet' for re-harmonising any bass interval in [.mscz](/downloads/Bass Harmonisations.mscz) or [.pdf](/downloads/Bass Harmonisations.pdf) formats.
 2. Template scores with only the ground bass provided (a simple version of [cut outs](../cut-outs/index.md))
 3. Analysed, annotated files with Roman Numerals and more.
 
-Here are links to the files for 2. and 3.
+Here are links to the files for 2 and 3. Further explanation of the files follows below.
 
-||Template Score|Full, Annotation|
+||Annotation|Template Score|
 |---|---|---|
-|Bach Crucifixus|[Template Score](https://musescore.com/user/30425053/scores/5438707)|[Annotation](https://musescore.com/user/30425053/scores/5449066)
-|Purcell Sonata in G Minor Z 807|[Template Score](https://musescore.com/user/30425053/scores/5438719)|[Annotation](https://musescore.com/user/30425053/scores/5458295)
-|Purcell Chacony in G Minor Z730|[Template](https://musescore.com/user/30425053/scores/5438710)|[To follow]
-|Purcell Here the Deities Approve|[Template](https://musescore.com/user/30425053/scores/5438713)|[To follow]
+Bach Crucifixus B Minor mass BWV232 | [.mscz](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mscz) | [.mscz](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mscz)
+Corelli La Folia | [.mscz](/downloads/Annotations/Corelli La Folia.mscz), [.mxl](/downloads/Annotations/Corelli La Folia.mxl) | [.mscz](/downloads/Templates/Corelli La Folia.mscz), [.mxl](/downloads/Templates/Corelli La Folia.mxl)
+Purcell Chacony in G Minor Z730 | [.mscz](/downloads/Annotations/Purcell Chacony in G Minor Z730.mscz), [.mxl](/downloads/Annotations/Purcell Chacony in G Minor Z730.mxl) | [.mscz](/downloads/Templates/Purcell Chacony in G Minor Z730.mscz), [.mxl](/downloads/Templates/Purcell Chacony in G Minor Z730.mxl)
+Purcell Here the deities approve | [.mscz](/downloads/Annotations/Purcell Here the deities approve.mscz), [.mxl](/downloads/Annotations/Purcell Here the deities approve.mxl) | [.mscz](/downloads/Templates/Purcell Here the deities approve.mscz), [.mxl](/downloads/Templates/Purcell Here the deities approve.mxl)
+Purcell Sonata in G Minor Z807 | [.mscz](/downloads/Annotations/Purcell Sonata in G Minor Z807.mscz), [.mxl](/downloads/Annotations/Purcell Sonata in G Minor Z807.mxl) | [.mscz](/downloads/Templates/Purcell Sonata in G Minor Z807.mscz), [.mxl](/downloads/Templates/Purcell Sonata in G Minor Z807.mxl)
 
 ## 1. Multiple Harmonisations of a Given Bass
+[.mscz](/downloads/Bass Harmonisations.mscz), [.pdf](/downloads/Bass Harmonisations.pdf)
 
-This '[cheat sheet](https://musescore.com/user/30425053/scores/5438725)' shows how you can harmonise any bass interval in several different ways. It is organised by bass interval: both ascending and descending forms of each interval from minor seconds to tritones. This is supposed to help you work out your options - you definitely don't need to use all of these!
+This 'cheat sheet' shows how you can harmonise any bass interval in several different ways. It is organised by bass interval: both ascending and descending forms of each interval from minor seconds to tritones. This is supposed to help you work out your options - you definitely don't need to use all of these!
 
 Check out how the analysed pieces make judicious use of a few of those options, and especially where they avoid the main perfect cadences at the start/end of each ground iteration, just once or twice joining them together with a subtler seam.
 
