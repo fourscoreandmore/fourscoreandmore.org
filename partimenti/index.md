@@ -97,7 +97,7 @@ Cycles of 5ths (where the scale connects alternate bass notes)
 - Ascending: with re-starts, like in the 7-6 ascending pattern.
 - Descending: 2-3 in a V42-I6 harmonic pattern, but diatonic (i.e. without tonicisations).
 
-### Partimeti Prototypes: Representations of canonical schemas
+### Partimenti Prototypes: Representations of canonical schemas
 - With Chordal Realisations: [.mscz](/downloads/Partimenti_Prototypes_(With_Chords).mscz), [.mxl](/downloads/Partimenti_Prototypes_(With_Chords).mxl)
 - Without Chords (Outer Voices Only): [.mscz](/downloads/Partimenti_Prototypes_(No_Chords).mscz), [.mxl](/downloads/Partimenti_Prototypes_(No_Chords).mxl)
 
