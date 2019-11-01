@@ -1,9 +1,24 @@
 '''
-This code provides a kind of 'spell checker' for Roman numeral analysis.
+===============================
+CHORD COMPARE (chordCompare.py)
+===============================
 
-It works by pairing up each Roman numeral with the
-'vertical' slices that take place during the span in question
-and assessing the fit.
+By Mark Gotham, 2019, for Cornell University and fourscoreandmore.org
+
+
+LICENCE:
+===============================
+
+Creative Commons Attribution-NonCommercial 4.0 International License.
+https://creativecommons.org/licenses/by-nc/4.0/
+
+
+ABOUT:
+===============================
+
+This is a 'spell checker' for Roman numeral analysis.
+It works by pairing up each Roman numeral with the 'vertical' slices
+that take place during the span in question and assessing the 'fit'.
 
 Currently, the comparisons involve simple metrics for the:
 - proportion of notes in the score matching the corresponding Roman numeral (weighed by length);
@@ -15,9 +30,7 @@ Feedback is available in any or all of those areas, and can be set to flag up ei
 - only those for which it offers 'constructive' suggestions for replacement.
 '''
 
-from music21 import common
 from music21 import converter
-from music21 import corpus
 from music21 import chord
 from music21 import note
 from music21 import pitch
@@ -51,16 +64,17 @@ class Comparison:
 
     def __init__(self):
 
+        self.measure = None
+        self.beat = None
+        self.startUniqueOffsetID = None
+        self.endUniqueOffsetID = None
+
         self.figure = None
         self.key = None
         self.bassPitch = None
+
         self.pitches = []
-
-        self.startUniqueOffsetID = None
-
         self.slices = []
-
-        self.endUniqueOffsetID = None
 
 # ------------------------------------------------------------------------------
 
@@ -94,6 +108,8 @@ class ScoreAndAnalysis:
         self.analysis = analysisLocation
         self.minBeatStrength = minBeatStrength
         self.tolerance = tolerance
+
+        self.totalLength = self.score.quarterLength
 
         self.slices = None
         self.prevSlicePitches = None
@@ -223,7 +239,6 @@ class ScoreAndAnalysis:
 
                 self.comparisons.append(thisComparison)
 
-
     def romanFromLyric(self, lyric):
         '''
         Converts lyrics in recognised format into m21 Roman Numeral objects.
@@ -301,7 +316,7 @@ class ScoreAndAnalysis:
             self.singleMatchUp(self.comparisons[index])
 
         # Special case of last one.
-        self.comparisons[-1].endUniqueOffsetID = 1000000  # Fake value
+        self.comparisons[-1].endUniqueOffsetID = self.totalLength
         self.singleMatchUp(self.comparisons[-1])
 
         if self.indexCount != len(self.slices):
@@ -347,6 +362,8 @@ class ScoreAndAnalysis:
         do the chords reflect the pitch content of the score section in question?
         '''
 
+        pitchNumerator = 0
+
         for comp in self.comparisons:
 
             overall = 0
@@ -355,15 +372,22 @@ class ScoreAndAnalysis:
 
             for slice in comp.slices:
                 pitchesNameNoOctave = [x[:-1] for x in slice.pitches]  # Pitch only, for the comparison only
-                proportionSame = proportionSimilarity(comp.pitches, pitchesNameNoOctave)  # NB: Rest slices handled above.
+                proportionSame = self.proportionSimilarity(comp, pitchesNameNoOctave)  # NB: Rest slices handled above.
                 # weighedSimilarity = proportionSame * slice.beatStrength  # TODO: weight by metrical weight
                 overall += slice.quarterLength * proportionSame / totalLength
                 overall = round(overall, 2)
 
-            if overall < self.tolerance:
-                pl = [pList.pitches for pList in comp.slices]
+            compLength = comp.endUniqueOffsetID - comp.startUniqueOffsetID
+
+            if overall >= self.tolerance:
+                pitchNumerator += compLength
+
+            else:  # overall < self.tolerance:  # Process feedback and reduce pitchScore.
+
+                pitchNumerator += (compLength * overall)
 
                 # Suggestions
+                pl = [pList.pitches for pList in comp.slices]
                 suggestions = []
                 for sl in comp.slices:
                     chd = chord.Chord(sl.pitches)
@@ -383,11 +407,15 @@ class ScoreAndAnalysis:
 
                 self.pitchFeedback.append(fb)
 
+            self.pitchScore = round(pitchNumerator * 100 / self.totalLength, 2)
+
     def compareBass(self):
         '''
         Single RN-slice comparison for bass / inversion.
         does at least one of the lowest notes during the span in question correspod to the chordal inversion asserted?
         '''
+
+        bassNumerator = 0
 
         for comp in self.comparisons:
 
@@ -417,6 +445,36 @@ class ScoreAndAnalysis:
 
                 self.bassFeedback.append(fb)
 
+            else:  # comp.bassPitch in bassPitchesNoOctave:
+                compLength = comp.endUniqueOffsetID - comp.startUniqueOffsetID
+                bassNumerator += compLength
+
+        self.bassScore = bassNumerator / self.totalLength
+
+    def proportionSimilarity(self, comp, query):
+        '''
+        Approximate measure of the 'similarity' between a
+        reference comparison object (Roman numeral, etc) and query (actual slice in score).
+
+        Returns the proportion of score pitches accounted for.
+
+        Note:
+        This does not limit to distinct pitches: it returns a better score for multiple tonics, for instance.
+        '''
+        # TODO: Penatly for notes in the RN not used? Not here, only overall.
+        # NOTE: multiplication by the beat strength handled in another function.
+
+        if len(query) == 0:
+            self.errorLog.append(
+                f'Roman numeral {comp.figure} in {comp.key}, m.{comp.measure}: '+
+                'No pitches in one of the slices.'
+                )
+            return 0
+
+        intersection = [x for x in query if x in comp.pitches]
+        proportion = len(intersection) / len(query)
+        return proportion
+
 # ------------------------------------------------------------------------------
 
 # Feedback:
@@ -443,6 +501,7 @@ class ScoreAndAnalysis:
             if len(self.pitchFeedback) == 0:
                 allToPrint.append('The pitch coverage looks good: your choice of chords match the corresponding sections of the score well.\n')
             else:  # if len(self.pitchFeedback) > 0:
+                allToPrint.append(f'I rate the pitch coverage at about {self.pitchScore}%.\n')
                 allToPrint.append('In these cases, the chord indicated does not seem to capture everything going on:\n')
                 for fb in self.pitchFeedback:
                     if len(fb.suggestions) > 0:
@@ -455,7 +514,7 @@ class ScoreAndAnalysis:
                         if constructiveOnly == False:
                             allToPrint.append(fb.message)
                             allToPrint.append(fb.matchStrength)
-                            allToPrint.append('Sorry, no suggestions - I can\'t find any triads of sevenths.\n')
+                            allToPrint.append('Sorry, no suggestions - I can\'t find any triads or sevenths.\n')
                         # if constructiveOnly == True, print nothing
 
         if metre == True:
@@ -474,6 +533,7 @@ class ScoreAndAnalysis:
             if len(self.bassFeedback) == 0:
                 allToPrint.append('The inversions look good: the bass notes indicated by your Roman numerals do indeed appears at least once in the lowest part during the relevant span.\n')
             else:  # len(self.bassFeedback) > 0:
+                allToPrint.append(f'I rate the bass notes at about {round(self.bassScore * 100, 2)}%.\n')
                 allToPrint.append('The following chords look ok, except for the bass note / inversion. (NB: pedals are not currently supported):\n')
                 for fb in self.bassFeedback:
                     if len(fb.suggestions) > 0:
@@ -496,21 +556,6 @@ class ScoreAndAnalysis:
 # ------------------------------------------------------------------------------
 
 # Static
-
-def proportionSimilarity(reference, query):
-    '''
-    Approximate measures of similarity between a
-    reference (Roman numeral) and query (actual slice in score).
-
-    Proportion of score pitches accounted for,
-    multiplied by the beat strength (externally - not in this function).
-    '''
-    # TODO: Penatly for notes in the RN not used? Not here, only overall.
-    # NOTE: multiplication by the beat strength handled in another function.
-
-    intersection = [x for x in query if x in reference]  # Not distinct pitches: better score for multiple tonics, for instance
-    proportion = len(intersection) / len(query)
-    return proportion
 
 def intBeat(beat):
     '''Beats as integers, or rounded decimals'''
