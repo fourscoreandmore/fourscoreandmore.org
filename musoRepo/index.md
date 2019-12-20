@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'MusoRepo': a Directory of Resources for Computational Musicology
+title: 'MusoRepo: a Directory of Resources for Computational Musicology'
 ---
 
 This is a list of links to resources for computational musicology, with a focus on working with symbolic scores.
@@ -82,7 +82,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Kunst der Fuge](http://www.kunstderfuge.com/) - crowd-sourced, restrictions on download-at-scale
 * [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/)
 * [MAESTRO (MIDI and Audio Edited for Synchronous TRacks and Organization)](https://magenta.tensorflow.org/datasets/maestro) - piano performances with fine alignment between note labels and audio waveforms.
-* The "Midi man" collection. 130,000 Midi Files across all genres. See [this article](https://www.reddit.com/r/datasets/comments/3akhxy/the_largest_midi_collection_on_the_internet/) and [this website](https://mega.nz/#!Elg1TA7T!MXEZPzq9s9YObiUcMCoNQJmCbawZqzAkHzY4Ym6Gs_Q)
+* The 'Midi man' collection. 130,000 Midi Files across all genres. See [this article](https://www.reddit.com/r/datasets/comments/3akhxy/the_largest_midi_collection_on_the_internet/) and [this website](https://mega.nz/#!Elg1TA7T!MXEZPzq9s9YObiUcMCoNQJmCbawZqzAkHzY4Ym6Gs_Q)
 
 ### Scores as images (not encoded)
 
@@ -120,9 +120,9 @@ Please do reach out if you would like to contribute an item to this list, or if 
 ### Edition
 
 * [Digitale Musikedition](www.edirom.de) - based on Frans Wiering’s idea of a “multidimensional model” of a musical edition
-* [“Freischütz Digital”](www.freischuetz-digital.de)
+* [Freischütz Digital](www.freischuetz-digital.de)
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
-* [“OPERA”](www.opera.adwmainz.de/informationen.html)
+* [OPERA](www.opera.adwmainz.de/informationen.html)
 * [Tido](https://www.tido-music.com/) - [not free]
 
 ### Notation / Engraving / Score Rendering
@@ -174,7 +174,7 @@ In addition to which:
 * [musictheory.net](https://www.musictheory.net) - Lessons and exercises
 * [Music Theory Practice](https://music-theory-practice.com) and their [external recommendations](https://music-theory-practice.com/best-online-music-theory-courses.html)
 * [Music Theory Tutor](http://musictheorytutor.weebly.com/index.html) - free lessons over video conferencing
-* [OpenMusicTheory](http://openmusictheory.com/) - a growing, online "textbook" for music theory and aural skills.
+* [OpenMusicTheory](http://openmusictheory.com/) - a growing, online 'textbook' for music theory and aural skills.
 * [nSpireMe](www.nspireme.co.uk) - [not free]
 * [SmartMusic](https://www.smartmusic.com) - [not free]
 
@@ -182,6 +182,7 @@ In addition to which:
 
 * [Audio Timeliner](http://www.singanewsong.org/audiotimeliner/) [not free]
 * [Dezrann](http://www.dezrann.net/)
+* [Marcomusy’s 'pianoplayer'](https://github.com/marcomusy/pianoplayer) — automatic fingering for any xml score
 * [mdecks](https://mdecks.com/mapharmony.phtml) [not free]
 * [Peachnote](https://www.peachnote.de/) - apps including [Tuttitempi](https://tuttitempi.com/): Score-aligned visualisation of the tempi used in multiple recordings.
 * [Music Connection Machine](http://www.musicconnectionmachine.org/)
@@ -221,6 +222,7 @@ In addition to which:
 ### Other gatherings and international organisations
 
 * [Classical Music Hackdays](http://www.classicalmusichackday.org/#rec14632470)
+* [Digital Music Research Network](http://c4dm.eecs.qmul.ac.uk/dmrn/index.html)
 * [International Association of Music Libraries, Archives and Documentation Centres (IAML)](http://www.iaml.info/)
 * [MIREX](https://www.music-ir.org/mirex/wiki/MIREX_HOME)
 * [MusicMesse, Frankfurt am Main](https://musik.messefrankfurt.com/frankfurt/en.html) - music industry 'trade fair'
