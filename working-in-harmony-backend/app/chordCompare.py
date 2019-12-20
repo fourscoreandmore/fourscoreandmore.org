@@ -22,7 +22,7 @@ that take place during the span in question and assessing the 'fit'.
 
 Currently, the comparisons involve simple metrics for the:
 - proportion of notes in the score matching the corresponding Roman numeral (weighed by length);
-- (unusally weak) metrical positions of chord changes; and
+- (unusually weak) metrical positions of chord changes; and
 - presence in the score of the bass note asserted by the inversion.
 
 Feedback is available in any or all of those areas, and can be set to flag up either
@@ -200,10 +200,10 @@ class ScoreAndAnalysis:
             self.errorLog.append(f'checkMonotonicIncrease fail on measure numbers: {measure}.')
             return False
 
-            if measure == self.lastMeasure:
-                if beat < self.lastBeat:
-                    self.errorLog.append(f'checkMonotonicIncrease fail on beat number (same measure): {beat}.')
-                    return False
+        if measure == self.lastMeasure:
+            if beat < self.lastBeat:
+                self.errorLog.append(f'checkMonotonicIncrease fail on beat number (same measure): {beat}.')
+                return False
 
         return True
 

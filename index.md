@@ -48,7 +48,7 @@ Clearly, Four Score and More can only provide for part of your music theory need
 
 ... and we are not the only group applying computational approaches to music in interesting ways.
 
-For more links and information on both, please see our ['Muso Repo' page]((/musoRepo).
+For more links and information on both, please see our ['Muso Repo' page](/musoRepo).
 
 ## Four Score For-Profit
 
