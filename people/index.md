@@ -21,6 +21,9 @@ Here is some info on them:
 ### Cut Outs
 - [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
 
+### Harp
+- This interactive guide to the pitch properties of the pedal harp was developed by Iain Gunn and I in 2016 and first published as part of a paper for [Music Theory Online](http://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.gotham.html).
+
 ### Species
 - These files are based on public domain transcriptions by [Jay Wilson](https://musescore.com/user/43726/) and (like most of our offerings) made using code built on top of the [music21 library](http://web.mit.edu/music21/). Thank you Jay! Thank you music21!
 
