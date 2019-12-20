@@ -5,6 +5,25 @@ title: 'Scores of Scores'
 
 The 'Scores of Scores' lieder corpus encoding project is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
 
+## Stop press! News for 2019-2020
+
+The 'Scores of Scores' project has developed a life of its own, happily continuing beyond the formal end of the initial project, thanks largely to the super-human efforts of Dan Rootham.
+We have just received funding from the Central New York Humanities Corridor to run a second formal round running up International Women’s Day (March 8) 2020.
+Naturally, the task for that occasion would be to push further the provision of songs by the women composers, completing those for which we have templates, and hopefully extending further!
+As well as the Central New York Humanities Corridor, this is also in collaboration with the magnificent [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com) website.
+Additionally, this time, as well as scores, we are also running a parallel collection of harmonic analyses.
+We'd better call this second round 'Scores More Score', don't you think?
+Thanks as always to our wonderful team, associates, collaborators and funders.
+
+<div class="image-collection">
+  <a href="https://musictheoryexamplesbywomen.com">
+    <img src="/images/MTEW.png" alt="MTEW Logo" width="240">
+  </a>
+  <a href="https://www.cnycorridor.net">
+    <img src="/images/CNYHC_logo-2019.svg" alt="CNYHC Logo" width="240">
+  </a>
+</div>
+
 ## Menu
 
 1. This page (an introduction).
