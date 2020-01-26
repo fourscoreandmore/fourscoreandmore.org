@@ -1,11 +1,10 @@
 ---
 layout: post
-title: 'Lieder Corpus Project'
+title: 'Notes for Transcribers'
 ---
 
 _Part of [Scores of Scores](/scores-of-scores)._
 
-Notes for Transcribers
 ---
 
 Welcome!
@@ -31,7 +30,7 @@ This is an important candidate repertoire for transcription for many reasons:
 
   - The repertoire needs to exist in multiple keys to support different singers’ ranges. Encoded formats give full flexibility.
 
-  - It is a key repertoire for the teaching of music theory for various reasons (about which see also our parallel work-in-progress [Project 2, Cut Outs](https://fourscoreandmore.org/cut-outs/), not least of which being that it’s a great way to improve the representation of women composers on the syllabus.
+  - It is a key repertoire for the teaching of music theory for various reasons (about which see also our parallel work-in-progress [Cut Outs](https://fourscoreandmore.org/cut-outs/), not least of which being that it’s a great way to improve the representation of women composers on the syllabus.
 
   - The encoding of vocal lines and text is already well underway thanks to another, previous para-academic project which has provide the starting point here.
 
@@ -116,10 +115,11 @@ If in doubt, refer to OpenScore's general [Tips for Transcribers](https://musesc
 
 The wonderful team of Lieder Corpus Project Managers includes:
 - Dan Rootham ([DanielR](https://musescore.com/danielr))
+- Mike Nelson ([mike320](https://musescore.com/mike320))
 
 The Supervisors are:
 
 - Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore Manager
-- [Mark Gotham](https://www.mus.cam.ac.uk/directory/mark-gotham) - Principal Investigator
+- [Mark Gotham](/people/MG_bio.md) - Principal Investigator
 
 Many thanks for being a part of this initiative. Here’s to a great encoded corpus in the making!

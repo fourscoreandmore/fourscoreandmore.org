@@ -9,4 +9,4 @@ This is the repository for the [**fourscoreandmore.org**](https://fourscoreandmo
 * Pull requests are automatically built as Platform.sh development branches.
 * Merged PRs, and other commits to the `master` branch, are automatically built and deployed to production (within a couple of minutes).
 
-© 2019 Four Score and More. Some rights reserved.
+© 2020 Four Score and More. Some rights reserved.

@@ -5,13 +5,18 @@ title: 'Scores of Scores'
 
 The 'Scores of Scores' lieder corpus encoding project is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
 
-## Stop press! News for 2019-2020
+## Stop press! News for 2020
 
 The 'Scores of Scores' project has developed a life of its own, happily continuing beyond the formal end of the initial project, thanks largely to the super-human efforts of Dan Rootham.
-We have just received funding from the Central New York Humanities Corridor to run a second formal round running up International Women’s Day (March 8) 2020.
-Naturally, the task for that occasion would be to push further the provision of songs by the women composers, completing those for which we have templates, and hopefully extending further!
-As well as the Central New York Humanities Corridor, this is also in collaboration with the magnificent [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com) website.
-Additionally, this time, as well as scores, we are also running a parallel collection of harmonic analyses.
+We are now pleased to announce a second formal round centered on International Women’s Day (March 8) 2020.
+Our focus is to advance our collection of songs by women composers, completing those sets began, and extending further.
+We aim to reach a total of 500 songs in the corpus, and to be the first substantial CC0 corpus with parity of gender.
+
+This 2020 edition is funded by the Central New York Humanities Corridor and is in collaboration with the magnificent [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com) website and the [Eastman School of Music](https://www.esm.rochester.edu).
+
+Additionally, this time, as well as the scores, we are also running a parallel collection of harmonic analyses.
+[Here](/working-in-harmony/analysis) are the new notes for analysts.
+
 We'd better call this second round 'Scores More Score', don't you think?
 Thanks as always to our wonderful team, associates, collaborators and funders.
 
@@ -27,9 +32,10 @@ Thanks as always to our wonderful team, associates, collaborators and funders.
 ## Menu
 
 1. This page (an introduction).
-2. The [Notes for transcribers](/scores-of-scores/lieder-corpus-project)
-3. ['Learn by Doing Lieder Transcription': Exercises for Intrepid Students](/scores-of-scores/learn-by-doing)
-4. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
+1. [Notes for transcribers](/scores-of-scores/lieder-corpus-project)
+1. ['Learn by Doing Lieder Transcription': Exercises for Intrepid Students](/scores-of-scores/learn-by-doing)
+1. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
+1. [Notes for analysts](/working-in-harmony/analysis)
 
 ## Overview and motivation
 
