@@ -1,0 +1,855 @@
+<html>
+  <head>
+    <title>Harp</title>
+    <meta content="">
+    <style></style>
+
+    <script>
+
+//List of sets: [Prime form]; Forte name; interval vector; Number of combinations; 'Q' (splits entries).
+var bigstring = ';4-1;<321000>;Q;4-2;<221100>;Q;4-3;<212100>;Q;4-4;<211110>;Q;4-5;<210111>;Q;4-6;<210021>;Q;4-7;<201210>;Q;4-8;<200121>;Q;4-9;<200022>;Q;4-10;<122010>;Q;4-11;<121110>;Q;4-12;<112101>;Q;4-13;<112011>;Q;4-14;<111120>;Q;4-Z15;<111111>;Q;4-Z29;<111111>;Q;4-16;<110121>;Q;4-17;<102210>;Q;4-18;<102111>;Q[0,1,4,8];4-19;<101310>; 4;Q[0,1,5,8];4-20;<101220>; 8Q;4-21;<030201>;Q;4-22;<021120>;Q;4-23;<021030>;Q[0,2,4,8];4-24;<020301>; 1Q;4-25;<020202>;Q[0,3,5,8];4-26;<012120>; 10Q[0,2,5,8];4-27;<012111>; 16Q[0,3,6,9];4-28;<004002>; 3Q;5-1;<432100>;Q;5-2;<332110>;Q;5-3;<322210>;Q;5-4;<322111>;Q;5-5;<321121>;Q;5-6;<311221>;Q;5-7;<310132>;Q;5-8;<232201>;Q;5-9;<231211>;Q;5-10;<223111>;Q;5-11;<222220>;Q;5-Z12;<222121>;Q;5-Z36;<222121>;Q[0,1,2,4,8];5-13;<221311>; 2Q;5-14;<221131>;Q;5-15;<220222>;Q;5-16;<213211>;Q[0,1,3,4,8];5-Z17;<212320>; 4Q[0,3,4,5,8];5-Z37;<212320>; 7Q;5-Z18;<212221>;Q[0,1,2,5,8];5-Z38;<212221>; 14Q;5-19;<212122>;Q[0,1,3,7,8];5-20;<211231>; 40Q[0,1,4,5,8];5-21;<202420>; 24Q[0,1,4,7,8];5-22;<202321>; 16Q;5-23;<132130>;Q;5-24;<131221>;Q[0,2,3,5,8];5-25;<123121>; 28Q[0,2,4,5,8];5-26;<122311>; 22Q[0,1,3,5,8];5-27;<122230>; 36Q[0,2,3,6,8];5-28;<122212>; 32Q[0,1,3,6,8];5-29;<122131>; 44Q[0,1,4,6,8];5-30;<121321>; 34Q[0,1,3,6,9];5-31;<114112>; 44Q[0,1,4,6,9];5-32;<113221>; 56Q[0,2,4,6,8];5-33;<040402>; 14Q[0,2,4,6,9];5-34;<032221>; 33Q[0,2,4,7,9];5-35;<032140>; 45Q;6-1;<543210>;Q;6-2;<443211>;Q;6-Z3;<433221>;Q;6-Z36;<433221>;Q;6-Z4;<432321>;Q[0,1,2,3,4,8];6-Z37;<432321>; 1Q;6-5;<422232>;Q;6-Z6;<421242>;Q[0,1,2,3,7,8];6-Z38;<421242>; 12Q;6-7;<420243>;Q;6-8;<343230>;Q;6-9;<342231>;Q;6-Z10;<333321>;Q[0,2,3,4,5,8];6-Z39;<333321>; 8Q;6-Z11;<333231>;Q[0,1,2,3,5,8];6-Z40;<333231>; 14Q;6-Z12;<332232>;Q[0,1,2,3,6,8];6-Z41;<332232>; 22Q;6-Z13;<324222>;Q[0,1,2,3,6,9];6-Z42;<324222>; 8Q[0,1,3,4,5,8];6-14;<323430>; 14Q[0,1,2,4,5,8];6-15;<323421>; 16Q[0,1,4,5,6,8];6-16;<322431>; 18Q[0,1,2,4,7,8];6-Z17;<322332>; 26Q[0,1,2,5,6,8];6-Z43;<322332>; 30Q[0,1,2,5,7,8];6-18;<322242>; 38Q[0,1,3,4,7,8];6-Z19;<313431>; 28Q[0,1,2,5,6,9];6-Z44;<313431>; 44Q[0,1,4,5,8,9];6-20;<303630>; 12Q[0,2,3,4,6,8];6-21;<242412>; 12Q[0,1,2,4,6,8];6-22;<241422>; 24Q[0,2,3,5,6,8];6-Z23;<234222>; 10Q[0,2,3,4,6,9];6-Z45;<234222>; 15Q[0,1,3,4,6,8];6-Z24;<233331>; 26Q[0,1,2,4,6,9];6-Z46;<233331>; 32Q[0,1,3,5,6,8];6-Z25;<233241>; 40Q[0,1,2,4,7,9];6-Z47;<233241>; 50Q[0,1,3,5,7,8];6-Z26;<232341>; 26Q[0,1,2,5,7,9];6-Z48;<232341>; 35Q[0,1,3,4,6,9];6-27;<225222>; 40Q[0,1,3,5,6,9];6-Z28;<224322>; 29Q[0,1,3,4,7,9];6-Z49;<224322>; 30Q[0,1,3,6,8,9];6-Z29;<224232>; 36Q;6-Z29;<224232>;Q[0,1,4,6,7,9];6-Z50;<224232>; 40Q[0,1,3,6,7,9];6-30;<224223>; 40Q[0,1,3,5,8,9];6-31;<223431>; 78Q;6-31;<223431>;Q[0,2,4,5,7,9];6-32;<143250>; 38Q[0,2,3,5,7,9];6-33;<143241>; 80Q[0,1,3,5,7,9];6-34;<142422>; 90Q[0,2,4,6,8,10];6-35;<060603>; 9Q;7-1;<654321>;Q;7-2;<554331>;Q;7-3;<544431>;Q;7-4;<544332>;Q;7-5;<543342>;Q[0,1,2,3,4,7,8];7-6;<533442>; 2Q[0,1,2,3,6,7,8];7-7;<532353>; 20Q[0,2,3,4,5,6,8];7-8;<454422>; 1Q[0,1,2,3,4,6,8];7-9;<453432>; 2Q[0,1,2,3,4,6,9];7-10;<445332>; 2Q[0,1,3,4,5,6,8];7-11;<444441>; 8Q[0,1,2,3,4,7,9];7-Z12;<444342>; 1Q[0,1,2,3,5,6,8];7-Z36;<444342>; 8Q[0,1,2,4,5,6,8];7-13;<443532>; 10Q[0,1,2,3,5,7,8];7-14;<443352>; 14Q[0,1,2,4,6,7,8];7-15;<442443>; 10Q[0,1,2,3,5,6,9];7-16;<435432>; 8Q[0,1,2,4,5,6,9];7-Z17;<434541>; 5Q[0,1,3,4,5,7,8];7-Z37;<434541>; 7Q[0,1,2,3,5,8,9];7-Z18;<434442>; 22Q[0,1,2,4,5,7,8];7-Z38;<434442>; 16Q[0,1,2,3,6,7,9];7-19;<434343>; 22Q[0,1,2,4,7,8,9];7-20;<433452>; 40Q;7-20;<433452>;Q[0,1,2,4,5,8,9];7-21;<424641>; 30Q[0,1,2,5,6,8,9];7-22;<424542>; 21Q[0,2,3,4,5,7,9];7-23;<354351>; 16Q[0,1,2,3,5,7,9];7-24;<353442>; 16Q[0,2,3,4,6,7,9];7-25;<345342>; 24Q[0,1,3,4,5,7,9];7-26;<344532>; 24Q[0,1,2,4,5,7,9];7-27;<344451>; 24Q[0,1,3,5,6,7,9];7-28;<344433>; 34Q[0,1,2,4,6,7,9];7-29;<344352>; 34Q[0,1,2,4,6,8,9];7-30;<343542>; 36Q[0,1,3,4,6,7,9];7-31;<336333>; 32Q[0,1,3,4,6,8,9];7-32;<335442>; 38Q[0,1,2,4,6,8,10];7-33;<262623>; 15Q[0,1,3,4,6,8,10];7-34;<254442>; 17Q[0,1,3,5,6,8,10];7-35;<254361>; 20'
+
+       var lines = bigstring.split("Q");
+
+	var splitlines = new Array(lines.length);
+
+      for(var i=0;i<lines.length;i++){
+	splitlines[i]=lines[i].split(";");
+      }
+
+      var pedal = new Array();
+      for(var i=0;i<7;i++){
+	pedal[i]=1;
+      }
+
+      var notename = ["D","C","B","E","F","G","A"];
+
+      var order = [1,0,3,4,5,6,2];
+
+      var scaleorder = [1,0,6,2,3,4,5];
+
+      var pitch = [2,0,11,4,5,7,9];
+
+      var interval = [2,2,1,2,2,2,1];
+
+      var distinctno = 7;
+
+      function sortrow(a,b){
+	for(var i=0;i<distinctno;i++){
+	  if(a[i]<b[i]){
+	    return -1;
+	  }
+	  if(a[i]>b[i]){
+	    return 1;
+	  }
+	}
+	return 0;
+      }
+
+      function up(i){
+	pedal[i]+=1;
+	pitch[i]+=1;
+	pitch[i]%=12;
+	interval[scaleorder[i]]-=1;
+	interval[(scaleorder[i]+6)%7]+=1;
+	document.getElementById("pedal"+i).innerHTML=notename[i];
+	document.getElementById("2pedal"+i).innerHTML=notename[i];
+	document.getElementById("pitch"+i).innerHTML=pitch[i];
+	document.getElementById("interval"+scaleorder[i]).innerHTML=interval[scaleorder[i]];
+	document.getElementById("interval"+((scaleorder[i]+6)%7)).innerHTML=interval[(scaleorder[i]+6)%7];
+	if(pedal[i]==2){
+	  document.getElementById("up"+i).disabled=true;
+	  document.getElementById("pedal"+i).innerHTML=notename[i]+'#';
+	  document.getElementById("2pedal"+i).innerHTML=notename[i]+'#';
+	}
+	document.getElementById("down"+i).disabled=false;
+	rewritedistinct();
+	rewritedestinations();
+      }
+
+      function primeform(arr){
+	distinctno = 7;
+	for(var i=0;i<7;i++){
+	  for(var j=i+1;j<7;j++){
+	    if(arr[i]==arr[j]){
+	      distinctno -=1;
+	      j=7;
+	    }
+	  }
+	}
+
+	var distinct = new Array(distinctno);
+	distinct[0]=arr[0];
+	for(var i=1;i<distinctno;i++){
+	  for(var j=i;j<7;j++){
+	    var flag = 0;
+	    for(var k=0;k<i;k++){
+	      if(arr[j]==distinct[k]){
+		flag=1;
+		k=i;
+	      }
+	    }
+	    if(flag==0){
+	      distinct[i]=arr[j];
+	      j=7;
+	    }
+	  }
+	}
+
+	distinct.sort(function(a,b){return a-b});
+
+	var matrix = new Array(distinctno);
+	for(var i=0;i<distinctno;i++){
+	  matrix[i] = new Array(distinctno);
+	}
+
+	for(var i=0;i<distinctno;i++){
+//the rows of the matrix are cyclic permutations of the pitch differences:
+	  for(var j=1;j<distinctno-1;j++){
+	    matrix[i][j] = distinct[(i+j)%distinctno]-distinct[i];
+	    if(matrix[i][j]<0){
+	      matrix[i][j]+=12;
+	    }
+
+	  }
+	  matrix[i][distinctno-1]=i;//label the row with row no.
+	  if(i!=0){
+	    matrix[i][0] = distinct[i-1]-distinct[i]+12;
+	  }
+	}
+	matrix[0][0]=distinct[distinctno-1] - distinct[0];
+
+	matrix.sort(sortrow);
+
+
+//Record the normal form (prime without inverisons):
+      
+	var t=matrix[0][distinctno-1];
+	var primenoinversionarray = new Array(distinctno);
+	for(var i=0;i<distinctno;i++){
+	  primenoinversionarray[i]=distinct[(i+t)%distinctno] - distinct[t];
+	}
+	for(var i=1;i<distinctno;i++){
+	  if(primenoinversionarray[i]<primenoinversionarray[i-1]){
+	    primenoinversionarray[i]+=12;
+	  }
+	}
+
+//Now consider inversions (record prime form):
+
+	var inverted = new Array(distinctno);
+
+	inverted[0] = 0;
+
+	for(var i=1;i<distinctno;i++){
+	  inverted[i] = (12 - distinct[distinctno - i] + distinct[0])%12;
+	}
+ 
+	for(var i=0;i<distinctno;i++){
+	  for(var j=1;j<distinctno-1;j++){
+	    matrix[i][j] = inverted[(i+j)%distinctno]-inverted[i];
+	    if(matrix[i][j]<0){
+	      matrix[i][j]+=12;
+	    }
+
+	  }
+	  matrix[i][distinctno-1]=i;//label the row with row no.
+	  if(i!=0){
+	    matrix[i][0] = inverted[i-1]-inverted[i]+12;
+	  }
+	}
+      matrix[0][0]=inverted[distinctno-1] - inverted[0];
+      
+
+      matrix.sort(sortrow);
+
+      t=matrix[0][distinctno-1];
+      var parray = new Array(distinctno);
+      for(var i=0;i<distinctno;i++){
+	parray[i]=inverted[(i+t)%distinctno] - inverted[t];
+      }
+      for(var i=1;i<distinctno;i++){
+	if(parray[i]<parray[i-1]){
+	  parray[i]+=12;
+	}
+      }
+
+      var comparisonmatrix = new Array(2);
+
+      comparisonmatrix[0] = new Array(distinctno);
+      comparisonmatrix[1] = new Array(distinctno);
+
+      for(var i=1;i<distinctno;i++){
+	comparisonmatrix[0][i] = primenoinversionarray[i];
+	comparisonmatrix[1][i] = parray[i]
+      }
+
+      comparisonmatrix.sort(sortrow);
+
+      for(var i=1;i<distinctno;i++){
+	parray[i] = comparisonmatrix[0][i];
+      }
+
+      return parray;
+      }
+
+      function down(i){
+	pedal[i]-=1;
+	pitch[i]-=1;
+	if(pitch[i]<0){
+	  pitch[i]+=12;
+	}
+	interval[scaleorder[i]]+=1;
+	interval[(scaleorder[i]+6)%7]-=1;
+	document.getElementById("pedal"+i).innerHTML=notename[i];
+	document.getElementById("2pedal"+i).innerHTML=notename[i];
+	document.getElementById("pitch"+i).innerHTML=pitch[i];
+	document.getElementById("interval"+scaleorder[i]).innerHTML=interval[scaleorder[i]];
+	document.getElementById("interval"+((scaleorder[i]+6)%7)).innerHTML=interval[(scaleorder[i]+6)%7];
+	if(pedal[i]==0){
+	  document.getElementById("down"+i).disabled=true;
+	  document.getElementById("pedal"+i).innerHTML=notename[i]+'b';
+	  document.getElementById("2pedal"+i).innerHTML=notename[i]+'b';
+	}
+	document.getElementById("up"+i).disabled=false;
+	rewritedistinct();
+	rewritedestinations();
+      }
+
+      function rewritedestinations(){
+	for(var i=0;i<7;i++){
+	  var updestination = new Array(7);
+	  var downdestination = new Array(7);
+	  for(var j=0;j<7;j++){
+	    updestination[j] = pitch[j];
+	    downdestination[j] = pitch[j];
+	  }
+	  updestination[i] = (updestination[i]+1)%12;
+	  downdestination[i] = (downdestination[i]+11)%12;
+	  var upd = primeform(updestination);
+
+	  var destinationstring = '[';
+	  destinationstring += upd[0];
+	  for(var j=1;j<distinctno;j++){
+	    destinationstring += ',';
+	    destinationstring += upd[j];
+	  }
+	  destinationstring += ']';
+//	  window.alert(destinationstring);
+	  if(pedal[i]==2){
+	    destinationstring='-';
+	  }
+	  document.getElementById("updestination"+i).innerHTML=destinationstring;
+
+	  //Update columns at bottom:
+	  for(var j=0;j<lines.length;j++){
+	    if(splitlines[j][0]==destinationstring){
+	      var fortename = splitlines[j][1];
+	      //Immediately available destinations in bold.
+	      if(document.getElementById("FN"+j).innerHTML=="<b>"+fortename+"</b>"){// if already bolded as an "down" destination
+		document.getElementById("FN"+j).innerHTML="<b>"+fortename+" (x2)</b>";
+	      } else if(document.getElementById("FN"+j).innerHTML==fortename) {// if not bolded at all
+		document.getElementById("FN"+j).innerHTML="<b>"+fortename+"</b>";
+	      } else {// if bolded multiple times
+		for(var k=2;k<15;k++){
+		  if(document.getElementById("FN"+j).innerHTML=="<b>"+fortename+" (x"+k+")</b>"){
+		     document.getElementById("FN"+j).innerHTML="<b>"+fortename+" (x"+(k+1)+")</b>";
+		     k=16;
+		  }
+		}
+	      }
+	      j = lines.length;
+	    }
+	  }
+	  
+	  var downd = primeform(downdestination);
+
+	  destinationstring = '[';
+	  destinationstring += downd[0];
+	  for(var j=1;j<distinctno;j++){
+	    destinationstring += ',';
+	    destinationstring += downd[j];
+	  }
+	  destinationstring += ']';
+
+	  if(pedal[i]==0){
+	    destinationstring='-';
+	  }
+	  document.getElementById("downdestination"+i).innerHTML=destinationstring;
+
+	  //Update columns of the chart:
+	  for(var j=0;j<lines.length;j++){
+	    if(splitlines[j][0]==destinationstring){
+	      var fortename = splitlines[j][1];
+	      if(document.getElementById("FN"+j).innerHTML=="<b>"+fortename+"</b>"){// if already bolded as an "up" destination
+		document.getElementById("FN"+j).innerHTML="<b>"+fortename+" (x2)</b>";
+	      } else if(document.getElementById("FN"+j).innerHTML==fortename) {// if not bolded at all
+		document.getElementById("FN"+j).innerHTML="<b>"+fortename+"</b>";
+	      } else {// if bolded multiple times
+		for(var k=2;k<15;k++){
+		  if(document.getElementById("FN"+j).innerHTML=="<b>"+fortename+" (x"+k+")</b>"){
+		     document.getElementById("FN"+j).innerHTML="<b>"+fortename+" (x"+(k+1)+")</b>";
+		     k=16;
+		  }
+		}
+	      }
+	      j = lines.length;
+	    }
+	  }
+
+	  
+	}
+      }
+
+      function rewritedistinct(){
+      
+	distinctno = 7;
+	for(var i=0;i<7;i++){
+	  for(var j=i+1;j<7;j++){
+	    if(pitch[i]==pitch[j]){
+	      distinctno -=1;
+	      j=7;
+	    }
+	  }
+	}
+	document.getElementById("nodistinct").innerHTML=distinctno;
+
+	var distinct = new Array(distinctno);
+	distinct[0]=pitch[0];
+	for(var i=1;i<distinctno;i++){
+	  for(var j=i;j<7;j++){
+	    var flag = 0;
+	    for(var k=0;k<i;k++){
+	      if(pitch[j]==distinct[k]){
+		flag=1;
+		k=i;
+	      }
+	    }
+	    if(flag==0){
+	      distinct[i]=pitch[j];
+	      j=7;
+	    }
+	  }
+	}
+
+	distinct.sort(function(a,b){return a-b});
+
+	var distinctstring = '[';
+	distinctstring += distinct[0]
+	for(var i=1;i<distinctno;i++){
+	  distinctstring +=',';
+	  distinctstring += distinct[i];
+	}
+	distinctstring += ']';
+
+      document.getElementById("distinct").innerHTML=distinctstring;
+
+      var matrix = new Array(distinctno);
+      for(var i=0;i<distinctno;i++){
+	matrix[i] = new Array(distinctno);
+      }
+
+      for(var i=0;i<distinctno;i++){
+//the rows of the matrix are cyclic permutations of the pitch differences:
+	for(var j=1;j<distinctno-1;j++){
+	  matrix[i][j] = distinct[(i+j)%distinctno]-distinct[i];
+	  if(matrix[i][j]<0){
+	    matrix[i][j]+=12;
+	  }
+
+	}
+	matrix[i][distinctno-1]=i;//label the row with row no.
+	if(i!=0){
+	  matrix[i][0] = distinct[i-1]-distinct[i]+12;
+	}
+      }
+      matrix[0][0]=distinct[distinctno-1] - distinct[0];
+
+      matrix.sort(sortrow);
+
+
+//Normal order:
+      
+      var t=matrix[0][distinctno-1];
+      var primenoinversionarray = new Array(distinctno);
+      for(var i=0;i<distinctno;i++){
+	primenoinversionarray[i]=distinct[(i+t)%distinctno] - distinct[t];
+      }
+      for(var i=1;i<distinctno;i++){
+	if(primenoinversionarray[i]<primenoinversionarray[i-1]){
+	  primenoinversionarray[i]+=12;
+	}
+      }
+
+	var primestring = '[';
+	primestring += primenoinversionarray[0];
+//	primestring += matrix[2][0];
+	for(var i=1;i<distinctno;i++){
+	  primestring += ',';
+	  primestring += primenoinversionarray[i];
+//	  primestring += matrix[2][i];
+	}
+	primestring += ']';
+
+      document.getElementById("primenoinversions").innerHTML=primestring;
+
+//Now consider inversions:
+
+      var parray = primeform(pitch);
+
+	primestring = '[';
+	primestring += parray[0];
+//	primestring += matrix[2][0];
+	for(var i=1;i<distinctno;i++){
+	  primestring += ',';
+	  primestring += parray[i];
+//	  primestring += matrix[2][i];
+	}
+	primestring += ']';
+      document.getElementById("prime").innerHTML=primestring;
+
+      
+//Update the 'Pitch class set chart' columns.
+      
+//First, rewrite the table at the bottom so all entries are non-bold:
+	for(var i=0;i<lines.length;i++){
+	  document.getElementById("FN"+i).style = "";
+	  document.getElementById("FN"+i).innerHTML=splitlines[i][1];
+	}
+      
+      for(var i=0;i<lines.length;i++){
+	if(splitlines[i][0]==primestring){
+	  var fortename = splitlines[i][1];
+	  var intervalvector = splitlines[i][2];
+	  var numberofsettings = splitlines[i][3];
+	  document.getElementById("FN"+i).style = "color:red";
+//	  document.getElementById("FN"+i).innerHTML="<b>"+fortename+"</b>"; //Not in bold unless it's a destination.
+	  i = lines.length;
+	}
+      }
+
+      document.getElementById("fortename").innerHTML=fortename;
+      document.getElementById("intervalvector").innerHTML=intervalvector;
+      document.getElementById("numberofsettings").innerHTML=numberofsettings;
+    
+//And finally, count and record the number of sharps and flats:
+      var sharps = 0;
+      var flats = 0;
+      for(var i=0;i<7;i++){
+	if(pedal[i]==0){
+	  flats = flats + 1;
+	}
+	if(pedal[i]==2){
+	  sharps = sharps + 1;
+	}
+      }
+      var total = sharps + flats;
+      document.getElementById("nosharpsflats").innerHTML="("+sharps+","+flats+","+total+")";
+      
+      
+    }// end of function rewritedistinct
+
+    </script>
+  </head>
+
+  <body>
+  <script>
+
+
+// Block 1: Pedal configuration (buttons with note names in harp order).
+
+  document.write('<h1>Pedal configuration:</h1>');
+  document.write('<div style="float:top">');
+   for(var i=0;i<3;i++){
+      document.write('<div id="'+i+'pedal" style="float:left; padding: 10px; min-width: 100px">');
+      document.write('<center>');
+      document.write('<div style="float:top" id = "updestination'+i+'">Placeholder</div>');
+      document.write('<div style="float:top"><button id="up'+i+'" onclick="up('+i+')">sharpen</button></div>');
+      document.write('<div id="pedal'+i+'" style="float:top">'+notename[i]+'</div>');
+      document.write('<div style="float:top"><button id="down'+i+'" onclick="down('+i+')">flatten</button></div>');
+      document.write('<div style="float:top" id="downdestination'+i+'">Placeholder</div>');
+      document.write('</center>');
+      document.write('</div>');
+   }
+   document.write('<div style="float:left">');
+   document.write('<center>');
+   document.write('<div style="float:top"> <button style="color:transparent; background-color:transparent; border-color:transparent">up</button></div>');
+   document.write('<div style="float:top"><button style="color:transparent; background-color:transparent; border-color:transparent">up</button></div>');//dummy buttons for spacing
+   document.write('<div style="float:top">/</div>');
+   document.write('</center>');
+   document.write('</div>');
+   for(var i=3;i<7;i++){
+      document.write('<div id="'+i+'pedal" style="float:left; padding: 10px; min-width:100px">');
+      document.write('<center>');
+      document.write('<div style="float:top" id = "updestination'+i+'">Placeholder</div>');
+      document.write('<div style="float:top"><button id="up'+i+'" onclick="up('+i+')">sharpen</button></div>');
+      document.write('<div id="pedal'+i+'" style="float:top">'+notename[i]+'</div>');
+      document.write('<div style="float:top"><button id="down'+i+'" onclick="down('+i+')">flatten</button></div>');
+      document.write('<div style="float:top" id="downdestination'+i+'">Placeholder</div>');
+      document.write('</center>');
+      document.write('</div>');
+   }
+  document.write('<div style="clear:both"></div>');
+  document.write('</div>');
+
+
+// Block 2: "Information"
+
+  document.write('<h1>Information:</h1>');
+  
+//Note names in ascending order starting on C:
+  document.write('<div style="padding-top:5px">')
+  document.write('<div style="float:left; min-width:200px">Note names:</div>');
+  document.write('<div style="float:left; min-width:200px">');
+   for(var i=0;i<7;i++){
+      document.write('<div id="2pedal'+order[i]+'" style="float:left; padding-right:10px">'+notename[order[i]]+'</div>');
+   }
+  document.write('</div>');
+
+  document.write('<div style="clear:both"></div>');
+  document.write('</div>');
+
+//Note pitches with repeats:
+   document.write('<div style="float:left; min-width:200px">Note pitches:</div>');
+   document.write('<div>');
+   document.write('<div style="float:left">[</div>');
+   for(var i=0;i<7;i++){
+      document.write('<div id="pitch'+order[i]+'" style="float:left; padding:0px 5px">'+pitch[order[i]]+'</div>');
+   }
+  document.write('<div style="float:left">]</div>');
+  document.write('<div style="clear:both"></div>');
+  document.write('</div>');
+
+//Pitch intervals:
+   document.write('<div style="float:left; min-width:200px">Interval sequence:</div>');
+   document.write('<div>');
+   document.write('<div style="float:left">[</div>');
+   for(var i=0;i<7;i++){
+      document.write('<div id="interval'+i+'" style="float:left; padding:0px 5px">'+interval[i]+'</div>');
+   }
+  document.write('<div style="float:left">]</div>');
+  document.write('<div style="clear:both"></div>');
+  document.write('</div>'); 
+
+//Distinct pitches:
+   document.write('<div style="float:left; min-width:200px">Number of distinct pitches:</div>');
+   document.write('<div id="nodistinct" style="float:left">7</div>');
+   document.write('<div style="clear:both"></div>');
+   document.write('</div>'); 
+  
+//Number of sharps / flat:
+   document.write('<div style="float:left; min-width:200px">Accidentals (#, b, total):</div>');
+   document.write('<div id="nosharpsflats" style="float:left">(0,0,0)</div>');
+   document.write('<div style="clear:both"></div>');
+   document.write('</div>'); 
+
+//Pitch classes:
+   document.write('<div style="float:left; min-width:200px">Pitch classes:</div>');
+   document.write('<div id="distinct">');
+   document.write('<div style="float:left">[</div>');
+   for(var i=0;i<7;i++){
+      document.write('<div style="float:left; padding:0px 5px">'+pitch[order[i]]+'</div>');
+   }
+  document.write('<div style="float:left">]</div>');
+  document.write('</div>');
+
+//Normal form:
+  document.write('<div style="float:left; min-width:200px">Normal form:</div>');
+   document.write('<div id="primenoinversions">');
+    document.write('Please enable JavaScript.');
+  document.write('</div>');
+
+//Prime form:
+  document.write('<div style="float:left; min-width:200px">Prime form:</div>');
+  document.write('<div id="prime">');
+  document.write('Please enable JavaScript.');
+  document.write('</div>');
+
+//Forte name:
+  document.write('<div style="float:left; min-width:200px">Forte name:</div>');
+  document.write('<div id="fortename">');
+  document.write('Please enable JavaScript.');
+  document.write('</div>');
+
+//Number of pedal combinations:
+  document.write('<div style="float:left; min-width:200px">Number of pedal settings:</div>');
+  document.write('<div id="numberofsettings">');
+  document.write('Please enable JavaScript.');
+  document.write('</div>');
+  document.write('<div style="clear:both"></div>');
+
+//Interval vector:
+  document.write('<div style="float:left; min-width:200px">Interval vector:</div>');
+  document.write('<div id="intervalvector">');
+  document.write('Please enable JavaScript.');
+  document.write('</div>');
+
+
+// Block 3: Pitch-Class Set Chart (Forte names in several columns):
+
+  document.write('<h1>Pitch-Class Set Chart:</h1>');
+  document.write('<div style = "float:left">');
+
+//Column 1: Not available at all
+  document.write('<div style="float:left;width:100px">Unavailable');
+// 4
+   for(var i=5;i<6;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+     }
+    for(var i=8;i<9;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+     }    
+// 5
+ for(var i=29;i<30;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6
+  for(var i=67;i<72;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//7
+    for(var i=119;i<124;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+    } 
+  document.write('</div>');
+  
+//Subsets of cardinality 4
+  document.write('<div style="float:left;width:100px">Subsets (4)');
+  for(var i=0;i<5;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+     }
+   for(var i=6;i<8;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+     }
+  for(var i=9;i<19;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+     }
+  for(var i=21;i<24;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+    }
+ for(var i=25;i<26;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+    }
+  document.write('</div>');
+
+//Subsets of cardinality 5:
+  document.write('<div style="float:left;width:100px">Subsets (5)');
+   for(var i=30;i<42;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+    for(var i=43;i<46;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+     for(var i=48;i<49;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+     for(var i=50;i<51;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+   for(var i=54;i<56;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+  
+//Subsets of cardinality 6:
+  document.write('<div style="float:left;width:100px">Subsets (6)');
+//6-5,Z6
+    for(var i=73;i<75;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-7,8,9,Z10
+    for(var i=76;i<80;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z11
+    for(var i=81;i<82;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z12
+    for(var i=83;i<84;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z13
+    for(var i=85;i<86;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+ 
+//Cardinality 4 column:
+  document.write('<div style="float:left;width:100px">Pedals (4)');
+  for(var i=19;i<21;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  for(var i=24;i<25;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  for(var i=26;i<29;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+  
+//Cardinality 5 column:
+ document.write('<div style="float:left;width:100px">Pedals (5)');
+  for(var i=42;i<43;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+   for(var i=46;i<48;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+   for(var i=49;i<50;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+   for(var i=51;i<54;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+   for(var i=56;i<67;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+
+//Cardinality 6 column:
+ document.write('<div style="float:left;width:100px">Pedals (6)');
+//6-Z37
+    for(var i=72;i<73;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z38
+    for(var i=75;i<76;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z39
+    for(var i=80;i<81;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z40
+    for(var i=82;i<83;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z41
+    for(var i=84;i<85;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+//6-Z42+
+    for(var i=86;i<119;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+  
+//Cardinality 7 column:
+ document.write('<div style="float:left;width:100px">Pedals (7)');
+  for(var i=124;i<lines.length;i++){
+     document.write('<div id="FN'+i+'">');
+     document.write(splitlines[i][1]);
+     document.write('</div>');
+     document.write(' ');
+  }
+  document.write('</div>');
+  
+   rewritedistinct();
+   rewritedestinations();
+  
+</script>
+</body>
+</html>

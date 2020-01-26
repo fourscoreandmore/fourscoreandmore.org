@@ -3,12 +3,14 @@ layout: post
 title: 'Resources'
 ---
 
-## Classroom-ready
-
-Completed resources that are tried, tested, and ready to use:
+## Interactive Apps
 
 * [**Cut Outs**](/cut-outs): musical scores with parts ‘cut out’ for the student to complete. This
 is an ancient teaching method given new life in the digital domain.
+
+* [**Harp**](/harp.html): An interactive guide to the pitch properties of the pedal harp.
+
+## Static Resources
 
 * [**Grounded**](/grounded): exercises and examples of ground bass composition.
 

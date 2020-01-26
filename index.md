@@ -41,3 +41,31 @@ Speaking of names, please [click here](/people) to read all about the great peop
     <img src="/images/Cornell.svg" alt="Cornell logo" width="240">
   </a>
 </div>
+
+## … and more
+
+Clearly, Four Score and More can only provide for part of your music theory needs!
+
+... and we are not the only group applying computational approaches to music in interesting ways.
+
+For more links and information on both, please see our ['Muso Repo' page](/musoRepo).
+
+## Four Score For-Profit
+
+Apart from the core mission of Four Score and More to democratise access to music theory for free for all, Mark Gotham offers for-profit consultancy in computational approaches to musical questions personally.
+He (I) will gladly provide introductions to the wider Four Score and More team and network where relevant.
+
+Topics include (but are not limited to) computational / data-driven approaches to:
+- teaching music;
+- understanding and visualising musical structure;
+- automatic composition with 'AI' (machine learning);
+- concert programming.
+
+Current examples include a major project funded by [Deutsche Telekom](https://www.telekom.com/en) and to create a realisaton of Beethoven's unfinished (barely begun!) 10th symphony.
+I am the 'computational musicologist' in the team, supporting composer [Walter Werzowa](https://en.wikipedia.org/wiki/Walter_Werzowa), [machine learning for generative art expert, Ahmed Elgammal](https://aiartists.org/ahmed-elgammal), and others.
+Other project advisors include [Christine Siegert, head of research at the Beethoven-Haus, Bonn](https://www.beethoven.de/en/person/view/5706275094528000/Christine-Siegert), and the [pianist-musicologist Robert Levin](https://en.wikipedia.org/wiki/Robert_Levin_(musicologist)).
+
+You can read [Deutsche Telekom's statement here](https://www.telekom.com/en/media/media-information/archive/deutsche-telekom-celebrates-250-years-beethoven-with-superstars-robbie-williams-and-lang-lang-587922) and here is a sample of press reactions from:
+- [ZDF german television](https://www.zdf.de/nachrichten/heute/kuenstliche-intelligenz-komponiert-beethovens-zehnte-sinfonie-zu-ende-100.html),
+- [Der Spiegel](https://www.spiegel.de/kultur/musik/ludwig-van-beethoven-kuenstliche-intelligenz-soll-unvollendete-vollenden-a-1300216.html#js-article-comments-box-pager)
+- [Frankfurter Allgemeine Zeitung](https://www.faz.net/aktuell/wirtschaft/kuenstliche-intelligenz/beethovens-unvollendete-wird-vollendet-16523814.html)
