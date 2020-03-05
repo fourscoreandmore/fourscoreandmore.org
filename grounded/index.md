@@ -8,13 +8,17 @@ Many musicians have found this a compelling compositional constraints for keepin
 
 These files help you explore some of the ways to create effective ground bass compositions, creating variety through re-harmonising the same bass in different ways, and varying the texture.
 
-## Files
-
+Specifically, this repo offers:
 1. A 'cheat sheet' for re-harmonising any bass interval in [.mscz](/downloads/Bass Harmonisations.mscz) or [.pdf](/downloads/Bass Harmonisations.pdf) formats.
 2. Template scores with only the ground bass provided (a simple version of [cut outs](../cut-outs/index.md))
 3. Analysed, annotated files with Roman Numerals and more.
 
-Here are links to the files for 2 and 3. Further explanation of the files follows below.
+Below are links to - and further explanation of - those files.
+First, here's a preview / embed of the 'cheat sheet'
+
+<iframe width="100%" height="394" src="https://musescore.com/user/30425053/scores/5438725/embed" frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+
+## Downloads
 
 ||Annotation|Template Score|
 |---|---|---|
