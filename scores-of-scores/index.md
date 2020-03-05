@@ -3,39 +3,24 @@ layout: post
 title: 'Scores of Scores'
 ---
 
-The 'Scores of Scores' lieder corpus encoding project is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort. We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to download and use as they please.
+The ['Scores of Scores' lieder corpus encoding project](https://musescore.com/openscore-lieder-corpus) is a major contribution to the [OpenScore](https://openscore.cc/) encoding effort.
+We are creating and releasing publicly a large repository of high-quality musical scores which any internet user will be able to play, download, transpose and use as they please.
+As of 2020, in addition to the scores, we are also running a parallel collection of harmonic analyses for those songs.
 
-## Stop press! News for 2020
+## URL Menu
 
-The 'Scores of Scores' project has developed a life of its own, happily continuing beyond the formal end of the initial project, thanks largely to the super-human efforts of Dan Rootham.
-We are now pleased to announce a second formal round centered on International Women’s Day (March 8) 2020.
-Our focus is to advance our collection of songs by women composers, completing those sets began, and extending further.
-We aim to reach a total of 500 songs in the corpus, and to be the first substantial CC0 corpus with parity of gender.
-
-This 2020 edition is funded by the Central New York Humanities Corridor and is in collaboration with the magnificent [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com) website and the [Eastman School of Music](https://www.esm.rochester.edu).
-
-Additionally, this time, as well as the scores, we are also running a parallel collection of harmonic analyses.
-[Here](/working-in-harmony/analysis) are the new notes for analysts.
-
-We'd better call this second round 'Scores More Score', don't you think?
-Thanks as always to our wonderful team, associates, collaborators and funders.
-
-<div class="image-collection">
-  <a href="https://musictheoryexamplesbywomen.com">
-    <img src="/images/MTEW.png" alt="MTEW Logo" width="240">
-  </a>
-  <a href="https://www.cnycorridor.net">
-    <img src="/images/CNYHC_logo-2019.svg" alt="CNYHC Logo" width="240">
-  </a>
-</div>
-
-## Menu
-
-1. This page (an introduction).
-1. [Notes for transcribers](/scores-of-scores/lieder-corpus-project)
-1. ['Learn by Doing Lieder Transcription': Exercises for Intrepid Students](/scores-of-scores/learn-by-doing)
+1. The scores are on [MuseScore](https://musescore.com/openscore-lieder-corpus), available to play online, download in multiple formats, transpose, and more;
+1. This page provides an introduction;
+1. [Notes for transcribers are on a dedicated page here](/scores-of-scores/lieder-corpus-project);
+1. ['Learn by Doing Lieder Transcription'](/scores-of-scores/learn-by-doing): Suggested transcription-based exercises for the intrepid student of music theory;
 1. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
 1. [Notes for analysts](/working-in-harmony/analysis)
+
+But first, here's an example from the collection:
+
+<iframe width="100%" height="394" src="https://musescore.com/user/27638568/scores/5000397/embed" frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+
+[Schumann, Clara - Lieder, Op.12, No.4 - Liebst du um Schönheit](https://musescore.com/user/27638568/scores/5000397/s/8Q4_kQ) on [the OpenScore LiederCorpus main site](https://musescore.com/openscore-lieder-corpus)
 
 ## Overview and motivation
 
@@ -45,11 +30,13 @@ The many popular uses of encoded scores include extracting a single part for pri
 
 ## Collaborators and engagement
 
-We aim to engage with the widest possible public: anyone interested in music, of any age, ability, and nationality. To that end of engaging with that wide audience, we are delighted to have arranged this collaboration with OpenScore and IMSLP (the Petrucci Music Library). OpenScore have connected us with their awesome community of encoders, and both sites will host the final scores.
+We aim to engage with the widest possible public: anyone interested in music, of any age, ability, and nationality. To that end of engaging with that wide audience, we are delighted to have active collaborations with a range of partners.
 
-The online repository ensures that there is no geographical barrier to encoding or accessing the scores. Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.com): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types. Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
+### MuseScore/OpenScore
 
+MuseScore/OpenScore have connected us with their awesome community of encoders, and are hosting the final scores. [The online repository](https://musescore.com/openscore-lieder-corpus) ensures that there is no geographical barrier to encoding or accessing the scores. Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.org/): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types. Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
 
+Thanks as always to our wonderful team, associates, collaborators and funders.
 <div class="image-collection">
   <a href="https://openscore.cc">
     <img src="/images/openscore-logo.png" alt="OpenScore logo" width="240">
@@ -57,14 +44,35 @@ The online repository ensures that there is no geographical barrier to encoding 
   <a href="https://musescore.com">
     <img src="/images/musescore-logo.png" alt="MuseScore logo" width="200">
   </a>
-  <a href="http://imslp.org/">
-    <img src="/images/imslp-logo.png" alt="IMSLP logo" width="200">
+</div>
+
+### Round 2: 'Scores More Score'
+
+This 'Scores of Scores' project has developed a life of its own, happily continuing beyond the formal end of the initial project in 2018, thanks largely to the super-human efforts of Dan Rootham.
+We are now pleased to announce a second formal round centered on International Women’s Day (March 8) 2020.
+Our focus is to advance our collection of songs by women composers, completing those sets began, and extending further.
+We aim to reach a total of 500 songs in the corpus, and to be the first substantial CC0 corpus with parity of gender.
+
+This 2020 edition is funded by the [Central New York Humanities Corridor](https://www.cnycorridor.net) and is in collaboration with the magnificent [Music Theory Examples by Women](https://musictheoryexamplesbywomen.com) website, [Cornell University](https://www.cornell.edu) the [Eastman School of Music](https://www.esm.rochester.edu).
+
+Additionally, this time, as well as the scores, we are also running a parallel collection of harmonic analyses.
+[Here](/working-in-harmony/analysis) are the new notes for analysts.
+
+We'd better call this second round 'Scores More Score', don't you think?
+Thanks as always to our wonderful team, associates, collaborators and funders.
+<div class="image-collection">
+  <a href="https://musictheoryexamplesbywomen.com">
+    <img src="/images/MTEW.png" alt="MTEW Logo" width="240">
+  </a>
+  <a href="https://www.cnycorridor.net">
+    <img src="/images/CNYHC_logo-2019.svg" alt="CNYHC Logo" width="240">
   </a>
 </div>
 
 ## How can people get involved?
 
-Everyone is welcome to contribute to the encoding effort through OpenScore. Here’s the information for prospective contributors: [OpenScore: How You Can Get Involved](https://musescore.org/en/user/57401/blog/2017/07/11/openscore-how-you-can-get-involved).
+Everyone is welcome to contribute to the encoding effort through OpenScore.
+This website provides information for prospective contributors to the lieder corpus, here's equivalent advice for OpenScore: [How You Can Get Involved](https://musescore.org/en/user/57401/blog/2017/07/11/openscore-how-you-can-get-involved).
 
 Apart from helping the musical world, encoders themselves also benefit from the task: copy-editing music is a very worthwhile pursuit that musicians have used as part of their education for as long as records exist. The story of Wagner copying out Beethoven’s Ninth Symphony twice stands as a famous testament to this. So, encode on and perhaps someday you’ll write world-changing, epic operas!
 
