@@ -22,10 +22,10 @@ First, here's a preview / embed of the 'cheat sheet'
 
 ||Annotation|Template Score|
 |---|---|---|
-Bach Crucifixus B Minor mass BWV232 | [.mscz](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mscz) | [.mscz](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mscz)
-Corelli La Folia | [.mscz](/downloads/Annotations/Corelli La Folia.mscz), [.mxl](/downloads/Annotations/Corelli La Folia.mxl) | [.mscz](/downloads/Templates/Corelli La Folia.mscz), [.mxl](/downloads/Templates/Corelli La Folia.mxl)
-Purcell Chacony in G Minor Z730 | [.mscz](/downloads/Annotations/Purcell Chacony in G Minor Z730.mscz), [.mxl](/downloads/Annotations/Purcell Chacony in G Minor Z730.mxl) | [.mscz](/downloads/Templates/Purcell Chacony in G Minor Z730.mscz), [.mxl](/downloads/Templates/Purcell Chacony in G Minor Z730.mxl)
-Purcell Here the deities approve | [.mscz](/downloads/Annotations/Purcell Here the deities approve.mscz), [.mxl](/downloads/Annotations/Purcell Here the deities approve.mxl) | [.mscz](/downloads/Templates/Purcell Here the deities approve.mscz), [.mxl](/downloads/Templates/Purcell Here the deities approve.mxl)
+Bach Crucifixus B Minor mass BWV232 | [.mscz](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Annotations/Bach Crucifixus B Minor mass BWV232.mxl) | [.mscz](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mscz), [.mxl](/downloads/Templates/Bach Crucifixus B Minor mass BWV232.mxl)
+Corelli La Folia | Coming soon | [.mscz](/downloads/Templates/Corelli La Folia.mscz), [.mxl](/downloads/Templates/Corelli La Folia.mxl)
+Purcell Chacony in G Minor Z730 | [Highlights (.mscz)](/downloads/Annotations/Purcell Chacony in G Minor Z730 - Highlights.mscz), [Highlights (.mxl)](/downloads/Annotations/Purcell Chacony in G Minor Z730 - Highlights.mxl) [Full (.mscz)](/downloads/Annotations/Purcell Chacony in G Minor Z730.mscz), [Full (.mxl)](/downloads/Annotations/Purcell Chacony in G Minor Z730.mxl) | [.mscz](/downloads/Templates/Purcell Chacony in G Minor Z730.mscz), [.mxl](/downloads/Templates/Purcell Chacony in G Minor Z730.mxl)
+Purcell Here the deities approve | Coming soon | [.mscz](/downloads/Templates/Purcell Here the deities approve.mscz), [.mxl](/downloads/Templates/Purcell Here the deities approve.mxl)
 Purcell Sonata in G Minor Z807 | [.mscz](/downloads/Annotations/Purcell Sonata in G Minor Z807.mscz), [.mxl](/downloads/Annotations/Purcell Sonata in G Minor Z807.mxl) | [.mscz](/downloads/Templates/Purcell Sonata in G Minor Z807.mscz), [.mxl](/downloads/Templates/Purcell Sonata in G Minor Z807.mxl)
 
 ## 1. Multiple Harmonisations of a Given Bass
