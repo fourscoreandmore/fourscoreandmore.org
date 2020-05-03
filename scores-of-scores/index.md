@@ -34,7 +34,7 @@ We aim to engage with the widest possible public: anyone interested in music, of
 
 ### MuseScore/OpenScore
 
-MuseScore/OpenScore have connected us with their awesome community of encoders, and are hosting the final scores. [The online repository](https://musescore.com/openscore-lieder-corpus) ensures that there is no geographical barrier to encoding or accessing the scores. Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.org/): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types. Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
+MuseScore/OpenScore have connected us with their awesome community of encoders, and are hosting the final scores. [The online repository](https://musescore.com/openscore-lieder-corpus/sets/) ensures that there is no geographical barrier to encoding or accessing the scores. Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.org/): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types. Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
 
 Thanks as always to our wonderful team, associates, collaborators and funders.
 <div class="image-collection">
