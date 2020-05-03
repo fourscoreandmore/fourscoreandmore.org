@@ -64,7 +64,9 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [Nottingham dataset, cleaned version](https://github.com/jukedeck/nottingham-dataset)
 * [Neuma](http://neuma.huma-num.fr/) - metacorpus, various formats.
 * [OpenScore](https://openscore.cc/) - mscz format, or converted to mxl, MIDI etc.
+* [Public Domain Song Anthology](https://aperio.press/site/books/10.32881/book2/) - a book of leadsheets in several formats.
 * [ScoresOfScores](https://github.com/MarkGotham/ScoresOfScores) - xml and mscx formats. 300 Lieder.
+* [Tasso in Music Project](http://www.tassomusic.org/) - Digital Edition of the [Musical] Settings of Torquato Tasso's Poetry.
 
 ### Metadata
 
@@ -93,6 +95,7 @@ Please do reach out if you would like to contribute an item to this list, or if 
 * [HathiTrust Research Center](https://www.hathitrust.org/) - includes music
 * [International Music Score Library Project (IMSLP)](http://imslp.org) - some encodings, primarily PDF
 * [Measuring Polyphony](http://measuringpolyphony.org/) - polyphonic, late-medieval music
+* [Web Library of Seventeenth-Century Music (WLSCM)](http://www.sscm-wlscm.org) - Open access, peer-reviewed editions of seventeenth-century music.
 
 ## Apps / Software / Code Libraries for ...
 
@@ -119,8 +122,10 @@ Please do reach out if you would like to contribute an item to this list, or if 
 
 ### Edition
 
+* [Beethovens Werkstatt](https://beethovens-werkstatt.de)
 * [Digitale Musikedition](www.edirom.de) - based on Frans Wiering’s idea of a “multidimensional model” of a musical edition
 * [Freischütz Digital](www.freischuetz-digital.de)
+* [Digitale Mozart-Edition](https://dme.mozarteum.at)
 * [OCVE](www.chopinonline.ac.uk/ocve/) - Collection and comparison of primary source Chopin scores
 * [OPERA](www.opera.adwmainz.de/informationen.html)
 * [Tido](https://www.tido-music.com/) - [not free]
@@ -134,7 +139,7 @@ In addition to which:
 * GUIDO [Music Notation Format (GMN)](http://guidolib.sourceforge.net/GUIDO/) and [Engine Library](http://guidolib.sourceforge.net)
 * SCORE: abandonware, but see Craig Sapp’s [Scorelib](http://scorelib.sapp.org/) library for parsing SCORE data files.
 * [VexFlow](http://www.vexflow.com)
-* [Verovio](http://www.verovio.org)
+* [Verovio](http://www.verovio.org) - 'a fast, portable and lightweight open-source library for engraving Music Encoding Initiative (MEI) music scores into SVG.'
 
 And further online-only applications (all commercial):
 * [Flat](https://flat.io/) [not free]
@@ -165,7 +170,7 @@ In addition to which:
 
 * [Ars-Nova](https://www.ars-nova.com/home6.html) - including 'Practica Musica', 'Counterpointer', 'Songworks', 'Musica Touch', 'Rythmist'  [not free]
 * [Artusi](https://www.artusi.xyz) - interactive music theory exercises. Commercial launch 2019 [not free]
-* [Auralia](https://www.risingsoftware.com/auralia/) - aural and fundamentals training [not free]
+* [Auralia and Musition (from 'Rising Software')](https://www.risingsoftware.com/) - aural and fundamentals training [not free]
 * [Chordify](https://chordify.net) - songwriting / leadsheets [fremium]
 * [Four Score and More](https://fourscoreandmore.org/) - music theory resources including automatic score exercises generation
 * [Harmonia](https://harmonia.illiacsoftware.com) - [not free]
@@ -174,9 +179,10 @@ In addition to which:
 * [musictheory.net](https://www.musictheory.net) - Lessons and exercises
 * [Music Theory Practice](https://music-theory-practice.com) and their [external recommendations](https://music-theory-practice.com/best-online-music-theory-courses.html)
 * [Music Theory Tutor](http://musictheorytutor.weebly.com/index.html) - free lessons over video conferencing
-* [OpenMusicTheory](http://openmusictheory.com/) - a growing, online 'textbook' for music theory and aural skills.
+* OpenMusicTheory - an online 'textbook' for music theory and aural skills. [Version 1 is hosted here](http://openmusictheory.com/), the substantially expanded [Version 2 is a work in progress here]()
 * [nSpireMe](www.nspireme.co.uk) - [not free]
 * [SmartMusic](https://www.smartmusic.com) - [not free]
+* [Teoria](https://www.teoria.com)
 
 ### Visualisation / Annotation
 
@@ -201,6 +207,7 @@ In addition to which:
 ### Journals and conference proceedings
 
 * [Computer Music Journal](https://www.mitpressjournals.org/loi/comj)
+* [Conference on Interdisciplinary Musicology](http://www.idmusicology.com/cim/the-conference-on-interdisciplinary-musicology/)
 * [Conference on Mathematics and Computation in Music (MCM)](http://www.smcm-net.info/) - From the Society for Mathematics and Computation in Music (SMCM)
 * [Digital Libraries for Musicology (DLfM)](http://www.transforming-musicology.org/dlfm2017/) – an IMSIR satellite event
 * [Empirical Musicology Review (EMR)](http://emusicology.org/)
@@ -209,8 +216,10 @@ In addition to which:
 * [International Conference on Auditory Displays](https://icad.org/)
 * [International Conference on Live Coding](https://iclc.livecodenetwork.org/)
 * [International Society for Music Information Retrieval (ISMIR)](http://www.ismir.net/)
+* [International Symposium on Computer Music Multidisciplinary Research (CMMR)](http://www.cmmr2020.gttm.jp/)
 * [International Workshop on Musical Metacreation](http://musicalmetacreation.org/)
 * [HathiTrust Research Center 'Uncamp'](https://www.hathitrust.org/htrc_uncamp2018)
+* [Journal of Interdisciplinary Music Studies (JIMS)](http://musicstudies.org)
 * [Journal of Mathematics and Music (JMAM)](https://www.tandfonline.com/toc/tmam20/current)
 * [Journal of New Music Research](http://www.tandfonline.com/toc/nnmr20/current)
 * [Music & Science Journal](http://journals.sagepub.com/loi/mnsa)
@@ -232,6 +241,7 @@ In addition to which:
 
 * [Analysis, creation and teaching of orchestration (ACTOR)](https://www.actorproject.org/)
 * [Duchemin / 'Lost Voices' project](http://duchemin.haverford.edu/)
+* [Keyboard Philharmonic, The](http://keyboardphilharmonic.org)
 * [Neuma](http://www.iremus.cnrs.fr/fr/base-de-donnees/neuma)
 * [SIMSSA](https://simssa.ca) - towards full-music search over a large collection of musical scores
 * [Trompa](https://trompamusic.eu/)
