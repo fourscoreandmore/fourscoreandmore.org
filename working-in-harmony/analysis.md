@@ -3,12 +3,22 @@ layout: post
 title: 'Notes for Analysts'
 ---
 
-Here are instructions for entering musical analyses we can work with computationally.
+_Part of [Working in Harmony](/working-in-harmony)._
+
+## You are here
+
+This page provides some background for why you might like to do this,
+and some detailed instructions for how to write out harmonic analysis in Roman numerals
+and in a way that we can work with computationally.
 
 On this page:
 - Why do this?
 - What scores?
 - How to encode your analysis.
+
+Other pages provide:
+- [Index page](./index.md): home page for using the app
+- [Behind the scenes](./behind-the-scenes.md): more about how the app works along with our policy on improvements and data protection (we don't keep any personal data).
 
 ## Why do this?
 
