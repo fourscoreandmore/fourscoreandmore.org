@@ -176,13 +176,15 @@ In addition to which:
 * [Harmonia](https://harmonia.illiacsoftware.com) - [not free]
 * [Hook Theory](https://www.hooktheory.com) - songwriting / leadsheets [not free]
 * [Indiana MFO](http://www.music.indiana.edu/departments/academic/music-theory/mfonline/about.shtml) - [not free]
+* [Meludia](https://www.meludia.com/en/): Aural skills and ear training without staff notation - [not free]
 * [musictheory.net](https://www.musictheory.net) - Lessons and exercises
 * [Music Theory Practice](https://music-theory-practice.com) and their [external recommendations](https://music-theory-practice.com/best-online-music-theory-courses.html)
 * [Music Theory Tutor](http://musictheorytutor.weebly.com/index.html) - free lessons over video conferencing
-* OpenMusicTheory - an online 'textbook' for music theory and aural skills. [Version 1 is hosted here](http://openmusictheory.com/), the substantially expanded [Version 2 is a work in progress here]()
+* OpenMusicTheory - an online 'textbook' for music theory and aural skills. [Version 1 is hosted here](http://openmusictheory.com/), the substantially expanded [Version 2 is a work in progress here](https://viva.pressbooks.pub/openmusictheory/)
 * [nSpireMe](www.nspireme.co.uk) - [not free]
 * [SmartMusic](https://www.smartmusic.com) - [not free]
 * [Teoria](https://www.teoria.com)
+* [tx2Mus](https://wmich.edu/mus-theo/tx2mus/) - online music dictation tool by David Loberg Code
 
 ### Visualisation / Annotation
 
