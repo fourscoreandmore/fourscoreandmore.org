@@ -13,7 +13,7 @@ def index():
 @app.route(app.config["SCORE_DOWNLOAD_URI_PREFIX"] + '<path:filename>')
 def custom_static(filename):
     mimetype = None
-    if filename.endswith(".xml") or filename.endswith(".musicxml"):
+    if filename.endswith(".xml") or filename.endswith(".musicxml") or filename.endswith(".mxl"):
         mimetype = "application/vnd.recordare.musicxml+xml"
 
     return send_from_directory(
@@ -68,7 +68,7 @@ def chorales():
 @app.route('/apps/lieder/', methods=['GET', 'POST'])
 def lieder():
     form = LiederForm(request.form)
-    form.originalScore.choices = scores.list_scores(subDir="lieder")
+    form.originalScore.choices = scores.list_lieder()
     download = []
 
     if form.validate_on_submit():

@@ -11,3 +11,5 @@ class Config(object):
     SCORE_PATH = os.path.join(appRoot, "resources/scores")
     SCORE_DOWNLOAD_URI_PREFIX = "/apps/download/scores/"
     SCORE_DOWNLOAD_PATH = appRoot + "/download/scores"
+    LIEDER_CORPUS_PATH = os.path.join(appRoot, "When-in-Rome/Corpus/OpenScore-LiederCorpus")
+    LIEDER_INDEX_PATH = os.path.join(appRoot, "resources/scores/lieder.json")

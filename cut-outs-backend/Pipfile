@@ -9,6 +9,7 @@ flask = "*"
 gevent = "*"
 natsort = "*"
 flask-wtf = "*"
+pathlib = "*"
 
 [dev-packages]
 
