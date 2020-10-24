@@ -142,19 +142,20 @@ In addition to which:
 * [Verovio](http://www.verovio.org) - 'a fast, portable and lightweight open-source library for engraving Music Encoding Initiative (MEI) music scores into SVG.'
 
 And further online-only applications (all commercial):
-* [Flat](https://flat.io/) [not free]
+* [Flat](https://flat.io/) [fremium]
 * [forScore](https://forscore.co/) [not free]
 * [irealpro](https://irealpro.com/) - real time accompaniment also supporting chord charts [not free]
 * [neoScores](https://www.gogustaf.com/) [not free]
-* [Newzik](https://newzik.com/) [not free]
+* [Newzik](https://newzik.com/) [fremium]
 * [Nkoda](https://www.nkoda.com/) [not free]
-* [Noteflight](https://www.noteflight.com/) [not free]
+* [Noteflight](https://www.noteflight.com/) [fremium]
 
 ### Optical Music Recognition (OMR)
 
 See [Wikipedia's 'Comparison](https://en.wikipedia.org/wiki/Optical_music_recognition) for commercial software like [musitek](http://www.musitek.com/), [sharpeye](http://www.musicaleditor.com/scan-music.html), and [SmartScore](https://www.musitek.com/smartscore-pro.html), as well as freeware like [Audiveris](https://github.com/Audiveris/audiveris/wiki).
 In addition to which:
-* [PlayScore/ReadScoreLib](http://www.playscore.co/readscorelib/) by [SeeScore](https://www.seescore.co.uk/)
+* [enote](https://enote.com/about.html) - [not free]
+* [PlayScore/ReadScoreLib](http://www.playscore.co/readscorelib/) by [SeeScore](https://www.seescore.co.uk/) - [not free]
 
 ### Standard Formats
 
