@@ -73,7 +73,7 @@ def lieder():
 
     if form.validate_on_submit():
         exercise = exercises.LiedExercise(
-            scores.normalizeScorePath(form.originalScore.data, subDir="lieder"),
+            scores.normalizeScorePath(form.originalScore.data, base_path=app.config["LIEDER_CORPUS_PATH"]),
             leaveRestBars=form.preserveRestBars.data,
             leaveBassLine=form.preserveBass.data,
             quarterLengthOfRest=form.restLength.data,

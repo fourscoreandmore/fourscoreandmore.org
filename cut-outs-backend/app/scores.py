@@ -1,6 +1,6 @@
 from app import app
+from app.indexer import get_lieder_index, get_score_name
 from natsort import natsorted
-from pathlib import Path
 import music21.converter
 import music21.musicxml
 import xml.etree
@@ -8,16 +8,7 @@ import json
 import logging
 import operator
 import os
-
-
-def getScoreName(score):
-    title = score.metadata.title
-    if score.metadata.movementNumber and score.metadata.movementNumber != title:
-        title += ": " + score.metadata.movementNumber
-    if score.metadata.movementName and score.metadata.movementName != title:
-        title += ", " + score.metadata.movementName
-
-    return "{} - {}".format(score.metadata.composer, title)
+import time
 
 
 def normalizeScorePath(path, subDir="", base_path=None):
@@ -26,7 +17,7 @@ def normalizeScorePath(path, subDir="", base_path=None):
     abs = os.path.join(base_path, prefixed)
 
     if not os.path.isfile(abs):
-        raise ValidationError("File not found: " + prefixed)
+        raise ValueError("File not found: " + prefixed)
 
     return abs
 
@@ -50,7 +41,7 @@ def get_score_index(path, reset=False):
             abspath = os.path.abspath(os.path.join(path, filename))
             try:
                 score = music21.converter.parse(abspath)
-                index[filename] = getScoreName(score)
+                index[filename] = get_score_name(score)
             except xml.etree.ElementTree.ParseError as e:
                 logging.error("Failed to parse score: " + abspath)
             except music21.musicxml.xmlToM21.MusicXMLImportException as e:
@@ -64,27 +55,6 @@ def get_score_index(path, reset=False):
 
 def list_lieder():
     dir = app.config["LIEDER_CORPUS_PATH"]
-    index_data = get_lieder_index(dir)
+    index_data = get_lieder_index(dir, index_filename=app.config["LIEDER_INDEX_PATH"])
 
     return natsorted(index_data.items(), key=operator.itemgetter(1))
-
-
-def get_lieder_index(path, reset=False):
-    index_filename = app.config["LIEDER_INDEX_PATH"]
-    if not reset and os.path.isfile(index_filename):
-        with open(index_filename, "r") as index_handle:
-            return json.load(index_handle)
-
-    index = {}
-    for score_path in Path(path).rglob("score.mxl"):
-        abspath = os.path.abspath(str(score_path))
-        try:
-            score = music21.converter.parse(abspath)
-            index[score_path.relative_to(path)] = getScoreName(score)
-        except Exception as e:
-            logging.exception("Failed to parse score: " + abspath)
-
-    with open(index_filename, "w") as index_handle:
-        json.dump(index, index_handle)
-
-    return index

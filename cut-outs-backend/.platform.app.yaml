@@ -50,4 +50,8 @@ hooks:
     git clone https://github.com/MarkGotham/When-in-Rome.git When-in-Rome
   deploy: |
     set -e
+    touch resources/scores/lieder.jsonl
     curl --max-time 5 -sS site.internal/template/index.html > app/templates/writable/base.html
+  post_deploy: |
+    cd app
+    timeout 600 python -c 'from indexer import *; get_lieder_index("../When-in-Rome/Corpus/OpenScore-LiederCorpus", index_filename="../resources/scores/lieder.jsonl", rebuild=True)'

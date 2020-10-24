@@ -1,5 +1,5 @@
 from app import TheoryExercises
-from app.scores import getScoreName
+from app.indexer import get_score_name
 import errno
 import music21
 import os
@@ -23,7 +23,7 @@ class ExerciseBase(object):
 
     @property
     def score_name(self):
-        return getScoreName(self.score)
+        return get_score_name(self.score)
 
     def can_use_saved_file(self, filepath):
         if not os.path.exists(filepath):

@@ -10,6 +10,7 @@ gevent = "*"
 natsort = "*"
 flask-wtf = "*"
 pathlib = "*"
+jsonlines = "*"
 
 [dev-packages]
 

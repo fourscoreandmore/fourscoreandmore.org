@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1518f48d930d31aa006f50a0226e7b316c6d77b4c38c397ae05dd1179d710baf"
+            "sha256": "77b1e0517dad017f872229c5dd32860f01df2e540cb197d7a33d7be7729c7629"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -121,6 +121,14 @@
             ],
             "version": "==0.17.0"
         },
+        "jsonlines": {
+            "hashes": [
+                "sha256:0ebd5b0c3efe0d4b5018b320fb0ee1a7b680ab39f6eb853715859f818d386cc8",
+                "sha256:43b8d5588a9d4862c8a4a49580e38e20ec595aee7ad6fe469b10fb83fbefde88"
+            ],
+            "index": "pypi",
+            "version": "==1.2.0"
+        },
         "markupsafe": {
             "hashes": [
                 "sha256:00bc623926325b26bb9605ae9eae8a215691f33cae5df11ca5424f06f2d1f473",
@@ -187,6 +195,13 @@
             ],
             "index": "pypi",
             "version": "==1.0.1"
+        },
+        "six": {
+            "hashes": [
+                "sha256:30639c035cdb23534cd4aa2dd52c3bf48f06e5f4a941509c8bafd8ce11080259",
+                "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"
+            ],
+            "version": "==1.15.0"
         },
         "webcolors": {
             "hashes": [
