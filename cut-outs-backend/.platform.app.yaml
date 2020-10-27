@@ -41,7 +41,10 @@ relationships:
 
 hooks:
   build: |
+    set -e
     pipenv install --system
+    npm install
+    cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
   deploy: |
     set -e
     curl --max-time 5 -sS site.internal/template/index.html > app/templates/writable/base.html
