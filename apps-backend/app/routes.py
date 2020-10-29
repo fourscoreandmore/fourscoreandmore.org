@@ -1,13 +1,8 @@
-from flask import abort, safe_join, render_template, redirect, request, send_from_directory
+from flask import abort, safe_join, render_template, request, send_from_directory
 from app import app
 from app.forms import ChoralesForm, LiederForm
 from app import scores, TheoryExercises, exercises
 import os
-
-
-@app.route('/apps/')
-def index():
-    return redirect('/cut-outs/', code=302)
 
 
 @app.route(app.config["SCORE_DOWNLOAD_URI_PREFIX"] + '<path:filename>')

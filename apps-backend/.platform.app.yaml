@@ -1,4 +1,4 @@
-name: cut-outs-backend
+name: apps-backend
 
 type: "python:3.6"
 

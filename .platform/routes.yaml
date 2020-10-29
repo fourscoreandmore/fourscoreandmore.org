@@ -11,7 +11,7 @@ https://www.{default}:
 
 https://{default}/apps:
   type: upstream
-  upstream: cut-outs-backend:http
+  upstream: apps-backend:http
   cache:
     enabled: false
     cookies: ['session']
