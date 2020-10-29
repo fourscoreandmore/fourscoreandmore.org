@@ -7,8 +7,6 @@ build:
 
 type: ruby:2.5
 
-disk: 1024
-
 variables:
   env:
     JEKYLL_ENV: production

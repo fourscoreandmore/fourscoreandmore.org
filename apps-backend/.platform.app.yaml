@@ -2,7 +2,7 @@ name: apps-backend
 
 type: "python:3.6"
 
-disk: 2048
+disk: 3072
 
 variables:
   env:
