@@ -17,9 +17,19 @@ def mkdir_simple(directory):
 class ExerciseBase(object):
 
     def __init__(self, scoreFilename):
-        self.score = music21.converter.parse(scoreFilename)
+        self.scoreFilename = scoreFilename
+        self._score = None
         self._exercise = None
         self._solution = None
+
+    def parse(self):
+        self._score = music21.converter.parse(self.scoreFilename)
+
+    @property
+    def score(self):
+        if self._score is None:
+            self.parse()
+        return self._score
 
     @property
     def score_name(self):

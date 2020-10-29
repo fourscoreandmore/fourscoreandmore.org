@@ -18,6 +18,10 @@ input.field-error, .field-error input {
     border-color: red;
 }
 
+.error {
+    color: red;
+}
+
 button, html [type=button], [type=reset], [type=submit] {
     -webkit-appearance: button;
 }

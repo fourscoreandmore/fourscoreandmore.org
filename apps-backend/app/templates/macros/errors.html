@@ -1,0 +1,5 @@
+{% macro list_errors(errors) %}
+  {% for (msg) in errors %}
+    <p class="error">{{ msg }}</p>
+  {% endfor %}
+{%- endmacro %}
