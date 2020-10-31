@@ -47,7 +47,9 @@ hooks:
     npm install
     cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
 
-    git clone https://github.com/MarkGotham/When-in-Rome.git When-in-Rome
+    if [ ! -d When-in-Rome ]; then
+      git clone https://github.com/MarkGotham/When-in-Rome.git When-in-Rome
+    fi
   deploy: |
     set -e
     touch resources/scores/lieder.jsonl
