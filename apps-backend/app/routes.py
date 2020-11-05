@@ -1,7 +1,8 @@
-from flask import abort, safe_join, render_template, request, send_from_directory
+from flask import abort, safe_join, render_template, redirect, request, send_from_directory
 from app import app
-from app.forms import ChoralesForm, LiederForm
+from app.forms import *
 from app import scores, TheoryExercises, exercises
+import urllib
 import os
 import logging
 
@@ -12,17 +13,33 @@ def custom_static(filename):
     if filename.endswith(".xml") or filename.endswith(".musicxml") or filename.endswith(".mxl"):
         mimetype = "application/vnd.recordare.musicxml+xml"
 
+    if os.path.exists(safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
+        dir = app.config["SCORE_DOWNLOAD_PATH"]
+    elif os.path.exists(safe_join(app.config["CORPUS_DOWNLOAD_PATH"], filename)):
+        dir = app.config["CORPUS_DOWNLOAD_PATH"]
+    else:
+        abort(404)
+
+    # Total hack to give a more useful download filename for WIH.
+    name = os.path.basename(filename)
+    if name == "score.mxl":
+        name = filename.replace("/", "_")
+
     return send_from_directory(
-        app.config["SCORE_DOWNLOAD_PATH"],
+        dir,
         filename,
         as_attachment=("download" in request.args),
+        attachment_filename=name,
         mimetype=mimetype)
 
 
 @app.route('/apps/score/' + '<path:filename>')
 def display_score(filename):
-    if not os.path.exists(
-            safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
+    if os.path.exists(safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
+        dir = app.config["SCORE_DOWNLOAD_PATH"]
+    elif os.path.exists(safe_join(app.config["CORPUS_DOWNLOAD_PATH"], filename)):
+        dir = app.config["CORPUS_DOWNLOAD_PATH"]
+    else:
         abort(404)
 
     url = app.config["SCORE_DOWNLOAD_URI_PREFIX"] + filename
@@ -103,3 +120,63 @@ def lieder():
         form.preserveRestBars.data = True
 
     return render_template('lieder-form.html', form=form, download=download, errors=errors)
+
+
+@app.route('/apps/working-in-harmony/', methods=['GET', 'POST'])
+def working_in_harmony():
+
+    form = WorkingInHarmonyScoreSelectionForm(request.form)
+    form.originalScore.choices = scores.list_lieder(require_files=["template.txt", "slices.tsv"])
+
+    download = []
+    errors = []
+
+    if form.validate_on_submit():
+        return redirect('/apps/working-in-harmony/' + urllib.parse.quote(form.originalScore.data), code=302)
+
+    return render_template('working-in-harmony-selection-form.html', form=form, download=download, errors=errors)
+
+
+@app.route('/apps/working-in-harmony/<path:score>', methods=['GET', 'POST'])
+def working_in_harmony_analysis(score=""):
+    if score.strip() == "":
+        return redirect('/apps/working-in-harmony', code=302)
+
+    lied = scores.lied_by_path(score)
+    if lied is None:
+        return redirect('/apps/working-in-harmony', code=302)
+
+    download = []
+    errors = []
+
+    filename = scores.normalizeScorePath(score, base_path=app.config["LIEDER_CORPUS_PATH"])
+    path = filename
+    download.append(
+        (lied["name"],
+            app.config["SCORE_DOWNLOAD_URI_PREFIX"] + score,
+            score)
+    )
+
+    form = WorkingInHarmonyAnalysisForm(request.form)
+
+    # Get the template as the default.
+    if "analysis" not in request.form:
+        template_file = os.path.join(lied["dir"], "template.txt")
+        if not os.path.exists(template_file):
+            errors.append("Template file not found")
+        else:
+            with open(template_file) as f:
+                template_contents = f.read()
+            form.analysis.data = template_contents
+
+    if form.validate_on_submit():
+        errors.append("thanks but this is not implemented yet")
+
+    return render_template(
+        'working-in-harmony-analysis-form.html',
+        song=lied["name"],
+        back="/apps/working-in-harmony/",
+        form=form,
+        download=download,
+        errors=errors,
+    )

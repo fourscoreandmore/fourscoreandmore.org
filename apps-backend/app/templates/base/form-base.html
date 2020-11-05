@@ -14,8 +14,6 @@
       </h1>
     </header>
 
-    <p><i>Part of <a href="/cut-outs">Cut Outs</a></i></p>
-
     {% block page_description %}{% endblock %}
 
     {{ list_errors(errors) }}
@@ -23,7 +21,7 @@
     {{ list_downloads(download) }}
 
     {% if form %}
-      <form action="" method="post">
+      <form action="" method="{{ form_method|default('post') }}">
         {{ form.hidden_tag() }}
 
         {% block form_fields %}

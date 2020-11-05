@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, DecimalField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets
+from wtforms import DecimalField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets, TextAreaField
 from wtforms.validators import AnyOf, DataRequired, NumberRange
 from app import app
 import os
@@ -85,3 +85,22 @@ class LiederForm(FlaskForm):
     )
 
     submit = SubmitField(label="Generate exercise")
+
+
+class WorkingInHarmonyScoreSelectionForm(FlaskForm):
+    originalScore = SelectField(
+        label="Original song",
+        validators=[DataRequired()],
+        description="The song used as a base for the exercise.",
+    )
+
+    submit = SubmitField(label="Continue")
+
+
+class WorkingInHarmonyAnalysisForm(FlaskForm):
+    analysis = TextAreaField(
+        label="Analysis",
+        description="Complete the template with your own Roman numeral analysis",
+    )
+
+    submit = SubmitField(label="Submit analysis")
