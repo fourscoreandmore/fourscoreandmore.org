@@ -36,20 +36,23 @@ mounts:
     source: local
     source_path: 'app/templates/writable'
 
+  'wih-writable':
+    source: local
+    source_path: 'wih-writable'
+
 relationships:
   site: "site:http"
 
 hooks:
   build: |
     set -e
+
+    cp When-in-Rome/Code/romanUmpire.py app/
+
     pipenv install --system
 
     npm install
     cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
-
-    if [ ! -d When-in-Rome ]; then
-      git clone https://github.com/MarkGotham/When-in-Rome.git When-in-Rome
-    fi
   deploy: |
     set -e
     touch resources/scores/lieder.jsonl

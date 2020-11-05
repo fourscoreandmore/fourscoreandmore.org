@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from wtforms import DecimalField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets, TextAreaField
-from wtforms.validators import AnyOf, DataRequired, NumberRange
+from wtforms.validators import AnyOf, DataRequired, NumberRange, Length
 from app import app
 import os
 
@@ -101,6 +101,9 @@ class WorkingInHarmonyAnalysisForm(FlaskForm):
     analysis = TextAreaField(
         label="Analysis",
         description="Complete the template with your own Roman numeral analysis",
+        validators=[
+            Length(max=102400) # the analysis can be max 100 KB
+        ]
     )
 
     submit = SubmitField(label="Submit analysis")

@@ -14,3 +14,4 @@ class Config(object):
     LIEDER_CORPUS_PATH = os.path.join(appRoot, "When-in-Rome/Corpus/OpenScore-LiederCorpus")
     LIEDER_INDEX_PATH = os.path.join(appRoot, "resources/scores/lieder.jsonl")
     CORPUS_DOWNLOAD_PATH = os.path.join(appRoot, "When-in-Rome/Corpus/OpenScore-LiederCorpus")
+    WIH_WRITABLE_PATH = os.path.join(appRoot, "wih-writable")
