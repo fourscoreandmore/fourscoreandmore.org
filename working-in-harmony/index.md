@@ -5,8 +5,12 @@ title: 'Working in Harmony'
 
 Welcome!
 
-The 'Working in Harmony' app is coming soon to Four Score and More.
-This app will offer automatic feedback on any Roman numeral analysis you upload, and for absolutely any music you have available in a suitable format.
+The 'Working in Harmony' offers automatic feedback on Roman numeral analysis -- a kind of analytical 'spell-checker'.
+It's not here to 'give out the answers', but simply to help out by catching typo-style errors.
+If you appreciate having a spell checker for your text documents, and would like something similar for your Roman numeral analysis, then you came to the right place!
+
+Our aim is to support absolutely any music you have available in a suitable format.
+In this initial 'alpha' release, we are trialing this app with songs in the lieder corpus only.
 
 ## You are here
 
@@ -16,8 +20,9 @@ This app will offer automatic feedback on any Roman numeral analysis you upload,
 
 ## How to use this app
 
-1. Choose a score freely. You can use anything you have access to in an ‘encoded’ format (midi, musicxml, Sibelius, Finale, etc.). If you don’t have a particular score in mind, then here are 500 lieder to choose from. Use the dropdown list to download your chosen score:
-2. Annotate the score with your analysis, following the instructions [here](./analysis.md).
-3. Upload your score in the compressed musicxml format (.mxl). All music notation software packages export to this format, (usually in the same place that they offer export to pdf).
-4. The system will evaluate your work and provide a new score, with the analysis included on it along with feedback.
-5. Corrected any errors you find and re-upload as many times as you like.
+1. Choose a score from the dropdown list of lieder. [Coming soon: We aim to offer this for any music you have access to in an ‘encoded’ format that can convert to musicxml (midi, kern, Sibelius, Finale, etc.).]
+2. Write your analysis down and upload it following the instructions [here](./analysis.md).
+3. The system will evaluate your work and provide:
+  - a new version of the score, with your analysis included on it as a lowest part;
+  - a separate text file with feedback on your analysis.
+4. Correct any errors you find and re-upload for a new review as many times as you like.

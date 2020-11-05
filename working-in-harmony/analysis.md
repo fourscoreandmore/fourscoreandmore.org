@@ -14,6 +14,7 @@ and in a way that we can work with computationally.
 On this page:
 - Why do this?
 - What scores?
+- What Formats?
 - How to encode your analysis.
 
 Other pages provide:
@@ -22,25 +23,29 @@ Other pages provide:
 
 ## Why do this?
 
-The main reasons for encoding analyses in one of these formats are to:
-- Keep your analysis in a format that can be re-purposed. Analyses on paper are fine, but they're not going any further than that. Analyses in an encoded format can be checked, edited, converted into scores, and much more besides.
-- Get feedback: we offer an automated system for providing basic feedback on analysis (a kind of analytical spell-checker if you like). This is set to be launched as an independent web app on Four Score and More soon. In the meantime, you're welcome to email your analysis to `Mark dot Gotham at Cornell dot edu`. If you're in one of my classes at Cornell then I'll get right back to you; if not that's fine but it'll take a bit longer ...
+Encoding analyses in a computer-readable format allows us to work with it in flexible ways.
+Analyses on paper are fine, but they're not going any further than that.
+With an analysis in an encoded format, we can easily edit it, create a duplicate for an alternative reading, convert it into musical notation and provide automated feedback.
 
 ## What Scores?
 
-You can encode analyses for any music you like, though:
-- Feedback is limited to those scores for which we have a corresponding encoding available;
-- The current drive is for analyses of songs by women composers as part of the [Scores of Scores](/scores-of-scores) lieder project.
+The Working in Harmony web app on Four Score and More is currently limited to our lieder corpus.
+We aim to offer this service for any encoded scores soon.
+In the meantime, you're welcome to email your analysis to `Mark dot Gotham at uni dash Saarland dot de` (replacing the dot, at, dash, and second dot) and I'll run it for you. If you're in one of my classes then I'll get right back to you; if not that's fine but it'll take a bit longer ...
 
-To get feedback, please submit your score in the 'compressed musicxml' format (extension '.mxl').
-All music notation software packages (Finale, MuseScore, Sibelius ...) export to this format.
-The 'Export' option is usually under the 'File' menu (or equivalent).
+## What Score Format?
+
+The music notation format we use here is the highly interoperable and neatly compact 'compressed musicxml' format (extension '.mxl').
+All major music notation software packages (Finale, MuseScore, Sibelius ...) import and export this format.
+(The 'Export' option is usually under the 'File' menu or equivalent).
 
 We cannot work with those notation software packages' own file formats or with PDFs.
-There are an increasing number of scores available in encoded formats these days, including our 'Scores of Scores' collection of 19th century songs which you can download from [MuseScore.com](https://musescore.com/OpenScore-Lieder-Corpus) (free sign up required), or directly from [GitHub](https://github.com/MarkGotham/ScoresOfScores/tree/master/3-Corpus) and use for any purpose including this one.
+There are an increasing number of scores available in encoded formats these days, including our 'Scores of Scores' collection of 19th century songs which you can download as part of this app, or from [MuseScore.com](https://musescore.com/OpenScore-Lieder-Corpus) (sign up required) if you prefer.
 
-If you have a particular piece in mind and don't have access to it in an encoded format, we recommend the 'PlayScore' app for converting PDFs.
+If you have a particular piece in mind and don't have access to it in an encoded format, we recommend the ['PlayScore' app](https://www.playscore.co) for converting PDFs.
 There is a small charge for this software, and there are some modest restrictions on allowed uses, though nothing that should conflict with use for this educational purpose.
+
+The format for the analysis warrants a bit more explanation ...
 
 ## How to encode your analysis
 
@@ -109,6 +114,6 @@ For instance, the convoluted entry 'a:#viio6[add4]' indicates:
 
 ### Optional versus required entries
 
-- [On-score format] It’s possible to input spaces in lyrics. In many notation programs, a normal SPACE key will move you on to lyric input for the next note, but ALT-SPACE will keep you on the current note and add a space to that lyric. Given how confusing that can be, we've made spaces optional: we don’t require them, but don’t worry if you do have them (the code throws them out anyway).
-- [On-score format] All lyrics need to be appended to a note (not a rest) in the new part. You can put meaningful notes in that part (e.g. start by copying existing material and then adjusting the rhythms as necessary) but that's not required (the notes can just be nonsense as long as they're in the right place).
-- [Either format] Changes of key remain in effect until the next marking, but changes of tonicization don’t so you need to reiterate them at every entry. That should help keep their use suitably fleeting! That said, you may want to put in reminders of the prevailing key occasionally (after a tonicization, or indeed elsewhere). That's fine and doesn't make any different to the analysis (again, these repetitions are ignored by the code as redundant information).
+- **On-score format:** It’s possible to input spaces in lyrics. In many notation programs, a normal SPACE key will move you on to lyric input for the next note, but ALT-SPACE will keep you on the current note and add a space to that lyric. Given how confusing that can be, we've made spaces optional: we don’t require them, but don’t worry if you do have them (the code throws them out anyway).
+- **On-score format:** All lyrics need to be appended to a note (not a rest) in the new part. You can put meaningful notes in that part (e.g. start by copying existing material and then adjusting the rhythms as necessary) but that's not required (the notes can just be nonsense as long as they're in the right place).
+- **Either format:** Changes of key remain in effect until the next marking, but changes of tonicization don’t so you need to reiterate them at every entry. That should help keep their use suitably fleeting! That said, you may want to put in reminders of the prevailing key occasionally (after a tonicization, or indeed elsewhere). That's fine and doesn't make any different to the analysis (again, these repetitions are ignored by the code as redundant information).
