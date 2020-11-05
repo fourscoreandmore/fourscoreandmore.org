@@ -47,7 +47,8 @@ def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
     existing = {}
     with jsonlines.Reader(fp) as reader:
         for data in reader.iter(type=dict, skip_invalid=True):
-            existing[data["relative_path"]] = data
+            if "relative_dir" in data:
+                existing[data["relative_dir"]] = data
 
     if len(existing) > 0 and not rebuild:
         return existing
@@ -55,6 +56,7 @@ def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
     index = {}
     fp = open(index_filename, "w")
     writer = jsonlines.Writer(fp, flush=True, sort_keys=True)
+    path=os.path.abspath(path)
     for score_path in Path(path).rglob("score.mxl"):
         data = {}
         data["relative_path"] = str(score_path.relative_to(path))
@@ -67,8 +69,9 @@ def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
             if len(s) > 0
         )
         data["dir"] = str(score_path.parent)
+        data["relative_dir"] = str(score_path.parent.relative_to(path))
         data["files"] = os.listdir(str(score_path.parent))
-        index[data["relative_path"]] = data
+        index[data["relative_dir"]] = data
         writer.write(data)
         print("Indexed score: " + data["relative_path"])
 

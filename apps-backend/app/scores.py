@@ -40,11 +40,11 @@ def list_lieder(require_files=[]):
     )
 
 
-def lied_by_path(path):
-    dir = app.config["LIEDER_CORPUS_PATH"]
-    index_data = get_lieder_index(dir, index_filename=app.config["LIEDER_INDEX_PATH"])
+def lied_by_dir(relative_dir):
+    corpus_dir = app.config["LIEDER_CORPUS_PATH"]
+    index_data = get_lieder_index(corpus_dir, index_filename=app.config["LIEDER_INDEX_PATH"])
 
-    if path in index_data:
-        return index_data[path]
+    if relative_dir in index_data:
+        return index_data[relative_dir]
 
     return None

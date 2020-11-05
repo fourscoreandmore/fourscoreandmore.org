@@ -92,7 +92,10 @@ def lieder():
     errors = []
 
     if form.validate_on_submit():
-        filename = scores.normalizeScorePath(form.originalScore.data, base_path=app.config["LIEDER_CORPUS_PATH"])
+        lied = scores.lied_by_dir(form.originalScore.data)
+        if lied is None:
+            return redirect('/apps/lieder', code=302)
+        filename = scores.normalizeScorePath(lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"])
         exercise = exercises.LiedExercise(
             filename,
             leaveRestBars=form.preserveRestBars.data,
@@ -108,7 +111,7 @@ def lieder():
                 directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder"))
         except:
             logging.error("Failed to parse file: " + filename)
-            errors.append(("Failed to parse file: " + form.originalScore.data))
+            errors.append(("Failed to parse file: " + lied["relative_path"]))
         for title, path in files:
             download.append(
                 (title,
@@ -142,19 +145,19 @@ def working_in_harmony_analysis(score=""):
     if score.strip() == "":
         return redirect('/apps/working-in-harmony', code=302)
 
-    lied = scores.lied_by_path(score)
+    lied = scores.lied_by_dir(score)
     if lied is None:
         return redirect('/apps/working-in-harmony', code=302)
 
     download = []
     errors = []
 
-    filename = scores.normalizeScorePath(score, base_path=app.config["LIEDER_CORPUS_PATH"])
+    filename = scores.normalizeScorePath(lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"])
     path = filename
     download.append(
         (lied["name"],
-            app.config["SCORE_DOWNLOAD_URI_PREFIX"] + score,
-            score)
+            app.config["SCORE_DOWNLOAD_URI_PREFIX"] + lied["relative_path"],
+            lied["relative_path"])
     )
 
     form = WorkingInHarmonyAnalysisForm(request.form)
