@@ -7,55 +7,25 @@ _Part of [Working in Harmony](/working-in-harmony)._
 
 ## You are here
 
-This page provides some background for why you might like to do this,
-and some detailed instructions for how to write out harmonic analysis in Roman numerals
-and in a way that we can work with computationally.
-
 On this page:
-- Why do this?
-- What scores?
-- What Formats?
-- How to encode your analysis.
+- How to encode your analysis
 
-Other pages provide:
-- [Index page](./index.md): home page for using the app
-- [Behind the scenes](./behind-the-scenes.md): more about how the app works along with our policy on improvements and data protection (we don't keep any personal data).
-
-## Why do this?
-
-Encoding analyses in a computer-readable format allows us to work with it in flexible ways.
-Analyses on paper are fine, but they're not going any further than that.
-With an analysis in an encoded format, we can easily edit it, create a duplicate for an alternative reading, convert it into musical notation and provide automated feedback.
-
-## What Scores?
-
-The Working in Harmony web app on Four Score and More is currently limited to our lieder corpus.
-We aim to offer this service for any encoded scores soon.
-In the meantime, you're welcome to email your analysis to `Mark dot Gotham at uni dash Saarland dot de` (replacing the dot, at, dash, and second dot) and I'll run it for you. If you're in one of my classes then I'll get right back to you; if not that's fine but it'll take a bit longer ...
-
-## What Score Format?
-
-The music notation format we use here is the highly interoperable and neatly compact 'compressed musicxml' format (extension '.mxl').
-All major music notation software packages (Finale, MuseScore, Sibelius ...) import and export this format.
-(The 'Export' option is usually under the 'File' menu or equivalent).
-
-We cannot work with those notation software packages' own file formats or with PDFs.
-There are an increasing number of scores available in encoded formats these days, including our 'Scores of Scores' collection of 19th century songs which you can download as part of this app, or from [MuseScore.com](https://musescore.com/OpenScore-Lieder-Corpus) (sign up required) if you prefer.
-
-If you have a particular piece in mind and don't have access to it in an encoded format, we recommend the ['PlayScore' app](https://www.playscore.co) for converting PDFs.
-There is a small charge for this software, and there are some modest restrictions on allowed uses, though nothing that should conflict with use for this educational purpose.
-
-The format for the analysis warrants a bit more explanation ...
+On other pages:
+- [Click here to use the app](/apps/working-in-harmony/)
+- [Index](./index.md): home page for using the app
+- [Behind the scenes](./behind-the-scenes.md): more about how the app works
+- [Motivation](./motivation.md): why do this(?!), and more about score formats
+- [Work in ... progress](./work-in-progress.md): feedback, planned improvements, data protection (we don't keep any personal data)
 
 ## How to encode your analysis
 
-You can encode your analysis in one of two ways:
+Ultimately, we will offer two options for entering your analysis:
 
-1. Directly in the encoded score itself as a 'lyric' on a newly added lowest part. To do this,
+1. **'On-score' option [Coming soon]** Directly in the encoded score itself as a 'lyric' on a newly added lowest part. To do this,
   - add a new part (e.g. press 'i' in MuseScore),
   - enter new notes (or perhaps copy over the rhythm from an existing part as a template), and
   - add Roman numeral lyrics to notes in that part. Here's an example analysis of a [Wolf song](../working-in-harmony-backend/app/Wolf_Hugo_-_Eichendorff-Lieder_Der verzweifelte Liebhaber.mxl). We need the new part because otherwise you'd have to change the music (adding notes in to attach lyrics to).
-2. Typing in the 'Roman text' format. This is a very simple and intuitive format which adds no jargon beyond that already involved in Roman numeral analysis.
+2. **'Separate' option [Available now!]** Typing in the 'Roman text' format. This is a very simple and intuitive format which adds no jargon beyond that already involved in Roman numeral analysis.
  - See the example below to get the gist of how it works at a glance. The complete form of this analysis can be downloaded [here](../working-in-harmony-backend/app/1.txt).
  - Scroll down for more advice on the formatting.
  - For those interested in knowing more, the full documentation can be found in our research report for [ISMIR 2019](http://archives.ismir.net/ismir2019/paper/000012.pdf) or on music21's [code base](github.com/cuthbertLab/music21/tree/master/music21/romanText), [documentation](web.mit.edu/music21/doc/moduleReference/moduleRoman.html), and [User’s Guide](http://web.mit.edu/music21/doc/usersGuide/usersGuide_23_romanNumerals.html).
@@ -105,9 +75,9 @@ For either input type, use the following format:
 
 In summary, enter a Roman numeral (that’s required), along with any or all of the other annotations (all optional) in the format: 'key:', 'root accidental', 'Roman numeral', 'chord form', 'figure', 'additions'.
 
-For instance, the convoluted entry 'a:#viio6[add4]' indicates:
-- a modulation to a minor;
-- a chord on the raised seventh degree (G#) ...
+For instance, the convoluted entry 'd:#ivo6[add4]' indicates:
+- modulation to d minor and ...
+- a chord on the raised fourth degree (G#) ...
 - that is diminished (so G#, B, D) ...
 - in first inversion (so with B in the bass, below the G# and D)..
 - and with an added 4th above the root (sic, so the pitch C).

@@ -8,13 +8,14 @@ _Part of [Working in Harmony](/working-in-harmony)._
 ## You are here
 
 On this page:
-- A 'Behind the scenes' look at how the bot works;
-- Your feedback and future improvements;
-- Data protection.
+- A 'Behind the scenes' look at how the bot works
 
-Other pages:
-- [Index page](./index.md): home page for using the app
-- [Notes for Analysts](./analysis.md): detailed instructions for how to encode your harmonic analysis in Roman numerals.
+On other pages:
+- [Click here to use the app](/apps/working-in-harmony/)
+- [Index](./index.md): home page for using the app
+- [Notes for Analysts](./analysis.md): detailed notes on writing harmonic analyses in Roman numerals
+- [Motivation](./motivation.md): why do this(?!), and more about score formats
+- [Work in ... progress](./work-in-progress.md): feedback, planned improvements, data protection (we don't keep any personal data)
 
 ## 'Behind the scenes'
 
@@ -44,21 +45,3 @@ The goal is to fix clear errors, but not necessarily to submit an analysis that 
 
 Basically, we hope that this feedback will help analysts to check their work, and teachers to do a first parse through submitted work.
 In short, this is supposed to give people who don't have access to music theory classes some help with their work, and to help those who are involved in formal education to use the limited contact time available better.
-
-## Your feedback and future improvements
-
-Apart from simply launching this site, we aim to continue improving the service by providing more specific, useful, and detailed feedback, with fewer false positives.
-
-We welcome any feedback you might have, whether you've found errors in how the bot works, or opinions about which features are / aren't / would be useful.
-We're happy to integrate further functionality, but bear in mind that anything we include will need to work automatically for all tonal music.
-If you're sure your idea meets those criteria then please do get in touch, with the logical steps written out clearly and unequivocally, and preferably with some examples of edge cases that the system should / should not catch.
-
-## Data protection
-
-In order to improve and extend the services we offer, we will keep anonymous copies of the analyses submitted to this site.
-Absolutely no personal data will be retained at any time; this is strictly about advancing Four Score and More's goals of democratizing access to music theory, (we promise there's nothing nefarious going on!).
-Basically, not only are you getting free, Roman numeral analysis feedback, but you're also contributing to the development of the fields of music theory and music theory pedagogy.
-Whether you get the analysis 'right' or 'wrong', your analysis is an important part of the process.
-We're keen on areas like this which connect the interests and activities of music theorists, students, musicians, and music-enthusiasts.
-
-Conversely, if you actively want to share your analysis and be identified as its author, then simply identify yourself in the 'Analyst:' line of the Roman text file, or somewhere on the on-score analysis and we'll keep that data point.
