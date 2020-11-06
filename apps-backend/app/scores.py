@@ -1,14 +1,10 @@
 from app import app
-from app.indexer import get_lieder_index, get_score_name
+from app.indexer import get_lieder_index, get_score_index, get_score_name
 from natsort import natsorted
 import music21.converter
 import music21.musicxml
-import xml.etree
-import json
-import logging
 import operator
 import os
-import time
 
 
 def normalizeScorePath(path, subDir="", base_path=None):
@@ -29,32 +25,26 @@ def list_scores(subDir=""):
     return natsorted(index_data.items(), key=operator.itemgetter(1))
 
 
-def get_score_index(path, reset=False):
-    index_filename = os.path.join(path, "scores.json")
-    if not reset and os.path.isfile(index_filename):
-        with open(index_filename, "r") as index_handle:
-            return json.load(index_handle)
-
-    index = {}
-    for filename in os.listdir(path):
-        if filename.endswith(".xml") or filename.endswith(".mxl"):
-            abspath = os.path.abspath(os.path.join(path, filename))
-            try:
-                score = music21.converter.parse(abspath)
-                index[filename] = get_score_name(score)
-            except xml.etree.ElementTree.ParseError as e:
-                logging.error("Failed to parse score: " + abspath)
-            except music21.musicxml.xmlToM21.MusicXMLImportException as e:
-                logging.error("Failed to parse score: " + abspath)
-
-    with open(index_filename, "w") as index_handle:
-        json.dump(index, index_handle)
-
-    return index
-
-
-def list_lieder():
+def list_lieder(require_files=[]):
     dir = app.config["LIEDER_CORPUS_PATH"]
     index_data = get_lieder_index(dir, index_filename=app.config["LIEDER_INDEX_PATH"])
 
-    return natsorted(index_data.items(), key=operator.itemgetter(1))
+    if len(require_files) > 0:
+        for path in list(index_data):
+            if not all(elem in index_data[path]["files"] for elem in require_files):
+                del index_data[path]
+
+    return natsorted(
+        [(item[0], item[1]["name"]) for item in index_data.items()],
+        key=operator.itemgetter(1),
+    )
+
+
+def lied_by_dir(relative_dir):
+    corpus_dir = app.config["LIEDER_CORPUS_PATH"]
+    index_data = get_lieder_index(corpus_dir, index_filename=app.config["LIEDER_INDEX_PATH"])
+
+    if relative_dir in index_data:
+        return index_data[relative_dir]
+
+    return None

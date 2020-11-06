@@ -115,3 +115,12 @@ ul.file-downloads {
   content: '⬇️ ';
   display: inline;
 }
+
+textarea {
+    margin: 10px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: calc(100% - 30px);
+    height: 10em;
+    max-height: 90vh;
+}

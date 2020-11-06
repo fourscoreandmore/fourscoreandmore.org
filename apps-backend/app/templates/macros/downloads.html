@@ -12,7 +12,7 @@
         {% for (name, file, file_short) in download %}
           <li>
             <a href="{{ file }}?download=1">{{ name }}</a>
-            {% if file_short.endswith('.xml') or file_short.endswith('.musicxml') %}
+            {% if file_short.endswith('.xml') or file_short.endswith('.musicxml') or file_short.endswith('.mxl') %}
               <br /><span style="font-style: oblique; font-size: smaller">or (experimental): <a href="/apps/score/{{ file_short }}" target="_blank">view in browser</a></span>
             {% endif %}
           </li>
