@@ -8,7 +8,11 @@ _Part of [Working in Harmony](/working-in-harmony)._
 ## You are here
 
 On this page:
-- How to encode your analysis
+- How to enter an analysis
+- Annotation basics
+- Format of Roman numeral entries
+- Optional versus required entries
+- Incomplete analyses
 
 On other pages:
 - [Click here to use the app](/apps/working-in-harmony/)
@@ -17,7 +21,7 @@ On other pages:
 - [Motivation](./motivation.md): why do this(?!), and more about score formats
 - [Work in ... progress](./work-in-progress.md): feedback, planned improvements, data protection (we don't keep any personal data)
 
-## How to encode your analysis
+## How to enter an analysis
 
 Ultimately, we will offer two options for entering your analysis:
 
@@ -51,7 +55,7 @@ m10 b1 V7
 m11 b1 I
 ```
 
-### Annotation basics
+## Annotation basics
 
 Basically the analyst's job is to:
 - Decide where each chord change occurs;
@@ -65,7 +69,7 @@ For (separate) Roman text files, make sure to:
 - Note down the measure and beat carefully, and
 - Start your analysis at the start of the piece (measure 1, or 0 in the case of anacruses).
 
-### Format of Roman numeral entries
+## Format of Roman numeral entries
 
 For either input type, use the following format:
 - New chord: For each new chord, specify the Roman numeral in relation to the prevailing key, for instance 'I' for the tonic.
@@ -82,8 +86,15 @@ For instance, the convoluted entry 'd:#ivo6[add4]' indicates:
 - in first inversion (so with B in the bass, below the G# and D)..
 - and with an added 4th above the root (sic, so the pitch C).
 
-### Optional versus required entries
+## Optional versus required entries
 
 - **On-score format:** It’s possible to input spaces in lyrics. In many notation programs, a normal SPACE key will move you on to lyric input for the next note, but ALT-SPACE will keep you on the current note and add a space to that lyric. Given how confusing that can be, we've made spaces optional: we don’t require them, but don’t worry if you do have them (the code throws them out anyway).
 - **On-score format:** All lyrics need to be appended to a note (not a rest) in the new part. You can put meaningful notes in that part (e.g. start by copying existing material and then adjusting the rhythms as necessary) but that's not required (the notes can just be nonsense as long as they're in the right place).
 - **Either format:** Changes of key remain in effect until the next marking, but changes of tonicization don’t so you need to reiterate them at every entry. That should help keep their use suitably fleeting! That said, you may want to put in reminders of the prevailing key occasionally (after a tonicization, or indeed elsewhere). That's fine and doesn't make any different to the analysis (again, these repetitions are ignored by the code as redundant information).
+
+## Incomplete analyses
+
+Speak of optional entries, it's totally fine to submit an incomplete analysis, with a few caveats:
+- The feedback will still make suggestions for where you might like to change chords in any missing passages, though it's not really designed for this, so be prepared for slightly odd behaviour.
+- If you submit an analysis with no Roman numerals at all then the system will not be so obliging! I.e. it won't work.
+- The system also currently needs something in place before the first chord of the piece so be sure to include at least a placeholder for the first chord even if you're only interested in a passage later on.

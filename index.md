@@ -3,6 +3,12 @@ layout: page
 title: Four Score and More
 ---
 
+## Featured app
+
+The 'Working in Harmony' app provides automatic feedback on users' harmonic analyses.
+- [Click here to use the app](/apps/working-in-harmony/)
+- [... and here for more information](/working-in-harmony)
+
 ## About
 
 ‘Four Score and More’ is a social enterprise founded in 2018 which is dedicated to providing high-quality, digital resources for the teaching and learning of music, particularly music theory.
