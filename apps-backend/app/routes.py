@@ -223,10 +223,6 @@ def working_in_harmony_analysis(score=""):
     errors = []
     feedback = ""
 
-    filename = scores.normalizeScorePath(
-        lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"]
-    )
-    path = filename
     download.append(
         (
             lied["name"],
@@ -248,35 +244,19 @@ def working_in_harmony_analysis(score=""):
             form.analysis.data = template_contents
 
     if form.validate_on_submit():
-        session["wih_id"] = session.get("wih_id", str(uuid.uuid4()))
         relative_directory = (
             lied["relative_dir"].replace("/", "_")
             + "/"
             + hashlib.sha512(form.analysis.data.encode("utf-8")).hexdigest()[:16]
         )
+        session["wih_id"] = session.get("wih_id", str(uuid.uuid4()))
         directory = os.path.join(
             app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), relative_directory
         )
-        os.makedirs(directory, exist_ok=True)
-        romantext_filename = os.path.join(directory, "analysis.txt")
-        with open(romantext_filename, "w") as romantext_file:
-            romantext_file.write(form.analysis.data)
-        try:
-            analysis = romanUmpire.ScoreAndAnalysis(
-                scoreOrData=filename, analysisLocation=romantext_filename
-            )
-        except:
-            logging.exception("Failed to load analysis or score")
-            errors.append("Failed to load analysis or score")
-        try:
-            analysis.printFeedback(outPath=directory, outFile="feedback")
+        errors = _working_in_harmony_process(lied, form.analysis.data, directory)
+        if errors == []:
             with open(os.path.join(directory, "feedback.txt"), "r") as feedback_file:
                 feedback = feedback_file.read()
-        except:
-            logging.exception("Failed to write feedback file")
-            errors.append("Failed to write feedback file")
-        try:
-            analysis.writeScoreWithAnalysis(outPath=directory, outFile="result")
             download.append(
                 (
                     "Score with added analysis",
@@ -285,9 +265,6 @@ def working_in_harmony_analysis(score=""):
                     "",
                 )  # TODO sort out display in browser
             )
-        except:
-            logging.exception("Failed to write analysis to a score")
-            errors.append("Failed to write analysis to a score")
 
     return render_template(
         "working-in-harmony-analysis-form.html",
@@ -298,3 +275,48 @@ def working_in_harmony_analysis(score=""):
         errors=errors,
         feedback=feedback,
     )
+
+
+def _working_in_harmony_process(lied, analysis, directory):
+    errors = []
+
+    filename = scores.normalizeScorePath(
+        lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"]
+    )
+
+    # Skip if already processed.
+    if (
+        os.path.exists(os.path.join(directory, "analysis.txt"))
+        and os.path.exists(os.path.join(directory, "feedback.txt"))
+        and os.path.exists(os.path.join(directory, "result.mxl"))
+    ):
+        return errors
+
+    os.makedirs(directory, exist_ok=True)
+    romantext_filename = os.path.join(directory, "analysis.txt")
+    with open(romantext_filename, "w") as romantext_file:
+        romantext_file.write(analysis)
+
+    try:
+        analysis = romanUmpire.ScoreAndAnalysis(
+            scoreOrData=filename, analysisLocation=romantext_filename
+        )
+    except:
+        logging.exception("Failed to load analysis or score")
+        errors.append("Failed to load analysis or score")
+        return errors
+
+    try:
+        analysis.printFeedback(outPath=directory, outFile="feedback")
+    except:
+        logging.exception("Failed to write feedback file")
+        errors.append("Failed to write feedback file")
+        return errors
+
+    try:
+        analysis.writeScoreWithAnalysis(outPath=directory, outFile="result")
+    except:
+        logging.exception("Failed to write analysis to a score")
+        errors.append("Failed to write analysis to a score")
+
+    return errors
