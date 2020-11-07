@@ -44,7 +44,8 @@ class LiederForm(FlaskForm):
     originalScore = SelectField(
         label="Original song",
         validators=[DataRequired()],
-        description="The song used as a base for the exercise.",
+        description=
+        "Select a song to analyse from the list. (Hint: The list is alphabetical but you can also start typing to find a specific composer, song, or collection.)",
     )
 
     preserveRestBars = BooleanField(
@@ -91,7 +92,8 @@ class WorkingInHarmonyScoreSelectionForm(FlaskForm):
     originalScore = SelectField(
         label="Original song",
         validators=[DataRequired()],
-        description="The song used as a base for the exercise.",
+        description=
+        "Select a song to analyse from the list. (Hint: The list is alphabetical but you can also start typing to find a specific composer, song, or collection.)",
     )
 
     submit = SubmitField(label="Continue")
@@ -100,7 +102,8 @@ class WorkingInHarmonyScoreSelectionForm(FlaskForm):
 class WorkingInHarmonyAnalysisForm(FlaskForm):
     analysis = TextAreaField(
         label="Analysis",
-        description="Complete the template with your own Roman numeral analysis",
+        description=
+        "Complete the template with your own Roman numeral analysis. Feel free to work offline in any text editor (simply cut'n'paste the text back in when you're done).",
         validators=[
             Length(max=102400) # the analysis can be max 100 KB
         ]
