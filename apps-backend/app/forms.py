@@ -42,10 +42,10 @@ class ChoralesForm(FlaskForm):
 
 class LiederForm(FlaskForm):
     originalScore = SelectField(
-        label="Original song",
+        label="Select a song",
         validators=[DataRequired()],
         description=
-        "Select a song to analyse from the list. (Hint: The list is alphabetical but you can also start typing to find a specific composer, song, or collection.)",
+        "Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.",
     )
 
     preserveRestBars = BooleanField(
@@ -90,10 +90,10 @@ class LiederForm(FlaskForm):
 
 class WorkingInHarmonyScoreSelectionForm(FlaskForm):
     originalScore = SelectField(
-        label="Original song",
+        label="Select a song",
         validators=[DataRequired()],
         description=
-        "Select a song to analyse from the list. (Hint: The list is alphabetical but you can also start typing to find a specific composer, song, or collection.)",
+        "Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.",
     )
 
     submit = SubmitField(label="Continue")
