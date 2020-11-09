@@ -14,12 +14,12 @@ Here is some info on them:
 
 ## Collaborators and Credits
 
+### Cut Outs, Working in Harmony, and more
+- [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
+
 ### Scores of Scores
 - The [MuseScore team](https://musescore.com), especially [Peter Jonas](https://musescore.com/shoogle), OpenScore Manager
 - [Edward Guo of IMSLP](http://imslp.org/)
-
-### Cut Outs
-- [Patrick Dawkins](https://patrickdawkins.com/), violinist and PHP developer
 
 ### Harp
 - This interactive guide to the pitch properties of the pedal harp was developed by Iain Gunn and I in 2016 and first published as part of a paper for [Music Theory Online](http://mtosmt.org/issues/mto.16.22.4/mto.16.22.4.gotham.html).
@@ -50,21 +50,27 @@ Here is some info on them:
 - [Alexandra (Xann) Schwinn](http://alexandraschwinn.com/about/);
 - [Karl Schwonik](http://www.karlschwonik.com/).
 
-## Funders
+## Funding and Institutions
+
 Grateful acknowledgement goes to
 1. The [University of Cambridge](https://www.cam.ac.uk/) for funding in support of ‘Scores of Scores’ and ‘Cut Outs’. Here are the specific funds and remit of our activity in those areas:
     - ‘Scores of Scores’ was funded by the [Arts and Humanities Impact Fund](https://www.ahssresearch.group.cam.ac.uk/AH-Impact-Fund).
     - ‘Cut Outs’ was funded by the [The Teaching and Learning Innovation Fund](https://www.cctl.cam.ac.uk/support-and-training/funding/teaching-and-learning-innovation-fund).
     - Additionally a number of partners in Cambridge came together to put on the [‘Scores of Scores’ Launch Event](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora) (details on that page).
 
-2. [Cornell University](https://www.cornell.edu/) where I am employed as ['Postdoctoral Associate in Computational Music Theory Pedagogy'](http://music.cornell.edu/mark-gotham) to continue providing these open source digital music theory teaching resources. Thanks to Cornell's [Faculty of Music](http://music.cornell.edu/) and [Active Learning Initiative](http://as.cornell.edu/education-innovation) for creating this inspired and unique post and thereby supporting the projects to emerge since mid 2018.
+2. [Cornell University](https://www.cornell.edu/) where I was employed from 2018-20 as ['Postdoctoral Associate in Computational Music Theory Pedagogy'](http://music.cornell.edu/mark-gotham) with duties specifically including the development of open source digital music theory teaching resources. Thanks to Cornell's [Faculty of Music](http://music.cornell.edu/) and [Active Learning Initiative](http://as.cornell.edu/education-innovation) for creating this inspired and unique post.
+
+3. [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html) where I am currently employed as 'Wissenschaftlicher Mitarbeiter' on the DFG-funded 'Computergestützte Analyse harmonischer Strukturen' project.
 
 Thank you all!
 <div class="image-collection">
   <a href="https://www.cctl.cam.ac.uk/support-and-training/funding/teaching-and-learning-innovation-fund">
-    <img src="/images/Cambridge.jpg" alt="Cambridge logo" width="240">
+    <img src="/images/Cambridge.jpg" alt="Cambridge logo" width="200">
   </a>
   <a href="http://music.cornell.edu/">
-    <img src="/images/Cornell.svg" alt="Cornell logo" width="240">
+    <img src="/images/Cornell.svg" alt="Cornell logo" width="200">
+  </a>
+  <a href="https://www.uni-saarland.de/en/home.html">
+    <img src="/images/UdesS.jpg" alt="Uni Saarland logo" width="200">
   </a>
 </div>

@@ -3,7 +3,7 @@ layout: post
 title: 'Mark Gotham'
 ---
 
-MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/), and  [‘Postdoctoral Associate in Computational Music Theory Pedagogy’ at Cornell University](http://music.cornell.edu/mark-gotham) and is a fellow of the [Active Learning Initiative](http://as.cornell.edu/education-innovation).
+MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/), and 'Wissenschaftlicher Mitarbeiter' on the DFG-funded ‘Computergestützte Analyse harmonischer Strukturen’ project (Kleinertz and Müller, principal investigators) at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html).
 
 ## Web Links
 
@@ -11,7 +11,7 @@ MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and M
 List of (and links to) research publications on
 - [Google Scholar](https://scholar.google.com/citations?user=bA0PEo0AAAAJ&hl=en&oi=ao)
 - [ORCID](https://orcid.org/0000-0003-0722-3074?lang=en)
-- [Academia.edu](https://cornell.academia.edu/MarkGotham)
+- [Academia.edu](https://iuni-saarland.academia.edu/MarkGotham)
 
 ### Code
 - [Four Score and More code base](https://github.com/fourscoreandmore/fourscoreandmore.org)
@@ -32,6 +32,8 @@ Mark took up several professional appointments at the University of Cambridge du
 - Director of Music and Director of Studies in Music at [Murray Edwards College](https://www.murrayedwards.cam.ac.uk/) where he founded the [Humanist Happenings series](https://www.murrayedwards.cam.ac.uk/college-life/societies-music-and-sports/music-murray-edwards-college/humanist-happenings).
 - Running the University’s [choral awards scheme](https://www.undergraduate.study.cam.ac.uk/finance/music-awards/choral-awards) (which populates Cambridge’s celebrated collegiate choirs) where he introduced various efficiency measures and also graduate students into the scheme for the first time.
 
+He left Cambridge to take up a unique post as [‘Postdoctoral Associate in Computational Music Theory Pedagogy’ at Cornell University](http://music.cornell.edu/mark-gotham) and fellow of the ['Active Learning Initiative'](http://as.cornell.edu/education-innovation), returning to Europe in 2020 to take up his current post at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html).
+
 His early career encompassed a wide range of musical activities including performance, composition and arrangement, teaching, and research (including a first post as McCann Research Fellow at the [Royal Academy of Music](https://www.ram.ac.uk/) prior to starting his PhD).
 Performance engagements have included playing several instruments, singing (both as a freelance baritone and as a Lay Clerk in the Chelmsford and Ely Cathedral Choirs), and conducting.
 As a conductor he worked primarily with student groups through his university roles. Professional highlights included conducting conducting principals of the [LSO](http://lso.co.uk/) and [Philharmonia Orchestra](http://www.philharmonia.co.uk/) in contemporary music projects.
@@ -47,4 +49,4 @@ In addition to teaching, research and composition, Mark is passionate about maki
 
 ----
 
-Updated Jan. 2019
+Updated Nov. 2020
