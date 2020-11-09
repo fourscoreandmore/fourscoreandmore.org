@@ -37,7 +37,6 @@
             var pageHeight = 2970;
             var pageWidth = 2100;
 
-
             /* A highlighting choice */
 
             var choice = 1;
@@ -70,17 +69,6 @@
                 $("#svg_output").html(svg);
 
                 if (choice == 1) {
-
-                    // var info = [
-                    //     {gt : 4, lt : 3, child : 1},
-                    //     {gt : 7, lt: 5, child :10},
-                    //     {gt : 12, lt : 4, child : 1},
-                    //     {gt: 16, lt : 3, child: 4},
-                    // ]
-                    //
-                    // for (const el of info) {
-                    //     $(".system .measure:gt(+"el.gt"+):lt(+"el.gt"+) .staff:nth-child("el.child") .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    // }
 
                     $(".system .measure:lt(4) .staff:nth-child(4) .note").attr("fill", "#d00").attr("stroke", "#d00");
                     $(".system .measure:gt(4):lt(3) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
@@ -159,10 +147,10 @@
 
                 $(".note").each(function(i) {
                     var attr = vrvToolkit.getElementAttr($(this).attr("id"));
-                    if (attr.pname && (attr.pname == "a") {
+                    if (attr.pname && (attr.pname == "a")) {
                         $(this).attr("fill", "purple").attr("stroke", "purple");
                     }
-                    });
+                  });
                 }
                 else {
                     console.log("Unknown choice");
@@ -175,7 +163,6 @@
 
                     /* Process navigation and zoom basic events */
                     processBasicEvents(event);
-
 
                     /* Key events for switching highlight choice */
                     if ((event.keyCode > 47) && (event.keyCode < 58)) {
