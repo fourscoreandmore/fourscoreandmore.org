@@ -1,0 +1,805 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+
+    <title>Metrical Dissonance Metre</title>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <style>
+
+        .metreContainer {
+            display:inline-block;
+            width: 100%;
+
+        }
+
+        .metreColumn1 {
+            float:left;
+            width:50%;
+
+        }
+
+        .metreColumn2 {
+            float:left;
+            width:50%;
+
+        }
+
+        iframe {
+            border: 0 none;
+            width: 100%;
+            height:9em;
+        }
+
+
+
+    </style>
+
+</head>
+
+
+
+<body>
+
+
+
+<!--
+
+***** IMPLEMENTATION NOTES *****
+
+Metre NB
+  * takes value 1 or 2 (consistent with HTML display)
+  * if appears in array, subtract 1 to get 0 or 1   (array[0] = metre1; array[1] = metre2)
+
+
+          /*
+
+        var currentLevel=1;
+        output = [metricalLevels[0]]
+        while(metricalLevels[currentLevel] != -1) {
+            output.append(s(metricalLevels[currentLevel]x)+output[currentLevel-1]);
+        }
+
+
+        Initial condition:     output[0] = s(1x)
+        currentLevel = 1 :     output[1] = s(2x) + output[0] = s(2x) + s(1x)
+        currentLevel = 2 :     output[2] = s(4x) + output[1] = s(4x) + s(2x) + s(1x)
+
+        */
+
+
+-->
+
+
+
+<h1>Metrical Dissonance Metre</h1>
+
+This page calculates a value for the relative dissonance between two metres according to method set out in Gotham 2019 (Oxford Handbook of Time in Music).<br>
+
+To use it, please select a:<br>
+
+<b>A:</b> 'Tempo', or rather a beats-per-minute value for the fastest level to be used by both metres.<br>
+<li>This value is expressed in seconds.</li>
+<li>60 divided by this value gives you the metronome mark, for instance 0.6s = MM100.</li>
+
+<b>B:</b> Dissonance type ('displacement' or 'grouping').<br>
+<li>For displacement, select a distance (less than or equal to the cycle length) and click return.</li>
+
+<b>C:</b> Metre 1 Structure<br>
+<li>The metre is given by proportional values starting with 1 (mandatory).</li>
+<li>Pick a value per level that is 2 or 3 times the previous level.</li>
+<li>To help with this, the availability of values changes in response to your selections.</li>
+
+<b>D:</b> Metre 2 Structure<br>
+<li>This is only availalbe for the of grouping dissonance (i.e. where there are two metres).</li>
+<li>The process is the same as for Metre 1.</li>
+
+<div class="metreContainer">
+    <div class="metreColumn1">
+<h2>A: Tempo</h2>
+
+
+
+Base-level inter onset interval:<br>
+
+<input type="number" id="tempo" min=0.01 max=6.0 step=0.01> seconds.<br>
+
+
+
+<script>
+
+    var x = 0.6;
+
+    document.getElementById('tempo').value = x;
+
+</script>
+
+
+
+<input type="submit" value="Submit IOI" onclick="updateTempo(); updateOutput();" />
+
+    </div>
+<div class="metreColumn2">
+<h2>B: Dissonance type</h2>
+
+
+
+<input type="radio" name="diss_type" onclick="setDissonanceTypeDisplacement(); d_distance.disabled=false;"> Displacement;
+
+<input type="radio" name="diss_type" onclick="setDissonanceTypeGrouping(); d_distance.disabled=true;"> Grouping.
+
+<br>
+
+<br>
+
+Displacement distance:<br>
+
+<input type="number" id="d_distance" disabled=true min=1 max=54 step=1 onchange="updateOutcomeTable();"> unit(s).<br>
+</div>
+    </div>
+
+
+<div class="metreContainer">
+
+<div class="metreColumn1">
+
+<h2>C: Metre 1 Structure</h2>
+
+    <input type="radio" name="1_a" id="metre1_1" checked> 1 (fastest unit, mandatory);<br>
+
+    <input type="radio" name="1_b" id="metre1_2" onclick="refreshView(1);"> 2
+
+    <input type="radio" name="1_b" id="metre1_3" onclick="refreshView(1);"> 3;<br>
+
+    <input type="radio" name="1_c" id="metre1_4" disabled=true onclick="refreshView(1);"> 4
+
+    <input type="radio" name="1_c" id="metre1_6" disabled=true onclick="refreshView(1);"> 6
+
+    <input type="radio" name="1_c" id="metre1_9" disabled=true onclick="refreshView(1);"> 9;<br>
+
+    <input type="radio" name="1_d" id="metre1_8" disabled=true onclick="refreshView(1);"> 8
+
+    <input type="radio" name="1_d" id="metre1_12" disabled=true onclick="refreshView(1);"> 12
+
+    <input type="radio" name="1_d" id="metre1_18" disabled=true onclick="refreshView(1);"> 18
+
+    <input type="radio" name="1_d" id="metre1_27" disabled=true onclick="refreshView(1);"> 27;<br>
+
+    <input type="radio" name="1_e" id="metre1_16" disabled=true onclick="refreshView(1);"> 16
+
+    <input type="radio" name="1_e" id="metre1_24" disabled=true onclick="refreshView(1);"> 24
+
+    <input type="radio" name="1_e" id="metre1_36" disabled=true onclick="refreshView(1);"> 36
+
+    <input type="radio" name="1_e" id="metre1_54" disabled=true onclick="refreshView(1);"> 54;<br>
+
+    <input type="radio" name="1_f" id="metre1_32" disabled=true onclick="refreshView(1);"> 32
+
+    <input type="radio" name="1_f" id="metre1_48" disabled=true onclick="refreshView(1);"> 48;<br>
+
+    <br>
+
+
+
+<input type="reset" onClick="resetView(1);">
+
+
+
+<br>
+
+    <div id="metre1saliencyOutput"></div>
+
+<br>
+
+
+
+</div>
+
+<div class="metreColumn2">
+
+<h2>D: Metre 2 Structure</h2>
+
+    <input type="radio" name="2_a" id="metre2_1" disabled=true> 1 (fastest unit, mandatory);<br>
+
+    <input type="radio" name="2_b" id="metre2_2" disabled=true onclick="refreshView(2);"> 2
+
+    <input type="radio" name="2_b" id="metre2_3" disabled=true onclick="refreshView(2);"> 3;<br>
+
+    <input type="radio" name="2_c" id="metre2_4" disabled=true onclick="refreshView(2);"> 4
+
+    <input type="radio" name="2_c" id="metre2_6" disabled=true onclick="refreshView(2);"> 6
+
+    <input type="radio" name="2_c" id="metre2_9" disabled=true onclick="refreshView(2);"> 9;<br>
+
+    <input type="radio" name="2_d" id="metre2_8" disabled=true onclick="refreshView(2);"> 8
+
+    <input type="radio" name="2_d" id="metre2_12" disabled=true onclick="refreshView(2);"> 12
+
+    <input type="radio" name="2_d" id="metre2_18" disabled=true onclick="refreshView(2);"> 18
+
+    <input type="radio" name="2_d" id="metre2_27" disabled=true onclick="refreshView(2);"> 27;<br>
+
+    <input type="radio" name="2_e" id="metre2_16" disabled=true onclick="refreshView(2);"> 16
+
+    <input type="radio" name="2_e" id="metre2_24" disabled=true onclick="refreshView(2);"> 24
+
+    <input type="radio" name="2_e" id="metre2_36" disabled=true onclick="refreshView(2);"> 36
+
+    <input type="radio" name="2_e" id="metre2_54" disabled=true onclick="refreshView(2);"> 54;<br>
+
+    <input type="radio" name="2_f" id="metre2_32" disabled=true onclick="refreshView(2);"> 32
+
+    <input type="radio" name="2_f" id="metre2_48" disabled=true onclick="refreshView(2);"> 48;<br>
+
+    <br>
+
+
+
+    <input type="reset" onClick="resetView(2);">
+
+
+
+<br>
+
+    <div id="metre2saliencyOutput"></div>
+
+<br>
+
+
+
+</div>
+
+
+<div class="metreContainer">
+<h2>Outcome</h2>
+
+    <hr /><p></p>
+
+    <iframe id="dissonanceTableFrame"></iframe>
+
+    <hr /><p></p>
+
+    <strong>Arithmetic mean of differences:</strong>&nbsp;<div id="arithmeticMeanOfDifferences" style="display:inline"></div>
+
+    <hr /><p></p>
+
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+<br /><br /><br />
+
+
+<div id="testOutput">
+
+</div>
+
+
+<br /><br /><br />
+
+
+<div id="plotOutputDiv" style="width:600px;height:250px;"></div>
+
+
+
+
+
+    <script>
+
+
+
+        /* ==================== global variables ==================== */
+
+
+
+        var metricalLevels = [[1,-1,-1,-1,-1,-1], [1,-1,-1,-1,-1,-1]];
+
+        var cumulativeSalience = [[], []];
+
+        var levelIDs = [[1], [2,3], [4,6,9], [8,12,18,27], [16,24,36,54], [32,48]];
+
+        var dissonanceType = "";
+
+
+
+        /* ==================== IO functions ==================== */
+
+
+
+        function getButtonIdString(metre, id) {
+
+            var idString = "metre"+metre+"_"+id;
+
+            return idString;
+
+        }
+
+
+
+        function setRadioButton(metre, id, checked) {
+
+            var idString = getButtonIdString(metre, id);
+
+            document.getElementById(idString).checked = (checked != 0);
+
+        }
+
+
+
+        function uncheckRadioButton(metre, id) {
+
+            setRadioButton(metre, id, 0);
+
+        }
+
+
+
+        function setRadioButtonEnable(metre, id, enabled) {
+
+            var idString = getButtonIdString(metre, id);
+
+            document.getElementById(idString).disabled = (enabled == 0);
+
+        }
+
+        
+
+        function uncheckAllRadioButtons(metre) {
+
+            for (var level=1; level<levelIDs.length; level++) {
+
+                for (var i=0; i<levelIDs[level].length; i++) {
+
+                    uncheckRadioButton(metre, levelIDs[level][i]);
+
+                }
+
+            }
+
+        }
+
+
+
+        function testIfChecked(metre, id) {
+
+            var idString = getButtonIdString(metre, id);
+
+            return document.getElementById(idString).checked;
+
+        }
+
+
+
+        function updateTempo() {
+            x = document.getElementById('tempo').value;
+        }
+
+
+
+        /*
+
+         readValues sets the elements of array metricalLevels to reflect the current status of the radio buttons.
+
+         */
+
+        function readValues(metre) {
+
+            metricalLevels[metre-1] = [-1,-1,-1,-1,-1,-1];
+
+            for (var level=0; level<levelIDs.length; level++) {
+
+                for (var i=0; i<levelIDs[level].length; i++) {
+
+                    if (testIfChecked(metre, levelIDs[level][i]) != 0) {
+
+                        metricalLevels[metre-1][level] = levelIDs[level][i];
+
+                    }
+
+                }
+
+            }
+
+        }
+
+
+
+
+
+        /* ==================== mathematical functions ==================== */
+        function greatestCommonDivisor(x, y) {
+            x = Math.abs(x);
+            y = Math.abs(y);
+            while(y) {
+                var t = y;
+                y = x % y;
+                x = t;
+            }
+            return x;
+        }
+
+        function lowestCommonMultiple(x, y) {
+            if ((typeof x !== 'number') || (typeof y !== 'number'))
+                return false;
+            return (!x || !y) ? 0 : Math.abs((x * y) / greatestCommonDivisor(x, y));
+        }
+
+        function choiceWouldBeValid(metre, currentLevel, id) {
+            if (currentLevel == 0) return true;
+
+            var isValid1 = (2*metricalLevels[metre-1][currentLevel-1] == id);
+            var isValid2 = (3*metricalLevels[metre-1][currentLevel-1] == id);
+            var isValid = isValid1 || isValid2;
+
+            return isValid;
+        }
+
+        function calculateS(x) {
+            return Math.exp(-(Math.pow((Math.log(x / 0.6)/Math.LN10), 2) / 0.18));
+        }
+
+        function calculateCumulativeSalience(metre) {
+            var cumulativeMetricalSalience = [];
+            var maxLevel = Math.max.apply(null, metricalLevels[metre-1]);
+
+            var baseSalienceValue = calculateS(x);
+            for (var t = 0; t<maxLevel; t++) {
+                cumulativeMetricalSalience.push(baseSalienceValue);
+            }
+
+            for (var level=1; level < metricalLevels[metre-1].length; level++) {
+                if (metricalLevels[metre-1][level] == -1) {
+                    cumulativeSalience[metre-1] = cumulativeMetricalSalience;
+                    return cumulativeMetricalSalience;
+                }
+
+                var skip = metricalLevels[metre-1][level];
+                var Sx = calculateS(skip * x);
+                for (var v = 0; v<maxLevel; v+=skip) {
+                    cumulativeMetricalSalience[v] += Sx;
+                }
+            }
+
+            cumulativeSalience[metre-1] = cumulativeMetricalSalience;
+        }
+
+        function getCumulativeSalienceWithOffset(metre, position, displacement) {
+
+            if (displacement < 0) {
+                displacement = Math.abs(displacement);
+                document.getElementById("d_distance").value = displacement;
+            }
+
+            var index = position - displacement;
+
+            if (index < 0)
+                index += cumulativeSalience[metre].length;
+
+            return cumulativeSalience[metre][index];
+        }
+
+
+        /* ==================== string formatting ==================== */
+
+
+        function formatFloatToString(s, numberOfDecimalPlaces) {
+            return parseFloat(Math.round(s * 100000) / 100000).toFixed(numberOfDecimalPlaces);
+        }
+
+
+        /* ==================== HTML output ==================== */
+
+        function setDissonanceTypeDisplacement() {
+            dissonanceType = "Displacement";
+            disableMetre2();
+            refreshView(1);
+            refreshView(2);
+        }
+
+        function setDissonanceTypeGrouping() {
+            dissonanceType = "Grouping";
+            enableMetre2();
+            refreshView(1);
+            refreshView(2);
+        }
+
+        function updateOutcomeTable() {
+            if (dissonanceType != "Displacement" && dissonanceType != "Grouping")
+                return;
+
+            for (var metre=1; metre<=2; metre++)
+                calculateCumulativeSalience(metre);
+
+            if (dissonanceType === "Displacement") {
+                generateOutcomeTableDisplacement();
+                return;
+            }
+
+            if (dissonanceType === "Grouping") {
+                generateOutcomeTableGrouping();
+                return;
+            }
+        }
+
+        function displayOutcomeTableHtml(table) {
+            var rowTitles = ["Position:", "Time:", "Metre 1:", "Metre 2:", "Difference:"];
+
+            var htmlOutput = "<table>";
+
+            for (var row=0; row<rowTitles.length; row++) {
+                htmlOutput += "<tr>";
+                htmlOutput += "<td><strong>";
+                htmlOutput += rowTitles[row];
+                htmlOutput += "</strong></td>";
+
+                for (var column=0; column<table[0].length; column++) {
+                    htmlOutput += "<td>";
+                    htmlOutput += table[row][column];
+                    htmlOutput += "</td>";
+                }
+
+                htmlOutput += "</tr>";
+            }
+
+            htmlOutput += "</table>";
+
+            var outputFrame = document.getElementById('dissonanceTableFrame');
+            outputFrame.contentDocument.write(htmlOutput);
+            outputFrame.contentDocument.close();
+        }
+
+        function displayArithmeticMeanOfDifferences(table) {
+            var total=0;
+            for (var position=0; position < table[0].length; position++) {
+                total += Math.abs(table[4][position]);
+            }
+            var avg = total/table[4].length;
+            avg = formatFloatToString(avg, 4);
+            document.getElementById('arithmeticMeanOfDifferences').innerHTML = avg;
+        }
+
+
+        function generateOutcomeTableDisplacement() {
+            var displacementValue = document.getElementById("d_distance").value;
+
+            var maxLevel = Math.max.apply(null, metricalLevels[0]);
+
+            var table = [new Array(maxLevel), new Array(maxLevel), new Array(maxLevel),
+                new Array(maxLevel), new Array(maxLevel)];
+
+            for (var position=0; position < maxLevel; position++) {
+                // position
+                table[0][position] = position;
+
+                // time
+                table[1][position] = formatFloatToString(position * x, 1);
+
+                // metre 1
+                table[2][position] = formatFloatToString(
+                        getCumulativeSalienceWithOffset(0, position, 0), 3);
+
+                // metre 2
+                table[3][position] = formatFloatToString(
+                        getCumulativeSalienceWithOffset(0, position, displacementValue), 3);
+
+                // difference
+                table[4][position] = formatFloatToString(Math.abs(table[2][position] - table[3][position]),
+                        3);
+            }
+
+            displayOutcomeTableHtml(table);
+            displayArithmeticMeanOfDifferences(table);
+        }
+
+        function generateOutcomeTableGrouping() {
+            var lengthMetre1 = Math.max.apply(null, metricalLevels[0]);
+            var lengthMetre2 = Math.max.apply(null, metricalLevels[1]);
+
+            var lcm = lowestCommonMultiple(lengthMetre1, lengthMetre2);
+
+            var table = [new Array(lcm), new Array(lcm), new Array(lcm),
+                new Array(lcm), new Array(lcm)];
+
+            for (var position=0; position < lcm; position++) {
+                // position
+                table[0][position] = position;
+
+                // time
+                table[1][position] = formatFloatToString(position * x, 1);
+
+                // metre 1
+                table[2][position] = formatFloatToString(
+                        cumulativeSalience[0][(position % cumulativeSalience[0].length)],
+                        3);
+
+                // metre 2
+                table[3][position] = formatFloatToString(
+                        cumulativeSalience[1][(position % cumulativeSalience[1].length)],
+                        3);
+
+                // difference
+                table[4][position] = formatFloatToString(Math.abs(table[2][position] - table[3][position]),
+                        3);
+            }
+
+            displayOutcomeTableHtml(table);
+            displayArithmeticMeanOfDifferences(table);
+        }
+
+        function resetOutcomeTable() {
+            var outputFrame = document.getElementById('dissonanceTableFrame');
+            outputFrame.contentDocument.write("");
+            outputFrame.contentDocument.close();
+        }
+
+        function setEnableMetre2(enabled) {
+            for (var level=0; level<levelIDs.length; level++) {
+                for (var i=0; i<levelIDs[level].length; i++) {
+                    setRadioButton(2, levelIDs[level][i], enabled);
+                    setRadioButtonEnable(2, levelIDs[level][i], enabled);
+                }
+            }
+        }
+
+        function disableMetre2() {
+            setEnableMetre2(0);
+        }
+
+        function enableMetre2() {
+            setEnableMetre2(1);
+            uncheckAllRadioButtons(2);
+        }
+
+        /*
+
+         Update innerHtml for salience values table.
+
+         */
+
+        function updateShtml(metre) {
+            var tableHtml = "<table>";
+
+            for(var currentLevel=0; currentLevel<6; currentLevel++) {
+                if (metricalLevels[metre-1][currentLevel] != -1) {
+                    var s = calculateS(metricalLevels[metre-1][currentLevel] * x);
+
+                    tableHtml += "<tr><td style='width:5em'>S(";
+                    tableHtml += metricalLevels[metre-1][currentLevel];
+                    tableHtml += "x)=</td><td style='width:5em'>";
+                    tableHtml += formatFloatToString(s, 5);
+                    tableHtml += "</td></tr>";
+                }
+
+            }
+
+            tableHtml += "</table>";
+
+            document.getElementById('metre'+metre+'saliencyOutput').innerHTML = tableHtml;
+        }
+
+
+
+        function updateCheckedRadioButtons(metre) {
+
+            var existsValidChoiceAtPreviousLevel = true;
+
+
+
+            for (var currentLevel=0; currentLevel<levelIDs.length; currentLevel ++) {
+
+                var existsValidChoiceAtThisLevel = false;
+
+
+
+                for (var i=0; i<levelIDs[currentLevel].length; i++) {
+
+                    var id = levelIDs[currentLevel][i];
+
+
+
+                    if (!existsValidChoiceAtPreviousLevel) {
+
+                        uncheckRadioButton(metre, id);
+
+                        continue;
+
+                    }
+
+
+
+                    if (choiceWouldBeValid(metre, currentLevel, id) == 0) {
+
+                        uncheckRadioButton(metre, id);
+
+                    }
+
+
+
+                    if (testIfChecked(metre, id) !== 0) {
+
+                        existsValidChoiceAtThisLevel = true;
+
+                    }
+
+                }
+
+
+
+                existsValidChoiceAtPreviousLevel = existsValidChoiceAtThisLevel;
+
+            }
+
+        }
+
+
+
+        function updateEnabledRadioButtons(metre) {
+
+            for (var currentLevel=0; currentLevel<levelIDs.length; currentLevel ++) {
+
+                for (var i=0; i<levelIDs[currentLevel].length; i++) {
+
+                    var id = levelIDs[currentLevel][i];
+
+                    setRadioButtonEnable(metre, id, choiceWouldBeValid(metre, currentLevel, id));
+
+                }
+
+            }
+
+        }
+
+
+
+
+
+        function refreshView(metre) {
+
+            readValues(metre);
+
+            updateCheckedRadioButtons(metre);
+
+            readValues(metre);
+
+            updateEnabledRadioButtons(metre);
+
+            updateShtml(metre);
+
+            updateOutcomeTable();
+
+        }
+
+
+
+        function resetView(metre) {
+
+            uncheckAllRadioButtons(metre);
+
+            refreshView(metre);
+
+            resetOutcomeTable();
+
+        }
+
+
+
+        function updateOutput() {
+
+            refreshView(1);
+
+            refreshView(2);
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>
