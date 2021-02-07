@@ -1,6 +1,6 @@
 name: apps-backend
 
-type: "python:3.6"
+type: "python:3.9"
 
 disk: 3072
 
