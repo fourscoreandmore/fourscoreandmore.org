@@ -103,7 +103,7 @@ class WorkingInHarmonyAnalysisForm(FlaskForm):
     analysis = TextAreaField(
         label="Analysis",
         description=
-        "Complete the template with your own Roman numeral analysis. Feel free to work offline in any text editor (simply cut'n'paste the text back in when you're done).",
+        "Complete the template with your own Roman numeral analysis.\nFeel free to work offline in any text editor (simply cut'n'paste the text back in when you're done).\nFor help with getting your analysis down in the right format, see the notes here: https://fourscoreandmore.org/working-in-harmony/analysis/",
         validators=[
             Length(max=102400) # the analysis can be max 100 KB
         ]
