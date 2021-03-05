@@ -263,7 +263,7 @@ NB: I've now integrated this section into the ISMIR website for which the [sourc
 [Institute of Computational Perception](https://www.jku.at/en/institute-of-computational-perception/) | Johannes Kepler U., Linz | AT | Gerhard Widmer and Markus Schedl
 [Intelligent Music Processing and Machine Learning Group](http://www.ofai.at/music/) | [Austrian Research Institute for Artificial Intelligence (OFAI)](http://www.ofai.at/research/impml/index.html) | AT | Gerhard Widmer
 [Music Information Retrieval Lab](http://www.ifs.tuwien.ac.at/mir) | Vienna U. of Technology | AT | Andreas Rauber
-[Universität für Musik und Darstellende Kunst Wien](https://www.mdw.ac.at/) | U. of Music and Performing Arts, Vienna | AT  | Werner Goebl
+[Universität für Musik und Darstellende Kunst Wien (MDW)](https://www.mdw.ac.at/) | U. of Music and Performing Arts, Vienna | AT  | Werner Goebl | Inludes the [Institut für musikalische Akustik - Wiener Klangstil (IWK)](https://iwk.mdw.ac.at)
 [Centre for Interdisciplinary Research in Music, Media and Technology (CIRMMT)](http://www.cirmmt.org/) | McGill U. | CA | | |
 [Distributed Digital Music Archives & Libraries Lab (DDMAL)](http://ddmal.music.mcgill.ca/) | McGill U. | CA | Ichiro Fujinaga
 [Digital and Cognitive Musicology Lab (DCML)](https://github.com/DCMLab) | EPFL | CH | Martin Rohrmeier
@@ -295,8 +295,9 @@ NB: I've now integrated this section into the ISMIR website for which the [sourc
 [(Centre for) Practice and Research in Science and Music, (PRiSM)](https://www.rncm.ac.uk/research/research-centres-rncm/prism/) | RNCM and U. of Oxford | UK | Emily Howard and Marcus du Sautoy
 [Center for Computer Assisted Research in the Humanities, (CCARH)](http://www.ccarh.org) | Stanford U. | USA | Craig Sapp and Eleanor Selfridge-Field
 [Center for Music Technology (GTCMT)](http://www.gtcmt.gatech.edu/) | Georgia Tech | USA | Gil Weinberg
-[Cognitive and Systematic Musicology Laboratory (CSML)](https://www.asc.ohio-state.edu/music/csml/home/index.php/Home) | Ohio State U. | USA | David Huron
+[Cognitive and Systematic Musicology Laboratory (CSML)](https://www.musiccognition.osu.edu) | Ohio State U. | USA | Daniel Shanahan (PI), Eugenia Costa-Giomi, David Huron (Emeritus)
 International Music Information Retrieval Systems Evaluation Laboratory (IMIRSEL), [School of Information Sciences](https://ischool.illinois.edu/) | U. of Illinois at Urbana-Champaign (UIUC) | USA | J. Stephen Downie |
+[Cuthbert lab](https://github.com/cuthbertLab) | Massachusetts Institute of Technology (MIT) | USA | Michael Cuthbert | |
 [MuE: Music + Engineering](http://mue.music.miami.edu/) | U. of Miami | USA | |
 [Music and Entertainment Technology Laboratory (MET-lab)](http://www.met-lab.org) | Expressive and Creative Interaction Technologies (ExCITe) Center, Drexel U., Philadelphia | USA | Youngmoo Kim | Devoted to research in digital media technologies that will shape the future of entertainment. MET-lab's primary research focus encompasses several areas: music information retrieval, music production technology, new musical interfaces, and musical humanoid robotics. The lab also emphasizes K-12 outreach and hosts Summer Music Technology, a one-week experience based educational curriculum for high school students.
 [Music and Audio Research Laboratory (MARL)](https://steinhardt.nyu.edu/marl/) | New York U. | USA | Juan Pablo Bello | Doctoral and masters programs in music technology in the heart of New York City. Main research areas include MIR, Immersive Audio, Music Cognition and Interactive Systems
