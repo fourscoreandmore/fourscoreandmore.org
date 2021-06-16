@@ -30,13 +30,3 @@ hooks:
     gem install bundler
     bundle install
     jekyll build
-    command -v platform >/dev/null || curl -sfS https://platform.sh/cli/installer | php
-
-crons:
-  # Automatically redeploy master every month.
-  redeploy:
-    spec: '0 0 1 * *'
-    cmd: |
-      if [ "$PLATFORM_BRANCH" = master ]; then
-        platform redeploy --yes --no-wait
-      fi
