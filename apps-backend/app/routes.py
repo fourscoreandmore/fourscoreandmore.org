@@ -1,6 +1,5 @@
 from flask import (
     abort,
-    safe_join,
     render_template,
     redirect,
     request,
@@ -10,6 +9,7 @@ from flask import (
 from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
+from werkzeug.utils import safe_join
 import hashlib
 import uuid
 import urllib
@@ -43,7 +43,7 @@ def custom_static(filename):
         dir,
         filename,
         as_attachment=("download" in request.args),
-        attachment_filename=name,
+        download_name=name,
         mimetype=mimetype,
     )
 
