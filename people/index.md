@@ -60,7 +60,9 @@ Grateful acknowledgement goes to
 
 2. [Cornell University](https://www.cornell.edu/) where I was employed from 2018-20 as ['Postdoctoral Associate in Computational Music Theory Pedagogy'](http://music.cornell.edu/mark-gotham) with duties specifically including the development of open source digital music theory teaching resources. Thanks to Cornell's [Faculty of Music](http://music.cornell.edu/) and [Active Learning Initiative](http://as.cornell.edu/education-innovation) for creating this inspired and unique post.
 
-3. [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html) where I am currently employed as 'Wissenschaftlicher Mitarbeiter' on the DFG-funded 'Computergestützte Analyse harmonischer Strukturen' project.
+3. [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html) where I was employed from 2020-21 as 'Wissenschaftlicher Mitarbeiter' on the DFG-funded 'Computergestützte Analyse harmonischer Strukturen' project.
+
+4. [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/) where I now work as Professor for Music Theory.
 
 Thank you all!
 <div class="image-collection">
