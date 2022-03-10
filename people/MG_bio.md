@@ -3,7 +3,7 @@ layout: post
 title: 'Mark Gotham'
 ---
 
-MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/), and 'Wissenschaftlicher Mitarbeiter' on the DFG-funded ‘Computergestützte Analyse harmonischer Strukturen’ project (Kleinertz and Müller, principal investigators) at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html).
+MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/), and Professor of Music Theory at [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/).
 
 ## Web Links
 
@@ -32,14 +32,17 @@ Mark took up several professional appointments at the University of Cambridge du
 - Director of Music and Director of Studies in Music at [Murray Edwards College](https://www.murrayedwards.cam.ac.uk/) where he founded the [Humanist Happenings series](https://www.murrayedwards.cam.ac.uk/college-life/societies-music-and-sports/music-murray-edwards-college/humanist-happenings).
 - Running the University’s [choral awards scheme](https://www.undergraduate.study.cam.ac.uk/finance/music-awards/choral-awards) (which populates Cambridge’s celebrated collegiate choirs) where he introduced various efficiency measures and also graduate students into the scheme for the first time.
 
-He left Cambridge to take up a unique post as [‘Postdoctoral Associate in Computational Music Theory Pedagogy’ at Cornell University](http://music.cornell.edu/mark-gotham) and fellow of the ['Active Learning Initiative'](http://as.cornell.edu/education-innovation), returning to Europe in 2020 to take up his current post at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html).
+Then he ... 
+- ... left Cambridge to take up a unique post as [‘Postdoctoral Associate in Computational Music Theory Pedagogy’ at Cornell University](http://music.cornell.edu/mark-gotham) and fellow of the ['Active Learning Initiative'](http://as.cornell.edu/education-innovation),
+- ... returned to Europe in 2020 to take up a second postdoc ('Wissenschaftlicher Mitarbeiter') on the DFG-funded ‘Computergestützte Analyse harmonischer Strukturen’ project (Kleinertz and Müller, principal investigators) at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html),
+- ... before landing his current position as Professor of Music Theory at [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/).
 
 His early career encompassed a wide range of musical activities including performance, composition and arrangement, teaching, and research (including a first post as McCann Research Fellow at the [Royal Academy of Music](https://www.ram.ac.uk/) prior to starting his PhD).
 Performance engagements have included playing several instruments, singing (both as a freelance baritone and as a Lay Clerk in the Chelmsford and Ely Cathedral Choirs), and conducting.
 As a conductor he worked primarily with student groups through his university roles. Professional highlights included conducting conducting principals of the [LSO](http://lso.co.uk/) and [Philharmonia Orchestra](http://www.philharmonia.co.uk/) in contemporary music projects.
 
 The debut commercial recording of his compositions – [‘Utrumne est Ornatum’](http://www.regent-records.co.uk/product_details_349.htm) – was released by [Regent Records](http://www.regent-records.co.uk/) in 2018, featuring a range of (mostly choral) works and performers including the celebrity guest narrator, [Tom Hollander](https://www.imdb.com/name/nm0390903/).
-The disc has been highly favorably reviewed by the [Choir and Organ](https://www.rhinegold.co.uk/rhinegold-publishing/magazines/choir-organ/) and [Organists’ Review](https://organistsreview.com/) magazines, with both awarding the maximum 5 stars.
+The disc has been highly favourably reviewed by the [Choir and Organ](https://www.rhinegold.co.uk/rhinegold-publishing/magazines/choir-organ/) and [Organists’ Review](https://organistsreview.com/) magazines, with both awarding the maximum 5 stars.
 Other composition highlights have included broadcasts on BBC Radio 3 and national Chinese television, performances at St Martin in the Fields and the Aldeburgh Festival, and commissions from the King’s Lynn and Thaxted Festivals.
 Future plans include a growing collaboration with the poet John Kinsella, and a new piece for the 50th anniversary of the Fitzwilliam String Quartet.
 
@@ -49,4 +52,4 @@ In addition to teaching, research and composition, Mark is passionate about maki
 
 ----
 
-Updated Nov. 2020
+Updated March 2022

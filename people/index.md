@@ -67,12 +67,15 @@ Grateful acknowledgement goes to
 Thank you all!
 <div class="image-collection">
   <a href="https://www.cctl.cam.ac.uk/support-and-training/funding/teaching-and-learning-innovation-fund">
-    <img src="/images/Cambridge.jpg" alt="Cambridge logo" width="200">
+    <img src="/images/Cambridge.jpg" alt="Cambridge logo" width="150">
   </a>
   <a href="http://music.cornell.edu/">
-    <img src="/images/Cornell.svg" alt="Cornell logo" width="200">
+    <img src="/images/Cornell.svg" alt="Cornell logo" width="150">
   </a>
   <a href="https://www.uni-saarland.de/en/home.html">
-    <img src="/images/UdesS.jpg" alt="Uni Saarland logo" width="200">
+    <img src="/images/UdesS.jpg" alt="Uni Saarland logo" width="150">
+  </a>
+  <a href="https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/">
+    <img src="/images/tud_logo.pdf" alt="Technische Universität Dortmund logo" width="150">
   </a>
 </div>
