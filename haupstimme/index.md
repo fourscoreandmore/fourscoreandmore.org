@@ -7,8 +7,6 @@ When listening to music, our attention is drawn back and forth between different
 Often this is guided by following the main, most prominent melodic line: the _hauptstimme_.
 This task aims to capture something of that effect.
 
-# The 'Haupstimme' Annotation Task
-
 ## The Main Task, in Brief:
 
 - Identify where the 'main' melody is throughout an orchestral movement.
@@ -54,7 +52,7 @@ if the score annotation looks like this (only string parts shown):
   - Inconsistent labels (e.g., same theme labelled differently when it returns).
 - Make any changes in the original (e.g., orchestral) score (not the 'melody score').
 
-# Further notes, suggestions, and FAQs
+## Further notes, suggestions, and FAQs
 
 What happens when there's more than one theme at once?
 
