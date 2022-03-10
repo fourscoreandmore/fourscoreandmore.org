@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Haupstimme'
+title: 'Hauptstimme'
 ---
 
 When listening to music, our attention is drawn back and forth between different elements.
@@ -56,7 +56,7 @@ if the score annotation looks like this (only string parts shown):
 
 What happens when there's more than one theme at once?
 
-- Please still chose the one you hear as 'primary', as the _haupstimme_.
+- Please still chose the one you hear as 'primary', as the _hauptstimme_.
   - We're not aiming for a comprehensive analysis of all themes / motives used.
   - We only want _your view_ of the _main melody_ (which melody is most prominent, and in which instrument).
   - This is a judgement call and sometimes there's no single 'right' answer.
