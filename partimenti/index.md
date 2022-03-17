@@ -32,6 +32,11 @@ Schema Scores: Templates for pieces based on combinations of schemas.
 - Template 1: [.mscz](/downloads/Schema_Score_Template_1.mscz), [.mxl](/downloads/Schema_Score_Template_1.mxl)
 - Template 2: [.mscz](/downloads/Schema_Score_Template_2.mscz), [.mxl](/downloads/Schema_Score_Template_2.mxl)
 
+You can also view, play, etc. these scores online on [FourScoreAndMore's MuseScore page](https://musescore.com/fourscoreandmore). For example, here's what the Partimenti Prototypes without Chords looks like:
+
+<iframe width="100%" height="394" src="https://musescore.com/user/30425053/scores/5350116/embed" frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
+
+The [whole set is here](https://musescore.com/fourscoreandmore/sets/5098210).
 
 ## More about those files
 
