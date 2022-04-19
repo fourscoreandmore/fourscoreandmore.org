@@ -209,26 +209,31 @@ In addition to which:
 
 ### Journals and conference proceedings
 
-* [Computer Music Journal](https://www.mitpressjournals.org/loi/comj)
-* [Conference on Interdisciplinary Musicology](http://www.idmusicology.com/cim/the-conference-on-interdisciplinary-musicology/)
+* [Computer Music Journal (CMJ)](https://www.mitpressjournals.org/loi/comj)
+* [Conference on AI Music Creativity (AIMC)](https://2022.aimusiccreativity.org)
+* [Conference on Interdisciplinary Musicology (CIM)](http://www.idmusicology.com/cim/the-conference-on-interdisciplinary-musicology/)
 * [Conference on Mathematics and Computation in Music (MCM)](http://www.smcm-net.info/) - From the Society for Mathematics and Computation in Music (SMCM)
-* [Digital Libraries for Musicology (DLfM)](http://www.transforming-musicology.org/dlfm2017/) – an IMSIR satellite event
+* [Digital Libraries for Musicology (DLfM)](https://dlfm.web.ox.ac.uk)
 * [Empirical Musicology Review (EMR)](http://emusicology.org/)
+* [EvoMUSART: International Conference on Computational Intelligence in Music, Sound, Art and Design (Part of EvoStar)](https://link.springer.com/conference/evomusart)
 * [Frontiers In Digital Humanities](http://journal.frontiersin.org/journal/digital-humanities)
-* [International Computer Music Association](http://www.computermusic.org/)
-* [International Conference on Auditory Displays](https://icad.org/)
-* [International Conference on Live Coding](https://iclc.livecodenetwork.org/)
+* [Innovative Computer-basierte Musik-Interfaces (ICMI)](https://www.icmi-workshop.org) - workshop as part of the HCI conference, ["Mensch & Computer"](https://muc2022.mensch-und-computer.de/en/)
+* [International Computer Music Conference (ICMC)](http://www.computermusic.org/)
+* [International Conference on Auditory Displays (ICAD)](https://icad.org/)
+* [International Conference on Live Coding (ICLC)](https://iclc.livecodenetwork.org/)
+* [International Conference on Technologies for Music Notation and Representation (TENOR)](http://www.tenor-conference.org/index.html)
 * [International Society for Music Information Retrieval (ISMIR)](http://www.ismir.net/)
 * [International Symposium on Computer Music Multidisciplinary Research (CMMR)](http://www.cmmr2020.gttm.jp/)
 * [International Workshop on Musical Metacreation](http://musicalmetacreation.org/)
 * [HathiTrust Research Center 'Uncamp'](https://www.hathitrust.org/htrc_uncamp2018)
+* [Journal of Creative Music Systems (JCMS)](https://www.jcms.org.uk)
 * [Journal of Interdisciplinary Music Studies (JIMS)](http://musicstudies.org)
 * [Journal of Mathematics and Music (JMAM)](https://www.tandfonline.com/toc/tmam20/current)
-* [Journal of New Music Research](http://www.tandfonline.com/toc/nnmr20/current)
-* [Music & Science Journal](http://journals.sagepub.com/loi/mnsa)
-* [Music Encoding Conference](http://music-encoding.org/conference/) - annual gathering of the Music Encoding Initiative community.
-* [New Interfaces for Musical Expression](http://www.nime.org/)
-* ['TENOR'](http://www.tenor-conference.org/index.html) - International Conference on Technologies for Music Notation and Representation
+* [Journal of New Music Research (JNMR)](http://www.tandfonline.com/toc/nnmr20/current)
+* [Music and Science Journal](http://journals.sagepub.com/loi/mnsa)
+* [Music Encoding Conference (MEC)](http://music-encoding.org/conference/) - annual gathering of the Music Encoding Initiative community.
+* [New Interfaces for Musical Expression (NIME)](http://www.nime.org/)
+* [Sound and Music Computing (SMC)](https://smc-2022.sciencesconf.org)
 * [Transactions of the International Society for Music Information Retrieval (TISMIR)](http://tismir.ismir.net)
 
 ### Other gatherings and international organisations
