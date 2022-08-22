@@ -7,6 +7,14 @@ _Part of [Scores of Scores](/scores-of-scores)._
 
 ---
 
+## Move along please!
+
+[Updated notes for transcribers are on this page](/scores-of-scores/notes-for-transcribers).
+
+What follows here is 'legacy' text and may be deleted soon.
+
+## Legacy text ... 
+
 Welcome!
 
 Thanks for participating in this very exciting encoding project.

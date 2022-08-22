@@ -7,16 +7,17 @@ title: 'Scores of Scores'
 As of 2020, in addition to the scores, we are also running a parallel collection of harmonic analyses.
 [Here](/working-in-harmony/analysis) are the new notes for analysts.
 
-This project is in association with [OpenScore](https://openscore.cc/).
-The focus has so far been on creating the [OpenScore Lieder Corpus](https://musescore.com/openscore-lieder-corpus).
-As that has grown to a formidable scale (over 1,300 songs), we are now turning our attention to a new repertoire, the: [OpenScore String Quartets](https://musescore.com/openscore-string-quartets).
+This project is in association with [OpenScore](https://openscore.cc/)
+and to date offers two major collections:
+- [OpenScore Lieder Corpus](https://musescore.com/openscore-lieder-corpus) (over 1,300 songs),
+- [OpenScore String Quartets](https://musescore.com/openscore-string-quartets).
 
 ## URL Menu
 
 1. The scores are all on MuseScore.com ([lieder here](https://musescore.com/openscore-lieder-corpus), [string quartets here](https://musescore.com/openscore-string-quartets)) where they are available to play online, download in multiple formats, transpose, and more;
-1. There is also a 'mirror' (copy of all the scores) available for download on [GitHub.com](https://github.com/OpenScore/Lieder).
+1. We also provide a 'mirror' (copy of all the scores) where you can download the whole collection at once. [The lieder mirror is here](https://github.com/OpenScore/Lieder) and the equivalent for string quartets will follow soon.
 1. This page provides an introduction to the project;
-1. [Notes for transcribers are on a dedicated page here](/scores-of-scores/lieder-corpus-project);
+1. [Notes for transcribers are on a dedicated page here](/scores-of-scores/notes-for-transcribers);
 1. ['Learn by Doing Lieder Transcription'](/scores-of-scores/learn-by-doing): Suggested transcription-based exercises for the intrepid student of music theory;
 1. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
 1. [Notes for analysts](/working-in-harmony/analysis)
