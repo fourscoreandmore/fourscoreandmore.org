@@ -20,7 +20,7 @@ We hope you find it useful!
 - Edition of manuscript sources is often more complicated: please get in touch to discuss individual cases.
 - If in doubt, ask your reviewer!
 
-## Metadata' text on the score and online
+## Metadata text on the score and online
 
 - **Title, composer, and lyricist** (for lieder) should already be present in their respective fields of the 'score properties' box and displayed on the score. The naming convention on musescore.com should likewise have been handled by the reviewer/central team. Let us know if you spot any errors (do not make changes unless agreed with your reviewer).
 - **Dedication:** We use a separate 'Vertical Frame', above the main 'Title frame' with text centred, italic, 9pt. Again, please leave this as it is.
@@ -47,7 +47,7 @@ We hope you find it useful!
   - Grouping: typically follows the pre-set time signature defaults.
     - _Exception:_ Composers sometimes use a deviation from the normal beaming pattern for a specific passage within a longer work. Do copy this except where it means beaming across barlines at line breaks: there is no MuseScore provision for this, so separate the beam groupings there.
 - **Tuplets:** Use only the MuseScore default bracket (right-angle corners) whatever the source uses.
-  - The settings in the Inspector for tuplets should be: **`** Direction = Auto`; `Number type = Number` **; `** Bracket type = Auto`
+  - The settings in the Inspector for tuplets should be: `Direction = Auto`; `Number type = Number`; `Bracket type = Auto`
   - Tuplet indication is left visible if it is included in the source edition, otherwise these should be made invisible.
     - _Exception_ – if no indication is given for the first instance of a tuplet, and it could be confusing without it, then make that first instance (only) visible.
 
@@ -78,8 +78,8 @@ We hope you find it useful!
 ## Crescendo, diminuendo, ritardando
 
 - Use 'real' lines (that affect playback and are exported) wherever possible.
-- **Terms:** Copy the source except where there is a now-more-standard equivalent. E.g., use ` diminuendo` in place of `decrescendo`.
-- **Abbreviations:** only `cresc.`, `dim.` and `rit.`., please spell anything else out in full and/or adapt to one of these.
+- **Terms:** Copy the source except where there is a now-more-standard equivalent. E.g., use `diminuendo` in place of `decrescendo`.
+- **Abbreviations:** only `cresc.`, `dim.` and `rit.`, please spell anything else out in full and/or adapt to one of these.
 - Some older sources break these instructions into separate syllables over multiple measures or even multiple systems. For example: `cre - - - scen - - - do`. Do not attempt to copy this. Instead use a wide-dashed line (`Line Thickness = 0.12sp`, `Dash Line Length = 5`, and `Dash Gap Width = 20`), with standard `Begin text` - and with `Continue text` in parentheses at the start of each system e.g., _(dim.)_.
 
 ## Ties
