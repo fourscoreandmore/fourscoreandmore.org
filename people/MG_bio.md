@@ -3,7 +3,7 @@ layout: post
 title: 'Mark Gotham'
 ---
 
-MARK GOTHAM is a composer-theorist, the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/), and Professor of Music Theory at [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/).
+MARK GOTHAM is a composer, scholar, etc., and the founder-director of [‘Four Score and More’](https://fourscoreandmore.org/).
 
 ## Web Links
 
@@ -24,7 +24,10 @@ List of (and links to) research publications on
 
 ## Biography
 
-Mark Gotham graduated from the [University of Oxford (Christ Church)](http://www.ox.ac.uk/) with the [Gibbs prize](http://www.ox.ac.uk/feesandfunding/ugcurrent/other/prizes/gibbs/) for the highest-ranking first class degree awarded in music; from the [Royal Northern College of Music](http://www.rncm.ac.uk/) with an MMus in composition (supported by a full [Arts and Humanities Research Council](http://www.ahrc.ac.uk/Pages/Home.aspx) scholarship); and from the [University of Cambridge](http://www.cam.ac.uk/) with a Ph.D. in music theory (Newton Trust scholarship). His thesis was described by the examiners as 'excellent' ([Alan Marsden](http://www.lancaster.ac.uk/staff/marsdena/)) and 'formidable' ([Robert Pascall](http://www.nottingham.ac.uk/music/people/robert.pascall)).
+Mark Gotham specialises in computational methods for music theory, analysis, and composition.
+He holds the rare distinction of having been appointed to faculty positions in both STEM (Assistant Professor of Computer Science at Durham University, from 2023) and in the humanities (previously [Professor of Music Theory at T. U. Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/)).
+
+Mark graduated from the [University of Oxford (Christ Church)](http://www.ox.ac.uk/) with the [Gibbs prize](http://www.ox.ac.uk/feesandfunding/ugcurrent/other/prizes/gibbs/) for the highest-ranking first class degree awarded in music; from the [Royal Northern College of Music](http://www.rncm.ac.uk/) with an MMus in composition (supported by a full [Arts and Humanities Research Council](http://www.ahrc.ac.uk/Pages/Home.aspx) scholarship); and from the [University of Cambridge](http://www.cam.ac.uk/) with a Ph.D. in music theory (Newton Trust scholarship). His thesis was described by the examiners as 'excellent' ([Alan Marsden](http://www.lancaster.ac.uk/staff/marsdena/)) and 'formidable' ([Robert Pascall](http://www.nottingham.ac.uk/music/people/robert.pascall)).
 
 Mark took up several professional appointments at the University of Cambridge during his PhD, and he remained in Cambridge afterwards to continue and expand that range. These appointments included:
 - Affiliated Lecturer in the [Faculty of Music](https://www.mus.cam.ac.uk/),
@@ -35,7 +38,8 @@ Mark took up several professional appointments at the University of Cambridge du
 Then he ... 
 - ... left Cambridge to take up a unique post as [‘Postdoctoral Associate in Computational Music Theory Pedagogy’ at Cornell University](http://music.cornell.edu/mark-gotham) and fellow of the ['Active Learning Initiative'](http://as.cornell.edu/education-innovation),
 - ... returned to Europe in 2020 to take up a second postdoc ('Wissenschaftlicher Mitarbeiter') on the DFG-funded ‘Computergestützte Analyse harmonischer Strukturen’ project (Kleinertz and Müller, principal investigators) at the [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html),
-- ... before landing his current position as Professor of Music Theory at [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/).
+- ... was appointed Professor (W2) of Music Theory at [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/).
+- ... and then to his position in computer science at Durham (links to follow).
 
 His early career encompassed a wide range of musical activities including performance, composition and arrangement, teaching, and research (including a first post as McCann Research Fellow at the [Royal Academy of Music](https://www.ram.ac.uk/) prior to starting his PhD).
 Performance engagements have included playing several instruments, singing (both as a freelance baritone and as a Lay Clerk in the Chelmsford and Ely Cathedral Choirs), and conducting.
@@ -52,4 +56,4 @@ In addition to teaching, research and composition, Mark is passionate about maki
 
 ----
 
-Updated March 2022
+Updated 2022-09
