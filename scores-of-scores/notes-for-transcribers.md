@@ -42,7 +42,7 @@ We hope you find it useful!
 
 - **Time signatures:** Always reproduce time signature symbol as shown in the source edition, e.g., common time, cut common time (_alla breve_), and 4/4 are all to be treated as different even though they refer to the same duration and (arguably) beam groupings.
 - **Beaming:** usually, we enter the notes with default beaming for …
-  - **P** lacement: above _or_ below – not a combination of both
+  - Placement: above _or_ below – not a combination of both
     - _Exception:_ We do not use crossing combinations of notes both above and below the beam in string parts, but we do sometimes need to copy that notation in the lieder piano parts, e.g., when crossing between treble and bass of the grand stave. Please discuss with your reviewer.
   - Grouping: typically follows the pre-set time signature defaults.
     - _Exception:_ Composers sometimes use a deviation from the normal beaming pattern for a specific passage within a longer work. Do copy this except where it means beaming across barlines at line breaks: there is no MuseScore provision for this, so separate the beam groupings there.
@@ -51,7 +51,7 @@ We hope you find it useful!
   - Tuplet indication is left visible if it is included in the source edition, otherwise these should be made invisible.
     - _Exception_ – if no indication is given for the first instance of a tuplet, and it could be confusing without it, then make that first instance (only) visible.
 
-**Grace notes**
+## Grace notes
 
 - Copy the source edition including noting the difference between:
   - the presence (acciaccatura) or absence (appoggiatura) of a slash through the note.
@@ -81,6 +81,7 @@ We hope you find it useful!
 - **Terms:** Copy the source except where there is a now-more-standard equivalent. E.g., use `diminuendo` in place of `decrescendo`.
 - **Abbreviations:** only `cresc.`, `dim.` and `rit.`, please spell anything else out in full and/or adapt to one of these.
 - Some older sources break these instructions into separate syllables over multiple measures or even multiple systems. For example: `cre - - - scen - - - do`. Do not attempt to copy this. Instead use a wide-dashed line (`Line Thickness = 0.12sp`, `Dash Line Length = 5`, and `Dash Gap Width = 20`), with standard `Begin text` - and with `Continue text` in parentheses at the start of each system e.g., _(dim.)_.
+- Unfortunately, there's not yet a `ritardando` option that affects playback. Use a `System text` entry (box at the bottom in the Inspector) and manual dashed line. We'll fix this when MuseScore does - i.e., in a future version of MuseScore.
 
 ## Ties
 
@@ -90,7 +91,7 @@ We hope you find it useful!
 ## Playing instructions
 
 - Use the `pizz.` and `arco` instructions from the Text palette (see comments above about placement).
-- Do include instructions for harmonics (i.e., usually the `o` symbol)
+- Do include instructions for harmonics (from the articulations palette - the symbol looks similar to `o`)
 - Do include the Roman numerals indicating which string to be used (e.g., `IV`).
 - Indication of fingering is not generally included. If in doubt, ask your reviewer.
 
