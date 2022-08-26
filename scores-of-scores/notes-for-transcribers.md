@@ -32,7 +32,6 @@ We hope you find it useful!
 - **System breaks and page breaks:** Follow the system breaks and page breaks used by the source edition where possible in that order (system being the more important).
   - _Exception:_ Do not attempt to replicate the splitting of measures (with part before and part after) a system or page break.
 - **Above / below stave:** In general, use the default settings provided in the template
-
   - Above: Tempo marks; playing instructions such as `pizz.` and `arco`:
     - _Exception:_ where there are 2 voices, one arco and one pizz. In this case they should be placed above/below as appropriate for the voice in question.
   - Below: All dynamics, hairpins and expression text.
