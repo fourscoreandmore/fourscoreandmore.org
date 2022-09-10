@@ -17,7 +17,7 @@ and to date offers two major collections:
 1. The scores are all on MuseScore.com ([lieder here](https://musescore.com/openscore-lieder-corpus), [string quartets here](https://musescore.com/openscore-string-quartets)) where they are available to play online, download in multiple formats, transpose, and more;
 1. We also provide a 'mirror' (copy of all the scores) where you can download the whole collection at once. [The lieder mirror is here](https://github.com/OpenScore/Lieder) and the equivalent for string quartets will follow soon.
 1. This page provides an introduction to the project;
-1. [Notes for transcribers are on a dedicated page here](/scores-of-scores/notes-for-transcribers);
+1. There are further, dedicated pages here with [notes for transcribers](/scores-of-scores/notes-for-transcribers) and [notes for users](/scores-of-scores/notes-for-users);
 1. ['Learn by Doing Lieder Transcription'](/scores-of-scores/learn-by-doing): Suggested transcription-based exercises for the intrepid student of music theory;
 1. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
 1. [Notes for analysts](/working-in-harmony/analysis)
