@@ -24,19 +24,19 @@ The .mscz format is for MuseScore specifically; you can open the .mxl files in a
 
 In .mxl format:
 
-| Part | Exercises | Solutions | Annotated | Distinct |
+| Part | Exercises | Solutions | Annotations | Distinct |
 |---|---|---|---|---|
-I|[I-Exercises.mxl](/downloads/I/I-Exercises.mxl)|[I-Solutions.mxl](/downloads/I/I-Solutions.mxl)|[I-Annotated.mxl](/downloads/I/I-Distinct.mxl)|[I-Distinct.mxl](/downloads/I/I-Distinct.mxl)|
-II|[II-Exercises.mxl](/downloads/II/II-Exercises.mxl)|[II-Solutions.mxl](/downloads/II/II-Solutions.mxl)|[II-Annotated.mxl](/downloads/II/II-Distinct.mxl)|[II-Distinct.mxl](/downloads/II/II-Distinct.mxl)|
-III|[III-Exercises.mxl](/downloads/III/III-Exercises.mxl)|[III-Solutions.mxl](/downloads/III/III-Solutions.mxl)|[III-Annotated.mxl](/downloads/III/III-Distinct.mxl)|[III-Distinct.mxl](/downloads/I/III-Distinct.mxl)|
+I|[I-Exercises.mxl](/downloads/I/I-Exercises.mxl)|[I-Solutions.mxl](/downloads/I/I-Solutions.mxl)|[I-Annotations.mxl](/downloads/I/I-Annotations.mxl)|[I-Distinct.mxl](/downloads/I/I-Distinct.mxl)|
+II|[II-Exercises.mxl](/downloads/II/II-Exercises.mxl)|[II-Solutions.mxl](/downloads/II/II-Solutions.mxl)|[II-Annotations.mxl](/downloads/II/II-Annotations.mxl)|[II-Distinct.mxl](/downloads/II/II-Distinct.mxl)|
+III|[III-Exercises.mxl](/downloads/III/III-Exercises.mxl)|[III-Solutions.mxl](/downloads/III/III-Solutions.mxl)|[III-Annotations.mxl](/downloads/III/III-Annotations.mxl)|[III-Distinct.mxl](/downloads/I/III-Distinct.mxl)|
 
 In .mscz format:
 
-| Part | Exercises | Solutions | Annotated | Distinct |
+| Part | Exercises | Solutions | Annotations | Distinct |
 |---|---|---|---|---|
-I|[I-Exercises.mscz](/downloads/I/I-Exercises.mscz)|[I-Solutions.mscz](/downloads/I/I-Solutions.mscz)|[I-Annotated.mscz](/downloads/I/I-Distinct.mscz)|[I-Distinct.mscz](/downloads/I/I-Distinct.mscz)|
-II|[II-Exercises.mscz](/downloads/II/II-Exercises.mscz)|[II-Solutions.mscz](/downloads/II/II-Solutions.mscz)|[II-Annotated.mscz](/downloads/II/II-Distinct.mscz)|[II-Distinct.mscz](/downloads/II/II-Distinct.mscz)|
-III|[III-Exercises.mscz](/downloads/III/III-Exercises.mscz)|[III-Solutions.mscz](/downloads/III/III-Solutions.mscz)|[III-Annotated.mscz](/downloads/III/III-Distinct.mscz)|[III-Distinct.mscz](/downloads/I/III-Distinct.mscz)|
+I|[I-Exercises.mscz](/downloads/I/I-Exercises.mscz)|[I-Solutions.mscz](/downloads/I/I-Solutions.mscz)|[I-Annotations.mscz](/downloads/I/I-Annotations.mscz)|[I-Distinct.mscz](/downloads/I/I-Distinct.mscz)|
+II|[II-Exercises.mscz](/downloads/II/II-Exercises.mscz)|[II-Solutions.mscz](/downloads/II/II-Solutions.mscz)|[II-Annotations.mscz](/downloads/II/II-Annotations.mscz)|[II-Distinct.mscz](/downloads/II/II-Distinct.mscz)|
+III|[III-Exercises.mscz](/downloads/III/III-Exercises.mscz)|[III-Solutions.mscz](/downloads/III/III-Solutions.mscz)|[III-Annotations.mscz](/downloads/III/III-Annotations.mscz)|[III-Distinct.mscz](/downloads/I/III-Distinct.mscz)|
 
 ## For Reference
 
