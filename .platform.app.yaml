@@ -26,9 +26,13 @@ web:
 
 hooks:
   build: |
-    set -e
+    set -xe
     gem install bundler
     bundle install
+    ls -l ./vendor/bundle/bin || true
+    ls -l ./vendor/bin || true
+    find . -name jekyll || true
+    echo "$PATH"
     jekyll build
     command -v platform >/dev/null || curl -sfS https://platform.sh/cli/installer | php
 
