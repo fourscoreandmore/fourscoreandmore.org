@@ -214,7 +214,8 @@ Here are online sites (libraries and companies) offering and/or working with lin
 - [Songkick](https://www.songkick.com/)
 - [SoundtrackCollector](https://soundtrackcollector.com/)
 - [Deezer](https://www.deezer.com/)
-- [SoundCloud](https://soundcloud.com/)- [Spotify](https://open.spotify.com/)
+- [SoundCloud](https://soundcloud.com/)
+- [Spotify](https://open.spotify.com/)
 - [Trove (National Library of Australia)](https://nla.gov.au/)
 - [Amazon](https://www.amazon.com/)
 - [Virtual International Authority File (VIAF)](https://viaf.org/)
@@ -267,7 +268,8 @@ This section lists some main other relevant apps, software, and code Libraries f
 
 ### Visualisation / Annotation
 
-* [Audio Timeliner](https://www.singanewsong.org/audiotimeliner/) [not free] and it's successors:
+* "Timeliner" annotation tools:
+	* [Audio Timeliner](https://www.singanewsong.org/audiotimeliner/)
 	* [Briformer](https://www.brianedwardjarvis.com/MusicTheoryWebApps/BriFormer/briformer.html)
 	* [TiLiA](https://tilia-ad98d.web.app/)
 * [Dezrann](https://www.dezrann.net/)
