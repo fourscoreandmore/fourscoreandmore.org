@@ -5,7 +5,7 @@ size: S
 build:
   flavor: none
 
-type: ruby:2.5
+type: ruby:3.2
 
 variables:
   env:
