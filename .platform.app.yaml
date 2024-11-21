@@ -5,7 +5,7 @@ size: S
 build:
   flavor: none
 
-type: ruby:2.5
+type: ruby:3.2
 
 variables:
   env:
@@ -29,4 +29,4 @@ hooks:
     set -e
     gem install bundler
     bundle install
-    jekyll build
+    bundle exec jekyll build
