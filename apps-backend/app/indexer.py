@@ -7,11 +7,17 @@ import xml.etree
 
 
 def get_score_name(score):
-    title = score.metadata.title
-    if score.metadata.movementNumber and score.metadata.movementNumber != title:
-        title += ": " + score.metadata.movementNumber
-    if score.metadata.movementName and score.metadata.movementName != title:
-        title += ", " + score.metadata.movementName
+    title = ""
+    if score.metadata.title:
+        title = score.metadata.title
+        if score.metadata.movementNumber and score.metadata.movementNumber != title:
+            title += ": " + score.metadata.movementNumber
+        if score.metadata.movementName and score.metadata.movementName != title:
+            title += ", " + score.metadata.movementName
+    elif score.metadata.movementName:
+        title = score.metadata.movementName
+        if score.metadata.movementNumber and score.metadata.movementNumber != title:
+            title += ": " + score.metadata.movementNumber
 
     return "{} - {}".format(score.metadata.composer, title)
 
