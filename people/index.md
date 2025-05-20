@@ -57,7 +57,7 @@ Grateful acknowledgement goes to
     - At Cornell I co-founded a working group which has been funded by the [CNY Humanities Corridor]() ever since.  
 3. [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html) where I was employed from 2020-21 as 'Wissenschaftlicher Mitarbeiter' on the DFG-funded 'Computergestützte Analyse harmonischer Strukturen' project.
 4. [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/) where I worked as Professor for Music Theory
-5. [Durham University] where I worked as Asst. Professor of Computer Science
+5. [Durham University](https://www.durham.ac.uk/departments/academic/computer-science/) where I worked as Asst. Professor of Computer Science
 6. [KCL](https://www.kcl.ac.uk/) where I now work as [Senior Lecturer in Cultural Computation](https://www.kcl.ac.uk/people/mark-gotham)
 
 Thank you all!
@@ -81,6 +81,6 @@ Thank you all!
     <img src="/images/durham.png" alt="Durham logo" width="150">
   </a>
   <a href="https://www.kcl.ac.uk/people/mark-gotham">
-    <img src="/images/kcl_logo.png" alt="KCL logo" width="150">
+    <img src="/images/kcl_logo.svg" alt="KCL logo" width="150">
   </a>
 </div>
