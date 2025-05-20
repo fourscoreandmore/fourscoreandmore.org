@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Die böse Farbe (OpenScore Lieder Corpus)'
+---
+
+__No.17 from [Die schöne Müllerin, D.795](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/) by [Schubert,_Franz](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz)__
+
+Transcribed and maintained by contributors to [OpenScore Lieder].
+
+Please visit the [official score page] for more information.
+
+[official score page]: https://musescore.com/openscore-lieder-corpus/scores/4985934
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+
+## Direct Download
+
+Click on the links below to download the score in your preferred format:
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/17_Die_b%C3%B6se_Farbe.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/17_Die_b%C3%B6se_Farbe.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/17_Die_b%C3%B6se_Farbe/lc4985934.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+
+## External links
+
+- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+
+[MuseScore]: https://musescore.com/score/4985934
+[IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/03233
+
+## Preview
+
+<iframe width="100%" height="394" src="https://musescore.com/openscore-lieder-corpus/scores/4985934/embed" frameborder="0" allowfullscreen allow="autoplay; fullscreen"></iframe>
