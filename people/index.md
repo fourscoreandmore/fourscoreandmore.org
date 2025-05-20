@@ -6,7 +6,7 @@ title: 'People'
 Like a lot of start up enterprises liberally using the word 'we', there's actually one person
 at the centre of Four Score and More, deeply immersed in (at least co-running) each of the projects.
 That person (also writing this text) is:
-- [Mark Gotham](MG_bio/)
+- [Mark Gotham](https://markgotham.github.io/)
 
 Fortunately for him (me), a growing number of great people are contributing to 'Four Score And More',
 either as directly involved collaborators, or in important advisory roles.
@@ -30,10 +30,6 @@ Here is some info on them:
 ### Partimenti
 - Developed in consultation with the magnificent [Roger Moseley](https://music.cornell.edu/roger-moseley)
 
-### Simple Harmonic Motion
-- [Neil Dodgson](http://neildodgson.com/), [Professor at the Victoria University of Wellington, New Zealand](https://www.victoria.ac.nz/)
-- Sally Jane Norman, [Professor at and Director of the New Zealand School of Music](https://www.victoria.ac.nz/nzsm/about/staff/sallyjane-norman),
-
 ### Scored-up Scores
 - Made using code built on top of [Laurent Pugin](https://dblp.uni-trier.de/pers/hd/p/Pugin:Laurent)'s fabulous [Verovio](https://www.verovio.org/index.xhtml)
 
@@ -42,11 +38,11 @@ Here is some info on them:
 
 ## Advisory Team
 
-- [Ryaan Ahmed](ryaanahmed.com), musician, musicologist and developer at [Artusi](https://www.artusi.xyz/)
-- Michael Scott Cuthbert, [Associate Professor at MIT](https://mta.mit.edu/person/michael-scott-cuthbert) and Founder of [Artusi](https://www.artusi.xyz/)
+- [Ryaan Ahmed](https://www.ryaanahmed.com/), musician, musicologist and developer.
+- Michael Scott Cuthbert, developer and former Associate Professor at MIT.
 - [Katharine Ellis](https://www.mus.cam.ac.uk/directory/professor-katharine-ellis), 1684 Professor of Music, University of Cambridge;
 - Elena Anastopoulos, [ABRSM](https://gb.abrsm.org/en/home);
-- [Peter Gotham](https://uk.linkedin.com/in/peter-gotham-54884341), Third Sector Accountant;
+- Peter Gotham, Third Sector Accountant;
 - [Alexandra (Xann) Schwinn](http://alexandraschwinn.com/about/);
 - [Karl Schwonik](http://www.karlschwonik.com/).
 
@@ -57,12 +53,12 @@ Grateful acknowledgement goes to
     - ‘Scores of Scores’ was funded by the [Arts and Humanities Impact Fund](https://www.ahssresearch.group.cam.ac.uk/AH-Impact-Fund).
     - ‘Cut Outs’ was funded by the [The Teaching and Learning Innovation Fund](https://www.cctl.cam.ac.uk/support-and-training/funding/teaching-and-learning-innovation-fund).
     - Additionally a number of partners in Cambridge came together to put on the [‘Scores of Scores’ Launch Event](https://www.bigdata.cam.ac.uk/events/cambridge-big-data-events/2018scores-of-scores2019-possibilities-and-pitfalls-with-musical-corpora) (details on that page).
-
 2. [Cornell University](https://www.cornell.edu/) where I was employed from 2018-20 as ['Postdoctoral Associate in Computational Music Theory Pedagogy'](http://music.cornell.edu/mark-gotham) with duties specifically including the development of open source digital music theory teaching resources. Thanks to Cornell's [Faculty of Music](http://music.cornell.edu/) and [Active Learning Initiative](http://as.cornell.edu/education-innovation) for creating this inspired and unique post.
-
+    - At Cornell I co-founded a working group which has been funded by the [CNY Humanities Corridor]() ever since.  
 3. [Universität des Saarlandes](https://www.uni-saarland.de/en/home.html) where I was employed from 2020-21 as 'Wissenschaftlicher Mitarbeiter' on the DFG-funded 'Computergestützte Analyse harmonischer Strukturen' project.
-
-4. [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/) where I now work as Professor for Music Theory.
+4. [Technische Universität Dortmund](https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/) where I worked as Professor for Music Theory
+5. [Durham University] where I worked as Asst. Professor of Computer Science
+6. [KCL](https://www.kcl.ac.uk/) where I now work as [Senior Lecturer in Cultural Computation](https://www.kcl.ac.uk/people/mark-gotham)
 
 Thank you all!
 <div class="image-collection">
@@ -72,10 +68,19 @@ Thank you all!
   <a href="http://music.cornell.edu/">
     <img src="/images/Cornell.svg" alt="Cornell logo" width="150">
   </a>
-  <a href="https://www.uni-saarland.de/en/home.html">
+  <a href="https://www.cnycorridor.net/groups/mp3-music-theory-examples-by-women/">
+    <img src="/images/CNYHC_rgb.png" alt="CNYHC logo" width="150">
+  </a>
+<a href="https://www.uni-saarland.de/en/home.html">
     <img src="/images/UdesS.jpg" alt="Uni Saarland logo" width="150">
   </a>
-  <a href="https://www.musik.tu-dortmund.de/institut/personen/professorinnen-und-professoren/univ-prof-dr-phil-mark-r-h-gotham/">
-    <img src="/images/tud_logo.pdf" alt="Technische Universität Dortmund logo" width="150">
+  <a href="https://musik.kmst.tu-dortmund.de/institut/personen/ehemalige-mitarbeiterinnen/univ-prof-dr-phil-mark-r-h-gotham/">
+    <img src="/images/TU_Dortmund_Logo.png" alt="Technische Universität Dortmund logo" width="150">
+  </a>
+  <a href="https://www.durham.ac.uk/departments/academic/computer-science/">
+    <img src="/images/durham.png" alt="Durham logo" width="150">
+  </a>
+  <a href="https://www.kcl.ac.uk/people/mark-gotham">
+    <img src="/images/kcl_logo.png" alt="KCL logo" width="150">
   </a>
 </div>
