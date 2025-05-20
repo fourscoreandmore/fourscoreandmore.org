@@ -3,11 +3,14 @@ layout: page
 title: Four Score and More
 ---
 
-## Featured app
+## Featured: OpenScore
 
-The 'Working in Harmony' app provides automatic feedback on users' harmonic analyses.
-- [Click here to use the app](/apps/working-in-harmony/)
-- [... and here for more information](/working-in-harmony)
+We're making use of FourScoreAndMore to host direct downloads of
+scores in the OpenScore corpora.
+
+Click below for ...
+- [... more on OpenScore](./open-score)
+- [... an example score page](./open-score/lieder/Schumann,_Clara/Lieder,_Op.12/04_Liebst_du_um_Sch%C3%B6nheit/)
 
 ## About
 
