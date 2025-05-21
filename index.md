@@ -9,8 +9,8 @@ We're making use of FourScoreAndMore to host direct downloads of
 scores in the OpenScore corpora.
 
 Click below for ...
-- [... more on OpenScore](./open-score)
-- [... an example score page](./open-score/lieder/Schumann,_Clara/Lieder,_Op.12/04_Liebst_du_um_Sch%C3%B6nheit/)
+- [... more on OpenScore](./openscore)
+- [... an example score page](./openscore/lieder/Schumann,_Clara/Lieder,_Op.12/04_Liebst_du_um_Sch%C3%B6nheit/)
 
 ## About
 
