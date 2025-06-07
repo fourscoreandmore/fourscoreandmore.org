@@ -3,7 +3,7 @@ layout: post
 title: 'Abendlied (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [2 Duette, Op.6](https://fourscoreandmore.org/openscore/lieder/Le_Beau%2C_Luise_Adolpha/2_Duette%2C_Op.6/) by [Le_Beau,_Luise_Adolpha](https://fourscoreandmore.org/openscore/lieder/Le_Beau%2C_Luise_Adolpha)__
+__No.2 from [2 Duette, Op.6](https://fourscoreandmore.org/openscore/lieder/Le_Beau,_Luise_Adolpha/2_Duette,_Op.6/) by [Le_Beau,_Luise_Adolpha](https://fourscoreandmore.org/openscore/lieder/Le_Beau,_Luise_Adolpha)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Le_Beau%2C_Luise_Adolpha/2_Duette%2C_Op.6/2_Abendlied.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Le_Beau%2C_Luise_Adolpha/2_Duette%2C_Op.6/2_Abendlied.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Le_Beau%2C_Luise_Adolpha/2_Duette%2C_Op.6/2_Abendlied/lc5883655.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Le_Beau,_Luise_Adolpha/2_Duette,_Op.6/2_Abendlied.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Le_Beau,_Luise_Adolpha/2_Duette,_Op.6/2_Abendlied.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Le_Beau,_Luise_Adolpha/2_Duette,_Op.6/2_Abendlied/lc5883655.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'In Summer-time on Bredon (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [A Shropshire Lad](https://fourscoreandmore.org/openscore/lieder/Somervell%2C_Arthur/A_Shropshire_Lad/) by [Somervell,_Arthur](https://fourscoreandmore.org/openscore/lieder/Somervell%2C_Arthur)__
+__No.4 from [A Shropshire Lad](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur/A_Shropshire_Lad/) by [Somervell,_Arthur](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell%2C_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell%2C_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Somervell%2C_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon/lc6211877.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Somervell,_Arthur/A_Shropshire_Lad/04_In_Summer-time_on_Bredon/lc6211877.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

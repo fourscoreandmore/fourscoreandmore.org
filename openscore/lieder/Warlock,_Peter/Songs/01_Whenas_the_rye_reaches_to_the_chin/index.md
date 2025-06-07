@@ -3,7 +3,7 @@ layout: post
 title: 'Whenas the rye reaches to the chin (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [Songs](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/) by [Warlock,_Peter](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter)__
+__No.1 from [Songs](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Songs/) by [Warlock,_Peter](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Warlock%2C_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin/lc6195130.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Warlock,_Peter/Songs/01_Whenas_the_rye_reaches_to_the_chin/lc6195130.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Is She Not Passing Fair? (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/_/) by [Elgar,_Edward](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward/_/) by [Elgar,_Edward](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/_/Is_She_Not_Passing_Fair.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/_/Is_She_Not_Passing_Fair.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Elgar%2C_Edward/_/Is_She_Not_Passing_Fair/lc6546527.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward/_/Is_She_Not_Passing_Fair.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward/_/Is_She_Not_Passing_Fair.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Elgar,_Edward/_/Is_She_Not_Passing_Fair/lc6546527.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

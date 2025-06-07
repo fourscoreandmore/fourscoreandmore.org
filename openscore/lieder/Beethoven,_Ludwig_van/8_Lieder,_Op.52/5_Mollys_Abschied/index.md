@@ -3,7 +3,7 @@ layout: post
 title: 'Mollys Abschied (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [8 Lieder, Op.52](https://fourscoreandmore.org/openscore/lieder/Beethoven%2C_Ludwig_van/8_Lieder%2C_Op.52/) by [Beethoven,_Ludwig_van](https://fourscoreandmore.org/openscore/lieder/Beethoven%2C_Ludwig_van)__
+__No.5 from [8 Lieder, Op.52](https://fourscoreandmore.org/openscore/lieder/Beethoven,_Ludwig_van/8_Lieder,_Op.52/) by [Beethoven,_Ludwig_van](https://fourscoreandmore.org/openscore/lieder/Beethoven,_Ludwig_van)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Beethoven%2C_Ludwig_van/8_Lieder%2C_Op.52/5_Mollys_Abschied.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Beethoven%2C_Ludwig_van/8_Lieder%2C_Op.52/5_Mollys_Abschied.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Beethoven%2C_Ludwig_van/8_Lieder%2C_Op.52/5_Mollys_Abschied/lc6491411.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Beethoven,_Ludwig_van/8_Lieder,_Op.52/5_Mollys_Abschied.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Beethoven,_Ludwig_van/8_Lieder,_Op.52/5_Mollys_Abschied.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Beethoven,_Ludwig_van/8_Lieder,_Op.52/5_Mollys_Abschied/lc6491411.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

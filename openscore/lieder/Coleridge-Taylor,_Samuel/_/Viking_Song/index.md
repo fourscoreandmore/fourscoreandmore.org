@@ -3,7 +3,7 @@ layout: post
 title: 'Viking Song (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/_/) by [Coleridge-Taylor,_Samuel](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor,_Samuel/_/) by [Coleridge-Taylor,_Samuel](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor,_Samuel)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/_/Viking_Song.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/_/Viking_Song.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Coleridge-Taylor%2C_Samuel/_/Viking_Song/lc6548435.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor,_Samuel/_/Viking_Song.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor,_Samuel/_/Viking_Song.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Coleridge-Taylor,_Samuel/_/Viking_Song/lc6548435.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

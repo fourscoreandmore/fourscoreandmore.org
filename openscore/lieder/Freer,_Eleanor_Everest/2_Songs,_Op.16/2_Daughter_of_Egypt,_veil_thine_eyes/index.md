@@ -3,7 +3,7 @@ layout: post
 title: 'Daughter of Egypt, veil thine eyes (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [2 Songs, Op.16](https://fourscoreandmore.org/openscore/lieder/Freer%2C_Eleanor_Everest/2_Songs%2C_Op.16/) by [Freer,_Eleanor_Everest](https://fourscoreandmore.org/openscore/lieder/Freer%2C_Eleanor_Everest)__
+__No.2 from [2 Songs, Op.16](https://fourscoreandmore.org/openscore/lieder/Freer,_Eleanor_Everest/2_Songs,_Op.16/) by [Freer,_Eleanor_Everest](https://fourscoreandmore.org/openscore/lieder/Freer,_Eleanor_Everest)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Freer%2C_Eleanor_Everest/2_Songs%2C_Op.16/2_Daughter_of_Egypt%2C_veil_thine_eyes.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Freer%2C_Eleanor_Everest/2_Songs%2C_Op.16/2_Daughter_of_Egypt%2C_veil_thine_eyes.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Freer%2C_Eleanor_Everest/2_Songs%2C_Op.16/2_Daughter_of_Egypt%2C_veil_thine_eyes/lc6598677.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Freer,_Eleanor_Everest/2_Songs,_Op.16/2_Daughter_of_Egypt,_veil_thine_eyes.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Freer,_Eleanor_Everest/2_Songs,_Op.16/2_Daughter_of_Egypt,_veil_thine_eyes.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Freer,_Eleanor_Everest/2_Songs,_Op.16/2_Daughter_of_Egypt,_veil_thine_eyes/lc6598677.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

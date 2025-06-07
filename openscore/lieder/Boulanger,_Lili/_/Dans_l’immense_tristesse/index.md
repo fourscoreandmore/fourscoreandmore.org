@@ -3,7 +3,7 @@ layout: post
 title: 'Dans l’immense tristesse (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/_/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/_/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/_/Dans_l%E2%80%99immense_tristesse.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/_/Dans_l%E2%80%99immense_tristesse.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger%2C_Lili/_/Dans_l%E2%80%99immense_tristesse/lc5983777.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/_/Dans_l%E2%80%99immense_tristesse.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/_/Dans_l%E2%80%99immense_tristesse.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger,_Lili/_/Dans_l%E2%80%99immense_tristesse/lc5983777.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

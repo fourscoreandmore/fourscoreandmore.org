@@ -3,7 +3,7 @@ layout: post
 title: 'Rappelle-toi (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [4 Songs, Op.46](https://fourscoreandmore.org/openscore/lieder/Netzel%2C_Laura/4_Songs%2C_Op.46/) by [Netzel,_Laura](https://fourscoreandmore.org/openscore/lieder/Netzel%2C_Laura)__
+__No.1 from [4 Songs, Op.46](https://fourscoreandmore.org/openscore/lieder/Netzel,_Laura/4_Songs,_Op.46/) by [Netzel,_Laura](https://fourscoreandmore.org/openscore/lieder/Netzel,_Laura)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Netzel%2C_Laura/4_Songs%2C_Op.46/1_Rappelle-toi.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Netzel%2C_Laura/4_Songs%2C_Op.46/1_Rappelle-toi.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Netzel%2C_Laura/4_Songs%2C_Op.46/1_Rappelle-toi/lc6661509.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Netzel,_Laura/4_Songs,_Op.46/1_Rappelle-toi.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Netzel,_Laura/4_Songs,_Op.46/1_Rappelle-toi.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Netzel,_Laura/4_Songs,_Op.46/1_Rappelle-toi/lc6661509.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

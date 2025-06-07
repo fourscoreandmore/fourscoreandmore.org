@@ -3,7 +3,7 @@ layout: post
 title: 'Le berger fidèle (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Farrenc%2C_Louise/_/) by [Farrenc,_Louise](https://fourscoreandmore.org/openscore/lieder/Farrenc%2C_Louise)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Farrenc,_Louise/_/) by [Farrenc,_Louise](https://fourscoreandmore.org/openscore/lieder/Farrenc,_Louise)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Farrenc%2C_Louise/_/Le_berger_fid%C3%A8le.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Farrenc%2C_Louise/_/Le_berger_fid%C3%A8le.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Farrenc%2C_Louise/_/Le_berger_fid%C3%A8le/lc6598368.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Farrenc,_Louise/_/Le_berger_fid%C3%A8le.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Farrenc,_Louise/_/Le_berger_fid%C3%A8le.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Farrenc,_Louise/_/Le_berger_fid%C3%A8le/lc6598368.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

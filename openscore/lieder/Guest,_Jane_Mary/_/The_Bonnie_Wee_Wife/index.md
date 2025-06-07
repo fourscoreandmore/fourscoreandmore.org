@@ -3,7 +3,7 @@ layout: post
 title: 'The Bonnie Wee Wife (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Guest%2C_Jane_Mary/_/) by [Guest,_Jane_Mary](https://fourscoreandmore.org/openscore/lieder/Guest%2C_Jane_Mary)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Guest,_Jane_Mary/_/) by [Guest,_Jane_Mary](https://fourscoreandmore.org/openscore/lieder/Guest,_Jane_Mary)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Guest%2C_Jane_Mary/_/The_Bonnie_Wee_Wife.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Guest%2C_Jane_Mary/_/The_Bonnie_Wee_Wife.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Guest%2C_Jane_Mary/_/The_Bonnie_Wee_Wife/lc6621051.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Guest,_Jane_Mary/_/The_Bonnie_Wee_Wife.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Guest,_Jane_Mary/_/The_Bonnie_Wee_Wife.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Guest,_Jane_Mary/_/The_Bonnie_Wee_Wife/lc6621051.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

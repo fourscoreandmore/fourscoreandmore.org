@@ -3,7 +3,7 @@ layout: post
 title: 'Sleep on, and dream of me (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/) by [Gray,_Louisa](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/) by [Gray,_Louisa](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/Sleep_on%2C_and_dream_of_me.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/Sleep_on%2C_and_dream_of_me.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gray%2C_Louisa/_/Sleep_on%2C_and_dream_of_me/lc6620571.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/Sleep_on,_and_dream_of_me.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/Sleep_on,_and_dream_of_me.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gray,_Louisa/_/Sleep_on,_and_dream_of_me/lc6620571.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'There rolls the deep (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Parry%2C_Hubert/_/) by [Parry,_Hubert](https://fourscoreandmore.org/openscore/lieder/Parry%2C_Hubert)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/_/) by [Parry,_Hubert](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry%2C_Hubert/_/There_rolls_the_deep.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry%2C_Hubert/_/There_rolls_the_deep.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Parry%2C_Hubert/_/There_rolls_the_deep/lc6210474.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/_/There_rolls_the_deep.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/_/There_rolls_the_deep.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Parry,_Hubert/_/There_rolls_the_deep/lc6210474.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

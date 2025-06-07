@@ -3,7 +3,7 @@ layout: post
 title: 'Return of Spring (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [5 Songs from the Chinese Poets, 1st Series](https://fourscoreandmore.org/openscore/lieder/Bantock%2C_Granville/5_Songs_from_the_Chinese_Poets%2C_1st_Series/) by [Bantock,_Granville](https://fourscoreandmore.org/openscore/lieder/Bantock%2C_Granville)__
+__No.5 from [5 Songs from the Chinese Poets, 1st Series](https://fourscoreandmore.org/openscore/lieder/Bantock,_Granville/5_Songs_from_the_Chinese_Poets,_1st_Series/) by [Bantock,_Granville](https://fourscoreandmore.org/openscore/lieder/Bantock,_Granville)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bantock%2C_Granville/5_Songs_from_the_Chinese_Poets%2C_1st_Series/5_Return_of_Spring.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bantock%2C_Granville/5_Songs_from_the_Chinese_Poets%2C_1st_Series/5_Return_of_Spring.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bantock%2C_Granville/5_Songs_from_the_Chinese_Poets%2C_1st_Series/5_Return_of_Spring/lc6211561.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bantock,_Granville/5_Songs_from_the_Chinese_Poets,_1st_Series/5_Return_of_Spring.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bantock,_Granville/5_Songs_from_the_Chinese_Poets,_1st_Series/5_Return_of_Spring.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bantock,_Granville/5_Songs_from_the_Chinese_Poets,_1st_Series/5_Return_of_Spring/lc6211561.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

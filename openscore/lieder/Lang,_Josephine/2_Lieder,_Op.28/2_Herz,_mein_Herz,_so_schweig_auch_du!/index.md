@@ -3,7 +3,7 @@ layout: post
 title: 'Herz, mein Herz, so schweig auch du! (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [2 Lieder, Op.28](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/2_Lieder%2C_Op.28/) by [Lang,_Josephine](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine)__
+__No.2 from [2 Lieder, Op.28](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/2_Lieder,_Op.28/) by [Lang,_Josephine](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/2_Lieder%2C_Op.28/2_Herz%2C_mein_Herz%2C_so_schweig_auch_du%21.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/2_Lieder%2C_Op.28/2_Herz%2C_mein_Herz%2C_so_schweig_auch_du%21.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Lang%2C_Josephine/2_Lieder%2C_Op.28/2_Herz%2C_mein_Herz%2C_so_schweig_auch_du%21/lc6012390.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/2_Lieder,_Op.28/2_Herz,_mein_Herz,_so_schweig_auch_du%21.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/2_Lieder,_Op.28/2_Herz,_mein_Herz,_so_schweig_auch_du%21.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Lang,_Josephine/2_Lieder,_Op.28/2_Herz,_mein_Herz,_so_schweig_auch_du%21/lc6012390.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

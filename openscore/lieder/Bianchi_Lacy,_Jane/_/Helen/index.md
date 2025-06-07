@@ -3,7 +3,7 @@ layout: post
 title: 'Helen (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy%2C_Jane/_/) by [Bianchi_Lacy,_Jane](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy%2C_Jane)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy,_Jane/_/) by [Bianchi_Lacy,_Jane](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy,_Jane)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy%2C_Jane/_/Helen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy%2C_Jane/_/Helen.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bianchi_Lacy%2C_Jane/_/Helen/lc6592481.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy,_Jane/_/Helen.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bianchi_Lacy,_Jane/_/Helen.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bianchi_Lacy,_Jane/_/Helen/lc6592481.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

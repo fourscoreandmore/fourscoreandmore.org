@@ -3,7 +3,7 @@ layout: post
 title: 'Crazy Jane (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Abrams%2C_Harriett/_/) by [Abrams,_Harriett](https://fourscoreandmore.org/openscore/lieder/Abrams%2C_Harriett)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Abrams,_Harriett/_/) by [Abrams,_Harriett](https://fourscoreandmore.org/openscore/lieder/Abrams,_Harriett)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Abrams%2C_Harriett/_/Crazy_Jane.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Abrams%2C_Harriett/_/Crazy_Jane.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Abrams%2C_Harriett/_/Crazy_Jane/lc6583907.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Abrams,_Harriett/_/Crazy_Jane.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Abrams,_Harriett/_/Crazy_Jane.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Abrams,_Harriett/_/Crazy_Jane/lc6583907.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

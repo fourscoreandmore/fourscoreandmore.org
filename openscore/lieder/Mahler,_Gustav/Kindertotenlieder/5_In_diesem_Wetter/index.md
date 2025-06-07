@@ -3,7 +3,7 @@ layout: post
 title: 'In diesem Wetter (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [Kindertotenlieder](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Kindertotenlieder/) by [Mahler,_Gustav](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav)__
+__No.5 from [Kindertotenlieder](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav/Kindertotenlieder/) by [Mahler,_Gustav](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Kindertotenlieder/5_In_diesem_Wetter.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Kindertotenlieder/5_In_diesem_Wetter.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mahler%2C_Gustav/Kindertotenlieder/5_In_diesem_Wetter/lc5052823.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav/Kindertotenlieder/5_In_diesem_Wetter.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav/Kindertotenlieder/5_In_diesem_Wetter.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mahler,_Gustav/Kindertotenlieder/5_In_diesem_Wetter/lc5052823.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

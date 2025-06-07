@@ -3,7 +3,7 @@ layout: post
 title: 'In 1822 (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Hardelot%2C_Guy_d%E2%80%99/_/) by [Hardelot,_Guy_d’](https://fourscoreandmore.org/openscore/lieder/Hardelot%2C_Guy_d%E2%80%99)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/) by [Hardelot,_Guy_d’](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot%2C_Guy_d%E2%80%99/_/In_1822.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot%2C_Guy_d%E2%80%99/_/In_1822.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Hardelot%2C_Guy_d%E2%80%99/_/In_1822/lc6629787.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/In_1822.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/In_1822.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Hardelot,_Guy_d%E2%80%99/_/In_1822/lc6629787.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

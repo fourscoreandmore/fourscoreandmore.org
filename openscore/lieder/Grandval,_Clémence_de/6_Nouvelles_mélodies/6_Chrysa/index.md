@@ -3,7 +3,7 @@ layout: post
 title: 'Chrysa (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [6 Nouvelles mélodies](https://fourscoreandmore.org/openscore/lieder/Grandval%2C_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/) by [Grandval,_Clémence_de](https://fourscoreandmore.org/openscore/lieder/Grandval%2C_Cl%C3%A9mence_de)__
+__No.6 from [6 Nouvelles mélodies](https://fourscoreandmore.org/openscore/lieder/Grandval,_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/) by [Grandval,_Clémence_de](https://fourscoreandmore.org/openscore/lieder/Grandval,_Cl%C3%A9mence_de)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Grandval%2C_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Grandval%2C_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Grandval%2C_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa/lc6615501.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Grandval,_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Grandval,_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Grandval,_Cl%C3%A9mence_de/6_Nouvelles_m%C3%A9lodies/6_Chrysa/lc6615501.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

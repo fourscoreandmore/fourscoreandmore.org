@@ -3,7 +3,7 @@ layout: post
 title: 'Loveliest of trees, the Cherry now (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [6 Songs from A Shropshire Lad](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/6_Songs_from_A_Shropshire_Lad/) by [Butterworth,_George](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George)__
+__No.1 from [6 Songs from A Shropshire Lad](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/6_Songs_from_A_Shropshire_Lad/) by [Butterworth,_George](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees%2C_the_Cherry_now.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees%2C_the_Cherry_now.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Butterworth%2C_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees%2C_the_Cherry_now/lc6214840.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees,_the_Cherry_now.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees,_the_Cherry_now.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Butterworth,_George/6_Songs_from_A_Shropshire_Lad/1_Loveliest_of_trees,_the_Cherry_now/lc6214840.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

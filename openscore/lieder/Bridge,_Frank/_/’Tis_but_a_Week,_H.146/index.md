@@ -3,7 +3,7 @@ layout: post
 title: '’Tis but a Week, H.146 (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Bridge%2C_Frank/_/) by [Bridge,_Frank](https://fourscoreandmore.org/openscore/lieder/Bridge%2C_Frank)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Bridge,_Frank/_/) by [Bridge,_Frank](https://fourscoreandmore.org/openscore/lieder/Bridge,_Frank)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bridge%2C_Frank/_/%E2%80%99Tis_but_a_Week%2C_H.146.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bridge%2C_Frank/_/%E2%80%99Tis_but_a_Week%2C_H.146.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bridge%2C_Frank/_/%E2%80%99Tis_but_a_Week%2C_H.146/lc6451773.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bridge,_Frank/_/%E2%80%99Tis_but_a_Week,_H.146.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bridge,_Frank/_/%E2%80%99Tis_but_a_Week,_H.146.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bridge,_Frank/_/%E2%80%99Tis_but_a_Week,_H.146/lc6451773.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

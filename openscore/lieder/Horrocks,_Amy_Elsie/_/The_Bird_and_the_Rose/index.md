@@ -3,7 +3,7 @@ layout: post
 title: 'The Bird and the Rose (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Horrocks%2C_Amy_Elsie/_/) by [Horrocks,_Amy_Elsie](https://fourscoreandmore.org/openscore/lieder/Horrocks%2C_Amy_Elsie)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Horrocks,_Amy_Elsie/_/) by [Horrocks,_Amy_Elsie](https://fourscoreandmore.org/openscore/lieder/Horrocks,_Amy_Elsie)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Horrocks%2C_Amy_Elsie/_/The_Bird_and_the_Rose.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Horrocks%2C_Amy_Elsie/_/The_Bird_and_the_Rose.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Horrocks%2C_Amy_Elsie/_/The_Bird_and_the_Rose/lc6636096.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Horrocks,_Amy_Elsie/_/The_Bird_and_the_Rose.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Horrocks,_Amy_Elsie/_/The_Bird_and_the_Rose.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Horrocks,_Amy_Elsie/_/The_Bird_and_the_Rose/lc6636096.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

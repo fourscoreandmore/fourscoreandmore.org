@@ -3,7 +3,7 @@ layout: post
 title: 'Prière des laboureurs (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Duchambge%2C_Pauline/_/) by [Duchambge,_Pauline](https://fourscoreandmore.org/openscore/lieder/Duchambge%2C_Pauline)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Duchambge,_Pauline/_/) by [Duchambge,_Pauline](https://fourscoreandmore.org/openscore/lieder/Duchambge,_Pauline)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Duchambge%2C_Pauline/_/Pri%C3%A8re_des_laboureurs.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Duchambge%2C_Pauline/_/Pri%C3%A8re_des_laboureurs.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Duchambge%2C_Pauline/_/Pri%C3%A8re_des_laboureurs/lc6593095.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Duchambge,_Pauline/_/Pri%C3%A8re_des_laboureurs.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Duchambge,_Pauline/_/Pri%C3%A8re_des_laboureurs.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Duchambge,_Pauline/_/Pri%C3%A8re_des_laboureurs/lc6593095.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

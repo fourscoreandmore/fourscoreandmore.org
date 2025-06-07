@@ -3,7 +3,7 @@ layout: post
 title: 'Dein Bildnis (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [An Bertha, Op.15](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/An_Bertha%2C_Op.15/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter)__
+__No.4 from [An Bertha, Op.15](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/An_Bertha,_Op.15/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/An_Bertha%2C_Op.15/4_Dein_Bildnis.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/An_Bertha%2C_Op.15/4_Dein_Bildnis.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius%2C_Peter/An_Bertha%2C_Op.15/4_Dein_Bildnis/lc5820797.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/An_Bertha,_Op.15/4_Dein_Bildnis.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/An_Bertha,_Op.15/4_Dein_Bildnis.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius,_Peter/An_Bertha,_Op.15/4_Dein_Bildnis/lc5820797.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

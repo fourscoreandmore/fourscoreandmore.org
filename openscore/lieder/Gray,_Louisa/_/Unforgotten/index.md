@@ -3,7 +3,7 @@ layout: post
 title: 'Unforgotten (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/) by [Gray,_Louisa](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/) by [Gray,_Louisa](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/Unforgotten.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray%2C_Louisa/_/Unforgotten.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gray%2C_Louisa/_/Unforgotten/lc6620711.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/Unforgotten.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gray,_Louisa/_/Unforgotten.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gray,_Louisa/_/Unforgotten/lc6620711.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

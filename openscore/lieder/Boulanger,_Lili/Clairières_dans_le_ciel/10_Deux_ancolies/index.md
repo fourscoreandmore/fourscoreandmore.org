@@ -3,7 +3,7 @@ layout: post
 title: 'Deux ancolies (OpenScore Lieder Corpus)'
 ---
 
-__No.10 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/Clairi%C3%A8res_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili)__
+__No.10 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger%2C_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger%2C_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies/lc5887314.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/10_Deux_ancolies/lc5887314.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Out in the windy West (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [Choral Songs in Honour of Her Majesty Queen Victoria](https://fourscoreandmore.org/openscore/lieder/Parratt%2C_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/) by [Parratt,_Walter](https://fourscoreandmore.org/openscore/lieder/Parratt%2C_Walter)__
+__No.2 from [Choral Songs in Honour of Her Majesty Queen Victoria](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/) by [Parratt,_Walter](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Parratt%2C_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Parratt%2C_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Parratt%2C_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West/lc6681689.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/02_Out_in_the_windy_West/lc6681689.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

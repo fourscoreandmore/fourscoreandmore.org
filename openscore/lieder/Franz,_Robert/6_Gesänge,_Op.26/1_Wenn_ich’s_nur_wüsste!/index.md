@@ -3,7 +3,7 @@ layout: post
 title: 'Wenn ich’s nur wüsste! (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [6 Gesänge, Op.26](https://fourscoreandmore.org/openscore/lieder/Franz%2C_Robert/6_Ges%C3%A4nge%2C_Op.26/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz%2C_Robert)__
+__No.1 from [6 Gesänge, Op.26](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.26/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz%2C_Robert/6_Ges%C3%A4nge%2C_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz%2C_Robert/6_Ges%C3%A4nge%2C_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Franz%2C_Robert/6_Ges%C3%A4nge%2C_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21/lc6804721.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Franz,_Robert/6_Ges%C3%A4nge,_Op.26/1_Wenn_ich%E2%80%99s_nur_w%C3%BCsste%21/lc6804721.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

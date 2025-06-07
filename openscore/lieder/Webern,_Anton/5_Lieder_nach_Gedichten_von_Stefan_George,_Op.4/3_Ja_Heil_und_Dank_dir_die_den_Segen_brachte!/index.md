@@ -3,7 +3,7 @@ layout: post
 title: 'Ja Heil und Dank dir die den Segen brachte! (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [5 Lieder nach Gedichten von Stefan George, Op.4](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/) by [Webern,_Anton](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton)__
+__No.3 from [5 Lieder nach Gedichten von Stefan George, Op.4](https://fourscoreandmore.org/openscore/lieder/Webern,_Anton/5_Lieder_nach_Gedichten_von_Stefan_George,_Op.4/) by [Webern,_Anton](https://fourscoreandmore.org/openscore/lieder/Webern,_Anton)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21/lc6725782.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern,_Anton/5_Lieder_nach_Gedichten_von_Stefan_George,_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern,_Anton/5_Lieder_nach_Gedichten_von_Stefan_George,_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Webern,_Anton/5_Lieder_nach_Gedichten_von_Stefan_George,_Op.4/3_Ja_Heil_und_Dank_dir_die_den_Segen_brachte%21/lc6725782.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

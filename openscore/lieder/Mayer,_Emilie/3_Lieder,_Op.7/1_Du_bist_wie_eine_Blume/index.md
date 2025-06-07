@@ -3,7 +3,7 @@ layout: post
 title: 'Du bist wie eine Blume (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [3 Lieder, Op.7](https://fourscoreandmore.org/openscore/lieder/Mayer%2C_Emilie/3_Lieder%2C_Op.7/) by [Mayer,_Emilie](https://fourscoreandmore.org/openscore/lieder/Mayer%2C_Emilie)__
+__No.1 from [3 Lieder, Op.7](https://fourscoreandmore.org/openscore/lieder/Mayer,_Emilie/3_Lieder,_Op.7/) by [Mayer,_Emilie](https://fourscoreandmore.org/openscore/lieder/Mayer,_Emilie)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mayer%2C_Emilie/3_Lieder%2C_Op.7/1_Du_bist_wie_eine_Blume.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mayer%2C_Emilie/3_Lieder%2C_Op.7/1_Du_bist_wie_eine_Blume.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mayer%2C_Emilie/3_Lieder%2C_Op.7/1_Du_bist_wie_eine_Blume/lc5840527.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mayer,_Emilie/3_Lieder,_Op.7/1_Du_bist_wie_eine_Blume.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mayer,_Emilie/3_Lieder,_Op.7/1_Du_bist_wie_eine_Blume.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mayer,_Emilie/3_Lieder,_Op.7/1_Du_bist_wie_eine_Blume/lc5840527.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

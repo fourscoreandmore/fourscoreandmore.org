@@ -3,7 +3,7 @@ layout: post
 title: 'Love blows as the wind blows (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/_/) by [Butterworth,_George](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/_/) by [Butterworth,_George](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/_/Love_blows_as_the_wind_blows.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth%2C_George/_/Love_blows_as_the_wind_blows.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Butterworth%2C_George/_/Love_blows_as_the_wind_blows/lc6469541.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/_/Love_blows_as_the_wind_blows.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Butterworth,_George/_/Love_blows_as_the_wind_blows.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Butterworth,_George/_/Love_blows_as_the_wind_blows/lc6469541.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

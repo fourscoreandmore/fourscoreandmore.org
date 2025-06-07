@@ -3,7 +3,7 @@ layout: post
 title: 'Die Hirten (OpenScore Lieder Corpus)'
 ---
 
-__No.2a from [Weihnachtslieder, Op.8](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter)__
+__No.2a from [Weihnachtslieder, Op.8](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Weihnachtslieder,_Op.8/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/2a_Die_Hirten.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/2a_Die_Hirten.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/2a_Die_Hirten/lc7006959.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Weihnachtslieder,_Op.8/2a_Die_Hirten.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Weihnachtslieder,_Op.8/2a_Die_Hirten.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius,_Peter/Weihnachtslieder,_Op.8/2a_Die_Hirten/lc7006959.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

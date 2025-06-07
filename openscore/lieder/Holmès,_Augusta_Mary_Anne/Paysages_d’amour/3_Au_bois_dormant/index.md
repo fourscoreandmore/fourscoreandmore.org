@@ -3,7 +3,7 @@ layout: post
 title: 'Au bois dormant (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [Paysages d’amour](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne)__
+__No.3 from [Paysages d’amour](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Holm%C3%A8s%2C_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant/lc5995492.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Holm%C3%A8s,_Augusta_Mary_Anne/Paysages_d%E2%80%99amour/3_Au_bois_dormant/lc5995492.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

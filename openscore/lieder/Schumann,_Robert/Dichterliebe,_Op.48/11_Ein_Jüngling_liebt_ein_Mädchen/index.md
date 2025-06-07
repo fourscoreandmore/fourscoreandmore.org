@@ -3,7 +3,7 @@ layout: post
 title: 'Ein Jüngling liebt ein Mädchen (OpenScore Lieder Corpus)'
 ---
 
-__No.11 from [Dichterliebe, Op.48](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Dichterliebe%2C_Op.48/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert)__
+__No.11 from [Dichterliebe, Op.48](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/Dichterliebe,_Op.48/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Dichterliebe%2C_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Dichterliebe%2C_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann%2C_Robert/Dichterliebe%2C_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen/lc4978393.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/Dichterliebe,_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/Dichterliebe,_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann,_Robert/Dichterliebe,_Op.48/11_Ein_J%C3%BCngling_liebt_ein_M%C3%A4dchen/lc4978393.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

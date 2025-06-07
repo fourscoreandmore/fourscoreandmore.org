@@ -3,7 +3,7 @@ layout: post
 title: 'Maiglöckchen und die Blümelein, MWV J 7 (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [6 Duets, Op.63](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix)__
+__No.6 from [6 Duets, Op.63](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein%2C_MWV_J_7.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein%2C_MWV_J_7.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein%2C_MWV_J_7/lc7380386.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein,_MWV_J_7.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein,_MWV_J_7.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mendelssohn,_Felix/6_Duets,_Op.63/6_Maigl%C3%B6ckchen_und_die_Bl%C3%BCmelein,_MWV_J_7/lc7380386.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

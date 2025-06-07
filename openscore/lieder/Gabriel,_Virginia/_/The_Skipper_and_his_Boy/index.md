@@ -3,7 +3,7 @@ layout: post
 title: 'The Skipper and his Boy (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gabriel%2C_Virginia/_/) by [Gabriel,_Virginia](https://fourscoreandmore.org/openscore/lieder/Gabriel%2C_Virginia)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Gabriel,_Virginia/_/) by [Gabriel,_Virginia](https://fourscoreandmore.org/openscore/lieder/Gabriel,_Virginia)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gabriel%2C_Virginia/_/The_Skipper_and_his_Boy.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gabriel%2C_Virginia/_/The_Skipper_and_his_Boy.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gabriel%2C_Virginia/_/The_Skipper_and_his_Boy/lc6604146.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Gabriel,_Virginia/_/The_Skipper_and_his_Boy.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Gabriel,_Virginia/_/The_Skipper_and_his_Boy.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Gabriel,_Virginia/_/The_Skipper_and_his_Boy/lc6604146.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

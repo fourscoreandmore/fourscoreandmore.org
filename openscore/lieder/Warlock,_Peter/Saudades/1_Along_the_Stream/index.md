@@ -3,7 +3,7 @@ layout: post
 title: 'Along the Stream (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [Saudades](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Saudades/) by [Warlock,_Peter](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter)__
+__No.1 from [Saudades](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Saudades/) by [Warlock,_Peter](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Saudades/1_Along_the_Stream.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Saudades/1_Along_the_Stream.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Warlock%2C_Peter/Saudades/1_Along_the_Stream/lc6232420.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Saudades/1_Along_the_Stream.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock,_Peter/Saudades/1_Along_the_Stream.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Warlock,_Peter/Saudades/1_Along_the_Stream/lc6232420.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

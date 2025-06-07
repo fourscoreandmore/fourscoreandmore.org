@@ -3,7 +3,7 @@ layout: post
 title: 'Komm, wir wandeln zusammen (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [Liebeslieder, Op.4](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Liebeslieder%2C_Op.4/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter)__
+__No.2 from [Liebeslieder, Op.4](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Liebeslieder,_Op.4/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Liebeslieder%2C_Op.4/2_Komm%2C_wir_wandeln_zusammen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Liebeslieder%2C_Op.4/2_Komm%2C_wir_wandeln_zusammen.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius%2C_Peter/Liebeslieder%2C_Op.4/2_Komm%2C_wir_wandeln_zusammen/lc5062139.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Liebeslieder,_Op.4/2_Komm,_wir_wandeln_zusammen.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Liebeslieder,_Op.4/2_Komm,_wir_wandeln_zusammen.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius,_Peter/Liebeslieder,_Op.4/2_Komm,_wir_wandeln_zusammen/lc5062139.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

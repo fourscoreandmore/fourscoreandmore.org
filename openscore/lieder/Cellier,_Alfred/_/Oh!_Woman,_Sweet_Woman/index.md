@@ -3,7 +3,7 @@ layout: post
 title: 'Oh! Woman, Sweet Woman (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Cellier%2C_Alfred/_/) by [Cellier,_Alfred](https://fourscoreandmore.org/openscore/lieder/Cellier%2C_Alfred)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Cellier,_Alfred/_/) by [Cellier,_Alfred](https://fourscoreandmore.org/openscore/lieder/Cellier,_Alfred)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cellier%2C_Alfred/_/Oh%21_Woman%2C_Sweet_Woman.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cellier%2C_Alfred/_/Oh%21_Woman%2C_Sweet_Woman.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cellier%2C_Alfred/_/Oh%21_Woman%2C_Sweet_Woman/lc6480111.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cellier,_Alfred/_/Oh%21_Woman,_Sweet_Woman.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cellier,_Alfred/_/Oh%21_Woman,_Sweet_Woman.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cellier,_Alfred/_/Oh%21_Woman,_Sweet_Woman/lc6480111.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

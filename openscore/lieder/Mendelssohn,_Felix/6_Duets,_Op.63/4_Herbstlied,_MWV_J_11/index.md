@@ -3,7 +3,7 @@ layout: post
 title: 'Herbstlied, MWV J 11 (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [6 Duets, Op.63](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix)__
+__No.4 from [6 Duets, Op.63](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/4_Herbstlied%2C_MWV_J_11.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/4_Herbstlied%2C_MWV_J_11.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mendelssohn%2C_Felix/6_Duets%2C_Op.63/4_Herbstlied%2C_MWV_J_11/lc7374512.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/4_Herbstlied,_MWV_J_11.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Duets,_Op.63/4_Herbstlied,_MWV_J_11.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mendelssohn,_Felix/6_Duets,_Op.63/4_Herbstlied,_MWV_J_11/lc7374512.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

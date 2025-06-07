@@ -3,7 +3,7 @@ layout: post
 title: 'Spring Is Not Dead (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [Spring Songs, Op.44](https://fourscoreandmore.org/openscore/lieder/Mackenzie%2C_Alexander/Spring_Songs%2C_Op.44/) by [Mackenzie,_Alexander](https://fourscoreandmore.org/openscore/lieder/Mackenzie%2C_Alexander)__
+__No.4 from [Spring Songs, Op.44](https://fourscoreandmore.org/openscore/lieder/Mackenzie,_Alexander/Spring_Songs,_Op.44/) by [Mackenzie,_Alexander](https://fourscoreandmore.org/openscore/lieder/Mackenzie,_Alexander)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mackenzie%2C_Alexander/Spring_Songs%2C_Op.44/4_Spring_Is_Not_Dead.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mackenzie%2C_Alexander/Spring_Songs%2C_Op.44/4_Spring_Is_Not_Dead.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mackenzie%2C_Alexander/Spring_Songs%2C_Op.44/4_Spring_Is_Not_Dead/lc6507219.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mackenzie,_Alexander/Spring_Songs,_Op.44/4_Spring_Is_Not_Dead.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mackenzie,_Alexander/Spring_Songs,_Op.44/4_Spring_Is_Not_Dead.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mackenzie,_Alexander/Spring_Songs,_Op.44/4_Spring_Is_Not_Dead/lc6507219.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
