@@ -3,7 +3,7 @@ layout: post
 title: 'Aus den hebräischen Gesängen (Mein Herz ist schwer) (OpenScore Lieder Corpus)'
 ---
 
-__No.15 from [Myrthen, Op.25](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/) by [Schumann,_Robert](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert)__
+__No.15 from [Myrthen, Op.25](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/15_Aus_den_hebr%C3%A4ischen_Ges%C3%A4ngen_%28Mein_Herz_ist_schwer%29.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/15_Aus_den_hebr%C3%A4ischen_Ges%C3%A4ngen_%28Mein_Herz_ist_schwer%29.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/15_Aus_den_hebr%C3%A4ischen_Ges%C3%A4ngen_%28Mein_Herz_ist_schwer%29.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/15_Aus_den_hebr%C3%A4ischen_Ges%C3%A4ngen_%28Mein_Herz_ist_schwer%29.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann%2C_Robert/Myrthen%2C_Op.25/15_Aus_den_hebr%C3%A4ischen_Ges%C3%A4ngen_%28Mein_Herz_ist_schwer%29/lc6925763.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

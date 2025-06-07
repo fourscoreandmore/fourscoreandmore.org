@@ -3,7 +3,7 @@ layout: post
 title: 'Die frühen Gräber (OpenScore Lieder Corpus)'
 ---
 
-__No.11 from [Jugend-Lieder](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/) by [Kralik,_Mathilde](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde)__
+__No.11 from [Jugend-Lieder](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/) by [Kralik,_Mathilde](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/11_Die_fr%C3%BChen_Gr%C3%A4ber.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/11_Die_fr%C3%BChen_Gr%C3%A4ber.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/11_Die_fr%C3%BChen_Gr%C3%A4ber.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/11_Die_fr%C3%BChen_Gr%C3%A4ber.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Kralik%2C_Mathilde/Jugend-Lieder/11_Die_fr%C3%BChen_Gr%C3%A4ber/lc6207100.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

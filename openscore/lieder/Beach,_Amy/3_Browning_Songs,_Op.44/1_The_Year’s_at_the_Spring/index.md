@@ -3,7 +3,7 @@ layout: post
 title: 'The Year’s at the Spring (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [3 Browning Songs, Op.44](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/) by [Beach,_Amy](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy)__
+__No.1 from [3 Browning Songs, Op.44](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/) by [Beach,_Amy](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/1_The_Year%E2%80%99s_at_the_Spring/lc6212179.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

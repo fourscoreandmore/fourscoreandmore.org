@@ -3,7 +3,7 @@ layout: post
 title: 'The Countryman (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [Songs](https://fourscoreandmore.org/OpenScore/Warlock%2C_Peter/Songs/) by [Warlock,_Peter](https://fourscoreandmore.org/OpenScore/Warlock%2C_Peter)__
+__No.3 from [Songs](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/) by [Warlock,_Peter](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Warlock%2C_Peter/Songs/03_The_Countryman.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Warlock%2C_Peter/Songs/03_The_Countryman.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/03_The_Countryman.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Warlock%2C_Peter/Songs/03_The_Countryman.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Warlock%2C_Peter/Songs/03_The_Countryman/lc6196782.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

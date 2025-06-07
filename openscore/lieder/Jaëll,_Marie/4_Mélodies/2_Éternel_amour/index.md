@@ -3,7 +3,7 @@ layout: post
 title: 'Éternel amour (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [4 Mélodies](https://fourscoreandmore.org/OpenScore/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/) by [Jaëll,_Marie](https://fourscoreandmore.org/OpenScore/Ja%C3%ABll%2C_Marie)__
+__No.2 from [4 Mélodies](https://fourscoreandmore.org/openscore/lieder/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/) by [Jaëll,_Marie](https://fourscoreandmore.org/openscore/lieder/Ja%C3%ABll%2C_Marie)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/2_%C3%89ternel_amour.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/2_%C3%89ternel_amour.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/2_%C3%89ternel_amour.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/2_%C3%89ternel_amour.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Ja%C3%ABll%2C_Marie/4_M%C3%A9lodies/2_%C3%89ternel_amour/lc5837811.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Lied der Desdemona (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [Jugend-Lieder](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/) by [Kralik,_Mathilde](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde)__
+__No.5 from [Jugend-Lieder](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/) by [Kralik,_Mathilde](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/05_Lied_der_Desdemona.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Kralik%2C_Mathilde/Jugend-Lieder/05_Lied_der_Desdemona.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/05_Lied_der_Desdemona.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Kralik%2C_Mathilde/Jugend-Lieder/05_Lied_der_Desdemona.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Kralik%2C_Mathilde/Jugend-Lieder/05_Lied_der_Desdemona/lc6207045.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Le Tombeau des Naïades (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [Trois Chansons de Bilitis](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/) by [Debussy,_Claude](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude)__
+__No.3 from [Trois Chansons de Bilitis](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/) by [Debussy,_Claude](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/3_Le_Tombeau_des_Na%C3%AFades.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/3_Le_Tombeau_des_Na%C3%AFades.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/3_Le_Tombeau_des_Na%C3%AFades.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/3_Le_Tombeau_des_Na%C3%AFades.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Debussy%2C_Claude/Trois_Chansons_de_Bilitis/3_Le_Tombeau_des_Na%C3%AFades/lc5079459.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

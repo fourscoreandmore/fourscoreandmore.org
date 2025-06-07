@@ -3,7 +3,7 @@ layout: post
 title: 'A Song of Autumn (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [7 Lieder](https://fourscoreandmore.org/OpenScore/Elgar%2C_Edward/7_Lieder/) by [Elgar,_Edward](https://fourscoreandmore.org/OpenScore/Elgar%2C_Edward)__
+__No.3 from [7 Lieder](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/7_Lieder/) by [Elgar,_Edward](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Elgar%2C_Edward/7_Lieder/3_A_Song_of_Autumn.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Elgar%2C_Edward/7_Lieder/3_A_Song_of_Autumn.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/7_Lieder/3_A_Song_of_Autumn.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Elgar%2C_Edward/7_Lieder/3_A_Song_of_Autumn.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Elgar%2C_Edward/7_Lieder/3_A_Song_of_Autumn/lc6236151.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Gib dich dahin in Gottes Sinn (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [Lieder des Leids, Op.29](https://fourscoreandmore.org/OpenScore/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/) by [Lang,_Josephine](https://fourscoreandmore.org/OpenScore/Lang%2C_Josephine)__
+__No.3 from [Lieder des Leids, Op.29](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/) by [Lang,_Josephine](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/3_Gib_dich_dahin_in_Gottes_Sinn.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/3_Gib_dich_dahin_in_Gottes_Sinn.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/3_Gib_dich_dahin_in_Gottes_Sinn.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/3_Gib_dich_dahin_in_Gottes_Sinn.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Lang%2C_Josephine/Lieder_des_Leids%2C_Op.29/3_Gib_dich_dahin_in_Gottes_Sinn/lc6085883.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

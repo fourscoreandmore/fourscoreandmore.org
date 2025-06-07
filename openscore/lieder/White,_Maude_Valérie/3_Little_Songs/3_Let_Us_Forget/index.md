@@ -3,7 +3,7 @@ layout: post
 title: 'Let Us Forget (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [3 Little Songs](https://fourscoreandmore.org/OpenScore/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/) by [White,_Maude_Valérie](https://fourscoreandmore.org/OpenScore/White%2C_Maude_Val%C3%A9rie)__
+__No.3 from [3 Little Songs](https://fourscoreandmore.org/openscore/lieder/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/) by [White,_Maude_Valérie](https://fourscoreandmore.org/openscore/lieder/White%2C_Maude_Val%C3%A9rie)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/3_Let_Us_Forget.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/3_Let_Us_Forget.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/3_Let_Us_Forget.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/3_Let_Us_Forget.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/White%2C_Maude_Val%C3%A9rie/3_Little_Songs/3_Let_Us_Forget/lc6202660.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

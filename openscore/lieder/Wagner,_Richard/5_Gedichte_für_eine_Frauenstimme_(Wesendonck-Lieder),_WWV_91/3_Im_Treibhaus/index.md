@@ -3,7 +3,7 @@ layout: post
 title: 'Im Treibhaus (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](https://fourscoreandmore.org/OpenScore/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/) by [Wagner,_Richard](https://fourscoreandmore.org/OpenScore/Wagner%2C_Richard)__
+__No.3 from [5 Gedichte für eine Frauenstimme (Wesendonck-Lieder), WWV 91](https://fourscoreandmore.org/openscore/lieder/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/) by [Wagner,_Richard](https://fourscoreandmore.org/openscore/lieder/Wagner%2C_Richard)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Wagner%2C_Richard/5_Gedichte_f%C3%BCr_eine_Frauenstimme_%28Wesendonck-Lieder%29%2C_WWV_91/3_Im_Treibhaus/lc5026084.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

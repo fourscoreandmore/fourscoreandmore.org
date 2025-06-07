@@ -3,7 +3,7 @@ layout: post
 title: 'In der Fremde [II] (OpenScore Lieder Corpus)'
 ---
 
-__No.8 from [Liederkreis, Op.39](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Liederkreis%2C_Op.39/) by [Schumann,_Robert](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert)__
+__No.8 from [Liederkreis, Op.39](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Liederkreis%2C_Op.39/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Liederkreis%2C_Op.39/08_In_der_Fremde_%5BII%5D.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Liederkreis%2C_Op.39/08_In_der_Fremde_%5BII%5D.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Liederkreis%2C_Op.39/08_In_der_Fremde_%5BII%5D.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Liederkreis%2C_Op.39/08_In_der_Fremde_%5BII%5D.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann%2C_Robert/Liederkreis%2C_Op.39/08_In_der_Fremde_%5BII%5D/lc4987661.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

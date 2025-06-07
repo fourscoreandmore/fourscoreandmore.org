@@ -3,7 +3,7 @@ layout: post
 title: 'Noch zwingt mich Treue (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [5 Lieder nach Gedichten von Stefan George, Op.4](https://fourscoreandmore.org/OpenScore/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/) by [Webern,_Anton](https://fourscoreandmore.org/OpenScore/Webern%2C_Anton)__
+__No.2 from [5 Lieder nach Gedichten von Stefan George, Op.4](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/) by [Webern,_Anton](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/2_Noch_zwingt_mich_Treue.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/2_Noch_zwingt_mich_Treue.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/2_Noch_zwingt_mich_Treue.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/2_Noch_zwingt_mich_Treue.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Webern%2C_Anton/5_Lieder_nach_Gedichten_von_Stefan_George%2C_Op.4/2_Noch_zwingt_mich_Treue/lc6725510.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'L’allée d’émeraude et d’or (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/OpenScore/Chaminade%2C_C%C3%A9cile/_/) by [Chaminade,_Cécile](https://fourscoreandmore.org/OpenScore/Chaminade%2C_C%C3%A9cile)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Chaminade%2C_C%C3%A9cile/_/) by [Chaminade,_Cécile](https://fourscoreandmore.org/openscore/lieder/Chaminade%2C_C%C3%A9cile)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Chaminade%2C_C%C3%A9cile/_/L%E2%80%99all%C3%A9e_d%E2%80%99%C3%A9meraude_et_d%E2%80%99or.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Chaminade%2C_C%C3%A9cile/_/L%E2%80%99all%C3%A9e_d%E2%80%99%C3%A9meraude_et_d%E2%80%99or.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Chaminade%2C_C%C3%A9cile/_/L%E2%80%99all%C3%A9e_d%E2%80%99%C3%A9meraude_et_d%E2%80%99or.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Chaminade%2C_C%C3%A9cile/_/L%E2%80%99all%C3%A9e_d%E2%80%99%C3%A9meraude_et_d%E2%80%99or.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Chaminade%2C_C%C3%A9cile/_/L%E2%80%99all%C3%A9e_d%E2%80%99%C3%A9meraude_et_d%E2%80%99or/lc6260946.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

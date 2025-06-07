@@ -3,7 +3,7 @@ layout: post
 title: 'An meinem Herzen (OpenScore Lieder Corpus)'
 ---
 
-__No.7 from [Frauenliebe und Leben, Op.42](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/) by [Schumann,_Robert](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert)__
+__No.7 from [Frauenliebe und Leben, Op.42](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/7_An_meinem_Herzen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/7_An_meinem_Herzen.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/7_An_meinem_Herzen.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/7_An_meinem_Herzen.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann%2C_Robert/Frauenliebe_und_Leben%2C_Op.42/7_An_meinem_Herzen/lc4978496.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

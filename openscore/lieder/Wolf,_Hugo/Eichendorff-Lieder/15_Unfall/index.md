@@ -3,7 +3,7 @@ layout: post
 title: 'Unfall (OpenScore Lieder Corpus)'
 ---
 
-__No.15 from [Eichendorff-Lieder](https://fourscoreandmore.org/OpenScore/Wolf%2C_Hugo/Eichendorff-Lieder/) by [Wolf,_Hugo](https://fourscoreandmore.org/OpenScore/Wolf%2C_Hugo)__
+__No.15 from [Eichendorff-Lieder](https://fourscoreandmore.org/openscore/lieder/Wolf%2C_Hugo/Eichendorff-Lieder/) by [Wolf,_Hugo](https://fourscoreandmore.org/openscore/lieder/Wolf%2C_Hugo)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Wolf%2C_Hugo/Eichendorff-Lieder/15_Unfall.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Wolf%2C_Hugo/Eichendorff-Lieder/15_Unfall.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Wolf%2C_Hugo/Eichendorff-Lieder/15_Unfall.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Wolf%2C_Hugo/Eichendorff-Lieder/15_Unfall.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Wolf%2C_Hugo/Eichendorff-Lieder/15_Unfall/lc5057804.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

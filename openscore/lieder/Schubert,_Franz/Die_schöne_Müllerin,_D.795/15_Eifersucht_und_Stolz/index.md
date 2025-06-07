@@ -3,7 +3,7 @@ layout: post
 title: 'Eifersucht und Stolz (OpenScore Lieder Corpus)'
 ---
 
-__No.15 from [Die schöne Müllerin, D.795](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/) by [Schubert,_Franz](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz)__
+__No.15 from [Die schöne Müllerin, D.795](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/) by [Schubert,_Franz](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/15_Eifersucht_und_Stolz.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/15_Eifersucht_und_Stolz.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/15_Eifersucht_und_Stolz.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/15_Eifersucht_und_Stolz.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schubert%2C_Franz/Die_sch%C3%B6ne_M%C3%BCllerin%2C_D.795/15_Eifersucht_und_Stolz/lc5026236.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Le chêne et le roseau, VWV 1036 (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/OpenScore/Viardot%2C_Pauline/_/) by [Viardot,_Pauline](https://fourscoreandmore.org/OpenScore/Viardot%2C_Pauline)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Viardot%2C_Pauline/_/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot%2C_Pauline)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Viardot%2C_Pauline/_/Le_ch%C3%AAne_et_le_roseau%2C_VWV_1036.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Viardot%2C_Pauline/_/Le_ch%C3%AAne_et_le_roseau%2C_VWV_1036.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot%2C_Pauline/_/Le_ch%C3%AAne_et_le_roseau%2C_VWV_1036.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot%2C_Pauline/_/Le_ch%C3%AAne_et_le_roseau%2C_VWV_1036.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Viardot%2C_Pauline/_/Le_ch%C3%AAne_et_le_roseau%2C_VWV_1036/lc6575283.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

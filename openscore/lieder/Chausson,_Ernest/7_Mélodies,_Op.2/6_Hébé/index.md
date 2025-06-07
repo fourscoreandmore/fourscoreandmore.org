@@ -3,7 +3,7 @@ layout: post
 title: 'Hébé (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [7 Mélodies, Op.2](https://fourscoreandmore.org/OpenScore/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/) by [Chausson,_Ernest](https://fourscoreandmore.org/OpenScore/Chausson%2C_Ernest)__
+__No.6 from [7 Mélodies, Op.2](https://fourscoreandmore.org/openscore/lieder/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/) by [Chausson,_Ernest](https://fourscoreandmore.org/openscore/lieder/Chausson%2C_Ernest)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/6_H%C3%A9b%C3%A9.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/6_H%C3%A9b%C3%A9.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/6_H%C3%A9b%C3%A9.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/6_H%C3%A9b%C3%A9.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Chausson%2C_Ernest/7_M%C3%A9lodies%2C_Op.2/6_H%C3%A9b%C3%A9/lc5161599.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

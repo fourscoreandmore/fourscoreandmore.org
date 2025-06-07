@@ -3,7 +3,7 @@ layout: post
 title: 'Poesie von Tieck (OpenScore Lieder Corpus)'
 ---
 
-__No.8 from [12 Deutsche und Italiänische Romantische Gesänge](https://fourscoreandmore.org/OpenScore/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/) by [Reichardt,_Louise](https://fourscoreandmore.org/OpenScore/Reichardt%2C_Louise)__
+__No.8 from [12 Deutsche und Italiänische Romantische Gesänge](https://fourscoreandmore.org/openscore/lieder/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/) by [Reichardt,_Louise](https://fourscoreandmore.org/openscore/lieder/Reichardt%2C_Louise)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/08_Poesie_von_Tieck.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/08_Poesie_von_Tieck.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/08_Poesie_von_Tieck.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/08_Poesie_von_Tieck.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Reichardt%2C_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/08_Poesie_von_Tieck/lc5002096.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

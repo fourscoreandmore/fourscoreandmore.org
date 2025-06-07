@@ -3,7 +3,7 @@ layout: post
 title: 'Liebesrausch, D.179 (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/_/) by [Schubert,_Franz](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/_/) by [Schubert,_Franz](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/_/Liebesrausch%2C_D.179.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schubert%2C_Franz/_/Liebesrausch%2C_D.179.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/_/Liebesrausch%2C_D.179.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schubert%2C_Franz/_/Liebesrausch%2C_D.179.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schubert%2C_Franz/_/Liebesrausch%2C_D.179/lc7071193.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Robin Sly (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [12 New Songs](https://fourscoreandmore.org/OpenScore/Boulton%2C_Harold/12_New_Songs/) by [Boulton,_Harold](https://fourscoreandmore.org/OpenScore/Boulton%2C_Harold)__
+__No.6 from [12 New Songs](https://fourscoreandmore.org/openscore/lieder/Boulton%2C_Harold/12_New_Songs/) by [Boulton,_Harold](https://fourscoreandmore.org/openscore/lieder/Boulton%2C_Harold)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Boulton%2C_Harold/12_New_Songs/06_Robin_Sly.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Boulton%2C_Harold/12_New_Songs/06_Robin_Sly.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulton%2C_Harold/12_New_Songs/06_Robin_Sly.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulton%2C_Harold/12_New_Songs/06_Robin_Sly.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulton%2C_Harold/12_New_Songs/06_Robin_Sly/lc6405594.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

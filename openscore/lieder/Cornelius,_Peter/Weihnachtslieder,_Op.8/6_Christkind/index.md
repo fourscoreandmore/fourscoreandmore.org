@@ -3,7 +3,7 @@ layout: post
 title: 'Christkind (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [Weihnachtslieder, Op.8](https://fourscoreandmore.org/OpenScore/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/) by [Cornelius,_Peter](https://fourscoreandmore.org/OpenScore/Cornelius%2C_Peter)__
+__No.6 from [Weihnachtslieder, Op.8](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/6_Christkind.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/6_Christkind.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/6_Christkind.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/6_Christkind.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius%2C_Peter/Weihnachtslieder%2C_Op.8/6_Christkind/lc7019290.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

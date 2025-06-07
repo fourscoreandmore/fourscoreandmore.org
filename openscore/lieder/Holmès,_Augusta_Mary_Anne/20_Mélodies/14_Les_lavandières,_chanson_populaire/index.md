@@ -3,7 +3,7 @@ layout: post
 title: 'Les lavandières, chanson populaire (OpenScore Lieder Corpus)'
 ---
 
-__No.14 from [20 Mélodies](https://fourscoreandmore.org/OpenScore/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/OpenScore/Holm%C3%A8s%2C_Augusta_Mary_Anne)__
+__No.14 from [20 Mélodies](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/14_Les_lavandi%C3%A8res%2C_chanson_populaire.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/14_Les_lavandi%C3%A8res%2C_chanson_populaire.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/14_Les_lavandi%C3%A8res%2C_chanson_populaire.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/14_Les_lavandi%C3%A8res%2C_chanson_populaire.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Holm%C3%A8s%2C_Augusta_Mary_Anne/20_M%C3%A9lodies/14_Les_lavandi%C3%A8res%2C_chanson_populaire/lc5986563.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

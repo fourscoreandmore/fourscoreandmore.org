@@ -3,7 +3,7 @@ layout: post
 title: 'Since thou, o fondest and truest (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [3 Songs of Robert Bridges, Op.43](https://fourscoreandmore.org/OpenScore/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/) by [Stanford,_Charles_Villiers](https://fourscoreandmore.org/OpenScore/Stanford%2C_Charles_Villiers)__
+__No.1 from [3 Songs of Robert Bridges, Op.43](https://fourscoreandmore.org/openscore/lieder/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/) by [Stanford,_Charles_Villiers](https://fourscoreandmore.org/openscore/lieder/Stanford%2C_Charles_Villiers)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/1_Since_thou%2C_o_fondest_and_truest.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/1_Since_thou%2C_o_fondest_and_truest.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/1_Since_thou%2C_o_fondest_and_truest.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/1_Since_thou%2C_o_fondest_and_truest.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Stanford%2C_Charles_Villiers/3_Songs_of_Robert_Bridges%2C_Op.43/1_Since_thou%2C_o_fondest_and_truest/lc6205639.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

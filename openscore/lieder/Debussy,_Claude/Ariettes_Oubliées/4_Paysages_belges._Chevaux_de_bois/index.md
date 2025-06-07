@@ -3,7 +3,7 @@ layout: post
 title: 'Paysages belges. Chevaux de bois (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [Ariettes oubliées](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/) by [Debussy,_Claude](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude)__
+__No.4 from [Ariettes oubliées](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/) by [Debussy,_Claude](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/4_Paysages_belges._Chevaux_de_bois.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/4_Paysages_belges._Chevaux_de_bois.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/4_Paysages_belges._Chevaux_de_bois.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/4_Paysages_belges._Chevaux_de_bois.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Debussy%2C_Claude/Ariettes_oubli%C3%A9es/4_Paysages_belges._Chevaux_de_bois/lc5060932.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

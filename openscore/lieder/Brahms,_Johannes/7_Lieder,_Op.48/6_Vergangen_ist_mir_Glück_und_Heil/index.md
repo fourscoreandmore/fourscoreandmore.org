@@ -3,7 +3,7 @@ layout: post
 title: 'Vergangen ist mir Glück und Heil (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [7 Lieder, Op.48](https://fourscoreandmore.org/OpenScore/Brahms%2C_Johannes/7_Lieder%2C_Op.48/) by [Brahms,_Johannes](https://fourscoreandmore.org/OpenScore/Brahms%2C_Johannes)__
+__No.6 from [7 Lieder, Op.48](https://fourscoreandmore.org/openscore/lieder/Brahms%2C_Johannes/7_Lieder%2C_Op.48/) by [Brahms,_Johannes](https://fourscoreandmore.org/openscore/lieder/Brahms%2C_Johannes)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Brahms%2C_Johannes/7_Lieder%2C_Op.48/6_Vergangen_ist_mir_Gl%C3%BCck_und_Heil.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Brahms%2C_Johannes/7_Lieder%2C_Op.48/6_Vergangen_ist_mir_Gl%C3%BCck_und_Heil.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Brahms%2C_Johannes/7_Lieder%2C_Op.48/6_Vergangen_ist_mir_Gl%C3%BCck_und_Heil.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Brahms%2C_Johannes/7_Lieder%2C_Op.48/6_Vergangen_ist_mir_Gl%C3%BCck_und_Heil.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Brahms%2C_Johannes/7_Lieder%2C_Op.48/6_Vergangen_ist_mir_Gl%C3%BCck_und_Heil/lc5705502.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

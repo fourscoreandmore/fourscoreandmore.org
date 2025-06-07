@@ -3,7 +3,7 @@ layout: post
 title: 'Ah, Love, but a Day! (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [3 Browning Songs, Op.44](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/) by [Beach,_Amy](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy)__
+__No.2 from [3 Browning Songs, Op.44](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/) by [Beach,_Amy](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/2_Ah%2C_Love%2C_but_a_Day%21.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/2_Ah%2C_Love%2C_but_a_Day%21.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/2_Ah%2C_Love%2C_but_a_Day%21.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/2_Ah%2C_Love%2C_but_a_Day%21.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Beach%2C_Amy/3_Browning_Songs%2C_Op.44/2_Ah%2C_Love%2C_but_a_Day%21/lc6212193.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

@@ -3,7 +3,7 @@ layout: post
 title: 'Auf den grünen Auen (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [5 Lieder, Op.4](https://fourscoreandmore.org/OpenScore/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/) by [Faisst,_Clara_Mathilda](https://fourscoreandmore.org/OpenScore/Faisst%2C_Clara_Mathilda)__
+__No.2 from [5 Lieder, Op.4](https://fourscoreandmore.org/openscore/lieder/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/) by [Faisst,_Clara_Mathilda](https://fourscoreandmore.org/openscore/lieder/Faisst%2C_Clara_Mathilda)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/2_Auf_den_gr%C3%BCnen_Auen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/2_Auf_den_gr%C3%BCnen_Auen.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/2_Auf_den_gr%C3%BCnen_Auen.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/2_Auf_den_gr%C3%BCnen_Auen.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Faisst%2C_Clara_Mathilda/5_Lieder%2C_Op.4/2_Auf_den_gr%C3%BCnen_Auen/lc6179275.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

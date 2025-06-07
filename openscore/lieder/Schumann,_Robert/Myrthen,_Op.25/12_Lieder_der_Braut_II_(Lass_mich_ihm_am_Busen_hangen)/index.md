@@ -3,7 +3,7 @@ layout: post
 title: 'Lieder der Braut II (Lass mich ihm am Busen hangen) (OpenScore Lieder Corpus)'
 ---
 
-__No.12 from [Myrthen, Op.25](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/) by [Schumann,_Robert](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert)__
+__No.12 from [Myrthen, Op.25](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/12_Lieder_der_Braut_II_%28Lass_mich_ihm_am_Busen_hangen%29.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Schumann%2C_Robert/Myrthen%2C_Op.25/12_Lieder_der_Braut_II_%28Lass_mich_ihm_am_Busen_hangen%29.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/12_Lieder_der_Braut_II_%28Lass_mich_ihm_am_Busen_hangen%29.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann%2C_Robert/Myrthen%2C_Op.25/12_Lieder_der_Braut_II_%28Lass_mich_ihm_am_Busen_hangen%29.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann%2C_Robert/Myrthen%2C_Op.25/12_Lieder_der_Braut_II_%28Lass_mich_ihm_am_Busen_hangen%29/lc6915753.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

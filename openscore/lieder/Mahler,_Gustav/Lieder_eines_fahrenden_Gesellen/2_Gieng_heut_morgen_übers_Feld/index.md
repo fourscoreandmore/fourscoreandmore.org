@@ -3,7 +3,7 @@ layout: post
 title: 'Gieng heut morgen übers Feld (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [Lieder eines fahrenden Gesellen](https://fourscoreandmore.org/OpenScore/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/) by [Mahler,_Gustav](https://fourscoreandmore.org/OpenScore/Mahler%2C_Gustav)__
+__No.2 from [Lieder eines fahrenden Gesellen](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/) by [Mahler,_Gustav](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mahler%2C_Gustav/Lieder_eines_fahrenden_Gesellen/2_Gieng_heut_morgen_%C3%BCbers_Feld/lc5026309.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links

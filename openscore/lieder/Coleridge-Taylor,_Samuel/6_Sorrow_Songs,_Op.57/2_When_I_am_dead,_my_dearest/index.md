@@ -3,7 +3,7 @@ layout: post
 title: 'When I am dead, my dearest (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [6 Sorrow Songs, Op.57](https://fourscoreandmore.org/OpenScore/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/) by [Coleridge-Taylor,_Samuel](https://fourscoreandmore.org/OpenScore/Coleridge-Taylor%2C_Samuel)__
+__No.2 from [6 Sorrow Songs, Op.57](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/) by [Coleridge-Taylor,_Samuel](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,8 +15,8 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/OpenScore/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/2_When_I_am_dead%2C_my_dearest.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/OpenScore/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/2_When_I_am_dead%2C_my_dearest.mxl). Use this version to open the file in other notation apps.
+- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/2_When_I_am_dead%2C_my_dearest.mscz).
+- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/2_When_I_am_dead%2C_my_dearest.mxl). Use this version to open the file in other notation apps.
 - [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Coleridge-Taylor%2C_Samuel/6_Sorrow_Songs%2C_Op.57/2_When_I_am_dead%2C_my_dearest/lc6189644.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
