@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Johannes Brahms (Lieder corpus)'
+title: 'Johannes Brahms (OpenScore Lieder Corpus)'
 ---
 
 __German composer and pianist (1833–1897)__

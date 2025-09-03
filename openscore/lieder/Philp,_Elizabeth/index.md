@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Elizabeth Philp (Lieder corpus)'
+title: 'Elizabeth Philp (OpenScore Lieder Corpus)'
 ---
 
 __British singer, music educator and composer (1827–1885)__

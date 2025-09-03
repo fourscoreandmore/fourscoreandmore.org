@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Peter Warlock (Lieder corpus)'
+title: 'Peter Warlock (OpenScore Lieder Corpus)'
 ---
 
 __British composer and music critic (1894–1930)__

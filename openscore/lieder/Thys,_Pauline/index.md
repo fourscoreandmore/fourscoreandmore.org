@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Pauline-Marie-Elisa Thys (Lieder corpus)'
+title: 'Pauline-Marie-Elisa Thys (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1835–1909)__

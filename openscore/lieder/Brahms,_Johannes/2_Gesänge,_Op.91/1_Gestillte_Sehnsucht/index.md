@@ -3,7 +3,7 @@ layout: post
 title: 'Gestillte Sehnsucht (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [2 Gesänge, Op.91](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes/2_Ges%C3%A4nge,_Op.91/) by [Brahms,_Johannes](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes)__
+__No.1 from [2 Gesänge, Op.91](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes/2_Gesänge,_Op.91/) by [Brahms,_Johannes](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes/2_Ges%C3%A4nge,_Op.91/1_Gestillte_Sehnsucht.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Brahms,_Johannes/2_Ges%C3%A4nge,_Op.91/1_Gestillte_Sehnsucht.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Brahms,_Johannes/2_Ges%C3%A4nge,_Op.91/1_Gestillte_Sehnsucht/lc6302395.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Brahms,_Johannes/2_Gesänge,_Op.91/1_Gestillte_Sehnsucht/lc6302395.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Brahms,_Johannes/2_Gesänge,_Op.91/1_Gestillte_Sehnsucht/lc6302395.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Brahms,_Johannes/2_Gesänge,_Op.91/1_Gestillte_Sehnsucht/lc6302395.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

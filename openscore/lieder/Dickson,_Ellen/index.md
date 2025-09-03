@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ellen Dickson (Lieder corpus)'
+title: 'Ellen Dickson (OpenScore Lieder Corpus)'
 ---
 
 __English ballad composer (1819–1878)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Walter Parratt (Lieder corpus)'
+title: 'Walter Parratt (OpenScore Lieder Corpus)'
 ---
 
 __English organist and composer (1841–1924)__

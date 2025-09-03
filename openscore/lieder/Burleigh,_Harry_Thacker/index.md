@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Harry T. Burleigh (Lieder corpus)'
+title: 'Harry T. Burleigh (OpenScore Lieder Corpus)'
 ---
 
 __American composer, arranger, and baritone (1866–1949)__

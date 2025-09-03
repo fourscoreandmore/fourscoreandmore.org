@@ -3,7 +3,7 @@ layout: post
 title: 'À une Fleur (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [Feuilles d’album](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/Feuilles_d%E2%80%99album/) by [Bizet,_Georges](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges)__
+__No.1 from [Feuilles d’album](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/Feuilles_d’album/) by [Bizet,_Georges](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/Feuilles_d%E2%80%99album/1_%C3%80_une_Fleur.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/Feuilles_d%E2%80%99album/1_%C3%80_une_Fleur.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bizet,_Georges/Feuilles_d%E2%80%99album/1_%C3%80_une_Fleur/lc5079494.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/Feuilles_d’album/1_À_une_Fleur/lc5079494.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/Feuilles_d’album/1_À_une_Fleur/lc5079494.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/Feuilles_d’album/1_À_une_Fleur/lc5079494.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Hubert Parry (Lieder corpus)'
+title: 'Hubert Parry (OpenScore Lieder Corpus)'
 ---
 
 __British composer and musicologist (1848–1918)__

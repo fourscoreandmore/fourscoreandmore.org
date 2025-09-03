@@ -3,7 +3,7 @@ layout: post
 title: 'Für Einen (OpenScore Lieder Corpus)'
 ---
 
-__No.8 from [12 Gesänge, Op.1](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/12_Ges%C3%A4nge,_Op.1/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert)__
+__No.8 from [12 Gesänge, Op.1](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/12_Gesänge,_Op.1/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/12_Ges%C3%A4nge,_Op.1/08_F%C3%BCr_Einen.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/12_Ges%C3%A4nge,_Op.1/08_F%C3%BCr_Einen.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Franz,_Robert/12_Ges%C3%A4nge,_Op.1/08_F%C3%BCr_Einen/lc5800427.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/12_Gesänge,_Op.1/08_Für_Einen/lc5800427.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/12_Gesänge,_Op.1/08_Für_Einen/lc5800427.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/12_Gesänge,_Op.1/08_Für_Einen/lc5800427.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mélanie Bonis (Lieder corpus)'
+title: 'Mélanie Bonis (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1858–1937)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Maria Theresia von Paradis (Lieder corpus)'
+title: 'Maria Theresia von Paradis (OpenScore Lieder Corpus)'
 ---
 
 __Austrian musician and composer (1759–1824)__

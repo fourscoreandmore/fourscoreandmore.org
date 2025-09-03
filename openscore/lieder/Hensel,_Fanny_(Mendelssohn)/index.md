@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Fanny Mendelssohn (Lieder corpus)'
+title: 'Fanny Mendelssohn (OpenScore Lieder Corpus)'
 ---
 
 __German pianist and composer (1805–1847)__

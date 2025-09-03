@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Peter Cornelius (Lieder corpus)'
+title: 'Peter Cornelius (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1824–1874)__

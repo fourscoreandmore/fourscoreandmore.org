@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'William Shield (Lieder corpus)'
+title: 'William Shield (OpenScore Lieder Corpus)'
 ---
 
 __British musician (1748–1829)__

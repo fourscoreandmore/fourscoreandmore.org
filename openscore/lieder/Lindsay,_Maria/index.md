@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Maria Lindsay (Lieder corpus)'
+title: 'Maria Lindsay (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1827–1898)__

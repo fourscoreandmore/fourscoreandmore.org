@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Loïsa Puget (Lieder corpus)'
+title: 'Loïsa Puget (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1810–1889)__

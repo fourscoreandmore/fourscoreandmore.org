@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Robert Schumann (Lieder corpus)'
+title: 'Robert Schumann (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1810–1856)__

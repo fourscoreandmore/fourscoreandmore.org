@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Helena Munktell (Lieder corpus)'
+title: 'Helena Munktell (OpenScore Lieder Corpus)'
 ---
 
 __Swedish composer (1852–1919)__

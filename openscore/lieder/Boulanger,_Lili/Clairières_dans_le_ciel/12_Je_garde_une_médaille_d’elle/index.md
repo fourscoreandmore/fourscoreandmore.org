@@ -3,7 +3,7 @@ layout: post
 title: 'Je garde une médaille d’elle (OpenScore Lieder Corpus)'
 ---
 
-__No.12 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
+__No.12 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairières_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/12_Je_garde_une_m%C3%A9daille_d%E2%80%99elle.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/12_Je_garde_une_m%C3%A9daille_d%E2%80%99elle.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/12_Je_garde_une_m%C3%A9daille_d%E2%80%99elle/lc5901950.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/12_Je_garde_une_médaille_d’elle/lc5901950.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/12_Je_garde_une_médaille_d’elle/lc5901950.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/12_Je_garde_une_médaille_d’elle/lc5901950.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

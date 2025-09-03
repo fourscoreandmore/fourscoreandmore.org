@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Chiquinha Gonzaga (Lieder corpus)'
+title: 'Chiquinha Gonzaga (OpenScore Lieder Corpus)'
 ---
 
 __Brazilian musician and composer (1847–1935)__

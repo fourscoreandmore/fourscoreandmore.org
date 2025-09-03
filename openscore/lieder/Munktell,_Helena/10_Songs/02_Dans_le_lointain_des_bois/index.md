@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois/lc6654137.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois/lc6654137.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois/lc6654137.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Munktell,_Helena/10_Songs/02_Dans_le_lointain_des_bois/lc6654137.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

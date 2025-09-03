@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Claude Debussy (Lieder corpus)'
+title: 'Claude Debussy (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1862–1918)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Laura Netzel (Lieder corpus)'
+title: 'Laura Netzel (OpenScore Lieder Corpus)'
 ---
 
 __Swedish composer, pianist, conductor (1839–1927)__

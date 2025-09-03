@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Luise Adolpha Le Beau (Lieder corpus)'
+title: 'Luise Adolpha Le Beau (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1850–1927)__

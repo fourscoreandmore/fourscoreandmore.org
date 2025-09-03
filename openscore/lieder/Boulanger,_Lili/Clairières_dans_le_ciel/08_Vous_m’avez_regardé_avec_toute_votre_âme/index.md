@@ -3,7 +3,7 @@ layout: post
 title: 'Vous m’avez regardé avec toute votre âme (OpenScore Lieder Corpus)'
 ---
 
-__No.8 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
+__No.8 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairières_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/08_Vous_m%E2%80%99avez_regard%C3%A9_avec_toute_votre_%C3%A2me.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/08_Vous_m%E2%80%99avez_regard%C3%A9_avec_toute_votre_%C3%A2me.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Boulanger,_Lili/Clairi%C3%A8res_dans_le_ciel/08_Vous_m%E2%80%99avez_regard%C3%A9_avec_toute_votre_%C3%A2me/lc5864837.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/08_Vous_m’avez_regardé_avec_toute_votre_âme/lc5864837.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/08_Vous_m’avez_regardé_avec_toute_votre_âme/lc5864837.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/08_Vous_m’avez_regardé_avec_toute_votre_âme/lc5864837.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

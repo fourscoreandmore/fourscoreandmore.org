@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Charles Villiers Stanford (Lieder corpus)'
+title: 'Charles Villiers Stanford (OpenScore Lieder Corpus)'
 ---
 
 __Irish composer, music teacher, and conductor (1852–1924)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Evelyn Faltis (Lieder corpus)'
+title: 'Evelyn Faltis (OpenScore Lieder Corpus)'
 ---
 
 __Bohemian composer (1887–1937)__

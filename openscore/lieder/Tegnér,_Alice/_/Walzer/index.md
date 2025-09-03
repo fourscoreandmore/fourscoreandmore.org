@@ -3,7 +3,7 @@ layout: post
 title: 'Walzer (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Tegn%C3%A9r,_Alice/_/) by [Tegnér,_Alice](https://fourscoreandmore.org/openscore/lieder/Tegn%C3%A9r,_Alice)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Tegnér,_Alice/_/) by [Tegnér,_Alice](https://fourscoreandmore.org/openscore/lieder/Tegnér,_Alice)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Tegn%C3%A9r,_Alice/_/Walzer.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Tegn%C3%A9r,_Alice/_/Walzer.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Tegn%C3%A9r,_Alice/_/Walzer/lc6910483.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Tegnér,_Alice/_/Walzer/lc6910483.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Tegnér,_Alice/_/Walzer/lc6910483.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Tegnér,_Alice/_/Walzer/lc6910483.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

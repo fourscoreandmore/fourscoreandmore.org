@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Clara Mathilda Faisst (Lieder corpus)'
+title: 'Clara Mathilda Faisst (OpenScore Lieder Corpus)'
 ---
 
 __German composer, pianist and teacher (1872–1948)__

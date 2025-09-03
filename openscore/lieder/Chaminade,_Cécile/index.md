@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Cécile Chaminade (Lieder corpus)'
+title: 'Cécile Chaminade (OpenScore Lieder Corpus)'
 ---
 
 __French composer and pianist (1857–1944)__

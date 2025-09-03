@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_%28Sieh_Doris,_wie_vom_Mond_bestrahlt_%29.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_%28Sieh_Doris,_wie_vom_Mond_bestrahlt_%29.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_%28Sieh_Doris,_wie_vom_Mond_bestrahlt_%29/lc5907870.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_(Sieh_Doris,_wie_vom_Mond_bestrahlt_)/lc5907870.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_(Sieh_Doris,_wie_vom_Mond_bestrahlt_)/lc5907870.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Paradis,_Maria_Theresia_von/12_Lieder,_1786/05_Die_Tanne_(Sieh_Doris,_wie_vom_Mond_bestrahlt_)/lc5907870.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

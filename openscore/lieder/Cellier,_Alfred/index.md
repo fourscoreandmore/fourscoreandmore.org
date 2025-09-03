@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Alfred Cellier (Lieder corpus)'
+title: 'Alfred Cellier (OpenScore Lieder Corpus)'
 ---
 
 __British composer and conductor (1844–1891)__

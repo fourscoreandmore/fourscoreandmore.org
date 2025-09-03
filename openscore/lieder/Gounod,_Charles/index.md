@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Charles Gounod (Lieder corpus)'
+title: 'Charles Gounod (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1818–1893)__

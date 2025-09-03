@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Liliʻuokalani (Lieder corpus)'
+title: 'Liliʻuokalani (OpenScore Lieder Corpus)'
 ---
 
 __monarch of the Hawaiian Kingdom (1838–1917)__

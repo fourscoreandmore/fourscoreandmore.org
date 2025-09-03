@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Sir Harold Boulton, 2nd Baronet (Lieder corpus)'
+title: 'Sir Harold Boulton, 2nd Baronet (OpenScore Lieder Corpus)'
 ---
 
 __British songwriter (1859–1935)__

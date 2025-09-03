@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Gabriel Fauré (Lieder corpus)'
+title: 'Gabriel Fauré (OpenScore Lieder Corpus)'
 ---
 
 __French composer, organist, pianist and teacher (1845–1924)__

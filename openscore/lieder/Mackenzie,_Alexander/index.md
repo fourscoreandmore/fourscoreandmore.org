@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Alexander Mackenzie (Lieder corpus)'
+title: 'Alexander Mackenzie (OpenScore Lieder Corpus)'
 ---
 
 __Scottish conductor and composer (1847–1935)__

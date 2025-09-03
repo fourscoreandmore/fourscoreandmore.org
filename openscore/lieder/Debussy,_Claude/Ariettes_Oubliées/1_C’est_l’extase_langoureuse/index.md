@@ -3,7 +3,7 @@ layout: post
 title: 'C’est l’extase langoureuse (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [Ariettes oubliées](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Ariettes_oubli%C3%A9es/) by [Debussy,_Claude](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude)__
+__No.1 from [Ariettes oubliées](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Ariettes_oubliées/) by [Debussy,_Claude](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Ariettes_oubli%C3%A9es/1_C%E2%80%99est_l%E2%80%99extase_langoureuse.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Ariettes_oubli%C3%A9es/1_C%E2%80%99est_l%E2%80%99extase_langoureuse.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Debussy,_Claude/Ariettes_oubli%C3%A9es/1_C%E2%80%99est_l%E2%80%99extase_langoureuse/lc5060910.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Ariettes_oubliées/1_C’est_l’extase_langoureuse/lc5060910.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Ariettes_oubliées/1_C’est_l’extase_langoureuse/lc5060910.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Ariettes_oubliées/1_C’est_l’extase_langoureuse/lc5060910.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

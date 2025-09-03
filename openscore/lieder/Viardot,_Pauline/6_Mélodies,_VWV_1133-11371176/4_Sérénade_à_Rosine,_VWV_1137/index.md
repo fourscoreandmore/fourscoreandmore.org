@@ -3,7 +3,7 @@ layout: post
 title: 'Sérénade à Rosine, VWV 1137 (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [6 Mélodies, VWV 1133-11371176](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
+__No.4 from [6 Mélodies, VWV 1133-11371176](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/4_S%C3%A9r%C3%A9nade_%C3%A0_Rosine,_VWV_1137.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/4_S%C3%A9r%C3%A9nade_%C3%A0_Rosine,_VWV_1137.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/4_S%C3%A9r%C3%A9nade_%C3%A0_Rosine,_VWV_1137/lc5989772.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/4_Sérénade_à_Rosine,_VWV_1137/lc5989772.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/4_Sérénade_à_Rosine,_VWV_1137/lc5989772.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/4_Sérénade_à_Rosine,_VWV_1137/lc5989772.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

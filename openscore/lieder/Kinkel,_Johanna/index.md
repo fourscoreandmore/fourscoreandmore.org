@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Johanna Kinkel (Lieder corpus)'
+title: 'Johanna Kinkel (OpenScore Lieder Corpus)'
 ---
 
 __German composer and author, editor (1810–1858)__

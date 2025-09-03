@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/2_Seal_Songs/2_You_mustn%E2%80%99t_swim_till_you%E2%80%99re_six_weeks_old.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/2_Seal_Songs/2_You_mustn%E2%80%99t_swim_till_you%E2%80%99re_six_weeks_old.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Lehmann,_Liza/2_Seal_Songs/2_You_mustn%E2%80%99t_swim_till_you%E2%80%99re_six_weeks_old/lc6573701.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/2_Seal_Songs/2_You_mustn’t_swim_till_you’re_six_weeks_old/lc6573701.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/2_Seal_Songs/2_You_mustn’t_swim_till_you’re_six_weeks_old/lc6573701.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/2_Seal_Songs/2_You_mustn’t_swim_till_you’re_six_weeks_old/lc6573701.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

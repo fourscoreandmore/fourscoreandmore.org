@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Amy Elsie Horrocks (Lieder corpus)'
+title: 'Amy Elsie Horrocks (OpenScore Lieder Corpus)'
 ---
 
 __English pianist and composer (1867–1920)__

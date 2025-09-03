@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Erik Satie (Lieder corpus)'
+title: 'Erik Satie (OpenScore Lieder Corpus)'
 ---
 
 __French composer and pianist (1866–1925)__

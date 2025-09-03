@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Augusta Holmès (Lieder corpus)'
+title: 'Augusta Holmès (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1847–1903)__

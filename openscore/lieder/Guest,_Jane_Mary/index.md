@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jane Mary Guest (Lieder corpus)'
+title: 'Jane Mary Guest (OpenScore Lieder Corpus)'
 ---
 
 __English composer and pianist (1762–1846)__

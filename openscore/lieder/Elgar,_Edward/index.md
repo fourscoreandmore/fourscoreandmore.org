@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Edward Elgar (Lieder corpus)'
+title: 'Edward Elgar (OpenScore Lieder Corpus)'
 ---
 
 __English composer (1857–1934)__

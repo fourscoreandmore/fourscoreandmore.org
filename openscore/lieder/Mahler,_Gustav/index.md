@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Gustav Mahler (Lieder corpus)'
+title: 'Gustav Mahler (OpenScore Lieder Corpus)'
 ---
 
 __Austrian late-Romantic composer (1860–1911)__

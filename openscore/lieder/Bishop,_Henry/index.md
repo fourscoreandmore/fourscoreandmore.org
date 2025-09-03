@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Henry Bishop (Lieder corpus)'
+title: 'Henry Bishop (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1787–1855)__

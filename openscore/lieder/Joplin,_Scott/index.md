@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Scott Joplin (Lieder corpus)'
+title: 'Scott Joplin (OpenScore Lieder Corpus)'
 ---
 
 __American composer, musician, and pianist (1868–1917)__

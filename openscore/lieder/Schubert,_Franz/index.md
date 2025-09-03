@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Franz Schubert (Lieder corpus)'
+title: 'Franz Schubert (OpenScore Lieder Corpus)'
 ---
 
 __Austrian composer (1797–1828)__

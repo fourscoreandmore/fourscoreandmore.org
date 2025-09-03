@@ -3,7 +3,7 @@ layout: post
 title: 'Where shall the lover rest (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [English Lyrics (1st Set)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/English_Lyrics_%281st_Set%29/) by [Parry,_Hubert](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert)__
+__No.3 from [English Lyrics (1st Set)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/English_Lyrics_(1st_Set)/) by [Parry,_Hubert](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/English_Lyrics_%281st_Set%29/3_Where_shall_the_lover_rest.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Parry,_Hubert/English_Lyrics_%281st_Set%29/3_Where_shall_the_lover_rest.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Parry,_Hubert/English_Lyrics_%281st_Set%29/3_Where_shall_the_lover_rest/lc6425416.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Parry,_Hubert/English_Lyrics_(1st_Set)/3_Where_shall_the_lover_rest/lc6425416.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Parry,_Hubert/English_Lyrics_(1st_Set)/3_Where_shall_the_lover_rest/lc6425416.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Parry,_Hubert/English_Lyrics_(1st_Set)/3_Where_shall_the_lover_rest/lc6425416.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

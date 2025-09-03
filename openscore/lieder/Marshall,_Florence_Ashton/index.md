@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Florence Ashton Marshall (Lieder corpus)'
+title: 'Florence Ashton Marshall (OpenScore Lieder Corpus)'
 ---
 
 __English writer, composer and conductor (1843–1922)__

@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_fl%C3%BBte_de_Pan.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_fl%C3%BBte_de_Pan.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_fl%C3%BBte_de_Pan/lc5079442.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_flûte_de_Pan/lc5079442.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_flûte_de_Pan/lc5079442.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Debussy,_Claude/Trois_Chansons_de_Bilitis/1_La_flûte_de_Pan/lc5079442.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

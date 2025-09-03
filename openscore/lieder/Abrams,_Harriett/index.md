@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Harriett Abrams (Lieder corpus)'
+title: 'Harriett Abrams (OpenScore Lieder Corpus)'
 ---
 
 __English musician, singer, composer (1758–1821)__

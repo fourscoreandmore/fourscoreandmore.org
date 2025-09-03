@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Lili Boulanger (Lieder corpus)'
+title: 'Lili Boulanger (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1893–1918)__

@@ -3,7 +3,7 @@ layout: post
 title: 'Toujours elle! (OpenScore Lieder Corpus)'
 ---
 
-__No.18 from [20 Mélodies](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/20_M%C3%A9lodies/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne)__
+__No.18 from [20 Mélodies](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne/20_Mélodies/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/20_M%C3%A9lodies/18_Toujours_elle%21.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Holm%C3%A8s,_Augusta_Mary_Anne/20_M%C3%A9lodies/18_Toujours_elle%21.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Holm%C3%A8s,_Augusta_Mary_Anne/20_M%C3%A9lodies/18_Toujours_elle%21/lc5991526.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/18_Toujours_elle!/lc5991526.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/18_Toujours_elle!/lc5991526.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/18_Toujours_elle!/lc5991526.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

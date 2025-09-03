@@ -3,7 +3,7 @@ layout: post
 title: 'Poesia di Metastasio (II) (OpenScore Lieder Corpus)'
 ---
 
-__No.7 from [12 Deutsche und Italiänische Romantische Gesänge](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/) by [Reichardt,_Louise](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise)__
+__No.7 from [12 Deutsche und Italiänische Romantische Gesänge](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Deutsche_und_Italiänische_Romantische_Gesänge/) by [Reichardt,_Louise](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/07_Poesia_di_Metastasio_%28II%29.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/07_Poesia_di_Metastasio_%28II%29.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Reichardt,_Louise/12_Deutsche_und_Itali%C3%A4nische_Romantische_Ges%C3%A4nge/07_Poesia_di_Metastasio_%28II%29/lc5101789.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Deutsche_und_Italiänische_Romantische_Gesänge/07_Poesia_di_Metastasio_(II)/lc5101789.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Deutsche_und_Italiänische_Romantische_Gesänge/07_Poesia_di_Metastasio_(II)/lc5101789.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Deutsche_und_Italiänische_Romantische_Gesänge/07_Poesia_di_Metastasio_(II)/lc5101789.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

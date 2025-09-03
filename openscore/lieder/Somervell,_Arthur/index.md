@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Arthur Somervell (Lieder corpus)'
+title: 'Arthur Somervell (OpenScore Lieder Corpus)'
 ---
 
 __British composer and art song writer (1863–1937)__

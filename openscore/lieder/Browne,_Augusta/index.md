@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Augusta Browne (Lieder corpus)'
+title: 'Augusta Browne (OpenScore Lieder Corpus)'
 ---
 
 __American composer (1820–1882)__

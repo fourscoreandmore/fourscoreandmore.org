@@ -3,7 +3,7 @@ layout: post
 title: 'I know a lovely garden (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/) by [Hardelot,_Guy_d’](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d’/_/) by [Hardelot,_Guy_d’](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d’)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/I_know_a_lovely_garden.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Hardelot,_Guy_d%E2%80%99/_/I_know_a_lovely_garden.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Hardelot,_Guy_d%E2%80%99/_/I_know_a_lovely_garden/lc6629724.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Hardelot,_Guy_d’/_/I_know_a_lovely_garden/lc6629724.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Hardelot,_Guy_d’/_/I_know_a_lovely_garden/lc6629724.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Hardelot,_Guy_d’/_/I_know_a_lovely_garden/lc6629724.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

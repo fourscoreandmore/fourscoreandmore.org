@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ann Mounsey (Lieder corpus)'
+title: 'Ann Mounsey (OpenScore Lieder Corpus)'
 ---
 
 __English composer, pianist, and organist (1811–1891)__

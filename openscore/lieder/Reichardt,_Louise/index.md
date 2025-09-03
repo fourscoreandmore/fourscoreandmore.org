@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Louise Reichardt (Lieder corpus)'
+title: 'Louise Reichardt (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1779–1826)__

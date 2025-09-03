@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_%C3%A0_l%E2%80%99oiseau.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_%C3%A0_l%E2%80%99oiseau.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_%C3%A0_l%E2%80%99oiseau/lc6245974.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_à_l’oiseau/lc6245974.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_à_l’oiseau/lc6245974.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Beach,_Amy/4_Songs,_Op.51/4_Je_demande_à_l’oiseau/lc6245974.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

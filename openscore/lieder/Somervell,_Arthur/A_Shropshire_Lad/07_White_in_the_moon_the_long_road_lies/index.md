@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies/lc6221611.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies/lc6221611.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies/lc6221611.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Somervell,_Arthur/A_Shropshire_Lad/07_White_in_the_moon_the_long_road_lies/lc6221611.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

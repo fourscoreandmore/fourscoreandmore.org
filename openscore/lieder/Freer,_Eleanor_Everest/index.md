@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Eleanor Everest Freer (Lieder corpus)'
+title: 'Eleanor Everest Freer (OpenScore Lieder Corpus)'
 ---
 
 __American composer and philanthropist (1864–1942)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Charles Wood (Lieder corpus)'
+title: 'Charles Wood (OpenScore Lieder Corpus)'
 ---
 
 __Irish composer and teacher (1866–1926)__

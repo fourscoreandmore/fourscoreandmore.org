@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn%E2%80%99_so_hell_aufgeh%E2%80%99n/lc5054519.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn’_so_hell_aufgeh’n/lc5054519.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn’_so_hell_aufgeh’n/lc5054519.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Mahler,_Gustav/Kindertotenlieder/1_Nun_will_die_Sonn’_so_hell_aufgeh’n/lc5054519.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

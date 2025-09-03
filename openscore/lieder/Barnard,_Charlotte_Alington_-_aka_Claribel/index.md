@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Charlotte Alington Barnard (Lieder corpus)'
+title: 'Charlotte Alington Barnard (OpenScore Lieder Corpus)'
 ---
 
 __British composer and hymnwriter (1830–1869)__

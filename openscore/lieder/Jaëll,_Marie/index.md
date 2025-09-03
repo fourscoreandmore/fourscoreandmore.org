@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Marie Jaëll (Lieder corpus)'
+title: 'Marie Jaëll (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1846–1925)__

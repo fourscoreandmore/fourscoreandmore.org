@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Amy Beach (Lieder corpus)'
+title: 'Amy Beach (OpenScore Lieder Corpus)'
 ---
 
 __American composer and pianist (1867–1944)__

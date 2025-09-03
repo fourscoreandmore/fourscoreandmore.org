@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Luise Greger (Lieder corpus)'
+title: 'Luise Greger (OpenScore Lieder Corpus)'
 ---
 
 __German composer and pianist (1862–1944)__

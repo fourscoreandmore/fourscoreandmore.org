@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Liza Lehmann (Lieder corpus)'
+title: 'Liza Lehmann (OpenScore Lieder Corpus)'
 ---
 
 __English operatic soprano and composer (1862–1918)__

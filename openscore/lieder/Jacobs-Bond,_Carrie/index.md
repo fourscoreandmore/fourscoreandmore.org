@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Carrie Jacobs-Bond (Lieder corpus)'
+title: 'Carrie Jacobs-Bond (OpenScore Lieder Corpus)'
 ---
 
 __American composer (1862–1946)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Samuel Coleridge-Taylor (Lieder corpus)'
+title: 'Samuel Coleridge-Taylor (OpenScore Lieder Corpus)'
 ---
 
 __English composer and conductor (1875–1912)__

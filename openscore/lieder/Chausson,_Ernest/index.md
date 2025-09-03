@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ernest Chausson (Lieder corpus)'
+title: 'Ernest Chausson (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1855–1899)__

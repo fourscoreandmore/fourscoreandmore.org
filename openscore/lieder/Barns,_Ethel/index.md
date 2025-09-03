@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ethel Barns (Lieder corpus)'
+title: 'Ethel Barns (OpenScore Lieder Corpus)'
 ---
 
 __British composer and violinist (1874–1948)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Faustina Hasse Hodges (Lieder corpus)'
+title: 'Faustina Hasse Hodges (OpenScore Lieder Corpus)'
 ---
 
 __English-American organist and composer (1823–1895)__

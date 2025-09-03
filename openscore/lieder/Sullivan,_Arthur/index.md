@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Arthur Sullivan (Lieder corpus)'
+title: 'Arthur Sullivan (OpenScore Lieder Corpus)'
 ---
 
 __English composer of the Gilbert & Sullivan duo (1842–1900)__

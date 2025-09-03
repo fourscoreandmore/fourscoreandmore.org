@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ivor Gurney (Lieder corpus)'
+title: 'Ivor Gurney (OpenScore Lieder Corpus)'
 ---
 
 __British composer and poet (1890–1937)__

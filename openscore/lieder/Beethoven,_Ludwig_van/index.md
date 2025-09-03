@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ludwig van Beethoven (Lieder corpus)'
+title: 'Ludwig van Beethoven (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1770–1827)__

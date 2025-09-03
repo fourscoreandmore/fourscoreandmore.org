@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Pauline Duchambge (Lieder corpus)'
+title: 'Pauline Duchambge (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1776–1858)__

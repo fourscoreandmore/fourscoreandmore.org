@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Liebeslieder,_Op.4/3_M%C3%B6cht%E2%80%99_im_Walde_mit_dir_geh%E2%80%99n.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/Liebeslieder,_Op.4/3_M%C3%B6cht%E2%80%99_im_Walde_mit_dir_geh%E2%80%99n.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Cornelius,_Peter/Liebeslieder,_Op.4/3_M%C3%B6cht%E2%80%99_im_Walde_mit_dir_geh%E2%80%99n/lc5062141.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/Liebeslieder,_Op.4/3_Möcht’_im_Walde_mit_dir_geh’n/lc5062141.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/Liebeslieder,_Op.4/3_Möcht’_im_Walde_mit_dir_geh’n/lc5062141.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/Liebeslieder,_Op.4/3_Möcht’_im_Walde_mit_dir_geh’n/lc5062141.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

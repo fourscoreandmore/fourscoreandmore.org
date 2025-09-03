@@ -3,7 +3,7 @@ layout: post
 title: 'La chanson du fou (OpenScore Lieder Corpus)'
 ---
 
-__No.12 from [20 Mélodies, Op.21](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/20_M%C3%A9lodies,_Op.21/) by [Bizet,_Georges](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges)__
+__No.12 from [20 Mélodies, Op.21](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/20_Mélodies,_Op.21/) by [Bizet,_Georges](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/20_M%C3%A9lodies,_Op.21/12_La_chanson_du_fou.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Bizet,_Georges/20_M%C3%A9lodies,_Op.21/12_La_chanson_du_fou.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Bizet,_Georges/20_M%C3%A9lodies,_Op.21/12_La_chanson_du_fou/lc6901197.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/20_Mélodies,_Op.21/12_La_chanson_du_fou/lc6901197.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/20_Mélodies,_Op.21/12_La_chanson_du_fou/lc6901197.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Bizet,_Georges/20_Mélodies,_Op.21/12_La_chanson_du_fou/lc6901197.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

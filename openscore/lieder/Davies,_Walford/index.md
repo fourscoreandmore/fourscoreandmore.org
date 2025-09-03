@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Walford Davies (Lieder corpus)'
+title: 'Walford Davies (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1869–1941)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Josephine Lang (Lieder corpus)'
+title: 'Josephine Lang (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1815–1880)__

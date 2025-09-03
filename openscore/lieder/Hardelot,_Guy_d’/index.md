@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Guy d'Hardelot (Lieder corpus)'
+title: 'Guy d'Hardelot (OpenScore Lieder Corpus)'
 ---
 
 __French-English composer (1858–1936)__

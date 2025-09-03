@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Pauline Viardot (Lieder corpus)'
+title: 'Pauline Viardot (OpenScore Lieder Corpus)'
 ---
 
 __French mezzo-soprano and composer (1821–1910)__

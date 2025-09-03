@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Sophie Gail (Lieder corpus)'
+title: 'Sophie Gail (OpenScore Lieder Corpus)'
 ---
 
 __French singer and composer (1775–1819)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Felix Mendelssohn (Lieder corpus)'
+title: 'Felix Mendelssohn (OpenScore Lieder Corpus)'
 ---
 
 __German composer, pianist, organist and conductor of Jewish descent (1809–1847)__

@@ -3,7 +3,7 @@ layout: post
 title: 'Green (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [Cinq Mélodies, Op.58](https://fourscoreandmore.org/openscore/lieder/Faur%C3%A9,_Gabriel/Cinq_M%C3%A9lodies,_Op.58/) by [Fauré,_Gabriel](https://fourscoreandmore.org/openscore/lieder/Faur%C3%A9,_Gabriel)__
+__No.3 from [Cinq Mélodies, Op.58](https://fourscoreandmore.org/openscore/lieder/Fauré,_Gabriel/Cinq_Mélodies,_Op.58/) by [Fauré,_Gabriel](https://fourscoreandmore.org/openscore/lieder/Fauré,_Gabriel)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Faur%C3%A9,_Gabriel/Cinq_M%C3%A9lodies,_Op.58/3_Green.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Faur%C3%A9,_Gabriel/Cinq_M%C3%A9lodies,_Op.58/3_Green.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Faur%C3%A9,_Gabriel/Cinq_M%C3%A9lodies,_Op.58/3_Green/lc5627879.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Fauré,_Gabriel/Cinq_Mélodies,_Op.58/3_Green/lc5627879.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Fauré,_Gabriel/Cinq_Mélodies,_Op.58/3_Green/lc5627879.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Fauré,_Gabriel/Cinq_Mélodies,_Op.58/3_Green/lc5627879.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Stille Sicherheit (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [6 Gesänge, Op.10](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.10/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert)__
+__No.2 from [6 Gesänge, Op.10](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Gesänge,_Op.10/) by [Franz,_Robert](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.10/2_Stille_Sicherheit.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Franz,_Robert/6_Ges%C3%A4nge,_Op.10/2_Stille_Sicherheit.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Franz,_Robert/6_Ges%C3%A4nge,_Op.10/2_Stille_Sicherheit/lc6808938.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/6_Gesänge,_Op.10/2_Stille_Sicherheit/lc6808938.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/6_Gesänge,_Op.10/2_Stille_Sicherheit/lc6808938.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Franz,_Robert/6_Gesänge,_Op.10/2_Stille_Sicherheit/lc6808938.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jane Bingham Abbott (Lieder corpus)'
+title: 'Jane Bingham Abbott (OpenScore Lieder Corpus)'
 ---
 
 __US pianist, singer and composer (1851–1934)__

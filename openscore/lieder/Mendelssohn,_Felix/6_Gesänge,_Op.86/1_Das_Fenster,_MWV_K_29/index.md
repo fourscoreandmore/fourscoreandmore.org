@@ -3,7 +3,7 @@ layout: post
 title: 'Das Fenster, MWV K 29 (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [6 Gesänge, Op.86](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Ges%C3%A4nge,_Op.86/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix)__
+__No.1 from [6 Gesänge, Op.86](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Gesänge,_Op.86/) by [Mendelssohn,_Felix](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Ges%C3%A4nge,_Op.86/1_Das_Fenster,_MWV_K_29.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Mendelssohn,_Felix/6_Ges%C3%A4nge,_Op.86/1_Das_Fenster,_MWV_K_29.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Mendelssohn,_Felix/6_Ges%C3%A4nge,_Op.86/1_Das_Fenster,_MWV_K_29/lc6989284.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Mendelssohn,_Felix/6_Gesänge,_Op.86/1_Das_Fenster,_MWV_K_29/lc6989284.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Mendelssohn,_Felix/6_Gesänge,_Op.86/1_Das_Fenster,_MWV_K_29/lc6989284.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Mendelssohn,_Felix/6_Gesänge,_Op.86/1_Das_Fenster,_MWV_K_29/lc6989284.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

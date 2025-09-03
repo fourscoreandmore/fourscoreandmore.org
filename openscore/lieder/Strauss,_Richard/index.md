@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Richard Strauss (Lieder corpus)'
+title: 'Richard Strauss (OpenScore Lieder Corpus)'
 ---
 
 __German composer and orchestra director (1864–1949)__

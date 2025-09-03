@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Frederick Delius (Lieder corpus)'
+title: 'Frederick Delius (OpenScore Lieder Corpus)'
 ---
 
 __English composer (1862–1934)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'George Butterworth (Lieder corpus)'
+title: 'George Butterworth (OpenScore Lieder Corpus)'
 ---
 
 __English composer (1885–1916)__

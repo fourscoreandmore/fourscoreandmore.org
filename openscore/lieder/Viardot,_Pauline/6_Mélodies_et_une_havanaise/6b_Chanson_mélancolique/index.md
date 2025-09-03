@@ -3,7 +3,7 @@ layout: post
 title: 'Chanson mélancolique (OpenScore Lieder Corpus)'
 ---
 
-__No.6b from [6 Mélodies et une havanaise](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies_et_une_havanaise/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
+__No.6b from [6 Mélodies et une havanaise](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_Mélodies_et_une_havanaise/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies_et_une_havanaise/6b_Chanson_m%C3%A9lancolique.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies_et_une_havanaise/6b_Chanson_m%C3%A9lancolique.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Viardot,_Pauline/6_M%C3%A9lodies_et_une_havanaise/6b_Chanson_m%C3%A9lancolique/lc6641170.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies_et_une_havanaise/6b_Chanson_mélancolique/lc6641170.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies_et_une_havanaise/6b_Chanson_mélancolique/lc6641170.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies_et_une_havanaise/6b_Chanson_mélancolique/lc6641170.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

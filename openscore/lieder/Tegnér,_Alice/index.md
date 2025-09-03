@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Alice Tegnér (Lieder corpus)'
+title: 'Alice Tegnér (OpenScore Lieder Corpus)'
 ---
 
 __Swedish music teacher and children's songs composer (1864–1943)__

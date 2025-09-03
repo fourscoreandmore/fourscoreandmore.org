@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Virginia Gabriel (Lieder corpus)'
+title: 'Virginia Gabriel (OpenScore Lieder Corpus)'
 ---
 
 __English singer and composer (1825–1877)__

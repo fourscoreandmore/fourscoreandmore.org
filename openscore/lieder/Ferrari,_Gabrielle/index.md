@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Gabrielle Ferrari (Lieder corpus)'
+title: 'Gabrielle Ferrari (OpenScore Lieder Corpus)'
 ---
 
 __French pianist and composer (1851–1921)__

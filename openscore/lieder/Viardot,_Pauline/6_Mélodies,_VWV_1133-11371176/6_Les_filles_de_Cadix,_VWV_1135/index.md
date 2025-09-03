@@ -3,7 +3,7 @@ layout: post
 title: 'Les filles de Cadix, VWV 1135 (OpenScore Lieder Corpus)'
 ---
 
-__No.6 from [6 Mélodies, VWV 1133-11371176](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
+__No.6 from [6 Mélodies, VWV 1133-11371176](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/) by [Viardot,_Pauline](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Viardot,_Pauline/6_M%C3%A9lodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135/lc5975897.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135/lc5975897.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135/lc5975897.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Viardot,_Pauline/6_Mélodies,_VWV_1133-11371176/6_Les_filles_de_Cadix,_VWV_1135/lc5975897.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Joseph Barnby (Lieder corpus)'
+title: 'Joseph Barnby (OpenScore Lieder Corpus)'
 ---
 
 __British musician (1838–1896)__

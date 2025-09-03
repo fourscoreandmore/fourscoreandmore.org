@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Anton Webern (Lieder corpus)'
+title: 'Anton Webern (OpenScore Lieder Corpus)'
 ---
 
 __Austrian composer and conductor (1883–1945)__

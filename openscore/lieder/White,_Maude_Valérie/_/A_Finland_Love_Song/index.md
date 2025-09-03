@@ -3,7 +3,7 @@ layout: post
 title: 'A Finland Love Song (OpenScore Lieder Corpus)'
 ---
 
-__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Val%C3%A9rie/_/) by [White,_Maude_Valérie](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Val%C3%A9rie)__
+__A [standalone piece](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Valérie/_/) by [White,_Maude_Valérie](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Valérie)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Val%C3%A9rie/_/A_Finland_Love_Song.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/White,_Maude_Val%C3%A9rie/_/A_Finland_Love_Song.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/White,_Maude_Val%C3%A9rie/_/A_Finland_Love_Song/lc6230361.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/White,_Maude_Valérie/_/A_Finland_Love_Song/lc6230361.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/White,_Maude_Valérie/_/A_Finland_Love_Song/lc6230361.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/White,_Maude_Valérie/_/A_Finland_Love_Song/lc6230361.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

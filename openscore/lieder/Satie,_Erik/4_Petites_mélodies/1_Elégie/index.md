@@ -3,7 +3,7 @@ layout: post
 title: 'Elégie (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [4 Petites mélodies](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik/4_Petites_m%C3%A9lodies/) by [Satie,_Erik](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik)__
+__No.1 from [4 Petites mélodies](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik/4_Petites_mélodies/) by [Satie,_Erik](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik/4_Petites_m%C3%A9lodies/1_El%C3%A9gie.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Satie,_Erik/4_Petites_m%C3%A9lodies/1_El%C3%A9gie.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Satie,_Erik/4_Petites_m%C3%A9lodies/1_El%C3%A9gie/lc6988229.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Satie,_Erik/4_Petites_mélodies/1_Elégie/lc6988229.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Satie,_Erik/4_Petites_mélodies/1_Elégie/lc6988229.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Satie,_Erik/4_Petites_mélodies/1_Elégie/lc6988229.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

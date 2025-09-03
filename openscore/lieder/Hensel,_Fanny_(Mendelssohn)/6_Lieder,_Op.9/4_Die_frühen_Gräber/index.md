@@ -3,7 +3,7 @@ layout: post
 title: 'Die frühen Gräber (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [6 Lieder, Op.9](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_%28Mendelssohn%29/6_Lieder,_Op.9/) by [Hensel,_Fanny_(Mendelssohn)](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_%28Mendelssohn%29)__
+__No.4 from [6 Lieder, Op.9](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_(Mendelssohn)/6_Lieder,_Op.9/) by [Hensel,_Fanny_(Mendelssohn)](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_(Mendelssohn))__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_%28Mendelssohn%29/6_Lieder,_Op.9/4_Die_fr%C3%BChen_Gr%C3%A4ber.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Hensel,_Fanny_%28Mendelssohn%29/6_Lieder,_Op.9/4_Die_fr%C3%BChen_Gr%C3%A4ber.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Hensel,_Fanny_%28Mendelssohn%29/6_Lieder,_Op.9/4_Die_fr%C3%BChen_Gr%C3%A4ber/lc4986026.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Hensel,_Fanny_(Mendelssohn)/6_Lieder,_Op.9/4_Die_frühen_Gräber/lc4986026.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Hensel,_Fanny_(Mendelssohn)/6_Lieder,_Op.9/4_Die_frühen_Gräber/lc4986026.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Hensel,_Fanny_(Mendelssohn)/6_Lieder,_Op.9/4_Die_frühen_Gräber/lc4986026.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

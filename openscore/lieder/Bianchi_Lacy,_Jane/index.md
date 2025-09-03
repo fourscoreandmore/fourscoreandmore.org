@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jane Bianchi (Lieder corpus)'
+title: 'Jane Bianchi (OpenScore Lieder Corpus)'
 ---
 
 __English singer in London and Oudh (1776–1858)__

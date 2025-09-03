@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Louisa Gray (Lieder corpus)'
+title: 'Louisa Gray (OpenScore Lieder Corpus)'
 ---
 
 __Composer of songs (None–1911)__

@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden/lc6587062.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden/lc6587062.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden/lc6587062.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Jacobs-Bond,_Carrie/3_Songs_as_Unpretentious_as_the_Wild_Rose/2_Walking_in_Her_Garden/lc6587062.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Elizabeth Phillips (Lieder corpus)'
+title: 'Elizabeth Phillips (OpenScore Lieder Corpus)'
 ---
 
 __English singer, song composer, actress and playwright (1822–1876)__

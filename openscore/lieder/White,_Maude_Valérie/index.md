@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Maude Valerie White (Lieder corpus)'
+title: 'Maude Valerie White (OpenScore Lieder Corpus)'
 ---
 
 __French-born English composer (1855–1937)__

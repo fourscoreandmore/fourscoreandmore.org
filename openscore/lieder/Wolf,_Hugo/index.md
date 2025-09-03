@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Hugo Wolf (Lieder corpus)'
+title: 'Hugo Wolf (OpenScore Lieder Corpus)'
 ---
 
 __Austrian composer (1860–1903)__

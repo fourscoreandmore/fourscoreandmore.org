@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Elisabetta de Gambarini (Lieder corpus)'
+title: 'Elisabetta de Gambarini (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1730–1765)__

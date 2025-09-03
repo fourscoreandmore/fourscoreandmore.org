@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Frederic Hymen Cowen (Lieder corpus)'
+title: 'Frederic Hymen Cowen (OpenScore Lieder Corpus)'
 ---
 
 __British pianist, conductor and composer (1852–1935)__

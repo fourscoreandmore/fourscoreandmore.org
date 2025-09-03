@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Louise Farrenc (Lieder corpus)'
+title: 'Louise Farrenc (OpenScore Lieder Corpus)'
 ---
 
 __French composer, virtuosa pianist and teacher (1804–1875)__

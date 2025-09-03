@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Poldowski (Lieder corpus)'
+title: 'Poldowski (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1880–1932)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Georges Bizet (Lieder corpus)'
+title: 'Georges Bizet (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1838–1875)__

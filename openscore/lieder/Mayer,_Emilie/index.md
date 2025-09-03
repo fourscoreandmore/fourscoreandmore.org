@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Emilie Mayer (Lieder corpus)'
+title: 'Emilie Mayer (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1812–1883)__

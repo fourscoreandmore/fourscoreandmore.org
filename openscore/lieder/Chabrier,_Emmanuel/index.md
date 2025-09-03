@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Emmanuel Chabrier (Lieder corpus)'
+title: 'Emmanuel Chabrier (OpenScore Lieder Corpus)'
 ---
 
 __French Romantic composer and pianist (1841–1894)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Clara Wieck (Lieder corpus)'
+title: 'Clara Wieck (OpenScore Lieder Corpus)'
 ---
 
 __German musician and composer (1819–1896)__

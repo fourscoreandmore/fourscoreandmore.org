@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Emilie Zumsteeg (Lieder corpus)'
+title: 'Emilie Zumsteeg (OpenScore Lieder Corpus)'
 ---
 
 __German composer, music teacher, choir conductor, singer and pianist (1796–1857)__

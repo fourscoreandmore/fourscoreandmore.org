@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Frederick Corder (Lieder corpus)'
+title: 'Frederick Corder (OpenScore Lieder Corpus)'
 ---
 
 __English composer and music teacher (1852–1932)__

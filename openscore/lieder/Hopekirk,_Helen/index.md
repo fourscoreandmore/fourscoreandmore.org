@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Helen Hopekirk (Lieder corpus)'
+title: 'Helen Hopekirk (OpenScore Lieder Corpus)'
 ---
 
 __American pianist and composer of Scottish descent (1856–1945)__

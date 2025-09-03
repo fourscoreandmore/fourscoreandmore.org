@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Richard Wagner (Lieder corpus)'
+title: 'Richard Wagner (OpenScore Lieder Corpus)'
 ---
 
 __German opera composer (1813–1883)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Clémence de Grandval (Lieder corpus)'
+title: 'Clémence de Grandval (OpenScore Lieder Corpus)'
 ---
 
 __French composer (1828–1907)__

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Frank Bridge (Lieder corpus)'
+title: 'Frank Bridge (OpenScore Lieder Corpus)'
 ---
 
 __English composer and violist (1879–1941)__

@@ -3,7 +3,7 @@ layout: post
 title: 'Schlusslied des Narren (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [5 Lieder und Gesänge, Op.127](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/5_Lieder_und_Ges%C3%A4nge,_Op.127/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert)__
+__No.5 from [5 Lieder und Gesänge, Op.127](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/5_Lieder_und_Ges%C3%A4nge,_Op.127/5_Schlusslied_des_Narren.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/5_Lieder_und_Ges%C3%A4nge,_Op.127/5_Schlusslied_des_Narren.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schumann,_Robert/5_Lieder_und_Ges%C3%A4nge,_Op.127/5_Schlusslied_des_Narren/lc6828018.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/5_Schlusslied_des_Narren/lc6828018.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/5_Schlusslied_des_Narren/lc6828018.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/5_Lieder_und_Gesänge,_Op.127/5_Schlusslied_des_Narren/lc6828018.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

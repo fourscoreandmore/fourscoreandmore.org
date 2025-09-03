@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Joseph Haydn (Lieder corpus)'
+title: 'Joseph Haydn (OpenScore Lieder Corpus)'
 ---
 
 __Austrian composer (1732–1809)__

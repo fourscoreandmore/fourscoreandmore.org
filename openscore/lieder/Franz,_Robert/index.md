@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Robert Franz (Lieder corpus)'
+title: 'Robert Franz (OpenScore Lieder Corpus)'
 ---
 
 __German composer (1815–1892)__

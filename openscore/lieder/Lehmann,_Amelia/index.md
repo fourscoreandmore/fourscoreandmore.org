@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Amelia Lehmann (Lieder corpus)'
+title: 'Amelia Lehmann (OpenScore Lieder Corpus)'
 ---
 
 __British composer (1838–1903)__

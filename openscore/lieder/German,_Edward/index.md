@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Edward German (Lieder corpus)'
+title: 'Edward German (OpenScore Lieder Corpus)'
 ---
 
 __English musician and composer (1862–1936)__

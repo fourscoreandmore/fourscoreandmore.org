@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Cyril Rootham (Lieder corpus)'
+title: 'Cyril Rootham (OpenScore Lieder Corpus)'
 ---
 
 __English organist, teacher, conductor and composer (1875–1938)__

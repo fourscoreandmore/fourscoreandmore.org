@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Granville Bantock (Lieder corpus)'
+title: 'Granville Bantock (OpenScore Lieder Corpus)'
 ---
 
 __British composer and conductor (1868–1946)__

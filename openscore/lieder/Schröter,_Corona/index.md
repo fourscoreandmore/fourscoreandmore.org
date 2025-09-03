@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Corona Schröter (Lieder corpus)'
+title: 'Corona Schröter (OpenScore Lieder Corpus)'
 ---
 
 __German musician and singer (1751–1802)__

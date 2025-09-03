@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all%E2%80%99_seinen_Sonnen_w%C3%A4r%E2%80%99_mein.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all%E2%80%99_seinen_Sonnen_w%C3%A4r%E2%80%99_mein.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all%E2%80%99_seinen_Sonnen_w%C3%A4r%E2%80%99_mein/lc6067231.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

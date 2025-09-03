@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Ethel Smyth (Lieder corpus)'
+title: 'Ethel Smyth (OpenScore Lieder Corpus)'
 ---
 
 __English composer (1858–1944)__

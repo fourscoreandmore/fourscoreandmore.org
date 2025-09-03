@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mathilde Kralik (Lieder corpus)'
+title: 'Mathilde Kralik (OpenScore Lieder Corpus)'
 ---
 
 __Austrian pianist and composer (1857–1944)__

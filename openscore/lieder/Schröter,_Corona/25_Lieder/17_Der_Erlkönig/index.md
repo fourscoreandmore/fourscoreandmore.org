@@ -3,7 +3,7 @@ layout: post
 title: 'Der Erlkönig (OpenScore Lieder Corpus)'
 ---
 
-__No.17 from [25 Lieder](https://fourscoreandmore.org/openscore/lieder/Schr%C3%B6ter,_Corona/25_Lieder/) by [Schröter,_Corona](https://fourscoreandmore.org/openscore/lieder/Schr%C3%B6ter,_Corona)__
+__No.17 from [25 Lieder](https://fourscoreandmore.org/openscore/lieder/Schröter,_Corona/25_Lieder/) by [Schröter,_Corona](https://fourscoreandmore.org/openscore/lieder/Schröter,_Corona)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Schr%C3%B6ter,_Corona/25_Lieder/17_Der_Erlk%C3%B6nig.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Schr%C3%B6ter,_Corona/25_Lieder/17_Der_Erlk%C3%B6nig.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Schr%C3%B6ter,_Corona/25_Lieder/17_Der_Erlk%C3%B6nig/lc6050301.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schröter,_Corona/25_Lieder/17_Der_Erlkönig/lc6050301.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schröter,_Corona/25_Lieder/17_Der_Erlkönig/lc6050301.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Schröter,_Corona/25_Lieder/17_Der_Erlkönig/lc6050301.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Nach Sevilla (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [12 Gesänge](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Ges%C3%A4nge/) by [Reichardt,_Louise](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise)__
+__No.3 from [12 Gesänge](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Gesänge/) by [Reichardt,_Louise](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise)__
 
 Transcribed and maintained by contributors to [OpenScore Lieder].
 
@@ -15,9 +15,9 @@ Please visit the [official score page] for more information.
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Ges%C3%A4nge/03_Nach_Sevilla.mscz).
-- [MusicXML (compressed)](https://fourscoreandmore.org/openscore/lieder/Reichardt,_Louise/12_Ges%C3%A4nge/03_Nach_Sevilla.mxl). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://raw.githubusercontent.com/OpenScore/Lieder/refs/heads/main/scores/Reichardt,_Louise/12_Ges%C3%A4nge/03_Nach_Sevilla/lc5046249.mscx). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
+- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Gesänge/03_Nach_Sevilla/lc5046249.mscz?raw=true).
+- [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Gesänge/03_Nach_Sevilla/lc5046249.mxl?raw=true). Use this version to open the file in other notation apps.
+- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Reichardt,_Louise/12_Gesänge/03_Nach_Sevilla/lc5046249.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
