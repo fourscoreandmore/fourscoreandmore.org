@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Where is the Data?
+title: Where Can I Find Data?
 ---
 
-"Where is the data?" may well be the question I am most often asked by students.
+“Where can I find data?" may well be the question I am most often asked by students.
 It's a good question, and although the answer changes over time,
 there are some relatively stable sites to point to.
 This page summarises some of those options as a staring point for further exploration.
