@@ -3,17 +3,19 @@ layout: post
 title: 'Peter Cornelius (OpenScore Lieder Corpus)'
 ---
 
-__German composer (1824–1874)__
+## About Peter Cornelius
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Cornelius,+Peter
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- German composer
+- Dates: 1824–1874
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Peter_Cornelius
 [Wikidata]: https://www.wikidata.org/wiki/Q57257
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Cornelius,+Peter
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

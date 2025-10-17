@@ -3,17 +3,19 @@ layout: post
 title: 'Frank Bridge (OpenScore Lieder Corpus)'
 ---
 
-__English composer and violist (1879–1941)__
+## About Frank Bridge
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bridge,+Frank
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English composer and violist
+- Dates: 1879–1941
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Frank_Bridge
 [Wikidata]: https://www.wikidata.org/wiki/Q366636
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bridge,+Frank
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

@@ -3,17 +3,19 @@ layout: post
 title: 'Elizabeth Phillips (OpenScore Lieder Corpus)'
 ---
 
-__English singer, song composer, actress and playwright (1822–1876)__
+## About Elizabeth Phillips
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Phillips,+Elizabeth
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English singer, song composer, actress and playwright
+- Dates: 1822–1876
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: None
 [Wikidata]: https://www.wikidata.org/wiki/Q105407464
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Phillips,+Elizabeth
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

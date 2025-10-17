@@ -3,17 +3,19 @@ layout: post
 title: 'Florence Ashton Marshall (OpenScore Lieder Corpus)'
 ---
 
-__English writer, composer and conductor (1843–1922)__
+## About Florence Ashton Marshall
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Marshall,+Florence
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English writer, composer and conductor
+- Dates: 1843–1922
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Florence_Ashton_Marshall
 [Wikidata]: https://www.wikidata.org/wiki/Q5460551
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Marshall,+Florence
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

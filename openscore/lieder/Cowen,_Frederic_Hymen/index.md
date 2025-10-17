@@ -3,17 +3,19 @@ layout: post
 title: 'Frederic Hymen Cowen (OpenScore Lieder Corpus)'
 ---
 
-__British pianist, conductor and composer (1852–1935)__
+## About Frederic Hymen Cowen
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Cowen,+Frederic
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- British pianist, conductor and composer
+- Dates: 1852–1935
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Frederic_Hymen_Cowen
 [Wikidata]: https://www.wikidata.org/wiki/Q1452734
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Cowen,+Frederic
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

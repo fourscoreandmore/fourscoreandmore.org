@@ -3,17 +3,19 @@ layout: post
 title: 'Gustav Mahler (OpenScore Lieder Corpus)'
 ---
 
-__Austrian late-Romantic composer (1860–1911)__
+## About Gustav Mahler
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Mahler,+Gustav
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- Austrian late-Romantic composer
+- Dates: 1860–1911
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Gustav_Mahler
 [Wikidata]: https://www.wikidata.org/wiki/Q7304
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Mahler,+Gustav
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

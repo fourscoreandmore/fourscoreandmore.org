@@ -3,26 +3,24 @@ layout: post
 title: 'Love Enthroned (OpenScore Lieder Corpus)'
 ---
 
-__No.11 from [Songs of Love and Spring](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/Songs_of_Love_and_Spring/) by [Lehmann,_Liza](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Lehmann,_Liza](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza)
+- Number 11 from [Songs of Love and Spring](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/Songs_of_Love_and_Spring)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6766368
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/Songs_of_Love_and_Spring/11_Love_Enthroned/lc6766368.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/Songs_of_Love_and_Spring/11_Love_Enthroned/lc6766368.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/Songs_of_Love_and_Spring/11_Love_Enthroned/lc6766368.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/Songs_of_Love_and_Spring/11_Love_Enthroned/lc6766368.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6766368
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/627769

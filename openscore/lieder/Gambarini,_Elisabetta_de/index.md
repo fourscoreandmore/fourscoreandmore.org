@@ -3,17 +3,19 @@ layout: post
 title: 'Elisabetta de Gambarini (OpenScore Lieder Corpus)'
 ---
 
-__British composer (1730–1765)__
+## About Elisabetta de Gambarini
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gambarini,+Elisabetta
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- British composer
+- Dates: 1730–1765
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Elisabetta_de_Gambarini
 [Wikidata]: https://www.wikidata.org/wiki/Q2442794
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gambarini,+Elisabetta
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

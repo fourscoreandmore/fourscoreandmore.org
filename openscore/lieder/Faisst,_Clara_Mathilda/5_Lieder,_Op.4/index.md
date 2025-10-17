@@ -3,8 +3,10 @@ layout: post
 title: '5 Lieder, Op.4 (OpenScore Lieder Corpus)'
 ---
 
-Visit the [official set page] in [OpenScore Lieder].
+## External links
 
-[official set page]: https://musescore.com/openscore-lieder-corpus/sets/5103264
+- MuseScore.com: View [sets by this composer] transcribed by [OpenScore Lieder] on MuseScore.com.
+
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets/5103264
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 

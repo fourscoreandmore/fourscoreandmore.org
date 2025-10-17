@@ -3,17 +3,19 @@ layout: post
 title: 'Richard Strauss (OpenScore Lieder Corpus)'
 ---
 
-__German composer and orchestra director (1864–1949)__
+## About Richard Strauss
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Strauss,+Richard
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- German composer and orchestra director
+- Dates: 1864–1949
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Richard_Strauss
 [Wikidata]: https://www.wikidata.org/wiki/Q13894
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Strauss,+Richard
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

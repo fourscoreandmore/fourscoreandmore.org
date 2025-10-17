@@ -3,26 +3,24 @@ layout: post
 title: 'Die Taubenpost (OpenScore Lieder Corpus)'
 ---
 
-__No.14 from [Schwanengesang, D.957](https://fourscoreandmore.org/openscore/lieder/Schubert,_Franz/Schwanengesang,_D.957/) by [Schubert,_Franz](https://fourscoreandmore.org/openscore/lieder/Schubert,_Franz)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Schubert,_Franz](https://fourscoreandmore.org/openscore/lieder/Schubert,_Franz)
+- Number 14 from [Schwanengesang, D.957](https://fourscoreandmore.org/openscore/lieder/Schubert,_Franz/Schwanengesang,_D.957)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/4985962
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost/lc4985962.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost/lc4985962.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost/lc4985962.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Schubert,_Franz/Schwanengesang,_D.957/14_Die_Taubenpost/lc4985962.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/4985962
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/60828

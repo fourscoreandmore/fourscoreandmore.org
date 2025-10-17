@@ -3,26 +3,24 @@ layout: post
 title: 'A thousand years, by sea and land (OpenScore Lieder Corpus)'
 ---
 
-__No.11 from [Choral Songs in Honour of Her Majesty Queen Victoria](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/) by [Parratt,_Walter](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Parratt,_Walter](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter)
+- Number 11 from [Choral Songs in Honour of Her Majesty Queen Victoria](https://fourscoreandmore.org/openscore/lieder/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6688176
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/11_A_thousand_years,_by_sea_and_land/lc6688176.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/11_A_thousand_years,_by_sea_and_land/lc6688176.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/11_A_thousand_years,_by_sea_and_land/lc6688176.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Parratt,_Walter/Choral_Songs_in_Honour_of_Her_Majesty_Queen_Victoria/11_A_thousand_years,_by_sea_and_land/lc6688176.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6688176
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/585417

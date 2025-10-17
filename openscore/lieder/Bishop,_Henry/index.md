@@ -3,17 +3,19 @@ layout: post
 title: 'Henry Bishop (OpenScore Lieder Corpus)'
 ---
 
-__British composer (1787–1855)__
+## About Henry Bishop
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bishop,+Henry
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- British composer
+- Dates: 1787–1855
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Henry_Bishop_(composer)
 [Wikidata]: https://www.wikidata.org/wiki/Q1200639
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bishop,+Henry
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

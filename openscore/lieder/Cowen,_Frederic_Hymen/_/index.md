@@ -3,8 +3,10 @@ layout: post
 title: 'Other songs by Frederic Hymen Cowen (OpenScore Lieder Corpus)'
 ---
 
-Visit the [official set page] in [OpenScore Lieder].
+## External links
 
-[official set page]: https://musescore.com/openscore-lieder-corpus/sets/5105987
+- MuseScore.com: View [sets by this composer] transcribed by [OpenScore Lieder] on MuseScore.com.
+
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets/5105987
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 

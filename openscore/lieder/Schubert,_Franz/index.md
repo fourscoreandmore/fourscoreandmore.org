@@ -3,17 +3,19 @@ layout: post
 title: 'Franz Schubert (OpenScore Lieder Corpus)'
 ---
 
-__Austrian composer (1797–1828)__
+## About Franz Schubert
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Schubert,+Franz
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- Austrian composer
+- Dates: 1797–1828
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Franz_Schubert
 [Wikidata]: https://www.wikidata.org/wiki/Q7312
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Schubert,+Franz
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

@@ -3,26 +3,24 @@ layout: post
 title: 'Sei mein! (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [An Bertha, Op.15](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/An_Bertha,_Op.15/) by [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Cornelius,_Peter](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter)
+- Number 1 from [An Bertha, Op.15](https://fourscoreandmore.org/openscore/lieder/Cornelius,_Peter/An_Bertha,_Op.15)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5062156
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/An_Bertha,_Op.15/1_Sei_mein!/lc5062156.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/An_Bertha,_Op.15/1_Sei_mein!/lc5062156.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/An_Bertha,_Op.15/1_Sei_mein!/lc5062156.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Cornelius,_Peter/An_Bertha,_Op.15/1_Sei_mein!/lc5062156.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/5062156
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/344852

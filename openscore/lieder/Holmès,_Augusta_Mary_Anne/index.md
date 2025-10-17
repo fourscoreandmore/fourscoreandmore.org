@@ -3,17 +3,19 @@ layout: post
 title: 'Augusta Holmès (OpenScore Lieder Corpus)'
 ---
 
-__French composer (1847–1903)__
+## About Augusta Holmès
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Holmès,+Augusta
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer
+- Dates: 1847–1903
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Augusta_Holmès
 [Wikidata]: https://www.wikidata.org/wiki/Q464636
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Holmès,+Augusta
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

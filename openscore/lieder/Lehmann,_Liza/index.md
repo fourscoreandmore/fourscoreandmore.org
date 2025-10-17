@@ -3,17 +3,19 @@ layout: post
 title: 'Liza Lehmann (OpenScore Lieder Corpus)'
 ---
 
-__English operatic soprano and composer (1862–1918)__
+## About Liza Lehmann
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Lehmann,+Liza
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English operatic soprano and composer
+- Dates: 1862–1918
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Liza_Lehmann
 [Wikidata]: https://www.wikidata.org/wiki/Q4887488
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Lehmann,+Liza
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

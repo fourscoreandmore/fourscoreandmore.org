@@ -3,26 +3,24 @@ layout: post
 title: 'Nous nous aimerons tant (OpenScore Lieder Corpus)'
 ---
 
-__No.7 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairières_dans_le_ciel/) by [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Boulanger,_Lili](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili)
+- Number 7 from [Clairières dans le ciel](https://fourscoreandmore.org/openscore/lieder/Boulanger,_Lili/Clairières_dans_le_ciel)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5864781
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/07_Nous_nous_aimerons_tant/lc5864781.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/07_Nous_nous_aimerons_tant/lc5864781.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/07_Nous_nous_aimerons_tant/lc5864781.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Boulanger,_Lili/Clairières_dans_le_ciel/07_Nous_nous_aimerons_tant/lc5864781.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/5864781
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/25057

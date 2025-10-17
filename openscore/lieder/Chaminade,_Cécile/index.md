@@ -3,17 +3,19 @@ layout: post
 title: 'Cécile Chaminade (OpenScore Lieder Corpus)'
 ---
 
-__French composer and pianist (1857–1944)__
+## About Cécile Chaminade
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Chaminade,+Cécile
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer and pianist
+- Dates: 1857–1944
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Cécile_Chaminade
 [Wikidata]: https://www.wikidata.org/wiki/Q236438
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Chaminade,+Cécile
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

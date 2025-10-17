@@ -3,17 +3,19 @@ layout: post
 title: 'Charlotte Alington Barnard (OpenScore Lieder Corpus)'
 ---
 
-__British composer and hymnwriter (1830–1869)__
+## About Charlotte Alington Barnard
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Barnard,+Charlotte
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- British composer and hymnwriter
+- Dates: 1830–1869
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Charlotte_Alington_Barnard
 [Wikidata]: https://www.wikidata.org/wiki/Q5085825
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Barnard,+Charlotte
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

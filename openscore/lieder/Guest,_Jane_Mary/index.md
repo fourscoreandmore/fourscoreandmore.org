@@ -3,17 +3,19 @@ layout: post
 title: 'Jane Mary Guest (OpenScore Lieder Corpus)'
 ---
 
-__English composer and pianist (1762–1846)__
+## About Jane Mary Guest
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Guest,+Jane
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English composer and pianist
+- Dates: 1762–1846
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Jane_Mary_Guest
 [Wikidata]: https://www.wikidata.org/wiki/Q6152538
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Guest,+Jane
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

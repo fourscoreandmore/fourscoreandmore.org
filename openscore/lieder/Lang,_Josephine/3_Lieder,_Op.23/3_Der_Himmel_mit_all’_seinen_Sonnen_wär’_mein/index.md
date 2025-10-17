@@ -3,26 +3,24 @@ layout: post
 title: 'Der Himmel mit all’ seinen Sonnen wär’ mein (OpenScore Lieder Corpus)'
 ---
 
-__No.3 from [3 Lieder, Op.23](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/3_Lieder,_Op.23/) by [Lang,_Josephine](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Lang,_Josephine](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine)
+- Number 3 from [3 Lieder, Op.23](https://fourscoreandmore.org/openscore/lieder/Lang,_Josephine/3_Lieder,_Op.23)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6067231
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Lang,_Josephine/3_Lieder,_Op.23/3_Der_Himmel_mit_all’_seinen_Sonnen_wär’_mein/lc6067231.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6067231
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/617262

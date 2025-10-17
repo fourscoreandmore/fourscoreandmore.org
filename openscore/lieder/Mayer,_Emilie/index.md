@@ -3,17 +3,19 @@ layout: post
 title: 'Emilie Mayer (OpenScore Lieder Corpus)'
 ---
 
-__German composer (1812–1883)__
+## About Emilie Mayer
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Mayer,+Emilie
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- German composer
+- Dates: 1812–1883
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Emilie_Mayer
 [Wikidata]: https://www.wikidata.org/wiki/Q447851
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Mayer,+Emilie
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

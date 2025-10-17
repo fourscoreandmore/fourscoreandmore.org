@@ -3,17 +3,19 @@ layout: post
 title: 'Claude Debussy (OpenScore Lieder Corpus)'
 ---
 
-__French composer (1862–1918)__
+## About Claude Debussy
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Debussy,+Claude
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer
+- Dates: 1862–1918
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Claude_Debussy
 [Wikidata]: https://www.wikidata.org/wiki/Q4700
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Debussy,+Claude
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

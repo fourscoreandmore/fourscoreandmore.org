@@ -3,17 +3,19 @@ layout: post
 title: 'Erik Satie (OpenScore Lieder Corpus)'
 ---
 
-__French composer and pianist (1866–1925)__
+## About Erik Satie
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Satie,+Erik
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer and pianist
+- Dates: 1866–1925
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Erik_Satie
 [Wikidata]: https://www.wikidata.org/wiki/Q187192
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Satie,+Erik
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

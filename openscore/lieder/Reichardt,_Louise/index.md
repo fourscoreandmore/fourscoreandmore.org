@@ -3,17 +3,19 @@ layout: post
 title: 'Louise Reichardt (OpenScore Lieder Corpus)'
 ---
 
-__German composer (1779–1826)__
+## About Louise Reichardt
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Reichardt,+Louise
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- German composer
+- Dates: 1779–1826
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Louise_Reichardt
 [Wikidata]: https://www.wikidata.org/wiki/Q6688923
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Reichardt,+Louise
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

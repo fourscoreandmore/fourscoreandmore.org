@@ -3,26 +3,24 @@ layout: post
 title: 'C’est un oiseau du bois sauvage (OpenScore Lieder Corpus)'
 ---
 
-__No.5 from [20 Mélodies](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne/20_Mélodies/) by [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Holmès,_Augusta_Mary_Anne](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne)
+- Number 5 from [20 Mélodies](https://fourscoreandmore.org/openscore/lieder/Holmès,_Augusta_Mary_Anne/20_Mélodies)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/5001721
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/05_C’est_un_oiseau_du_bois_sauvage/lc5001721.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/05_C’est_un_oiseau_du_bois_sauvage/lc5001721.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/05_C’est_un_oiseau_du_bois_sauvage/lc5001721.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Holmès,_Augusta_Mary_Anne/20_Mélodies/05_C’est_un_oiseau_du_bois_sauvage/lc5001721.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/5001721
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/295514

@@ -3,26 +3,24 @@ layout: post
 title: 'There’s a bird beneath your window (OpenScore Lieder Corpus)'
 ---
 
-__No.1 from [5 Little Love Songs](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/5_Little_Love_Songs/) by [Lehmann,_Liza](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Lehmann,_Liza](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza)
+- Number 1 from [5 Little Love Songs](https://fourscoreandmore.org/openscore/lieder/Lehmann,_Liza/5_Little_Love_Songs)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6209594
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/5_Little_Love_Songs/1_There’s_a_bird_beneath_your_window/lc6209594.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/5_Little_Love_Songs/1_There’s_a_bird_beneath_your_window/lc6209594.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/5_Little_Love_Songs/1_There’s_a_bird_beneath_your_window/lc6209594.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Lehmann,_Liza/5_Little_Love_Songs/1_There’s_a_bird_beneath_your_window/lc6209594.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6209594
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/172611

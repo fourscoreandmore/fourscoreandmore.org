@@ -3,17 +3,19 @@ layout: post
 title: 'Evelyn Faltis (OpenScore Lieder Corpus)'
 ---
 
-__Bohemian composer (1887–1937)__
+## About Evelyn Faltis
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Faltis,+Evelyn
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- Bohemian composer
+- Dates: 1887–1937
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Evelyn_Faltis
 [Wikidata]: https://www.wikidata.org/wiki/Q5416317
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Faltis,+Evelyn
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

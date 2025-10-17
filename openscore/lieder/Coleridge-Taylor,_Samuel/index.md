@@ -3,17 +3,19 @@ layout: post
 title: 'Samuel Coleridge-Taylor (OpenScore Lieder Corpus)'
 ---
 
-__English composer and conductor (1875–1912)__
+## About Samuel Coleridge-Taylor
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Coleridge-Taylor,+Samuel
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English composer and conductor
+- Dates: 1875–1912
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Samuel_Coleridge-Taylor
 [Wikidata]: https://www.wikidata.org/wiki/Q739229
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Coleridge-Taylor,+Samuel
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

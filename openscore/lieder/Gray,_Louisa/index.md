@@ -3,17 +3,19 @@ layout: post
 title: 'Louisa Gray (OpenScore Lieder Corpus)'
 ---
 
-__Composer of songs (None–1911)__
+## About Louisa Gray
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gray,+Louisa
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- Composer of songs
+- Dates: None–1911
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: None
 [Wikidata]: https://www.wikidata.org/wiki/Q105376516
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gray,+Louisa
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

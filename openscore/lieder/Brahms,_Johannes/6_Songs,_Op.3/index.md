@@ -3,8 +3,10 @@ layout: post
 title: '6 Songs, Op.3 (OpenScore Lieder Corpus)'
 ---
 
-Visit the [official set page] in [OpenScore Lieder].
+## External links
 
-[official set page]: https://musescore.com/openscore-lieder-corpus/sets/4910391
+- MuseScore.com: View [sets by this composer] transcribed by [OpenScore Lieder] on MuseScore.com.
+
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets/4910391
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 

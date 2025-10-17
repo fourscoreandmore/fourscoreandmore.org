@@ -3,17 +3,19 @@ layout: post
 title: 'Eleanor Everest Freer (OpenScore Lieder Corpus)'
 ---
 
-__American composer and philanthropist (1864–1942)__
+## About Eleanor Everest Freer
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Freer,+Eleanor
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- American composer and philanthropist
+- Dates: 1864–1942
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Eleanor_Everest_Freer
 [Wikidata]: https://www.wikidata.org/wiki/Q4492825
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Freer,+Eleanor
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

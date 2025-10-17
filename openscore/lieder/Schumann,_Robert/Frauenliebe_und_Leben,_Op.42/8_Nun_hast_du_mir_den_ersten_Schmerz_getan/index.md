@@ -3,26 +3,24 @@ layout: post
 title: 'Nun hast du mir den ersten Schmerz getan (OpenScore Lieder Corpus)'
 ---
 
-__No.8 from [Frauenliebe und Leben, Op.42](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/) by [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Schumann,_Robert](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert)
+- Number 8 from [Frauenliebe und Leben, Op.42](https://fourscoreandmore.org/openscore/lieder/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/4978501
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan/lc4978501.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan/lc4978501.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan/lc4978501.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Schumann,_Robert/Frauenliebe_und_Leben,_Op.42/8_Nun_hast_du_mir_den_ersten_Schmerz_getan/lc4978501.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/4978501
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/51733

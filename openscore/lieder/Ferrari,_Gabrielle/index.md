@@ -3,17 +3,19 @@ layout: post
 title: 'Gabrielle Ferrari (OpenScore Lieder Corpus)'
 ---
 
-__French pianist and composer (1851–1921)__
+## About Gabrielle Ferrari
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Ferrari,+Gabrielle
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French pianist and composer
+- Dates: 1851–1921
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Gabrielle_Ferrari
 [Wikidata]: https://www.wikidata.org/wiki/Q5516070
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Ferrari,+Gabrielle
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

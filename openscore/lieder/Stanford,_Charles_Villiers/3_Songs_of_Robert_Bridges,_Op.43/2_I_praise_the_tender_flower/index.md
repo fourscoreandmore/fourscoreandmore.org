@@ -3,26 +3,24 @@ layout: post
 title: 'I praise the tender flower (OpenScore Lieder Corpus)'
 ---
 
-__No.2 from [3 Songs of Robert Bridges, Op.43](https://fourscoreandmore.org/openscore/lieder/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43/) by [Stanford,_Charles_Villiers](https://fourscoreandmore.org/openscore/lieder/Stanford,_Charles_Villiers)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Stanford,_Charles_Villiers](https://fourscoreandmore.org/openscore/lieder/Stanford,_Charles_Villiers)
+- Number 2 from [3 Songs of Robert Bridges, Op.43](https://fourscoreandmore.org/openscore/lieder/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6205693
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43/2_I_praise_the_tender_flower/lc6205693.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43/2_I_praise_the_tender_flower/lc6205693.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43/2_I_praise_the_tender_flower/lc6205693.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Stanford,_Charles_Villiers/3_Songs_of_Robert_Bridges,_Op.43/2_I_praise_the_tender_flower/lc6205693.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6205693
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/474472

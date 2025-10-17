@@ -3,17 +3,19 @@ layout: post
 title: 'Virginia Gabriel (OpenScore Lieder Corpus)'
 ---
 
-__English singer and composer (1825–1877)__
+## About Virginia Gabriel
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gabriel,+Virginia
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- English singer and composer
+- Dates: 1825–1877
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Virginia_Gabriel
 [Wikidata]: https://www.wikidata.org/wiki/Q7934272
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Gabriel,+Virginia
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

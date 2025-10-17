@@ -3,8 +3,10 @@ layout: post
 title: '7 Mélodies, Op.2 (OpenScore Lieder Corpus)'
 ---
 
-Visit the [official set page] in [OpenScore Lieder].
+## External links
 
-[official set page]: https://musescore.com/openscore-lieder-corpus/sets/5077648
+- MuseScore.com: View [sets by this composer] transcribed by [OpenScore Lieder] on MuseScore.com.
+
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets/5077648
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 

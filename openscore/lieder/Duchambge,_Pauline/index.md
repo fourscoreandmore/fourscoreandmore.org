@@ -3,17 +3,19 @@ layout: post
 title: 'Pauline Duchambge (OpenScore Lieder Corpus)'
 ---
 
-__French composer (1776–1858)__
+## About Pauline Duchambge
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Duchambge,+Pauline
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer
+- Dates: 1776–1858
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Pauline_Duchambge
 [Wikidata]: https://www.wikidata.org/wiki/Q3372712
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Duchambge,+Pauline
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

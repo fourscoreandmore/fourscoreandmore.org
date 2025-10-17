@@ -3,17 +3,19 @@ layout: post
 title: 'Georges Bizet (OpenScore Lieder Corpus)'
 ---
 
-__French composer (1838–1875)__
+## About Georges Bizet
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bizet,+Georges
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- French composer
+- Dates: 1838–1875
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Georges_Bizet
 [Wikidata]: https://www.wikidata.org/wiki/Q56158
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Bizet,+Georges
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

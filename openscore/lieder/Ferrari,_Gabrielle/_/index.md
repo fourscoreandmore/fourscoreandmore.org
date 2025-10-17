@@ -3,8 +3,10 @@ layout: post
 title: 'Other songs by Gabrielle Ferrari (OpenScore Lieder Corpus)'
 ---
 
-Visit the [official set page] in [OpenScore Lieder].
+## External links
 
-[official set page]: https://musescore.com/openscore-lieder-corpus/sets/5079368
+- MuseScore.com: View [sets by this composer] transcribed by [OpenScore Lieder] on MuseScore.com.
+
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets/5079368
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 

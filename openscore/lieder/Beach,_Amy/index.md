@@ -3,17 +3,19 @@ layout: post
 title: 'Amy Beach (OpenScore Lieder Corpus)'
 ---
 
-__American composer and pianist (1867–1944)__
+## About Amy Beach
 
-View [sets by this composer] in [OpenScore Lieder].
-
-[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Beach,+Amy
-[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+- American composer and pianist
+- Dates: 1867–1944
 
 ## External links
 
-- [Wikipedia] - learn about this composer.
-- [Wikidata] - get data about this composer.
+- MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
+- [Wikipedia]: text about this composer.
+- [Wikidata]: linked data about this composer.
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Amy_Beach
 [Wikidata]: https://www.wikidata.org/wiki/Q235699
+[sets by this composer]: https://musescore.com/openscore-lieder-corpus/sets?order=title&text=Beach,+Amy
+[OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
+

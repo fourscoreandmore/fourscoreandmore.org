@@ -3,26 +3,24 @@ layout: post
 title: 'The Poet’s Life (OpenScore Lieder Corpus)'
 ---
 
-__No.4 from [7 Lieder](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward/7_Lieder/) by [Elgar,_Edward](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward)__
+## About This Song
 
-Transcribed and maintained by contributors to [OpenScore Lieder].
+- Composed by: [Elgar,_Edward](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward)
+- Number 4 from [7 Lieder](https://fourscoreandmore.org/openscore/lieder/Elgar,_Edward/7_Lieder)
+- Transcribed and maintained by contributors to [OpenScore Lieder].
 
-Please visit the [official score page] for more information.
-
-[official score page]: https://musescore.com/openscore-lieder-corpus/scores/6236152
 [OpenScore Lieder]: https://musescore.com/openscore-lieder-corpus
 
 ## Direct Download
 
 Click on the links below to download the score in your preferred format:
-- [MuseScore 4 (compressed)](https://github.com/openscore/lieder/blob/main/scores/Elgar,_Edward/7_Lieder/4_The_Poet’s_Life/lc6236152.mscz?raw=true).
+- [MuseScore (compressed)](https://github.com/openscore/lieder/blob/main/scores/Elgar,_Edward/7_Lieder/4_The_Poet’s_Life/lc6236152.mscz?raw=true).
 - [MusicXML (compressed)](https://github.com/openscore/lieder/blob/main/scores/Elgar,_Edward/7_Lieder/4_The_Poet’s_Life/lc6236152.mxl?raw=true). Use this version to open the file in other notation apps.
-- [MuseScore 3 (uncompressed)](https://github.com/openscore/lieder/blob/main/scores/Elgar,_Edward/7_Lieder/4_The_Poet’s_Life/lc6236152.mscx?raw=true). This is the version as transcribed by our team (with no updates etc.). It is uncompressed (so a larger file).
 
 ## External links
 
-- [MuseScore] - view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP] - view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
+- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6236152
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/556602
