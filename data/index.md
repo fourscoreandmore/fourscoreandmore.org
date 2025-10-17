@@ -69,7 +69,7 @@ Individual datasets like those above may not adhere to such best practices.*
 
 ---
 
-## **Curated and Processed Data**  
+## **Aggregated and Processed Data**  
 
 *✅ Pre-processed, visualised, and updated by experts.*
 
@@ -86,6 +86,7 @@ Individual datasets like those above may not adhere to such best practices.*
 - **[Google Trends](https://trends.google.com)**  
   > See what the world is searching for by topic (and also region, time, ...).
   Free, but limited to _trends_ (not raw counts).
+  See also [Google books' ngram viewer](https://books.google.com/ngrams/)
 
 ---
 
@@ -113,10 +114,14 @@ Individual datasets like those above may not adhere to such best practices.*
 
 ### **Government and Similar**  
 
-- **[data.gov (US)](https://data.gov)**  
+- **[data.gov (USA)](https://data.gov)**  
   > 250k+ datasets from US federal agencies (health, environment, economy).
 - **[data.gov.uk (UK)](https://data.gov.uk)**  
-  > UK public sector data (crime, education, transport).  
+  > UK public sector data (crime, education, transport).
+  Related UK sites include [UK data service](https://ukdataservice.ac.uk/)
+  the [Office for National Statistics (ONS)](https://www.ons.gov.uk/),
+  and the [Open Data Institute (ODI)](https://www.ons.gov.uk/) (as a partner, not a source).
+
 - **[EU Open Data Portal](https://data.europa.eu)**  
   > 500k+ datasets from EU institutions (trade, environment, research).  
 - **[UN Data](https://data.un.org)**  
@@ -165,11 +170,14 @@ Many social media and related companies offer APIs which provide a structured se
 
 *❌ Not all APIs are equal, "free" can be a misnomer, and APIs are more technically demanding than direct downloads.*
 
+- **[Academic Torrents](https://academictorrents.com/docs/downloading.html#)**
+  > API or similar (CLI) required. Provided by a non-profit.
 - **[GDELT Project](https://www.gdeltproject.org)**
   > Global event data across the media (broadcast, print, and web).
 - **[Reddit API](https://www.reddit.com/wiki/api)**  
   > Access Reddit API for posts/comments e.g., via
-  [`PRAW` (The Python Reddit API Wrapper)](https://praw.readthedocs.io/en/stable/)
+  [`PRAW` (The Python Reddit API Wrapper)](https://praw.readthedocs.io/en/stable/).
+  Note: Tighter restrictions since 2023, e.g., `OAuth2` and Reddit account required.
 - **["X" / "Twitter" API](https://developer.x.com/en/docs/x-api)**
     > 'Free', but be wary of rate limits.
 - **Facebook**
