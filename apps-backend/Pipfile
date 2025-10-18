@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-"music21" = "*"
 flask = "*"
 gevent = "*"
 natsort = "*"
@@ -12,6 +11,7 @@ flask-wtf = "*"
 pathlib = "*"
 jsonlines = "*"
 werkzeug = "*"
+music21 = "*"
 
 [dev-packages]
 
