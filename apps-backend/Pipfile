@@ -11,7 +11,7 @@ flask-wtf = "*"
 pathlib = "*"
 jsonlines = "*"
 werkzeug = "*"
-music21 = "*"
+music21 = "~=9.3.0"
 
 [dev-packages]
 

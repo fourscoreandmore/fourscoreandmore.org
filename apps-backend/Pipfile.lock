@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e508bc64ad5fba8e536a5070fc40d41ff2b0c913cff7e8c972ffd0a2cd34f2dc"
+            "sha256": "611cf2e4625a4507f8a31246fe032d64caae726b8dc84bb66e08d39e885a2cee"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -775,12 +775,12 @@
         },
         "music21": {
             "hashes": [
-                "sha256:549753c4b2374ec34a2e01cc993d1549abc9db463bd48c3e72720bfec3f12582",
-                "sha256:cdf550c7d2626d367cd265f64309cbf0bd599eec672048308a74963eeb8fa3b5"
+                "sha256:0cf4c67da2062ec164037280580d51ed06b58e84f78afc8d00f088c2bff74f4a",
+                "sha256:486763ad31750fe60035242fb054160a278b9d9bc922406795e887fff6809f0b"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==9.9.1"
+            "version": "==9.3.0"
         },
         "natsort": {
             "hashes": [
