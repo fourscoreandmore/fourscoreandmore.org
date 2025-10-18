@@ -22,6 +22,8 @@ web:
 dependencies:
     python3:
        pipenv: '*'
+    nodejs:
+       pnpm: '*'
 
 mounts:
   'download':
@@ -43,6 +45,9 @@ mounts:
 relationships:
   site: "site:http"
 
+build:
+  flavor: none
+
 hooks:
   build: |
     set -e
@@ -51,7 +56,7 @@ hooks:
 
     pipenv install --system
 
-    npm install
+    pnpm install --no-optional
     cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
   deploy: |
     set -e
