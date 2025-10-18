@@ -205,7 +205,7 @@ def wih_download(filename):
         os.path.dirname(abs_filename),
         os.path.basename(abs_filename),
         as_attachment=("download" in request.args),
-        attachment_filename=filename.replace("/", "_"),
+        download_name=filename.replace("/", "_"),
         mimetype=mimetype,
     )
 
