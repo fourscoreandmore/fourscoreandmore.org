@@ -15,7 +15,7 @@ so that you can make sure your work complements and/or extends what has gone bef
 and that we continue to build a great cathedral of cumulative science together!
 
 ### In brief:
-- Title: "Where is the Data?"
+- Title: "Where Can I Find Data?"
 - By: Mark Gotham, 2025
 - Licence: CC-By-SA
 - URLs last accessed and verified: October 2025
@@ -34,23 +34,52 @@ Ethical:
 - "Scraping" websites is possible but should be considered a last resort for want of a better option, and having checked for any indication of permission/restrictions (e.g., `robots.txt` file). 
 - ... and many more! E.g., among _your_ ethical considerations should be how _they_ made their datasets.
 
+Sensible:
+- In working with data it's likely you'll end up expanding and/or improving it.
+Having gone to that trouble, find a way to contribute your work back into the ecosystem!
+I.e., this page can double as a "where can I _put_ my data"? 
+
 ---
 
 ## **Publicly Accessible Data Sources for Analysis**
 
-*✅ Hundreds of thousands of datasets, freely downloadable, across many formats and topics, which tend to be well-organised.*
+### For the Data Itself
 
-*❌ Most are user-uploads and not subject to quality control.*
+*✅ Hundreds of thousands of datasets, freely downloadable, across many formats and topics.*
 
+*❌ Quality varies. Most are user-uploads and not subject to quality control (see 'Paired Academic Publications' below).*
+
+- **[Zenodo](http://zenodo.org/)**
+  > "Built and operated by CERN and OpenAIRE to ensure that everyone can join in Open Science".
+- **[Open Science Foundation (OSF)](https://osf.io/)**
+  > A "free, open platform to support your research and enable collaboration".
 - **[Kaggle Datasets](https://www.kaggle.com/datasets)**  
   > Datasets as well as benchmarks, models and more.
-  
 - **[Hugging Face Datasets](https://huggingface.co/datasets)**  
   > ML-focus. Includes search by modality (text, audio, vision).
-  
 - **[GitHub Datasets](https://github.com/datasets)**  
-  > This is small list of curated public datasets via GitHub repos among the  
-   many more [datasets on GitHub outside this](https://github.com/). 
+  > This is a small list of curated public datasets via GitHub repos among the  
+   many more [datasets on GitHub outside this](https://github.com/).
+
+### **Paired Academic Publications**
+
+*✅ Many datasets (e.g., those at the platforms above) are paired with an academic publication.
+Having an associated academic publication (that has been properly reviewed) provides some quality control.*
+
+*❌ The academic journals themselves tend not to host the data (so you need the paired dataset above).
+There are many great datasets without a paired academic publication.*
+
+- **Journals focussed entirely on datasets:**  
+  > - Some high profile examples include [Data (MDPI)](https://www.mdpi.com/journal/data),
+  [Scientific Data (Nature Portfolio)](https://www.nature.com/sdata/),
+  [Earth System Science Data](https://www.earth-system-science-data.net/),
+  [GigaScience](https://academic.oup.com/gigascience)
+  > - Examples specific to the humanities include [Journal of Open Humanities Data (JOHD)](https://openhumanitiesdata.metajnl.com/)
+- **Humanities journals that include a "track" (or similar) specifically for introducing datasets**
+  > - [Digital Humanities Quarterly](https://www.digitalhumanities.org/dhq/),
+  > - [Digital Scholarship in the Humanities](https://academic.oup.com/dsh),
+  > - [Cultural Analytics](https://culturalanalytics.org/),
+  > - [Transactions of the International Society for Music Information Retrieval (TISMIR)](https://transactions.ismir.net/)
 
 ---
 
