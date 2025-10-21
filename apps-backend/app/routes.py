@@ -9,6 +9,7 @@ from flask import (
 from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
+from app.roman_text_validator import validate_roman_text_file
 from werkzeug.utils import safe_join
 import hashlib
 import uuid
@@ -296,6 +297,14 @@ def _working_in_harmony_process(lied, analysis, directory):
     romantext_filename = os.path.join(directory, "analysis.txt")
     with open(romantext_filename, "w") as romantext_file:
         romantext_file.write(analysis)
+
+    # Validate the Roman text file before parsing
+    try:
+        validate_roman_text_file(romantext_filename)
+    except ValueError as e:
+        logging.error(f"Roman text validation failed: {e}")
+        errors.append(str(e))
+        return errors
 
     try:
         analysis = romanUmpire.ScoreAndAnalysis(
