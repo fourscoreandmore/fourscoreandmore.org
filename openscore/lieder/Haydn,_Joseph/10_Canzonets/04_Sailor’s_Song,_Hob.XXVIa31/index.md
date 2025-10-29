@@ -19,8 +19,8 @@ Click on the links below to download the score in your preferred format:
 
 ## External links
 
-- [MuseScore]: view and listen to [this score][MuseScore], or download in a variety of formats.
-- [IMSLP]: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
+- MuseScore.com: view and listen to [this score][MuseScore], or download in a variety of formats.
+- IMSLP.org: view the [source PDF file(s)][IMSLP] that this score was transcribed from.
 
 [MuseScore]: https://musescore.com/score/6456450
 [IMSLP]: https://imslp.org/wiki/Special:ReverseLookup/292750

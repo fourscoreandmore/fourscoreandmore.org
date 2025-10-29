@@ -11,8 +11,8 @@ title: 'Cécile Chaminade (OpenScore Lieder Corpus)'
 ## External links
 
 - MuseScore.com: View [sets by this composer] in [OpenScore Lieder] on MuseScore.com.
-- [Wikipedia]: text about this composer.
-- [Wikidata]: linked data about this composer.
+- Wikipedia: Crowd-sourced text about this composer on [Wikipedia].
+- Wikidata: Crowd-sourced, structured, linked data about this composer on [Wikidata].
 
 [Wikipedia]: https://en.wikipedia.org/wiki/Cécile_Chaminade
 [Wikidata]: https://www.wikidata.org/wiki/Q236438
