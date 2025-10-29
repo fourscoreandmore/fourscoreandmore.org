@@ -14,6 +14,20 @@ Consider these as you begin to explore what others have created,
 so that you can make sure your work complements and/or extends what has gone before,
 and that we continue to build a great cathedral of cumulative science together!
 
+In short, this is a sign-posting service to accessible data.
+```
+    ┌──────────────────┐
+    │ ← DATA THIS WAY  │
+    └────────┬┬────────┘
+             ││
+    ┌────────┴┴────────────┐
+    │  AND MORE THIS WAY → │
+    └────────┬┬────────────┘
+             ││
+             ││
+─────────────┘└──────────────
+```
+
 ### In brief:
 - Title: "Where Can I Find Data?"
 - By: Mark Gotham, 2025
