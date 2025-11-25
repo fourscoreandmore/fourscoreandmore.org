@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #E2231A;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+        }
+        .options {
+            padding: 20px;
+        }
+        .option {
+            margin-bottom: 10px;
+        }
+        .textarea {
+            width: 100%;
+            height: 50px;
+            margin-top: 5px;
+        }
+        .result {
+            padding: 20px;
+            margin-top: 20px;
+        }
+                .collapsible {
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .collapsible-header {
+            background-color: #f5f5f5;
+            padding: 12px 15px;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            user-select: none;
+        }
+        .collapsible-content {
+            padding: 0 15px;
+            padding-bottom: 12px;
+            display: none; /* Hidden by default */
+        }
+        .collapsible-content.show {
+            display: block; /* Shows content when class 'show' is added */
+        }
+        .toggle-icon {
+            font-size: 1.2rem;
+            transition: transform 0.2s;
+        }
+        .collapsible-content.show + .toggle-icon {
+            transform: rotate(90deg); /* Rotates minus icon when open */
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>Essay Feedback Templater</h2>
+    </div>
+    <h3>About</h3>
+    <p>
+        This is designed to assist in the process of organising thought while preparing feedback on an essay.
+        All topics default to "N/A" and will be ignored unless clicked.
+        Click "SUBMIT" to receive a draft text based on these choices
+        that you can then adapt further as needed.
+    </p>
+    <h3>Statement on Data Privacy</h3>
+    <p>
+        This is a web-based, client-side application.
+        We have no information about who is using this, or how.
+        The most we might be able to retrieve (but currently don't)
+        is the basic data (number of page visits, organised by country of origin) processed by Google analytics.
+        Certainly none of the choices or text are sent anywhere.
+    </p>
+    <h3>Statement on AI</h3>
+    <p>
+        This is a simple, deterministic system.
+        There simply isn't any "AI", not in the design/creation and certainly not in any data processing.
+    </p>
+    <h3>Author, Licence, Liability</h3>
+    <p>
+        Design and implementation by <strong>Mark Gotham</strong>, 2024–present.
+        This is not an official product or policy of any person or individual.<br>
+        <strong>MIT Licence</strong>:
+        As a brief and non-technical summary, this is a permissive licence allowing free use, with minimal constraints.
+        Importantly, it disclaims the author of all liability for use:
+        you are responsible for your use of this resource.
+        But you know that, right?
+        You are already committed to using this only in so far as it helps you organise your real, thoughtful, personal, valuable feedback.
+    </p>
+</div>
+
+<div class="container">
+    <div class="options" id="options_from_file">
+
+        <h2>Topic by Topic</h2>
+        <h3>Click to hide/show block as relevant to your task.</h3>
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Generally useful
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>title</strong> clearly accounts for the whole project, and is engaging.:</p>
+	<input type="radio" name="Title" id="Title_--" data-tag="Negative" 
+	value="The <strong>title</strong> is actively confusing in relation to the topic discussed."> 
+	<label for="title_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Title" id="Title_-" data-tag="Negative" 
+	value="The <strong>title</strong> could be more focussed as a summary of the project."> 
+	<label for="title_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Title" id="Title_N" data-tag="Neutral" checked> 
+	<label for="title_N">N/A</label> 
+	&emsp; <input type="radio" name="Title" id="Title_+" data-tag="Positive" 
+	value="The <strong>title</strong> clearly accounts for the whole project, and is engaging."> 
+	<label for="title_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Title" id="Title_++" data-tag="Positive" 
+	value="The <strong>title</strong> captures the essence of the project clearly, immediately, and with panache!"> 
+	<label for="title_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Title" placeholder="explain here">
+
+
+	<p>The <strong>thesis</strong> is clearly articulated at the outset and is clearly engaged throughout.:</p>
+	<input type="radio" name="Thesis" id="Thesis_--" data-tag="Negative" 
+	value="The <strong>thesis</strong> is unclear. Can you succinctly articulate a thesis for this work?"> 
+	<label for="thesis_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Thesis" id="Thesis_-" data-tag="Negative" 
+	value="The <strong>thesis</strong> could be more clearly articulated at the outset and engaged more regularly throughout."> 
+	<label for="thesis_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Thesis" id="Thesis_N" data-tag="Neutral" checked> 
+	<label for="thesis_N">N/A</label> 
+	&emsp; <input type="radio" name="Thesis" id="Thesis_+" data-tag="Positive" 
+	value="The <strong>thesis</strong> is clearly articulated at the outset and is clearly engaged throughout."> 
+	<label for="thesis_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Thesis" id="Thesis_++" data-tag="Positive" 
+	value="The <strong>thesis</strong> is clear, and compellingly argued throughout."> 
+	<label for="thesis_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Thesis" placeholder="explain here">
+
+
+	<p>The <strong>relevance</strong> is clear throughout: the essay clearly and consistently relates content back to the main thesis.:</p>
+	<input type="radio" name="Relevance" id="Relevance_--" data-tag="Negative" 
+	value="The <strong>relevance</strong> is lacking. Many parts seem unrelated to the main topic."> 
+	<label for="relevance_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Relevance" id="Relevance_-" data-tag="Negative" 
+	value="The <strong>relevance</strong> is variable: while it is clear how parts contribute to the main topic, others are ambiguous. Please make the case for every element."> 
+	<label for="relevance_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Relevance" id="Relevance_N" data-tag="Neutral" checked> 
+	<label for="relevance_N">N/A</label> 
+	&emsp; <input type="radio" name="Relevance" id="Relevance_+" data-tag="Positive" 
+	value="The <strong>relevance</strong> is clear throughout: the essay clearly and consistently relates content back to the main thesis."> 
+	<label for="relevance_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Relevance" id="Relevance_++" data-tag="Positive" 
+	value="The <strong>relevance</strong> is extremely well handled throughout: every part of the essay relates to the main thesis through link to keywords and more."> 
+	<label for="relevance_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Relevance" placeholder="explain here">
+
+
+	<p>The <strong>table of contents</strong> is clear, and a very welcome addition.:</p>
+	<input type="radio" name="Table of contents" id="Table of contents_--" data-tag="Negative" 
+	value="The <strong>table of contents</strong> is inaccurate."> 
+	<label for="table of contents_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Table of contents" id="Table of contents_-" data-tag="Negative" 
+	value="The <strong>table of contents</strong> is counterproductive."> 
+	<label for="table of contents_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Table of contents" id="Table of contents_N" data-tag="Neutral" checked> 
+	<label for="table of contents_N">N/A</label> 
+	&emsp; <input type="radio" name="Table of contents" id="Table of contents_+" data-tag="Positive" 
+	value="The <strong>table of contents</strong> is clear, and a very welcome addition."> 
+	<label for="table of contents_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Table of contents" id="Table of contents_++" data-tag="Positive" 
+	value="The <strong>table of contents</strong> is meticulous."> 
+	<label for="table of contents_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Table of contents" placeholder="explain here">
+
+
+	<p>The <strong>introduction</strong> sets the scene well.:</p>
+	<input type="radio" name="Introduction" id="Introduction_--" data-tag="Negative" 
+	value="The <strong>introduction</strong> is very lacking."> 
+	<label for="introduction_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Introduction" id="Introduction_-" data-tag="Negative" 
+	value="The <strong>introduction</strong> could be clearer."> 
+	<label for="introduction_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Introduction" id="Introduction_N" data-tag="Neutral" checked> 
+	<label for="introduction_N">N/A</label> 
+	&emsp; <input type="radio" name="Introduction" id="Introduction_+" data-tag="Positive" 
+	value="The <strong>introduction</strong> sets the scene well."> 
+	<label for="introduction_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Introduction" id="Introduction_++" data-tag="Positive" 
+	value="The <strong>introduction</strong> is excellent, motivating and contextualising the field and current project."> 
+	<label for="introduction_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Introduction" placeholder="explain here">
+
+
+	<p>The <strong>terminology</strong> is clear and well-handled throughout.:</p>
+	<input type="radio" name="Terminology" id="Terminology_--" data-tag="Negative" 
+	value="The <strong>terminology</strong> is very lacking."> 
+	<label for="terminology_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Terminology" id="Terminology_-" data-tag="Negative" 
+	value="The <strong>terminology</strong> would benefit from further clarification."> 
+	<label for="terminology_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Terminology" id="Terminology_N" data-tag="Neutral" checked> 
+	<label for="terminology_N">N/A</label> 
+	&emsp; <input type="radio" name="Terminology" id="Terminology_+" data-tag="Positive" 
+	value="The <strong>terminology</strong> is clear and well-handled throughout."> 
+	<label for="terminology_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Terminology" id="Terminology_++" data-tag="Positive" 
+	value="The <strong>terminology</strong> is impeccably navigated with both inherited and new terms explained clearly."> 
+	<label for="terminology_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Terminology" placeholder="explain here">
+
+
+	<p>The <strong>literature review</strong> covers the relevant sources well in a complete and balanced way.:</p>
+	<input type="radio" name="Literature review" id="Literature review_--" data-tag="Negative" 
+	value="The <strong>literature review</strong> is very lacking."> 
+	<label for="literature review_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Literature review" id="Literature review_-" data-tag="Negative" 
+	value="The <strong>literature review</strong> seems incomplete and imbalanced, relying heavily on a few sources."> 
+	<label for="literature review_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Literature review" id="Literature review_N" data-tag="Neutral" checked> 
+	<label for="literature review_N">N/A</label> 
+	&emsp; <input type="radio" name="Literature review" id="Literature review_+" data-tag="Positive" 
+	value="The <strong>literature review</strong> covers the relevant sources well in a complete and balanced way."> 
+	<label for="literature review_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Literature review" id="Literature review_++" data-tag="Positive" 
+	value="The <strong>literature review</strong> is very impressive in its coverage and logical organisation."> 
+	<label for="literature review_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Literature review" placeholder="explain here">
+
+
+	<p>The <strong>use of citation</strong> is effective: citation is used judiciously and with proper attribution.:</p>
+	<input type="radio" name="Use of citation" id="Use of citation_--" data-tag="Negative" 
+	value="The <strong>use of citation</strong> is very poor."> 
+	<label for="use of citation_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Use of citation" id="Use of citation_-" data-tag="Negative" 
+	value="The <strong>use of citation</strong> is problematic, including citation without attribution."> 
+	<label for="use of citation_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Use of citation" id="Use of citation_N" data-tag="Neutral" checked> 
+	<label for="use of citation_N">N/A</label> 
+	&emsp; <input type="radio" name="Use of citation" id="Use of citation_+" data-tag="Positive" 
+	value="The <strong>use of citation</strong> is effective: citation is used judiciously and with proper attribution."> 
+	<label for="use of citation_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Use of citation" id="Use of citation_++" data-tag="Positive" 
+	value="The <strong>use of citation</strong> is excellent: clear, consistent, and complete."> 
+	<label for="use of citation_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Use of citation" placeholder="explain here">
+
+
+	<p>The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use and you use what you cite.:</p>
+	<input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_--" data-tag="Negative" 
+	value="The <strong>integration of the bibliography in the main text</strong> is very poor. It is hard to see how they are connected at all."> 
+	<label for="integration of the bibliography in the main text_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_-" data-tag="Negative" 
+	value="The <strong>integration of the bibliography in the main text</strong> is mismatched: items appear in the bibliography that are not mentioned in the main text."> 
+	<label for="integration of the bibliography in the main text_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_N" data-tag="Neutral" checked> 
+	<label for="integration of the bibliography in the main text_N">N/A</label> 
+	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_+" data-tag="Positive" 
+	value="The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use and you use what you cite."> 
+	<label for="integration of the bibliography in the main text_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_++" data-tag="Positive" 
+	value="The <strong>integration of the bibliography in the main text</strong> is excellent: there is a perfect match."> 
+	<label for="integration of the bibliography in the main text_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Integration of the bibliography in the main text" placeholder="explain here">
+
+
+	<p>The <strong>methodology</strong> is convincing for the subject at hand.:</p>
+	<input type="radio" name="Methodology" id="Methodology_--" data-tag="Negative" 
+	value="The <strong>methodology</strong> is very lacking."> 
+	<label for="methodology_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Methodology" id="Methodology_-" data-tag="Negative" 
+	value="The <strong>methodology</strong> needs work."> 
+	<label for="methodology_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Methodology" id="Methodology_N" data-tag="Neutral" checked> 
+	<label for="methodology_N">N/A</label> 
+	&emsp; <input type="radio" name="Methodology" id="Methodology_+" data-tag="Positive" 
+	value="The <strong>methodology</strong> is convincing for the subject at hand."> 
+	<label for="methodology_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Methodology" id="Methodology_++" data-tag="Positive" 
+	value="The <strong>methodology</strong> is impressively well planned."> 
+	<label for="methodology_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Methodology" placeholder="explain here">
+
+
+	<p>The <strong>structure</strong> is both convincing and easy to follow.:</p>
+	<input type="radio" name="Structure" id="Structure_--" data-tag="Negative" 
+	value="The <strong>structure</strong> is very hard to follow; this is off-putting for readers."> 
+	<label for="structure_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Structure" id="Structure_-" data-tag="Negative" 
+	value="The <strong>structure</strong> could be improved, e.g., with more signposting including simple section titles."> 
+	<label for="structure_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Structure" id="Structure_N" data-tag="Neutral" checked> 
+	<label for="structure_N">N/A</label> 
+	&emsp; <input type="radio" name="Structure" id="Structure_+" data-tag="Positive" 
+	value="The <strong>structure</strong> is both convincing and easy to follow."> 
+	<label for="structure_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Structure" id="Structure_++" data-tag="Positive" 
+	value="The <strong>structure</strong> is exemplary, demonstrating a flair that goes beyond simple clarity."> 
+	<label for="structure_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Structure" placeholder="explain here">
+
+
+	<p>The <strong>signposting of the structure</strong> is clear and easy to follow.:</p>
+	<input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_--" data-tag="Negative" 
+	value="The <strong>signposting of the structure</strong> is all but absent. A little work here would help your readers."> 
+	<label for="signposting of the structure_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_-" data-tag="Negative" 
+	value="The <strong>signposting of the structure</strong> could be improved with more headings and in-text guidance."> 
+	<label for="signposting of the structure_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_N" data-tag="Neutral" checked> 
+	<label for="signposting of the structure_N">N/A</label> 
+	&emsp; <input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_+" data-tag="Positive" 
+	value="The <strong>signposting of the structure</strong> is clear and easy to follow."> 
+	<label for="signposting of the structure_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_++" data-tag="Positive" 
+	value="The <strong>signposting of the structure</strong> is exemplary, both in presentation and writing style."> 
+	<label for="signposting of the structure_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Signposting of the Structure" placeholder="explain here">
+
+
+	<p>The <strong>comparison with other comparable cases</strong> is strong.:</p>
+	<input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_--" data-tag="Negative" 
+	value="The <strong>comparison with other comparable cases</strong> is missing. Including this would greatly help the situate the study."> 
+	<label for="comparison with other comparable cases_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_-" data-tag="Negative" 
+	value="The <strong>comparison with other comparable cases</strong> is lacking and in need further critical reflection."> 
+	<label for="comparison with other comparable cases_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_N" data-tag="Neutral" checked> 
+	<label for="comparison with other comparable cases_N">N/A</label> 
+	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_+" data-tag="Positive" 
+	value="The <strong>comparison with other comparable cases</strong> is strong."> 
+	<label for="comparison with other comparable cases_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_++" data-tag="Positive" 
+	value="The <strong>comparison with other comparable cases</strong> is expertly handled. The balance of compare and contrast is highly convincing."> 
+	<label for="comparison with other comparable cases_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Comparison with other comparable cases" placeholder="explain here">
+
+
+	<p>The <strong>analysis of findings</strong> is strong.:</p>
+	<input type="radio" name="Analysis of findings" id="Analysis of findings_--" data-tag="Negative" 
+	value="The <strong>analysis of findings</strong> makes claims not clearly substantiated by the evidence."> 
+	<label for="analysis of findings_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Analysis of findings" id="Analysis of findings_-" data-tag="Negative" 
+	value="The <strong>analysis of findings</strong> achieves little."> 
+	<label for="analysis of findings_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Analysis of findings" id="Analysis of findings_N" data-tag="Neutral" checked> 
+	<label for="analysis of findings_N">N/A</label> 
+	&emsp; <input type="radio" name="Analysis of findings" id="Analysis of findings_+" data-tag="Positive" 
+	value="The <strong>analysis of findings</strong> is strong."> 
+	<label for="analysis of findings_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Analysis of findings" id="Analysis of findings_++" data-tag="Positive" 
+	value="The <strong>analysis of findings</strong> is compelling, deriving rich insights, relevant to the RQs."> 
+	<label for="analysis of findings_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Analysis of findings" placeholder="explain here">
+
+
+	<p>The <strong>conclusion</strong> is well-handled, complementing the main text.:</p>
+	<input type="radio" name="Conclusion" id="Conclusion_--" data-tag="Negative" 
+	value="The <strong>conclusion</strong> is very lacking."> 
+	<label for="conclusion_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Conclusion" id="Conclusion_-" data-tag="Negative" 
+	value="The <strong>conclusion</strong> does little more than summarise the main text."> 
+	<label for="conclusion_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Conclusion" id="Conclusion_N" data-tag="Neutral" checked> 
+	<label for="conclusion_N">N/A</label> 
+	&emsp; <input type="radio" name="Conclusion" id="Conclusion_+" data-tag="Positive" 
+	value="The <strong>conclusion</strong> is well-handled, complementing the main text."> 
+	<label for="conclusion_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Conclusion" id="Conclusion_++" data-tag="Positive" 
+	value="The <strong>conclusion</strong> is excellent, complementing the introduction, summarising the text, and looking to the future."> 
+	<label for="conclusion_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Conclusion" placeholder="explain here">
+
+
+	<p>The <strong>writing style</strong> is clear and consistent in (academic) tone.:</p>
+	<input type="radio" name="Writing style" id="Writing style_--" data-tag="Negative" 
+	value="The <strong>writing style</strong> is very lacking."> 
+	<label for="writing style_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Writing style" id="Writing style_-" data-tag="Negative" 
+	value="The <strong>writing style</strong> would benefit from further work. Make sure to use appropriate academic tone throughout."> 
+	<label for="writing style_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Writing style" id="Writing style_N" data-tag="Neutral" checked> 
+	<label for="writing style_N">N/A</label> 
+	&emsp; <input type="radio" name="Writing style" id="Writing style_+" data-tag="Positive" 
+	value="The <strong>writing style</strong> is clear and consistent in (academic) tone."> 
+	<label for="writing style_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Writing style" id="Writing style_++" data-tag="Positive" 
+	value="The <strong>writing style</strong> is delight to read: clear, logical, and very well proofread."> 
+	<label for="writing style_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Writing style" placeholder="explain here">
+
+
+	<p>The <strong>spelling and grammar</strong> are proofread well, with very few cases of obvious errors.:</p>
+	<input type="radio" name="Spelling and grammar" id="Spelling and grammar_--" data-tag="Negative" 
+	value="The <strong>spelling and grammar</strong> are of extremely low quality. Much more proofreading is needed."> 
+	<label for="spelling and grammar_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Spelling and grammar" id="Spelling and grammar_-" data-tag="Negative" 
+	value="The <strong>spelling and grammar</strong> would benefit from further proofreading: there are many cases of obvious errors."> 
+	<label for="spelling and grammar_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Spelling and grammar" id="Spelling and grammar_N" data-tag="Neutral" checked> 
+	<label for="spelling and grammar_N">N/A</label> 
+	&emsp; <input type="radio" name="Spelling and grammar" id="Spelling and grammar_+" data-tag="Positive" 
+	value="The <strong>spelling and grammar</strong> are proofread well, with very few cases of obvious errors."> 
+	<label for="spelling and grammar_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Spelling and grammar" id="Spelling and grammar_++" data-tag="Positive" 
+	value="The <strong>spelling and grammar</strong> are meticulously proofread throughout. I could find no discernible errors at all."> 
+	<label for="spelling and grammar_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Spelling and grammar" placeholder="explain here">
+
+
+	<p>The <strong>presentation</strong> is well-handled.:</p>
+	<input type="radio" name="Presentation" id="Presentation_--" data-tag="Negative" 
+	value="The <strong>presentation</strong> is very lacking."> 
+	<label for="presentation_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Presentation" id="Presentation_-" data-tag="Negative" 
+	value="The <strong>presentation</strong> needs work."> 
+	<label for="presentation_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Presentation" id="Presentation_N" data-tag="Neutral" checked> 
+	<label for="presentation_N">N/A</label> 
+	&emsp; <input type="radio" name="Presentation" id="Presentation_+" data-tag="Positive" 
+	value="The <strong>presentation</strong> is well-handled."> 
+	<label for="presentation_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Presentation" id="Presentation_++" data-tag="Positive" 
+	value="The <strong>presentation</strong> handles all aspects clearly and convincingly."> 
+	<label for="presentation_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Presentation" placeholder="explain here">
+
+
+	<p>The <strong>tables and figures</strong> are well-chosen, referenced in the main text, and captioned.:</p>
+	<input type="radio" name="Tables and figures" id="Tables and figures_--" data-tag="Negative" 
+	value="The <strong>tables and figures</strong> need review in terms of referencing in the main text, and captioning."> 
+	<label for="tables and figures_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Tables and figures" id="Tables and figures_-" data-tag="Negative" 
+	value="The <strong>tables and figures</strong> poorly referenced and captioned."> 
+	<label for="tables and figures_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Tables and figures" id="Tables and figures_N" data-tag="Neutral" checked> 
+	<label for="tables and figures_N">N/A</label> 
+	&emsp; <input type="radio" name="Tables and figures" id="Tables and figures_+" data-tag="Positive" 
+	value="The <strong>tables and figures</strong> are well-chosen, referenced in the main text, and captioned."> 
+	<label for="tables and figures_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Tables and figures" id="Tables and figures_++" data-tag="Positive" 
+	value="The <strong>tables and figures</strong> are marvellous: very well selected to complement the text."> 
+	<label for="tables and figures_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Tables and figures" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Choice among set brief with limited options.
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>response to the question</strong> successfully covers all and only the relevant aspects.:</p>
+	<input type="radio" name="Response to the question" id="Response to the question_--" data-tag="Negative" 
+	value="The <strong>response to the question</strong> is lacking: it is hard to make sense of the connection between question and answer."> 
+	<label for="response to the question_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Response to the question" id="Response to the question_-" data-tag="Negative" 
+	value="The <strong>response to the question</strong> could be clearer: there are passages of questionable relevance."> 
+	<label for="response to the question_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Response to the question" id="Response to the question_N" data-tag="Neutral" checked> 
+	<label for="response to the question_N">N/A</label> 
+	&emsp; <input type="radio" name="Response to the question" id="Response to the question_+" data-tag="Positive" 
+	value="The <strong>response to the question</strong> successfully covers all and only the relevant aspects."> 
+	<label for="response to the question_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Response to the question" id="Response to the question_++" data-tag="Positive" 
+	value="The <strong>response to the question</strong> is finely honed, covering all and only the relevant aspects."> 
+	<label for="response to the question_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Response to the question" placeholder="explain here">
+
+
+	<p>The <strong>choice of case study</strong> is clear, effective, and appropriate. You show strong independence from the materials provided in the course.:</p>
+	<input type="radio" name="Choice of case study" id="Choice of case study_--" data-tag="Negative" 
+	value="The <strong>choice of case study</strong> is unconvincing: it is hard to make sense of the connection between question options and this answer."> 
+	<label for="choice of case study_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Choice of case study" id="Choice of case study_-" data-tag="Negative" 
+	value="The <strong>choice of case study</strong> could be clearer: the reader can imagine how to connect this essay to the options, but you should make this explicit."> 
+	<label for="choice of case study_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Choice of case study" id="Choice of case study_N" data-tag="Neutral" checked> 
+	<label for="choice of case study_N">N/A</label> 
+	&emsp; <input type="radio" name="Choice of case study" id="Choice of case study_+" data-tag="Positive" 
+	value="The <strong>choice of case study</strong> is clear, effective, and appropriate. You show strong independence from the materials provided in the course."> 
+	<label for="choice of case study_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Choice of case study" id="Choice of case study_++" data-tag="Positive" 
+	value="The <strong>choice of case study</strong> is inspired."> 
+	<label for="choice of case study_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Choice of case study" placeholder="explain here">
+
+
+	<p>The <strong>literature coverage beyond class materials</strong> is satisfactory. You identify relevant avenues.:</p>
+	<input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_--" data-tag="Negative" 
+	value="The <strong>literature coverage beyond class materials</strong> is very lacking."> 
+	<label for="literature coverage beyond class materials_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_-" data-tag="Negative" 
+	value="The <strong>literature coverage beyond class materials</strong> is insufficient: you rely too heavily on the sources provided in class."> 
+	<label for="literature coverage beyond class materials_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_N" data-tag="Neutral" checked> 
+	<label for="literature coverage beyond class materials_N">N/A</label> 
+	&emsp; <input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_+" data-tag="Positive" 
+	value="The <strong>literature coverage beyond class materials</strong> is satisfactory. You identify relevant avenues."> 
+	<label for="literature coverage beyond class materials_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_++" data-tag="Positive" 
+	value="The <strong>literature coverage beyond class materials</strong> is impressive and expansive. You identify many interesting and relevant avenues."> 
+	<label for="literature coverage beyond class materials_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Literature coverage beyond class materials" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Free choice of subject
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>subject</strong> is well-chosen: it is of cultural interest and can be operationalised meaningfully.:</p>
+	<input type="radio" name="Subject" id="Subject_--" data-tag="Negative" 
+	value="The <strong>subject</strong> is hard to understand or imagine working."> 
+	<label for="subject_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Subject" id="Subject_-" data-tag="Negative" 
+	value="The <strong>subject</strong> has some issues."> 
+	<label for="subject_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Subject" id="Subject_N" data-tag="Neutral" checked> 
+	<label for="subject_N">N/A</label> 
+	&emsp; <input type="radio" name="Subject" id="Subject_+" data-tag="Positive" 
+	value="The <strong>subject</strong> is well-chosen: it is of cultural interest and can be operationalised meaningfully."> 
+	<label for="subject_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Subject" id="Subject_++" data-tag="Positive" 
+	value="The <strong>subject</strong> choice is inspired, building on existing strengths in a new area."> 
+	<label for="subject_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Subject" placeholder="explain here">
+
+
+	<p>The <strong>remit</strong> is well delimited: ambitious but achievable.:</p>
+	<input type="radio" name="Remit" id="Remit_--" data-tag="Negative" 
+	value="The <strong>remit</strong> is lacking in clarity and ambition."> 
+	<label for="remit_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Remit" id="Remit_-" data-tag="Negative" 
+	value="The <strong>remit</strong> is unrealistic and needs delimiting. Satisfactory coverage is impractical in this case."> 
+	<label for="remit_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Remit" id="Remit_N" data-tag="Neutral" checked> 
+	<label for="remit_N">N/A</label> 
+	&emsp; <input type="radio" name="Remit" id="Remit_+" data-tag="Positive" 
+	value="The <strong>remit</strong> is well delimited: ambitious but achievable."> 
+	<label for="remit_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Remit" id="Remit_++" data-tag="Positive" 
+	value="The <strong>remit</strong> is impressively well delimited: very ambitious but shown to be achievable."> 
+	<label for="remit_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Remit" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Computational (excluding corpus)
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>design of code, app, and interface work</strong> is convincingly designed.:</p>
+	<input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_--" data-tag="Negative" 
+	value="The <strong>design of code, app, and interface work</strong> are problematic."> 
+	<label for="design of code, app, and interface work_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_-" data-tag="Negative" 
+	value="The <strong>design of code, app, and interface work</strong> need further critical reflection."> 
+	<label for="design of code, app, and interface work_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_N" data-tag="Neutral" checked> 
+	<label for="design of code, app, and interface work_N">N/A</label> 
+	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_+" data-tag="Positive" 
+	value="The <strong>design of code, app, and interface work</strong> is convincingly designed."> 
+	<label for="design of code, app, and interface work_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_++" data-tag="Positive" 
+	value="The <strong>design of code, app, and interface work</strong> is expertly planned in relation to relevant literature and other resources."> 
+	<label for="design of code, app, and interface work_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Design of code, app, and interface work" placeholder="explain here">
+
+
+	<p>The <strong>demonstration of code, app, and interface work</strong> is clear and convincing.:</p>
+	<input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_--" data-tag="Negative" 
+	value="The <strong>demonstration of code, app, and interface work</strong> is absent. It would be helpful to see some preliminary code or examples of technical developments, not simply text discussion."> 
+	<label for="demonstration of code, app, and interface work_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_-" data-tag="Negative" 
+	value="The <strong>demonstration of code, app, and interface work</strong> needs further clarification."> 
+	<label for="demonstration of code, app, and interface work_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_N" data-tag="Neutral" checked> 
+	<label for="demonstration of code, app, and interface work_N">N/A</label> 
+	&emsp; <input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_+" data-tag="Positive" 
+	value="The <strong>demonstration of code, app, and interface work</strong> is clear and convincing."> 
+	<label for="demonstration of code, app, and interface work_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_++" data-tag="Positive" 
+	value="The <strong>demonstration of code, app, and interface work</strong> is very clear, and compelling."> 
+	<label for="demonstration of code, app, and interface work_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Demonstration of code, app, and interface work" placeholder="explain here">
+
+
+	<p>The <strong>code style and clarity</strong> is clear and easy to follow with only minor issues.:</p>
+	<input type="radio" name="Code style and clarity" id="Code style and clarity_--" data-tag="Negative" 
+	value="The <strong>code style and clarity</strong> is very poor."> 
+	<label for="code style and clarity_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_-" data-tag="Negative" 
+	value="The <strong>code style and clarity</strong> need further work for readers (and potentially other contributors) to follow."> 
+	<label for="code style and clarity_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_N" data-tag="Neutral" checked> 
+	<label for="code style and clarity_N">N/A</label> 
+	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_+" data-tag="Positive" 
+	value="The <strong>code style and clarity</strong> is clear and easy to follow with only minor issues."> 
+	<label for="code style and clarity_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_++" data-tag="Positive" 
+	value="The <strong>code style and clarity</strong> is excellent, following all recognised best practices."> 
+	<label for="code style and clarity_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Code style and clarity" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Surveys, corpora, and sampling
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>sample size (n)</strong> is large enough for the stated research goals.:</p>
+	<input type="radio" name="Sample size (N)" id="Sample size (N)_--" data-tag="Negative" 
+	value="The <strong>sample size (n)</strong> is extremely small for the stated research goals."> 
+	<label for="sample size (n)_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Sample size (N)" id="Sample size (N)_-" data-tag="Negative" 
+	value="The <strong>sample size (n)</strong> is rather small relative to the stated research goals."> 
+	<label for="sample size (n)_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Sample size (N)" id="Sample size (N)_N" data-tag="Neutral" checked> 
+	<label for="sample size (n)_N">N/A</label> 
+	&emsp; <input type="radio" name="Sample size (N)" id="Sample size (N)_+" data-tag="Positive" 
+	value="The <strong>sample size (n)</strong> is large enough for the stated research goals."> 
+	<label for="sample size (n)_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Sample size (N)" id="Sample size (N)_++" data-tag="Positive" 
+	value="The <strong>sample size (n)</strong> is impressively large."> 
+	<label for="sample size (n)_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Sample size (N)" placeholder="explain here">
+
+
+	<p>The <strong>survey respondent demographic spread</strong> reflects the research questions in a suitable and balanced way.:</p>
+	<input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_--" data-tag="Negative" 
+	value="The <strong>survey respondent demographic spread</strong> is concerningly distant from the research questions."> 
+	<label for="survey respondent demographic spread_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_-" data-tag="Negative" 
+	value="The <strong>survey respondent demographic spread</strong> does not fully reflect the research questions in a suitable and balanced way."> 
+	<label for="survey respondent demographic spread_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_N" data-tag="Neutral" checked> 
+	<label for="survey respondent demographic spread_N">N/A</label> 
+	&emsp; <input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_+" data-tag="Positive" 
+	value="The <strong>survey respondent demographic spread</strong> reflects the research questions in a suitable and balanced way."> 
+	<label for="survey respondent demographic spread_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_++" data-tag="Positive" 
+	value="The <strong>survey respondent demographic spread</strong> is impressive."> 
+	<label for="survey respondent demographic spread_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Survey respondent demographic spread" placeholder="explain here">
+
+
+	<p>The <strong>survey questions</strong> are well framed to ask all and only the right topics.:</p>
+	<input type="radio" name="Survey questions" id="Survey questions_--" data-tag="Negative" 
+	value="The <strong>survey questions</strong> need considerable refinement."> 
+	<label for="survey questions_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Survey questions" id="Survey questions_-" data-tag="Negative" 
+	value="The <strong>survey questions</strong> need refining to ask all and only the right topics."> 
+	<label for="survey questions_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Survey questions" id="Survey questions_N" data-tag="Neutral" checked> 
+	<label for="survey questions_N">N/A</label> 
+	&emsp; <input type="radio" name="Survey questions" id="Survey questions_+" data-tag="Positive" 
+	value="The <strong>survey questions</strong> are well framed to ask all and only the right topics."> 
+	<label for="survey questions_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Survey questions" id="Survey questions_++" data-tag="Positive" 
+	value="The <strong>survey questions</strong> are expertly framed to ask all and only the right topics."> 
+	<label for="survey questions_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Survey questions" placeholder="explain here">
+
+
+	<p>The <strong>corpus size (n)</strong> is large enough for the stated research goals.:</p>
+	<input type="radio" name="Corpus size (N)" id="Corpus size (N)_--" data-tag="Negative" 
+	value="The <strong>corpus size (n)</strong> is extremely small for the stated research goals."> 
+	<label for="corpus size (n)_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Corpus size (N)" id="Corpus size (N)_-" data-tag="Negative" 
+	value="The <strong>corpus size (n)</strong> is rather small relative to the stated research goals."> 
+	<label for="corpus size (n)_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Corpus size (N)" id="Corpus size (N)_N" data-tag="Neutral" checked> 
+	<label for="corpus size (n)_N">N/A</label> 
+	&emsp; <input type="radio" name="Corpus size (N)" id="Corpus size (N)_+" data-tag="Positive" 
+	value="The <strong>corpus size (n)</strong> is large enough for the stated research goals."> 
+	<label for="corpus size (n)_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Corpus size (N)" id="Corpus size (N)_++" data-tag="Positive" 
+	value="The <strong>corpus size (n)</strong> is impressively large."> 
+	<label for="corpus size (n)_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Corpus size (N)" placeholder="explain here">
+
+
+	<p>The <strong>corpus curation</strong> is convincingly curated and organised.:</p>
+	<input type="radio" name="Corpus curation" id="Corpus curation_--" data-tag="Negative" 
+	value="The <strong>corpus curation</strong> is very unconvincing for the stated research goals."> 
+	<label for="corpus curation_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Corpus curation" id="Corpus curation_-" data-tag="Negative" 
+	value="The <strong>corpus curation</strong> needs further work to focus and delimit the remit."> 
+	<label for="corpus curation_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Corpus curation" id="Corpus curation_N" data-tag="Neutral" checked> 
+	<label for="corpus curation_N">N/A</label> 
+	&emsp; <input type="radio" name="Corpus curation" id="Corpus curation_+" data-tag="Positive" 
+	value="The <strong>corpus curation</strong> is convincingly curated and organised."> 
+	<label for="corpus curation_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Corpus curation" id="Corpus curation_++" data-tag="Positive" 
+	value="The <strong>corpus curation</strong> is impressively put together with an excellent balance of ambition and practicality."> 
+	<label for="corpus curation_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Corpus curation" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Project design tasks
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>account of feasibility</strong> covers relevant topics well, in a complete and balanced way.:</p>
+	<input type="radio" name="Account of feasibility" id="Account of feasibility_--" data-tag="Negative" 
+	value="The <strong>account of feasibility</strong> is very lacking."> 
+	<label for="account of feasibility_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Account of feasibility" id="Account of feasibility_-" data-tag="Negative" 
+	value="The <strong>account of feasibility</strong> seems incomplete. Can you think of other possible issues and trade offs here?"> 
+	<label for="account of feasibility_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Account of feasibility" id="Account of feasibility_N" data-tag="Neutral" checked> 
+	<label for="account of feasibility_N">N/A</label> 
+	&emsp; <input type="radio" name="Account of feasibility" id="Account of feasibility_+" data-tag="Positive" 
+	value="The <strong>account of feasibility</strong> covers relevant topics well, in a complete and balanced way."> 
+	<label for="account of feasibility_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Account of feasibility" id="Account of feasibility_++" data-tag="Positive" 
+	value="The <strong>account of feasibility</strong> is excellent: you show a full understanding of the practicalities."> 
+	<label for="account of feasibility_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Account of feasibility" placeholder="explain here">
+
+
+	<p>The <strong>risks and issues</strong> are convincingly acknowledged and planned for.:</p>
+	<input type="radio" name="Risks and issues" id="Risks and issues_--" data-tag="Negative" 
+	value="The <strong>risks and issues</strong> are not sufficiently engaged."> 
+	<label for="risks and issues_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Risks and issues" id="Risks and issues_-" data-tag="Negative" 
+	value="The <strong>risks and issues</strong> need further critical reflection."> 
+	<label for="risks and issues_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Risks and issues" id="Risks and issues_N" data-tag="Neutral" checked> 
+	<label for="risks and issues_N">N/A</label> 
+	&emsp; <input type="radio" name="Risks and issues" id="Risks and issues_+" data-tag="Positive" 
+	value="The <strong>risks and issues</strong> are convincingly acknowledged and planned for."> 
+	<label for="risks and issues_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Risks and issues" id="Risks and issues_++" data-tag="Positive" 
+	value="The <strong>risks and issues</strong> are expertly identified, and circumnavigated."> 
+	<label for="risks and issues_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Risks and issues" placeholder="explain here">
+
+
+	</div>	</div>
+
+
+
+	<div class="collapsible">
+	<div class="collapsible-header" id="header">
+	Critique of existing work
+	<span class="toggle-icon" id="toggle">+</span>
+	</div>
+	<div class="collapsible-content" id="content">
+
+
+	<p>The <strong>critique in general</strong> covers the relevant topics well in a complete and balanced way.:</p>
+	<input type="radio" name="Critique in general" id="Critique in general_--" data-tag="Negative" 
+	value="The <strong>critique in general</strong> is very lacking."> 
+	<label for="critique in general_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Critique in general" id="Critique in general_-" data-tag="Negative" 
+	value="The <strong>critique in general</strong> seems incomplete and imbalanced, relying heavily on a few sources."> 
+	<label for="critique in general_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Critique in general" id="Critique in general_N" data-tag="Neutral" checked> 
+	<label for="critique in general_N">N/A</label> 
+	&emsp; <input type="radio" name="Critique in general" id="Critique in general_+" data-tag="Positive" 
+	value="The <strong>critique in general</strong> covers the relevant topics well in a complete and balanced way."> 
+	<label for="critique in general_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Critique in general" id="Critique in general_++" data-tag="Positive" 
+	value="The <strong>critique in general</strong> is excellent: a balanced account that is comprehensive in coverage."> 
+	<label for="critique in general_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Critique in general" placeholder="explain here">
+
+
+	<p>The <strong>critique of strengths</strong> is strong, identifying many relevant positive aspects.:</p>
+	<input type="radio" name="Critique of strengths" id="Critique of strengths_--" data-tag="Negative" 
+	value="The <strong>critique of strengths</strong> is very lacking."> 
+	<label for="critique of strengths_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of strengths" id="Critique of strengths_-" data-tag="Negative" 
+	value="The <strong>critique of strengths</strong> seems incomplete - there are more strengths than those identified."> 
+	<label for="critique of strengths_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of strengths" id="Critique of strengths_N" data-tag="Neutral" checked> 
+	<label for="critique of strengths_N">N/A</label> 
+	&emsp; <input type="radio" name="Critique of strengths" id="Critique of strengths_+" data-tag="Positive" 
+	value="The <strong>critique of strengths</strong> is strong, identifying many relevant positive aspects."> 
+	<label for="critique of strengths_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Critique of strengths" id="Critique of strengths_++" data-tag="Positive" 
+	value="The <strong>critique of strengths</strong> is comprehensive."> 
+	<label for="critique of strengths_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Critique of strengths" placeholder="explain here">
+
+
+	<p>The <strong>critique of weaknesses</strong> is strong, identifying many relevant negative aspects.:</p>
+	<input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_--" data-tag="Negative" 
+	value="The <strong>critique of weaknesses</strong> is very lacking."> 
+	<label for="critique of weaknesses_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_-" data-tag="Negative" 
+	value="The <strong>critique of weaknesses</strong> seems incomplete - there are more weaknesses than those identified."> 
+	<label for="critique of weaknesses_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_N" data-tag="Neutral" checked> 
+	<label for="critique of weaknesses_N">N/A</label> 
+	&emsp; <input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_+" data-tag="Positive" 
+	value="The <strong>critique of weaknesses</strong> is strong, identifying many relevant negative aspects."> 
+	<label for="critique of weaknesses_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_++" data-tag="Positive" 
+	value="The <strong>critique of weaknesses</strong> is comprehensive."> 
+	<label for="critique of weaknesses_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Critique of weaknesses" placeholder="explain here">
+
+
+	<p>The <strong>critique of omissions</strong> covers the relevant topics well in a complete and balanced way.:</p>
+	<input type="radio" name="Critique of omissions" id="Critique of omissions_--" data-tag="Negative" 
+	value="The <strong>critique of omissions</strong> is very lacking."> 
+	<label for="critique of omissions_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of omissions" id="Critique of omissions_-" data-tag="Negative" 
+	value="The <strong>critique of omissions</strong> The critique of omissions could be more extensive and detailed. Can you think of other possible extensions?"> 
+	<label for="critique of omissions_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Critique of omissions" id="Critique of omissions_N" data-tag="Neutral" checked> 
+	<label for="critique of omissions_N">N/A</label> 
+	&emsp; <input type="radio" name="Critique of omissions" id="Critique of omissions_+" data-tag="Positive" 
+	value="The <strong>critique of omissions</strong> covers the relevant topics well in a complete and balanced way."> 
+	<label for="critique of omissions_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Critique of omissions" id="Critique of omissions_++" data-tag="Positive" 
+	value="The <strong>critique of omissions</strong> is excellent: you have a strong sense of what would improve this project."> 
+	<label for="critique of omissions_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Critique of omissions" placeholder="explain here">
+
+
+	</div>	</div>
+
+    </div>
+
+    <h3>Overall:</h3>
+    Subject:
+    <input type="text" id="userInputSubject" placeholder="enter topic here">
+    Adjective:
+    <input type="text" id="userInputAdjective" placeholder="enter adjective here">
+    Explanation/comment:
+    <input type="text" id="userInputExplanation" placeholder="enter explanation/comment here">
+
+    </div>
+
+    <button onclick="generateFeedback()">SUBMIT</button>
+
+    </div>
+
+<div class="container result">
+
+    <h2>Resulting Feedback Template</h2>
+
+    <p>Please note that this grade is provisional, subject to Examination Board ratification.</p>
+
+    <br>
+    <h3>OVERALL:</h3>
+    <div id="overall">[Placeholder]</div>
+
+    <br>
+    <h3>STRENGTHS:</h3>
+    <div id="positives">[Placeholder]</div>
+
+    <br>
+    <h3>AREAS OF IMPROVEMENT:</h3>
+    <div id="negatives">[Placeholder]</div>
+
+</div>
+
+
+<script src="function.js"></script>
+
+
+</body>
+</html>
