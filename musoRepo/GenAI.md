@@ -14,7 +14,7 @@ In brief:
 - Title: 'Generative AI Tools in Music'
 - By: Mark Gotham, 2026
 - Licence: CC-By-SA
-- Suggestions/contributions: Yes! PR or see email [contact details here](https://markgotham.github.io/))
+- Suggestions/contributions: Are welcome! PR or see [email contact details here](https://markgotham.github.io/)
 
 On this page:
 - [Tasks](#tasks)
@@ -58,7 +58,7 @@ By contrast, "Datasets for Symbolic Music Processing" are typically clearer.
 [I list some datasets at the end of my "Keeping Score" book](https://doi.org/10.5281/zenodo.14938027) 
 
 Some systems include **Generative AI for symbolic music**.
-WeaveMuse (https://github.com/manoskary/weavemuse)
+[WeaveMuse](https://github.com/manoskary/weavemuse)
 includes that functionality (among others spanning understanding and generation).
 
 
@@ -67,8 +67,8 @@ includes that functionality (among others spanning understanding and generation)
 Automatic Music Transcription (AMT) is the task of extracting symbolic data from raw audio.
 
 Tools include:
-- Essentia https://github.com/MTG/essentia
-- Klang https://klang.io/
+- [Essentia](https://github.com/MTG/essentia)
+- [Klang](https://klang.io/)
 
 
 ### Source separation (mixed audio → audio in separate parts)
@@ -82,17 +82,14 @@ alignment,
 recognition/detection (of instruments, musicians, lyrics, ...)
 
 Models include:
-- Audio Shake https://www.audioshake.ai/
-- Fadr https://fadr.com/stems
-- Meta's "Segment Anything Model" (SAM). https://ai.meta.com/sam2/
-  - separates a target source based on text, visual, or temporal prompts.
+- [Audio Shake](https://www.audioshake.ai/)
+- [Fadr](https://fadr.com/stems)
+- Meta's ["Segment Anything Model" (SAM)](https://ai.meta.com/sam2/) which separates a target source based on text, visual, or temporal prompts.
 
 See also
-- Jordi Pons' “SAM Audio Explained” blog post. https://artintech.substack.com/p/sam-audio-explained
-- "Open Source Tools & Data for Music Source Separation"
+- Jordi Pons' [“SAM Audio Explained” blog post](https://artintech.substack.com/p/sam-audio-explained)
+- ["Open Source Tools & Data for Music Source Separation"](https://source-separation.github.io/tutorial/landing.html)
 by Ethan Manilow, Prem Seetharaman, and Justin Salamon (Adobe).
-https://source-separation.github.io/tutorial/landing.html
-
 
 ---
 
@@ -111,7 +108,7 @@ these are not typically released publicly, so this is for information and ideati
 ### AI-Assisted Music Production
 _Dated: Nov 2025_
 
-Ronchini et al.'s "AI-Assisted Music Production" paper (https://zenodo.org/records/17488808)
+Ronchini et al.'s ["AI-Assisted Music Production" paper](https://zenodo.org/records/17488808)
 is an experimental study of how users engage with AI tools, especially "text to music" (TTM).
 studies
 
@@ -167,8 +164,8 @@ As of September 2025, there are 19 total:
 ### MusGO
 _Accessed: Jan 2026 (but the authors plan continuous updates)_
 
-The "MusGO Framework" from from the Music Technology Group, Barcelona 
-(https://roserbatlleroca.github.io/MusGO_framework/index.html)
+The ["MusGO Framework"](https://roserbatlleroca.github.io/MusGO_framework/index.html)
+from the Music Technology Group in Barcelona
 serves to assess openness in gen AI model for music.
 
 The author highlight the following attributes (quote):
@@ -180,7 +177,8 @@ The author highlight the following attributes (quote):
 
 The "Stable Audio Open" model currently comes out on top.
 And incidentally, Stable Audio have alos provided a hand
-["Prompt Guide" here](https://stability.ai/learning-hub/stable-audio-25-prompt-guide)
+["Prompt Guide" here](https://stability.ai/learning-hub/stable-audio-25-prompt-guide).
+
 
 ### Responsible AI
 _Dated: July 2025_
@@ -205,9 +203,9 @@ And finally, the thorny issue of evaluation.
 Do these systems “work”?
 What does “work” mean in this context?
 
-Here is an important “Survey on the Evaluation of Generative Models in Music” by
-Lerch et al.
-https://dl.acm.org/doi/10.1145/3769106
+Here is an important
+[“Survey on the Evaluation of Generative Models in Music”](https://dl.acm.org/doi/10.1145/3769106)
+by Lerch et al.
 
 
 ---
