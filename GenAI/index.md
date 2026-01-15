@@ -16,10 +16,10 @@ In brief:
 - Licence: CC-By-SA
 - Suggestions/contributions: Are welcome! PR or see [email contact details here](https://markgotham.github.io/)
 
-On this page:
-- [Tasks](#tasks)
-- [Use Cases](#uses)
-- [Summaries of tools available](#summaries)
+> On this page:
+> - [Tasks](#tasks)
+> - [Use Cases](#use-cases)
+> - [Summaries of tools available](#summaries)
 
 ---
 
@@ -31,29 +31,50 @@ there are many other tasks which GenAI can engage.
 Often, breaking down the creation into smaller component parts allows the human creator to have a more active role.
 Here are some example tasks, with notes and corresponding tools.
 
+> In this section:
+> - [Audio from scratch (nothing → audio)](#audio-from-scratch-nothing--audio)
+> - [Symbolic from scratch (nothing → audio)](#symbolic-from-scratch-nothing--symbolic)
+> - [Transcription (audio → symbolic)](#transcription-audio--symbolic)
+> - [Source separation (mixed audio → audio in separate parts)](#source-separation-mixed-audio--audio-in-separate-parts)
 
 ### Audio from scratch (nothing → audio)
 
-To create your own audio from nothing, use "sound synthesis" (for which there are any number of tools).
-[Here is a very basic demo for exploring raw audio sound data](https://github.com/music-computing/amads/blob/main/notebooks/explore_sound.ipynb)
+Audio is a form of time-series data.
+To understand the nature of this data,
+[here is a very basic demo for exploring raw audio sound data](https://github.com/music-computing/amads/blob/main/notebooks/explore_sound.ipynb).
 
-Alternatively, start working with existing (typically small) audio files e.g., as samples:
-Here are some sources of real samples with open licences:
-* [Free sound](https://freesound.org/)
-* [Soundcamp](https://soundcamp.org/)
+A **Digital Audio Workstation** (DAW, pronounced to sound like "door") is a type of software application
+for handling audio, in which you can record, edit, mix, and more.
+These days, many DAW's have AI features internally.
+[Here is Wiki's comparison of digital audio editors](https://en.wikipedia.org/wiki/Comparison_of_digital_audio_editors)
+and here is a new open source DAW with the most pleasingly apposite name of "Open DAW" ;)
+- [About Open DAW](https://opendaw.org/)
+- [Get started with the Open DAW Studio](https://opendaw.studio/)
+
+Further hints:
+- To create your own audio from nothing, use **sound synthesis**
+(using any number of tools including many right there in the DAW).
+- Additionally and/or alternatively, you might want to start working with existing
+audio files e.g., as **samples**.
+Again, DAW's will include some samples
+and here are some external sources of samples with open licences:
+  * [Free sound](https://freesound.org/)
+  * [Soundcamp](https://soundcamp.org/)
 
 
 ### Symbolic from scratch (nothing → symbolic)
 
-To engage with "the notes", you need those notes.
-[Here is a very basic demo for exploring symbolic data](https://github.com/music-computing/amads/blob/main/notebooks/explore_symbolic.ipynb)
+To engage with "the notes", you need to access those notes.
+DAW's often feature some basic (limiter) controls of this kind.
+Again, to understand this data a bit better,
+[here is a very basic demo for exploring symbolic data](https://github.com/music-computing/amads/blob/main/notebooks/explore_symbolic.ipynb).
 
-To create your own symbolic data from nothing, you might use
+To create your own symbolic data from nothing, you might use:
 - a **music notation app**. Wikipedia has a summary here: https://en.wikipedia.org/wiki/Comparison_of_scorewriters.
 - **programmatic interfaces** like music21 (more likely) or AMADS / partitura (less likely, they are more geared towards analysis)
 
 Alternatively, start working with **existing symbolic data**.
-There are many sites hosting musical score, of varying and often unclear quantity and quality.
+There are many sites hosting musical scores, of varying and often unclear quantity and quality.
 By contrast, "Datasets for Symbolic Music Processing" are typically clearer.
 [I list some datasets at the end of my "Keeping Score" book](https://doi.org/10.5281/zenodo.14938027) 
 
@@ -73,13 +94,13 @@ Tools include:
 
 ### Source separation (mixed audio → audio in separate parts)
 
-Audio is time-series data.
+As mentioned above, audio is time-series data.
 All the signal and noise (literally) are mixed together.
 For many use cases, it is necessary/helpful to separate the component parts of this sound (e.g. guitar based drums).
 For example, source separation can help with,
-transcription (of music and/or lyrics),
-alignment,
-recognition/detection (of instruments, musicians, lyrics, ...)
+- transcription (of music and/or lyrics),
+- alignment,
+- recognition/detection (of instruments, musicians, lyrics, ...).
 
 Models include:
 - [Audio Shake](https://www.audioshake.ai/)
@@ -93,11 +114,11 @@ by Ethan Manilow, Prem Seetharaman, and Justin Salamon (Adobe).
 
 ---
 
-# Uses
+# Use Cases
 
-In this section:
-- [AI-Assisted Music Production](#ai-assisted-music-production)
-- [Artistic Trends](#artistic-trends)
+> In this section:
+> - [AI-Assisted Music Production](#ai-assisted-music-production)
+> - [Artistic Trends](#artistic-trends)
 
 Studies of previous use cases include experimental studies in the "lab" and surveys of uses in "the wild".
 Both can give ideas for how you might use these tools.
@@ -132,11 +153,11 @@ and includes model details.
 
 # Summaries
 
-In this section:
-- [AI Song Contest](#ai-song-contest)
-- [Fairly Trained](#fairly-trained)
-- [Responsible AI](#responsible-ai)
-- [Survey on evaluation](#survey-on-the-evaluation-of-generative-models-in-music)
+> In this section:
+> - [AI Song Contest](#ai-song-contest)
+> - [Fairly Trained](#fairly-trained)
+> - [Responsible AI](#responsible-ai)
+> - [Survey on evaluation](#survey-on-the-evaluation-of-generative-models-in-music)
 
 
 ### AI Song Contest
