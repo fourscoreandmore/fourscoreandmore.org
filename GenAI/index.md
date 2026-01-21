@@ -33,7 +33,7 @@ Here are some example tasks, with notes and corresponding tools.
 
 > In this section:
 > - [Audio from scratch (nothing → audio)](#audio-from-scratch-nothing--audio)
-> - [Symbolic from scratch (nothing → audio)](#symbolic-from-scratch-nothing--symbolic)
+> - [Symbolic from scratch (nothing → symbolic)](#symbolic-from-scratch-nothing--symbolic)
 > - [Transcription (audio → symbolic)](#transcription-audio--symbolic)
 > - [Source separation (mixed audio → audio in separate parts)](#source-separation-mixed-audio--audio-in-separate-parts)
 
@@ -70,7 +70,7 @@ Again, to understand this data a bit better,
 [here is a very basic demo for exploring symbolic data](https://github.com/music-computing/amads/blob/main/notebooks/explore_symbolic.ipynb).
 
 To create your own symbolic data from nothing, you might use:
-- a **music notation app**. Wikipedia has a summary here: https://en.wikipedia.org/wiki/Comparison_of_scorewriters.
+- a **music notation app**. [Wikipedia has a summary of "score writers" here](https://en.wikipedia.org/wiki/Comparison_of_scorewriters).
 - **programmatic interfaces** like music21 (more likely) or AMADS / partitura (less likely, they are more geared towards analysis)
 
 Alternatively, start working with **existing symbolic data**.
