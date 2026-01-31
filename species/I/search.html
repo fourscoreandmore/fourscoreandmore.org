@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>"Gradus" Scores. Search and Sort.</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css">
+    <style>
+        /* Table width to prevent horizontal scroll */
+        .container { max-width: 100%; }
+        .table { width: 100%; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table id="dataframe" class="dataframe table table-striped table-hover">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Measure start</th>
+      <th>Figure</th>
+      <th>Species</th>
+      <th>Modal final</th>
+      <th>Cantus firmus</th>
+      <th>Measure end</th>
+      <th>Measure Count</th>
+      <th>Direct download</th>
+      <th>View on VHV</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>5</td>
+      <td>1</td>
+      <td>d</td>
+      <td>Lower</td>
+      <td>11</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/005.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/005.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/005.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>6 (corrected version)</td>
+      <td>1</td>
+      <td>d</td>
+      <td>Upper</td>
+      <td>22</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/006.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/006.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/006.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>11</td>
+      <td>1</td>
+      <td>e</td>
+      <td>Lower</td>
+      <td>32</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/011.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/011.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/011.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>33</td>
+      <td>12 (corrected version)</td>
+      <td>1</td>
+      <td>e</td>
+      <td>Upper</td>
+      <td>42</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/012.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/012.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/012.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>13</td>
+      <td>1</td>
+      <td>f</td>
+      <td>Lower</td>
+      <td>54</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/013.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/013.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/013.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>55</td>
+      <td>14</td>
+      <td>1</td>
+      <td>f</td>
+      <td>Upper</td>
+      <td>66</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/014.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/014.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/014.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>15 (corrected version)</td>
+      <td>1</td>
+      <td>g</td>
+      <td>Lower</td>
+      <td>80</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/015.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/015.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/015.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>21</td>
+      <td>1</td>
+      <td>g</td>
+      <td>Upper</td>
+      <td>94</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/021.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/021.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/021.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>22</td>
+      <td>1</td>
+      <td>a</td>
+      <td>Lower</td>
+      <td>106</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/022.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/022.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/022.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>107</td>
+      <td>23</td>
+      <td>1</td>
+      <td>a</td>
+      <td>Upper</td>
+      <td>118</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/023.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/023.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/023.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>119</td>
+      <td>33 (corrected version of 26)</td>
+      <td>2</td>
+      <td>d</td>
+      <td>Lower</td>
+      <td>129</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/033.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/033.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/033.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>130</td>
+      <td>35</td>
+      <td>2</td>
+      <td>d</td>
+      <td>Upper</td>
+      <td>140</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/035.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/035.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/035.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>36</td>
+      <td>2</td>
+      <td>e</td>
+      <td>Lower</td>
+      <td>150</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/036.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/036.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/036.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>37</td>
+      <td>2</td>
+      <td>e</td>
+      <td>Upper</td>
+      <td>160</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/037.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/037.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/037.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>161</td>
+      <td>38</td>
+      <td>2</td>
+      <td>f</td>
+      <td>Lower</td>
+      <td>172</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/038.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/038.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/038.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>173</td>
+      <td>39</td>
+      <td>2</td>
+      <td>f</td>
+      <td>Upper</td>
+      <td>184</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/039.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/039.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/039.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>185</td>
+      <td>40</td>
+      <td>2</td>
+      <td>g</td>
+      <td>Lower</td>
+      <td>198</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/040.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/040.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/040.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>199</td>
+      <td>41</td>
+      <td>2</td>
+      <td>g</td>
+      <td>Upper</td>
+      <td>212</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/041.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/041.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/041.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>213</td>
+      <td>42</td>
+      <td>2</td>
+      <td>a</td>
+      <td>Lower</td>
+      <td>223</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/042.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/042.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/042.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>224</td>
+      <td>43</td>
+      <td>2</td>
+      <td>a</td>
+      <td>Upper</td>
+      <td>235</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/043.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/043.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/043.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>236</td>
+      <td>44</td>
+      <td>2</td>
+      <td>c</td>
+      <td>Lower</td>
+      <td>247</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/044.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/044.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/044.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>248</td>
+      <td>45</td>
+      <td>2</td>
+      <td>c</td>
+      <td>Upper</td>
+      <td>259</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/045.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/045.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/045.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>260</td>
+      <td>55</td>
+      <td>3</td>
+      <td>d</td>
+      <td>Lower</td>
+      <td>270</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/055.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/055.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/055.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>271</td>
+      <td>56</td>
+      <td>3</td>
+      <td>d</td>
+      <td>Upper</td>
+      <td>281</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/056.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/056.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/056.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>282</td>
+      <td>57</td>
+      <td>3</td>
+      <td>e</td>
+      <td>Lower</td>
+      <td>291</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/057.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/057.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/057.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>292</td>
+      <td>58</td>
+      <td>3</td>
+      <td>e</td>
+      <td>Upper</td>
+      <td>301</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/058.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/058.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/058.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>302</td>
+      <td>59</td>
+      <td>3</td>
+      <td>f</td>
+      <td>Lower</td>
+      <td>313</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>314</td>
+      <td>59</td>
+      <td>3</td>
+      <td>f</td>
+      <td>Upper</td>
+      <td>325</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/059.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>326</td>
+      <td>73</td>
+      <td>4</td>
+      <td>d</td>
+      <td>Lower</td>
+      <td>336</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/073.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/073.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/073.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>337</td>
+      <td>74</td>
+      <td>4</td>
+      <td>d</td>
+      <td>Upper</td>
+      <td>347</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/074.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/074.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/074.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>348</td>
+      <td>75</td>
+      <td>4</td>
+      <td>e</td>
+      <td>Lower</td>
+      <td>357</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/075.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/075.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/075.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>358</td>
+      <td>76</td>
+      <td>4</td>
+      <td>e</td>
+      <td>Upper</td>
+      <td>367</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/076.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/076.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/076.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>368</td>
+      <td>77</td>
+      <td>4</td>
+      <td>f</td>
+      <td>Lower</td>
+      <td>379</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/077.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/077.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/077.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>380</td>
+      <td>78</td>
+      <td>4</td>
+      <td>f</td>
+      <td>Upper</td>
+      <td>391</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/078.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/078.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/078.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>392</td>
+      <td>82</td>
+      <td>5</td>
+      <td>d</td>
+      <td>Lower</td>
+      <td>402</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/082.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/082.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/082.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>403</td>
+      <td>83</td>
+      <td>5</td>
+      <td>d</td>
+      <td>Upper</td>
+      <td>413</td>
+      <td>11</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/083.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/083.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/083.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>414</td>
+      <td>84a</td>
+      <td>5</td>
+      <td>e</td>
+      <td>Lower</td>
+      <td>423</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>424</td>
+      <td>84b</td>
+      <td>5</td>
+      <td>e</td>
+      <td>Upper</td>
+      <td>433</td>
+      <td>10</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084b.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084b.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/084b.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>434</td>
+      <td>85a</td>
+      <td>5</td>
+      <td>f</td>
+      <td>Lower</td>
+      <td>445</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>446</td>
+      <td>85b</td>
+      <td>5</td>
+      <td>f</td>
+      <td>Upper</td>
+      <td>457</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085b.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085b.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/085b.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>458</td>
+      <td>86a</td>
+      <td>5</td>
+      <td>g</td>
+      <td>Lower</td>
+      <td>471</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>472</td>
+      <td>86b</td>
+      <td>5</td>
+      <td>g</td>
+      <td>Upper</td>
+      <td>485</td>
+      <td>14</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086b.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086b.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/086b.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>486</td>
+      <td>87a</td>
+      <td>5</td>
+      <td>a</td>
+      <td>Lower</td>
+      <td>497</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>498</td>
+      <td>87a</td>
+      <td>5</td>
+      <td>a</td>
+      <td>Upper</td>
+      <td>509</td>
+      <td>12</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/087a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>510</td>
+      <td>88a</td>
+      <td>5</td>
+      <td>c</td>
+      <td>Lower</td>
+      <td>518</td>
+      <td>9</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088a.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088a.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088a.krn">click here</a></td>
+    </tr>
+    <tr>
+      <td>519</td>
+      <td>88b</td>
+      <td>5</td>
+      <td>c</td>
+      <td>Upper</td>
+      <td>527</td>
+      <td>9</td>
+      <td><a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088b.mxl">.mxl</a> <a href="https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088b.krn">.krn</a></td>
+      <td><a href="https://verovio.humdrum.org/?file=https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/1x1/088b.krn">click here</a></td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#dataframe').DataTable({
+            paging: false,
+            searching: true,
+            ordering: true,
+            search: {
+                name: 'search_input'
+            }
+        });
+    });
+</script>
+</body>
+</html>
