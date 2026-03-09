@@ -161,7 +161,8 @@ Individual datasets like those above may not adhere to such best practices.*
   > 250k+ datasets from US federal agencies (health, environment, economy).
 - **[data.gov.uk (UK)](https://data.gov.uk)**  
   > UK public sector data (crime, education, transport).
-  Related UK sites include [UK data service](https://ukdataservice.ac.uk/)
+  Related UK sites include [UK data service](https://ukdataservice.ac.uk/),
+  [Police data](https://ukdataservice.ac.uk/),
   the [Office for National Statistics (ONS)](https://www.ons.gov.uk/),
   and the [Open Data Institute (ODI)](https://www.ons.gov.uk/) (as a partner, not a source).
 
@@ -191,6 +192,8 @@ Individual datasets like those above may not adhere to such best practices.*
   Most data is directly downloadable as CSV.
 - **[OpenCorporates](https://opencorporates.com)**  
   > Global company registry (100M+ entities).
+- **[Open spending](http://openspending.org/)**
+  > "Spending" (financial) data about countries all around the world.
 - **[World Bank Open Data](https://data.worldbank.org)**  
   > Many indicators for most countries across topics including poverty, education, and energy.  
 
