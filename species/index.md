@@ -50,7 +50,8 @@ III|[.mxl](https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/
 ### Individual figures (5, 6, 11, ..., 204)
 
 We also provide each figure in a separate files.
-These can be downloaded or viewed and engaged with directly online.
+These can be downloaded or viewed and engaged with directly online via
+the Verovio Humdrum Viewer (VHV).
 Again, the best way to explore this collection and make choices,
 is via the html summaries:
 1. part I: [html](./I/search.html),
