@@ -3,12 +3,15 @@ layout: post
 title: 'Generative AI Tools in Music'
 ---
 
-GenAI is a fast moving field.
-The provision of generative tools for music applications specifically is no exception to this.
+Generative AI (aka GenAI) is a fast moving field, and
+the provision of generative tools for music specifically is no exception to this.
 To make sense of that, several teams have provided summaries.
 Now there are a lot of summaries,
 so here's a summary of the summaries,
 and a few signposts that might be useful.
+
+No knowledge is assumed, and we begin at the more fundamental level of defining
+the different musical tasks to which you GenAI might be applied.
 
 In brief:
 - Title: 'Generative AI Tools in Music'
@@ -25,21 +28,48 @@ In brief:
 
 # Tasks
 
-While text prompt → audio output (aka "text to music", "TTM")
-is probably the most familiar best-known,
-there are many other tasks which GenAI can engage.
-Often, breaking down the creation into smaller component parts allows the human creator to have a more active role.
+There are many different tasks which GenAI can engage.
+Often, breaking down a large creative task into smaller component parts allows the human to have a more active role.
 Here are some example tasks, with notes and corresponding tools.
 
 > In this section:
+> - [Text to Music (text → audio)](#text-to-music-text--audio)
 > - [Audio from scratch (nothing → audio)](#audio-from-scratch-nothing--audio)
 > - [Symbolic from scratch (nothing → symbolic)](#symbolic-from-scratch-nothing--symbolic)
 > - [Transcription (audio → symbolic)](#transcription-audio--symbolic)
 > - [Source separation (mixed audio → audio in separate parts)](#source-separation-mixed-audio--audio-in-separate-parts)
 
+### "Text to Music" (text → audio)
+
+Going from a user's text prompt to an audio output
+(also called "text to music" or "TTM")
+is probably the most familiar GenAI use case.
+As always, the results depend on many factors
+chief among them, the model and the prompt.
+
+Among the many apps providing this, is Stable Audio,
+which we highlight for a few reasons including:
+- It comes top of many metrics for openness (see below)
+- The team have provided ["Prompt Guide" here](https://stability.ai/learning-hub/stable-audio-25-prompt-guide).
+- The option to combine TTM with an audio prompt.*
+
+*This model (among others) allows the user to 
+combine (or even replace) the text prompt with audio.
+In that case, we're not talking about
+"text → audio"
+so much as
+"audio → audio"
+or even
+"text+audio → audio".
+Use cases include the creation of new audio to fix with an existing template,
+where "fit" could include matching the tempo
+(to align in the timings) and/or the style. 
+
+
 ### Audio from scratch (nothing → audio)
 
-Audio is a form of time-series data.
+What really is audio?
+As a data type, audio is a form of time-series data.
 To understand the nature of this data,
 [here is a very basic demo for exploring raw audio sound data](https://github.com/music-computing/amads/blob/main/notebooks/explore_sound.ipynb).
 
@@ -47,7 +77,7 @@ A **Digital Audio Workstation** (DAW, pronounced to sound like "door") is a type
 for handling audio, in which you can record, edit, mix, and more.
 These days, many DAW's have AI features internally.
 [Here is Wiki's comparison of digital audio editors](https://en.wikipedia.org/wiki/Comparison_of_digital_audio_editors)
-and here is a new open source DAW with the most pleasingly apposite name of "Open DAW" ;)
+and here is a new open source DAW with the most pleasingly apposite name of "Open DAW":
 - [About Open DAW](https://opendaw.org/)
 - [Get started with the Open DAW Studio](https://opendaw.studio/)
 
@@ -55,8 +85,8 @@ Further hints:
 - To create your own audio from nothing, use **sound synthesis**
 (using any number of tools including many right there in the DAW).
 - Additionally and/or alternatively, you might want to start working with existing
-audio files e.g., as **samples**.
-Again, DAW's will include some samples
+audio files e.g., as **samples** and building music with these blocks, Lego-style.
+Again, all DAWs include some samples
 and here are some external sources of samples with open licences:
   * [Free sound](https://freesound.org/)
   * [Soundcamp](https://soundcamp.org/)
@@ -118,6 +148,7 @@ by Ethan Manilow, Prem Seetharaman, and Justin Salamon (Adobe).
 
 > In this section:
 > - [AI-Assisted Music Production](#ai-assisted-music-production)
+> - [AI Song Contest](#ai-song-contestants)
 > - [Artistic Trends](#artistic-trends)
 
 Studies of previous use cases include experimental studies in the "lab" and surveys of uses in "the wild".
@@ -132,6 +163,12 @@ _Dated: Nov 2025_
 Ronchini et al.'s ["AI-Assisted Music Production" paper](https://zenodo.org/records/17488808)
 is an experimental study of how users engage with AI tools, especially "text to music" (TTM).
 studies
+
+### AI Song Contestants
+_Accessed: September 2025_
+
+The [AI Song Contest](https://www.aisongcontest.com) is probably the premiere venue for AI-based composition today.
+Many winning and shortlisted entries from recent years are on the site, including an account of how the piece was made. 
 
 ### Artistic Trends
 _Dated: July 2025_
@@ -163,10 +200,9 @@ and includes model details.
 ### AI Song Contest
 _Accessed: September 2025_
 
-The [AI Song Contest](https://www.aisongcontest.com) is probably the premiere venue for AI-based composition today.
-
-Helpfully, the team has compiled a list of models, organised around use case (lyrics, composition, and more).
-The [largest of those lists is here](https://docs.google.com/spreadsheets/d/1fic0FhZQu6qb-C-T02LTggZN3j6CrvNC6BRnrIH6zsY/edit?gid=990931099#gid=990931099)
+The [AI Song Contest](https://www.aisongcontest.com) (mentioned above)
+also includes a list of models, organised around use case (lyrics, composition, and more).
+The [largest of those lists is here](https://docs.google.com/spreadsheets/d/1fic0FhZQu6qb-C-T02LTggZN3j6CrvNC6BRnrIH6zsY/edit?gid=990931099#gid=990931099).
 
 
 ### Fairly Trained
@@ -196,9 +232,7 @@ The author highlight the following attributes (quote):
 - refined with feedback from +100 MIR members 
 - continuously updated
 
-The "Stable Audio Open" model currently comes out on top.
-And incidentally, Stable Audio have alos provided a hand
-["Prompt Guide" here](https://stability.ai/learning-hub/stable-audio-25-prompt-guide).
+The "Stable Audio Open" model (mentioned above) currently comes out on top.
 
 
 ### Responsible AI
