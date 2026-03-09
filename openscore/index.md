@@ -8,13 +8,10 @@ carefully transcribed scores
 released under the maximally permissive CC0 licence.
 
 There are three collections.
-These three links below will take you to the full set, including links to download individual items:
-- [Lieder, c.1,300 songs](./lieder)
-- [Orchestral works, c.100 movements](./orchestra)
-- String Quartets, c.100 multi-movement quartets (to follow soon)
-
-In the spirit of open scores, this site serves to provide 
-direct download to individual files without any login and certainly no payment.
+These links below will take you to the full set, including links to download individual items:
+- [Lieder, c.1,500 songs](./lieder)
+- Orchestral works, c.100 movements (full index to follow soon)
+- String Quartets, c.100 multi-movement quartets (full index to follow soon)
 
 Here's an example from the lieder collection:
 
@@ -27,6 +24,15 @@ Here's an example from the lieder collection:
 
 If you've scrolled this far, you're probably looking for more information.
 Here goes!
+
+The main, latest, and best source of all information is
+[this recent academic paper (click here).](https://doi.org/10.5334/johd.456)
+for which this is the full reference:
+```
+Gotham, M. (2026). Wherever I Lay My Hat is Home?: A Complex Case Study of Crowd Sourcing, Coordination, and Cross-Platform Integration for Hosting Open Humanities Data. Journal of Open Humanities Data, 12: 43, pp. 1–14. DOI: https://doi.org/10.5334/johd.456
+```
+
+Here is a brief "digest" summary.
 
 ### History
 
@@ -67,7 +73,7 @@ and/or the following additional links:
 
 |         What?         |                           Play online                            |                         Whole Corpus                          |                                                          Publication                                                          |                                                                                                                              Other                                                                                                                              |
 |:---------------------:|:----------------------------------------------------------------:|:-------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|     ~1,300 songs      |  [musescore.com](https://musescore.com/openscore-lieder-corpus)  |     [GitHub Mirror](https://github.com/OpenScore/Lieder)      | [Gotham and Jonas 2021](https://doi.org/10.1145/3273024.3273026),<br>[Gotham et al. 2018](https://doi.org/10.17613/1my2-dm23) | [Magazine piece](http://www.sparksandwirycries.org/magazine/2020/8/18/mark-gotham-an-ode-to-digital-scores-for-singers),<br>[Coordination Spreadsheet](https://docs.google.com/spreadsheets/d/1KHeLrjdcF1X5LMhtFzE3pnS_cmQH8ZIxGU9QUFCts9I/edit#gid=1160622229) |
+|     ~1,300 songs      |  [musescore.com](https://musescore.com/openscore-lieder-corpus)  |     [GitHub Mirror](https://github.com/OpenScore/Lieder)      | [Gotham and Jonas 2021](https://doi.org/10.1145/3273024.3273026),<br>[Gotham et al. 2018](https://doi.org/10.17613/1my2-dm23) | [Magazine piece](https://www.sparksandwirycries.org/magazine/2020/8/18/mark-gotham-an-ode-to-digital-scores-for-singers-mdn9c),<br>[Coordination Spreadsheet](https://docs.google.com/spreadsheets/d/1KHeLrjdcF1X5LMhtFzE3pnS_cmQH8ZIxGU9QUFCts9I/edit#gid=1160622229) |
 |     ~100 quartets     | [musescore.com](https://musescore.com/openscore-string-quartets) | [GitHub Mirror](https://github.com/OpenScore/StringQuartets/) |                             [Gotham et al. 2023](https://dl.acm.org/doi/10.1145/3625135.3625155)                              |         [Editorial notes](https://docs.google.com/spreadsheets/d/1rm_zwSYJE90c5dlrn-g8StFScVCmzYpTvogNnyxpXuE/),<br>[Coordination Spreadsheet](https://docs.google.com/spreadsheets/d/1dWHf4gBNO4PWqsMwItgLqn97t7dmGxjGsPMNnGLVVpM/edit#gid=1160622229)         |
 | ~100 orchestral works |                        Not yet available                         |    [GitHub VoR](https://github.com/markGotham/hauptstimme)    |                                                          Coming soon                                                          |                                          [Prototype visualisation on TiLiA](https://tilia-app.com/viewer/65):<br>[Beethoven](https://tilia-ad98d.web.app/viewer/65);<br>[Beach](https://tilia-ad98d.web.app/viewer/62)                                          |
 
