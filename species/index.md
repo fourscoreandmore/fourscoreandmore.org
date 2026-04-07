@@ -31,6 +31,23 @@ Details are provided for each part in html format: click these links to explore:
 The html docs can be opened in any web browser and used to search the collection by any of the criteria above (e.g., species type). 
 
 
+## Open Music Theory textbook
+
+The Open Music Theory textbook
+has a series of chapters engaging this material,
+written in digital-first, but other relatively traditional textbook fashion.
+[starting here](https://viva.pressbooks.pub/openmusictheory/chapter/species-counterpoint/).
+Here is a full list:
+0. [Introduction to Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/species-counterpoint/)
+1. [First-Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/first-species-counterpoint/)
+2. [Second-Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/second-species-counterpoint/) 
+3. [Third-Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/third-species-counterpoint/)
+4. [Fourth-Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/fourth-species-counterpoint/)
+5. [Fifth-Species Counterpoint](https://viva.pressbooks.pub/openmusictheory/chapter/fifth-species-counterpoint/)
+
+ Each of these chapters is by Mark Gotham and Kris Shaffer.
+
+
 ## Downloads
 
 ### Whole Part Downloads (Part I, II, III)
