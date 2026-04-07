@@ -150,6 +150,7 @@ by Ethan Manilow, Prem Seetharaman, and Justin Salamon (Adobe).
 > - [AI-Assisted Music Production](#ai-assisted-music-production)
 > - [AI Song Contest](#ai-song-contestants)
 > - [Artistic Trends](#artistic-trends)
+> - [Water & Music with Moises](#water--music-with-moises)
 
 Studies of previous use cases include experimental studies in the "lab" and surveys of uses in "the wild".
 Both can give ideas for how you might use these tools.
@@ -185,6 +186,19 @@ and includes model details.
   - [Blog](https://artintech.substack.com/p/report-artistic-trends-in-ai-music)
   - [Video](https://vimeo.com/1109592373)
 
+### Water & Music with Moises
+_Dated: Research conducted in "late 2025"_
+
+["Tools, not tricks: How musicians are actually using AI."](https://moises.ai/insights/musician-ai-report-water-and-music/)
+is a report by
+["Water & Music"](https://www.waterandmusic.com/)
+(named contact: Cherie Hu)
+for
+[Moises.ai](https://moises.ai/)
+(named contact: Ryan Merchant)
+which surveyed 1,525 musicians on AI usage and views.
+[The overview page (linked here and at the top)](https://moises.ai/insights/musician-ai-report-water-and-music/)
+includes a form to request the report.
 
 ---
 
