@@ -161,10 +161,14 @@ Individual datasets like those above may not adhere to such best practices.*
   > 250k+ datasets from US federal agencies (health, environment, economy).
 - **[data.gov.uk (UK)](https://data.gov.uk)**  
   > UK public sector data (crime, education, transport).
-  Related UK sites include [UK data service](https://ukdataservice.ac.uk/),
+  Related UK sites include
+  [UK data service](https://ukdataservice.ac.uk/),
   [Police data](https://ukdataservice.ac.uk/),
   the [Office for National Statistics (ONS)](https://www.ons.gov.uk/),
   and the [Open Data Institute (ODI)](https://www.ons.gov.uk/) (as a partner, not a source).
+  Some cities and regions also offer public data, e.g.,
+  the [London Data Store](https://data.london.gov.uk/)
+  traverses jobs, transport, and more.
 
 - **[EU Open Data Portal](https://data.europa.eu)**  
   > 500k+ datasets from EU institutions (trade, environment, research).  
