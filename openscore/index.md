@@ -11,7 +11,7 @@ There are three collections.
 These links below will take you to the full set, including links to download individual items:
 - [Lieder, c.1,500 songs](./lieder)
 - Orchestral works, c.100 movements (full index to follow soon)
-- [String Quartets, over 100 multi-movement quartets](./stringquartets)
+- [String Quartets, c.700 movements across c.200 quartets](./stringquartets)
 
 Here's an example from the lieder collection:
 
