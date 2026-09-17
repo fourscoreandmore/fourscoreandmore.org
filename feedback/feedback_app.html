@@ -78,7 +78,7 @@
 
 <div class="container">
     <div class="header">
-        <h2>Essay Feedback Templater</h2>
+        <h2>Essay and Project Feedback Templater</h2>
     </div>
     <h3>About</h3>
     <p>
@@ -87,7 +87,7 @@
         Click "SUBMIT" to receive a draft text based on these choices
         that you can then adapt further as needed.
     </p>
-    <h3>Statement on Data Privacy</h3>
+    <h3>Statement on Data Privacy and AI</h3>
     <p>
         This is a web-based, client-side application.
         We have no information about who is using this, or how.
@@ -143,7 +143,7 @@
 	&emsp; <input type="radio" name="Title" id="Title_++" data-tag="Positive" 
 	value="The <strong>title</strong> captures the essence of the project clearly, immediately, and with panache!"> 
 	<label for="title_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Title" placeholder="explain here">
+	&emsp; <input type="text" id="Title" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>thesis</strong> is clearly articulated at the outset and is clearly engaged throughout.:</p>
@@ -161,7 +161,7 @@
 	&emsp; <input type="radio" name="Thesis" id="Thesis_++" data-tag="Positive" 
 	value="The <strong>thesis</strong> is clear, and compellingly argued throughout."> 
 	<label for="thesis_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Thesis" placeholder="explain here">
+	&emsp; <input type="text" id="Thesis" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>relevance</strong> is clear throughout: the essay clearly and consistently relates content back to the main thesis.:</p>
@@ -179,7 +179,7 @@
 	&emsp; <input type="radio" name="Relevance" id="Relevance_++" data-tag="Positive" 
 	value="The <strong>relevance</strong> is extremely well handled throughout: every part of the essay relates to the main thesis through link to keywords and more."> 
 	<label for="relevance_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Relevance" placeholder="explain here">
+	&emsp; <input type="text" id="Relevance" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>table of contents</strong> is clear, and a very welcome addition.:</p>
@@ -197,7 +197,7 @@
 	&emsp; <input type="radio" name="Table of contents" id="Table of contents_++" data-tag="Positive" 
 	value="The <strong>table of contents</strong> is meticulous."> 
 	<label for="table of contents_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Table of contents" placeholder="explain here">
+	&emsp; <input type="text" id="Table of contents" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>introduction</strong> sets the scene well.:</p>
@@ -215,7 +215,7 @@
 	&emsp; <input type="radio" name="Introduction" id="Introduction_++" data-tag="Positive" 
 	value="The <strong>introduction</strong> is excellent, motivating and contextualising the field and current project."> 
 	<label for="introduction_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Introduction" placeholder="explain here">
+	&emsp; <input type="text" id="Introduction" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>terminology</strong> is clear and well-handled throughout.:</p>
@@ -233,7 +233,7 @@
 	&emsp; <input type="radio" name="Terminology" id="Terminology_++" data-tag="Positive" 
 	value="The <strong>terminology</strong> is impeccably navigated with both inherited and new terms explained clearly."> 
 	<label for="terminology_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Terminology" placeholder="explain here">
+	&emsp; <input type="text" id="Terminology" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>literature review</strong> covers the relevant sources well in a complete and balanced way.:</p>
@@ -251,7 +251,7 @@
 	&emsp; <input type="radio" name="Literature review" id="Literature review_++" data-tag="Positive" 
 	value="The <strong>literature review</strong> is very impressive in its coverage and logical organisation."> 
 	<label for="literature review_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Literature review" placeholder="explain here">
+	&emsp; <input type="text" id="Literature review" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>use of citation</strong> is effective: citation is used judiciously and with proper attribution.:</p>
@@ -269,10 +269,10 @@
 	&emsp; <input type="radio" name="Use of citation" id="Use of citation_++" data-tag="Positive" 
 	value="The <strong>use of citation</strong> is excellent: clear, consistent, and complete."> 
 	<label for="use of citation_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Use of citation" placeholder="explain here">
+	&emsp; <input type="text" id="Use of citation" placeholder="explain here" size=75 >
 
 
-	<p>The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use and you use what you cite.:</p>
+	<p>The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use, and you use what you cite.:</p>
 	<input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_--" data-tag="Negative" 
 	value="The <strong>integration of the bibliography in the main text</strong> is very poor. It is hard to see how they are connected at all."> 
 	<label for="integration of the bibliography in the main text_--">&#x274c&#x274c</label> 
@@ -282,12 +282,12 @@
 	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_N" data-tag="Neutral" checked> 
 	<label for="integration of the bibliography in the main text_N">N/A</label> 
 	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_+" data-tag="Positive" 
-	value="The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use and you use what you cite."> 
+	value="The <strong>integration of the bibliography in the main text</strong> is strong, you cite what you use, and you use what you cite."> 
 	<label for="integration of the bibliography in the main text_+">&#x2705</label> 
 	&emsp; <input type="radio" name="Integration of the bibliography in the main text" id="Integration of the bibliography in the main text_++" data-tag="Positive" 
 	value="The <strong>integration of the bibliography in the main text</strong> is excellent: there is a perfect match."> 
 	<label for="integration of the bibliography in the main text_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Integration of the bibliography in the main text" placeholder="explain here">
+	&emsp; <input type="text" id="Integration of the bibliography in the main text" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>methodology</strong> is convincing for the subject at hand.:</p>
@@ -305,7 +305,7 @@
 	&emsp; <input type="radio" name="Methodology" id="Methodology_++" data-tag="Positive" 
 	value="The <strong>methodology</strong> is impressively well planned."> 
 	<label for="methodology_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Methodology" placeholder="explain here">
+	&emsp; <input type="text" id="Methodology" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>structure</strong> is both convincing and easy to follow.:</p>
@@ -323,7 +323,7 @@
 	&emsp; <input type="radio" name="Structure" id="Structure_++" data-tag="Positive" 
 	value="The <strong>structure</strong> is exemplary, demonstrating a flair that goes beyond simple clarity."> 
 	<label for="structure_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Structure" placeholder="explain here">
+	&emsp; <input type="text" id="Structure" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>signposting of the structure</strong> is clear and easy to follow.:</p>
@@ -341,12 +341,12 @@
 	&emsp; <input type="radio" name="Signposting of the Structure" id="Signposting of the Structure_++" data-tag="Positive" 
 	value="The <strong>signposting of the structure</strong> is exemplary, both in presentation and writing style."> 
 	<label for="signposting of the structure_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Signposting of the Structure" placeholder="explain here">
+	&emsp; <input type="text" id="Signposting of the Structure" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>comparison with other comparable cases</strong> is strong.:</p>
 	<input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_--" data-tag="Negative" 
-	value="The <strong>comparison with other comparable cases</strong> is missing. Including this would greatly help the situate the study."> 
+	value="The <strong>comparison with other comparable cases</strong> is missing. Including this would greatly help situate the study."> 
 	<label for="comparison with other comparable cases_--">&#x274c&#x274c</label> 
 	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_-" data-tag="Negative" 
 	value="The <strong>comparison with other comparable cases</strong> is lacking and in need further critical reflection."> 
@@ -359,7 +359,7 @@
 	&emsp; <input type="radio" name="Comparison with other comparable cases" id="Comparison with other comparable cases_++" data-tag="Positive" 
 	value="The <strong>comparison with other comparable cases</strong> is expertly handled. The balance of compare and contrast is highly convincing."> 
 	<label for="comparison with other comparable cases_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Comparison with other comparable cases" placeholder="explain here">
+	&emsp; <input type="text" id="Comparison with other comparable cases" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>analysis of findings</strong> is strong.:</p>
@@ -377,7 +377,7 @@
 	&emsp; <input type="radio" name="Analysis of findings" id="Analysis of findings_++" data-tag="Positive" 
 	value="The <strong>analysis of findings</strong> is compelling, deriving rich insights, relevant to the RQs."> 
 	<label for="analysis of findings_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Analysis of findings" placeholder="explain here">
+	&emsp; <input type="text" id="Analysis of findings" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>conclusion</strong> is well-handled, complementing the main text.:</p>
@@ -395,7 +395,7 @@
 	&emsp; <input type="radio" name="Conclusion" id="Conclusion_++" data-tag="Positive" 
 	value="The <strong>conclusion</strong> is excellent, complementing the introduction, summarising the text, and looking to the future."> 
 	<label for="conclusion_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Conclusion" placeholder="explain here">
+	&emsp; <input type="text" id="Conclusion" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>writing style</strong> is clear and consistent in (academic) tone.:</p>
@@ -413,7 +413,7 @@
 	&emsp; <input type="radio" name="Writing style" id="Writing style_++" data-tag="Positive" 
 	value="The <strong>writing style</strong> is delight to read: clear, logical, and very well proofread."> 
 	<label for="writing style_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Writing style" placeholder="explain here">
+	&emsp; <input type="text" id="Writing style" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>spelling and grammar</strong> are proofread well, with very few cases of obvious errors.:</p>
@@ -431,7 +431,7 @@
 	&emsp; <input type="radio" name="Spelling and grammar" id="Spelling and grammar_++" data-tag="Positive" 
 	value="The <strong>spelling and grammar</strong> are meticulously proofread throughout. I could find no discernible errors at all."> 
 	<label for="spelling and grammar_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Spelling and grammar" placeholder="explain here">
+	&emsp; <input type="text" id="Spelling and grammar" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>presentation</strong> is well-handled.:</p>
@@ -449,7 +449,7 @@
 	&emsp; <input type="radio" name="Presentation" id="Presentation_++" data-tag="Positive" 
 	value="The <strong>presentation</strong> handles all aspects clearly and convincingly."> 
 	<label for="presentation_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Presentation" placeholder="explain here">
+	&emsp; <input type="text" id="Presentation" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>tables and figures</strong> are well-chosen, referenced in the main text, and captioned.:</p>
@@ -467,7 +467,7 @@
 	&emsp; <input type="radio" name="Tables and figures" id="Tables and figures_++" data-tag="Positive" 
 	value="The <strong>tables and figures</strong> are marvellous: very well selected to complement the text."> 
 	<label for="tables and figures_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Tables and figures" placeholder="explain here">
+	&emsp; <input type="text" id="Tables and figures" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -497,7 +497,7 @@
 	&emsp; <input type="radio" name="Response to the question" id="Response to the question_++" data-tag="Positive" 
 	value="The <strong>response to the question</strong> is finely honed, covering all and only the relevant aspects."> 
 	<label for="response to the question_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Response to the question" placeholder="explain here">
+	&emsp; <input type="text" id="Response to the question" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>choice of case study</strong> is clear, effective, and appropriate. You show strong independence from the materials provided in the course.:</p>
@@ -515,7 +515,7 @@
 	&emsp; <input type="radio" name="Choice of case study" id="Choice of case study_++" data-tag="Positive" 
 	value="The <strong>choice of case study</strong> is inspired."> 
 	<label for="choice of case study_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Choice of case study" placeholder="explain here">
+	&emsp; <input type="text" id="Choice of case study" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>literature coverage beyond class materials</strong> is satisfactory. You identify relevant avenues.:</p>
@@ -533,7 +533,7 @@
 	&emsp; <input type="radio" name="Literature coverage beyond class materials" id="Literature coverage beyond class materials_++" data-tag="Positive" 
 	value="The <strong>literature coverage beyond class materials</strong> is impressive and expansive. You identify many interesting and relevant avenues."> 
 	<label for="literature coverage beyond class materials_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Literature coverage beyond class materials" placeholder="explain here">
+	&emsp; <input type="text" id="Literature coverage beyond class materials" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -563,7 +563,7 @@
 	&emsp; <input type="radio" name="Subject" id="Subject_++" data-tag="Positive" 
 	value="The <strong>subject</strong> choice is inspired, building on existing strengths in a new area."> 
 	<label for="subject_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Subject" placeholder="explain here">
+	&emsp; <input type="text" id="Subject" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>remit</strong> is well delimited: ambitious but achievable.:</p>
@@ -581,7 +581,7 @@
 	&emsp; <input type="radio" name="Remit" id="Remit_++" data-tag="Positive" 
 	value="The <strong>remit</strong> is impressively well delimited: very ambitious but shown to be achievable."> 
 	<label for="remit_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Remit" placeholder="explain here">
+	&emsp; <input type="text" id="Remit" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -596,22 +596,76 @@
 	<div class="collapsible-content" id="content">
 
 
-	<p>The <strong>design of code, app, and interface work</strong> is convincingly designed.:</p>
-	<input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_--" data-tag="Negative" 
-	value="The <strong>design of code, app, and interface work</strong> are problematic."> 
-	<label for="design of code, app, and interface work_--">&#x274c&#x274c</label> 
-	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_-" data-tag="Negative" 
-	value="The <strong>design of code, app, and interface work</strong> need further critical reflection."> 
-	<label for="design of code, app, and interface work_-">&#x274c</label> 
-	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_N" data-tag="Neutral" checked> 
-	<label for="design of code, app, and interface work_N">N/A</label> 
-	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_+" data-tag="Positive" 
-	value="The <strong>design of code, app, and interface work</strong> is convincingly designed."> 
-	<label for="design of code, app, and interface work_+">&#x2705</label> 
-	&emsp; <input type="radio" name="Design of code, app, and interface work" id="Design of code, app, and interface work_++" data-tag="Positive" 
-	value="The <strong>design of code, app, and interface work</strong> is expertly planned in relation to relevant literature and other resources."> 
-	<label for="design of code, app, and interface work_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Design of code, app, and interface work" placeholder="explain here">
+	<p>The <strong>code's navigation of the domain area</strong> is good, demonstrating real knowledge of both computational methods and the domain.:</p>
+	<input type="radio" name="Code's navigation of the domain area" id="Code's navigation of the domain area_--" data-tag="Negative" 
+	value="The <strong>code's navigation of the domain area</strong> is problematic."> 
+	<label for="code's navigation of the domain area_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Code's navigation of the domain area" id="Code's navigation of the domain area_-" data-tag="Negative" 
+	value="The <strong>code's navigation of the domain area</strong> needs further work."> 
+	<label for="code's navigation of the domain area_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Code's navigation of the domain area" id="Code's navigation of the domain area_N" data-tag="Neutral" checked> 
+	<label for="code's navigation of the domain area_N">N/A</label> 
+	&emsp; <input type="radio" name="Code's navigation of the domain area" id="Code's navigation of the domain area_+" data-tag="Positive" 
+	value="The <strong>code's navigation of the domain area</strong> is good, demonstrating real knowledge of both computational methods and the domain."> 
+	<label for="code's navigation of the domain area_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Code's navigation of the domain area" id="Code's navigation of the domain area_++" data-tag="Positive" 
+	value="The <strong>code's navigation of the domain area</strong> is excellent, demonstrating real understanding and nuanced operationalisation."> 
+	<label for="code's navigation of the domain area_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Code's navigation of the domain area" placeholder="explain here" size=75 >
+
+
+	<p>The <strong>code's engagement with existing libraries</strong> is good demonstrating knowledge of those resources.:</p>
+	<input type="radio" name="Code's engagement with existing libraries" id="Code's engagement with existing libraries_--" data-tag="Negative" 
+	value="The <strong>code's engagement with existing libraries</strong> is problematic."> 
+	<label for="code's engagement with existing libraries_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Code's engagement with existing libraries" id="Code's engagement with existing libraries_-" data-tag="Negative" 
+	value="The <strong>code's engagement with existing libraries</strong> need further work."> 
+	<label for="code's engagement with existing libraries_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Code's engagement with existing libraries" id="Code's engagement with existing libraries_N" data-tag="Neutral" checked> 
+	<label for="code's engagement with existing libraries_N">N/A</label> 
+	&emsp; <input type="radio" name="Code's engagement with existing libraries" id="Code's engagement with existing libraries_+" data-tag="Positive" 
+	value="The <strong>code's engagement with existing libraries</strong> is good demonstrating knowledge of those resources."> 
+	<label for="code's engagement with existing libraries_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Code's engagement with existing libraries" id="Code's engagement with existing libraries_++" data-tag="Positive" 
+	value="The <strong>code's engagement with existing libraries</strong> is excellent, carefully selecting all and only the right resources."> 
+	<label for="code's engagement with existing libraries_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Code's engagement with existing libraries" placeholder="explain here" size=75 >
+
+
+	<p>The <strong>coding style and design</strong> is clear and easy to follow with only minor issues.:</p>
+	<input type="radio" name="Coding style and design" id="Coding style and design_--" data-tag="Negative" 
+	value="The <strong>coding style and design</strong> is very poor."> 
+	<label for="coding style and design_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Coding style and design" id="Coding style and design_-" data-tag="Negative" 
+	value="The <strong>coding style and design</strong> need further work for readers (and potentially other contributors) to follow."> 
+	<label for="coding style and design_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Coding style and design" id="Coding style and design_N" data-tag="Neutral" checked> 
+	<label for="coding style and design_N">N/A</label> 
+	&emsp; <input type="radio" name="Coding style and design" id="Coding style and design_+" data-tag="Positive" 
+	value="The <strong>coding style and design</strong> is clear and easy to follow with only minor issues."> 
+	<label for="coding style and design_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Coding style and design" id="Coding style and design_++" data-tag="Positive" 
+	value="The <strong>coding style and design</strong> is excellent, following all recognised best practices."> 
+	<label for="coding style and design_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Coding style and design" placeholder="explain here" size=75 >
+
+
+	<p>The <strong>data visualisation</strong> is good and serve a clear purpose.:</p>
+	<input type="radio" name="Data visualisation" id="Data visualisation_--" data-tag="Negative" 
+	value="The <strong>data visualisation</strong> is very poor."> 
+	<label for="data visualisation_--">&#x274c&#x274c</label> 
+	&emsp; <input type="radio" name="Data visualisation" id="Data visualisation_-" data-tag="Negative" 
+	value="The <strong>data visualisation</strong> needs further work."> 
+	<label for="data visualisation_-">&#x274c</label> 
+	&emsp; <input type="radio" name="Data visualisation" id="Data visualisation_N" data-tag="Neutral" checked> 
+	<label for="data visualisation_N">N/A</label> 
+	&emsp; <input type="radio" name="Data visualisation" id="Data visualisation_+" data-tag="Positive" 
+	value="The <strong>data visualisation</strong> is good and serve a clear purpose."> 
+	<label for="data visualisation_+">&#x2705</label> 
+	&emsp; <input type="radio" name="Data visualisation" id="Data visualisation_++" data-tag="Positive" 
+	value="The <strong>data visualisation</strong> is excellent, using plots to illuminate a topic clearly."> 
+	<label for="data visualisation_++">&#x2705&#x2705</label> 
+	&emsp; <input type="text" id="Data visualisation" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>demonstration of code, app, and interface work</strong> is clear and convincing.:</p>
@@ -629,25 +683,7 @@
 	&emsp; <input type="radio" name="Demonstration of code, app, and interface work" id="Demonstration of code, app, and interface work_++" data-tag="Positive" 
 	value="The <strong>demonstration of code, app, and interface work</strong> is very clear, and compelling."> 
 	<label for="demonstration of code, app, and interface work_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Demonstration of code, app, and interface work" placeholder="explain here">
-
-
-	<p>The <strong>code style and clarity</strong> is clear and easy to follow with only minor issues.:</p>
-	<input type="radio" name="Code style and clarity" id="Code style and clarity_--" data-tag="Negative" 
-	value="The <strong>code style and clarity</strong> is very poor."> 
-	<label for="code style and clarity_--">&#x274c&#x274c</label> 
-	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_-" data-tag="Negative" 
-	value="The <strong>code style and clarity</strong> need further work for readers (and potentially other contributors) to follow."> 
-	<label for="code style and clarity_-">&#x274c</label> 
-	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_N" data-tag="Neutral" checked> 
-	<label for="code style and clarity_N">N/A</label> 
-	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_+" data-tag="Positive" 
-	value="The <strong>code style and clarity</strong> is clear and easy to follow with only minor issues."> 
-	<label for="code style and clarity_+">&#x2705</label> 
-	&emsp; <input type="radio" name="Code style and clarity" id="Code style and clarity_++" data-tag="Positive" 
-	value="The <strong>code style and clarity</strong> is excellent, following all recognised best practices."> 
-	<label for="code style and clarity_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Code style and clarity" placeholder="explain here">
+	&emsp; <input type="text" id="Demonstration of code, app, and interface work" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -677,7 +713,7 @@
 	&emsp; <input type="radio" name="Sample size (N)" id="Sample size (N)_++" data-tag="Positive" 
 	value="The <strong>sample size (n)</strong> is impressively large."> 
 	<label for="sample size (n)_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Sample size (N)" placeholder="explain here">
+	&emsp; <input type="text" id="Sample size (N)" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>survey respondent demographic spread</strong> reflects the research questions in a suitable and balanced way.:</p>
@@ -695,7 +731,7 @@
 	&emsp; <input type="radio" name="Survey respondent demographic spread" id="Survey respondent demographic spread_++" data-tag="Positive" 
 	value="The <strong>survey respondent demographic spread</strong> is impressive."> 
 	<label for="survey respondent demographic spread_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Survey respondent demographic spread" placeholder="explain here">
+	&emsp; <input type="text" id="Survey respondent demographic spread" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>survey questions</strong> are well framed to ask all and only the right topics.:</p>
@@ -713,7 +749,7 @@
 	&emsp; <input type="radio" name="Survey questions" id="Survey questions_++" data-tag="Positive" 
 	value="The <strong>survey questions</strong> are expertly framed to ask all and only the right topics."> 
 	<label for="survey questions_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Survey questions" placeholder="explain here">
+	&emsp; <input type="text" id="Survey questions" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>corpus size (n)</strong> is large enough for the stated research goals.:</p>
@@ -731,7 +767,7 @@
 	&emsp; <input type="radio" name="Corpus size (N)" id="Corpus size (N)_++" data-tag="Positive" 
 	value="The <strong>corpus size (n)</strong> is impressively large."> 
 	<label for="corpus size (n)_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Corpus size (N)" placeholder="explain here">
+	&emsp; <input type="text" id="Corpus size (N)" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>corpus curation</strong> is convincingly curated and organised.:</p>
@@ -749,7 +785,7 @@
 	&emsp; <input type="radio" name="Corpus curation" id="Corpus curation_++" data-tag="Positive" 
 	value="The <strong>corpus curation</strong> is impressively put together with an excellent balance of ambition and practicality."> 
 	<label for="corpus curation_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Corpus curation" placeholder="explain here">
+	&emsp; <input type="text" id="Corpus curation" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -779,7 +815,7 @@
 	&emsp; <input type="radio" name="Account of feasibility" id="Account of feasibility_++" data-tag="Positive" 
 	value="The <strong>account of feasibility</strong> is excellent: you show a full understanding of the practicalities."> 
 	<label for="account of feasibility_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Account of feasibility" placeholder="explain here">
+	&emsp; <input type="text" id="Account of feasibility" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>risks and issues</strong> are convincingly acknowledged and planned for.:</p>
@@ -797,7 +833,7 @@
 	&emsp; <input type="radio" name="Risks and issues" id="Risks and issues_++" data-tag="Positive" 
 	value="The <strong>risks and issues</strong> are expertly identified, and circumnavigated."> 
 	<label for="risks and issues_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Risks and issues" placeholder="explain here">
+	&emsp; <input type="text" id="Risks and issues" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -827,7 +863,7 @@
 	&emsp; <input type="radio" name="Critique in general" id="Critique in general_++" data-tag="Positive" 
 	value="The <strong>critique in general</strong> is excellent: a balanced account that is comprehensive in coverage."> 
 	<label for="critique in general_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Critique in general" placeholder="explain here">
+	&emsp; <input type="text" id="Critique in general" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>critique of strengths</strong> is strong, identifying many relevant positive aspects.:</p>
@@ -845,7 +881,7 @@
 	&emsp; <input type="radio" name="Critique of strengths" id="Critique of strengths_++" data-tag="Positive" 
 	value="The <strong>critique of strengths</strong> is comprehensive."> 
 	<label for="critique of strengths_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Critique of strengths" placeholder="explain here">
+	&emsp; <input type="text" id="Critique of strengths" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>critique of weaknesses</strong> is strong, identifying many relevant negative aspects.:</p>
@@ -863,7 +899,7 @@
 	&emsp; <input type="radio" name="Critique of weaknesses" id="Critique of weaknesses_++" data-tag="Positive" 
 	value="The <strong>critique of weaknesses</strong> is comprehensive."> 
 	<label for="critique of weaknesses_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Critique of weaknesses" placeholder="explain here">
+	&emsp; <input type="text" id="Critique of weaknesses" placeholder="explain here" size=75 >
 
 
 	<p>The <strong>critique of omissions</strong> covers the relevant topics well in a complete and balanced way.:</p>
@@ -881,7 +917,7 @@
 	&emsp; <input type="radio" name="Critique of omissions" id="Critique of omissions_++" data-tag="Positive" 
 	value="The <strong>critique of omissions</strong> is excellent: you have a strong sense of what would improve this project."> 
 	<label for="critique of omissions_++">&#x2705&#x2705</label> 
-	&emsp; <input type="text" id="Critique of omissions" placeholder="explain here">
+	&emsp; <input type="text" id="Critique of omissions" placeholder="explain here" size=75 >
 
 
 	</div>	</div>
@@ -920,11 +956,7 @@
     <h3>AREAS OF IMPROVEMENT:</h3>
     <div id="negatives">[Placeholder]</div>
 
-</div>
-
-
-<script src="function.js"></script>
-
-
+</div><script src="function.js">
+</script>
 </body>
 </html>
