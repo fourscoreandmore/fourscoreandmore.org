@@ -22,7 +22,9 @@ We hope you find it useful!
 
 ## Metadata text on the score and online
 
-- **Title, composer, and lyricist** (for lieder) should already be present in their respective fields of the 'score properties' box and displayed on the score. The naming convention on musescore.com should likewise have been handled by the reviewer/central team. Let us know if you spot any errors (do not make changes unless agreed with your reviewer).
+- **Title** and **composer** should already be present in their respective fields of the 'score properties' box and displayed on the score.
+Likewise the **lyricist** in the case of the lieder.
+The naming convention on musescore.com should likewise have been handled by the reviewer/central team. Let us know if you spot any errors (do not make changes unless agreed with your reviewer).
 - **Dedication:** We use a separate 'Vertical Frame', above the main 'Title frame' with text centred, italic, 9pt. Again, please leave this as it is.
 - **Dates:** Birth and death dates are not shown for anyone (composer, lyricist or dedicatee).
 - **Date of composition:** not shown in the title frame. A date and place of composition may be shown at the end of the score if it appears on the source edition.
@@ -33,9 +35,9 @@ We hope you find it useful!
   - _Exception:_ Do not attempt to replicate the splitting of measures (with part before and part after) a system or page break.
 - **Above / below stave:** In general, use the default settings provided in the template
   - Above: Tempo marks; playing instructions such as `pizz.` and `arco`:
-    - _Exception:_ where there are 2 voices, one arco and one pizz. In this case they should be placed above/below as appropriate for the voice in question.
+    - _Exception (quartets):_ where there are 2 voices, one arco and one pizz. In this case they should be placed above/below as appropriate for the voice in question.
   - Below: All dynamics, hairpins and expression text.
-    - _Exception:_ dynamics in the vocal parts for the lieder go above.
+    - _Exception (lieder):_ dynamics in the vocal parts for the lieder go above.
 
 ## Metre: time signatures, beaming, tuplets
 
@@ -100,16 +102,18 @@ We hope you find it useful!
 
 ## About this page
 
-Last Updated: August 2022
+Last Updated: August 2026
 
 Contributors:
-- Mark Gotham ([here](/people/MG_bio.md) and [on musescore](https://musescore.com/user/8641586)) - Principal Investigator
-- Peter Jonas ([shoogle](https://musescore.com/shoogle)) - MuseScore / OpenScore Manager
-- Dan Rootham ([DanielR](https://musescore.com/danielr))
-- Mike Nelson ([mike320](https://musescore.com/mike320))
-- Maureen Redbond ([ashmoggs](https://musescore.com/user/27968710))
+- [Mark Gotham](https://markgotham.github.io/), Principal Investigator
+- Peter Jonas ([shoogle on MuseScore](https://musescore.com/shoogle)), MuseScore.
+- Mike Nelson † ([mike320](https://musescore.com/mike320))
+- Maureen Redbond ([ashmoggs](https://musescore.com/user/27968710)), OSQ Manager
+- Dan Rootham ([DanielR](https://musescore.com/danielr)), Former OSLC Manager
+
 
 If you find anything unclear, or would like any other questions answered here, then please do let us know via your reviewer.
-You may also find these [general tips](https://musescore.com/shoogle/scores/3434266) useful.
+You may also find useful these [general tips](https://musescore.com/shoogle/scores/3434266)
+which Peter prepared at the very beginning of OpenScore.
 
 Many thanks for being a part of this initiative. Here’s to a great encoded corpus in the making!
