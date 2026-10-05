@@ -3,9 +3,12 @@ layout: post
 title: 'Species'
 ---
 
-This part of fourscoreandmore provides the full cantus firmus exercises of Johann Joseph Fux's iconic pedagogical treatise, 'Gradus ad Parnassum' in three sections:
+Tl;dr [click here for contents (all figures, searchable, and sortable)](./contents/index.html),
+
+This part of fourscoreandmore provides the full cantus firmus exercises of Johann Joseph Fux's iconic pedagogical treatise,
+'Gradus ad Parnassum' which is in three sections:
 1. Two Voices (46 exercises)
-2. Three Voices (44 exercises)
+2. Three Voices (45 exercises)
 3. Four Voices (32 exercises)
 
 For each of these sections, we provide four files:
@@ -23,13 +26,8 @@ Each exercise includes the following information:
 - Modal final,
 - Cantus firmus part
 
-Details are provided for each part in html format: click these links to explore: 
-1. part I: [html](./I/search.html),
-2. part II: [html](./II/search.html),
-3. part III: [html](./III/search.html),
-
-The html docs can be opened in any web browser and used to search the collection by any of the criteria above (e.g., species type). 
-
+Full details of the contents (all figures, searchable, and sortable)
+[are provided here](./contents/index.html),
 
 ## Open Music Theory textbook
 
@@ -66,34 +64,18 @@ III|[.mxl](https://raw.githubusercontent.com/MarkGotham/species/refs/heads/main/
 
 ### Individual figures (5, 6, 11, ..., 204)
 
-We also provide each figure in a separate files.
+Full details of the contents (all figures, searchable, and sortable)
+[are provided here](./contents/index.html),
 These can be downloaded or viewed and engaged with directly online via
 the Verovio Humdrum Viewer (VHV).
-Again, the best way to explore this collection and make choices,
-is via the html summaries:
-1. part I: [html](./I/search.html),
-2. part II: [html](./II/search.html),
-3. part III: [html](./III/search.html).
-
 
 ## Cantus firmus
 
 Fux's use of cantus firmus broadly centres on
 one cantus firmus for each modal final that stays broadly constant
 throughout all exercises and parts.
-
-The note sequences are as follows, along with their usage counts and the minor exceptions.
-
-| Modal final | Pitches                                                | Part I (46)                                                           | Part II (44)                        | Part III (32)                  |
-|-------------|--------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------|--------------------------------|
-| D           | D4, F4, E4, D4, G4, F4, A4, G4, F4, E4, D4             | 10                                                                    | 16  at two octaves (D3 and D4)      | 21  at two octaves (D3 and D4) |
-| E           | E4, C4, D4, C4, A3, A4, G4, E4, F4, E4                 | 10                                                                    | 12  at two octaves (E3 and E4)      | 7, one at E5 (fig.184)         |
-| F           | F3, G3, A3, F3, D3, E3, F3, C4, A3, F3, G3, F3         | 10  including one at the octave above, (fig.13: starting F4)          | 9  at two octaves (F3 and F4)       | 4  at two octaves (F3 and F4)  |
-| G           | G3, C4, B3, G3, C4, E4, D4, G4, E4, C4, D4, B3, A3, G3 | 6                                                                     | 2                                   | -                              |
-| A           | A3, C4, B3, D4, C4, E4, F4, E4, D4, C4, B3, A3         | 6  including one lacking the first D (fig.42: A3, C4, B3, C4, E4 ...) | 3  at three octaves (A2, A3 and A4) | -                              | 
-| C           | C4, E4, F4, G4, E4, A4, G4, E4, F4, E4, D4, C4         | 2 Note the two version for the final on C (this line and below)       | 2                                   | -                              |
-| C           | C4, D4, F4, E4, G4, E4, F4, E4, D4, C4                 | 2                                                                     | -                                   | -                              |
-
+For more details see the
+[GitHub repo](https://github.com/MarkGotham/species).
 
 ## Acknowledgements, Contribution, and Licence
 
