@@ -29,14 +29,13 @@ For now we highlight just a few exceptional cases.
 - [About the OpenScore collections](../openscore)
   - **Lieder corpus**: [Search, sort, and direct downloads](../openscore/lieder)
   - **String Quartets**: [Search, sort, and direct downloads](../openscore/stringquartets)
-- Cont.
 
 ## Species Counterpoint
 - [About the Species Corpus](../species). Also provided (via that page):
   - Whole Part (I, II, III)
     - Direct download in multiple formats.
   - Individual figures:
-    - Search and sort table summary.
+    - [Search, sort, and direct download individual figures](../species/contents)
     - Download any in either mxl or krn format
       - View and interact with online using Verovio Humdrum Viewer (VHV)
 
