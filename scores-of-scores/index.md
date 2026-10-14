@@ -4,23 +4,21 @@ title: 'Scores of Scores'
 ---
 
 'Scores of Scores' is a project for creating and releasing publicly a large number of high-quality musical scores which any internet user will be able to play, download, transpose and use as they please copyright-free (under a [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license).
-As of 2020, in addition to the scores, we are also running a parallel collection of harmonic analyses.
-[Here](/working-in-harmony/analysis) are the new notes for analysts.
 
-This project is in association with [OpenScore](https://openscore.cc/)
-and to date offers two major collections:
-- [OpenScore Lieder Corpus](https://musescore.com/openscore-lieder-corpus) (over 1,300 songs),
-- [OpenScore String Quartets](https://musescore.com/openscore-string-quartets).
+The resulting scores collections are published as "OpenScore Corpora".
 
 ## URL Menu
 
-1. The scores are all on MuseScore.com ([lieder here](https://musescore.com/openscore-lieder-corpus), [string quartets here](https://musescore.com/openscore-string-quartets)) where they are available to play online, download in multiple formats, transpose, and more;
-1. We also provide a 'mirror' (copy of all the scores) where you can download the whole collection at once. [The lieder mirror is here](https://github.com/OpenScore/Lieder) and the equivalent for string quartets will follow soon.
+1. The scores are available ...
+   - for direct download in multiple format ([lieder here](https://fourscoreandmore.org/openscore/lieder/), [string quartets here](https://fourscoreandmore.org/openscore/stringquartets/)) where they are available to download in multiple formats; 
+   - on MuseScore.com ([lieder here](https://musescore.com/openscore-lieder-corpus), [string quartets here](https://musescore.com/openscore-string-quartets)) where they are available to play online, but an account is needed to download them there (so use the links above by default); 
+   - to download as a collection all at once ([lieder here](https://github.com/OpenScore/Lieder), [string quartets here](https://github.com/OpenScore/StringQuartets/))
 1. This page provides an introduction to the project;
-1. There are further, dedicated pages here with [notes for transcribers](/scores-of-scores/notes-for-transcribers) and [notes for users](/scores-of-scores/notes-for-users);
-1. ['Learn by Doing Lieder Transcription'](/scores-of-scores/learn-by-doing): Suggested transcription-based exercises for the intrepid student of music theory;
-1. Homepage for the launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
-1. [Notes for analysts](/working-in-harmony/analysis)
+1. There are further, dedicated pages here focussing on:
+   - [notes for transcribers](/scores-of-scores/notes-for-transcribers)
+   - [notes for users](/scores-of-scores/notes-for-users);
+   - ['learn by doing'](/scores-of-scores/learn-by-doing): Suggested transcription-based exercises for the intrepid student of music theory;
+1. Homepage for the 2018 launch event, [‘Scores of Scores’: Possibilities and Pitfalls with Musical Corpora](https://www.bigdata.cam.ac.uk/events/scores-scores-possibilities-and-pitfalls-musical-corpora).
 
 But first, here's an example from the lieder collection:
 
@@ -49,9 +47,9 @@ To that end of engaging with that wide audience, we are delighted to have active
 ### MuseScore/OpenScore
 
 MuseScore/OpenScore have connected us with their awesome community of encoders, and are hosting the final scores.
-The online repositories ([lieder here](https://musescore.com/openscore-lieder-corpus), [string quartets here](https://musescore.com/openscore-string-quartets)) ensures that there is no geographical barrier to encoding or accessing the scores. 
-Just as importantly, there is also no financial barrier to entry thanks to [MuseScore](https://musescore.org/): a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types.
-Perhaps most remarkably of all, even blind musicians will be able to access the scores through the [music21](http://web.mit.edu/music21/)-enabled Braille output.
+The online repositories (links above) ensure that there is no geographical barrier to encoding or accessing the scores. 
+Just as importantly, there is also no financial barrier to entry thanks to [MuseScore Studio](https://musescore.org/):
+a free, open-source, and high-quality notation software which can import/export to musicXML, and by extension to all industry-standard file types.
 
 Thanks as always to our wonderful team, associates, collaborators and funders.
 <div class="image-collection">
@@ -67,8 +65,10 @@ Thanks as always to our wonderful team, associates, collaborators and funders.
 
 While 'Scores of Scores' is an almost entirely volunteer-driven effort, we do have occasional 
 We gratefully acknowledge support in kind from MuseScore and the various universities I've been involved with, as well as project funding from:
-1. The [University of Cambridge](https://www.cam.ac.uk/) who supported the 2018 initiation of ‘Scores of Scores’ from the [Arts and Humanities Impact Fund](https://www.ahssresearch.group.cam.ac.uk/AH-Impact-Fund);
-1. The [Central New York Humanities Corridor](https://www.cnycorridor.net) who have funded events since 2020.
+1. The [University of Cambridge](https://www.cam.ac.uk/) who supported the 2018 initiation of ‘Scores of Scores’ from the "Arts and Humanities Impact Fund";
+1. The [Central New York Humanities Corridor](https://www.cnycorridor.net) who funded events and development from 2020 to 2024.
+1. KCL's SPARK innovation fund.
+1. OpenAI: in kind support by the provision of accounts. 
 
 <div class="image-collection">
   <a href="https://www.cam.ac.uk/">
