@@ -7,6 +7,12 @@ _Part of [Scores of Scores](/scores-of-scores)._
 
 ---
 
+For score download (in multiple formats including MuseScore and PDF), head to:
+- [this page for the lieder](https://fourscoreandmore.org/openscore/lieder/)
+- [this page for the quartets](https://fourscoreandmore.org/openscore/stringquartets/).
+
+This page provides some additional information for transcribers.
+
 Welcome and thanks for participating in this very exciting encoding project.
 
 On this page, we seek to answer some of the most frequently asked questions (FAQs) and common issues encountered in transcribing for this project.
@@ -23,7 +29,7 @@ We hope you find it useful!
 ## Metadata text on the score and online
 
 - **Title** and **composer** should already be present in their respective fields of the 'score properties' box and displayed on the score.
-Likewise the **lyricist** in the case of the lieder.
+Likewise, the **lyricist** in the case of the lieder.
 The naming convention on musescore.com should likewise have been handled by the reviewer/central team. Let us know if you spot any errors (do not make changes unless agreed with your reviewer).
 - **Dedication:** We use a separate 'Vertical Frame', above the main 'Title frame' with text centred, italic, 9pt. Again, please leave this as it is.
 - **Dates:** Birth and death dates are not shown for anyone (composer, lyricist or dedicatee).
@@ -39,7 +45,7 @@ The naming convention on musescore.com should likewise have been handled by the 
   - Below: All dynamics, hairpins and expression text.
     - _Exception (lieder):_ dynamics in the vocal parts for the lieder go above.
 
-## Metre: time signatures, beaming, tuplets
+## Time signatures, beaming, tuplets
 
 - **Time signatures:** Always reproduce time signature symbol as shown in the source edition, e.g., common time, cut common time (_alla breve_), and 4/4 are all to be treated as different even though they refer to the same duration and (arguably) beam groupings.
 - **Beaming:** usually, we enter the notes with default beaming for …
