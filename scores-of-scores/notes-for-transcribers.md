@@ -21,7 +21,7 @@ We hope you find it useful!
 ## General
 
 - We aim to produce as exact a copy of the source edition as possible.
-- We also use MuseScore defaults wherever possible so that as much information is transferred as effectively as possible to the parts and when converted into other formats like musicXML.
+- We also use MuseScore defaults wherever possible so that as much information is transferred as effectively as possible to the parts and when converted into other formats like MusicXML.
 - Where these two are in conflict (exact copy vs MuseScore defaults), the MuseScore defaults take priority. (More detailed notes follow below.)
 - Edition of manuscript sources is often more complicated: please get in touch to discuss individual cases.
 - If in doubt, ask your reviewer!
@@ -38,17 +38,17 @@ The naming convention on musescore.com should likewise have been handled by the 
 ## Layout
 
 - **System breaks and page breaks:** Follow the system breaks and page breaks used by the source edition where possible in that order (system being the more important).
-  - _Exception:_ Do not attempt to replicate the splitting of measures (with part before and part after) a system or page break.
+  - _Exception:_ Do not attempt to replicate the splitting of measures across a system or page break (i.e., with part before and part after).
 - **Above / below stave:** In general, use the default settings provided in the template
   - Above: Tempo marks; playing instructions such as `pizz.` and `arco`:
-    - _Exception (quartets):_ where there are 2 voices, one arco and one pizz. In this case they should be placed above/below as appropriate for the voice in question.
+    - _Exception (quartets):_ where there are two voices, one arco and one pizz. In this case they should be placed above/below as appropriate for the voice in question.
   - Below: All dynamics, hairpins and expression text.
     - _Exception (lieder):_ dynamics in the vocal parts for the lieder go above.
 
 ## Time signatures, beaming, tuplets
 
-- **Time signatures:** Always reproduce time signature symbol as shown in the source edition, e.g., common time, cut common time (_alla breve_), and 4/4 are all to be treated as different even though they refer to the same duration and (arguably) beam groupings.
-- **Beaming:** usually, we enter the notes with default beaming for …
+- **Time signatures:** Always reproduce time signature symbols as shown in the source edition, e.g., common time, cut common time (_alla breve_), and 4/4 are all to be treated as different even though they refer to the same duration and (arguably) beam groupings.
+- **Beaming:** We usually enter the notes with default beaming for …
   - Placement: above _or_ below – not a combination of both
     - _Exception:_ We do not use crossing combinations of notes both above and below the beam in string parts, but we do sometimes need to copy that notation in the lieder piano parts, e.g., when crossing between treble and bass of the grand stave. Please discuss with your reviewer.
   - Grouping: typically follows the pre-set time signature defaults.
@@ -63,13 +63,13 @@ The naming convention on musescore.com should likewise have been handled by the 
 - Copy the source edition including noting the difference between:
   - the presence (acciaccatura) or absence (appoggiatura) of a slash through the note.
   - positioning before / after the main note (MuseScore defaults support both).
-- Use MuseScore defaults for the exact placing (e.g., before/after the barline, where relevant).
+- Use MuseScore defaults for the exact placement (e.g., before/after the barline, where relevant).
 - Triplet (or other tuplet) grace notes cannot be entered into MuseScore. Enter them as grace notes of the appropriate type and use staff text to enter the appropriate number.
 
 ## Key signatures and accidentals
 
 - **Key signatures:** Include all (of course!) exactly as given, except for …
-- **Cancelling naturals:** Never show cancelling naturals on a change of key signature (again, use the MuseScore default). Likewise, never use the "Natural-flat" or "Natural-sharp" symbols for individual accidental cancellation in adjacent measures.
+  - **Cancelling naturals:** Never show cancelling naturals on a change of key signature (again, use the MuseScore default). Likewise, never use the "Natural-flat" or "Natural-sharp" symbols for individual accidental cancellation in adjacent measures.
 - **Accidentals:** Any accidentals that need to be introduced (which were not present in the source) should be enclosed in square brackets `[]` to indicate an editorial change.
 
 ## Clefs
@@ -77,7 +77,7 @@ The naming convention on musescore.com should likewise have been handled by the 
 - Generally, most of our work is set out in two clefs: treble and bass.
 - Exceptions to preserve in our editions:
   - Lieder: many songs use the treble clef with `8` beneath it to indicate down one octave. This is typical for the tenor voice in modern editions (for both solo and choral repertoire).
-  - Quartet viola parts are (mostly) in alto clef, with occasional passages in treble.
+  - Quartet viola parts are (mostly) in alto clef, with occasional passages in treble clef.
   - Quartet 'cello parts: in addition to the bass clef, these may well have passages in tenor and treble clefs.
 - All other clefs are to be converted to the nearest modern equivalent. E.g., the treble clef is the only 'G' clef in common use: convert any other G clefs into a treble clef.
   - _Exception:_ You may wish to use the original clef during transcription to make proofreading easier. Reviewers will then change the clefs to standard when review is complete. Do not make any manual adjustments to the stem direction in this case.
@@ -87,20 +87,30 @@ The naming convention on musescore.com should likewise have been handled by the 
 - Use 'real' lines (that affect playback and are exported) wherever possible.
 - **Terms:** Copy the source except where there is a now-more-standard equivalent. E.g., use `diminuendo` in place of `decrescendo`.
 - **Abbreviations:** only `cresc.`, `dim.` and `rit.`, please spell anything else out in full and/or adapt to one of these.
-- Some older sources break these instructions into separate syllables over multiple measures or even multiple systems. For example: `cre - - - scen - - - do`. Do not attempt to copy this. Instead use a wide-dashed line (`Line Thickness = 0.12sp`, `Dash Line Length = 5`, and `Dash Gap Width = 20`), with standard `Begin text` - and with `Continue text` in parentheses at the start of each system e.g., _(dim.)_.
-- Unfortunately, there's not yet a `ritardando` option that affects playback. Use a `System text` entry (box at the bottom in the Inspector) and manual dashed line. We'll fix this when MuseScore does - i.e., in a future version of MuseScore.
+- Some older sources break these instructions into separate syllables over multiple measures or even multiple systems. For example: `cre - - - scen - - - do`. Do not attempt to copy this. Instead, use a wide-dashed line (`Line Thickness = 0.12sp`, `Dash Line Length = 5`, and `Dash Gap Width = 20`), with standard `Begin text` - and with `Continue text` in parentheses at the start of each system e.g., _(dim.)_.
+- Do use the built in `ritardando`. Note: Unfortunately this was added to MuseScore rather late, so for earlier scores we had to use a `System text` entry instead. We may update these in due course.
 
 ## Ties
 
-- Make sure to include all ties … as ties … not as slurs!!
-- Ties across barlines: Accidentals are not repeated at the beginning of the second (or subsequent) bar, even if it is a system or page break. If the note is repeated later in the bar the accidental is shown (this is MuseScore default.)
+- Make sure to include all ties as ties and slurs as slurs without mixing (they are not the equivalent).
+- Ties across barlines: Accidentals are not repeated at the beginning of the second (or subsequent) bar, even if it is a system or page break.
+If the note is repeated later in the bar, the accidental is shown (this is MuseScore default.)
+
+## Brackets
+
+- Brackets in the source indicate their editorial intervention.
+- Square brackets in our files indicate our editorial interventions.
+- As such, where there are brackets in the source (whether square brackets or curved),
+the enclosed element should be included in our transcription, without the brackets.
+
 
 ## Playing instructions
 
 - Use the `pizz.` and `arco` instructions from the Text palette (see comments above about placement).
 - Do include instructions for harmonics (from the articulations palette - the symbol looks similar to `o`)
-- Do include the Roman numerals indicating which string to be used (e.g., `IV`).
-- Indication of fingering is not generally included. If in doubt, ask your reviewer.
+- Do include the Roman numerals indicating the string to be used (e.g., `IV`).
+- Indication of fingering is not generally included. If in doubt, ask your reviewer. 
+- For mutes (not applicable in the lieder) use 'con sord.' and 'senza sord.', in place of whatever language the source uses.
 
 ## During transcription:
 
