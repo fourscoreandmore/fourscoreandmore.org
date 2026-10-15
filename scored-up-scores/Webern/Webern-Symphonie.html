@@ -1,199 +1,696 @@
-<html>
-    <head>
-        <title>Webern Website</title>
-        <script src="https://www.verovio.org/javascript/4.3.1/verovio-toolkit.js" type="text/javascript" ></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" ></script>
-        <script src="../javascript/basic-events.js" type="text/javascript" ></script>
-        <link rel="stylesheet" href="../css/tutorial.css" />
-    </head>
-    <body style="margin: 0px;">
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Webern: Symphonie op. 21 — double canon</title>
+    <style>
+        :root { color-scheme: light; font: 16px/1.5 system-ui, sans-serif; color: #222; }
+        body { margin: 0; background: #fff; }
+        header, main { padding: 1rem 1.25rem; }
+        header { background: #f6f7f8; border-bottom: 1px solid #d5d8dc; }
+        h1 { margin: 0 0 .6rem; font-size: 1.35rem; }
+        p { margin: .5rem 0; }
+        fieldset { border: 0; margin: .5rem 0; padding: 0; }
+        legend { font-weight: 600; }
+        .controls { display: flex; flex-wrap: wrap; gap: .45rem; align-items: center; }
+        button, .file-label { font: inherit; padding: .35rem .65rem; }
+        button { background: #fff; border: 1px solid #a9adb3; border-radius: .3rem; cursor: pointer; }
+        button[aria-pressed="true"] { outline: 2px solid #242b33; outline-offset: 1px; background: #e8edf2; }
+        button:focus-visible, summary:focus-visible { outline: 3px solid #305da8; outline-offset: 3px; }
+        button:disabled { cursor: default; opacity: .5; }
+        .swatch { display: inline-block; width: .7em; height: .7em; border-radius: 50%; background: var(--ink); margin-right: .35em; }
+        details { margin-top: .75rem; max-width: 78ch; }
+        summary { cursor: pointer; font-weight: 600; }
+        kbd { font: inherit; font-weight: 600; }
+        #status { margin-top: .75rem; }
+        #error { color: #9f1d20; white-space: pre-wrap; }
+        #analysis-warnings { padding: .65rem; background: #fff4d9; border: 1px solid #c9a54a; }
+        #analysis-warnings ul { margin-bottom: 0; }
+        #svg_output { overflow-x: auto; min-height: 10rem; }
+        #svg_output > svg { display: block; }
+        /* Set color as well as fill: Verovio draws stems using currentColor. */
+        #svg_output g.note.is-highlighted { fill: var(--highlight); color: var(--highlight); }
+        #page-label, #zoom-label { font-variant-numeric: tabular-nums; padding: 0 .3rem; }
+        .file-label { display: inline-block; padding-left: 0; }
+        @media (max-width: 600px) { header, main { padding: .75rem; } button { font-size: .9rem; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Webern: Symphonie op. 21, movement 1, opening</h1>
+        <fieldset id="analysis-controls" disabled>
+            <legend>Double canon in inversion</legend>
+            <div class="controls">
+                <button type="button" data-choice="1" aria-pressed="true"><span class="swatch" style="--ink:#d00"></span>1 · Canon 1 dux</button>
+                <button type="button" data-choice="2" aria-pressed="false"><span class="swatch" style="--ink:#0c0"></span>2 · Canon 1 comes</button>
+                <button type="button" data-choice="3" aria-pressed="false"><span class="swatch" style="--ink:#00e"></span>3 · Canon 2 dux</button>
+                <button type="button" data-choice="4" aria-pressed="false"><span class="swatch" style="--ink:#d70"></span>4 · Canon 2 comes</button>
+                <button type="button" data-choice="0" aria-pressed="false"><span class="swatch" style="--ink:purple"></span>0 · Sounding A / E♭</button>
+            </div>
+            <p>Paired blocks in canon 1:</p>
+            <div class="controls">
+                <button type="button" data-choice="5" aria-pressed="false">5 · Horns</button>
+                <button type="button" data-choice="6" aria-pressed="false">6 · Clarinets</button>
+                <button type="button" data-choice="7" aria-pressed="false">7 · Cello / viola</button>
+                <button type="button" data-choice="8" aria-pressed="false">8 · Clarinets</button>
+                <button type="button" data-choice="9" aria-pressed="false">9 · Horns</button>
+                <button type="button" data-choice="none" aria-pressed="false">Clear · Esc</button>
+            </div>
+        </fieldset>
+        <fieldset id="navigation-controls" disabled>
+            <legend>Score</legend>
+            <div class="controls">
+                <button type="button" id="previous">← Previous</button>
+                <span id="page-label">Page —</span>
+                <button type="button" id="next">Next →</button>
+                <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+                <span id="zoom-label">50%</span>
+                <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+            </div>
+        </fieldset>
+        <details id="help">
+            <summary>About the analysis and keyboard controls</summary>
+            <p>This opening passage is a double canon in inversion.
+                The <em>dux</em> is the leading voice;
+                the <em>comes</em> follows.
+                Keys <kbd>1–4</kbd> trace the four voices across instruments.
+                Keys <kbd>5–9</kbd> compare five paired blocks in the first canon, retaining its red and green colours.
+                Selecting a pair opens its first page if none of it is on the current page.
+                The bar ranges and page locations appear below the controls;
+                some pairs continue onto another page.</p>
+            <p>Key <kbd>0</kbd> highlights the sounding pitch classes A and E♭,
+                including their spellings in the transposing instruments (all notes shown here at sounding pitch).
+                This part of the analysis draws attention to the pitch symmetry around (sounding) A3.</p>
+            <p>Use <kbd>←</kbd>/<kbd>→</kbd> for pages,
+                <kbd>Ctrl + ←</kbd>/<kbd>Ctrl + →</kbd> for first/last page,
+                <kbd>+</kbd>/<kbd>−</kbd> for zoom,
+                and <kbd>Esc</kbd> to clear highlighting.
+                On a narrow screen, scroll the score sideways.</p>
+            <p>The voice assignments preserve the original tutorial analysis. Its horn-2 note in bar 25
+                is outside the four highlighted voices. Assignments follow the named instruments and numbered
+                bars; review them after inserting bars, moving material between parts, or changing the musical structure.</p>
+        </details>
+        <p id="status" role="status" aria-live="polite">Loading Verovio…</p>
+        <p id="pair-location" hidden></p>
+        <p id="error" role="alert" hidden></p>
+        <details id="analysis-warnings" hidden>
+            <summary>Analysis needs review</summary>
+            <ul id="warning-list"></ul>
+        </details>
+        <details id="file-fallback">
+            <summary>Load an MEI file</summary>
+            <p id="load-help">The hosted page loads Webern-Symphonie.mei from the same folder automatically.
+                You can also choose a file here if you prefer (... any score as long as it's this one ;) ... ).
+                Internet access is needed to load the notation engine.</p>
+            <label class="file-label" for="mei-file">Load an MEI file:</label>
+            <input id="mei-file" type="file" accept=".mei,.xml,application/xml,text/xml">
+            <details id="local-server-help" hidden>
+                <summary>Doing this locally, does your browser reports a local-file security error?</summary>
+                <p>If so, open a terminal in the folder containing these two files and run:</p>
+                <pre>python3 -m http.server 8000 --bind 127.0.0.1</pre>
+                <p>Then open <a href="http://127.0.0.1:8000/Webern-Symphonie.html">the local viewer</a>.
+                    This uses the same automatic loading as the hosted page.
+                    Keep the terminal open while viewing;
+                    press Ctrl+C there to stop the server.</p>
+            </details>
+        </details>
+        <button id="retry-load" type="button" hidden>Retry loading</button>
+        <noscript><p>JavaScript is required to render and annotate this score.</p></noscript>
+    </header>
+    <main>
+        <div id="svg_output" role="region" aria-label="Annotated score" aria-busy="true"></div>
+    </main>
 
-        <div id="help_overlay">
-            <p><big>Webern: Symphonie op.21, movement 1, opening</big></p>
-            <br/>
-            <p>This opening section is a double canon in inversion.</p>
-            <p><font color="red"> Press <b>1</b> to show the first part (dux) of the first canon in red.</font></p>
-            <p><font color="green"> Press <b>2</b> to show the second part (comes) of the first canon in green.</font></p>
-            <p><font color="blue"> <p>Press <b>3</b> to show the first part (dux) of the second canon in blue.</font></p>
-            <p><font color="orange"> <p>Press <b>4</b> to show the second part (comes) of the second canon in orange.</font></p>
-            <br/>
-            <p>Throughout, the instruments are paired: clarinet and bass clarinet; the two horns; the two hands (staves) of the harp; Vln1 with viola; Vln1 with VC.</p>
-            <p>Corresponding material appears in those matching parts.</p>
-            <p><font color="red"> <p>Press any of <b>5, 6, 7, 8, 9</b> to show blocks of that material (in their original colours) in the first canon.</font></p>
-            <br/>
-            <p>Each pitch class consistently appears in the same octave, for instance, A always sounds as 'A3', just below middle C.</p>
-            <p>The exceptional pitch class is Eb which appears as both Eb3 and Eb4 (either side of the A3).</p>
-            <p>This is part of a symmetrical pattern of pitches centred on that A3.</p>
-            <p>A and Eb have a special, central role for other reasons, for instance, they're the only pitches to be simultaneously by the same instrument.</p>
-            <p><font color="purple"> Press <b>0</b> to show each A and Eb in this passage in all parts.</font></p>
-        </div>
+    <!-- ANALYSIS SETTINGS: edit labels, expected MEI staff numbers and inclusive bar ranges here.
+         Staff numbers disambiguate matching labels; they never override a conflicting name.
+         A unique name still follows a renumbered staff, with a warning to review this setting.
+         Keys 1-4 are canon voices; block 5-9 pairs canon-1 passages.
+         Optional layers: ["1"] restricts a passage to a source MEI layer.
+         No note IDs are stored. Re-exporting the MEI does not overwrite these rules. -->
+    <script id="analysis-settings" type="application/json">
+    {
+        "expectedMeasureCount": 25,
+        "parts": {
+            "clarinet": {"staff": "1", "labels": ["Clarinet in Bb", "Clarinet in B♭", "Clarinet"]},
+            "bassClarinet": {"staff": "2", "labels": ["Bass Clarinet in Bb", "Bass Clarinet in B♭", "Bass Clarinet"]},
+            "horn1": {"staff": "3", "labels": ["Horn 1 in F", "Horn I in F", "Horn 1", "Horn I"]},
+            "horn2": {"staff": "4", "labels": ["Horn 2 in F", "Horn II in F", "Horn 2", "Horn II"]},
+            "harpUpper": {"staff": "5", "groupLabels": ["Harp"], "staffWithinGroup": 1},
+            "harpLower": {"staff": "6", "groupLabels": ["Harp"], "staffWithinGroup": 2},
+            "violin1": {"staff": "7", "labels": ["Violin I", "Violin 1", "Violins I", "Violins 1"]},
+            "violin2": {"staff": "8", "labels": ["Violin II", "Violin 2", "Violins II", "Violins 2"]},
+            "viola": {"staff": "9", "labels": ["Viola", "Violas"]},
+            "cello": {"staff": "10", "labels": ["Violoncello", "Violoncellos", "Violoncelli", "Cello", "Cellos", "Celli"]}
+        },
+        "voices": {
+            "1": [
+                {"part": "horn2", "bars": [1, 4], "block": "5"},
+                {"part": "clarinet", "bars": [6, 8], "block": "6"},
+                {"part": "cello", "bars": [9, 13], "block": "7"},
+                {"part": "clarinet", "bars": [14, 17], "block": "8"},
+                {"part": "horn2", "bars": [18, 20], "block": "9"}
+            ],
+            "2": [
+                {"part": "horn1", "bars": [3, 6], "block": "5"},
+                {"part": "bassClarinet", "bars": [8, 10], "block": "6"},
+                {"part": "viola", "bars": [11, 15], "block": "7"},
+                {"part": "bassClarinet", "bars": [16, 19], "block": "8"},
+                {"part": "horn1", "bars": [20, 22], "block": "9"}
+            ],
+            "3": [
+                {"part": "harpLower", "bars": [2, 2]},
+                {"part": "cello", "bars": [3, 5]},
+                {"part": "violin2", "bars": [6, 6]},
+                {"part": "harpLower", "bars": [7, 7]},
+                {"part": "harpUpper", "bars": [8, 8]},
+                {"part": "horn2", "bars": [9, 10]},
+                {"part": "harpLower", "bars": [11, 11]},
+                {"part": "harpUpper", "bars": [12, 12]},
+                {"part": "horn2", "bars": [12, 13]},
+                {"part": "violin1", "bars": [14, 15]},
+                {"part": "harpLower", "bars": [16, 16]},
+                {"part": "viola", "bars": [16, 17]},
+                {"part": "harpLower", "bars": [17, 18]},
+                {"part": "viola", "bars": [18, 20]},
+                {"part": "harpLower", "bars": [20, 20]},
+                {"part": "viola", "bars": [21, 22]},
+                {"part": "harpLower", "bars": [23, 23]}
+            ],
+            "4": [
+                {"part": "harpLower", "bars": [4, 4]},
+                {"part": "viola", "bars": [5, 7]},
+                {"part": "violin1", "bars": [8, 8]},
+                {"part": "harpLower", "bars": [9, 9]},
+                {"part": "harpLower", "bars": [10, 10]},
+                {"part": "horn1", "bars": [11, 12]},
+                {"part": "harpUpper", "bars": [13, 13]},
+                {"part": "harpLower", "bars": [14, 14]},
+                {"part": "horn1", "bars": [14, 15]},
+                {"part": "cello", "bars": [16, 17]},
+                {"part": "harpUpper", "bars": [18, 18]},
+                {"part": "violin2", "bars": [18, 19]},
+                {"part": "harpUpper", "bars": [19, 20]},
+                {"part": "cello", "bars": [20, 22]},
+                {"part": "harpUpper", "bars": [22, 22]},
+                {"part": "cello", "bars": [23, 24]},
+                {"part": "harpUpper", "bars": [25, 25]},
+                {"part": "harpLower", "bars": [25, 25]}
+            ]
+        },
+        "unassignedPassages": [{"part": "horn2", "bars": [25, 25]}]
+    }
+    </script>
 
-        <div id="svg_output"/>
+    <!-- Pinned Verovio is loaded below with its promise-based API.
+         No shared basic-events.js, jQuery, build step or local server is required. -->
+    <script id="viewer-script">
+    (() => {
+        "use strict";
+        const MEI_NS = "http://www.music-encoding.org/ns/mei";
+        const XML_NS = "http://www.w3.org/XML/1998/namespace";
+        const colours = { "1": "#d00", "2": "#0c0", "3": "#00e", "4": "#d70", "0": "purple" };
+        const labels = {
+            "1": "Canon 1: dux", "2": "Canon 1: comes", "3": "Canon 2: dux", "4": "Canon 2: comes",
+            "5": "Canon 1: paired horn block", "6": "Canon 1: first paired clarinet block",
+            "7": "Canon 1: paired cello / viola block", "8": "Canon 1: second paired clarinet block",
+            "9": "Canon 1: final paired horn block", "0": "Sounding A and E♭", "none": "No highlighting"
+        };
+        const output = document.getElementById("svg_output");
+        const status = document.getElementById("status");
+        const error = document.getElementById("error");
+        const fileInput = document.getElementById("mei-file");
+        const fileFallback = document.getElementById("file-fallback");
+        const retryButton = document.getElementById("retry-load");
+        const localFile = window.location.protocol === "file:";
+        let enginePromise, makeToolkit, selectedFile = null, engineAttempt = 0;
+        let toolkit, annotations, noteBars = new Map(), partialGroups = new Set(), page = 1, zoom = 50, choice = "1", loaded = false, request = 0;
 
-        <script type="text/javascript">
-            var vrvToolkit;
-            var page = 1;
-            var zoom = 50;
-            var pageHeight = 2970;
-            var pageWidth = 2100;
+        function withTimeout(promise, milliseconds, message) {
+            let timer;
+            return Promise.race([promise, new Promise((_, reject) => {
+                timer = setTimeout(() => reject(new Error(message)), milliseconds);
+            })]).finally(() => clearTimeout(timer));
+        }
 
-            /* A highlighting choice */
+        async function ensureEngine() {
+            if (makeToolkit) return;
+            if (!enginePromise) enginePromise = (async () => {
+                // The factory promise works whether the runtime is cached or still loading.
+                // Both origins serve the same pinned package; the second is a network fallback.
+                const origins = ["https://cdn.jsdelivr.net/npm/verovio@6.3.0/dist/",
+                    "https://unpkg.com/verovio@6.3.0/dist/"];
+                const suffix = engineAttempt++ ? "?retry=" + engineAttempt : "";
+                let lastError;
+                for (const origin of origins) {
+                    try {
+                        const [{ default: createModule }, { VerovioToolkit }] = await withTimeout(
+                            Promise.all([import(origin + "verovio-module.mjs" + suffix), import(origin + "verovio.mjs" + suffix)]),
+                            30000, "The notation engine download timed out.");
+                        const module = await withTimeout(createModule(), 30000,
+                            "The notation engine did not finish starting.");
+                        const factory = () => new VerovioToolkit(module);
+                        const readyToolkit = factory();
+                        makeToolkit = factory;
+                        toolkit = readyToolkit;
+                        return;
+                    } catch (e) { lastError = e; }
+                }
+                throw new Error("The notation engine could not load. Check your internet connection and try again. " + lastError.message);
+            })().catch(e => { enginePromise = null; throw e; });
+            return enginePromise;
+        }
 
-            var choice = 1;
+        function showError(message) {
+            error.textContent = message;
+            error.hidden = false;
+            output.setAttribute("aria-busy", "false");
+        }
 
-            function setOptions( ) {
-                pageHeight = $(document).height() * 100 / zoom ;
-                pageWidth = $(window).width() * 100 / zoom ;
-                options = {
-                            pageHeight: pageHeight,
-                            pageWidth: pageWidth,
-                            scale: zoom,
-                            adjustPageHeight: 1,
-                            breaks: "auto"
-                        };
-                vrvToolkit.setOptions( options );
+        const elements = (node, name) => Array.from(node.getElementsByTagNameNS(MEI_NS, name));
+        const xmlId = node => node.getAttributeNS(XML_NS, "id");
+        function ancestor(node, name) {
+            for (let current = node.parentElement; current; current = current.parentElement) {
+                if (current.namespaceURI === MEI_NS && current.localName === name) return current;
             }
+            return null;
+        }
 
-            function loadData(data) {
-                setOptions();
-                vrvToolkit.loadData(data);
-
-                page = 1;
-                loadPage();
+        function prepareScore(text) {
+            const xml = new DOMParser().parseFromString(text, "application/xml");
+            if (xml.getElementsByTagName("parsererror").length || xml.documentElement.localName !== "mei" || xml.documentElement.namespaceURI !== MEI_NS) {
+                throw new Error("This file is not valid MEI XML.");
             }
-
-            /* Load the page and highlight according to the current choice */
-
-            function loadPage() {
-                svg = vrvToolkit.renderToSVG(page, {});
-                $("#svg_output").html(svg);
-
-                if (choice == 1) {
-
-                    $(".system .measure:lt(4) .staff:nth-child(4) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(4):lt(3) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(7):lt(5) .staff:nth-child(10) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(12):lt(4) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(16):lt(3) .staff:nth-child(4) .note").attr("fill", "#d00").attr("stroke", "#d00");
-
-                }
-                else if (choice == 2) {
-                    $(".system .measure:gt(1):lt(4) .staff:nth-child(3) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                    $(".system .measure:gt(6):lt(3) .staff:nth-child(2) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                    $(".system .measure:gt(9):lt(5) .staff:nth-child(9) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                    $(".system .measure:gt(14):lt(4) .staff:nth-child(2) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                    $(".system .measure:gt(18):lt(3) .staff:nth-child(3) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 5) {
-                    $(".system .measure:lt(4) .staff:nth-child(4) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(1):lt(4) .staff:nth-child(3) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 6) {
-                    $(".system .measure:gt(4):lt(3) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(6):lt(3) .staff:nth-child(2) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 7) {
-                    $(".system .measure:gt(7):lt(5) .staff:nth-child(10) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(9):lt(5) .staff:nth-child(9) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 8) {
-                    $(".system .measure:gt(12):lt(4) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(14):lt(4) .staff:nth-child(2) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 9) {
-                    $(".system .measure:gt(16):lt(3) .staff:nth-child(4) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(18):lt(3) .staff:nth-child(3) .note").attr("fill", "#0c0").attr("stroke", "#0c0");
-                }
-                else if (choice == 3) {
-                    $(".system .measure:gt(0):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(1):lt(3) .staff:nth-child(10) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(4):lt(1) .staff:nth-child(8) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(5):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(6):lt(1) .staff:nth-child(5) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(7):lt(2) .staff:nth-child(4) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(9):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(10):lt(1) .staff:nth-child(5) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(10):lt(2) .staff:nth-child(4) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(12):lt(2) .staff:nth-child(7) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(14):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(14):lt(2) .staff:nth-child(9) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(15):lt(2) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(16):lt(3) .staff:nth-child(9) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(18):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(19):lt(2) .staff:nth-child(9) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                    $(".system .measure:gt(21):lt(1) .staff:nth-child(6) .note").attr("fill", "#00e").attr("stroke", "#00e");
-                }
-                else if (choice == 4) {
-                    $(".system .measure:gt(2):lt(1) .staff:nth-child(6) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(3):lt(3) .staff:nth-child(9) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(6):lt(1) .staff:nth-child(7) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(7):lt(1) .staff:nth-child(6) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(8):lt(1) .staff:nth-child(6) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(9):lt(2) .staff:nth-child(3) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(11):lt(1) .staff:nth-child(5) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(12):lt(1) .staff:nth-child(6) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(12):lt(2) .staff:nth-child(3) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(14):lt(2) .staff:nth-child(10) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(16):lt(1) .staff:nth-child(5) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(16):lt(2) .staff:nth-child(8) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(17):lt(2) .staff:nth-child(5) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(18):lt(3) .staff:nth-child(10) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(20):lt(1) .staff:nth-child(5) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(21):lt(2) .staff:nth-child(10) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(23):lt(1) .staff:nth-child(5) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                    $(".system .measure:gt(23):lt(1) .staff:nth-child(6) .note").attr("fill", "#d70").attr("stroke", "#d70");
-                }
-                else if (choice === 0) {
-
-                $(".note").each(function(i) {
-                    var attr = vrvToolkit.getElementAttr($(this).attr("id"));
-                    if (attr.pname && (attr.pname == "a")) {
-                        $(this).attr("fill", "purple").attr("stroke", "purple");
-                    }
-                  });
-                }
-                else {
-                    console.log("Unknown choice");
+            const ids = new Set();
+            for (const node of xml.getElementsByTagName("*")) {
+                const id = xmlId(node);
+                if (id && ids.has(id)) throw new Error("The score contains a duplicate XML ID: " + id);
+                if (id) ids.add(id);
+            }
+            // IDs are render-time lookup keys, not stored analytical identities.
+            // New notes without IDs receive collision-free IDs in memory only.
+            let nextId = 1;
+            for (const note of elements(xml, "note")) {
+                if (!xmlId(note)) {
+                    let id;
+                    do { id = "webern-auto-note-" + nextId++; } while (ids.has(id));
+                    note.setAttributeNS(XML_NS, "xml:id", id);
+                    ids.add(id);
                 }
             }
+            return { xml, text: new XMLSerializer().serializeToString(xml) };
+        }
 
-            function startVerovio() {
-            vrvToolkit = new verovio.toolkit();
-
-            $( document ).ready(function() {
-
-                $(window).keyup(function(event){
-
-                    /* Process navigation and zoom basic events */
-                    processBasicEvents(event);
-
-                    /* Key events for switching highlight choice */
-                    if ((event.keyCode > 47) && (event.keyCode < 58)) {
-                        choice = event.keyCode - 48;
-                        loadPage();
+        function readAnalysis(xml) {
+            const groups = new Map(Array.from("0123456789", key => [key, new Set()]));
+            const warnings = new Set(), partial = new Set();
+            const problem = (message, key, block) => {
+                warnings.add(message);
+                if (key) partial.add(key);
+                if (block) partial.add(block);
+            };
+            try {
+                const settings = JSON.parse(document.getElementById("analysis-settings").textContent);
+                if (!settings.parts || !settings.voices) throw new Error("Parts or voices are missing from the analysis settings.");
+                const scores = elements(xml, "score");
+                if (scores.length !== 1) throw new Error("The passage rules need one score-based movement.");
+                const firstDefinition = elements(scores[0], "scoreDef")[0];
+                if (!firstDefinition) throw new Error("The score has no initial instrument definitions.");
+                const definitions = elements(firstDefinition, "staffDef");
+                const label = node => node.getAttribute("label") || Array.from(node.children).find(child => child.localName === "label")?.textContent || "";
+                const normalize = value => value.normalize("NFKC").replace(/♭/g, "b").trim().replace(/\s+/g, " ").toLowerCase();
+                const matches = (node, aliases) => Array.isArray(aliases) && aliases.some(alias => normalize(alias) === normalize(label(node)));
+                const resolved = new Map();
+                for (const [part, spec] of Object.entries(settings.parts)) {
+                    let candidates = [];
+                    if (spec.labels) candidates = definitions.filter(def => matches(def, spec.labels));
+                    else if (spec.groupLabels && Number.isInteger(spec.staffWithinGroup) && spec.staffWithinGroup > 0) {
+                        const instrumentGroups = elements(firstDefinition, "staffGrp").filter(group => matches(group, spec.groupLabels));
+                        if (instrumentGroups.length === 1) {
+                            const def = elements(instrumentGroups[0], "staffDef")[spec.staffWithinGroup - 1];
+                            if (def) candidates = [def];
+                        }
                     }
-                });
-
-                $(window).resize(function(){
-                    applyZoom();
-                });
-
-                var file = "Webern-Symphonie.mei";
-                $.ajax({
-                    url: file
-                    , dataType: "text"
-                    , success: function(data) {
-                        loadData( data );
+                    const expectedStaff = spec.staff == null ? null : String(spec.staff);
+                    // Match the name first. A configured staff number can break a tie,
+                    // but must never attach a different instrument's notes to this role.
+                    if (candidates.length > 1 && expectedStaff !== null) {
+                        const numbered = candidates.filter(def => def.getAttribute("n") === expectedStaff);
+                        if (numbered.length === 1) candidates = numbered;
                     }
-                });
+                    const number = candidates.length === 1 ? candidates[0].getAttribute("n") : null;
+                    if (number && definitions.filter(def => def.getAttribute("n") === number).length === 1) {
+                        resolved.set(part, number);
+                        if (expectedStaff !== null && number !== expectedStaff) {
+                            problem("Instrument “" + part + "” matched staff " + number + " by name; the settings expect staff " +
+                                expectedStaff + ". Its notes are included. Review the staff number after reordering or re-exporting.");
+                        }
+                    } else if (!candidates.length) {
+                        const numbered = definitions.filter(def => def.getAttribute("n") === expectedStaff);
+                        const observed = numbered.length === 1 ? " Staff " + expectedStaff + " is labelled “" +
+                            (label(numbered[0]) || "(unlabelled)") + "”." : "";
+                        problem("No instrument label matched “" + part + "”." + observed + " Check its name in the analysis settings.");
+                    } else {
+                        problem("Instrument “" + part + "” is ambiguous among staff numbers " +
+                            candidates.map(def => def.getAttribute("n") || "(missing)").join(", ") +
+                            ". Check its name and staff number in the analysis settings.");
+                    }
+                }
+                const measures = elements(scores[0], "measure"), byNumber = new Map();
+                for (const measure of measures) {
+                    const number = measure.getAttribute("n");
+                    if (!byNumber.has(number)) byNumber.set(number, []);
+                    byNumber.get(number).push(measure);
+                }
+                if (settings.expectedMeasureCount && measures.length !== settings.expectedMeasureCount) {
+                    problem("The score has " + measures.length + " bars; the analysis was written for " + settings.expectedMeasureCount + ". Review the bar ranges after structural edits.");
+                }
+                function select(passage, key) {
+                    const selected = new Set(), block = passage.block;
+                    const [first, last] = passage.bars || [];
+                    const context = (labels[key] || "Unassigned passage") + ", “" + passage.part + "”, bars " + first + "–" + last;
+                    if (!Number.isInteger(first) || !Number.isInteger(last) || first < 0 || last < first || last - first > 10000 ||
+                        (passage.layers && (!Array.isArray(passage.layers) || !passage.layers.length))) {
+                        problem(context + ": invalid bar or layer range.", key, block);
+                        return selected;
+                    }
+                    if (block && (!"12".includes(key) || !/^[5-9]$/.test(block))) {
+                        problem(context + ": paired blocks 5–9 must belong to canon 1.", key);
+                        return selected;
+                    }
+                    const staffNumber = resolved.get(passage.part);
+                    if (!staffNumber) { problem(context + ": instrument unavailable; this passage was skipped.", key, block); return selected; }
+                    for (let bar = first; bar <= last; bar++) {
+                        const found = byNumber.get(String(bar)) || [];
+                        if (found.length !== 1) { problem(context + ": bar " + bar + " is missing or duplicated; that bar was skipped.", key, block); continue; }
+                        const staves = elements(found[0], "staff").filter(staff => staff.getAttribute("n") === staffNumber);
+                        if (staves.length !== 1) { problem(context + ": the staff is missing or duplicated in bar " + bar + ".", key, block); continue; }
+                        for (const note of elements(staves[0], "note")) {
+                            if (!passage.layers || passage.layers.map(String).includes(ancestor(note, "layer")?.getAttribute("n"))) selected.add(xmlId(note));
+                        }
+                    }
+                    if (!selected.size) problem(context + ": no notes matched.", key, block);
+                    return selected;
+                }
+                for (const key of "1234") {
+                    if (!Array.isArray(settings.voices[key])) { problem(labels[key] + ": passage list is missing.", key); continue; }
+                    for (const passage of settings.voices[key]) {
+                        for (const id of select(passage, key)) {
+                            groups.get(key).add(id);
+                            if (passage.block) groups.get(passage.block).add(id);
+                        }
+                    }
+                }
+                // Ambiguous assignments must never be coloured as a guessed voice.
+                const ownership = new Map();
+                for (const key of "1234") for (const id of groups.get(key)) {
+                    if (!ownership.has(id)) ownership.set(id, []);
+                    ownership.get(id).push(key);
+                }
+                for (const [id, owners] of ownership) if (owners.length > 1) {
+                    for (const key of "123456789") if (groups.get(key).delete(id)) partial.add(key);
+                    problem("Overlapping passage rules assign a note to several voices; that note was left uncoloured.");
+                }
+                const deliberatelyUnassigned = new Set();
+                for (const passage of settings.unassignedPassages || []) for (const id of select(passage)) deliberatelyUnassigned.add(id);
+                const unmapped = elements(xml, "note").filter(note => !ownership.has(xmlId(note)) && !deliberatelyUnassigned.has(xmlId(note)));
+                if (unmapped.length) {
+                    const bars = [...new Set(unmapped.map(note => ancestor(note, "measure")?.getAttribute("n") || "?"))];
+                    problem(unmapped.length + " note(s) fall outside the canon rules in bar(s) " + bars.join(", ") + ". Review their voice assignment.");
+                }
+            } catch (e) {
+                for (const key of "123456789") { groups.get(key).clear(); partial.add(key); }
+                problem("Canon analysis could not be read: " + e.message + " The score and pitch-class view remain available.");
+            }
+            return { groups, warnings, partial };
+        }
+
+        function addPitchClasses(score, analysis) {
+            // Use the pinned engine's encoded sounding pitches and transposition.
+            // As in MEI playback, implicit accidentals must be encoded with accid.ges.
+            // The short-lived analysis toolkit cannot transpose the displayed score.
+            let pitchToolkit;
+            try {
+                pitchToolkit = makeToolkit();
+                pitchToolkit.setOptions({ transposeToSoundingPitch: true, breaks: "none" });
+                if (!pitchToolkit.loadData(score.text)) throw new Error("Sounding-pitch analysis could not load the score.");
+                pitchToolkit.renderToMIDI();
+                let unavailable = 0;
+                for (const note of elements(score.xml, "note")) {
+                    const id = xmlId(note), pitch = pitchToolkit.getMIDIValuesForElement(id).pitch;
+                    if (!Number.isFinite(pitch)) { unavailable++; continue; }
+                    if ([3, 9].includes(((pitch % 12) + 12) % 12)) analysis.groups.get("0").add(id);
+                }
+                if (unavailable) {
+                    analysis.partial.add("0");
+                    analysis.warnings.add("Sounding pitch was unavailable for " + unavailable + " note(s); those notes were omitted from A / E♭ highlighting.");
+                }
+            } catch (e) {
+                analysis.groups.get("0").clear();
+                analysis.partial.add("0");
+                analysis.warnings.add("A / E♭ highlighting is unavailable: " + e.message);
+            } finally { if (pitchToolkit) pitchToolkit.destroy(); }
+        }
+
+        function showWarnings(warnings) {
+            const panel = document.getElementById("analysis-warnings");
+            const list = document.getElementById("warning-list");
+            list.replaceChildren();
+            for (const message of warnings) {
+                const item = document.createElement("li");
+                item.textContent = message;
+                list.appendChild(item);
+            }
+            panel.hidden = !warnings.size;
+            panel.open = Boolean(warnings.size);
+        }
+
+        function setOptions() {
+            toolkit.setOptions({
+                pageWidth: Math.round(Math.max(760, output.clientWidth) * 100 / zoom),
+                pageHeight: Math.round(Math.max(1000, window.innerHeight - 180) * 100 / zoom),
+                scale: zoom,
+                adjustPageHeight: true,
+                breaks: "auto"
             });
-            }
+        }
 
-            if (verovio.module && verovio.module.calledRun) {
-                startVerovio();
-            } else {
-                verovio.module.onRuntimeInitialized = startVerovio;
+        function pairPages(key = choice) {
+            if (!/^[5-9]$/.test(key)) return [];
+            return [...new Set([...(annotations.get(key) || [])].map(id => toolkit.getPageWithElement(id)))].filter(p => p > 0).sort((a, b) => a - b);
+        }
+
+        function ranges(values) {
+            const numbers = [...new Set(values)].map(Number).sort((a, b) => a - b);
+            if (!numbers.length) return "none";
+            if (numbers.some(n => !Number.isFinite(n))) return [...new Set(values)].join(", ");
+            const result = [];
+            for (let i = 0; i < numbers.length; i++) {
+                const first = numbers[i];
+                while (i + 1 < numbers.length && numbers[i + 1] === numbers[i] + 1) i++;
+                result.push(first === numbers[i] ? String(first) : first + "–" + numbers[i]);
             }
-        </script>
-    </body>
+            return result.join(", ");
+        }
+
+        function selectChoice(next) {
+            choice = next;
+            // Pair buttons used to leave the reader on an unrelated page with no highlights.
+            const pages = pairPages();
+            if (pages.length && !pages.includes(page)) { page = pages[0]; renderPage(); }
+            else highlight();
+        }
+
+        function highlight() {
+            const selected = annotations.get(choice) || new Set();
+            let visible = 0;
+            for (const note of output.querySelectorAll("g.note")) {
+                note.classList.remove("is-highlighted");
+                note.style.removeProperty("--highlight");
+                if (!selected.has(note.id)) continue;
+                const colour = colours[choice] || (annotations.get("1").has(note.id) ? colours["1"] : colours["2"]);
+                note.style.setProperty("--highlight", colour);
+                note.classList.add("is-highlighted");
+                visible++;
+            }
+            for (const button of document.querySelectorAll("[data-choice]")) {
+                button.setAttribute("aria-pressed", String(button.dataset.choice === choice));
+            }
+            status.textContent = labels[choice] + (choice === "none" ? "." :
+                ": " + visible + " of " + selected.size + " note events on this page.") +
+                (partialGroups.has(choice) ? " This selection is incomplete; see the analysis warnings." : "");
+            const location = document.getElementById("pair-location");
+            location.hidden = !/^[5-9]$/.test(choice);
+            if (!location.hidden) {
+                const bars = voice => ranges([...selected].filter(id => annotations.get(voice).has(id)).map(id => noteBars.get(id)));
+                const pages = pairPages();
+                location.textContent = "Red: bars " + bars("1") + "; green: bars " + bars("2") + ". " +
+                    (pages.length ? "Pair on page" + (pages.length > 1 ? "s " : " ") + ranges(pages) + "." : "No matching notes.") +
+                    (pages.length > 1 ? " Use Previous / Next to see both parts of the pair." : "");
+            }
+        }
+
+        function renderPage() {
+            page = Math.max(1, Math.min(page, toolkit.getPageCount()));
+            output.innerHTML = toolkit.renderToSVG(page);
+            if (!output.querySelector("svg")) throw new Error("Verovio did not produce a score page.");
+            document.getElementById("page-label").textContent = "Page " + page + " of " + toolkit.getPageCount();
+            document.getElementById("previous").disabled = page === 1;
+            document.getElementById("next").disabled = page === toolkit.getPageCount();
+            document.getElementById("zoom-label").textContent = zoom + "%";
+            document.getElementById("zoom-out").disabled = zoom <= 25;
+            document.getElementById("zoom-in").disabled = zoom >= 100;
+            highlight();
+            output.setAttribute("aria-busy", "false");
+        }
+
+        function loadScore(text) {
+            const score = prepareScore(text);
+            setOptions();
+            loaded = false;
+            document.getElementById("analysis-controls").disabled = true;
+            document.getElementById("navigation-controls").disabled = true;
+            if (!toolkit.loadData(score.text) || toolkit.getPageCount() < 1) throw new Error("Verovio could not load this score.");
+            const analysis = readAnalysis(score.xml);
+            addPitchClasses(score, analysis);
+            annotations = analysis.groups;
+            noteBars = new Map(elements(score.xml, "note").map(note => [xmlId(note), ancestor(note, "measure")?.getAttribute("n")]));
+            partialGroups = analysis.partial;
+            showWarnings(analysis.warnings);
+            page = 1;
+            const pages = pairPages();
+            if (pages.length) page = pages[0];
+            renderPage();
+            loaded = true;
+            document.getElementById("analysis-controls").disabled = false;
+            document.getElementById("navigation-controls").disabled = false;
+            error.hidden = true;
+        }
+
+        function safely(action) {
+            try { action(); } catch (e) { showError(e.message); }
+        }
+
+        function changePage(next) {
+            if (!loaded) return;
+            safely(() => { page = next; renderPage(); });
+        }
+
+        function relayout(nextZoom = zoom) {
+            if (!loaded) return;
+            safely(() => {
+                const anchor = output.querySelector("g.measure[id]")?.id;
+                zoom = Math.max(25, Math.min(100, nextZoom));
+                setOptions();
+                toolkit.redoLayout();
+                if (anchor) page = toolkit.getPageWithElement(anchor) || page;
+                renderPage();
+            });
+        }
+
+        document.getElementById("analysis-controls").addEventListener("click", event => {
+            const button = event.target.closest("[data-choice]");
+            if (loaded && button) safely(() => selectChoice(button.dataset.choice));
+        });
+        document.getElementById("previous").addEventListener("click", () => changePage(page - 1));
+        document.getElementById("next").addEventListener("click", () => changePage(page + 1));
+        document.getElementById("zoom-out").addEventListener("click", () => relayout(zoom - 10));
+        document.getElementById("zoom-in").addEventListener("click", () => relayout(zoom + 10));
+        window.addEventListener("keydown", event => {
+            if (!loaded || event.altKey || event.metaKey || event.target.closest("input, textarea, select, [contenteditable='true']")) return;
+            if (/^[0-9]$/.test(event.key) && !event.ctrlKey) safely(() => selectChoice(event.key));
+            else if (event.key === "Escape") selectChoice("none");
+            else if (event.key === "ArrowLeft") changePage(event.ctrlKey ? 1 : page - 1);
+            else if (event.key === "ArrowRight") changePage(event.ctrlKey ? toolkit.getPageCount() : page + 1);
+            else if (!event.ctrlKey && ["+", "="].includes(event.key)) relayout(zoom + 10);
+            else if (!event.ctrlKey && ["-", "_"].includes(event.key)) relayout(zoom - 10);
+            else return;
+            event.preventDefault();
+        });
+        let resizeTimer;
+        window.addEventListener("resize", () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => relayout(), 200);
+        });
+        fileInput.addEventListener("change", async () => {
+            const file = fileInput.files[0];
+            if (!file) return;
+            selectedFile = file;
+            await openScore(file);
+            // Allow selecting the same file again after editing it.
+            fileInput.value = "";
+        });
+
+        function readFile(file) {
+            return new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = () => resolve(reader.result);
+                reader.onerror = () => reject(new Error("Unable to read " + file.name + ". Choose the file again."));
+                reader.readAsText(file);
+            });
+        }
+
+        async function fetchScore() {
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), 15000);
+            try {
+                const response = await fetch(new URL("./Webern-Symphonie.mei", window.location.href),
+                    { signal: controller.signal, cache: "no-cache" });
+                if (!response.ok) throw new Error("The MEI request returned HTTP " + response.status + ".");
+                return await response.text();
+            } catch (e) {
+                if (e.name === "AbortError") throw new Error("Loading Webern-Symphonie.mei timed out.");
+                throw e;
+            } finally { clearTimeout(timer); }
+        }
+
+        async function openScore(file) {
+            const current = ++request;
+            error.hidden = true;
+            retryButton.hidden = true;
+            status.textContent = "Loading " + (file ? file.name : "Webern-Symphonie.mei") + " and notation engine…";
+            output.setAttribute("aria-busy", "true");
+            try {
+                const [text] = await Promise.all([file ? readFile(file) : fetchScore(), ensureEngine()]);
+                if (current === request) loadScore(text);
+            } catch (e) {
+                if (current === request) {
+                    fileFallback.open = true;
+                    retryButton.hidden = false;
+                    status.textContent = "Could not load the requested score.";
+                    showError(e.message + " Choose an MEI file below or retry loading.");
+                }
+            }
+        }
+
+        async function startLocal() {
+            fileFallback.open = true;
+            document.getElementById("local-server-help").hidden = false;
+            document.getElementById("load-help").textContent =
+                "This HTML is open as a local file. Choose the MEI below to let the browser read it. Internet access is needed for the notation engine.";
+            status.textContent = "Choose the MEI file below. Starting notation engine…";
+            output.setAttribute("aria-busy", "false");
+            error.hidden = true;
+            retryButton.hidden = true;
+            const current = request;
+            try {
+                await ensureEngine();
+                if (current === request) status.textContent = "Ready. Choose the MEI file below to display the score.";
+            } catch (e) {
+                if (current === request) {
+                    status.textContent = "Notation engine unavailable.";
+                    retryButton.hidden = false;
+                    showError(e.message);
+                }
+            }
+        }
+        retryButton.addEventListener("click", () => {
+            if (localFile && !selectedFile) startLocal();
+            else openScore(selectedFile);
+        });
+        if (localFile) startLocal();
+        else openScore(null);
+    })();
+    </script>
+</body>
 </html>
