@@ -12,6 +12,9 @@ Beyond scores, fourscoreandmore serves to provide additional resources in the fo
 ## Interactive Apps
 
 On this site you can find:
+* [**Scored-up-scores**](../scored-up-scores):
+short score excerpts with annotations that can be engaged interactively.
+
 * [**Working in Harmony**](/working-in-harmony):
 automatic feedback on users' harmonic analyses.
 [Click here to use the app](/apps/working-in-harmony/)
@@ -21,8 +24,7 @@ musical scores with parts ‘cut out’ for the student to complete.
 This is an ancient teaching method given new life in the digital domain.
 Click [here to use the lieder app](/apps/lieder/) or [here for the chorales](/apps/chorales/)
 
-
-External to this, site we're involved in:
+External to this, fourscoreandmore is involved in a number of other projects including:
 * "TiLiA", the [TimeLine Annotator](https://tilia-app.com/).
 
 
