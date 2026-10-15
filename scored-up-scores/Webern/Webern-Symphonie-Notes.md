@@ -9,7 +9,7 @@ _Part of [Scored-up Scores](/scored-up-scores)._
 
 In brief:
 - Movement 1 of Webern's _Symphonie_ (op.21) is a large double canon.
-- An extract from the opening is provided in [the interactive score here](/scored-up-scores/Webern-Symphonie.html).
+- An extract from the opening is provided in [the interactive score here](./Webern-Symphonie.html).
 - (Note: that extract is neither a complete movement, nor has very musical symbol for mutes etc.
 It is for pedagogical purposes, not performance.)
 - This page provides some complementary notes
