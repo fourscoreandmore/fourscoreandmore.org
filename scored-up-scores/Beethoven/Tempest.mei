@@ -559,6 +559,7 @@
                         </layer>
                         <layer xml:id="m11s2l2" n="2">
                            <note xml:id="nqptvyj" dur="4" pname="d" oct="4" stem.dir="down" />
+                           <clef xml:id="cv5rh83b" shape="F" line="4" />
                            <note xml:id="nnl2ajq" dur="4" pname="d" oct="3" stem.dir="down" />
                            <note xml:id="n1lgfr07" dur="2" pname="e" oct="3" stem.dir="down" />
                         </layer>
