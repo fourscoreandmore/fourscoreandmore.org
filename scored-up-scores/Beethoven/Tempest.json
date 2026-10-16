@@ -1,0 +1,1106 @@
+{
+  "version": 1,
+  "default": "staggered",
+  "defaultScore": "Tempest.mei",
+  "views": [
+    {
+      "id": "staggered",
+      "group": "change",
+      "title": "Staggered change",
+      "question": "One chord change, spread across the voices?",
+      "summary": "The bass move (A to B♭) comes first, then the upper voices follow (C♯–E to D–F). In this view, the momentary C♯–E over B♭ is mere 'coincident': C♯–E still 'belongs' to the A harmony.",
+      "details": [
+        "The colour groups describe a possible harmonic connection across time despite the fact that the relevant notes do not sound together.",
+        "Compare with 'Neighbouring motion': the same notes can support a more local account of the B♭ arrival."
+      ],
+      "legend": [
+        "A harmony / departing pitches",
+        "B♭ harmony / arriving pitches",
+        ""
+      ],
+      "targets": [
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A2",
+            "A3"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "A1"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 63,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 63,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "C#4",
+            "E4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 64,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D4",
+            "F4"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "Bass moves first"
+        },
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "Upper voices arrive"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "A major (V in d or tonic major in a)"
+        },
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "B♭ (VI in d or ♭II Neapolitan in a)"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "neighbour",
+      "group": "change",
+      "title": "Neighbouring motion",
+      "question": "What if B♭ is already the harmony?",
+      "summary": "Keep B♭ as the common tone and follow C♯→D and E→F. The two semitone approaches decorate the arrival of the B♭ triad.",
+      "details": [
+        "B♭–C♯–E can be read as an incomplete common-tone diminished seventh: C♯–E–[G]–B♭. G is implied, not written.",
+        "This does not erase the connection with A: C♯ and E also belong to that harmony. The question is which relationship best explains this moment."
+      ],
+      "legend": [
+        "Semitone approaches: C♯ and E",
+        "Goals: D and F",
+        "Common tone: B♭"
+      ],
+      "targets": [
+        {
+          "bar": 63,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "C#4",
+            "E4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 64,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D4",
+            "F4"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "C♯–E approach D–F"
+        },
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "B♭ is retained"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "CT°7? (G omitted)"
+        },
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "B♭ triad (key reading as before)"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "leading",
+      "group": "return",
+      "title": "Leading-note reading",
+      "question": "Does G♯–D–F lead back to A?",
+      "summary": "G♯ rises to A as D–F give way to C♯–E. This supports an incomplete leading-note seventh chord, with B♮ as its missing third.",
+      "details": [
+        "With a as a reference key: vii°7 → I, with a major tonic.",
+        "If the key is d, then similarly vii°7/V → V.",
+        "The absence of B♮ is significant: thirds are generally needed, especially if the B♮ would cancel the prevailing B♭.",
+        "The A2 bass note between B♭ and G♯ is passing motion and also supports a passing 6/4 sonority (iv64 in d or i64 in a)."
+      ],
+      "legend": [
+        "G♯–D–F: approach to A",
+        "Return to A–C♯–E",
+        "B♭–A: the preceding bass motion"
+      ],
+      "targets": [
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "A1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "G#1"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 64,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "F4",
+            "D5"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 65,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 65,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "E4",
+            "C#5"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "B♮ missing (perhaps subtly 'implied'?)"
+        },
+        {
+          "bar": 65,
+          "q": 1,
+          "text": "Return to A"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "vii°7/V in d or vii°7 in a"
+        },
+        {
+          "bar": 65,
+          "q": 1,
+          "text": "V in d or tonic major in a"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "sixth",
+      "group": "return",
+      "title": "Augmented-sixth reading",
+      "question": "Might the earlier B♭ remain operative?",
+      "summary": "An implied B♭ with D–F–G♯ gives the German augmented-sixth collection directed toward A. Here B♭ and G♯ occur successively in the bass.",
+      "details": [
+        "The B♭ ends before G♯ begins, they don't sound together;",
+        "Neither, however is the B♭ cancelled by a B♮ which we might otherwise reasonably expect (cf the leading-note reading of G♯–D–F with no third).",
+        "This view, Augmented-sixth (diminished third) reading would certainly have a bearing on key choice."
+      ],
+      "legend": [
+        "Written G♯–D–F",
+        "Return to A",
+        "Earlier B♭, recalled by this reading"
+      ],
+      "targets": [
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "A1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "G#1"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 64,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "F4",
+            "D5"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 65,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 65,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "E4",
+            "C#5"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "B♭ earlier; G♯ later"
+        },
+        {
+          "bar": 65,
+          "q": 1,
+          "text": "A is the goal"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "Ger+65 (inverted)."
+        },
+        {
+          "bar": 65,
+          "q": 1,
+          "text": "V in d more likely with this view?"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "repeat",
+      "group": "repeat",
+      "title": "Repetition",
+      "question": "What survives the changes of register?",
+      "summary": "The same B♭ bass and C♯–E to D–F approach recur in 63–64, 65–66 and 67–68. Later notes move through different registers. Whatever opening relationships and ambiguitities we have persist here.",
+      "details": [
+        "Matching colours identify corresponding musical events in each two-bar unit.",
+        "The first two units return to A. The third begins the same way, then takes a different path at the end of m.68."
+      ],
+      "legend": [
+        "C♯–E approaches",
+        "D–F arrivals",
+        "Retained B♭"
+      ],
+      "targets": [
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 63,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "C#4",
+            "E4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 64,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 64,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D4",
+            "F4"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 65,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 65,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "C#4",
+            "E4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 66,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 66,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D4",
+            "F4"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 67,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 67,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "C#4",
+            "E4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 68,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "Bb1"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 68,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D4",
+            "F4"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "First statement"
+        },
+        {
+          "bar": 65,
+          "q": 1,
+          "text": "Repetition"
+        },
+        {
+          "bar": 67,
+          "q": 1,
+          "text": "Same opening…"
+        },
+        {
+          "bar": 69,
+          "q": 1,
+          "text": "…different continuation"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 64,
+          "q": 1,
+          "text": "VI or ♭II (as before)"
+        },
+        {
+          "bar": 66,
+          "q": 1,
+          "text": "VI or ♭II (as before)"
+        },
+        {
+          "bar": 68,
+          "q": 1,
+          "text": "VI or ♭II (as before)"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "departure",
+      "group": "departure",
+      "title": "Changed continuation",
+      "question": "What changes when G♯ falls to G?",
+      "summary": "D and F are tied into m.69 while the bass falls from G♯ to G♮. The B♮ later in that measure establishes the third of G7, leading into C major in m.70.",
+      "details": [
+        "Here the upper voices stay and the bass moves. In 63–64 the bass B♭ stays while both upper voices move.",
+        "The comparison between this clear diminished-to-dominant move perhaps raises the case for corresponding reading from m.63."
+      ],
+      "legend": [
+        "Bass change: G♯ to G♮",
+        "B♮ and the arrival in C",
+        "Tied common tones: D and F"
+      ],
+      "targets": [
+        {
+          "bar": 68,
+          "staff": 2,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "G#1"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 69,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "G1"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 68,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "D6",
+            "F6"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 69,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "D6",
+            "F6"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 69,
+          "staff": 2,
+          "layer": 1,
+          "q": 3,
+          "pitches": [
+            "B1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 69,
+          "staff": 2,
+          "layer": 1,
+          "q": 4.5,
+          "pitches": [
+            "B1"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 69,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "D5",
+            "F5"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 70,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "C2"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 70,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "C5",
+            "E5"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 68,
+          "q": 1,
+          "text": "D–F tied"
+        },
+        {
+          "bar": 69,
+          "q": 1,
+          "text": "G♯ falls to G♮"
+        },
+        {
+          "bar": 70,
+          "q": 1,
+          "text": "Arrival in C"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 68,
+          "q": 1,
+          "text": "G♯–D–F"
+        },
+        {
+          "bar": 69,
+          "q": 1,
+          "text": "C: V7 → V6/5"
+        },
+        {
+          "bar": 70,
+          "q": 1,
+          "text": "C: I"
+        }
+      ],
+      "range": [
+        63,
+        70
+      ],
+      "requiredBars": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "context",
+      "group": "context",
+      "title": "Cadential context",
+      "question": "A clear cadence, an understated arrival",
+      "summary": "The PAC in m.63 is clear but its rhetorical strength is understated beside the stronger dominant of mm.52–54, whose 'resolution' in m.55 begins with C alone before the (still not very conclusive A-minor in 6/3.",
+      "details": [
+        "Caplin is right to see m.63 as a perfect authentic cadence in the subordinate key.",
+        "The issue explore here is the contrast in cadence emphasis, as part of the wider ambiguity at play here.",
+        "A local arrival in a minor can coexist with a strong reminder of d in what follows.",
+        "This ambiguity is another possible sleight of hand in a piece notorious for such effects."
+      ],
+      "legend": [
+        "Dominant evidence and the approach to m.63",
+        "Articulated tonic / cadential arrival",
+        "m.55 begins on C alone"
+      ],
+      "targets": [
+        {
+          "bar": 52,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "E3",
+            "B3",
+            "D4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 52,
+          "staff": 1,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "G#5"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 53,
+          "staff": 1,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "G#4"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 54,
+          "staff": 1,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "G#3"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 55,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "C3"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 55,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "C2"
+          ],
+          "role": 3
+        },
+        {
+          "bar": 55,
+          "staff": 1,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "C3",
+            "E3",
+            "A3"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 55,
+          "staff": 2,
+          "layer": 1,
+          "q": 2,
+          "pitches": [
+            "C2",
+            "E2",
+            "A2"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 62,
+          "staff": 1,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "E4",
+            "E5"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 62,
+          "staff": 2,
+          "layer": 1,
+          "q": 4,
+          "pitches": [
+            "G#3",
+            "B3"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 62,
+          "staff": 2,
+          "layer": 2,
+          "q": 3,
+          "pitches": [
+            "E3"
+          ],
+          "role": 1
+        },
+        {
+          "bar": 63,
+          "staff": 1,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A4"
+          ],
+          "role": 2
+        },
+        {
+          "bar": 63,
+          "staff": 2,
+          "layer": 1,
+          "q": 1,
+          "pitches": [
+            "A2",
+            "A3"
+          ],
+          "role": 2
+        }
+      ],
+      "callouts": [
+        {
+          "bar": 52,
+          "q": 1,
+          "text": "Dominant of a"
+        },
+        {
+          "bar": 55,
+          "q": 1,
+          "text": "C alone, then a 6/3"
+        },
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "Clear PAC; quieter rhetoric"
+        }
+      ],
+      "harmonies": [
+        {
+          "bar": 52,
+          "q": 1,
+          "text": "a: V"
+        },
+        {
+          "bar": 55,
+          "q": 1,
+          "text": "a: i6 (after the downbeat)"
+        },
+        {
+          "bar": 63,
+          "q": 1,
+          "text": "a: cadential I"
+        }
+      ],
+      "range": [
+        52,
+        63
+      ],
+      "requiredBars": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "id": "full",
+      "group": "full",
+      "title": "Full extract",
+      "question": "The passage in context",
+      "summary": "The complete supplied extract, mm.52–70. Choose a discussion point to return to the highlighted comparison.",
+      "details": [
+        "Existing analytical labels in the source MEI are omitted from the display. The optional labels belong to the selected reading."
+      ],
+      "legend": [
+        "",
+        "",
+        ""
+      ],
+      "targets": [],
+      "callouts": [],
+      "harmonies": [],
+      "range": [
+        52,
+        70
+      ],
+      "requiredBars": [
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    }
+  ],
+  "navigation": [
+    {
+      "group": "change",
+      "label": "A staggered arrival?",
+      "description": "mm.63–64: Two ways to hear the change"
+    },
+    {
+      "group": "return",
+      "label": "The way back to A",
+      "description": "mm.64–65: What belongs to the chord?"
+    },
+    {
+      "group": "repeat",
+      "label": "Hear it again",
+      "description": "mm.63–68: Repetition and register"
+    },
+    {
+      "group": "departure",
+      "label": "A different continuation",
+      "description": "mm.68–70: From G♯ to G, then C"
+    }
+  ]
+}

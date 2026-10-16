@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tempest — hearing the ambiguity</title>
+<style>
+:root{--ink:#252a31;--muted:#687079;--paper:#faf9f6;--line:#dedfdc;--rose:#a32e50;--teal:#007565;--gold:#926000;--accent:#274944;--soft:#edf2ef;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper)}
+*{box-sizing:border-box}body{margin:0}button,input{font:inherit}button,.file-label{cursor:pointer}button{color:inherit;background:white;border:1px solid var(--line);border-radius:7px;padding:.6rem .85rem}button:hover,.file-label:hover{border-color:#879991;background:#f3f6f3}button:disabled{opacity:.5;cursor:wait}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:3px solid #cc8e34;outline-offset:3px}a{color:var(--accent)}[hidden]{display:none!important}
+.top{max-width:1510px;margin:auto;padding:32px 38px 23px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:24px;align-items:end}.eyebrow{font-size:11px;font-weight:750;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}h1{font:500 clamp(30px,3.1vw,44px)/1.12 Georgia,serif;margin:0;letter-spacing:-.035em}h1 span{color:var(--muted);font-weight:400}.subtitle{margin:12px 0 0;color:var(--muted);font-size:14px}.prototype{font-size:11px;border:1px solid #bdc9c2;border-radius:20px;padding:6px 10px;white-space:nowrap;letter-spacing:.05em;color:var(--accent)}
+.layout{display:grid;grid-template-columns:330px minmax(0,1fr);max-width:1510px;margin:auto;gap:34px;padding:28px 38px 45px}.sidebar{align-self:start;position:sticky;top:22px}.step-list{display:grid;gap:8px}.step{display:flex;gap:12px;text-align:left;padding:13px 12px;background:transparent;border:1px solid transparent}.step small{font-size:11px;display:block;color:var(--muted);font-weight:400;margin-top:4px}.step b{font-size:14px;font-weight:650}.step .num{font-size:12px;color:var(--muted);padding-top:2px;min-width:19px}.step[aria-pressed=true]{border-color:#b5c8be;background:var(--soft)}.step[aria-pressed=true] .num{color:var(--teal)}.context-button{margin-top:20px;width:100%;text-align:left;font-size:13px}.reading{margin-top:24px;border-top:1px solid var(--line);padding-top:22px}.reading h2{font:500 25px/1.22 Georgia,serif;margin:0 0 14px;letter-spacing:-.02em}.reading p{font-size:14px;line-height:1.65;margin:12px 0}.modes{display:flex;flex-wrap:wrap;gap:6px;margin:18px 0}.modes button{font-size:12px;padding:8px 10px}.modes button[aria-pressed=true]{background:var(--accent);color:white;border-color:var(--accent)}.detail{font-size:13px;color:var(--muted);line-height:1.6}.detail p{font-size:13px}.legend{display:grid;gap:9px;margin:20px 0 0;font-size:12px;line-height:1.5}.legend-item{display:flex;gap:9px;align-items:start}.swatch{width:9px;height:9px;border-radius:50%;flex:0 0 9px;margin-top:5px}.swatch.r1{background:var(--rose)}.swatch.r2{background:var(--teal)}.swatch.r3{background:var(--gold)}.source-link{font-size:12px}
+.score-column{min-width:0}.score-toolbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin:0 0 16px}.range{font-size:13px;font-weight:650}.toggles{display:flex;flex-wrap:wrap;gap:14px;font-size:12px;align-items:center}.toggles label{display:flex;gap:5px;align-items:center;cursor:pointer}input[type=checkbox]{accent-color:var(--accent);width:15px;height:15px}.plain{border:0;background:transparent;text-decoration:underline;text-underline-offset:3px;padding:3px;font-size:12px}.score-shell{background:white;border:1px solid var(--line);border-radius:10px;overflow:hidden;box-shadow:0 4px 20px #1b3e3105}.score-heading{padding:18px 22px 10px;display:flex;justify-content:space-between;gap:12px;align-items:center}.score-heading strong{font:500 17px Georgia,serif}.score-heading span{font-size:11px;color:var(--muted)}.score-scroll{overflow-x:auto;padding:8px 12px 22px}#score{min-width:650px}#score>svg{width:100%;height:auto;display:block}#score text{font-family:Georgia,serif}#score .note{transition:opacity .16s}#score.has-colour .note:not(.role-1):not(.role-2):not(.role-3){opacity:.45}#score .role-1,#score .role-1 *{color:var(--rose)!important;fill:var(--rose)!important}#score .role-2,#score .role-2 *{color:var(--teal)!important;fill:var(--teal)!important}#score .role-3,#score .role-3 *{color:var(--gold)!important;fill:var(--gold)!important}#score .note [fill=none]{fill:none!important}#score .role-1 [stroke]{stroke:var(--rose)!important}#score .role-2 [stroke]{stroke:var(--teal)!important}#score .role-3 [stroke]{stroke:var(--gold)!important}#score.hide-callouts [id^=analysis-callout-],#score.hide-harmony [id^=analysis-harmony-]{visibility:hidden}#score [id^=analysis-callout-]{fill:#536b62;color:#536b62}#score [id^=analysis-harmony-]{fill:#6d5267;color:#6d5267}
+.score-footer{padding:12px 20px;border-top:1px solid #eeefec;color:var(--muted);font-size:11px;line-height:1.6}.status{font-size:12px;color:var(--muted);line-height:1.5;margin:14px 0 0}.warning{font-size:12px;color:#7b4324;background:#fff2e7;border:1px solid #e1c0a8;padding:12px 14px;border-radius:6px;line-height:1.5;margin-bottom:14px}.warning ul{padding-left:20px;margin-bottom:0}.files{margin-top:26px;border-top:1px solid var(--line);padding-top:18px;font-size:12px;color:var(--muted)}.files summary{cursor:pointer;color:var(--ink);font-weight:600}.file-actions{display:flex;gap:9px;flex-wrap:wrap;margin:14px 0}.file-label{display:inline-block;border:1px solid var(--line);background:white;border-radius:7px;padding:9px 12px;color:var(--ink)}.file-label:focus-within{outline:3px solid #cc8e34}.file-input{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}.files button{font-size:12px}.files p{max-width:760px;line-height:1.65}code{font-size:12px}.foot{max-width:1510px;padding:0 38px 28px;margin:auto;color:var(--muted);font-size:11px;line-height:1.7}
+@media(min-width:1500px){.layout{grid-template-columns:350px minmax(0,1fr)}}@media(max-width:950px){.layout{grid-template-columns:1fr;padding:22px;gap:24px}.top{padding:24px 22px}.sidebar{position:static}.step-list{grid-template-columns:repeat(2,minmax(0,1fr))}.reading{margin-top:18px;padding-top:18px}.context-button{width:auto;margin-top:12px}.reading h2{font-size:25px}.reading p{max-width:820px}.legend{display:flex;flex-wrap:wrap;gap:12px 22px}.reading .detail{max-width:820px}.foot{padding:0 22px 22px}}@media(max-width:520px){.top{align-items:start;gap:10px}.prototype{font-size:9px;padding:5px 7px}.top h1 span{display:block;font-size:25px;margin-top:4px}.step{padding:10px 7px;gap:8px}.step b{font-size:12px}.step small{font-size:10px}.layout{padding:18px 14px}.score-heading{padding:16px}.toggles{gap:10px}.score-scroll{padding-left:4px;padding-right:4px}.score-heading span{display:none}}@media print{.top{padding-top:0}.layout{display:block;padding:15px}.sidebar{position:static}.step-list,.modes,.context-button,.files,.score-toolbar,.prototype{display:none}.score-shell{border:0;box-shadow:none}.reading{border:0}.score-scroll{overflow:visible}#score{min-width:0}.foot{display:none}}
+.url-row{display:flex;gap:8px;margin:7px 0 12px}.url-row input{flex:1;min-width:0;border:1px solid var(--line);border-radius:7px;padding:9px;font:inherit;color:var(--ink);background:white}.status,.warning{overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere}#score:empty{min-height:100px}
+</style></head><body>
+<header class="top"><div><p class="eyebrow">fourscoreandmore.org presents</p><h1>Tempestuous Ambiguity!</span></h1><p class="subtitle">Compare harmonic readings of a fascinatingly ambiguous passage of Beethoven's Piano Sonata op.31 no.2, movement I.</p></div><span class="prototype">PROTOTYPE 02</span></header>
+<main class="layout">
+ <aside class="sidebar" aria-label="Guided analysis">
+  <nav id="step-list" class="step-list" aria-label="Discussion points"></nav>
+  <button id="context-button" class="context-button" data-view="context">↗ Cadential context · 52–63</button>
+  <section class="reading" aria-live="polite" aria-atomic="true"><p class="eyebrow" id="reading-tag"></p><h2 id="question"></h2><div class="modes" id="modes" aria-label="Compare readings"></div><p id="summary"></p><div class="legend" id="legend"></div><div class="detail" id="detail"></div><p id="caplin" class="source-link" hidden><a href="https://mtosmt.org/issues/mto.10.16.2/mto.10.16.2.caplin.html" target="_blank" rel="noopener">Caplin: “Beethoven’s Tempest Exposition,” §12 ↗</a></p></section>
+ </aside>
+ <section class="score-column" aria-label="Annotated score">
+  <div class="score-toolbar"><span class="range" id="range"></span><div class="toggles"><label><input id="colours" type="checkbox" checked>Colours</label><label><input id="callouts" type="checkbox" checked>On-score notes</label><label><input id="harmonies" type="checkbox">Harmonic labels</label><button id="full-button" class="plain" data-view="full">Full extract</button></div></div>
+  <div id="warning" class="warning" role="alert" hidden></div>
+  <div class="score-shell"><div class="score-heading"><strong>Ludwig van Beethoven</strong><span>Sonata in D minor · Allegro · 2/2</span></div><div class="score-scroll"><div id="score" class="hide-harmony" aria-label="Piano score with selectable annotations"></div></div><div class="score-footer">Colour describes the selected reading. Implied notes are named in the explanation; they are never added to the notation. <span id="scroll-hint">On a narrow screen, scroll the score sideways.</span></div></div>
+  <p id="status" class="status" role="status"></p>
+  <details id="file-tools" class="files"><summary>Load files or an analysis URL</summary>
+   <div class="file-actions"><label class="file-label">Load files<input id="local-files" class="file-input" type="file" multiple accept=".json,.mei,.xml,application/json,application/xml,text/xml"></label><button id="reload-default">Reload default files</button></div>
+   <form id="url-form"><label for="analysis-url">Analysis JSON URL</label><div class="url-row"><input id="analysis-url" type="text" spellcheck="false" placeholder="Tempest.json or https://…/analysis.json"><button type="submit">Load URL</button></div></form>
+   <p>When hosted, this viewer loads <code>Tempest.json</code> beside the HTML. Its <code>defaultScore</code> names the MEI; relative paths are resolved against the JSON’s URL. A remote host must allow cross-origin requests (CORS).</p>
+   <p>For local files, choose the JSON and MEI together using <strong>Load files</strong>, or select them one after the other. Automatic loading works when the folder is served over HTTP. From that folder, run:</p><pre>python3 -m http.server 8000 --bind 127.0.0.1</pre><p>Then open <a href="http://127.0.0.1:8000/Tempest.html">http://127.0.0.1:8000/Tempest.html</a>.</p>
+   <p>Edit musical notation in the MEI and edit questions, note targets, navigation and labels in the JSON. Reload to see changes. Internet access is needed for Verovio 6.3.0. No older score or analysis is silently substituted if loading fails.</p>
+  </details>
+ </section>
+</main><footer class="foot">An exploratory reading of Beethoven’s “Tempest,” mm.52–70. Roman numerals use the stated reference key; they do not settle the larger tonal interpretation.</footer>
+<script id="core-script">/* Musical addresses are measure + staff + layer + quarter-note position + pitch.
+   XML IDs are resolved afresh for every score. No authored annotation stores an ID. */
+(function (root) {
+  'use strict';
+  const NS='http://www.music-encoding.org/ns/mei', XML='http://www.w3.org/XML/1998/namespace';
+  const all=(n,t)=>Array.from(n.getElementsByTagNameNS(NS,t));
+  const id=n=>n.getAttributeNS(XML,'id');
+  const anc=(n,t)=>{for(let p=n.parentElement;p;p=p.parentElement)if(p.localName===t)return p;};
+  function parse(text) {
+    const doc=new DOMParser().parseFromString(text,'application/xml');
+    if(doc.querySelector('parsererror')||doc.documentElement.localName!=='mei'||doc.documentElement.namespaceURI!==NS)throw Error('Please choose a valid MEI score.');
+    const ids=new Set();let serial=0;
+    for(const el of all(doc,'*')){const v=id(el);if(v&&ids.has(v))throw Error('Duplicate XML ID: '+v);if(v)ids.add(v);}
+    for(const el of [...all(doc,'note'),...all(doc,'measure')])if(!id(el)){let v;do{v='tempest-auto-'+(++serial);}while(ids.has(v));el.setAttributeNS(XML,'xml:id',v);ids.add(v);}
+    const measures=all(doc,'measure'), numbers=measures.map(m=>m.getAttribute('n'));
+    if(new Set(numbers).size!==numbers.length)throw Error('Repeated measure numbers need distinct labels before analysis can be matched.');
+    if(all(doc,'tuplet').length||all(doc,'note').some(n=>n.hasAttribute('grace')))throw Error('This prototype does not yet match tuplets or grace notes. The current score is retained.');
+    const events=[];
+    for(const measure of measures){
+      for(const staff of Array.from(measure.children).filter(e=>e.localName==='staff')){
+        const pending=[];
+        for(const layer of Array.from(staff.children).filter(e=>e.localName==='layer')){
+          let offset=0;
+          const walk=parent=>{for(const e of parent.children){
+            if(['beam','tuplet'].includes(e.localName)){walk(e);continue;}
+            if(!['note','chord','rest','space','mRest','mSpace'].includes(e.localName))continue;
+            const dur=e.getAttribute('dur');
+            let length=dur?4/Number(dur):4;
+            if(!Number.isFinite(length)||length<=0)throw Error('Unsupported duration in measure '+measure.getAttribute('n'));
+            length*=2-Math.pow(.5,Number(e.getAttribute('dots')||0));
+            const notes=e.localName==='note'?[e]:Array.from(e.children).filter(n=>n.localName==='note');
+            for(const n of notes)pending.push({node:n,id:id(n),bar:Number(measure.getAttribute('n')),staff:Number(staff.getAttribute('n')),layer:Number(layer.getAttribute('n')||1),q:offset+1,duration:length});
+            offset+=length;
+          }};walk(layer);
+        }
+        const def=all(doc,'staffDef').find(d=>d.getAttribute('n')===staff.getAttribute('n'));
+        const sig=def?.getAttribute('keysig')||all(doc,'scoreDef')[0]?.getAttribute('keysig')||'0';
+        const key=new Map(), order=sig.endsWith('f')?'beadgcf':'fcgdaeb';
+        for(const p of order.slice(0,parseInt(sig,10)||0))key.set(p,sig.endsWith('f')?'b':'#');
+        const state=new Map();
+        for(const event of pending.sort((a,b)=>a.q-b.q||a.layer-b.layer)){
+          const n=event.node, a=all(n,'accid')[0], p=n.getAttribute('pname'), oct=n.getAttribute('oct');
+          const explicit=n.getAttribute('accid.ges')||a?.getAttribute('accid.ges')||n.getAttribute('accid')||a?.getAttribute('accid');
+          const signs={s:'#',f:'b',n:'',ss:'##',ff:'bb',x:'##'};
+          if(explicit&&!Object.hasOwn(signs,explicit))throw Error('Unsupported accidental: '+explicit);
+          if(explicit)state.set(p+oct,signs[explicit]);
+          event.pitch=p.toUpperCase()+(state.has(p+oct)?state.get(p+oct):(key.get(p)||''))+oct;
+          events.push(event);
+        }
+      }
+    }
+    return {doc,events,measures,text};
+  }
+  function resolve(model,view){
+    const roles=new Map(),errors=[];
+    for(const target of view.targets||[]){
+      for(const pitch of target.pitches){
+        const hits=model.events.filter(e=>e.bar===target.bar&&e.staff===target.staff&&e.layer===(target.layer||1)&&Math.abs(e.q-target.q)<1e-7&&e.pitch===pitch);
+        if(hits.length!==1)errors.push('m.'+target.bar+', staff '+target.staff+', quarter position '+target.q+': '+pitch+' '+(hits.length?'is ambiguous':'was not found'));
+        else roles.set(hits[0].id,target.role);
+      }
+    }
+    for(const bar of view.requiredBars||[])if(!model.measures.some(m=>Number(m.getAttribute('n'))===bar))errors.push('Measure '+bar+' is missing');
+    return {roles:errors.length?new Map():roles,errors};
+  }
+  function prepare(model,view){
+    const doc=model.doc.cloneNode(true), resolved=resolve(model,view);
+    for(const h of all(doc,'harm'))h.remove(); // Existing analytical labels remain in the downloadable source.
+    const measures=all(doc,'measure'), first=view.range[0],last=view.range[1];
+    // A cropped excerpt inherits clefs from the preceding music.
+    for(const m of measures){if(Number(m.getAttribute('n'))>=first)break;
+      for(const clef of all(m,'clef')){const sn=anc(clef,'staff')?.getAttribute('n');const def=all(doc,'staffDef').find(d=>d.getAttribute('n')===sn);if(def){for(const c of all(def,'clef'))c.remove();const copy=clef.cloneNode(true);copy.removeAttributeNS(XML,'id');def.append(copy);}}
+    }
+    for(const m of measures)if(Number(m.getAttribute('n'))<first||Number(m.getAttribute('n'))>last)m.remove();
+    const retained=new Set(all(doc,'*').map(id).filter(Boolean));
+    for(const e of all(doc,'*'))if(['startid','endid'].some(a=>e.hasAttribute(a)&&!retained.has(e.getAttribute(a).replace(/^#/,''))))e.remove();
+    for(const e of [...all(doc,'sb'),...all(doc,'pb')])e.remove();
+    if(!resolved.errors.length)for(const [kind,list] of [['callout',view.callouts],['harmony',view.harmonies]]){
+      for(const [i,label] of (list||[]).entries()){
+        const measure=all(doc,'measure').find(m=>Number(m.getAttribute('n'))===label.bar);if(!measure)continue;
+        const el=doc.createElementNS(NS,'dir');el.setAttributeNS(XML,'xml:id','analysis-'+kind+'-'+i);
+        el.setAttribute('staff',kind==='harmony'?'2':'1');el.setAttribute('place',kind==='harmony'?'below':'above');
+        const anchors=model.events.filter(e=>e.bar===label.bar&&Math.abs(e.q-(label.q||1))<1e-7);
+        const anchor=anchors.find(e=>e.staff===(kind==='harmony'?2:1))||anchors[0];
+        if(!anchor)continue;
+        el.setAttribute('startid','#'+anchor.id);
+        const rend=doc.createElementNS(NS,'rend');rend.setAttribute('fontsize','small');rend.textContent=label.text;el.append(rend);measure.append(el);
+      }
+    }
+    return new XMLSerializer().serializeToString(doc);
+  }
+  const options={pageWidth:1800,pageHeight:60000,scale:45,adjustPageHeight:true,breaks:'auto',header:'none',footer:'none',mnumInterval:1,svgViewBox:true,spacingSystem:22};
+  function render(toolkit,model,view){
+    toolkit.setOptions(options);if(!toolkit.loadData(prepare(model,view)))throw Error('Verovio could not engrave this MEI.');if(toolkit.getPageCount()!==1)throw Error('This excerpt is too long for the prototype’s continuous score.');
+    const svg=new DOMParser().parseFromString(toolkit.renderToSVG(1),'image/svg+xml');
+    // Keep bar numbers above ledger-line notes in the high-register continuation.
+    for(const system of svg.querySelectorAll('.system')){
+      const ys=Array.from(system.querySelectorAll('.notehead use')).map(n=>Number((n.getAttribute('transform')||'').match(/translate\([^,]+,\s*([\d.-]+)/)?.[1])).filter(Number.isFinite);
+      const calloutY=Array.from(system.querySelectorAll('[id^="analysis-callout-"] text')).map(n=>Number(n.getAttribute('y')));
+      if(ys.length)for(const text of system.querySelectorAll('.mNum text'))text.setAttribute('y',String(Math.max(0,Math.min(Number(text.getAttribute('y')),Math.min(...ys)-480,...calloutY.map(y=>y-450)))));
+      for(const label of system.querySelectorAll('[id^="analysis-harmony-"]'))label.setAttribute('transform','translate(0, 650)');
+    }
+    if(svg.querySelector('[id^="analysis-harmony-"]')){
+      const outer=svg.documentElement,inner=svg.querySelector('.definition-scale');
+      const a=outer.getAttribute('viewBox').split(' ').map(Number),b=inner.getAttribute('viewBox').split(' ').map(Number);
+      a[3]+=800*a[2]/b[2];b[3]+=800;outer.setAttribute('viewBox',a.join(' '));inner.setAttribute('viewBox',b.join(' '));
+    }
+    return new XMLSerializer().serializeToString(svg);
+  }
+  root.TempestCore={parse,resolve,prepare,render,options};
+})(typeof window==='undefined'?globalThis:window);
+</script>
+<script id="app-script">(function(){
+ 'use strict';
+ const $=id=>document.getElementById(id),C=window.TempestCore,DEFAULT_ANALYSIS='Tempest.json';
+ let config=null,model=null,choice=null,cache=Object.create(null),toolkit=null,enginePromise=null,busy=false,ticket=0;
+ let analysisName='',scoreName='',pendingConfig=null,pendingMEI=null;
+ const current=()=>config?.views.find(v=>v.id===choice);
+ const text=(id,value)=>{$(id).textContent=value;};
+ function status(message){text('status',message);}
+ function clearDisplay(message){
+  config=null;model=null;choice=null;cache=Object.create(null);$('score').replaceChildren();$('score').className='hide-harmony';
+  text('reading-tag','Load an example');text('question','Choose the score and its analysis');text('summary',message);
+  text('range','No score loaded');$('modes').replaceChildren();$('legend').replaceChildren();$('detail').replaceChildren();$('step-list').replaceChildren();
+  $('context-button').hidden=true;$('full-button').hidden=true;$('caplin').hidden=true;$('warning').hidden=true;
+ }
+ function failure(error){clearDisplay('The requested files have not been loaded.');text('warning',error.message||String(error));$('warning').hidden=false;$('file-tools').open=true;status('Choose the files below, or correct the analysis URL and retry.');}
+ function warn(messages){
+  const box=$('warning');box.replaceChildren();box.hidden=!messages.length;if(!messages.length)return;
+  const lead=document.createElement('strong');lead.textContent='Musical targets changed. ';box.append(lead,document.createTextNode('This reading’s highlights and on-score labels are withheld.'));
+  const list=document.createElement('ul');for(const msg of messages.slice(0,8)){const li=document.createElement('li');li.textContent=msg;list.append(li);}box.append(list);
+  if(messages.length>8)box.append(document.createTextNode('And '+(messages.length-8)+' more mismatches.'));
+ }
+ function validate(data){
+  const bad=message=>{throw Error('Analysis JSON: '+message);};
+  if(!data||data.version!==1)bad('expected schema version 1.');
+  if(typeof data.defaultScore!=='string'||!data.defaultScore.trim())bad('defaultScore must name the MEI file or its URL.');
+  if(!Array.isArray(data.views)||!data.views.length||data.views.length>50)bad('views must contain 1–50 readings.');
+  const ids=new Set();
+  for(const v of data.views){
+   if(!v||typeof v.id!=='string'||!v.id||ids.has(v.id))bad('each reading needs a unique id.');ids.add(v.id);
+   for(const key of ['group','title','question','summary'])if(typeof v[key]!=='string')bad(v.id+': '+key+' must be text.');
+   if(!Array.isArray(v.range)||v.range.length!==2||!v.range.every(Number.isInteger)||v.range[0]>v.range[1])bad(v.id+': invalid measure range.');
+   for(const key of ['details','legend'])if(!Array.isArray(v[key])||v[key].some(x=>typeof x!=='string'))bad(v.id+': '+key+' must be an array of text.');
+   if(v.legend.length>3)bad(v.id+': use at most three colour roles.');
+   if(!Array.isArray(v.targets))bad(v.id+': targets must be an array.');
+   for(const t of v.targets){
+    if(!t||!Number.isInteger(t.bar)||!Number.isInteger(t.staff)||t.staff<1||!Number.isFinite(t.q)||t.q<1||![1,2,3].includes(t.role)||!Array.isArray(t.pitches)||!t.pitches.length||t.pitches.some(p=>typeof p!=='string'||!/^[A-G](?:##|bb|#|b)?-?\d+$/.test(p))||(t.layer!==undefined&&(!Number.isInteger(t.layer)||t.layer<1)))bad(v.id+': invalid note target.');
+   }
+   if(v.requiredBars!==undefined&&(!Array.isArray(v.requiredBars)||v.requiredBars.some(n=>!Number.isInteger(n))))bad(v.id+': invalid requiredBars.');
+   for(const key of ['callouts','harmonies'])if(v[key]!==undefined){if(!Array.isArray(v[key]))bad(v.id+': '+key+' must be an array.');for(const l of v[key])if(!l||!Number.isInteger(l.bar)||typeof l.text!=='string'||(l.q!==undefined&&(!Number.isFinite(l.q)||l.q<1)))bad(v.id+': invalid '+key+' label.');}
+  }
+  if(!ids.has(data.default))bad('default must name one of the readings.');
+  if(data.navigation!==undefined&&(!Array.isArray(data.navigation)||data.navigation.some(n=>!n||typeof n.group!=='string'||typeof n.label!=='string'||typeof n.description!=='string')))bad('invalid navigation entries.');
+  return data;
+ }
+ function parseJSON(source){let value;try{value=JSON.parse(source);}catch(e){throw Error('Invalid JSON: '+e.message);}return validate(value);}
+ function webURL(value,base){let url;try{url=new URL(value,base);}catch{throw Error('Invalid URL: '+value);}if(!['http:','https:'].includes(url.protocol))throw Error('Use an HTTP(S) URL, or choose local files with Load files.');return url;}
+ function safeSvg(svg){
+  const parsed=new DOMParser().parseFromString(svg,'image/svg+xml');if(parsed.querySelector('parsererror')||parsed.documentElement.localName!=='svg')throw Error('Invalid engraving.');
+  for(const n of parsed.querySelectorAll('script,foreignObject'))n.remove();for(const n of parsed.querySelectorAll('*'))for(const a of Array.from(n.attributes))if(a.name.toLowerCase().startsWith('on')||(a.localName==='href'&&!a.value.startsWith('#')))n.removeAttributeNode(a);
+  return document.importNode(parsed.documentElement,true);
+ }
+ function navigation(){
+  $('step-list').replaceChildren();
+  const groups=[...new Set(config.views.map(v=>v.group))].filter(g=>!['context','full'].includes(g));
+  for(const [i,group] of groups.entries()){
+   const v=config.views.find(v=>v.group===group),meta=config.navigation?.find(n=>n.group===group);
+   const b=document.createElement('button');b.className='step';b.dataset.view=v.id;b.dataset.group=group;
+   const num=document.createElement('span');num.className='num';num.textContent=String(i+1).padStart(2,'0');
+   const body=document.createElement('span'),title=document.createElement('b'),small=document.createElement('small');title.textContent=meta?.label||v.title;small.textContent=meta?.description||v.range.join('–');body.append(title,small);b.append(num,body);$('step-list').append(b);
+  }
+  for(const [id,group] of [['context-button','context'],['full-button','full']]){const view=config.views.find(v=>v.group===group);$(id).hidden=!view;if(view)$(id).dataset.view=view.id;}
+ }
+ function decorate(){
+  if(!model||!current())return;
+  const resolved=C.resolve(model,current()),output=$('score');
+  output.classList.toggle('hide-callouts',!$('callouts').checked||resolved.errors.length>0);output.classList.toggle('hide-harmony',!$('harmonies').checked||resolved.errors.length>0);
+  output.classList.toggle('has-colour',$('colours').checked&&resolved.roles.size>0);
+  for(const n of output.querySelectorAll('.note')){n.classList.remove('role-1','role-2','role-3');const role=resolved.roles.get(n.id);if(role&&$('colours').checked)n.classList.add('role-'+role);}
+  warn(resolved.errors);
+ }
+ function show(id){
+  if(busy||!config)return;const view=config.views.find(v=>v.id===id);if(!view)return;choice=id;
+  const matches=C.resolve(model,view);
+  try{
+   if(!cache[id]){
+    if(!model.measures.some(m=>{const n=Number(m.getAttribute('n'));return n>=view.range[0]&&n<=view.range[1];}))throw Error('This score has no measures in '+view.range.join('–')+'.');
+    cache[id]=C.render(toolkit,model,view);
+   }
+   $('score').replaceChildren(safeSvg(cache[id]));
+  }catch(error){$('score').replaceChildren();warn(matches.errors.length?matches.errors:[error.message]);status('Cannot display this reading. '+error.message);return;}
+  text('reading-tag',view.group==='context'?'Context · a secondary question':view.group==='full'?'Score overview':'Compare the evidence');
+  text('question',view.question);text('summary',view.summary);text('range','Measures '+view.range.join('–'));
+  $('detail').replaceChildren(...view.details.map(value=>{const p=document.createElement('p');p.textContent=value;return p;}));
+  $('legend').replaceChildren(...view.legend.flatMap((value,i)=>{if(!value)return [];const row=document.createElement('div');row.className='legend-item';const swatch=document.createElement('span');swatch.className='swatch r'+(i+1);swatch.setAttribute('aria-hidden','true');row.append(swatch,document.createTextNode(value));return [row];}));
+  const modes=config.views.filter(v=>v.group===view.group);$('modes').replaceChildren();if(modes.length>1)for(const mode of modes){const b=document.createElement('button');b.textContent=mode.title;b.dataset.view=mode.id;b.setAttribute('aria-pressed',String(mode.id===id));$('modes').append(b);}
+  for(const b of document.querySelectorAll('.step'))b.setAttribute('aria-pressed',String(b.dataset.group===view.group));$('context-button').setAttribute('aria-pressed',String(view.group==='context'));$('caplin').hidden=view.group!=='context';
+  decorate();status('Analysis: '+analysisName+' · Score: '+scoreName+' · '+model.measures.length+' measures'+(matches.errors.length?' · Review the target warning.':'.'));
+ }
+ function timeout(p,ms,message){let timer;return Promise.race([p,new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error(message)),ms);})]).finally(()=>clearTimeout(timer));}
+ async function engine(){
+  if(toolkit)return toolkit;if(enginePromise)return enginePromise;
+  enginePromise=(async()=>{for(const base of ['https://cdn.jsdelivr.net/npm/verovio@6.3.0/dist/','https://unpkg.com/verovio@6.3.0/dist/'])try{
+   const [factory,api]=await timeout(Promise.all([import(base+'verovio-module.mjs'),import(base+'verovio.mjs')]),20000,'Verovio download timed out.');
+   const mod=await timeout(factory.default(),20000,'Verovio initialization timed out.');toolkit=new api.VerovioToolkit(mod);return toolkit;
+  }catch{}throw Error('Could not load Verovio. Check your internet connection and retry.');})();
+  try{return await enginePromise;}finally{enginePromise=null;}
+ }
+ async function get(url,label){
+  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+  try{const response=await fetch(url,{signal:controller.signal,cache:'no-cache',credentials:'omit'});if(!response.ok)throw Error('HTTP '+response.status);
+   return {text:await response.text(),url:response.url||String(url)};
+  }catch(error){throw Error('Could not load '+label+' ('+url+'): '+(error.name==='AbortError'?'request timed out':error.message)+'. Check the URL and, for another website, its CORS settings.');}finally{clearTimeout(timer);}
+ }
+ async function commit(spec,score,mine){
+  const next=C.parse(score.text);await engine();if(mine!==ticket)return;
+  // Nothing is replaced until the chosen files are read and parsed successfully.
+  config=spec.data;model=next;choice=config.default;cache=Object.create(null);analysisName=spec.name;scoreName=score.name;busy=false;navigation();show(choice);
+ }
+ async function loadURL(value){
+  const mine=++ticket;pendingConfig=null;pendingMEI=null;busy=true;clearDisplay('Loading the requested analysis and its score…');status('Loading analysis…');
+  try{
+   const url=webURL(value,location.href),response=await get(url,'analysis JSON');if(mine!==ticket)return;
+   const data=parseJSON(response.text),jsonURL=webURL(response.url,url),scoreURL=webURL(data.defaultScore,jsonURL);
+   status('Loading '+scoreURL.href+'…');const score=await get(scoreURL,'MEI');if(mine!==ticket)return;
+   await commit({data,name:jsonURL.href},{text:score.text,name:score.url},mine);
+  }catch(error){if(mine===ticket)failure(error);}finally{if(mine===ticket)busy=false;}
+ }
+ const readFile=file=>new Promise((resolve,reject)=>{const r=new FileReader();r.onload=()=>resolve(String(r.result));r.onerror=()=>reject(Error('Could not read '+file.name));r.readAsText(file);});
+ async function chooseFiles(files){
+  if(!files.length)return;
+  const active=config?{data:config,name:analysisName}:null,mine=++ticket;busy=true;
+  try{
+   const items=await Promise.all(files.map(async file=>({name:file.name,text:await readFile(file)})));if(mine!==ticket)return;
+   const analyses=items.filter(f=>/\.json$/i.test(f.name)),scores=items.filter(f=>/\.(mei|xml)$/i.test(f.name));
+   if(analyses.length+scores.length!==items.length||analyses.length>1||scores.length>1)throw Error('Choose one JSON analysis and/or one MEI score.');
+   if(analyses.length)pendingConfig={data:parseJSON(analyses[0].text),name:analyses[0].name};
+   if(scores.length)pendingMEI=scores[0];
+   const spec=pendingConfig||(!analyses.length?active:null);
+   if(!spec){clearDisplay('MEI selected. Now choose its JSON analysis.');status('Waiting for the JSON file.');return;}
+   if(!pendingMEI){
+    if(/^https?:\/\//i.test(spec.data.defaultScore)){
+     status('Loading the MEI named by the selected JSON…');const result=await get(webURL(spec.data.defaultScore),'MEI');if(mine!==ticket)return;pendingMEI={text:result.text,name:result.url};
+    }else{
+     clearDisplay('Analysis selected. Choose '+spec.data.defaultScore+' with Load files to complete the pair.');status('Waiting for the MEI file. A selected local JSON has no browser-readable folder path.');return;
+    }
+   }
+   status('Rendering the selected files…');await commit(spec,pendingMEI,mine);if(mine===ticket){pendingConfig=null;pendingMEI=null;}
+  }catch(error){if(mine===ticket){pendingConfig=null;pendingMEI=null;failure(error);}}finally{if(mine===ticket)busy=false;}
+ }
+ document.addEventListener('click',e=>{const button=e.target.closest('[data-view]');if(button)show(button.dataset.view);});
+ for(const name of ['colours','callouts','harmonies'])$(name).addEventListener('change',decorate);
+ $('local-files').addEventListener('change',e=>{chooseFiles(Array.from(e.target.files));e.target.value='';});
+ $('url-form').addEventListener('submit',e=>{e.preventDefault();loadURL($('analysis-url').value.trim()||DEFAULT_ANALYSIS);});
+ $('reload-default').addEventListener('click',()=>{$('analysis-url').value=DEFAULT_ANALYSIS;loadURL(DEFAULT_ANALYSIS);});
+ document.addEventListener('keydown',e=>{if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName)||e.ctrlKey||e.metaKey||e.altKey||!config)return;const buttons=[...document.querySelectorAll('.step')];if(/^[1-9]$/.test(e.key))show(buttons[Number(e.key)-1]?.dataset.view);if(e.key==='0')show(config.views.find(v=>v.group==='full')?.id);});
+ const initial=new URL(location.href).searchParams.get('analysis');$('analysis-url').value=initial||DEFAULT_ANALYSIS;
+ if(initial||/^https?:$/.test(location.protocol))loadURL(initial||DEFAULT_ANALYSIS);
+ else{clearDisplay('Open Load files below and select Tempest.json and Tempest.mei together, or serve this folder locally for automatic loading.');$('file-tools').open=true;status('Local file mode · choose the JSON and MEI. Verovio requires internet access.');}
+ window.TempestApp={show,loadURL,chooseFiles,validate,get model(){return model;},get choice(){return choice;},get toolkit(){return toolkit;},get config(){return config;},get busy(){return busy;}};
+})();
+</script>
+</body></html>
