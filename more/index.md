@@ -15,6 +15,9 @@ On this site you can find:
 * [**Scored-up-scores**](../scored-up-scores):
 short score excerpts with annotations that can be engaged interactively.
 
+* [**Harp**](../harp):
+an interactive explored of harp pedal combinations and the resulting pitch classes.
+
 * [**Working in Harmony**](/working-in-harmony):
 automatic feedback on users' harmonic analyses.
 [Click here to use the app](/apps/working-in-harmony/)
