@@ -3,12 +3,6 @@
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
     <meiHead>
-        <fileDesc>
-            <titleStmt>
-                <title />
-            </titleStmt>
-            <pubStmt></pubStmt>
-        </fileDesc>
         <encodingDesc xml:id="encodingdesc-0000000400329023">
             <appInfo xml:id="appinfo-0000000514923887">
                 <application xml:id="application-0000000080991932" isodate="2018-10-23T15:49:22" version="2.0.0-dev-c0ae726">
