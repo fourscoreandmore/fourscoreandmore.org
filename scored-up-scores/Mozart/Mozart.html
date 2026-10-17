@@ -1,141 +1,393 @@
-<html>
-    <head>
-        <title>Marked-up Mozart</title>
-        <script src="https://www.verovio.org/javascript/4.3.1/verovio-toolkit.js" type="text/javascript" ></script>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript" ></script>
-        <script src="../javascript/basic-events.js" type="text/javascript" ></script>
-        <link rel="stylesheet" href="../css/tutorial.css" />
-    </head>
-    <body style="margin: 0px;">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Simple Building Blocks</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #20252b; background: #f4f4f0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main { max-width: 1320px; margin: auto; padding: 24px; }
+    h1 { margin: 0 0 7px; font: 600 clamp(24px, 3vw, 35px)/1.2 Georgia, serif; }
+    p { line-height: 1.5; }
+    .subtitle { margin: 0 0 20px; color: #62666c; }
+    .toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    button, input { font: inherit; }
+    button { padding: 9px 13px; border: 1px solid #b6bbc0; border-radius: 5px; background: white; color: inherit; cursor: pointer; }
+    button:disabled { opacity: .45; cursor: default; }
+    button:focus-visible, summary:focus-visible, input:focus-visible { outline: 3px solid #5285cc; outline-offset: 3px; }
+    button[data-choice] { border-top: 4px solid var(--colour, #62666c); }
+    button[aria-pressed="true"] { background: #e7ebef; border-bottom-color: #20252b; font-weight: 650; }
+    #explanation { min-height: 48px; margin-bottom: 10px; }
+    .navigation { padding: 12px 0; border-top: 1px solid #d5d8d9; }
+    .spacer { flex: 1; }
+    #status, #selection-status { font-size: 14px; color: #555e68; }
+    #selection-status { margin: 0 0 12px; }
+    #error, #warnings { padding: 12px 16px; background: #fff3d9; border-left: 4px solid #a55c00; line-height: 1.5; }
+    #error { background: #fff0ed; border-color: #b91c1c; }
+    #warnings ul { margin: 5px 0; padding-left: 20px; }
+    #score { overflow: auto; background: white; min-height: 130px; border: 1px solid #d9dcdf; }
+    #score svg { display: block; }
+    #score g.note.is-highlighted { fill: var(--highlight) !important; stroke: var(--highlight) !important; }
+    details { margin: 16px 0; }
+    summary { cursor: pointer; }
+    details p { margin: 10px 0; }
+    small { line-height: 1.5; color: #62666c; }
+    [hidden] { display: none !important; }
+    @media(max-width: 600px) { main { padding: 16px 12px; } .toolbar button { padding: 8px 10px; } }
+  </style>
+</head>
+<body>
+<main>
+  <header class="top"><div><p class="eyebrow">fourscoreandmore.org presents</p>
+  <h1>Simple Building Blocks in Mozart's "Sonata facile"</h1>
+  <p class="subtitle">The opening of this Mozart's Piano Sonata No. 16 (K.545) shows clear partimenti outlines.</p>
+    </header>
+  <div class="toolbar" aria-label="Choose an outline">
+    <button data-choice="0" aria-pressed="false" disabled>0: No highlights</button>
+    <button data-choice="1" style="--colour:#b91c1c" aria-pressed="true" disabled>1: C–B–C (treble mm.1–2; bass mm.3–4)</button>
+    <button data-choice="2" style="--colour:#15803d" aria-pressed="false" disabled>2: Prinner, mm.3–4</button>
+    <button data-choice="3" style="--colour:#1d4ed8" aria-pressed="false" disabled>3: Prinner, mm.5–8</button>
+  </div>
+  <p id="explanation">C–B–C in the treble in mm.1–2, answered in the bass in mm.3–4.</p>
+  <div class="toolbar navigation" aria-label="Score navigation">
+    <button id="previous" disabled aria-label="Previous page">←</button>
+    <span id="page-label">Page —</span>
+    <button id="next" disabled aria-label="Next page">→</button>
+    <span class="spacer"></span>
+    <button id="zoom-out" disabled aria-label="Zoom out">−</button>
+    <span id="zoom-label">50%</span>
+    <button id="zoom-in" disabled aria-label="Zoom in">+</button>
+  </div>
+  <p id="status" role="status" aria-live="polite">Starting…</p>
+  <p id="selection-status"></p>
+  <p id="error" role="alert" hidden></p>
+  <div id="warnings" role="status" hidden></div>
+  <div id="score" aria-label="Musical score" aria-busy="false"></div>
+  <details id="load-panel">
+    <summary>Load a score</summary>
+    <p id="load-help">The page loads Mozart.mei from its own folder. You can also choose an MEI file here.</p>
+    <label for="mei-file">MEI file:</label> <input id="mei-file" type="file" accept=".mei,.xml,application/xml,text/xml">
+    <button id="retry" hidden>Retry loading</button>
+    <p><small>Internet access is needed to load the notation engine. The selected score is read in your browser.</small></p>
+  </details>
+  <details>
+    <summary>About the outlines and controls</summary>
+    <p>Press 1, 2 or 3 to choose an outline; 0 clears it.
+      Use ←/→ for pages and +/− to zoom.
+      Highlights follow the notes when the score is resized.</p>
+    <p>The short Prinner traces A–G–F–E in the upper voice and F–E–D–C within the accompaniment.
+      The longer version sees one stage in each measure of mm.5–8.</p>
+  </details>
+</main>
 
-        <div id="help_overlay">
-            <p><big>Mozart, 'Sonata Facile', opening</big></p>
-            <br/>
-            <p> <b><font color="red">Press 1</font> </b> to highlight (in red) a C-B-C outline in the treble, then bass.</font></p>
-            <p> <b><font color="green"> Press 2</font> </b> to show the outline of a 'Prinner' scheme in mm.3-4 in green.</font></p>
-            <p> <b><font color="blue"> Press 3 </font> </b> to see the outline of a longer 'Prinner' across mm.5-14 in blue.</font></p>
-        </div>
-
-        <div id="svg_output"/>
-
-        <script type="text/javascript">
-            var vrvToolkit;
-            var page = 1;
-            var zoom = 50;
-            var pageHeight = 2970;
-            var pageWidth = 2100;
-
-            var choice = 1;
-
-            function setOptions( ) {
-                pageHeight = $(document).height() * 100 / zoom ;
-                pageWidth = $(window).width() * 100 / zoom ;
-                options = {
-                            pageHeight: pageHeight,
-                            pageWidth: pageWidth,
-                            scale: zoom,
-                            adjustPageHeight: true
-                        };
-                vrvToolkit.setOptions( options );
+<!-- Edit musical locations here. q is a zero-based offset in quarter notes.
+     Staff numbers identify the written part; layer is optional. XML IDs are
+     looked up anew on every load and are never stored as analytical identities. -->
+<script id="analysis-settings" type="application/json">
+{
+  "defaultScore": "Mozart.mei",
+  "views": [
+    {
+      "id": "1", "label": "C–B–C", "colour": "#b91c1c",
+      "description": "C–B–C in the treble in mm.1–2, answered in the bass in mm.3–4.",
+      "targets": [
+        {"at":{"measure":"1","q":"0"},"staff":"1","pitch":"C5"},
+        {"at":{"measure":"2","q":"0"},"staff":"1","pitch":"B4"},
+        {"at":{"measure":"2","q":"2"},"staff":"1","pitch":"C5"},
+        {"at":{"measure":"3","q":"0"},"staff":"2","pitch":"C4"},
+        {"at":{"measure":"4","q":"0"},"staff":"2","pitch":"B3"},
+        {"at":{"measure":"4","q":"2"},"staff":"2","pitch":"C4"}
+      ]
+    },
+    {
+      "id": "2", "label": "Prinner, mm.3–4", "colour": "#15803d",
+      "description": "A–G–F–E in the upper voice, with F–E–D–C inside the accompaniment: this is the Prinner’s 6–5–4–3 above 4–3–2–1.",
+      "targets": [
+        {"at":{"measure":"3","q":"0"},"staff":"1","pitch":"A5"},
+        {"at":{"measure":"3","q":"2"},"staff":"1","pitch":"G5"},
+        {"at":{"measure":"4","q":"1"},"staff":"1","pitch":"F5"},
+        {"at":{"measure":"4","q":"2"},"staff":"1","pitch":"E5"},
+        {"at":{"measure":"3","q":"1"},"staff":"2","pitch":"F4"},
+        {"at":{"measure":"3","q":"3"},"staff":"2","pitch":"E4"},
+        {"at":{"measure":"4","q":"1"},"staff":"2","pitch":"D4"},
+        {"at":{"measure":"4","q":"2"},"staff":"2","pitch":"C4"}
+      ]
+    },
+    {
+      "id": "3", "label": "Prinner, mm.5–8", "colour": "#1d4ed8",
+      "description": "The same A–G–F–E / F–E–D–C framework, expanded to one stage per bar in mm.5–8. The initial notes of each stage are highlighted.",
+      "targets": [
+        {"at":{"measure":"5","q":"0"},"staff":"1","pitch":"A4"},
+        {"at":{"measure":"6","q":"0"},"staff":"1","pitch":"G4"},
+        {"at":{"measure":"7","q":"0"},"staff":"1","pitch":"F4"},
+        {"at":{"measure":"8","q":"0"},"staff":"1","pitch":"E4"},
+        {"at":{"measure":"5","q":"0"},"staff":"2","pitch":"F4"},
+        {"at":{"measure":"6","q":"0"},"staff":"2","pitch":"E3"},
+        {"at":{"measure":"7","q":"0"},"staff":"2","pitch":"D3"},
+        {"at":{"measure":"8","q":"0"},"staff":"2","pitch":"C3"}
+      ]
+    }
+  ]
+}
+</script>
+<script id="viewer-script">
+(() => {
+  'use strict';
+  const NS = 'http://www.music-encoding.org/ns/mei', XML = 'http://www.w3.org/XML/1998/namespace';
+  const $ = id => document.getElementById(id);
+  const all = (node, name) => Array.from(node.getElementsByTagNameNS(NS, name));
+  const children = (node, name) => Array.from(node.children).filter(e => e.localName === name);
+  const xmlId = node => node.getAttributeNS(XML, 'id');
+  const settings = JSON.parse($('analysis-settings').textContent);
+  const views = new Map(settings.views.map(v => [v.id, v]));
+  let toolkit, enginePromise, engineAttempt = 0, model, groups = new Map();
+  let choice = '1', page = 1, zoom = 50, request = 0, selectedFile = null;
+  const local = location.protocol === 'file:';
+  function timeout(promise, ms, message) {
+    let timer;
+    return Promise.race([promise, new Promise((_, reject) => { timer = setTimeout(() => reject(Error(message)), ms); })]).finally(() => clearTimeout(timer));
+  }
+  async function ensureEngine() {
+    if (toolkit) return;
+    if (!enginePromise) enginePromise = (async () => {
+      const origins = ['https://cdn.jsdelivr.net/npm/verovio@6.3.0/dist/', 'https://unpkg.com/verovio@6.3.0/dist/'];
+      const suffix = engineAttempt++ ? '?retry=' + engineAttempt : '';
+      let lastError;
+      for (const origin of origins) {
+        try {
+          const [{default: createModule}, {VerovioToolkit}] = await timeout(Promise.all([
+            import(origin + 'verovio-module.mjs' + suffix), import(origin + 'verovio.mjs' + suffix)
+          ]), 30000, 'The notation engine download timed out.');
+          const module = await timeout(createModule(), 30000, 'The notation engine did not finish starting.');
+          toolkit = new VerovioToolkit(module);
+          return;
+        } catch (e) { lastError = e; }
+      }
+      throw Error('Could not load the notation engine. Check your connection and retry. ' + lastError.message);
+    })().catch(e => { enginePromise = null; throw e; });
+    return enginePromise;
+  }
+  function rational(value) {
+    const bits = String(value).split('/').map(Number);
+    if (bits.length > 2 || bits.some(x => !Number.isFinite(x)) || bits[1] === 0) throw Error('Invalid musical offset: ' + value);
+    return bits[0] / (bits[1] || 1);
+  }
+  function parseScore(text) {
+    const xml = new DOMParser().parseFromString(text, 'application/xml');
+    if (xml.querySelector('parsererror') || xml.documentElement.localName !== 'mei' || xml.documentElement.namespaceURI !== NS) throw Error('This file is not valid MEI XML.');
+    if (all(xml, 'score').length !== 1) throw Error('Choose an MEI containing one score.');
+    const ids = new Set(); let serial = 0;
+    for (const node of Array.from(xml.getElementsByTagName('*'))) {
+      const id = xmlId(node);
+      if (id && ids.has(id)) throw Error('Duplicate XML ID: ' + id);
+      if (id) ids.add(id);
+    }
+    for (const node of [...all(xml, 'note'), ...all(xml, 'measure')]) if (!xmlId(node)) {
+      let id; do { id = 'mozart-auto-' + (++serial); } while (ids.has(id));
+      node.setAttributeNS(XML, 'xml:id', id); ids.add(id);
+    }
+    const measures = all(xml, 'measure'), numbers = new Set(), events = [];
+    for (const measure of measures) {
+      const number = measure.getAttribute('n');
+      if (!number || numbers.has(number)) throw Error('Measure labels must be present and unique: ' + number);
+      numbers.add(number);
+      for (const staff of children(measure, 'staff')) for (const layer of children(staff, 'layer')) {
+        function walk(parent, q = 0, factor = 1, grace = false) {
+          for (const node of parent.children) {
+            const kind = node.localName;
+            if (['beam', 'tuplet', 'graceGrp'].includes(kind)) {
+              const ratio = kind === 'tuplet' ? Number(node.getAttribute('numbase') || 2) / Number(node.getAttribute('num') || 3) : 1;
+              q = walk(node, q, factor * ratio, grace || kind === 'graceGrp'); continue;
             }
-
-            function loadData(data) {
-                setOptions();
-                vrvToolkit.loadData(data);
-
-                page = 1;
-                loadPage();
+            if (!['note', 'chord', 'rest', 'space', 'mRest', 'mSpace'].includes(kind)) continue;
+            const isGrace = grace || node.hasAttribute('grace');
+            const dur = node.getAttribute('dur');
+            const unit = dur === 'breve' ? 8 : dur === 'long' ? 16 : dur ? 4 / Number(dur) : ['mRest', 'mSpace'].includes(kind) ? 4 : NaN;
+            const length = isGrace ? 0 : unit * (2 - Math.pow(.5, Number(node.getAttribute('dots') || 0))) * factor;
+            if (!Number.isFinite(length) || length < 0) throw Error('Unsupported duration in measure ' + number);
+            for (const note of kind === 'note' ? [node] : kind === 'chord' ? children(node, 'note') : []) {
+              const accid = children(note, 'accid')[0];
+              events.push({id: xmlId(note), measure: number, staff: staff.getAttribute('n'), layer: layer.getAttribute('n') || '1',
+                displayStaff: note.getAttribute('staff') || node.getAttribute('staff') || staff.getAttribute('n'),
+                q, grace: isGrace, pname: note.getAttribute('pname'), oct: note.getAttribute('oct'),
+                explicit: note.getAttribute('accid') || accid?.getAttribute('accid'),
+                gestural: note.getAttribute('accid.ges') || accid?.getAttribute('accid.ges')});
             }
-
-            function loadPage() {
-                svg = vrvToolkit.renderToSVG(page, {});
-                $("#svg_output").html(svg);
-
-                /*
-                'gt' = start measure NUMBER
-                'lt' = stop AFTER n measures (careful of off-by-one-errors)
-                */
-
-                if (choice == 1) {
-
-                    $(".note").each(function(i) {
-                        var attr = vrvToolkit.getElementAttr($(this).attr("id"));
-                        if (attr.pname && (attr.pname == "a")) {
-                            $(this).attr("fill", "purple").attr("stroke", "purple");
-                        }
-                        });
-                    }
-
-
-                    // $(".system .measure:gt(4):lt(3) .staff:nth-child(1)").attr("fill", "#d00").attr("stroke", "#d00");
-                    // $(".system .measure:gt(1):lt(1) .staff:nth-child(1) .note").each(function(i) {
-                    //     var attr = vrvToolkit.getElementAttr($(this).attr("id"));
-                    //     if (attr.pname && (attr.pname == "a")) {
-                    //         $(this).attr("fill", "purple").attr("stroke", "purple");
-                    //     }
-                    // $(".note").each(function(i) {
-                    //     var attr = vrvToolkit.getElementAttr($(this).attr("id"));
-                    //     if (attr.pname && (attr.pname == "a") && attr.measurenumbers && (attr.measurenumbers == 3)) {
-                    //         $(this).attr("fill", "purple").attr("stroke", "purple");
-                    //     }
-                    //     });
-
-                else if (choice == 2) {
-
-                    $(".measure .staff:nth-child(1)" ).attr("fill", "#00e").attr("stroke", "#00e");
-                }
-
-                else if (choice == 3) {
-                    $(".system .measure:gt(3):lt(3) .staff:nth-child(1) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                    $(".system .measure:gt(3):lt(3) .staff:nth-child(2) .note").attr("fill", "#d00").attr("stroke", "#d00");
-                }
-
-                else if (choice == 4) {
-                    $(".system .measure:gt(4) .staff:nth-child(4)").attr("fill", "#ccc").attr("stroke", "#ccc");
-                }
-
-                else {
-                    console.log("Unknown choice");
-                }
-            }
-
-            function startVerovio() {
-            vrvToolkit = new verovio.toolkit();
-
-            $( document ).ready(function() {
-
-                $(window).keyup(function(event){
-
-                    /* Process navigation and zoom basic events */
-                    processBasicEvents(event);
-
-                    /* Key events for switching highlight choice */
-                    if ((event.keyCode > 47) && (event.keyCode < 58)) {
-                        choice = event.keyCode - 48;
-                        loadPage();
-                    }
-                });
-
-                $(window).resize(function(){
-                    applyZoom();
-                });
-
-                var file = "Mozart.mei";
-                $.ajax({
-                    url: file
-                    , dataType: "text"
-                    , success: function(data) {
-                        loadData( data );
-                    }
-                });
-            });
-            }
-
-            if (verovio.module && verovio.module.calledRun) {
-                startVerovio();
-            } else {
-                verovio.module.onRuntimeInitialized = startVerovio;
-            }
-        </script>
-    </body>
+            q += length;
+          }
+          return q;
+        }
+        walk(layer);
+      }
+    }
+    // Read written pitches directly; this viewer does not need a MIDI timemap.
+    const signs = {n:'',s:'#',f:'b',ss:'##',x:'##',ff:'bb'};
+    const keyDefinitions = [...all(xml, 'scoreDef'), ...all(xml, 'staffDef')]
+      .filter(d => d.hasAttribute('key.sig') || d.hasAttribute('keysig'))
+      .sort((a,b) => a.compareDocumentPosition(b) & 4 ? -1 : 1);
+    for (const measure of measures) {
+      const keys = new Map(), current = events.filter(e => e.measure === measure.getAttribute('n')), carried = new Map();
+      for (const def of keyDefinitions) {
+        if (!(def.compareDocumentPosition(measure) & 4)) continue;
+        const signature = def.getAttribute('keysig') || def.getAttribute('key.sig');
+        if (!/^(0|[1-7][sf])$/.test(signature)) throw Error('Unsupported key signature: ' + signature);
+        const targets = def.localName === 'scoreDef' ? [...new Set(current.map(e => e.displayStaff))] : [def.getAttribute('n')];
+        const alteration = new Map(), order = signature.endsWith('f') ? 'beadgcf' : 'fcgdaeb';
+        for (const letter of order.slice(0,parseInt(signature,10))) alteration.set(letter,signature.endsWith('f')?'b':'#');
+        for (const staff of targets) keys.set(staff,alteration);
+      }
+      for (const q of [...new Set(current.map(e => e.q))].sort((a,b)=>a-b)) {
+        const batch = current.filter(e => e.q === q), key = e => e.displayStaff + ':' + e.pname + e.oct;
+        for (const e of batch) if (e.explicit) carried.set(key(e),e.explicit);
+        for (const e of batch) {
+          const accidental = e.gestural || e.explicit || carried.get(key(e));
+          if (accidental && !Object.hasOwn(signs,accidental)) throw Error('Unsupported accidental: ' + accidental);
+          e.pitch = e.pname.toUpperCase() + (accidental ? signs[accidental] : keys.get(e.displayStaff)?.get(e.pname) || '') + e.oct;
+        }
+      }
+    }
+    const byId = new Map(events.map(e=>[e.id,e]));
+    const ties = new Map(all(xml,'tie').map(t=>[(t.getAttribute('endid')||'').replace(/^#/,''),(t.getAttribute('startid')||'').replace(/^#/,'')]));
+    function tiedPitch(event,seen=new Set()) {
+      if (seen.has(event.id)) throw Error('Cyclic tie in score.');
+      if (ties.has(event.id) && !event.explicit && !event.gestural) {
+        const source = byId.get(ties.get(event.id));
+        if (!source) throw Error('A tie refers to a missing note.');
+        event.pitch = tiedPitch(source,new Set([...seen,event.id]));
+      }
+      return event.pitch;
+    }
+    for (const event of events) tiedPitch(event);
+    return {xml, events, measures, text: new XMLSerializer().serializeToString(xml)};
+  }
+  function resolveTargets(score) {
+    const resolved = new Map(), problems = [];
+    for (const view of views.values()) {
+      const ids = new Set(), errors = [];
+      for (const target of view.targets) {
+        const match = /^([A-G])([#b]*)(-?\d+)$/.exec(target.pitch);
+        if (!match) throw Error('Invalid target pitch: ' + target.pitch);
+        const hits = score.events.filter(e => !e.grace && e.measure === target.at.measure && e.staff === target.staff &&
+          (!target.layer || e.layer === target.layer) && Math.abs(e.q - rational(target.at.q)) < 1e-8 &&
+          e.pitch === target.pitch);
+        if (hits.length !== 1) errors.push('m.' + target.at.measure + ', staff ' + target.staff + ', q' + target.at.q + ', ' + target.pitch + ': ' + (hits.length ? 'ambiguous' : 'not found'));
+        else ids.add(hits[0].id);
+      }
+      resolved.set(view.id, {ids: errors.length ? new Set() : ids, errors});
+      if (errors.length) problems.push(view.label + ' unavailable — ' + errors.join('; '));
+    }
+    const panel = $('warnings'); panel.replaceChildren(); panel.hidden = !problems.length;
+    if (problems.length) {
+      const intro = document.createElement('p'); intro.textContent = 'Some outlines do not match this score. Their highlights have been withheld.'; panel.append(intro);
+      const list = document.createElement('ul');
+      for (const message of problems) { const item = document.createElement('li'); item.textContent = message; list.append(item); }
+      panel.append(list);
+    }
+    return resolved;
+  }
+  function options() {
+    toolkit.setOptions({pageWidth: Math.round(Math.max(640, $('score').clientWidth) * 100 / zoom),
+      pageHeight: Math.round(Math.max(780, innerHeight - 260) * 100 / zoom), scale: zoom,
+      adjustPageHeight: true, breaks: 'auto', header: 'none', footer: 'none', mnumInterval: 1});
+  }
+  function paint() {
+    const view = views.get(choice), group = groups.get(choice), ids = group?.ids || new Set();
+    $('score').style.setProperty('--highlight', view?.colour || '#20252b');
+    let visible = 0;
+    for (const note of $('score').querySelectorAll('g.note')) { const yes = ids.has(note.id); note.classList.toggle('is-highlighted', yes); if (yes) visible++; }
+    for (const button of document.querySelectorAll('[data-choice]')) {
+      const id = button.dataset.choice; button.setAttribute('aria-pressed', String(id === choice));
+      button.disabled = !model || (id !== '0' && Boolean(groups.get(id)?.errors.length));
+    }
+    $('explanation').textContent = view?.description || 'The score without analytical highlighting.';
+    $('selection-status').textContent = !model || choice === '0' ? '' : group?.errors.length ? 'This outline is unavailable for the loaded score.' :
+      visible + ' of ' + ids.size + ' selected notes on this page' + (visible < ids.size ? '  use the page arrows to follow the rest.' : '.');
+  }
+  function render() {
+    if (!model) return;
+    const count = toolkit.getPageCount(); page = Math.max(1, Math.min(page, count));
+    $('score').innerHTML = toolkit.renderToSVG(page);
+    $('page-label').textContent = 'Page ' + page + ' of ' + count;
+    $('previous').disabled = page === 1; $('next').disabled = page === count;
+    $('zoom-label').textContent = zoom + '%'; $('zoom-out').disabled = zoom <= 30; $('zoom-in').disabled = zoom >= 90;
+    paint();
+  }
+  function select(id) {
+    if (!model || !['0', ...views.keys()].includes(id) || groups.get(id)?.errors.length) return;
+    choice = id;
+    const ids = groups.get(id)?.ids || new Set();
+    const pages = [...new Set([...ids].map(note => toolkit.getPageWithElement(note)))].filter(p => p > 0).sort((a,b) => a-b);
+    if (pages.length && !pages.includes(page)) page = pages[0];
+    render();
+  }
+  function relayout(nextZoom = zoom) {
+    if (!model) return;
+    const anchor = $('score').querySelector('g.measure[id]')?.id;
+    zoom = Math.max(30, Math.min(90, nextZoom)); options(); toolkit.redoLayout();
+    if (anchor) page = toolkit.getPageWithElement(anchor) || page;
+    render();
+  }
+  function clear() {
+    model = null; groups = new Map(); $('score').replaceChildren(); $('selection-status').textContent = '';
+    $('warnings').hidden = true; $('page-label').textContent = 'Page —';
+    for (const button of document.querySelectorAll('[data-choice],#previous,#next,#zoom-out,#zoom-in')) button.disabled = true;
+  }
+  function fail(error) { $('error').textContent = error.message; $('error').hidden = false; }
+  function safely(fn) { try { fn(); } catch(e) { fail(e); } }
+  function readFile(file) {
+    return new Promise((resolve,reject) => { const reader = new FileReader(); reader.onload = () => resolve(reader.result);
+      reader.onerror = () => reject(Error('Could not read ' + file.name)); reader.readAsText(file); });
+  }
+  async function fetchScore() {
+    const controller = new AbortController(), timer = setTimeout(() => controller.abort(), 15000);
+    try { const response = await fetch(new URL(settings.defaultScore, location.href), {signal: controller.signal, cache: 'no-cache'});
+      if (!response.ok) throw Error('Loading ' + settings.defaultScore + ' returned HTTP ' + response.status + '.');
+      return await response.text();
+    } catch(e) { if (e.name === 'AbortError') throw Error('The score request timed out.'); throw e; }
+    finally { clearTimeout(timer); }
+  }
+  async function open(file = null) {
+    const token = ++request; selectedFile = file; clear(); $('error').hidden = true; $('retry').hidden = true;
+    $('score').setAttribute('aria-busy','true'); $('status').textContent = 'Loading ' + (file?.name || settings.defaultScore) + '…';
+    try {
+      const [text] = await Promise.all([file ? readFile(file) : fetchScore(), ensureEngine()]);
+      if (token !== request) return;
+      const candidate = parseScore(text); options();
+      if (!toolkit.loadData(candidate.text) || toolkit.getPageCount() < 1) throw Error('The notation engine could not render this score.');
+      groups = resolveTargets(candidate); model = candidate; page = 1;
+      if (choice !== '0' && groups.get(choice)?.errors.length) choice = '0';
+      render(); $('status').textContent = (file?.name || settings.defaultScore) + ' consisting of ' + model.measures.length + ' measures';
+    } catch(e) {
+      if (token === request) { clear(); fail(e); $('status').textContent = 'Choose the accompanying MEI below or retry.'; $('load-panel').open = true; $('retry').hidden = false; }
+    } finally { if (token === request) $('score').setAttribute('aria-busy','false'); }
+  }
+  document.addEventListener('click', e => { const button = e.target.closest('[data-choice]'); if (button && !button.disabled) safely(() => select(button.dataset.choice)); });
+  $('previous').onclick = () => safely(() => { page--; render(); });
+  $('next').onclick = () => safely(() => { page++; render(); });
+  $('zoom-out').onclick = () => safely(() => relayout(zoom-10)); $('zoom-in').onclick = () => safely(() => relayout(zoom+10));
+  $('mei-file').onchange = () => { const file = $('mei-file').files[0]; if (file) open(file); };
+  $('retry').onclick = () => { if (local && !selectedFile) $('mei-file').click(); else open(selectedFile); };
+  document.addEventListener('keydown', e => {
+    if (e.ctrlKey || e.metaKey || e.altKey || e.target.closest('input,textarea,select,[contenteditable="true"]')) return;
+    if (/^[0-3]$/.test(e.key)) { e.preventDefault(); safely(() => select(e.key)); }
+    else if (model && ['ArrowLeft','ArrowRight','+','=','-'].includes(e.key)) {
+      e.preventDefault(); safely(() => {
+        if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { page += e.key === 'ArrowRight' ? 1 : -1; render(); }
+        else relayout(zoom + (e.key === '-' ? -10 : 10));
+      });
+    }
+  });
+  let resizeTimer; addEventListener('resize', () => { clearTimeout(resizeTimer); resizeTimer = setTimeout(() => safely(() => relayout()), 180); });
+  if (local) {
+    $('load-panel').open = true;
+    $('load-help').textContent = 'Your browser needs you to choose the accompanying MEI when this HTML is opened directly.';
+    $('status').textContent = 'Choose Mozart.mei below to display the score.';
+  } else open();
+  // Small inspection API for verification and future viewers; no stored XML-ID selectors.
+  window.MozartViewer = {open, select, relayout, parseScore, get model(){return model;}, get groups(){return groups;}, get toolkit(){return toolkit;}};
+})();
+</script>
+</body>
 </html>
