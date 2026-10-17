@@ -9,12 +9,15 @@ by visualising aspects of the structure for the user to explore.
 ## Menu
 
 ### Mozart: Piano Sonata No. 16 in C major, K. 545 ('Sonata Facile'), opening
-- [Interactive Score](/scored-up-scores/Mozart/Mozart.html). Take another look at a well-known work.
+- [Interactive Score](./Mozart). Another look at at the building blocks for a well-known work.
+
+### Beethoven: Piano Sonata No. 17 "Tempest".
+- [Interactive Score](./Beethoven). Rich harmonic ambiguity.
 
 ### Webern: Symphonie op.21, opening.
-- [Notes on the piece](/scored-up-scores/Webern/Webern-Symphonie-Notes.md)
-- [Interactive Score](/scored-up-scores/Webern/Webern-Symphonie.html). A prototype and work-in-progress showing the canons in the opening of Webern's Symphonie op.21.
+- [Notes on the piece](./Webern)
+- [Interactive Score](./Webern/Webern-Symphonie.html). Complex serial canons in the opening of Webern's Symphonie op.21.
 
 ### Other works
 
-... will follow so watch this space! ... after all, we're not only interested in Mozart and Webern, nor only in the first few bars of pieces ...
+... will follow so watch this space! ...
