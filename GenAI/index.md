@@ -39,6 +39,20 @@ Here are some example tasks, with notes and corresponding tools.
 > - [Transcription (audio → symbolic)](#transcription-audio--symbolic)
 > - [Source separation (mixed audio → audio in separate parts)](#source-separation-mixed-audio--audio-in-separate-parts)
 
+First, here's a diagram that attempts to give some sense of the different
+input–output tasks in generative AI for music,
+with human-workflow equivalents where they exist.
+- Abbreviations: TTM = text-to-music; AMT = automatic music transcription.
+- Shortenings: Improv(isation), Perf(ormance), Trans(cription), Sym(bolic), Desc(ription). 
+- Symbols: `∅` for nothing and `≈` for similar.
+
+<object data="./genai_music_figure.pdf" type="application/pdf"
+        width="100%" height="600">
+  <p>This browser does not support inline PDFs. <a href="./genai_music_figure.pdf">Click here to download it instead</a>.
+</p>
+</object>   
+
+
 ### "Text to Music" (text → audio)
 
 Going from a user's text prompt to an audio output
