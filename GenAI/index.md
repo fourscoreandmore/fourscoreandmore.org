@@ -46,7 +46,7 @@ with human-workflow equivalents where they exist.
 - Shortenings: Improv(isation), Perf(ormance), Trans(cription), Sym(bolic), Desc(ription). 
 - Symbols: `∅` for nothing and `≈` for similar.
 
-<object data="./genai_music_figure.pdf" type="application/pdf"
+<object data="./genai_music_figure.pdf#view=FitH" type="application/pdf"
         width="100%" height="600">
   <p>This browser does not support inline PDFs. <a href="./genai_music_figure.pdf">Click here to download it instead</a>.
 </p>
