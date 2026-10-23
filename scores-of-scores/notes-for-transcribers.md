@@ -11,14 +11,33 @@ For score download (in multiple formats including MuseScore and PDF), head to:
 - [this page for the lieder](https://fourscoreandmore.org/openscore/lieder/)
 - [this page for the quartets](https://fourscoreandmore.org/openscore/stringquartets/).
 
-This page provides some additional information for transcribers.
+This page provides some additional information for transcribers
+and doubles as a reference guide to the editorial interventions we have made.
 
 Welcome and thanks for participating in this very exciting encoding project.
 
-On this page, we seek to answer some of the most frequently asked questions (FAQs) and common issues encountered in transcribing for this project.
+On this page, we aim to answer some of the most frequently asked questions (FAQs)
+and common issues encountered in transcribing for this project and/or using the scores.
 We hope you find it useful!
 
-## General
+## **Contents**
+
+| Code                                  | Section                                        |
+|---------------------------------------|------------------------------------------------|
+| [G](#g-general)                       | General                                        |
+| [M](#m-metadata)                      | Metadata: Score and Online                     |
+| [L](#l-layout)                        | Layout                                         |
+| [T](#t-time)                          | Time: Time Signatures, Beaming, Tuplets, Tempo |
+| [O](#o-ornaments)                     | Ornaments including Grace Notes                |
+| [K](#k-key)                           | Key: Key Signatures and Accidentals            |
+| [C](#c-clefs)                         | Clefs                                          |
+| [D](#d-dynamics-and-lines)            | Dynamics (e.g., Cresc.) and Lines (e.g., Rit.) |
+| [S](#s-ties-and-slurs)                | Ties and Slurs                                 |
+| [B](#b-brackets)                      | Brackets                                       |
+| [P](#p-playing-instructions)          | Playing Instructions                           |
+| [W](#w-workflow-during-transcription) | Workflow: During Transcription                 |   
+
+## G: General
 
 - We aim to produce as exact a copy of the source edition as possible.
 - We also use MuseScore defaults wherever possible so that as much information is transferred as effectively as possible to the parts and when converted into other formats like MusicXML.
@@ -26,7 +45,7 @@ We hope you find it useful!
 - Edition of manuscript sources is often more complicated: please get in touch to discuss individual cases.
 - If in doubt, ask your reviewer!
 
-## Metadata text on the score and online
+## M: Metadata
 
 - **Title** and **composer** should already be present in their respective fields of the 'score properties' box and displayed on the score.
 Likewise, the **lyricist** in the case of the lieder.
@@ -35,7 +54,7 @@ The naming convention on musescore.com should likewise have been handled by the 
 - **Dates:** Birth and death dates are not shown for anyone (composer, lyricist or dedicatee).
 - **Date of composition:** not shown in the title frame. A date and place of composition may be shown at the end of the score if it appears on the source edition.
 
-## Layout
+## L: Layout
 
 - **System breaks and page breaks:** Follow the system breaks and page breaks used by the source edition where possible in that order (system being the more important).
   - _Exception:_ Do not attempt to replicate the splitting of measures across a system or page break (i.e., with part before and part after).
@@ -45,7 +64,7 @@ The naming convention on musescore.com should likewise have been handled by the 
   - Below: All dynamics, hairpins and expression text.
     - _Exception (lieder):_ dynamics in the vocal parts for the lieder go above.
 
-## Time signatures, beaming, tuplets
+## T: Time
 
 - **Time signatures:** Always reproduce time signature symbols as shown in the source edition, e.g., common time, cut common time (_alla breve_), and 4/4 are all to be treated as different even though they refer to the same duration and (arguably) beam groupings.
 - **Beaming:** We usually enter the notes with default beaming for …
@@ -58,7 +77,7 @@ The naming convention on musescore.com should likewise have been handled by the 
   - Tuplet indication is left visible if it is included in the source edition, otherwise these should be made invisible.
     - _Exception_ – if no indication is given for the first instance of a tuplet, and it could be confusing without it, then make that first instance (only) visible.
 
-## Grace notes
+## O: Ornaments
 
 - Copy the source edition including noting the difference between:
   - the presence (acciaccatura) or absence (appoggiatura) of a slash through the note.
@@ -66,13 +85,13 @@ The naming convention on musescore.com should likewise have been handled by the 
 - Use MuseScore defaults for the exact placement (e.g., before/after the barline, where relevant).
 - Triplet (or other tuplet) grace notes cannot be entered into MuseScore. Enter them as grace notes of the appropriate type and use staff text to enter the appropriate number.
 
-## Key signatures and accidentals
+## K: Key
 
 - **Key signatures:** Include all (of course!) exactly as given, except for …
   - **Cancelling naturals:** Never show cancelling naturals on a change of key signature (again, use the MuseScore default). Likewise, never use the "Natural-flat" or "Natural-sharp" symbols for individual accidental cancellation in adjacent measures.
 - **Accidentals:** Any accidentals that need to be introduced (which were not present in the source) should be enclosed in square brackets `[]` to indicate an editorial change.
 
-## Clefs
+## C: Clefs
 
 - Generally, most of our work is set out in two clefs: treble and bass.
 - Exceptions to preserve in our editions:
@@ -82,7 +101,7 @@ The naming convention on musescore.com should likewise have been handled by the 
 - All other clefs are to be converted to the nearest modern equivalent. E.g., the treble clef is the only 'G' clef in common use: convert any other G clefs into a treble clef.
   - _Exception:_ You may wish to use the original clef during transcription to make proofreading easier. Reviewers will then change the clefs to standard when review is complete. Do not make any manual adjustments to the stem direction in this case.
 
-## Crescendo, diminuendo, ritardando
+## D: Dynamics and Lines
 
 - Use 'real' lines (that affect playback and are exported) wherever possible.
 - **Terms:** Copy the source except where there is a now-more-standard equivalent. E.g., use `diminuendo` in place of `decrescendo`.
@@ -90,13 +109,13 @@ The naming convention on musescore.com should likewise have been handled by the 
 - Some older sources break these instructions into separate syllables over multiple measures or even multiple systems. For example: `cre - - - scen - - - do`. Do not attempt to copy this. Instead, use a wide-dashed line (`Line Thickness = 0.12sp`, `Dash Line Length = 5`, and `Dash Gap Width = 20`), with standard `Begin text` - and with `Continue text` in parentheses at the start of each system e.g., _(dim.)_.
 - Do use the built in `ritardando`. Note: Unfortunately this was added to MuseScore rather late, so for earlier scores we had to use a `System text` entry instead. We may update these in due course.
 
-## Ties
+## S: Ties and Slurs
 
 - Make sure to include all ties as ties and slurs as slurs without mixing (they are not the equivalent).
 - Ties across barlines: Accidentals are not repeated at the beginning of the second (or subsequent) bar, even if it is a system or page break.
 If the note is repeated later in the bar, the accidental is shown (this is MuseScore default.)
 
-## Brackets
+## B: Brackets
 
 - Brackets in the source indicate their editorial intervention.
 - Square brackets in our files indicate our editorial interventions.
@@ -104,7 +123,7 @@ If the note is repeated later in the bar, the accidental is shown (this is MuseS
 the enclosed element should be included in our transcription, without the brackets.
 
 
-## Playing instructions
+## P: Playing instructions
 
 - Use the `pizz.` and `arco` instructions from the Text palette (see comments above about placement).
 - Do include instructions for harmonics (from the articulations palette - the symbol looks similar to `o`)
@@ -112,13 +131,20 @@ the enclosed element should be included in our transcription, without the bracke
 - Indication of fingering is not generally included. If in doubt, ask your reviewer. 
 - For mutes (not applicable in the lieder) use 'con sord.' and 'senza sord.', in place of whatever language the source uses.
 
-## During transcription:
+## W: Workflow: During Transcription
 
 - In addition to direct communication, transcribers are also encouraged to use staff text with the colour set to red to explain intentional deviations from the source edition including 'obvious' corrections. The reviewers will make the final decision on these deviations and delete all red text prior to uploading the score.
 
 ## About this page
 
 Last Updated: August 2026
+
+The rule numbering is our own, created for want of an existing standard.
+There are practical style guides (e.g., MOLA, IMSLP) and books (e.g., Gould _Behind Bars_)
+but none has a clear codification for use in a case like this.
+(There are also a number of app-specific defaults invoked.) 
+The closest parallel seems to be bibliographic metadata, (e.g., MCRM(M): Descriptive Cataloguing Rules for Music).
+We are happy to move to a standard if/as/when one emerges.
 
 Contributors:
 - [Mark Gotham](https://markgotham.github.io/), Principal Investigator
