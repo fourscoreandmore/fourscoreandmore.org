@@ -1,0 +1,639 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq8955300",
+  "context_markdown": "This working edition records known, accepted differences from the supplied IMSLP source. Records are ordered by score position. Review combined whole-page comparisons in all four parts with magnified inspection of the reported passages and targeted native-score checks; it is not a guarantee of independent note-by-note re-entry. Unresolved questions and transcription corrections are maintained separately from these public editorial notes. Movement I locations give both source and native edition bars; movement II uses local native bar numbers. Source boxed reference numbers may differ from edition bar numbers; source crops and PDF page numbers support lookup. The two Klang staves are intentional sounding guides.",
+  "policy_refs": [],
+  "records": [
+    {
+      "title": "Equivalent string terminology",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 17,
+      "measure_end": 18,
+      "physical_start": 17,
+      "physical_end": 18,
+      "part": "Violins I and II",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P3",
+        "G5"
+      ],
+      "source_measure_start": "17",
+      "edition_measure_start": "16",
+      "id": "ED-001",
+      "origin_id": "BG-I-E001",
+      "status": "accepted",
+      "location": "I; source 17–18; edition 16–17",
+      "summary": "sul G / sul D",
+      "body_markdown": "**Source:** G Saite. in violinII at17; D Saite. in violinI at18\n\n**Edition:** sul G / sul D\n\nEquivalent string identification in conventional Italian. Pitch and string choice are unchanged; P3 is relevant context, not a rule explicitly requiring translation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-01-source.png",
+          "caption": "Source scan; PDF page 2.",
+          "pdf_page": 2,
+          "crop_box_pdf_points": [
+            150,
+            20,
+            400,
+            185
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-02-edition.png",
+          "caption": "Final edition; PDF page 2.",
+          "pdf_page": 2,
+          "crop_box_pdf_points": [
+            170,
+            25,
+            385,
+            180
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Equivalent string labels; P3 requires preserving string choice. No blanket new policy proposed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standardized mute instruction",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 63,
+      "physical_start": 63,
+      "part": "Violins I and II",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "source_measure_start": "63",
+      "edition_measure_start": "62",
+      "id": "ED-002",
+      "origin_id": "BG-I-E002-63",
+      "status": "accepted",
+      "location": "I; source 63; edition 62",
+      "summary": "con sord.",
+      "body_markdown": "**Source:** Dämpfer\n\n**Edition:** con sord.\n\nThe adopted notation follows P5 while retaining the same mute state and location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-01-source.png",
+          "caption": "Source scan; PDF page 4.",
+          "pdf_page": 4,
+          "crop_box_pdf_points": [
+            35,
+            565,
+            330,
+            670
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-02-edition.png",
+          "caption": "Final edition; PDF page 4.",
+          "pdf_page": 4,
+          "crop_box_pdf_points": [
+            35,
+            610,
+            325,
+            720
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "physical_end": 63,
+      "measure_end": 63,
+      "policy_review": {
+        "status": "covered",
+        "note": "P5 specifies con sord. / senza sord. in place of source-language mute instructions.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standardized mute instruction",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 80,
+      "physical_start": 80,
+      "part": "Violin II",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "source_measure_start": "80",
+      "edition_measure_start": "79",
+      "id": "ED-003",
+      "origin_id": "BG-I-E002-80",
+      "status": "accepted",
+      "location": "I; source 80; edition 79",
+      "summary": "senza sord.",
+      "body_markdown": "**Source:** Dämpfer ab\n\n**Edition:** senza sord.\n\nThe adopted notation follows P5 while retaining the same mute state and location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-01-source.png",
+          "caption": "Source scan; PDF page 5.",
+          "pdf_page": 5,
+          "crop_box_pdf_points": [
+            200,
+            535,
+            410,
+            660
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-02-edition.png",
+          "caption": "Final edition; PDF page 5.",
+          "pdf_page": 5,
+          "crop_box_pdf_points": [
+            225,
+            615,
+            405,
+            710
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "physical_end": 80,
+      "measure_end": 80,
+      "policy_review": {
+        "status": "covered",
+        "note": "P5 specifies con sord. / senza sord. in place of source-language mute instructions.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standardized mute instruction",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 83,
+      "physical_start": 83,
+      "part": "Violin I",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "source_measure_start": "83",
+      "edition_measure_start": "82",
+      "id": "ED-004",
+      "origin_id": "BG-I-E002-83",
+      "status": "accepted",
+      "location": "I; source 83; edition 82",
+      "summary": "senza sord.",
+      "body_markdown": "**Source:** Dämpfer ab\n\n**Edition:** senza sord.\n\nThe adopted notation follows P5 while retaining the same mute state and location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-01-source.png",
+          "caption": "Source scan; PDF page 6.",
+          "pdf_page": 6,
+          "crop_box_pdf_points": [
+            35,
+            15,
+            260,
+            115
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-02-edition.png",
+          "caption": "Final edition; PDF page 6.",
+          "pdf_page": 6,
+          "crop_box_pdf_points": [
+            35,
+            35,
+            285,
+            115
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "physical_end": 83,
+      "measure_end": 83,
+      "policy_review": {
+        "status": "covered",
+        "note": "P5 specifies con sord. / senza sord. in place of source-language mute instructions.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Adapt the internal bar reference to edition numbering",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 180,
+      "physical_start": 180,
+      "part": "System / all parts",
+      "type": "Navigation",
+      "policy_refs": [
+        "G1",
+        "B2"
+      ],
+      "source_measure_start": "180",
+      "edition_measure_start": "179",
+      "id": "ED-005",
+      "origin_id": "BG-I-E005",
+      "status": "accepted",
+      "location": "I; source 180; edition 179",
+      "summary": "a tempo (wie Takt [171])",
+      "body_markdown": "**Source:** a tempo (wie Takt 172)\n\n**Edition:** a tempo (wie Takt [171])\n\nThe source counts the opening short bar as 1 while the native edition leaves it unnumbered. Source bar 172 has been verified against native bar 171 in all four parts. The adapted reference therefore points to the same passage, and square brackets identify the editorially supplied target number.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-01-source.png",
+          "caption": "Source scan; PDF page 13.",
+          "pdf_page": 13,
+          "crop_box_pdf_points": [
+            35,
+            205,
+            535,
+            300
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-02-edition.png",
+          "caption": "Final edition; PDF page 13.",
+          "pdf_page": 13,
+          "crop_box_pdf_points": [
+            35,
+            220,
+            560,
+            305
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        },
+        {
+          "role": "source-target",
+          "path": "images/ed-005-03-source-target.png",
+          "caption": "Source: referenced passage; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            35,
+            370,
+            535,
+            580
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition-target",
+          "path": "images/ed-005-04-edition-target.png",
+          "caption": "Final edition: referenced passage; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            35,
+            415,
+            560,
+            610
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "physical_end": 180,
+      "measure_end": 180,
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The source reference is adapted to the retained edition numbering; the target passage was checked in all four parts. B2 identifies the supplied target number.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Conventional string indications",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 2,
+      "measure_end": 3,
+      "physical_start": 189,
+      "physical_end": 190,
+      "part": "Violin I",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P3",
+        "G5"
+      ],
+      "other_verified_examples": {
+        "Violin I": [
+          7,
+          26,
+          27,
+          28,
+          124,
+          159,
+          192,
+          218,
+          219,
+          220,
+          231
+        ],
+        "Violin II": [
+          6,
+          8,
+          25,
+          26,
+          59,
+          60,
+          63,
+          100,
+          102,
+          120,
+          163,
+          208
+        ],
+        "Viola": [
+          59,
+          162,
+          181,
+          223
+        ],
+        "Cello": [
+          63,
+          64,
+          107,
+          157,
+          158,
+          161,
+          184,
+          226
+        ]
+      },
+      "id": "ED-006",
+      "origin_id": "BG-II-ED-01",
+      "status": "accepted",
+      "location": "II; edition 2–3",
+      "summary": "sul G and sul D, at the same notes.",
+      "body_markdown": "**Source:** G-Saite, D-S. (with further analogous German string indications).\n\n**Edition:** sul G and sul D, at the same notes.\n\nThe specified strings are preserved using conventional sul terminology. This is a local vocabulary choice consistent with retaining string instructions; it is not a pitch change.\n\n**Verified locations:** Violin I: 7, 26, 27, 28, 124, 159, 192, 218, 219, 220, 231; Violin II: 6, 8, 25, 26, 59, 60, 63, 100, 102, 120, 163, 208; Viola: 59, 162, 181, 223; Cello: 63, 64, 107, 157, 158, 161, 184, 226.\n\nExamples are native bar numbers. Native II.131/133 cello retains D Saite; do not describe the normalization as universal.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-01-source.png",
+          "caption": "Source scan; PDF page 14.",
+          "pdf_page": 14,
+          "crop_box_pdf_points": [
+            300,
+            50,
+            520,
+            125
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-02-edition.png",
+          "caption": "Final edition; PDF page 14.",
+          "pdf_page": 14,
+          "crop_box_pdf_points": [
+            335,
+            80,
+            565,
+            142
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Specific source/edition difference, not a new policy declaration.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standardised mute vocabulary",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 38,
+      "measure_end": 38,
+      "physical_start": 225,
+      "physical_end": 225,
+      "part": "Viola and cello",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "other_verified_examples": {
+        "Violin I": [
+          44,
+          48,
+          62,
+          64,
+          123,
+          124,
+          133
+        ],
+        "Violin II": [
+          42,
+          46,
+          65,
+          119,
+          120,
+          125
+        ],
+        "Viola": [
+          62
+        ],
+        "Cello": [
+          73
+        ]
+      },
+      "id": "ED-007",
+      "origin_id": "BG-II-ED-02",
+      "status": "accepted",
+      "location": "II; edition 38",
+      "summary": "Viola pizz. con sord.; cello con sord.",
+      "body_markdown": "**Source:** Viola pizz. m. Dpf.; cello m. Dämpf.\n\n**Edition:** Viola pizz. con sord.; cello con sord.\n\nGerman mute wording is replaced by the standard con sord. vocabulary specified by P5. The source playing state is unchanged.\n\n**Verified locations:** Violin I: 44, 48, 62, 64, 123, 124, 133; Violin II: 42, 46, 65, 119, 120, 125; Viola: 62; Cello: 73.\n\nLater source Dpf. ab / ohne Dpf. becomes senza sord.; this item documents vocabulary, not an extra onset or mute-state change.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-01-source.png",
+          "caption": "Source scan; PDF page 16.",
+          "pdf_page": 16,
+          "crop_box_pdf_points": [
+            20,
+            370,
+            245,
+            550
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-02-edition.png",
+          "caption": "Final edition; PDF page 16.",
+          "pdf_page": 16,
+          "crop_box_pdf_points": [
+            40,
+            345,
+            280,
+            490
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "Specific source/edition difference, not a new policy declaration.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Join the source word across a system break",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 148,
+      "measure_end": 149,
+      "physical_start": 335,
+      "physical_end": 336,
+      "part": "Violin II",
+      "type": "Expression text",
+      "policy_refs": [
+        "D4"
+      ],
+      "id": "ED-008",
+      "origin_id": "BG-II-ED-03",
+      "status": "accepted",
+      "location": "II; edition 148–149",
+      "summary": "begleitend is entered as one complete expression at II.148.",
+      "body_markdown": "**Source:** The expression begleitend is split be- at the end of the preceding system and gleitend at the start of the next.\n\n**Edition:** begleitend is entered as one complete expression at II.148.\n\nThe wording and intended accompaniment character are retained; the typographic split is removed.",
+      "images": [
+        {
+          "role": "source_prefix",
+          "path": "images/ed-008-01-source_prefix.png",
+          "caption": "Source_prefix; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            390,
+            80,
+            540,
+            155
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "source",
+          "path": "images/ed-008-02-source.png",
+          "caption": "Source scan; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            40,
+            220,
+            245,
+            295
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-03-edition.png",
+          "caption": "Final edition; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            390,
+            105,
+            570,
+            180
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Specific source/edition difference, not a new policy declaration.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Supply the return to arco before bowed tremolo",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 183,
+      "measure_end": 184,
+      "physical_start": 370,
+      "physical_end": 371,
+      "part": "Violin I",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P1",
+        "B2",
+        "G4"
+      ],
+      "id": "ED-009",
+      "origin_id": "BG-II-ED-04",
+      "status": "accepted",
+      "location": "II; edition 183–184",
+      "summary": "[arco] is supplied on the final rest of II.183, before the tremolo.",
+      "body_markdown": "**Source:** Pizzicato begins at II.182; the source gives no explicit arco before the tremolo am Steg at II.184.\n\n**Edition:** [arco] is supplied on the final rest of II.183, before the tremolo.\n\nThe next tremolo passage requires bowed playing. The supplied return is placed in the preceding rest and marked with square brackets, so no sounded pizzicato note is changed.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-01-source.png",
+          "caption": "Source scan; PDF page 25.",
+          "pdf_page": 25,
+          "crop_box_pdf_points": [
+            45,
+            205,
+            355,
+            275
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-02-edition.png",
+          "caption": "Final edition; PDF page 25.",
+          "pdf_page": 25,
+          "crop_box_pdf_points": [
+            40,
+            230,
+            440,
+            290
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "Specific source/edition difference, not a new policy declaration.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": {
+    "source_pdf_sha256": "e0ba371358fe36395cba755fae73f3ef3a78b9d190887302f28efb68cb8d64e1",
+    "edition_native_sha256": "2ab5416dca089d415421e6aeafbd035ba9cfc94e9b71d03fc5846a4ce29cac0f",
+    "edition_pdf_sha256": "97d3cd128d377c7e4180884369b6206cf677c68373c7822e9b13adf960cd6ac3",
+    "edition_render": "MuseScore 3.6.2, final corrected native score",
+    "source_pages": "One-based PDF page numbers; crop rectangles use PDF points.",
+    "generated_on": "2026-10-27"
+  }
+}

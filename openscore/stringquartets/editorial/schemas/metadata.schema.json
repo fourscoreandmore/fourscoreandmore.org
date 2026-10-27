@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:scores-of-scores:metadata:2",
+  "title": "Score edition metadata",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "sqid",
+    "title",
+    "composer",
+    "score_file",
+    "score_sha256",
+    "policy_source"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "sqid": {
+      "type": "string",
+      "pattern": "^sq[0-9]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "composer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "score_file": {
+      "type": "string",
+      "pattern": "^sq[0-9]+\\.mscx$"
+    },
+    "score_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "policy_source": {
+      "type": "object",
+      "required": [
+        "url",
+        "checked_on",
+        "version_label"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "checked_on": {
+          "type": "string",
+          "format": "date"
+        },
+        "version_label": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "additionalProperties": true
+}

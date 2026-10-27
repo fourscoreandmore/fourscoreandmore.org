@@ -1,0 +1,1485 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq14387632",
+  "context_markdown": "This working edition records known, accepted differences from the supplied IMSLP source. Records are ordered by score position. Review combined whole-page comparisons in all four parts with magnified inspection of the reported passages and targeted native-score checks; it is not a guarantee of independent note-by-note re-entry. Unresolved questions and transcription corrections are maintained separately from these public editorial notes.",
+  "policy_refs": [],
+  "records": [
+    {
+      "title": "Source editorial brackets removed from piano",
+      "movement": 1,
+      "measure_start": 9,
+      "measure_end": 9,
+      "physical_start": 10,
+      "physical_end": 10,
+      "part": "Cello",
+      "type": "Dynamic",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-001",
+      "origin_id": "BE-EARLY-002",
+      "status": "accepted",
+      "location": "9",
+      "summary": "p",
+      "body_markdown": "**Source:** [p]\n\n**Edition:** p\n\nThe source-supplied dynamic is retained; its editorial brackets are omitted under B3.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-01-source.png",
+          "caption": "Source scan; PDF page 3.",
+          "pdf_page": 3,
+          "crop_box_pdf_points": [
+            45,
+            320,
+            615,
+            570
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-02-edition.png",
+          "caption": "Final edition; PDF page 1.",
+          "pdf_page": 1,
+          "crop_box_pdf_points": [
+            30,
+            335,
+            565,
+            535
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The source-supplied dynamic is retained; its editorial brackets are omitted under B3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from Solo",
+      "movement": 1,
+      "measure_start": 15,
+      "measure_end": 15,
+      "physical_start": 16,
+      "physical_end": 16,
+      "part": "Viola",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-002",
+      "origin_id": "BE-EARLY-003",
+      "status": "accepted",
+      "location": "15",
+      "summary": "Solo",
+      "body_markdown": "**Source:** [Solo]\n\n**Edition:** Solo\n\nThe source-supplied instruction is retained without its brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-01-source.png",
+          "caption": "Source scan; PDF page 4.",
+          "pdf_page": 4,
+          "crop_box_pdf_points": [
+            45,
+            35,
+            615,
+            285
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-02-edition.png",
+          "caption": "Final edition; PDF page 2.",
+          "pdf_page": 2,
+          "crop_box_pdf_points": [
+            30,
+            35,
+            565,
+            265
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The source-supplied instruction is retained without its brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from fortissimo",
+      "movement": 1,
+      "measure_start": 55,
+      "measure_end": 55,
+      "physical_start": 56,
+      "physical_end": 56,
+      "part": "Cello",
+      "type": "Dynamic",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-003",
+      "origin_id": "BE-EARLY-004",
+      "status": "accepted",
+      "location": "55",
+      "summary": "ff",
+      "body_markdown": "**Source:** [ff]\n\n**Edition:** ff\n\nThe source-supplied dynamic is retained without its brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-01-source.png",
+          "caption": "Source scan; PDF page 7.",
+          "pdf_page": 7,
+          "crop_box_pdf_points": [
+            45,
+            295,
+            615,
+            590
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-02-edition.png",
+          "caption": "Final edition; PDF page 5.",
+          "pdf_page": 5,
+          "crop_box_pdf_points": [
+            30,
+            285,
+            565,
+            520
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The source-supplied dynamic is retained without its brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Adopt the source metric relation without editorial brackets",
+      "movement": 1,
+      "measure_start": 129,
+      "measure_end": 129,
+      "physical_start": 130,
+      "physical_end": 130,
+      "part": "All parts",
+      "type": "Tempo",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-004",
+      "origin_id": "BE-EARLY-005",
+      "status": "accepted",
+      "location": "129",
+      "summary": "dotted quarter = quarter, without square brackets",
+      "body_markdown": "**Source:** [dotted quarter = quarter]\n\n**Edition:** dotted quarter = quarter, without square brackets\n\nThe source relation is retained; removing source brackets follows B3 and changes neither tempo nor rhythm.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-01-source.png",
+          "caption": "Source scan; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            40,
+            25,
+            615,
+            300
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-02-edition.png",
+          "caption": "Final edition; PDF page 10.",
+          "pdf_page": 10,
+          "crop_box_pdf_points": [
+            30,
+            300,
+            565,
+            535
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The source relation is retained; removing source brackets follows B3 and changes neither tempo nor rhythm.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from the triplet numeral",
+      "movement": 1,
+      "measure_start": 136,
+      "measure_end": 136,
+      "physical_start": 137,
+      "physical_end": 137,
+      "part": "Cello",
+      "type": "Tuplet",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "id": "ED-005",
+      "origin_id": "BE-EARLY-006",
+      "status": "accepted",
+      "location": "136",
+      "summary": "A normal 3 on the native tuplet.",
+      "body_markdown": "**Source:** [3] over the three eighth notes after the quarter rest.\n\n**Edition:** A normal 3 on the native tuplet.\n\nThe triplet ratio is retained; its source editorial brackets are omitted.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-01-source.png",
+          "caption": "Source scan; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            40,
+            590,
+            615,
+            835
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-02-edition.png",
+          "caption": "Final edition; PDF page 10.",
+          "pdf_page": 10,
+          "crop_box_pdf_points": [
+            30,
+            565,
+            565,
+            805
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The triplet ratio is retained; its source editorial brackets are omitted.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from staccato",
+      "movement": 1,
+      "measure_start": 166,
+      "measure_end": 166,
+      "physical_start": 167,
+      "physical_end": 167,
+      "part": "Cello",
+      "type": "Articulation",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-006",
+      "origin_id": "BE-EARLY-008",
+      "status": "accepted",
+      "location": "166",
+      "summary": "An ordinary staccato dot at the same note.",
+      "body_markdown": "**Source:** Bracketed staccato dot on the final sixteenth note.\n\n**Edition:** An ordinary staccato dot at the same note.\n\nRetain the source editorial articulation without brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-01-source.png",
+          "caption": "Source scan; PDF page 14.",
+          "pdf_page": 14,
+          "crop_box_pdf_points": [
+            40,
+            295,
+            615,
+            570
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-02-edition.png",
+          "caption": "Final edition; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            30,
+            285,
+            565,
+            535
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Retain the source editorial articulation without brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from supplied triplet numerals",
+      "movement": 1,
+      "measure_start": 169,
+      "measure_end": 172,
+      "physical_start": 170,
+      "physical_end": 173,
+      "part": "Violin II and viola",
+      "type": "Tuplet",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "exact_locations": {
+        "Violin II": {
+          "169": "second group",
+          "171": "second-beat triplet group"
+        },
+        "Viola": {
+          "171": "second beat group",
+          "172": "second beat group"
+        }
+      },
+      "id": "ED-007",
+      "origin_id": "BE-EARLY-009",
+      "status": "accepted",
+      "location": "169–172",
+      "summary": "Ordinary 3 numerals at those groups.",
+      "body_markdown": "**Source:** Violin II: [3] on second triplet of m169 and triplet of m171; viola: [3] in mm171 and172.\n\n**Edition:** Ordinary 3 numerals at those groups.\n\nThe rhythmic readings are retained, with source editorial brackets removed.\n\n**Verified locations:** Violin II: 169, 171; Viola: 171, 172.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-01-source.png",
+          "caption": "Source scan; PDF page 14.",
+          "pdf_page": 14,
+          "crop_box_pdf_points": [
+            40,
+            580,
+            615,
+            825
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-02-edition.png",
+          "caption": "Final edition; PDF page 12.",
+          "pdf_page": 12,
+          "crop_box_pdf_points": [
+            30,
+            540,
+            565,
+            795
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "The rhythmic readings are retained, with source editorial brackets removed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial brackets removed from expressive instructions",
+      "movement": 1,
+      "measure_start": 201,
+      "measure_end": 201,
+      "physical_start": 202,
+      "physical_end": 202,
+      "part": "Violin II and viola",
+      "type": "Expression text",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-008",
+      "origin_id": "BE-EARLY-010",
+      "status": "accepted",
+      "location": "201",
+      "summary": "The same instructions without square brackets.",
+      "body_markdown": "**Source:** Violin II [ben espressivo e cresc.]; viola [cresc.].\n\n**Edition:** The same instructions without square brackets.\n\nAdopt the source editorial instructions while omitting their brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-01-source.png",
+          "caption": "Source scan; PDF page 16.",
+          "pdf_page": 16,
+          "crop_box_pdf_points": [
+            40,
+            575,
+            615,
+            825
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-02-edition.png",
+          "caption": "Final edition; PDF page 14.",
+          "pdf_page": 14,
+          "crop_box_pdf_points": [
+            30,
+            555,
+            565,
+            795
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editorial instructions while omitting their brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial triplet numeral adopted without brackets",
+      "movement": 1,
+      "measure_start": 207,
+      "measure_end": 207,
+      "physical_start": 208,
+      "physical_end": 208,
+      "part": "Violin II",
+      "type": "Tuplet / source brackets",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "id": "ED-009",
+      "origin_id": "BE-LATE-E01",
+      "status": "accepted",
+      "location": "207",
+      "summary": "The triplet is encoded normally and its numeral is unbracketed.",
+      "body_markdown": "**Source:** The source encloses the triplet 3 in square brackets.\n\n**Edition:** The triplet is encoded normally and its numeral is unbracketed.\n\nAdopt the source editor’s supplied rhythmic reading while removing its editorial brackets; the sounding rhythm is unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-01-source.png",
+          "caption": "Source scan; PDF page 17.",
+          "pdf_page": 17,
+          "crop_box_pdf_points": [
+            320,
+            105,
+            490,
+            178
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-02-edition.png",
+          "caption": "Final edition; PDF page 15.",
+          "pdf_page": 15,
+          "crop_box_pdf_points": [
+            320,
+            105,
+            465,
+            150
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s supplied rhythmic reading while removing its editorial brackets; the sounding rhythm is unchanged.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial triplet numeral adopted without brackets",
+      "movement": 1,
+      "measure_start": 224,
+      "measure_end": 224,
+      "physical_start": 225,
+      "physical_end": 225,
+      "part": "Violin II",
+      "type": "Tuplet / source brackets",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "id": "ED-010",
+      "origin_id": "BE-LATE-E02",
+      "status": "accepted",
+      "location": "224",
+      "summary": "The encoded triplet has an ordinary 3.",
+      "body_markdown": "**Source:** The source prints [3] over the triplet.\n\n**Edition:** The encoded triplet has an ordinary 3.\n\nRetain the supplied rhythmic reading and omit the source editor’s brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-01-source.png",
+          "caption": "Source scan; PDF page 18.",
+          "pdf_page": 18,
+          "crop_box_pdf_points": [
+            170,
+            110,
+            315,
+            177
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-02-edition.png",
+          "caption": "Final edition; PDF page 16.",
+          "pdf_page": 16,
+          "crop_box_pdf_points": [
+            141,
+            106,
+            255,
+            154
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Retain the supplied rhythmic reading and omit the source editor’s brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Metric equivalence retained without source brackets",
+      "movement": 1,
+      "measure_start": 262,
+      "measure_end": 262,
+      "physical_start": 263,
+      "physical_end": 263,
+      "part": "All parts (system tempo)",
+      "type": "Tempo / source brackets",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-011",
+      "origin_id": "BE-LATE-E03",
+      "status": "accepted",
+      "location": "262",
+      "summary": "The same equivalence is shown without square brackets.",
+      "body_markdown": "**Source:** The source prints a bracketed quarter-note = dotted-quarter-note equivalence at the transition to 6/8.\n\n**Edition:** The same equivalence is shown without square brackets.\n\nAdopt the source editor’s metric-equivalence indication under B3; note glyphs, tempo values and rhythm are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-01-source.png",
+          "caption": "Source scan; PDF page 20.",
+          "pdf_page": 20,
+          "crop_box_pdf_points": [
+            495,
+            30,
+            600,
+            103
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-02-edition.png",
+          "caption": "Final edition; PDF page 18.",
+          "pdf_page": 18,
+          "crop_box_pdf_points": [
+            457,
+            43,
+            560,
+            91
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s metric-equivalence indication under B3; note glyphs, tempo values and rhythm are unchanged.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial più cresc. adopted without brackets",
+      "movement": 1,
+      "measure_start": 280,
+      "measure_end": 280,
+      "physical_start": 281,
+      "physical_end": 281,
+      "part": "Cello",
+      "type": "Expression / source brackets",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-012",
+      "origin_id": "BE-LATE-E04",
+      "status": "accepted",
+      "location": "280",
+      "summary": "The marking is retained without square brackets.",
+      "body_markdown": "**Source:** The source encloses the cello più cresc. in square brackets.\n\n**Edition:** The marking is retained without square brackets.\n\nAdopt the source editor’s supplied expression indication under B3.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-01-source.png",
+          "caption": "Source scan; PDF page 21.",
+          "pdf_page": 21,
+          "crop_box_pdf_points": [
+            245,
+            490,
+            405,
+            580
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-02-edition.png",
+          "caption": "Final edition; PDF page 19.",
+          "pdf_page": 19,
+          "crop_box_pdf_points": [
+            244,
+            470,
+            370,
+            522
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s supplied expression indication under B3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Rejoin a phrase split across the source system break",
+      "movement": 1,
+      "measure_start": 292,
+      "measure_end": 293,
+      "physical_start": 293,
+      "physical_end": 294,
+      "part": "All parts",
+      "type": "Expression text",
+      "policy_refs": [
+        "D4",
+        "D2.1"
+      ],
+      "id": "ED-013",
+      "origin_id": "BE-LATE-E05",
+      "status": "accepted",
+      "location": "292–293",
+      "summary": "The complete phrase poco a poco cresc. appears together at m292.",
+      "body_markdown": "**Source:** The source divides poco à / poco cresc. between the end of m292 and the next system at m293.\n\n**Edition:** The complete phrase poco a poco cresc. appears together at m292.\n\nReunite the phrase at its original onset instead of reproducing the source’s line-break division; use the conventional Italian a.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-01-source.png",
+          "caption": "Source scan; PDF page 22.",
+          "pdf_page": 22,
+          "crop_box_pdf_points": [
+            460,
+            40,
+            600,
+            292
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-02-edition.png",
+          "caption": "Final edition; PDF page 20.",
+          "pdf_page": 20,
+          "crop_box_pdf_points": [
+            451,
+            47,
+            567,
+            255
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        },
+        {
+          "role": "source-continuation",
+          "path": "images/ed-013-03-source-continuation.png",
+          "caption": "Source continuation; PDF page 22.",
+          "pdf_page": 22,
+          "crop_box_pdf_points": [
+            48,
+            310,
+            190,
+            391
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The equivalent complete phrase is retained as a single instruction at its original onset. D4 concerns split instructions, but specifies a continuation line rather than this complete-text treatment; D2.1 supplies relevant expression-text context.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Solid native crescendo replaces a dashed source tail",
+      "movement": 1,
+      "measure_start": 309,
+      "measure_end": 310,
+      "physical_start": 310,
+      "physical_end": 311,
+      "part": "Violin I",
+      "type": "Hairpin style",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-014",
+      "origin_id": "BE-LATE-E06",
+      "status": "accepted",
+      "location": "309–310",
+      "summary": "The equivalent crescendo is engraved as one solid native hairpin.",
+      "body_markdown": "**Source:** The source crescendo begins solid and finishes with dashed continuation near the end of m310.\n\n**Edition:** The equivalent crescendo is engraved as one solid native hairpin.\n\nUse the native line style while retaining the increase in dynamic and the passage to which it applies. B3 does not explicitly address dashed lines; this is recorded as a local application of G2/D1.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-01-source.png",
+          "caption": "Source scan; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            185,
+            324,
+            400,
+            395
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-02-edition.png",
+          "caption": "Final edition; PDF page 21.",
+          "pdf_page": 21,
+          "crop_box_pdf_points": [
+            190,
+            314,
+            365,
+            360
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Use the native line style while retaining the increase in dynamic and the passage to which it applies. B3 does not explicitly address dashed lines; this is recorded as a local application of G2/D1.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Dashed source diminuendo rendered as a solid native hairpin",
+      "movement": 1,
+      "measure_start": 326,
+      "measure_end": 327,
+      "physical_start": 327,
+      "physical_end": 328,
+      "part": "Violin II",
+      "type": "Hairpin style",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-015",
+      "origin_id": "BE-LATE-E07",
+      "status": "accepted",
+      "location": "326–327",
+      "summary": "The diminuendo is solid.",
+      "body_markdown": "**Source:** The source uses dashed strokes for the diminuendo across mm326–327.\n\n**Edition:** The diminuendo is solid.\n\nRetain the dynamic direction and use the native line style. No claim is made here about the source editor’s reason for dashing the line.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-015-01-source.png",
+          "caption": "Source scan; PDF page 24.",
+          "pdf_page": 24,
+          "crop_box_pdf_points": [
+            355,
+            382,
+            595,
+            458
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-015-02-edition.png",
+          "caption": "Final edition; PDF page 22.",
+          "pdf_page": 22,
+          "crop_box_pdf_points": [
+            325,
+            375,
+            560,
+            429
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Retain the dynamic direction and use the native line style. No claim is made here about the source editor’s reason for dashing the line.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Metric equivalence retained without source brackets",
+      "movement": 1,
+      "measure_start": 331,
+      "measure_end": 331,
+      "physical_start": 332,
+      "physical_end": 332,
+      "part": "All parts (system tempo)",
+      "type": "Tempo / source brackets",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-016",
+      "origin_id": "BE-LATE-E08",
+      "status": "accepted",
+      "location": "331",
+      "summary": "The same equivalence is shown without square brackets.",
+      "body_markdown": "**Source:** The source prints a bracketed dotted-quarter-note = quarter-note equivalence at the transition to 2/4.\n\n**Edition:** The same equivalence is shown without square brackets.\n\nAdopt the source editor’s metric-equivalence indication under B3; the tempo relationship is unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-016-01-source.png",
+          "caption": "Source scan; PDF page 24.",
+          "pdf_page": 24,
+          "crop_box_pdf_points": [
+            365,
+            578,
+            600,
+            667
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-016-02-edition.png",
+          "caption": "Final edition; PDF page 22.",
+          "pdf_page": 22,
+          "crop_box_pdf_points": [
+            325,
+            572,
+            560,
+            617
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s metric-equivalence indication under B3; the tempo relationship is unchanged.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial triplet numerals adopted without brackets",
+      "movement": 1,
+      "measure_start": 336,
+      "measure_end": 336,
+      "physical_start": 337,
+      "physical_end": 337,
+      "part": "Violins I and II",
+      "type": "Tuplet / source brackets",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "id": "ED-017",
+      "origin_id": "BE-LATE-E09",
+      "status": "accepted",
+      "location": "336",
+      "summary": "Both numerals are ordinary unbracketed 3s.",
+      "body_markdown": "**Source:** Both violin triplet numerals are enclosed in square brackets.\n\n**Edition:** Both numerals are ordinary unbracketed 3s.\n\nAdopt the supplied rhythms while removing source editorial brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-017-01-source.png",
+          "caption": "Source scan; PDF page 25.",
+          "pdf_page": 25,
+          "crop_box_pdf_points": [
+            380,
+            42,
+            600,
+            199
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-017-02-edition.png",
+          "caption": "Final edition; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            350,
+            44,
+            560,
+            152
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the supplied rhythms while removing source editorial brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial triplet numeral adopted without brackets",
+      "movement": 1,
+      "measure_start": 339,
+      "measure_end": 339,
+      "physical_start": 340,
+      "physical_end": 340,
+      "part": "Violin I",
+      "type": "Tuplet / source brackets",
+      "policy_refs": [
+        "B3",
+        "T4"
+      ],
+      "id": "ED-018",
+      "origin_id": "BE-LATE-E10",
+      "status": "accepted",
+      "location": "339",
+      "summary": "The numeral is unbracketed.",
+      "body_markdown": "**Source:** The source places square brackets around the triplet numeral.\n\n**Edition:** The numeral is unbracketed.\n\nAdopt the supplied rhythmic reading and remove source editorial brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-018-01-source.png",
+          "caption": "Source scan; PDF page 25.",
+          "pdf_page": 25,
+          "crop_box_pdf_points": [
+            165,
+            321,
+            310,
+            385
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-018-02-edition.png",
+          "caption": "Final edition; PDF page 23.",
+          "pdf_page": 23,
+          "crop_box_pdf_points": [
+            144,
+            316,
+            267,
+            360
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the supplied rhythmic reading and remove source editorial brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial triplet numeral adopted without brackets",
+      "movement": 1,
+      "measure_start": 349,
+      "measure_end": 349,
+      "physical_start": 350,
+      "physical_end": 350,
+      "part": "Violin II",
+      "type": "Tuplet / source brackets",
+      "policy_refs": [
+        "B3",
+        "T4",
+        "G2"
+      ],
+      "id": "ED-019",
+      "origin_id": "BE-LATE-E11",
+      "status": "accepted",
+      "location": "349",
+      "summary": "The ordinary 3 appears above the beam.",
+      "body_markdown": "**Source:** The source prints [3] beneath the triplet group.\n\n**Edition:** The ordinary 3 appears above the beam.\n\nAdopt the source editor’s rhythmic reading and use the native tuplet presentation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-019-01-source.png",
+          "caption": "Source scan; PDF page 26.",
+          "pdf_page": 26,
+          "crop_box_pdf_points": [
+            170,
+            103,
+            315,
+            181
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-019-02-edition.png",
+          "caption": "Final edition; PDF page 24.",
+          "pdf_page": 24,
+          "crop_box_pdf_points": [
+            145,
+            103,
+            263,
+            153
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s rhythmic reading and use the native tuplet presentation.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source dashed lead-in rendered with a solid crescendo",
+      "movement": 1,
+      "measure_start": 365,
+      "measure_end": 366,
+      "physical_start": 366,
+      "physical_end": 367,
+      "part": "Viola",
+      "type": "Hairpin style",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-020",
+      "origin_id": "BE-LATE-E12",
+      "status": "accepted",
+      "location": "365–366",
+      "summary": "The native crescendo is solid throughout.",
+      "body_markdown": "**Source:** The source crescendo begins with a short dashed segment in m365.\n\n**Edition:** The native crescendo is solid throughout.\n\nUse the native line style while retaining the crescendo.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-020-01-source.png",
+          "caption": "Source scan; PDF page 27.",
+          "pdf_page": 27,
+          "crop_box_pdf_points": [
+            260,
+            174,
+            495,
+            229
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-020-02-edition.png",
+          "caption": "Final edition; PDF page 25.",
+          "pdf_page": 25,
+          "crop_box_pdf_points": [
+            254,
+            164,
+            460,
+            212
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Use the native line style while retaining the crescendo.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial accent adopted without brackets",
+      "movement": 1,
+      "measure_start": 383,
+      "measure_end": 383,
+      "physical_start": 384,
+      "physical_end": 384,
+      "part": "Cello",
+      "type": "Articulation / source brackets",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-021",
+      "origin_id": "BE-LATE-E13",
+      "status": "accepted",
+      "location": "383",
+      "summary": "The accent is retained as a normal articulation without square brackets.",
+      "body_markdown": "**Source:** The source brackets the accent on the second beat (the eighth note after the dotted-eighth/sixteenth pair).\n\n**Edition:** The accent is retained as a normal articulation without square brackets.\n\nAdopt the source editor’s supplied accent under B3.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-021-01-source.png",
+          "caption": "Source scan; PDF page 28.",
+          "pdf_page": 28,
+          "crop_box_pdf_points": [
+            55,
+            472,
+            188,
+            535
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-021-02-edition.png",
+          "caption": "Final edition; PDF page 26.",
+          "pdf_page": 26,
+          "crop_box_pdf_points": [
+            45,
+            468,
+            165,
+            508
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s supplied accent under B3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Dashed source diminuendos rendered as native hairpins",
+      "movement": 1,
+      "measure_start": 394,
+      "measure_end": 396,
+      "physical_start": 395,
+      "physical_end": 397,
+      "part": "All parts",
+      "type": "Hairpin style",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-022",
+      "origin_id": "BE-LATE-E14",
+      "status": "accepted",
+      "location": "394–396",
+      "summary": "The corresponding diminuendos are solid native hairpins.",
+      "body_markdown": "**Source:** The returning Grave has dashed diminuendo hairpins in all four parts.\n\n**Edition:** The corresponding diminuendos are solid native hairpins.\n\nRetain the dynamic changes while adopting native line presentation. This is a line-style decision, not removal of the dynamics.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-022-01-source.png",
+          "caption": "Source scan; PDF page 29.",
+          "pdf_page": 29,
+          "crop_box_pdf_points": [
+            65,
+            35,
+            365,
+            279
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-022-02-edition.png",
+          "caption": "Final edition; PDF page 27.",
+          "pdf_page": 27,
+          "crop_box_pdf_points": [
+            45,
+            46,
+            298,
+            263
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Retain the dynamic changes while adopting native line presentation. This is a line-style decision, not removal of the dynamics.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Source editorial fermatas adopted without brackets",
+      "movement": 1,
+      "measure_start": 411,
+      "measure_end": 411,
+      "physical_start": 412,
+      "physical_end": 412,
+      "part": "Violins I and II; cello",
+      "type": "Fermata / source brackets",
+      "policy_refs": [
+        "B3"
+      ],
+      "id": "ED-023",
+      "origin_id": "BE-LATE-E15",
+      "status": "accepted",
+      "location": "411",
+      "summary": "All four parts show ordinary fermatas.",
+      "body_markdown": "**Source:** The source brackets the fermatas above the three resting parts; the viola fermata is already unbracketed.\n\n**Edition:** All four parts show ordinary fermatas.\n\nAdopt the source editor’s supplied holds and remove the source brackets.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-023-01-source.png",
+          "caption": "Source scan; PDF page 30.",
+          "pdf_page": 30,
+          "crop_box_pdf_points": [
+            240,
+            35,
+            370,
+            272
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-023-02-edition.png",
+          "caption": "Final edition; PDF page 28.",
+          "pdf_page": 28,
+          "crop_box_pdf_points": [
+            235,
+            44,
+            350,
+            234
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Adopt the source editor’s supplied holds and remove the source brackets.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standard abbreviation for the mute instruction",
+      "movement": 1,
+      "measure_start": 417,
+      "measure_end": 417,
+      "physical_start": 418,
+      "physical_end": 418,
+      "part": "Violin II",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "id": "ED-024",
+      "origin_id": "BE-LATE-E16",
+      "status": "accepted",
+      "location": "417",
+      "summary": "con sord.",
+      "body_markdown": "**Source:** con sordino\n\n**Edition:** con sord.\n\nUse the project’s standard mute indication, with unchanged onset in the resting bar.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-024-01-source.png",
+          "caption": "Source scan; PDF page 30.",
+          "pdf_page": 30,
+          "crop_box_pdf_points": [
+            365,
+            365,
+            500,
+            425
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-024-02-edition.png",
+          "caption": "Final edition; PDF page 28.",
+          "pdf_page": 28,
+          "crop_box_pdf_points": [
+            326,
+            365,
+            450,
+            415
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Use the project’s standard mute indication, with unchanged onset in the resting bar.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Standard abbreviation for the mute instruction",
+      "movement": 1,
+      "measure_start": 425,
+      "measure_end": 425,
+      "physical_start": 426,
+      "physical_end": 426,
+      "part": "Violin I",
+      "type": "Playing instruction",
+      "policy_refs": [
+        "P5"
+      ],
+      "id": "ED-025",
+      "origin_id": "BE-LATE-E17",
+      "status": "accepted",
+      "location": "425",
+      "summary": "con sord.",
+      "body_markdown": "**Source:** con sordino\n\n**Edition:** con sord.\n\nUse the project’s standard mute indication at the same resting bar.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-025-01-source.png",
+          "caption": "Source scan; PDF page 31.",
+          "pdf_page": 31,
+          "crop_box_pdf_points": [
+            345,
+            28,
+            490,
+            100
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-025-02-edition.png",
+          "caption": "Final edition; PDF page 29.",
+          "pdf_page": 29,
+          "crop_box_pdf_points": [
+            315,
+            48,
+            460,
+            90
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "covered",
+        "note": "Use the project’s standard mute indication at the same resting bar.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "title": "Dashed opening of the closing diminuendo rendered solid",
+      "movement": 1,
+      "measure_start": 436,
+      "measure_end": 437,
+      "physical_start": 437,
+      "physical_end": 438,
+      "part": "Violins I and II",
+      "type": "Hairpin style",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-026",
+      "origin_id": "BE-LATE-E18",
+      "status": "accepted",
+      "location": "436–437",
+      "summary": "The final native diminuendos are solid throughout.",
+      "body_markdown": "**Source:** The source violin diminuendos begin dashed in m436 and become solid in m437.\n\n**Edition:** The final native diminuendos are solid throughout.\n\nRetain the diminuendo across the tied ending and use the native line style.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-026-01-source.png",
+          "caption": "Source scan; PDF page 31.",
+          "pdf_page": 31,
+          "crop_box_pdf_points": [
+            450,
+            565,
+            600,
+            824
+          ],
+          "render_scale": 2,
+          "basis": "source"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-026-02-edition.png",
+          "caption": "Final edition; PDF page 29.",
+          "pdf_page": 29,
+          "crop_box_pdf_points": [
+            420,
+            560,
+            560,
+            779
+          ],
+          "render_scale": 2,
+          "basis": "final"
+        }
+      ],
+      "movement_label": "I",
+      "policy_review": {
+        "status": "local_decision",
+        "note": "Retain the diminuendo across the tied ending and use the native line style.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": {
+    "source_pdf_sha256": "ff3c8d88a66341b460de49585f052ed3d8576384bb1e485042c8175776404d3c",
+    "edition_native_sha256": "ba8da8ad3f8408da1d84d8fdeab024c0c3fd83ea5fd22bd381b3b258704d0f0c",
+    "edition_pdf_sha256": "a6acd58696e6fb668247e6dd6c1ecb0be5b588ad825a1998375ab4db32dbc825",
+    "edition_render": "MuseScore 3.6.2, final corrected native score",
+    "source_pages": "One-based PDF page numbers; crop rectangles use PDF points.",
+    "generated_on": "2026-10-27"
+  }
+}

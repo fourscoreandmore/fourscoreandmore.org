@@ -1,0 +1,924 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq10527526",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This register records known, intentional differences between the supplied printed source and the current working edition. The choices are adopted for this edition; they do not reconstruct the original transcriber’s intentions.\n\nAll four movements and all 32 pages of the supplied scan were reviewed, with enlarged checks of identified passages. This is a working edition, not a new critical edition or an exhaustive guarantee of every small mark. The source is the Breitkopf & Härtel collected edition as reprinted by Dover, not an autograph.\n\nBar numbers restart with each movement and follow the native transcription. Movement II begins with a pickup; its tempo and key changes include split bars. First endings and split bars are not forcibly renumbered. Captions identify the target location; images retain musical context.",
+  "records": [
+    {
+      "id": "ED-001",
+      "movement": 1,
+      "measure_start": 71,
+      "measure_end": 74,
+      "location": "71–74",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "I",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 2,
+      "edition_page": 2,
+      "title": "ED-001 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-source.png",
+          "caption": "Source scan; target I.71–74, Cello; selected excerpt with surrounding context. PDF p.2.",
+          "pdf_page": 2
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-edition.png",
+          "caption": "Current edition, native MuseScore; target I.71–74, Cello; selected excerpt with surrounding context. PDF p.2.",
+          "pdf_page": 2
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "movement": 1,
+      "measure_start": 141,
+      "measure_end": 143,
+      "location": "141–143",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "I",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 4,
+      "edition_page": 4,
+      "title": "ED-002 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-source.png",
+          "caption": "Source scan; target I.141–143, Cello; selected excerpt with surrounding context. PDF p.4.",
+          "pdf_page": 4
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-edition.png",
+          "caption": "Current edition, native MuseScore; target I.141–143, Cello; selected excerpt with surrounding context. PDF p.4.",
+          "pdf_page": 4
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003",
+      "movement": 1,
+      "measure_start": 178,
+      "measure_end": 182,
+      "location": "178–182",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "I",
+      "summary": "The passage is written in modern bass clef at its intended sounding pitch.",
+      "source_page": 5,
+      "edition_page": 5,
+      "title": "ED-003 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern bass clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-source.png",
+          "caption": "Source scan; target I.178–182, Cello; selected excerpt with surrounding context. PDF p.5.",
+          "pdf_page": 5
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-edition.png",
+          "caption": "Current edition, native MuseScore; target I.178–182, Cello; selected excerpt with surrounding context. PDF p.5.",
+          "pdf_page": 5
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004",
+      "movement": 1,
+      "measure_start": 183,
+      "measure_end": 185,
+      "location": "183–185",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "I",
+      "summary": "The passage is written in modern bass clef at its intended sounding pitch.",
+      "source_page": 5,
+      "edition_page": 5,
+      "title": "ED-004 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern bass clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-source.png",
+          "caption": "Source scan; target I.183–185, Cello; selected excerpt with surrounding context. PDF p.5.",
+          "pdf_page": 5
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-edition.png",
+          "caption": "Current edition, native MuseScore; target I.183–185, Cello; selected excerpt with surrounding context. PDF p.5.",
+          "pdf_page": 5
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-005",
+      "movement": 1,
+      "measure_start": 217,
+      "measure_end": 221,
+      "location": "217–221",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "I",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 6,
+      "edition_page": 6,
+      "title": "ED-005 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-source.png",
+          "caption": "Source scan; target I.217–221, Cello; selected excerpt with surrounding context. PDF p.6.",
+          "pdf_page": 6
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-edition.png",
+          "caption": "Current edition, native MuseScore; target I.217–221, Cello; selected excerpt with surrounding context. PDF p.6.",
+          "pdf_page": 6
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-006",
+      "movement": 2,
+      "measure_start": 73,
+      "measure_end": 74,
+      "location": "73–74",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "II",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 11,
+      "edition_page": 12,
+      "title": "ED-006 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-source.png",
+          "caption": "Source scan; target II.73–74, Cello; selected excerpt with surrounding context. PDF p.11.",
+          "pdf_page": 11
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-edition.png",
+          "caption": "Current edition, native MuseScore; target II.73–74, Cello; selected excerpt with surrounding context. PDF p.12.",
+          "pdf_page": 12
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-007",
+      "movement": 2,
+      "measure_start": 86,
+      "measure_end": 86,
+      "location": "86",
+      "part": "All four parts",
+      "type": "Dynamic abbreviation",
+      "status": "accepted",
+      "movement_label": "II",
+      "summary": "rf, with the continuation retained.",
+      "source_page": 12,
+      "edition_page": 13,
+      "title": "ED-007 — Rinforzando abbreviated",
+      "body_markdown": "**Source:** rinf.\n\n**Edition:** rf, with the continuation retained.\n\n**Editorial reason:** Retain the equivalent abbreviation for rinforzando. This is a present editorial adoption, not a claim about the original transcriber’s intent.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-source.png",
+          "caption": "Source scan; target II.86, All four parts; selected excerpt with surrounding context. PDF p.12.",
+          "pdf_page": 12
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-edition.png",
+          "caption": "Current edition, native MuseScore; target II.86, All four parts; selected excerpt with surrounding context. PDF p.13.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-008",
+      "movement": 3,
+      "measure_start": 134,
+      "measure_end": 134,
+      "location": "134",
+      "part": "All four parts",
+      "type": "Dynamic wording",
+      "status": "accepted",
+      "movement_label": "III",
+      "summary": "più p",
+      "source_page": 18,
+      "edition_page": 19,
+      "title": "ED-008 — Piano represented by its dynamic symbol",
+      "body_markdown": "**Source:** più piano\n\n**Edition:** più p\n\n**Editorial reason:** Use the conventional p symbol for piano, preserving the instruction to play more softly.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-source.png",
+          "caption": "Source scan; target III.134, All four parts; selected excerpt with surrounding context. PDF p.18.",
+          "pdf_page": 18
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-edition.png",
+          "caption": "Current edition, native MuseScore; target III.134, All four parts; selected excerpt with surrounding context. PDF p.19.",
+          "pdf_page": 19
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-009",
+      "movement": 3,
+      "measure_start": 329,
+      "measure_end": 330,
+      "location": "329–330",
+      "part": "All four parts",
+      "type": "Dynamic abbreviation",
+      "status": "accepted",
+      "movement_label": "III",
+      "summary": "rf, with continuation dashes retained.",
+      "source_page": 22,
+      "edition_page": 23,
+      "title": "ED-009 — Rinforzando abbreviated",
+      "body_markdown": "**Source:** rinf. followed by continuation dashes.\n\n**Edition:** rf, with continuation dashes retained.\n\n**Editorial reason:** Retain the equivalent abbreviation and its continuing force.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-source.png",
+          "caption": "Source scan; target III.329–330, All four parts; selected excerpt with surrounding context. PDF p.22.",
+          "pdf_page": 22
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-edition.png",
+          "caption": "Current edition, native MuseScore; target III.329–330, All four parts; selected excerpt with surrounding context. PDF p.23.",
+          "pdf_page": 23
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-010",
+      "movement": 3,
+      "measure_start": 405,
+      "measure_end": 405,
+      "location": "405",
+      "part": "All four parts",
+      "type": "Dynamic wording",
+      "status": "accepted",
+      "movement_label": "III",
+      "summary": "più p",
+      "source_page": 24,
+      "edition_page": 25,
+      "title": "ED-010 — Piano represented by its dynamic symbol",
+      "body_markdown": "**Source:** più piano\n\n**Edition:** più p\n\n**Editorial reason:** Use the conventional p symbol for piano, preserving the instruction to play more softly.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-source.png",
+          "caption": "Source scan; target III.405, All four parts; selected excerpt with surrounding context. PDF p.24.",
+          "pdf_page": 24
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-edition.png",
+          "caption": "Current edition, native MuseScore; target III.405, All four parts; selected excerpt with surrounding context. PDF p.25.",
+          "pdf_page": 25
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-011",
+      "movement": 4,
+      "measure_start": 153,
+      "measure_end": 161,
+      "location": "153–161",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "IV",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 28,
+      "edition_page": 29,
+      "title": "ED-011 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-source.png",
+          "caption": "Source scan; target IV.153–161, Cello; selected excerpt with surrounding context. PDF p.28.",
+          "pdf_page": 28
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-edition.png",
+          "caption": "Current edition, native MuseScore; target IV.153–161, Cello; selected excerpt with surrounding context. PDF p.29.",
+          "pdf_page": 29
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-012",
+      "movement": 4,
+      "measure_start": 254,
+      "measure_end": 255,
+      "location": "254–255",
+      "part": "All four parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "movement_label": "IV",
+      "summary": "rit. appears as a tempo instruction above the system and is present in every linked part.",
+      "source_page": 30,
+      "edition_page": 31,
+      "title": "ED-012 — Ritardando abbreviated",
+      "body_markdown": "**Source:** ritar–dan–do distributed across the two bars beneath all four staves.\n\n**Edition:** rit. appears as a tempo instruction above the system and is present in every linked part.\n\n**Editorial reason:** Consolidate the distributed wording into the conventional abbreviation at the start of the slowing. Its musical span remains the same.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-source.png",
+          "caption": "Source scan; target IV.254–255, All four parts; selected excerpt with surrounding context. PDF p.30.",
+          "pdf_page": 30
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-edition.png",
+          "caption": "Current edition, native MuseScore; target IV.254–255, All four parts; selected excerpt with surrounding context. PDF p.31.",
+          "pdf_page": 31
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-013",
+      "movement": 4,
+      "measure_start": 265,
+      "measure_end": 272,
+      "location": "265–272",
+      "part": "Cello",
+      "type": "Clef and octave convention",
+      "status": "accepted",
+      "movement_label": "IV",
+      "summary": "The passage is written in modern tenor clef at its intended sounding pitch.",
+      "source_page": 31,
+      "edition_page": 32,
+      "title": "ED-013 — Historical cello treble clef modernized",
+      "body_markdown": "**Source:** The cello uses historical treble notation read an octave below its written treble pitch in this passage.\n\n**Edition:** The passage is written in modern tenor clef at its intended sounding pitch.\n\n**Editorial reason:** Adopt the existing modern clef notation to remove the historical octave ambiguity. The source-to-edition change is not an octave transposition of the sounding music. Where the source returns to bass or tenor clef within the displayed context, that boundary is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-source.png",
+          "caption": "Source scan; target IV.265–272, Cello; selected excerpt with surrounding context. PDF p.31.",
+          "pdf_page": 31
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-edition.png",
+          "caption": "Current edition, native MuseScore; target IV.265–272, Cello; selected excerpt with surrounding context. PDF p.32.",
+          "pdf_page": 32
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": [
+    {
+      "record": "ED-001",
+      "role": "source",
+      "file": "images/ed-001-source.png",
+      "pdf_page": 2,
+      "rect_pt": [
+        280.0,
+        745.0,
+        550.0,
+        809.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "2d664e20aad3bed1e20966b82fd8b5aa938effc51ea26658bb5d28ba03b450f6"
+    },
+    {
+      "record": "ED-001",
+      "role": "edition",
+      "file": "images/ed-001-edition.png",
+      "pdf_page": 2,
+      "rect_pt": [
+        35.0,
+        643.0040283203125,
+        558.0,
+        795.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "ad25f60c56b24d5d8394e245abb0211b7eee6b8542d9b64d7e754b7f711d05cf"
+    },
+    {
+      "record": "ED-002",
+      "role": "source",
+      "file": "images/ed-002-source.png",
+      "pdf_page": 4,
+      "rect_pt": [
+        20.0,
+        310.0,
+        600.0,
+        505.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "3b580ae25b464dcfd7d518a9eb949d126ea3f8cbf8a67540a0d9feb6e5ee5df3"
+    },
+    {
+      "record": "ED-002",
+      "role": "edition",
+      "file": "images/ed-002-edition.png",
+      "pdf_page": 4,
+      "rect_pt": [
+        35.0,
+        220.0,
+        558.0,
+        617.9514770507812
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "6d449f64375a2e7668b623a84244c87a6d58b8ad1bfba6f7ae43cce4e60ee140"
+    },
+    {
+      "record": "ED-003",
+      "role": "source",
+      "file": "images/ed-003-source.png",
+      "pdf_page": 5,
+      "rect_pt": [
+        20.0,
+        160.0,
+        600.0,
+        350.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "f30bfa4afc5c33f778866cb117bcab6cb100a3fefda85a73e12422bfa1b4c35a"
+    },
+    {
+      "record": "ED-003",
+      "role": "edition",
+      "file": "images/ed-003-edition.png",
+      "pdf_page": 5,
+      "rect_pt": [
+        35.0,
+        232.2137908935547,
+        558.0,
+        618.1453247070312
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "73f58da0d9c9885922f2c255f144a0bf77302e7f64885ba413ee3e41689e7fe1"
+    },
+    {
+      "record": "ED-004",
+      "role": "source",
+      "file": "images/ed-004-source.png",
+      "pdf_page": 5,
+      "rect_pt": [
+        280.0,
+        315.0,
+        530.0,
+        352.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "f1efe5292ffee0434dc18f2b5a22af5cdb5731b450c28a556a07931c09b1c7a6"
+    },
+    {
+      "record": "ED-004",
+      "role": "edition",
+      "file": "images/ed-004-edition.png",
+      "pdf_page": 5,
+      "rect_pt": [
+        35.0,
+        423.63067626953125,
+        558.0,
+        618.1453247070312
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "441724f57dedea776dd3c65c2b9b53c6fc23fbad6fd217e3e003af29873b09b8"
+    },
+    {
+      "record": "ED-005",
+      "role": "source",
+      "file": "images/ed-005-source.png",
+      "pdf_page": 6,
+      "rect_pt": [
+        180.0,
+        150.0,
+        535.0,
+        205.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "0a8f69c5d508f8e0f35aac72e71aa82ddf9d7c03d7a9d0dbed360100d8962bc4"
+    },
+    {
+      "record": "ED-005",
+      "role": "edition",
+      "file": "images/ed-005-edition.png",
+      "pdf_page": 6,
+      "rect_pt": [
+        35.0,
+        427.02056884765625,
+        558.0,
+        619.99658203125
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "4f5d5e9e394fcd0560c4b083b6db6567c75e0d88e77876db1982d9dda61c8346"
+    },
+    {
+      "record": "ED-006",
+      "role": "source",
+      "file": "images/ed-006-source.png",
+      "pdf_page": 11,
+      "rect_pt": [
+        25.0,
+        596.0,
+        245.0,
+        660.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "1140011276ccfa388ffd365b23248da10c7a3ed9339502c31fdf441b9611c8f7"
+    },
+    {
+      "record": "ED-006",
+      "role": "edition",
+      "file": "images/ed-006-edition.png",
+      "pdf_page": 12,
+      "rect_pt": [
+        35.0,
+        417.20831298828125,
+        558.0,
+        612.8876342773438
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "b4884c21eb3db4bc7a9f7746e5507074543f68e055c228b7ed151e74f3fea243"
+    },
+    {
+      "record": "ED-007",
+      "role": "source",
+      "file": "images/ed-007-source.png",
+      "pdf_page": 12,
+      "rect_pt": [
+        395.0,
+        210.0,
+        600.0,
+        355.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "5f646291163fd5b06f26230a119bcb4c099f2b87aa044cd81957cb3d3a64209a"
+    },
+    {
+      "record": "ED-007",
+      "role": "edition",
+      "file": "images/ed-007-edition.png",
+      "pdf_page": 13,
+      "rect_pt": [
+        35.0,
+        232.0699462890625,
+        558.0,
+        427.213623046875
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "37dcd29684e8dd6022e9cb5afc85f5ea3e635afe2c87e719872239c42783be35"
+    },
+    {
+      "record": "ED-008",
+      "role": "source",
+      "file": "images/ed-008-source.png",
+      "pdf_page": 18,
+      "rect_pt": [
+        230.0,
+        210.0,
+        335.0,
+        355.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "e4f064ee2eb745515562a8092f55189913ce3165edce34247942e47189edfcd6"
+    },
+    {
+      "record": "ED-008",
+      "role": "edition",
+      "file": "images/ed-008-edition.png",
+      "pdf_page": 19,
+      "rect_pt": [
+        35.0,
+        489.4141540527344,
+        558.0,
+        643.0739135742188
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "5e11200f4be02c9e86d5b6af39cff01ddcc6f24f756e06802a36e5cc6f068c0b"
+    },
+    {
+      "record": "ED-009",
+      "role": "source",
+      "file": "images/ed-009-source.png",
+      "pdf_page": 22,
+      "rect_pt": [
+        25.0,
+        345.0,
+        240.0,
+        505.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "a6b8535742d9973e8e5171af5f0fd8c70c8713e91b3065bf8cf7eab174e8ecdb"
+    },
+    {
+      "record": "ED-009",
+      "role": "edition",
+      "file": "images/ed-009-edition.png",
+      "pdf_page": 23,
+      "rect_pt": [
+        35.0,
+        183.83287048339844,
+        558.0,
+        347.81585693359375
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "ad7970115a428f658358c8d3723cf1faec9ceecfe0241cfc9158d444596d9692"
+    },
+    {
+      "record": "ED-010",
+      "role": "source",
+      "file": "images/ed-010-source.png",
+      "pdf_page": 24,
+      "rect_pt": [
+        420.0,
+        350.0,
+        515.0,
+        512.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "b96eed24349a308e09a21d4a04f2fbc68046e6a1da7ac74e5a6823cc3ba450f0"
+    },
+    {
+      "record": "ED-010",
+      "role": "edition",
+      "file": "images/ed-010-edition.png",
+      "pdf_page": 25,
+      "rect_pt": [
+        35.0,
+        192.01988220214844,
+        558.0,
+        345.2579345703125
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "d711554d2c24f5494a279458cef3033207a5d695d34f6f9a03dd611a36a1fc8e"
+    },
+    {
+      "record": "ED-011",
+      "role": "source",
+      "file": "images/ed-011-source.png",
+      "pdf_page": 28,
+      "rect_pt": [
+        20.0,
+        605.0,
+        600.0,
+        657.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "fc3f8501d8ca9695b07ab079b2fe36b7032cc15abff51d5052ac932f386ad22a"
+    },
+    {
+      "record": "ED-011",
+      "role": "edition",
+      "file": "images/ed-011-edition.png",
+      "pdf_page": 29,
+      "rect_pt": [
+        35.0,
+        334.4159851074219,
+        558.0,
+        484.4484558105469
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "da837fb8d027908c7a433aa14998b145206df9f7ff170a53b66a4ffda907d8f7"
+    },
+    {
+      "record": "ED-012",
+      "role": "source",
+      "file": "images/ed-012-source.png",
+      "pdf_page": 30,
+      "rect_pt": [
+        410.0,
+        665.0,
+        600.0,
+        815.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "cc4dcdb414e071f7a04dc426918739a7486bed4ed0d2648517398aaa50d067bd"
+    },
+    {
+      "record": "ED-012",
+      "role": "edition",
+      "file": "images/ed-012-edition.png",
+      "pdf_page": 31,
+      "rect_pt": [
+        35.0,
+        492.671142578125,
+        558.0,
+        632.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "2b8227d0e712acea2330bcbd3abe7e0b1595e9d7facab3542af53e4e00d8af38"
+    },
+    {
+      "record": "ED-013",
+      "role": "source",
+      "file": "images/ed-013-source.png",
+      "pdf_page": 31,
+      "rect_pt": [
+        20.0,
+        440.0,
+        600.0,
+        820.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+      "input_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+      "image_sha256": "35bc112acbc17622a0f4c3c1510e1d6269a94164f919e2e53e2589b5b83b2a12"
+    },
+    {
+      "record": "ED-013",
+      "role": "edition",
+      "file": "images/ed-013-edition.png",
+      "pdf_page": 32,
+      "rect_pt": [
+        35.0,
+        47.0,
+        558.0,
+        795.0
+      ],
+      "render_scale": 3,
+      "renderer": "PyMuPDF",
+      "input_filename": "sq10527526.pdf",
+      "input_sha256": "332e8d748bb0c47fd95a8e4206240afcfcedee37f9f7c483f3c58b33654708d5",
+      "image_sha256": "f5d8c8f83200da7b4839f088a8a9c90d5841be164859b4d60540401da2b8ed1a"
+    }
+  ]
+}

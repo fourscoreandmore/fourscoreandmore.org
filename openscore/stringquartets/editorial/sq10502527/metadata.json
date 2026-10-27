@@ -1,0 +1,41 @@
+{
+  "sqid": "sq10502527",
+  "title": "Grosse Fuge in B-flat major, Op.133",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04771",
+  "source_filename": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+  "source_sha256": "1fa7122659da21044db739f127280666a48424b5f662f522986880fb3cae1a1e",
+  "score_path": "scores/Beethoven,_Ludwig_van/Grosse_Fuge_in_B-flat_major,_Op.133/sq10502527.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 10502527,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/Grosse_Fuge_in_B-flat_major,_Op.133",
+    "name": "Grosse Fuge in B-flat major, Op.133",
+    "link": "https://musescore.com/openscore-string-quartets/scores/10502527",
+    "imslp": "#04771",
+    "set_id": 5108656
+  },
+  "source_publisher": "Breitkopf & Härtel",
+  "source_publication_year": 1863,
+  "source_reprint": "Complete String Quartets New York: Dover Publications, 1970.",
+  "source_bibliographic_description": "Ludwig van Beethovens Werke, Serie 6, Band 2, No.53 (pp.207-28) Leipzig: Breitkopf und Härtel, n.d.[1863]. Plate B.53.",
+  "imslp_download_url": "https://ks15.imslp.org/files/imglnks/usimg/5/5c/IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "transcriber": "markpearse",
+  "score_licence": "CC0",
+  "schema_version": 2,
+  "score_file": "sq10502527.mscx",
+  "score_sha256": "6f10fc57df840c2b75b873a1488abce79b8531e8c9e3251f3bd0dcd14f631617",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

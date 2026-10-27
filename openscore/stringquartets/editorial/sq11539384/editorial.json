@@ -1,0 +1,912 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq11539384",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This register lists **12 known, intentional divergences** between the supplied source and the current working edition. These are choices adopted for this edition; they do not assert the original transcriber's intentions.\n\nThe source is the 40-page Breitkopf & Härtel collected edition, plate B.49, printed pages 79–118, supplied in the IMSLP04767 Dover PDF. It contains all six movements with the later **2/4 Allegro finale**, not the Große Fuge. The source is an edition, not an autograph or a complete critical-source collation.\n\nAll 40 source pages were compared at page/system level with all 48 pages of the native transcription. Magnified details and native XML resolved selected questions. This is not an independent second transcription or a guarantee that every small mark is correct. The table uses movement-local printed numbers; upbeats, alternate endings and split bars have additional physical XML objects.",
+  "records": [
+    {
+      "id": "ED-001",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 51,
+      "measure_end": 53,
+      "location": "51–53",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "Rit. appears as a system tempo instruction.",
+      "source_page": 13,
+      "edition_page": 14,
+      "title": "ED-001 — Abbreviated ritardando",
+      "body_markdown": "**Source:** ritardando is distributed across three bars in each staff.\n\n**Edition:** Rit. appears as a system tempo instruction.\n\n**Editorial reason:** Retain the conventional abbreviation, shared by score and linked parts.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-source.png",
+          "caption": "Source scan; PDF p.13",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-after.png",
+          "caption": "Current native edition; complete system, PDF p.14",
+          "pdf_page": 14
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 102,
+      "measure_end": 102,
+      "location": "102",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "poco rit. as a system tempo instruction.",
+      "source_page": 14,
+      "edition_page": 15,
+      "title": "ED-002 — Abbreviated poco ritardando",
+      "body_markdown": "**Source:** poco ritard. in each staff.\n\n**Edition:** poco rit. as a system tempo instruction.\n\n**Editorial reason:** Equivalent abbreviation; no new numeric tempo is asserted as a source reading.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-source.png",
+          "caption": "Source scan; PDF p.14",
+          "pdf_page": 14
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-after.png",
+          "caption": "Current native edition; complete system, PDF p.15",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 104,
+      "measure_end": 104,
+      "location": "104",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "a tempo as a system tempo instruction.",
+      "source_page": 14,
+      "edition_page": 15,
+      "title": "ED-003 — Equivalent return-tempo wording",
+      "body_markdown": "**Source:** in tempo in each staff.\n\n**Edition:** a tempo as a system tempo instruction.\n\n**Editorial reason:** Retain the standard equivalent wording for return to the previous tempo.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-source.png",
+          "caption": "Source scan; PDF p.14",
+          "pdf_page": 14
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-after.png",
+          "caption": "Current native edition; complete system, PDF p.15",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 51,
+      "measure_end": 57,
+      "location": "51–57",
+      "part": "Cello",
+      "type": "Clef / octave convention",
+      "status": "accepted",
+      "summary": "Tenor clef preserves the intended sounding register.",
+      "source_page": 23,
+      "edition_page": 27,
+      "title": "ED-004 — Historical cello treble modernized",
+      "body_markdown": "**Source:** Historical treble clef at the end of IV.50, read an octave lower, through IV.57; bass returns for IV.58.\n\n**Edition:** Tenor clef preserves the intended sounding register.\n\n**Editorial reason:** Adopt modern tenor to remove the historical octave ambiguity. This is distinct from ordinary tenor-to-bass simplification.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-source.png",
+          "caption": "Source scan; PDF p.23",
+          "pdf_page": 23
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-after.png",
+          "caption": "Current native edition; complete system, PDF p.27",
+          "pdf_page": 27
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-005",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 98,
+      "measure_end": 98,
+      "location": "98",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "poco rit. as a system tempo instruction.",
+      "source_page": 30,
+      "edition_page": 36,
+      "title": "ED-005 — Abbreviated poco ritardando",
+      "body_markdown": "**Source:** poco ritard. in the source staves.\n\n**Edition:** poco rit. as a system tempo instruction.\n\n**Editorial reason:** Retain the conventional abbreviation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-source.png",
+          "caption": "Source scan; PDF p.30",
+          "pdf_page": 30
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-after.png",
+          "caption": "Current native edition; complete system, PDF p.36",
+          "pdf_page": 36
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-006",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 101,
+      "measure_end": 101,
+      "location": "101",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "a tempo as a system tempo instruction.",
+      "source_page": 30,
+      "edition_page": 36,
+      "title": "ED-006 — Equivalent return-tempo wording",
+      "body_markdown": "**Source:** in tempo in the source staves.\n\n**Edition:** a tempo as a system tempo instruction.\n\n**Editorial reason:** Retain the standard equivalent return-tempo wording.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-source.png",
+          "caption": "Source scan; PDF p.30",
+          "pdf_page": 30
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-after.png",
+          "caption": "Current native edition; complete system, PDF p.36",
+          "pdf_page": 36
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-007",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 338,
+      "measure_end": 338,
+      "location": "338",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "poco rit. as a system tempo instruction.",
+      "source_page": 36,
+      "edition_page": 43,
+      "title": "ED-007 — Abbreviated poco ritardando",
+      "body_markdown": "**Source:** poco ritard. in the source staves.\n\n**Edition:** poco rit. as a system tempo instruction.\n\n**Editorial reason:** Retain the conventional abbreviation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-source.png",
+          "caption": "Source scan; PDF p.36",
+          "pdf_page": 36
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-after.png",
+          "caption": "Current native edition; complete system, PDF p.43",
+          "pdf_page": 43
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-008",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 341,
+      "measure_end": 341,
+      "location": "341",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "a tempo as a system tempo instruction.",
+      "source_page": 36,
+      "edition_page": 43,
+      "title": "ED-008 — Equivalent return-tempo wording",
+      "body_markdown": "**Source:** in tempo in the source staves.\n\n**Edition:** a tempo as a system tempo instruction.\n\n**Editorial reason:** Retain the standard equivalent return-tempo wording.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-source.png",
+          "caption": "Source scan; PDF p.36",
+          "pdf_page": 36
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-after.png",
+          "caption": "Current native edition; complete system, PDF p.43",
+          "pdf_page": 43
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-009",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 352,
+      "measure_end": 352,
+      "location": "352",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "poco rit. as a system tempo instruction.",
+      "source_page": 36,
+      "edition_page": 43,
+      "title": "ED-009 — Abbreviated poco ritardando",
+      "body_markdown": "**Source:** poco ritard. in the source staves.\n\n**Edition:** poco rit. as a system tempo instruction.\n\n**Editorial reason:** Retain the conventional abbreviation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-source.png",
+          "caption": "Source scan; PDF p.36",
+          "pdf_page": 36
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-after.png",
+          "caption": "Current native edition; complete system, PDF p.43",
+          "pdf_page": 43
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-010",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 353,
+      "measure_end": 361,
+      "location": "353–361",
+      "part": "Cello",
+      "type": "Clef / octave convention",
+      "status": "accepted",
+      "summary": "Tenor clef preserves the intended sounding pitches; bass resumes after the first quarter of VI.361.",
+      "source_page": 36,
+      "edition_page": 43,
+      "title": "ED-010 — Historical cello treble modernized",
+      "body_markdown": "**Source:** Historical octave-down treble from VI.353 to the first quarter of VI.361.\n\n**Edition:** Tenor clef preserves the intended sounding pitches; bass resumes after the first quarter of VI.361.\n\n**Editorial reason:** Adopt modern tenor to remove octave ambiguity. No octave transposition of the music is adopted.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-source.png",
+          "caption": "Source scan; PDF p.36, p.37",
+          "pdf_page": 36
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-after.png",
+          "caption": "Current native edition; complete system, PDF p.43",
+          "pdf_page": 43
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-011",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 353,
+      "measure_end": 353,
+      "location": "353",
+      "part": "All parts / tempo",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "a tempo as a system tempo instruction.",
+      "source_page": 36,
+      "edition_page": 43,
+      "title": "ED-011 — Equivalent return-tempo wording",
+      "body_markdown": "**Source:** in tempo in the source staves.\n\n**Edition:** a tempo as a system tempo instruction.\n\n**Editorial reason:** Retain the standard equivalent return-tempo wording.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-source.png",
+          "caption": "Source scan; PDF p.36",
+          "pdf_page": 36
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-after.png",
+          "caption": "Current native edition; complete system, PDF p.43",
+          "pdf_page": 43
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-012",
+      "movement": 6,
+      "movement_label": "VI",
+      "measure_start": 426,
+      "measure_end": 426,
+      "location": "426",
+      "part": "All parts / tempo",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "f at the same point of arrival.",
+      "source_page": 38,
+      "edition_page": 46,
+      "title": "ED-012 — Dynamic arrival stated directly",
+      "body_markdown": "**Source:** al f, following cresc. poco a poco.\n\n**Edition:** f at the same point of arrival.\n\n**Editorial reason:** Retain the direct forte marking as the end of the preceding gradual increase.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-source.png",
+          "caption": "Source scan; PDF p.38",
+          "pdf_page": 38
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-after.png",
+          "caption": "Current native edition; complete system, PDF p.46",
+          "pdf_page": 46
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": [
+    {
+      "image": "images/ed-001-source.png",
+      "sha256": "d927773f50ac35d7f660b702786addfb0ca4108296615c2abb7520120228bb55",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 13,
+          "rect_pt": [
+            278,
+            350,
+            435,
+            506
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-001-after.png",
+      "sha256": "25f9dda0838eb34caf7bd3f69ea4f828dc45808adcde610d649d24f881d6f7a6",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            35,
+            338.1,
+            560,
+            498.9
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-002-source.png",
+      "sha256": "1681e9015f6fbaeb89fdea44e14d8a30632e4b2691b8a6a9b97f854a7b8ff27b",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            324,
+            663,
+            410,
+            808
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-002-after.png",
+      "sha256": "3f89cf2ecf4901d0d1c2b70b025ad2d5dbd59b6229619356072aa25719591101",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 15,
+          "rect_pt": [
+            35,
+            632.8,
+            560,
+            794.4
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-003-source.png",
+      "sha256": "c0cab4680f4001d0aeb62e1afea39e81920272d02a967e1fdc6dbfda60fd31d1",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            452,
+            663,
+            542,
+            808
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-003-after.png",
+      "sha256": "3f89cf2ecf4901d0d1c2b70b025ad2d5dbd59b6229619356072aa25719591101",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 15,
+          "rect_pt": [
+            35,
+            632.8,
+            560,
+            794.4
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-004-source.png",
+      "sha256": "a4e84cee32d84c931d9e93a683da5608052fff5d198c9d5961f4b3ded1ed21ec",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 23,
+          "rect_pt": [
+            465,
+            157,
+            607,
+            199
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-004-after.png",
+      "sha256": "a77f1caa56b1e5dde51c0220e5ea5c6b0ba6f0802194c02601e2d79b1116ada5",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 27,
+          "rect_pt": [
+            35,
+            538.8,
+            560,
+            605.9
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-005-source.png",
+      "sha256": "287dd1b242be1e570366dc91f7bd9cb24467713d4d92dc20e4419c89163f5bf0",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 30,
+          "rect_pt": [
+            371,
+            208,
+            522,
+            360
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-005-after.png",
+      "sha256": "9f521fb06a5475d707e92ccebf8c6abdfafcdd941c642c48aa326ffda59adb9a",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            35,
+            632.2,
+            560,
+            791.5
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-006-source.png",
+      "sha256": "e077f22a438cee3d8ef2d6a31277c1648a583a9424e0e01653b68b727ad6f86d",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 30,
+          "rect_pt": [
+            520,
+            208,
+            606,
+            360
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-006-after.png",
+      "sha256": "9f521fb06a5475d707e92ccebf8c6abdfafcdd941c642c48aa326ffda59adb9a",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            35,
+            632.2,
+            560,
+            791.5
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-007-source.png",
+      "sha256": "cfd451132e882759307bea35817f71e41d92a3f742121e0433ee7486989619fb",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            18,
+            508,
+            244,
+            664
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-007-after.png",
+      "sha256": "1c16a0d1b214d4495a41d9f810760591045e929b095d1253fae7e47a386815bc",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 43,
+          "rect_pt": [
+            35,
+            426.8,
+            560,
+            607.1
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-008-source.png",
+      "sha256": "f47324151e9cc15dc76966d65f27eb49ba638aa267dc21f85b49f62538e19745",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            220,
+            508,
+            360,
+            664
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-008-after.png",
+      "sha256": "1c16a0d1b214d4495a41d9f810760591045e929b095d1253fae7e47a386815bc",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 43,
+          "rect_pt": [
+            35,
+            426.8,
+            560,
+            607.1
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-009-source.png",
+      "sha256": "c5868142aee56ebdfc6197ff6f77b92d13ea959e97be4fa47d29526b6c644366",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            345,
+            665,
+            450,
+            826
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-009-after.png",
+      "sha256": "4a0f89f3d410bb9c7d03c979214d1428b84f8a4424ff298a7906b09f8ab62345",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 43,
+          "rect_pt": [
+            35,
+            614.9,
+            560,
+            797.4
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-010-source.png",
+      "sha256": "8c1752cc15df366dcdd5e6d7c78dd27dd8dc3d1351689201fb4daa97f682c481",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            443,
+            772,
+            606,
+            827
+          ],
+          "scale": 3
+        },
+        {
+          "pdf_page": 37,
+          "rect_pt": [
+            18,
+            151,
+            230,
+            196
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "vertical, white gutter"
+    },
+    {
+      "image": "images/ed-010-after.png",
+      "sha256": "ae598e6329e97bd1ef68dca77ff4de22584dde3af98e0ee6b67f9e33c09c99c1",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 43,
+          "rect_pt": [
+            35,
+            730.4,
+            560,
+            797.4
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-011-source.png",
+      "sha256": "e9e5505caa60a5793301c54513980f28f77d20b364298aee958ee15dae74a23b",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 36,
+          "rect_pt": [
+            444,
+            665,
+            606,
+            826
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-011-after.png",
+      "sha256": "4a0f89f3d410bb9c7d03c979214d1428b84f8a4424ff298a7906b09f8ab62345",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 43,
+          "rect_pt": [
+            35,
+            614.9,
+            560,
+            797.4
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-012-source.png",
+      "sha256": "8c7e1a37e535ac0f8bb938453bb0bec8ca70e98859165e32c94de8c4a277c686",
+      "input_pdf_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+      "input_pdf_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+      "rectangles": [
+        {
+          "pdf_page": 38,
+          "rect_pt": [
+            18,
+            508,
+            606,
+            665
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    },
+    {
+      "image": "images/ed-012-after.png",
+      "sha256": "74ec33ef70f3fc2c146cef56d148ac08d1755cb4b7a400d60ddd03592c53a268",
+      "input_pdf_filename": "sq11539384.pdf",
+      "input_pdf_sha256": "c88e64e8ed486e65bb29346160c95549be3cc2917d06366a2909d8a0e25ec1a0",
+      "rectangles": [
+        {
+          "pdf_page": 46,
+          "rect_pt": [
+            35,
+            41.5,
+            560,
+            238.1
+          ],
+          "scale": 3
+        }
+      ],
+      "composition": "direct crop"
+    }
+  ]
+}

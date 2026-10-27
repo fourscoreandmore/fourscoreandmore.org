@@ -1,0 +1,1295 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq10502527",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This register records known, intentional differences between the supplied printed source and the current edition. Entries are ordered by bar number; several entries apply one general convention at different passages. The images show representative locations, not necessarily every bar of a passage.\n\nThe historical cello treble convention sounds an octave below its written register. The [Bärenreiter Op.133 preface](https://www.barenreiter.co.uk/prefaces/9790006203109.pdf), p.XIV / PDF p.6, identifies mm.161–183, 209–216 and 573–581. It supports the convention; the supplied scan remains the comparison source.\n\nThe clef register comprises 13 passages derived from 25 changed clef instructions. There are 14 effective intervals because the edition changes from ordinary treble to tenor within mm.209–216. Boundaries can fall within a bar.\n\nBar references use the printed numbering. The short unnumbered bar after m.662 is not counted as m.663. This is a page-coverage review with targeted magnified checks, not an independent note-by-note transcription or a collation of all sources.",
+  "records": [
+    {
+      "id": "ED-001a",
+      "measure_start": 35,
+      "measure_end": 42,
+      "location": "35–42",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor, entered at the end of m.34.",
+      "source_page": 2,
+      "edition_page": 2,
+      "title": "ED-001a — Modern cello clef",
+      "body_markdown": "**Source:** Tenor, entered at the end of m.34.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The clef is introduced at the end of m.34; the affected sounding passage begins at m.35.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello-clef-source.png",
+          "caption": "Source scan. Violoncello, mm35–36: source tenor clef and edition bass clef. Representative beginning of the m35–42 passage.",
+          "pdf_page": 2
+        },
+        {
+          "role": "edition",
+          "path": "images/cello-clef-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm35–36: source tenor clef and edition bass clef. Representative beginning of the m35–42 passage.",
+          "pdf_page": 2
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001b",
+      "measure_start": 110,
+      "measure_end": 113,
+      "location": "110–113",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor, beginning within m.110.",
+      "source_page": 5,
+      "edition_page": 5,
+      "title": "ED-001b — Modern cello clef",
+      "body_markdown": "**Source:** Tenor, beginning within m.110.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The boundary falls within m.110, rather than on its first beat.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello110-source.png",
+          "caption": "Source scan. Violoncello, mm109–112: source tenor clef begins within m110; representative beginning of the m110–113 passage.",
+          "pdf_page": 5
+        },
+        {
+          "role": "edition",
+          "path": "images/cello110-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm109–112: source tenor clef begins within m110; representative beginning of the m110–113 passage.",
+          "pdf_page": 5
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001c",
+      "measure_start": 116,
+      "measure_end": 119,
+      "location": "116–119",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor, beginning late in m.116.",
+      "source_page": 6,
+      "edition_page": 6,
+      "title": "ED-001c — Modern cello clef",
+      "body_markdown": "**Source:** Tenor, beginning late in m.116.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The source enters tenor late in m.116; only the affected portion of the boundary bars is covered.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello116-source.png",
+          "caption": "Source scan. Violoncello, mm113–116: the source changes back to tenor clef late in m116; representative beginning of the m116–119 passage.",
+          "pdf_page": 6
+        },
+        {
+          "role": "edition",
+          "path": "images/cello116-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm113–116: the source changes back to tenor clef late in m116; representative beginning of the m116–119 passage.",
+          "pdf_page": 6
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001d",
+      "measure_start": 161,
+      "measure_end": 183,
+      "location": "161–183",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Ordinary treble at sounding pitch in place of historical octave-transposing treble.",
+      "source_page": 8,
+      "edition_page": 8,
+      "title": "ED-001d — Modern cello clef",
+      "body_markdown": "**Source:** Historical octave-transposing treble.\n\n**Edition:** Ordinary treble at sounding pitch.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The passage ends at the bass-clef return within m.183. For example, the source’s written B-flat5 at m.161 corresponds to B-flat4 in the edition.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello161-source.png",
+          "caption": "Source scan. All four staves, mm161–165: cello source historical octave-transposing treble versus modern ordinary treble. Representative beginning of the m161–183 passage.",
+          "pdf_page": 8
+        },
+        {
+          "role": "edition",
+          "path": "images/cello161-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. All four staves, mm161–165: cello source historical octave-transposing treble versus modern ordinary treble. Representative beginning of the m161–183 passage.",
+          "pdf_page": 8
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded ordinary-treble notation at sounding pitch follows the historical-cello-octave exception.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001e",
+      "measure_start": 209,
+      "measure_end": 216,
+      "location": "209–216",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Ordinary treble through m.213; tenor from m.214 in place of historical octave-transposing treble.",
+      "source_page": 10,
+      "edition_page": 10,
+      "title": "ED-001e — Modern cello clef",
+      "body_markdown": "**Source:** Historical octave-transposing treble.\n\n**Edition:** Ordinary treble through m.213; tenor from m.214.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. These two edition-clef intervals belong to one historical-treble passage in the source.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello209-source.png",
+          "caption": "Source scan. Violoncello, mm205–210: historical octave-transposing treble clef enters at the end of m208; notes begin in m209. Representative beginning of the m209–216 passage.",
+          "pdf_page": 10
+        },
+        {
+          "role": "edition",
+          "path": "images/cello209-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm205–210: historical octave-transposing treble clef enters at the end of m208; notes begin in m209. Representative beginning of the m209–216 passage.",
+          "pdf_page": 10
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded sounding-octave interpretation and tenor-clef conversion are addressed by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001f",
+      "measure_start": 221,
+      "measure_end": 222,
+      "location": "221–222",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Earlier return to bass in place of tenor retained longer in the source.",
+      "source_page": 10,
+      "edition_page": 10,
+      "title": "ED-001f — Modern cello clef",
+      "body_markdown": "**Source:** Tenor retained longer in the source.\n\n**Edition:** Earlier return to bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The affected interval begins at beat 2 of m.221 and extends into the first part of m.222.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello221-source.png",
+          "caption": "Source scan. Violoncello, mm217–222: edition changes to bass clef within m221, while source retains tenor until late in m222.",
+          "pdf_page": 10
+        },
+        {
+          "role": "edition",
+          "path": "images/cello221-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm217–222: edition changes to bass clef within m221, while source retains tenor until late in m222.",
+          "pdf_page": 10
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "C3 is the relevant rule for the recorded brief clef excursion or adjusted return; sounding pitches remain as documented.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001g",
+      "measure_start": 290,
+      "measure_end": 297,
+      "location": "290–297",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor, beginning within m.290.",
+      "source_page": 12,
+      "edition_page": 12,
+      "title": "ED-001g — Modern cello clef",
+      "body_markdown": "**Source:** Tenor, beginning within m.290.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The start of the interval is within m.290.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello290-source.png",
+          "caption": "Source scan. Violoncello, mm285–292: source tenor clef enters within m290; edition retains bass. Representative beginning of the m290–297 passage.",
+          "pdf_page": 12
+        },
+        {
+          "role": "edition",
+          "path": "images/cello290-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm285–292: source tenor clef enters within m290; edition retains bass. Representative beginning of the m290–297 passage.",
+          "pdf_page": 12
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001h",
+      "measure_start": 320,
+      "measure_end": 320,
+      "location": "320",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of temporary tenor in the middle of the bar.",
+      "source_page": 13,
+      "edition_page": 13,
+      "title": "ED-001h — Modern cello clef",
+      "body_markdown": "**Source:** Temporary tenor in the middle of the bar.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. Only the middle portion of this bar differs in clef.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello320-source.png",
+          "caption": "Source scan. Violoncello, mm320–321: source tenor-clef notation in m320 and return to bass at the end of m320; edition retains bass.",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/cello320-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm320–321: source tenor-clef notation in m320 and return to bass at the end of m320; edition retains bass.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "C3 is the relevant rule for the recorded brief clef excursion or adjusted return; sounding pitches remain as documented.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "measure_start": 354,
+      "measure_end": 354,
+      "location": "354",
+      "part": "Viola",
+      "type": "Ornament",
+      "status": "accepted",
+      "summary": "Wavy continuation line added after the trill sign.",
+      "source_page": 13,
+      "edition_page": 13,
+      "title": "ED-002 — Trill continuation line",
+      "body_markdown": "**Source:** the trill sign is printed without an extension line.\n\n**Edition:** a wavy continuation line clarifies the ornament’s continuation. The principal dotted-half note, auxiliary accidental and closing grace notes agree with the source. This does not change the ornament’s notes or extent.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/trill354-source.png",
+          "caption": "Source scan. Viola, m354 and adjacent context: source and edition trill notation.",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/trill354-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Viola, m354 and adjacent context: source and edition trill notation.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [
+        "G2",
+        "O1"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained trill extension preserves the documented ornament notes and extent. G2 is relevant to its native engraving; the source-to-edition description remains a local decision.",
+        "proposal_ids": [
+          "PROPOSAL-ORNAMENT-LINES"
+        ]
+      }
+    },
+    {
+      "id": "ED-001i",
+      "measure_start": 461,
+      "measure_end": 464,
+      "location": "461–464",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of temporary tenor.",
+      "source_page": 16,
+      "edition_page": 16,
+      "title": "ED-001i — Modern cello clef",
+      "body_markdown": "**Source:** Temporary tenor.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The changed clef is a notation choice; sounding pitch is preserved.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello461-source.png",
+          "caption": "Source scan. Violoncello, mm459–467: complete m461–464 tenor-clef passage and surrounding bass-clef context.",
+          "pdf_page": 16
+        },
+        {
+          "role": "edition",
+          "path": "images/cello461-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm459–467: complete m461–464 tenor-clef passage and surrounding bass-clef context.",
+          "pdf_page": 16
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001j",
+      "measure_start": 469,
+      "measure_end": 472,
+      "location": "469–472",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of temporary tenor.",
+      "source_page": 16,
+      "edition_page": 16,
+      "title": "ED-001j — Modern cello clef",
+      "body_markdown": "**Source:** Temporary tenor.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The changed clef is a notation choice; sounding pitch is preserved.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello469-source.png",
+          "caption": "Source scan. Violoncello, mm468–476: complete m469–472 tenor-clef passage and surrounding bass-clef context.",
+          "pdf_page": 16
+        },
+        {
+          "role": "edition",
+          "path": "images/cello469-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm468–476: complete m469–472 tenor-clef passage and surrounding bass-clef context.",
+          "pdf_page": 16
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001k",
+      "measure_start": 501,
+      "measure_end": 505,
+      "location": "501–505",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor, beginning within m.501.",
+      "source_page": 17,
+      "edition_page": 17,
+      "title": "ED-001k — Modern cello clef",
+      "body_markdown": "**Source:** Tenor, beginning within m.501.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The start of the interval is within m.501.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello501-source.png",
+          "caption": "Source scan. Violoncello, mm499–504: source tenor clef begins within m501; representative beginning of the m501–505 passage.",
+          "pdf_page": 17
+        },
+        {
+          "role": "edition",
+          "path": "images/cello501-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm499–504: source tenor clef begins within m501; representative beginning of the m501–505 passage.",
+          "pdf_page": 17
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003a",
+      "measure_start": 534,
+      "measure_end": 534,
+      "location": "534",
+      "part": "Violin II",
+      "type": "Rest grouping",
+      "status": "accepted",
+      "summary": "Whole-measure rest divided into beat-level rests.",
+      "source_page": 18,
+      "edition_page": 18,
+      "title": "ED-003a — Equivalent rest grouping",
+      "body_markdown": "**Source:** a whole-measure rest.\n\n**Edition:** beat-level rests filling the same bar. The total silence and surrounding note onsets are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/rest534-source.png",
+          "caption": "Source scan. Violin II, m534: source whole-measure rest and edition rest notation in 6/8.",
+          "pdf_page": 18
+        },
+        {
+          "role": "edition",
+          "path": "images/rest534-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violin II, m534: source whole-measure rest and edition rest notation in 6/8.",
+          "pdf_page": 18
+        }
+      ],
+      "policy_refs": [
+        "G2",
+        "T3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "T3 identifies the meter-default criterion for rest grouping. The older record establishes duration equivalence but does not independently establish that this precise grouping is the selected meter default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001l",
+      "measure_start": 573,
+      "measure_end": 581,
+      "location": "573–581",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor in place of historical octave-transposing treble.",
+      "source_page": 19,
+      "edition_page": 19,
+      "title": "ED-001l — Modern cello clef",
+      "body_markdown": "**Source:** Historical octave-transposing treble.\n\n**Edition:** Tenor.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The first note of m.581 is included before the source returns to bass.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello573-source.png",
+          "caption": "Source scan. Violoncello, m573 and preceding/following context: historical treble notation versus modern tenor. Representative beginning of the m573–581 passage.",
+          "pdf_page": 19
+        },
+        {
+          "role": "edition",
+          "path": "images/cello573-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, m573 and preceding/following context: historical treble notation versus modern tenor. Representative beginning of the m573–581 passage.",
+          "pdf_page": 19
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded sounding-octave interpretation and tenor-clef conversion are addressed by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003b",
+      "measure_start": 585,
+      "measure_end": 585,
+      "location": "585",
+      "part": "Violin I",
+      "type": "Rest grouping",
+      "status": "accepted",
+      "summary": "Two adjacent eighth rests combined as a quarter rest.",
+      "source_page": 19,
+      "edition_page": 19,
+      "title": "ED-003b — Equivalent rest grouping",
+      "body_markdown": "**Source:** two adjacent eighth rests.\n\n**Edition:** a quarter rest of the same total duration. This changes the grouping of silence, not the duration of any sounding note.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/rest585-source.png",
+          "caption": "Source scan. Violin I, m585 with adjacent context: source two eighth rests versus edition quarter rest. The staff clef and signature are included.",
+          "pdf_page": 19
+        },
+        {
+          "role": "edition",
+          "path": "images/rest585-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violin I, m585 with adjacent context: source two eighth rests versus edition quarter rest. The staff clef and signature are included.",
+          "pdf_page": 19
+        }
+      ],
+      "policy_refs": [
+        "G2",
+        "T3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "T3 identifies the meter-default criterion for rest grouping. The older record establishes duration equivalence but does not independently establish that this precise grouping is the selected meter default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-001m",
+      "measure_start": 637,
+      "measure_end": 650,
+      "location": "637–650",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass in place of tenor.",
+      "source_page": 20,
+      "edition_page": 20,
+      "title": "ED-001m — Modern cello clef",
+      "body_markdown": "**Source:** Tenor.\n\n**Edition:** Bass.\n\n**Editorial reason:** make the clef and octave convention explicit while preserving the intended sounding pitches. The changed clef is a notation choice; sounding pitch is preserved.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cello637-source.png",
+          "caption": "Source scan. Violoncello, mm633–640: source tenor clef enters before m637; representative beginning of the m637–650 passage.",
+          "pdf_page": 20
+        },
+        {
+          "role": "edition",
+          "path": "images/cello637-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. Violoncello, mm633–640: source tenor clef enters before m637; representative beginning of the m637–650 passage.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [
+        "C2.3",
+        "C3"
+      ],
+      "policy_review": {
+        "status": "local_decision",
+        "note": "The retained tenor-to-bass choice is a passage-specific decision. C3 supplies the readability criterion; the earlier record does not document its ledger-line and duration assessment. This reference does not turn every tenor-to-bass substitution into a default.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004a",
+      "measure_start": 721,
+      "measure_end": 721,
+      "location": "721",
+      "part": "Quartet",
+      "type": "Text",
+      "status": "accepted",
+      "summary": "Parenthesised (cresc.) reminder at a new system.",
+      "source_page": 22,
+      "edition_page": 22,
+      "title": "ED-004a — Courtesy crescendo continuation",
+      "body_markdown": "**Source:** dashed continuation of an existing crescendo across the system break.\n\n**Edition:** parenthesised **(cresc.)** is supplied as a courtesy reminder. It continues the existing crescendo rather than marking a new one.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cresc721-source.png",
+          "caption": "Source scan. All four staves, mm721–722: continuation of the source crescendo versus its restatement in the edition at the system break.",
+          "pdf_page": 22
+        },
+        {
+          "role": "edition",
+          "path": "images/cresc721-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. All four staves, mm721–722: continuation of the source crescendo versus its restatement in the edition at the system break.",
+          "pdf_page": 22
+        }
+      ],
+      "policy_refs": [
+        "D4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded parenthesized continuation reminder refers to D4.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004b",
+      "measure_start": 728,
+      "measure_end": 728,
+      "location": "728",
+      "part": "Quartet",
+      "type": "Text",
+      "status": "accepted",
+      "summary": "Parenthesised (cresc.) reminder at the next system.",
+      "source_page": 22,
+      "edition_page": 22,
+      "title": "ED-004b — Courtesy crescendo continuation",
+      "body_markdown": "**Source:** the existing crescendo continues with dashes.\n\n**Edition:** another parenthesised **(cresc.)** reminder is supplied at the system start. It does not introduce a new crescendo.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/cresc728-source.png",
+          "caption": "Source scan. All four staves, mm728–729: continuation of the source crescendo versus its restatement in the edition at the system break.",
+          "pdf_page": 22
+        },
+        {
+          "role": "edition",
+          "path": "images/cresc728-edition.png",
+          "caption": "Edition PDF; this passage agrees with the current score. All four staves, mm728–729: continuation of the source crescendo versus its restatement in the edition at the system break.",
+          "pdf_page": 22
+        }
+      ],
+      "policy_refs": [
+        "D4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded parenthesized continuation reminder refers to D4.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": {
+    "coordinate_system": "PDF points, origin top-left; PDF pages one-based.",
+    "items": [
+      {
+        "topic_id": "ED-001b",
+        "stem": "cello110",
+        "caption": "Violoncello, mm109–112: source tenor clef begins within m110; representative beginning of the m110–113 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello110-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 5,
+            "rect_pdf_points": [
+              15,
+              752,
+              595,
+              802
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm109–112: source tenor clef begins within m110; representative beginning of the m110–113 passage."
+          },
+          "edition": {
+            "file": "cello110-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 5,
+            "rect_pdf_points": [
+              42,
+              742,
+              555,
+              790
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm109–112: source tenor clef begins within m110; representative beginning of the m110–113 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001c",
+        "stem": "cello116",
+        "caption": "Violoncello, mm113–116: the source changes back to tenor clef late in m116; representative beginning of the m116–119 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello116-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 6,
+            "rect_pdf_points": [
+              23,
+              149,
+              607,
+              198
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm113–116: the source changes back to tenor clef late in m116; representative beginning of the m116–119 passage."
+          },
+          "edition": {
+            "file": "cello116-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 6,
+            "rect_pdf_points": [
+              42,
+              145,
+              555,
+              195
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm113–116: the source changes back to tenor clef late in m116; representative beginning of the m116–119 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001e",
+        "stem": "cello209",
+        "caption": "Violoncello, mm205–210: historical octave-transposing treble clef enters at the end of m208; notes begin in m209. Representative beginning of the m209–216 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello209-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 10,
+            "rect_pdf_points": [
+              17,
+              157,
+              601,
+              199
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm205–210: historical octave-transposing treble clef enters at the end of m208; notes begin in m209. Representative beginning of the m209–216 passage."
+          },
+          "edition": {
+            "file": "cello209-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 10,
+            "rect_pdf_points": [
+              42,
+              140,
+              555,
+              191
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm205–210: historical octave-transposing treble clef enters at the end of m208; notes begin in m209. Representative beginning of the m209–216 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001f",
+        "stem": "cello221",
+        "caption": "Violoncello, mm217–222: edition changes to bass clef within m221, while source retains tenor until late in m222.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello221-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 10,
+            "rect_pdf_points": [
+              16,
+              451,
+              602,
+              496
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm217–222: edition changes to bass clef within m221, while source retains tenor until late in m222."
+          },
+          "edition": {
+            "file": "cello221-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 10,
+            "rect_pdf_points": [
+              42,
+              438,
+              555,
+              486
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm217–222: edition changes to bass clef within m221, while source retains tenor until late in m222."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001g",
+        "stem": "cello290",
+        "caption": "Violoncello, mm285–292: source tenor clef enters within m290; edition retains bass. Representative beginning of the m290–297 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello290-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 12,
+            "rect_pdf_points": [
+              15,
+              300,
+              604,
+              340
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm285–292: source tenor clef enters within m290; edition retains bass. Representative beginning of the m290–297 passage."
+          },
+          "edition": {
+            "file": "cello290-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 12,
+            "rect_pdf_points": [
+              42,
+              290,
+              555,
+              340
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm285–292: source tenor clef enters within m290; edition retains bass. Representative beginning of the m290–297 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001h",
+        "stem": "cello320",
+        "caption": "Violoncello, mm320–321: source tenor-clef notation in m320 and return to bass at the end of m320; edition retains bass.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello320-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 13,
+            "rect_pdf_points": [
+              15,
+              155,
+              215,
+              196
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm320–321: source tenor-clef notation in m320 and return to bass at the end of m320; edition retains bass."
+          },
+          "edition": {
+            "file": "cello320-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 13,
+            "rect_pdf_points": [
+              42,
+              145,
+              199,
+              197
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm320–321: source tenor-clef notation in m320 and return to bass at the end of m320; edition retains bass."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001i",
+        "stem": "cello461",
+        "caption": "Violoncello, mm459–467: complete m461–464 tenor-clef passage and surrounding bass-clef context.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello461-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 16,
+            "rect_pdf_points": [
+              17,
+              448,
+              602,
+              492
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm459–467: complete m461–464 tenor-clef passage and surrounding bass-clef context."
+          },
+          "edition": {
+            "file": "cello461-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 16,
+            "rect_pdf_points": [
+              42,
+              431,
+              555,
+              479
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm459–467: complete m461–464 tenor-clef passage and surrounding bass-clef context."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001j",
+        "stem": "cello469",
+        "caption": "Violoncello, mm468–476: complete m469–472 tenor-clef passage and surrounding bass-clef context.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello469-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 16,
+            "rect_pdf_points": [
+              17,
+              601,
+              602,
+              647
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm468–476: complete m469–472 tenor-clef passage and surrounding bass-clef context."
+          },
+          "edition": {
+            "file": "cello469-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 16,
+            "rect_pdf_points": [
+              42,
+              580,
+              555,
+              624
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm468–476: complete m469–472 tenor-clef passage and surrounding bass-clef context."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001k",
+        "stem": "cello501",
+        "caption": "Violoncello, mm499–504: source tenor clef begins within m501; representative beginning of the m501–505 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello501-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 17,
+            "rect_pdf_points": [
+              15,
+              440,
+              595,
+              490
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm499–504: source tenor clef begins within m501; representative beginning of the m501–505 passage."
+          },
+          "edition": {
+            "file": "cello501-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 17,
+            "rect_pdf_points": [
+              42,
+              420,
+              555,
+              470
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm499–504: source tenor clef begins within m501; representative beginning of the m501–505 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001m",
+        "stem": "cello637",
+        "caption": "Violoncello, mm633–640: source tenor clef enters before m637; representative beginning of the m637–650 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cello637-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 20,
+            "rect_pdf_points": [
+              22,
+              450,
+              605,
+              493
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violoncello, mm633–640: source tenor clef enters before m637; representative beginning of the m637–650 passage."
+          },
+          "edition": {
+            "file": "cello637-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 20,
+            "rect_pdf_points": [
+              42,
+              435,
+              555,
+              482
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm633–640: source tenor clef enters before m637; representative beginning of the m637–650 passage."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-003a",
+        "stem": "rest534",
+        "caption": "Violin II, m534: source whole-measure rest and edition rest notation in 6/8.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "rest534-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 18,
+            "rect_pdf_points": [
+              146,
+              239,
+              218,
+              280
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violin II, m534: source whole-measure rest and edition rest notation in 6/8."
+          },
+          "edition": {
+            "file": "rest534-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 18,
+            "rect_pdf_points": [
+              135,
+              242,
+              203,
+              284
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violin II, m534: source whole-measure rest and edition rest notation in 6/8."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-003b",
+        "stem": "rest585",
+        "caption": "Violin I, m585 with adjacent context: source two eighth rests versus edition quarter rest. The staff clef and signature are included.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "rest585-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 19,
+            "rect_pdf_points": [
+              18,
+              347,
+              122,
+              391
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. Violin I, m585 with adjacent context: source two eighth rests versus edition quarter rest. The staff clef and signature are included."
+          },
+          "edition": {
+            "file": "rest585-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 19,
+            "rect_pdf_points": [
+              40,
+              348,
+              121,
+              397
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violin I, m585 with adjacent context: source two eighth rests versus edition quarter rest. The staff clef and signature are included."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-004a",
+        "stem": "cresc721",
+        "caption": "All four staves, mm721–722: continuation of the source crescendo versus its restatement in the edition at the system break.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cresc721-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 22,
+            "rect_pdf_points": [
+              22,
+              359,
+              216,
+              507
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. All four staves, mm721–722: continuation of the source crescendo versus its restatement in the edition at the system break."
+          },
+          "edition": {
+            "file": "cresc721-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 22,
+            "rect_pdf_points": [
+              40,
+              349,
+              207,
+              505
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. All four staves, mm721–722: continuation of the source crescendo versus its restatement in the edition at the system break."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-004b",
+        "stem": "cresc728",
+        "caption": "All four staves, mm728–729: continuation of the source crescendo versus its restatement in the edition at the system break.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "file": "cresc728-source.png",
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 22,
+            "rect_pdf_points": [
+              22,
+              510,
+              218,
+              658
+            ],
+            "render_scale": 3,
+            "caption": "Source scan. All four staves, mm728–729: continuation of the source crescendo versus its restatement in the edition at the system break."
+          },
+          "edition": {
+            "file": "cresc728-edition.png",
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 22,
+            "rect_pdf_points": [
+              40,
+              497,
+              210,
+              655
+            ],
+            "render_scale": 3,
+            "caption": "Supplied edition PDF; this passage agrees with the current score. All four staves, mm728–729: continuation of the source crescendo versus its restatement in the edition at the system break."
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001a",
+        "stem": "cello-clef",
+        "caption": "Violoncello, mm35–36: source tenor clef and edition bass clef. Representative beginning of the m35–42 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 2,
+            "rect_pdf_points": [
+              300,
+              155,
+              595,
+              202
+            ],
+            "caption": "Source scan. Violoncello, mm35–36: source tenor clef and edition bass clef. Representative beginning of the m35–42 passage.",
+            "render_scale": 3,
+            "file": "cello-clef-source.png"
+          },
+          "edition": {
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 2,
+            "rect_pdf_points": [
+              300,
+              150,
+              555,
+              195
+            ],
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, mm35–36: source tenor clef and edition bass clef. Representative beginning of the m35–42 passage.",
+            "render_scale": 3,
+            "file": "cello-clef-edition.png"
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001d",
+        "stem": "cello161",
+        "caption": "All four staves, mm161–165: cello source historical octave-transposing treble versus modern ordinary treble. Representative beginning of the m161–183 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 8,
+            "rect_pdf_points": [
+              40,
+              355,
+              600,
+              505
+            ],
+            "caption": "Source scan. All four staves, mm161–165: cello source historical octave-transposing treble versus modern ordinary treble. Representative beginning of the m161–183 passage.",
+            "render_scale": 3,
+            "file": "cello161-source.png"
+          },
+          "edition": {
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 8,
+            "rect_pdf_points": [
+              40,
+              368,
+              555,
+              500
+            ],
+            "caption": "Supplied edition PDF; this passage agrees with the current score. All four staves, mm161–165: cello source historical octave-transposing treble versus modern ordinary treble. Representative beginning of the m161–183 passage.",
+            "render_scale": 3,
+            "file": "cello161-edition.png"
+          }
+        }
+      },
+      {
+        "topic_id": "ED-001l",
+        "stem": "cello573",
+        "caption": "Violoncello, m573 and preceding/following context: historical treble notation versus modern tenor. Representative beginning of the m573–581 passage.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 19,
+            "rect_pdf_points": [
+              360,
+              140,
+              605,
+              205
+            ],
+            "caption": "Source scan. Violoncello, m573 and preceding/following context: historical treble notation versus modern tenor. Representative beginning of the m573–581 passage.",
+            "render_scale": 3,
+            "file": "cello573-source.png"
+          },
+          "edition": {
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 19,
+            "rect_pdf_points": [
+              350,
+              145,
+              557,
+              205
+            ],
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Violoncello, m573 and preceding/following context: historical treble notation versus modern tenor. Representative beginning of the m573–581 passage.",
+            "render_scale": 3,
+            "file": "cello573-edition.png"
+          }
+        }
+      },
+      {
+        "topic_id": "ED-002",
+        "stem": "trill354",
+        "caption": "Viola, m354 and adjacent context: source and edition trill notation.",
+        "representative_excerpt": true,
+        "images": {
+          "source": {
+            "pdf_file": "IMSLP04771-Beethoven_-_Grosse_Fuge_Dover.pdf",
+            "pdf_page": 13,
+            "rect_pdf_points": [
+              120,
+              718,
+              230,
+              765
+            ],
+            "caption": "Source scan. Viola, m354 and adjacent context: source and edition trill notation.",
+            "render_scale": 3,
+            "file": "trill354-source.png"
+          },
+          "edition": {
+            "pdf_file": "sq10502527.pdf",
+            "pdf_page": 13,
+            "rect_pdf_points": [
+              138,
+              704,
+              265,
+              745
+            ],
+            "caption": "Supplied edition PDF; this passage agrees with the current score. Viola, m354 and adjacent context: source and edition trill notation.",
+            "render_scale": 3,
+            "file": "trill354-edition.png"
+          }
+        }
+      }
+    ],
+    "image_directory": "images"
+  }
+}

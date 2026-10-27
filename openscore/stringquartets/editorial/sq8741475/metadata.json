@@ -1,0 +1,62 @@
+{
+  "sqid": "sq8741475",
+  "title": "String Quartet No.2, Op.17 (Sz.67)",
+  "composer": "Béla Bartók",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "18943",
+  "source_filename": "IMSLP18943-PMLP12579-Bartók_-_String_Quartet_No._2,_Op._17_(score).pdf",
+  "source_sha256": "73600b6f08b234b7bad34a1a1220cce55fbd9f8a126a88e6250ee86db85097a8",
+  "score_path": "scores/Bartók,_Béla/String_Quartet_No.2,_Op.17_(Sz.67)/sq8741475.mscx",
+  "openscore_common_ancestor_revision": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 8741475,
+  "catalogue_entry": {
+    "path": "Bartók,_Béla/String_Quartet_No.2,_Op.17_(Sz.67)",
+    "name": "String Quartet No.2, Op.17 (Sz.67)",
+    "link": "https://musescore.com/openscore-string-quartets/scores/8741475",
+    "imslp": "#18943",
+    "set_id": 5530433
+  },
+  "source_publisher": "Universal Edition",
+  "source_publication_year": 1920,
+  "source_reprint": "London: Boosey & Hawkes, 1939. Plate B. & H. 9041.",
+  "source_bibliographic_description": "Vienna: Universal Edition, 1920. Plate U.E. 6371.",
+  "observed_source_pagination": "49 PDF pages, printed pp.3–51; plate B. & H. 9041",
+  "imslp_download_url": "https://vmirror.imslp.org/files/imglnks/usimg/d/dd/IMSLP18943-PMLP12579-Bartók_-_String_Quartet_No._2,_Op._17_(score).pdf",
+  "transcriber": "viddler",
+  "score_licence": "CC0",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Moderato",
+      "bars": 179
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Allegro molto capriccioso",
+      "bars": 577
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Lento",
+      "bars": 141
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq8741475.mscx",
+  "score_sha256": "567fb9bbe12ff99e8e79ea793801c5f3b84fb9ad3daa333bd374ec90dc25845e",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

@@ -1,0 +1,1344 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq9719026",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This public register records known, intentional differences between the supplied printed source and the current edition. The choices are adopted for this edition; they do not purport to recover the original transcriber’s intentions.\n\nAll 18 pages of the source and all four staves received a page/system comparison, with magnified checks of identified passages and native score inspection. This is not an independent second note-by-note transcription or a collation of all surviving sources. The supplied source is the Breitkopf & Härtel collected edition reprinted by Dover, not an autograph.\n\n**Numbering:** the quartet has four musical movements. The catalogue’s five-section record is copied unchanged in the metadata. Movement IV contains La Malinconia (*Adagio*, bars 1–44) and the ensuing *Allegretto*, whose native bar numbering restarts at a pickup and continues 1–252. Entries explicitly name the section and sort Adagio before Allegretto. Movement III uses the native continuous Scherzo/Trio numbering; its pickups and alternate endings are identified where necessary.",
+  "records": [
+    {
+      "id": "ED-001",
+      "movement": 1,
+      "movement_label": "I",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 60,
+      "measure_end": 60,
+      "location": "60",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 60,
+      "source_page": 2,
+      "edition_page": 2,
+      "title": "ED-001 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-source.png",
+          "caption": "Source scan; PDF p.2, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 2
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.2, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 2
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "movement": 1,
+      "movement_label": "I",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 170,
+      "measure_end": 170,
+      "location": "170",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 171,
+      "source_page": 5,
+      "edition_page": 5,
+      "title": "ED-002 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-source.png",
+          "caption": "Source scan; PDF p.5, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 5
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.5, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 5
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003",
+      "movement": 1,
+      "movement_label": "I",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 233,
+      "measure_end": 233,
+      "location": "233",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 234,
+      "source_page": 6,
+      "edition_page": 7,
+      "title": "ED-003 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-source.png",
+          "caption": "Source scan; PDF p.6, system 5. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 6
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.7, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 7
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004",
+      "movement": 2,
+      "movement_label": "II",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 27,
+      "measure_end": 27,
+      "location": "27",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 293,
+      "source_page": 8,
+      "edition_page": 9,
+      "title": "ED-004 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-source.png",
+          "caption": "Source scan; PDF p.8, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 8
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.9, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 9
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-005",
+      "movement": 2,
+      "movement_label": "II",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 37,
+      "measure_end": 37,
+      "location": "37",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor clef for the short upper passage, returning to bass within the same bar.",
+      "physical_measure": 303,
+      "source_page": 9,
+      "edition_page": 10,
+      "title": "ED-005 — Modern cello clef",
+      "body_markdown": "**Source:** Historical treble clef, read an octave below its literal written register, within II.37.\n\n**Edition:** Tenor clef for the short upper passage, returning to bass within the same bar.\n\n**Editorial reason:** Modern clefs make the sounding octave unambiguous. Sounding pitches and the position of the return to bass are preserved.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-source.png",
+          "caption": "Source scan; PDF p.9, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 9
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.10, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 10
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-006",
+      "movement": 3,
+      "movement_label": "III",
+      "section_order": 0,
+      "section": "",
+      "measure_start": 48,
+      "measure_end": 48,
+      "location": "48",
+      "part": "All parts / navigation",
+      "type": "Navigation",
+      "status": "accepted",
+      "summary": "Fine supplied at the Scherzo endpoint, m.48.",
+      "physical_measure": 396,
+      "source_page": 12,
+      "edition_page": 13,
+      "title": "ED-006 — Fine supplied",
+      "body_markdown": "**Source:** The Scherzo close has no Fine; the Trio ending directs Scherzo D.C.\n\n**Edition:** Fine supplied at the Scherzo endpoint, m.48.\n\n**Editorial reason:** Clarifies the endpoint of the da-capo return. The choice is adopted for the current edition; a complete playback audition is not claimed.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-source.png",
+          "caption": "Source scan; PDF p.12, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 12
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.13, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-007",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 1,
+      "section": "Adagio",
+      "measure_start": 35,
+      "measure_end": 35,
+      "location": "Adagio 35",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 455,
+      "source_page": 13,
+      "edition_page": 14,
+      "title": "ED-007 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-source.png",
+          "caption": "Source scan; PDF p.13, system 3. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.14, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 14
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-008",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 1,
+      "section": "Adagio",
+      "measure_start": 43,
+      "measure_end": 43,
+      "location": "Adagio 43",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 463,
+      "source_page": 13,
+      "edition_page": 14,
+      "title": "ED-008 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-source.png",
+          "caption": "Source scan; PDF p.13, system 3. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.14, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 14
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-009",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 0,
+      "measure_end": 0,
+      "location": "Allegretto pickup",
+      "part": "All parts / section heading",
+      "type": "Heading",
+      "status": "accepted",
+      "summary": "IV. (continued) supplied above the Allegretto.",
+      "physical_measure": 465,
+      "source_page": 13,
+      "edition_page": 15,
+      "title": "ED-009 — Continuation heading supplied",
+      "body_markdown": "**Source:** The Allegretto quasi Allegro follows the La Malinconia attacca instruction, without a separate numbered movement heading.\n\n**Edition:** IV. (continued) supplied above the Allegretto.\n\n**Editorial reason:** Keeps the two serialized sections visibly within movement IV. The four-movement musical structure is distinct from the catalogue’s five section records.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-source.png",
+          "caption": "Source scan; PDF p.13, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 13
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.15, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-010",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 31,
+      "measure_end": 31,
+      "location": "Allegretto 31",
+      "part": "Violins I and II",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 496,
+      "source_page": 14,
+      "edition_page": 15,
+      "title": "ED-010 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-source.png",
+          "caption": "Source scan; PDF p.14, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 14
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.15, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-011",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 70,
+      "measure_end": 70,
+      "location": "Allegretto 70",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 535,
+      "source_page": 15,
+      "edition_page": 16,
+      "title": "ED-011 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-source.png",
+          "caption": "Source scan; PDF p.15, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 15
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.16, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 16
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-012",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 166,
+      "measure_end": 167,
+      "location": "Allegretto 166–167",
+      "part": "All parts",
+      "type": "Expression line",
+      "status": "accepted",
+      "summary": "A dashed continuation follows cresc. through to the following p.",
+      "physical_measure": 631,
+      "source_page": 17,
+      "edition_page": 18,
+      "title": "ED-012 — Crescendo continuation clarified",
+      "body_markdown": "**Source:** cresc. in the returning Adagio bar before p in the next bar.\n\n**Edition:** A dashed continuation follows cresc. through to the following p.\n\n**Editorial reason:** Retain the continuation line as a clarification of the source’s dynamic progression. The notes and dynamic endpoints are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-source.png",
+          "caption": "Source scan; PDF p.17, system 1. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 17
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.18, system 4. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 18
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-013",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 173,
+      "measure_end": 173,
+      "location": "Allegretto 173",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 638,
+      "source_page": 17,
+      "edition_page": 18,
+      "title": "ED-013 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-source.png",
+          "caption": "Source scan; PDF p.17, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 17
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.18, system 5. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 18
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-014",
+      "movement": 4,
+      "movement_label": "IV",
+      "section_order": 2,
+      "section": "Allegretto",
+      "measure_start": 223,
+      "measure_end": 223,
+      "location": "Allegretto 223",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "physical_measure": 688,
+      "source_page": 18,
+      "edition_page": 20,
+      "title": "ED-014 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation for the same gradual decrease in dynamic, at the source location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-source.png",
+          "caption": "Source scan; PDF p.18, system 3. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 18
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-edition.png",
+          "caption": "Current edition, native MuseScore render; PDF p.20, system 2. Complete system excerpt; locate the bar specified above.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": [
+    {
+      "record": "ED-001",
+      "role": "source",
+      "file": "images/ed-001-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "953ec2f56110984d00b57602b314174b0449c9864de1a23dbdc40489ce78f035",
+      "pdf_page": 2,
+      "rect_pt": [
+        18.0,
+        502.0,
+        603.3599853515625,
+        674.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 2,
+          "rect_pt": [
+            18.0,
+            502.0,
+            603.3599853515625,
+            674.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-001",
+      "role": "edition",
+      "file": "images/ed-001-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "d2731ff15be6fe00affa71e5246d8dc66a933f1f00b1ca4a01d23ed3b2118128",
+      "pdf_page": 2,
+      "rect_pt": [
+        35.0,
+        489.5,
+        565.0,
+        651.1
+      ],
+      "segments": [
+        {
+          "pdf_page": 2,
+          "rect_pt": [
+            35.0,
+            489.5,
+            565.0,
+            651.1
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-002",
+      "role": "source",
+      "file": "images/ed-002-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "a81c026245f6f40f12c6dbc72b696b10e22bb07d251577d19cb23a42d092df55",
+      "pdf_page": 5,
+      "rect_pt": [
+        18.0,
+        201.0,
+        600.3599853515625,
+        367.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 5,
+          "rect_pt": [
+            18.0,
+            201.0,
+            600.3599853515625,
+            367.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-002",
+      "role": "edition",
+      "file": "images/ed-002-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "c002fdcc7eca817c51a25c56994eb847e0519408e0c2a40fe69e7a1045b60013",
+      "pdf_page": 5,
+      "rect_pt": [
+        35.0,
+        182.3,
+        565.0,
+        345.8
+      ],
+      "segments": [
+        {
+          "pdf_page": 5,
+          "rect_pt": [
+            35.0,
+            182.3,
+            565.0,
+            345.8
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-003",
+      "role": "source",
+      "file": "images/ed-003-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "56d754726d0c3ed5c57806dbee38fdf8b95d4f87816280c30f55e07d6ef91c68",
+      "pdf_page": 6,
+      "rect_pt": [
+        18.0,
+        655.0,
+        602.6400146484375,
+        837.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 6,
+          "rect_pt": [
+            18.0,
+            655.0,
+            602.6400146484375,
+            837.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-003",
+      "role": "edition",
+      "file": "images/ed-003-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "8bc0146c6a50523723cef6187da6d33fd5515be0e789ce8ae86b447f91647070",
+      "pdf_page": 7,
+      "rect_pt": [
+        35.0,
+        35.3,
+        565.0,
+        217.8
+      ],
+      "segments": [
+        {
+          "pdf_page": 7,
+          "rect_pt": [
+            35.0,
+            35.3,
+            565.0,
+            217.8
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-004",
+      "role": "source",
+      "file": "images/ed-004-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "4d7d3ec295ccbbac1653d7a5d7aecbcb8aba4abcac5499bfd55f9ee0ef90e92b",
+      "pdf_page": 8,
+      "rect_pt": [
+        18.0,
+        502.0,
+        599.4000244140625,
+        674.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 8,
+          "rect_pt": [
+            18.0,
+            502.0,
+            599.4000244140625,
+            674.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-004",
+      "role": "edition",
+      "file": "images/ed-004-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "2693e21e0ede6f64d087f7f82eff9c5ce858512d7a8ec9f5075960e090cf3b42",
+      "pdf_page": 9,
+      "rect_pt": [
+        35.0,
+        225.7,
+        565.0,
+        421.3
+      ],
+      "segments": [
+        {
+          "pdf_page": 9,
+          "rect_pt": [
+            35.0,
+            225.7,
+            565.0,
+            421.3
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-005",
+      "role": "source",
+      "file": "images/ed-005-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "fc3985eb2ad90ed88cfd2ba3d9719b8526dca024275682944a8a81f63b0445f0",
+      "pdf_page": 9,
+      "rect_pt": [
+        18.0,
+        201.0,
+        599.0399780273438,
+        367.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 9,
+          "rect_pt": [
+            18.0,
+            201.0,
+            599.0399780273438,
+            367.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-005",
+      "role": "edition",
+      "file": "images/ed-005-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "1147581a40fbfaff400fef2b117af207900b11f7f543ed7073f01576832471c9",
+      "pdf_page": 10,
+      "rect_pt": [
+        35.0,
+        35.3,
+        565.0,
+        203.4
+      ],
+      "segments": [
+        {
+          "pdf_page": 10,
+          "rect_pt": [
+            35.0,
+            35.3,
+            565.0,
+            203.4
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-006",
+      "role": "source",
+      "file": "images/ed-006-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "6964c3efa692cd562877a1cee65dffecf27e68b8ead0d9a4bd7da31de7ec365d",
+      "pdf_page": 12,
+      "rect_pt": [
+        18.0,
+        42.0,
+        599.0399780273438,
+        221.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 12,
+          "rect_pt": [
+            18.0,
+            42.0,
+            599.0399780273438,
+            221.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-006",
+      "role": "edition",
+      "file": "images/ed-006-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "57251f7f312db6d2c125a5d380405e89441b09101571016b284eb6860e6f12d7",
+      "pdf_page": 13,
+      "rect_pt": [
+        35.0,
+        186.5,
+        565.0,
+        345.5
+      ],
+      "segments": [
+        {
+          "pdf_page": 13,
+          "rect_pt": [
+            35.0,
+            186.5,
+            565.0,
+            345.5
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-007",
+      "role": "source",
+      "file": "images/ed-007-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "df877eedadfdbde162aad4be18e5e3f1e604bfbf943df50d5a9d940e7d97f965",
+      "pdf_page": 13,
+      "rect_pt": [
+        18.0,
+        352.0,
+        599.4000244140625,
+        524.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 13,
+          "rect_pt": [
+            18.0,
+            352.0,
+            599.4000244140625,
+            524.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-007",
+      "role": "edition",
+      "file": "images/ed-007-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "b9cd15197d1cedb555ae6a601989c504eae20434075cdb0f53f56bd5fd3708c0",
+      "pdf_page": 14,
+      "rect_pt": [
+        35.0,
+        607.8,
+        565.0,
+        786.5
+      ],
+      "segments": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            35.0,
+            607.8,
+            565.0,
+            786.5
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-008",
+      "role": "source",
+      "file": "images/ed-008-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "df877eedadfdbde162aad4be18e5e3f1e604bfbf943df50d5a9d940e7d97f965",
+      "pdf_page": 13,
+      "rect_pt": [
+        18.0,
+        352.0,
+        599.4000244140625,
+        524.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 13,
+          "rect_pt": [
+            18.0,
+            352.0,
+            599.4000244140625,
+            524.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-008",
+      "role": "edition",
+      "file": "images/ed-008-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "b9cd15197d1cedb555ae6a601989c504eae20434075cdb0f53f56bd5fd3708c0",
+      "pdf_page": 14,
+      "rect_pt": [
+        35.0,
+        607.8,
+        565.0,
+        786.5
+      ],
+      "segments": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            35.0,
+            607.8,
+            565.0,
+            786.5
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-009",
+      "role": "source",
+      "file": "images/ed-009-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "a7b9a8d1c30e3502ff4ddf42652aab1a0cbaf7ee82a5c10b6b4d997c5f7bb5ce",
+      "pdf_page": 13,
+      "rect_pt": [
+        18.0,
+        504.0,
+        599.4000244140625,
+        682.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 13,
+          "rect_pt": [
+            18.0,
+            504.0,
+            599.4000244140625,
+            682.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-009",
+      "role": "edition",
+      "file": "images/ed-009-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "0964ee5edbdf80aa92f970f838e9b2c674080020cefff32a281afe1376e3b1a7",
+      "pdf_page": 15,
+      "rect_pt": [
+        35.0,
+        36.8,
+        565.0,
+        249.9
+      ],
+      "segments": [
+        {
+          "pdf_page": 15,
+          "rect_pt": [
+            35.0,
+            36.8,
+            565.0,
+            249.9
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-010",
+      "role": "source",
+      "file": "images/ed-010-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "479f998f82928f00191cc0498fccc31d164949527032353dc1275db865a5b634",
+      "pdf_page": 14,
+      "rect_pt": [
+        18.0,
+        201.0,
+        600.239990234375,
+        367.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 14,
+          "rect_pt": [
+            18.0,
+            201.0,
+            600.239990234375,
+            367.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-010",
+      "role": "edition",
+      "file": "images/ed-010-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "01bcb883229fcdc3b0795250a57b98e2ddaa85a62b739727dcb538f1e688f0dc",
+      "pdf_page": 15,
+      "rect_pt": [
+        35.0,
+        616.3,
+        565.0,
+        796.4
+      ],
+      "segments": [
+        {
+          "pdf_page": 15,
+          "rect_pt": [
+            35.0,
+            616.3,
+            565.0,
+            796.4
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-011",
+      "role": "source",
+      "file": "images/ed-011-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "e8de44048e085551db93961efb180e1b7cf20822e637bb62a13a187087bc04fc",
+      "pdf_page": 15,
+      "rect_pt": [
+        18.0,
+        42.0,
+        601.2000122070312,
+        217.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 15,
+          "rect_pt": [
+            18.0,
+            42.0,
+            601.2000122070312,
+            217.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-011",
+      "role": "edition",
+      "file": "images/ed-011-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "c9224f13a41ee49d9e111ba96b1a5ce8d7df05b12a1dc03ce8eeb1b70cd4a6f1",
+      "pdf_page": 16,
+      "rect_pt": [
+        35.0,
+        472.4,
+        565.0,
+        638.9
+      ],
+      "segments": [
+        {
+          "pdf_page": 16,
+          "rect_pt": [
+            35.0,
+            472.4,
+            565.0,
+            638.9
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-012",
+      "role": "source",
+      "file": "images/ed-012-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "53673a9cb462e71e497e6a9bd95d86ed54cdcacb46ef2799ca105adb0765cec2",
+      "pdf_page": 17,
+      "rect_pt": [
+        18.0,
+        42.0,
+        603.3599853515625,
+        217.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 17,
+          "rect_pt": [
+            18.0,
+            42.0,
+            603.3599853515625,
+            217.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-012",
+      "role": "edition",
+      "file": "images/ed-012-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "38ddc100d57c7a3bf246f678a29629fd8fc9fa02a55c3cfa696c6e0f10ed8695",
+      "pdf_page": 18,
+      "rect_pt": [
+        35.0,
+        480.2,
+        565.0,
+        643.4
+      ],
+      "segments": [
+        {
+          "pdf_page": 18,
+          "rect_pt": [
+            35.0,
+            480.2,
+            565.0,
+            643.4
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-013",
+      "role": "source",
+      "file": "images/ed-013-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "39492c9eb3b2b0cad25aed395c4475b7391cd193e50385da851d3abf00991d75",
+      "pdf_page": 17,
+      "rect_pt": [
+        18.0,
+        201.0,
+        603.3599853515625,
+        367.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 17,
+          "rect_pt": [
+            18.0,
+            201.0,
+            603.3599853515625,
+            367.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-013",
+      "role": "edition",
+      "file": "images/ed-013-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "bab1f7cff0399df4a3b1b4d4390977cbce7fac42f0cdbc9fd314651c6d671a04",
+      "pdf_page": 18,
+      "rect_pt": [
+        35.0,
+        627.1,
+        565.0,
+        790.2
+      ],
+      "segments": [
+        {
+          "pdf_page": 18,
+          "rect_pt": [
+            35.0,
+            627.1,
+            565.0,
+            790.2
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-014",
+      "role": "source",
+      "file": "images/ed-014-source.png",
+      "input": "supplied-source/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+      "input_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+      "image_sha256": "b39b38c409f8283c2f78c7a3c23e236d58f6747dc9936121d905410db1e0930c",
+      "pdf_page": 18,
+      "rect_pt": [
+        18.0,
+        351.0,
+        599.0399780273438,
+        520.0
+      ],
+      "segments": [
+        {
+          "pdf_page": 18,
+          "rect_pt": [
+            18.0,
+            351.0,
+            599.0399780273438,
+            520.0
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-014",
+      "role": "edition",
+      "file": "images/ed-014-edition.png",
+      "input": "scores/sq9719026.pdf",
+      "input_sha256": "da84c237492e492476c4df91b8fcb4625477d5f5bef05a0a426d7cb843200032",
+      "image_sha256": "3124d281e15029d11347fe4326cefa73884a3c38f98a4a4b20bb21d2c32cdc1d",
+      "pdf_page": 20,
+      "rect_pt": [
+        35.0,
+        225.3,
+        565.0,
+        409.6
+      ],
+      "segments": [
+        {
+          "pdf_page": 20,
+          "rect_pt": [
+            35.0,
+            225.3,
+            565.0,
+            409.6
+          ]
+        }
+      ],
+      "render_scale": 2.6,
+      "renderer": "PyMuPDF"
+    }
+  ]
+}

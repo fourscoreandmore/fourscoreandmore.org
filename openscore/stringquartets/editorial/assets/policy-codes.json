@@ -1,0 +1,202 @@
+{
+  "source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  },
+  "codes": {
+    "G1": {
+      "label": "Source fidelity",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G2": {
+      "label": "MuseScore defaults",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G3": {
+      "label": "Default precedence",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G4": {
+      "label": "Internal consistency",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G5": {
+      "label": "Language",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G6": {
+      "label": "Manuscripts",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "G7": {
+      "label": "Reviewer decisions",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "M1": {
+      "label": "Titles and credits",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "M2": {
+      "label": "Dedication",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "M3": {
+      "label": "Life dates",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "M4": {
+      "label": "Composition details",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "L1": {
+      "label": "Breaks",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "L2": {
+      "label": "Placement",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T1": {
+      "label": "Meter symbols",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T2": {
+      "label": "Beaming",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T3": {
+      "label": "Rest grouping",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T4": {
+      "label": "Tuplets",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T4.2": {
+      "label": "Tuplet reminders",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "T5": {
+      "label": "Measured tremolo",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "O1": {
+      "label": "Ornaments",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "O2": {
+      "label": "Grace placement",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "O3": {
+      "label": "Grace tuplets",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "K1": {
+      "label": "Key signatures",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "K2": {
+      "label": "Added accidentals",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C1": {
+      "label": "Usual clefs",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C2": {
+      "label": "Additional clefs",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C2.3": {
+      "label": "Cello clefs",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C2.3.1": {
+      "label": "Historical cello octave",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C3": {
+      "label": "Clef readability",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C4": {
+      "label": "Clef conversion",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "C5": {
+      "label": "Stem direction",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D1": {
+      "label": "Native lines",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D2": {
+      "label": "Terms",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D2.1": {
+      "label": "Equivalent terminology",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D3": {
+      "label": "Abbreviations",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D4": {
+      "label": "Continuation text",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "D5": {
+      "label": "Ritardando line",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "S1": {
+      "label": "Ties and slurs",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "S2": {
+      "label": "Tied accidentals",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "B1": {
+      "label": "Source brackets",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "B2": {
+      "label": "Edition brackets",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "B3": {
+      "label": "Bracket removal",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "P1": {
+      "label": "Pizzicato and arco",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "P2": {
+      "label": "Harmonics",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "P3": {
+      "label": "Strings",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "P4": {
+      "label": "Fingerings",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "P5": {
+      "label": "Mutes",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    },
+    "W": {
+      "label": "Review workflow",
+      "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/"
+    }
+  }
+}

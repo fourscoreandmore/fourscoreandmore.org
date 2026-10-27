@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}}</title>
+  {{ROBOTS}}
+  <meta name="description" content="Source comparison and editorial notes for a string quartet edition.">
+  <link rel="stylesheet" href="{{ASSET_PREFIX}}assets/report.css">
+</head>
+<body data-document="{{MODE}}" data-source="{{REPORT_PATH}}" data-metadata="{{METADATA_PATH}}" data-policies="{{POLICIES_PATH}}">
+  <a class="skip-link" href="#overview">Skip to the register</a>
+  <aside id="load-notice" class="load-notice" hidden aria-live="polite"></aside>
+  <div id="report"><main class="loading"><p>Loading edition data…</p></main></div>
+  <noscript><p>JavaScript is needed to display the register. The editable data are available as <a href="{{REPORT_PATH}}">JSON</a>.</p></noscript>
+  {{EMBEDDED_DATA}}
+  <script src="{{ASSET_PREFIX}}assets/vendor/marked.umd.js"></script>
+  <script src="{{ASSET_PREFIX}}assets/report.js"></script>
+</body>
+</html>

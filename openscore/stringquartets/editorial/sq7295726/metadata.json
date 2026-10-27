@@ -1,0 +1,70 @@
+{
+  "sqid": "sq7295726",
+  "title": "String Quartet No.1, Op.7 (Sz.40)",
+  "composer": "Béla Bartók",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "18895",
+  "source_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+  "source_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+  "score_path": "scores/Bartók,_Béla/String_Quartet_No.1,_Op.7_(Sz.40)/sq7295726.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 7295726,
+  "catalogue_entry": {
+    "path": "Bartók,_Béla/String_Quartet_No.1,_Op.7_(Sz.40)",
+    "name": "String Quartet No.1, Op.7 (Sz.40)",
+    "link": "https://musescore.com/openscore-string-quartets/scores/7295726",
+    "imslp": "#18895",
+    "set_id": 5108579
+  },
+  "source_publisher": "Rózsavölgyi & Cie.",
+  "source_publication_year": 1911,
+  "source_reprint": "London: Boosey & Hawkes, n.d. Plate HPS 74.",
+  "source_bibliographic_description": "Budapest: Rózsavölgyi & Cie., n.d.[1911]. Plate R. & Co. 3287.",
+  "imslp_download_url": "https://vmirror.imslp.org/files/imglnks/usimg/1/13/IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+  "transcriber": "mooing and Gijs Bikker",
+  "score_licence": "CC0",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Lento",
+      "bars": 71
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Allegretto",
+      "bars": 367
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Introduzione — Allegro vivace",
+      "sections": [
+        {
+          "title": "Introduzione",
+          "bars": 33
+        },
+        {
+          "title": "Allegro vivace",
+          "bars": "379 plus X1"
+        }
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq7295726.mscx",
+  "score_sha256": "77b8fbfa11837e09ee5d2d7c82779a1344f851ab14d995d4adc3356394d29a80",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

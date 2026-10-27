@@ -1,0 +1,87 @@
+{
+  "sqid": "sq9719026",
+  "title": "String Quartet No.6 in B-flat major, Op.18 No.6",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04760",
+  "source_filename": "IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+  "source_sha256": "f00e06b6bcacd18d759b641f7eb705a5746ee4bdc5cf6a381866d2155495241c",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.6,_Op.18_No.6/sq9719026.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 9719026,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.6,_Op.18_No.6",
+    "name": "String Quartet No.6, Op.18 No.6",
+    "link": "https://musescore.com/openscore-string-quartets/scores/9719026",
+    "imslp": "#04760",
+    "set_id": 5108480
+  },
+  "catalogue_set_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.6,_Op.18_No.6",
+    "name": "String Quartet No.6, Op.18 No.6",
+    "movements": 5,
+    "link": "https://musescore.com/openscore-string-quartets/sets/5108480",
+    "imslp": "#04760",
+    "composer_id": 255
+  },
+  "source_publisher": "Breitkopf & Härtel",
+  "source_publication_year": 1862,
+  "source_reprint": "New York: Dover Publications, 1970.",
+  "source_bibliographic_description": "Ludwig van Beethovens Werke, Serie 6: Quartette für 2 Violinen, Bratsche und Violoncell, Erster Band, No.42 (pp.103-20) Leipzig: Breitkopf und Härtel, n.d.[1862]. Plate B.42.",
+  "imslp_download_url": "https://ks15.imslp.org/files/imglnks/usimg/c/c7/IMSLP04760-Beethoven_-_String_Quartet_No.6_Dover.pdf",
+  "transcriber": "Gijs Bikker",
+  "score_licence": "CC0",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Allegro con brio",
+      "bars": 264
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Adagio ma non troppo",
+      "bars": 79
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Scherzo. Allegro",
+      "bars": 68,
+      "note": "Pickups and alternate endings are serialized separately."
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "La Malinconia — Allegretto quasi Allegro",
+      "sections": [
+        {
+          "order": 1,
+          "title": "Adagio",
+          "bars": 44
+        },
+        {
+          "order": 2,
+          "title": "Allegretto",
+          "bars": 252
+        }
+      ]
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq9719026.mscx",
+  "score_sha256": "68b84696046cb97179f1d26cbe114b849e8ee4c9ca493a7200eab1985047acdd",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

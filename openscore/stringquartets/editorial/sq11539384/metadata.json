@@ -1,0 +1,103 @@
+{
+  "sqid": "sq11539384",
+  "title": "String Quartet No.13 in B-flat major, Op.130",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04767",
+  "source_filename": "IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+  "source_sha256": "29e751b6b8ca05e17c92302ef45c4afd9657a29a33bc495b657e1ebd4e184f17",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.13_in_B♭_major,_Op.130/sq11539384.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 11539384,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.13_in_B♭_major,_Op.130",
+    "name": "String Quartet No.13 in B♭ major, Op.130",
+    "link": "https://musescore.com/openscore-string-quartets/scores/11539384",
+    "imslp": "#04767",
+    "set_id": 5108658
+  },
+  "catalogue_set_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.13_in_B♭_major,_Op.130",
+    "name": "String Quartet No.13 in B♭ major, Op.130",
+    "movements": 6,
+    "link": "https://musescore.com/openscore-string-quartets/sets/5108658",
+    "imslp": "#04767",
+    "composer_id": 255
+  },
+  "source_record": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.13_in_B♭_major,_Op.130",
+    "name": "String Quartet No.13 in B♭ major, Op.130",
+    "link": "https://musescore.com/openscore-string-quartets/scores/11539384",
+    "imslp": "#04767",
+    "imslp_url": "https://vmirror.imslp.org/files/imglnks/usimg/4/4d/IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+    "set_id": 5108658,
+    "raw_publisher_info": "Ludwig van Beethovens Werke, Serie 6, Band 2, No.49 Leipzig: Breitkopf und Härtel, n.d.[1863]. Plate B.49.",
+    "publisher": "Breitkopf & Härtel",
+    "pub_date": 1863,
+    "copyright": "Public Domain",
+    "reprinted": "Complete String Quartets New York: Dover Publications, 1970.",
+    "misc_notes": "Monochrome 600dpi. ( View original cover )",
+    "type": 1
+  },
+  "source_publisher": "Breitkopf & Härtel",
+  "source_publication_year": 1863,
+  "source_reprint": "Complete String Quartets New York: Dover Publications, 1970.",
+  "source_bibliographic_description": "Ludwig van Beethovens Werke, Serie 6, Band 2, No.49 Leipzig: Breitkopf und Härtel, n.d.[1863]. Plate B.49.",
+  "imslp_download_url": "https://vmirror.imslp.org/files/imglnks/usimg/4/4d/IMSLP04767-Beethoven_-_String_Quartet_No.13_Dover.pdf",
+  "transcriber": "ashmoggs",
+  "score_licence": "CC0",
+  "actual_native_version": "MuseScore 3.6.2; native format 3.02",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Adagio ma non troppo — Allegro",
+      "bars": 234
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Presto",
+      "bars": 105
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Andante con moto ma non troppo; Poco scherzoso",
+      "bars": 88
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "Alla danza tedesca; Allegro assai",
+      "bars": 150
+    },
+    {
+      "number": 5,
+      "label": "V",
+      "title": "Cavatina; Adagio molto espressivo",
+      "bars": 66
+    },
+    {
+      "number": 6,
+      "label": "VI",
+      "title": "Finale; Allegro (later 2/4 finale)",
+      "bars": 493
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq11539384.mscx",
+  "score_sha256": "ed4837cb106877122558f5551f32b4fe8c2072e9dbf3abfe31954dda6669e467",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

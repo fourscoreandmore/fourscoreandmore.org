@@ -1,0 +1,285 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:scores-of-scores:report:2",
+  "title": "Score editorial or private correction data",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "document",
+    "sqid",
+    "context_markdown",
+    "policy_refs",
+    "records"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "document": {
+      "enum": [
+        "editorial",
+        "correction"
+      ]
+    },
+    "sqid": {
+      "type": "string",
+      "pattern": "^sq[0-9]+$"
+    },
+    "context_markdown": {
+      "type": "string"
+    },
+    "policy_refs": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/record"
+      }
+    },
+    "image_provenance": {}
+  },
+  "$defs": {
+    "image": {
+      "type": "object",
+      "required": [
+        "role",
+        "path",
+        "caption"
+      ],
+      "properties": {
+        "role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "caption": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pdf_page": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "record": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "measure_start",
+        "location",
+        "part",
+        "type",
+        "status",
+        "summary",
+        "body_markdown",
+        "images",
+        "policy_refs"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9_-]*$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measure_start": {
+          "type": "number"
+        },
+        "measure_end": {
+          "type": "number"
+        },
+        "physical_start": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "physical_end": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "movement": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 999
+        },
+        "movement_label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section_order": {
+          "type": "number"
+        },
+        "beat_start": {
+          "oneOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "string",
+              "pattern": "^-?[0-9]+/[1-9][0-9]*$"
+            }
+          ]
+        },
+        "order": {
+          "type": "number"
+        },
+        "location": {
+          "type": "string",
+          "minLength": 1
+        },
+        "part": {
+          "type": "string",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "accepted",
+            "repaired",
+            "partial",
+            "open"
+          ]
+        },
+        "severity": {
+          "enum": [
+            "red",
+            "amber"
+          ]
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "body_markdown": {
+          "type": "string"
+        },
+        "images": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/image"
+          }
+        },
+        "policy_refs": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "policy_review": {
+          "type": "object",
+          "required": [
+            "status",
+            "note",
+            "proposal_ids"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "covered",
+                "local_decision",
+                "clarification_needed",
+                "conflict"
+              ]
+            },
+            "note": {
+              "type": "string"
+            },
+            "proposal_ids": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^PROPOSAL-"
+              }
+            }
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "document": {
+            "const": "editorial"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "records": {
+            "items": {
+              "properties": {
+                "status": {
+                  "const": "accepted"
+                },
+                "images": {
+                  "items": {
+                    "properties": {
+                      "path": {
+                        "pattern": "^images/"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "records": {
+            "items": {
+              "required": [
+                "severity"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "repaired",
+                    "partial",
+                    "open"
+                  ]
+                },
+                "images": {
+                  "items": {
+                    "properties": {
+                      "path": {
+                        "pattern": "^images/"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": true
+}

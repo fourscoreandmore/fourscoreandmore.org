@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "sqid": "sq8955300",
+  "title": "String Quartet, Op.3",
+  "composer": "Alban Berg",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "22756",
+  "source_filename": "IMSLP22756-PMLP52074-Berg_-_String_Quartet,_Op._3_(score)(1).pdf",
+  "source_sha256": "e0ba371358fe36395cba755fae73f3ef3a78b9d190887302f28efb68cb8d64e1",
+  "score_file": "sq8955300.mscx",
+  "score_sha256": "2ab5416dca089d415421e6aeafbd035ba9cfc94e9b71d03fc5846a4ce29cac0f",
+  "score_path": "scores/Berg,_Alban/String_Quartet,_Op.3/sq8955300.mscz",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": null,
+  "native_basis": "OpenScore main, with source-verified changes",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "catalogue_url": "https://github.com/OpenScore/StringQuartets/blob/2614b0b2958dd1ce3f52e172a43e5f4d0e29570f/data/scores.yaml",
+  "catalogue_key": 8955300,
+  "catalogue_entry": {
+    "path": "Berg,_Alban/String_Quartet,_Op.3",
+    "name": "String Quartet, Op.3",
+    "link": "https://musescore.com/openscore-string-quartets/scores/8955300",
+    "musescore_version": "3.6.2",
+    "imslp": "#22756",
+    "set_id": 5108455
+  },
+  "transcriber": "mooing (movement I); flutemouse (movement II)",
+  "score_licence": "CC0",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-27",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  },
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Langsam",
+      "bars": 186,
+      "pickup": true,
+      "physical_measures": 187
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Mäßige Viertel",
+      "bars": 233,
+      "pickup": false,
+      "physical_measures": 233
+    }
+  ],
+  "native_staff_count": 6,
+  "numbering_note": "Movement I: the source counts the opening short bar as 1; the native edition treats it as an unnumbered pickup. Source bar n is therefore native bar n−1. Movement II report locations use local native bars; physical measure = local bar + 187.",
+  "source_publisher": "Universal Edition",
+  "source_publication_year": 1925,
+  "source_plate": "U.E.7537",
+  "source_reprint": "Dover Publications, 2005",
+  "source_bibliographic_description": "Universal Edition, n.d. [1925], plate U.E.7537; supplied Dover reprint.",
+  "maler_catalogue_status": "Absent from the pinned MALerLab catalogue.",
+  "native_staff_note": "The two additional Klang staves reproduce intentional sounding-pitch guides for source harmonic insets."
+}

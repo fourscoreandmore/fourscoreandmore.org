@@ -1,0 +1,1186 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq8071278",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This register records known, intentional differences between the supplied printed source and this working edition. Entries follow score order: movement, then local bar number. The choices below are adopted for the present edition; this does not claim to reconstruct the original transcriber's intentions.\n\nThe review covers all four movements and all 24 pages of the supplied scan, with magnified checks of identified passages. It is a source comparison, not a new critical edition or a guarantee that every small mark has been independently verified. The source is the Breitkopf & Härtel collected edition, as reprinted by Dover; it is not an autograph.\n\nBar numbers restart in each movement. Passage boundaries can fall within a bar. Images show representative locations, and captions identify their extent. Edition excerpts are rendered from the current native MuseScore file.",
+  "records": [
+    {
+      "id": "ED-001",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 56,
+      "measure_end": 56,
+      "location": "56",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "source_page": 2,
+      "edition_page": 2,
+      "title": "ED-001 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation dim. for the same gradual decrease in dynamic, at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-source.png",
+          "caption": "Source scan; movement I, m. 56. PDF p. 2.",
+          "pdf_page": 2
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-edition.png",
+          "caption": "Current edition, native MuseScore render; movement I, m. 56. PDF p. 2.",
+          "pdf_page": 2
+        }
+      ],
+      "policy_refs": [
+        "D2.1",
+        "D3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded equivalent diminuendo term and abbreviation refer to D2.1 and D3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 72,
+      "measure_end": 78,
+      "location": "72–78",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor clef replaces historical treble notation at the lower octave.",
+      "source_page": 2,
+      "edition_page": 2,
+      "title": "ED-002 — Modern cello clef",
+      "body_markdown": "**Source:** Historical cello treble notation, treated at the lower octave; first written G5 corresponds to sounding G4.\n\n**Edition:** Tenor clef, preserving the intended sounding pitches.\n\n**Editorial reason:** Tenor clef replaces historical octave-transposing cello treble notation for mm72–78, through the first note of m78. The clef instruction is serialized at the end of m71. Sounding pitches are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-source.png",
+          "caption": "Source scan; movement I, representative opening of the passage. PDF p. 2.",
+          "pdf_page": 2
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-edition.png",
+          "caption": "Current edition, native MuseScore render; movement I, representative opening of the passage. PDF p. 2.",
+          "pdf_page": 2
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The documented historical-octave interpretation and conversion to tenor clef are covered by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 217,
+      "measure_end": 217,
+      "location": "217",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "source_page": 6,
+      "edition_page": 5,
+      "title": "ED-003 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation dim. for the same gradual decrease in dynamic, at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-source.png",
+          "caption": "Source scan; movement I, m. 217. PDF p. 6.",
+          "pdf_page": 6
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-edition.png",
+          "caption": "Current edition, native MuseScore render; movement I, m. 217. PDF p. 5.",
+          "pdf_page": 5
+        }
+      ],
+      "policy_refs": [
+        "D2.1",
+        "D3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded equivalent diminuendo term and abbreviation refer to D2.1 and D3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 233,
+      "measure_end": 239,
+      "location": "233–239",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor clef replaces historical treble notation at the lower octave.",
+      "source_page": 6,
+      "edition_page": 6,
+      "title": "ED-004 — Modern cello clef",
+      "body_markdown": "**Source:** Historical cello treble notation, treated at the lower octave; first written C5 corresponds to sounding C4.\n\n**Edition:** Tenor clef, preserving the intended sounding pitches.\n\n**Editorial reason:** Tenor clef replaces historical octave-transposing cello treble notation for mm233–239, through the first note of m239. The clef instruction is serialized at the end of m232. Sounding pitches are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-source.png",
+          "caption": "Source scan; movement I, representative opening of the passage. PDF p. 6.",
+          "pdf_page": 6
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-edition.png",
+          "caption": "Current edition, native MuseScore render; movement I, representative opening of the passage. PDF p. 6.",
+          "pdf_page": 6
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The documented historical-octave interpretation and conversion to tenor clef are covered by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-005",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 9,
+      "measure_end": 9,
+      "location": "9",
+      "part": "Violin II",
+      "type": "Dynamics",
+      "status": "accepted",
+      "summary": "Bracketed [p] supplied.",
+      "source_page": 8,
+      "edition_page": 8,
+      "title": "ED-005 — Piano supplied",
+      "body_markdown": "**Source:** No dynamic is printed at the first note of m9.\n\n**Edition:** [p] is explicitly supplied in square brackets.\n\n**Editorial reason:** The bracketed marking clarifies the dynamic already stated in the other staves.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-source.png",
+          "caption": "Source scan; movement II, m. 9. PDF p. 8.",
+          "pdf_page": 8
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, m. 9. PDF p. 8.",
+          "pdf_page": 8
+        }
+      ],
+      "policy_refs": [
+        "G4",
+        "B2"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "G4 provides the documented consistency rationale; B2 identifies the supplied marking as this edition’s intervention. The musical decision remains the one recorded for the passage.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-006",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 14,
+      "measure_end": 17,
+      "location": "14–17",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor clef replaces historical treble notation at the lower octave.",
+      "source_page": 8,
+      "edition_page": 8,
+      "title": "ED-006 — Modern cello clef",
+      "body_markdown": "**Source:** An unmarked treble clef is printed at the end of m13, effective in mm14–17; historical cello notation is read an octave below the written treble notes.\n\n**Edition:** Tenor clef, preserving the intended sounding pitches.\n\n**Editorial reason:** The clef is introduced at the end of m.13 and applies through m.17; the source returns to bass clef at its end. The opening note sounds A3.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-source.png",
+          "caption": "Source scan; movement II, representative opening of the passage. PDF p. 8.",
+          "pdf_page": 8
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, representative opening of the passage. PDF p. 8.",
+          "pdf_page": 8
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The documented historical-octave interpretation and conversion to tenor clef are covered by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-007",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 41,
+      "measure_end": 41,
+      "location": "41",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "source_page": 9,
+      "edition_page": 9,
+      "title": "ED-007 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation dim. for the same gradual decrease in dynamic, at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-source.png",
+          "caption": "Source scan; movement II, m. 41. PDF p. 9.",
+          "pdf_page": 9
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, m. 41. PDF p. 9.",
+          "pdf_page": 9
+        }
+      ],
+      "policy_refs": [
+        "D2.1",
+        "D3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded equivalent diminuendo term and abbreviation refer to D2.1 and D3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-008",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 76,
+      "measure_end": 76,
+      "location": "76",
+      "part": "Cello",
+      "type": "Dynamics",
+      "status": "accepted",
+      "summary": "Bracketed [p] supplied.",
+      "source_page": 11,
+      "edition_page": 11,
+      "title": "ED-008 — Piano supplied",
+      "body_markdown": "**Source:** No dynamic is printed at the first note of m76.\n\n**Edition:** [p] is explicitly supplied in square brackets.\n\n**Editorial reason:** The bracketed marking reiterates the prevailing piano and the instruction in the other staves.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-source.png",
+          "caption": "Source scan; movement II, m. 76. PDF p. 11.",
+          "pdf_page": 11
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, m. 76. PDF p. 11.",
+          "pdf_page": 11
+        }
+      ],
+      "policy_refs": [
+        "G4",
+        "B2"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "G4 provides the documented consistency rationale; B2 identifies the supplied marking as this edition’s intervention. The musical decision remains the one recorded for the passage.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-009",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 91,
+      "measure_end": 91,
+      "location": "91",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "source_page": 12,
+      "edition_page": 11,
+      "title": "ED-009 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc.\n\n**Edition:** dim.\n\n**Editorial reason:** Retain the synonymous abbreviation dim. for the same gradual decrease in dynamic, at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-source.png",
+          "caption": "Source scan; movement II, m. 91. PDF p. 12.",
+          "pdf_page": 12
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, m. 91. PDF p. 11.",
+          "pdf_page": 11
+        }
+      ],
+      "policy_refs": [
+        "D2.1",
+        "D3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded equivalent diminuendo term and abbreviation refer to D2.1 and D3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-010",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 96,
+      "measure_end": 101,
+      "location": "96–101",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Tenor clef replaces historical treble notation at the lower octave.",
+      "source_page": 12,
+      "edition_page": 12,
+      "title": "ED-010 — Modern cello clef",
+      "body_markdown": "**Source:** An unmarked treble clef is printed at the end of m95, effective from m96 through the first eighth of the third dotted-quarter beat of m101.\n\n**Edition:** Tenor clef, preserving the intended sounding pitches.\n\n**Editorial reason:** The clef is introduced at the end of m.95 and applies from m.96 through the first eighth of the third dotted-quarter beat of m.101. Bass clef returns before the two closing F2 eighths. The excerpts show mm.96–97.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-source.png",
+          "caption": "Source scan; movement II, representative opening of the passage. PDF p. 12.",
+          "pdf_page": 12
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-edition.png",
+          "caption": "Current edition, native MuseScore render; movement II, representative opening of the passage. PDF p. 12.",
+          "pdf_page": 12
+        }
+      ],
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The documented historical-octave interpretation and conversion to tenor clef are covered by these references.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-011",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 85,
+      "measure_end": 85,
+      "location": "85",
+      "part": "Full score / all parts",
+      "type": "Navigation",
+      "status": "accepted",
+      "summary": "Fine supplied at the end of the Scherzo.",
+      "source_page": 14,
+      "edition_page": 14,
+      "title": "ED-011 — Fine supplied",
+      "body_markdown": "**Source:** End-repeat at end of Scherzo; no Fine. The end of Trio, m145, says Scherzo D.C.\n\n**Edition:** Fine supplied at the end of the Scherzo.\n\n**Editorial reason:** Clarifies the endpoint of the Scherzo da-capo return indicated at the end of the Trio (m.145).",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-source.png",
+          "caption": "Source scan; movement III, m. 85. PDF p. 14.",
+          "pdf_page": 14
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-edition.png",
+          "caption": "Current edition, native MuseScore render; movement III, m. 85. PDF p. 14.",
+          "pdf_page": 14
+        }
+      ],
+      "policy_refs": [
+        "G7"
+      ],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "The supplied Fine remains an accepted local decision. The current guide has no dedicated navigation rule; G7 is reviewer context, not specific authority for adding this marking.",
+        "proposal_ids": [
+          "PROPOSAL-NAVIGATION"
+        ]
+      }
+    },
+    {
+      "id": "ED-012",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 1,
+      "measure_end": 1,
+      "location": "1",
+      "part": "Violin I",
+      "type": "Tuplet notation",
+      "status": "accepted",
+      "summary": "Triplet numeral 3 supplied on the first group; subsequent groups remain unnumbered.",
+      "source_page": 15,
+      "edition_page": 15,
+      "title": "ED-012 — Triplet numeral supplied",
+      "body_markdown": "**Source:** Four unnumbered groups of triplet sixteenths.\n\n**Edition:** Triplet numeral 3 supplied on the first group; subsequent groups remain unnumbered.\n\n**Editorial reason:** Clarifies the 2/4 rhythmic subdivision without altering the notes or durations.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-source.png",
+          "caption": "Source scan; movement IV, m. 1. PDF p. 15.",
+          "pdf_page": 15
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-edition.png",
+          "caption": "Current edition, native MuseScore render; movement IV, m. 1. PDF p. 15.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [
+        "T4.2"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The retained first-group numeral followed by unnumbered continuation aligns with T4.2.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-013",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 129,
+      "measure_end": 129,
+      "location": "129",
+      "part": "Viola",
+      "type": "Tuplet notation",
+      "status": "accepted",
+      "summary": "Numeral 3 supplied to each of those two groups.",
+      "source_page": 18,
+      "edition_page": 18,
+      "title": "ED-013 — Triplet numeral supplied",
+      "body_markdown": "**Source:** The two triplet-sixteenth groups on beat 2 are unnumbered.\n\n**Edition:** Numeral 3 supplied to each of those two groups.\n\n**Editorial reason:** Makes the implied triplet subdivision explicit.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-source.png",
+          "caption": "Source scan; movement IV, m. 129. PDF p. 18.",
+          "pdf_page": 18
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-edition.png",
+          "caption": "Current edition, native MuseScore render; movement IV, m. 129. PDF p. 18.",
+          "pdf_page": 18
+        }
+      ],
+      "policy_refs": [
+        "T4.2",
+        "G7"
+      ],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "The earlier decision shows numerals on both short groups. T4.2 addresses longer consistent passages; the boundary between a short group and a longer passage needs clarification before claiming exact policy coverage.",
+        "proposal_ids": [
+          "PROPOSAL-TUPLET-SCOPE"
+        ]
+      }
+    },
+    {
+      "id": "ED-014",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 218,
+      "measure_end": 218,
+      "location": "218",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Source decresc. rendered as dim.",
+      "source_page": 20,
+      "edition_page": 20,
+      "title": "ED-014 — Equivalent diminuendo wording",
+      "body_markdown": "**Source:** decresc. in all four parts.\n\n**Edition:** dim. in all four parts.\n\n**Editorial reason:** Retain the synonymous abbreviation dim. for the same gradual decrease in dynamic, at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-source.png",
+          "caption": "Source scan; movement IV, m. 218. PDF p. 20.",
+          "pdf_page": 20
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-edition.png",
+          "caption": "Current edition, native MuseScore render; movement IV, m. 218. PDF p. 20.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [
+        "D2.1",
+        "D3"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "The recorded equivalent diminuendo term and abbreviation refer to D2.1 and D3.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-015",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 219,
+      "measure_end": 219,
+      "location": "219",
+      "part": "Viola",
+      "type": "Dynamics",
+      "status": "accepted",
+      "summary": "Bracketed [p] supplied.",
+      "source_page": 20,
+      "edition_page": 20,
+      "title": "ED-015 — Piano supplied",
+      "body_markdown": "**Source:** No p in viola; p present in the other three parts.\n\n**Edition:** Bracketed [p] supplied in the viola.\n\n**Editorial reason:** Edition already identifies the addition with square brackets. Retain as a clear and reasonable editorial completion.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-015-source.png",
+          "caption": "Source scan; movement IV, m. 219. PDF p. 20.",
+          "pdf_page": 20
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-015-edition.png",
+          "caption": "Current edition, native MuseScore render; movement IV, m. 219. PDF p. 20.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [
+        "G4",
+        "B2"
+      ],
+      "policy_review": {
+        "status": "covered",
+        "note": "G4 provides the documented consistency rationale; B2 identifies the supplied marking as this edition’s intervention. The musical decision remains the one recorded for the passage.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-016",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 317,
+      "measure_end": 317,
+      "location": "317",
+      "part": "Violin II",
+      "type": "Tuplet notation",
+      "status": "accepted",
+      "summary": "A visible numeral 3 is supplied on the second triplet group (D-flat5–C5–B4); the first group remains unnumbered.",
+      "source_page": 23,
+      "edition_page": 23,
+      "title": "ED-016 — Triplet numeral supplied",
+      "body_markdown": "**Source:** Two unnumbered triplet-sixteenth groups on beat 1.\n\n**Edition:** A visible numeral 3 is supplied on the second triplet group (D-flat5–C5–B4); the first group remains unnumbered.\n\n**Editorial reason:** The explicit numeral clarifies the subdivision. Its retention is a choice of the present edition; the origin of the isolated numeral is undocumented.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-016-source.png",
+          "caption": "Source scan; movement IV, m. 317. PDF p. 23.",
+          "pdf_page": 23
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-016-edition.png",
+          "caption": "Current edition, native MuseScore render; movement IV, m. 317. PDF p. 23.",
+          "pdf_page": 23
+        }
+      ],
+      "policy_refs": [
+        "T4.2",
+        "G7"
+      ],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "The earlier decision retains a numeral on the second group while the first is unnumbered. Its placement needs review against the first-group convention in T4.2; consolidation does not change the score or its prior decision.",
+        "proposal_ids": [
+          "PROPOSAL-TUPLET-SCOPE"
+        ]
+      }
+    }
+  ],
+  "image_provenance": [
+    {
+      "record": "ED-001",
+      "movement": 1,
+      "role": "source",
+      "file": "images/ed-001-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 2,
+      "rect_pt": [
+        404,
+        370,
+        491,
+        418
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-001",
+      "movement": 1,
+      "role": "edition",
+      "file": "images/ed-001-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 2,
+      "rect_pt": [
+        390,
+        49,
+        441,
+        88
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-002",
+      "movement": 1,
+      "role": "source",
+      "file": "images/ed-002-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 2,
+      "rect_pt": [
+        276,
+        778,
+        472,
+        824
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-002",
+      "movement": 1,
+      "role": "edition",
+      "file": "images/ed-002-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 2,
+      "rect_pt": [
+        268,
+        444,
+        454,
+        477
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-003",
+      "movement": 1,
+      "role": "source",
+      "file": "images/ed-003-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 6,
+      "rect_pt": [
+        198,
+        212,
+        263,
+        278
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-003",
+      "movement": 1,
+      "role": "edition",
+      "file": "images/ed-003-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 5,
+      "rect_pt": [
+        200,
+        658,
+        252,
+        697
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-004",
+      "movement": 1,
+      "role": "source",
+      "file": "images/ed-004-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 6,
+      "rect_pt": [
+        20,
+        636,
+        325,
+        675
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-004",
+      "movement": 1,
+      "role": "edition",
+      "file": "images/ed-004-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 6,
+      "rect_pt": [
+        38,
+        299,
+        263,
+        327
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-005",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-005-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 8,
+      "rect_pt": [
+        304,
+        582,
+        401,
+        625
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-005",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-005-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 8,
+      "rect_pt": [
+        276,
+        316,
+        365,
+        351
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-006",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-006-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 8,
+      "rect_pt": [
+        150,
+        770,
+        529,
+        832
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-006",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-006-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 8,
+      "rect_pt": [
+        143,
+        551,
+        477,
+        601
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-007",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-007-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 9,
+      "rect_pt": [
+        444,
+        682,
+        601,
+        740
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-007",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-007-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 9,
+      "rect_pt": [
+        427,
+        504,
+        558,
+        539
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-008",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-008-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 11,
+      "rect_pt": [
+        30,
+        479,
+        121,
+        519
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-008",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-008-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 11,
+      "rect_pt": [
+        41,
+        295,
+        134,
+        329
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-009",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-009-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 12,
+      "rect_pt": [
+        275,
+        64,
+        415,
+        121
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-009",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-009-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 11,
+      "rect_pt": [
+        223,
+        660,
+        338,
+        702
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-010",
+      "movement": 2,
+      "role": "source",
+      "file": "images/ed-010-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 12,
+      "rect_pt": [
+        217,
+        322,
+        484,
+        375
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-010",
+      "movement": 2,
+      "role": "edition",
+      "file": "images/ed-010-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 12,
+      "rect_pt": [
+        238,
+        164,
+        466,
+        200
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-011",
+      "movement": 3,
+      "role": "source",
+      "file": "images/ed-011-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 14,
+      "rect_pt": [
+        505,
+        57,
+        597,
+        106
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-011",
+      "movement": 3,
+      "role": "edition",
+      "file": "images/ed-011-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 14,
+      "rect_pt": [
+        505,
+        44,
+        554,
+        80
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-012",
+      "movement": 4,
+      "role": "source",
+      "file": "images/ed-012-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 15,
+      "rect_pt": [
+        45,
+        200,
+        180,
+        270
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-012",
+      "movement": 4,
+      "role": "edition",
+      "file": "images/ed-012-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 15,
+      "rect_pt": [
+        70,
+        60,
+        185,
+        105
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-013",
+      "movement": 4,
+      "role": "source",
+      "file": "images/ed-013-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 18,
+      "rect_pt": [
+        105,
+        530,
+        218,
+        662
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-013",
+      "movement": 4,
+      "role": "edition",
+      "file": "images/ed-013-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 18,
+      "rect_pt": [
+        117,
+        510,
+        208,
+        644
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-014",
+      "movement": 4,
+      "role": "source",
+      "file": "images/ed-014-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 20,
+      "rect_pt": [
+        132,
+        358,
+        200,
+        498
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-014",
+      "movement": 4,
+      "role": "edition",
+      "file": "images/ed-014-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 20,
+      "rect_pt": [
+        150,
+        356,
+        201,
+        480
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-015",
+      "movement": 4,
+      "role": "source",
+      "file": "images/ed-015-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 20,
+      "rect_pt": [
+        175,
+        358,
+        295,
+        498
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-015",
+      "movement": 4,
+      "role": "edition",
+      "file": "images/ed-015-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 20,
+      "rect_pt": [
+        200,
+        356,
+        293,
+        480
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-016",
+      "movement": 4,
+      "role": "source",
+      "file": "images/ed-016-source.png",
+      "input": "source/IMSLP04755-Beethoven_-_String_Quartet_No.1_Dover.pdf",
+      "input_sha256": "e2e554b844dc16b40f479939126ff5d71fa44263a7338b993a9ee1dbbcca3796",
+      "pdf_page": 23,
+      "rect_pt": [
+        230,
+        50,
+        327,
+        200
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    },
+    {
+      "record": "ED-016",
+      "movement": 4,
+      "role": "edition",
+      "file": "images/ed-016-edition.png",
+      "input": "scores/sq8071278.pdf",
+      "input_sha256": "818109f8fb962500a1f2c77951186c3ebede10dda4004a9ddc747846929994b4",
+      "pdf_page": 23,
+      "rect_pt": [
+        226,
+        55,
+        320,
+        186
+      ],
+      "render_scale": 4,
+      "renderer": "PyMuPDF"
+    }
+  ]
+}

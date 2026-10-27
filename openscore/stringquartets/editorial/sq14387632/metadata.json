@@ -1,0 +1,53 @@
+{
+  "schema_version": 2,
+  "sqid": "sq14387632",
+  "title": "String Quartet, Op.89",
+  "composer": "Amy Beach",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "843310",
+  "source_filename": "IMSLP843310-PMLP1326806-Amy_Beach_-_String_Quartet_Op89_(Full_Score,_A-R,_1994)(1).pdf",
+  "source_sha256": "ff3c8d88a66341b460de49585f052ed3d8576384bb1e485042c8175776404d3c",
+  "score_file": "sq14387632.mscx",
+  "score_sha256": "ba8da8ad3f8408da1d84d8fdeab024c0c3fd83ea5fd22bd381b3b258704d0f0c",
+  "score_path": "scores/Beach,_Amy/String_Quartet,_Op._89/sq14387632.mscx",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "native_basis": "MALerLab omr-dev, with source-verified changes",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 14387632,
+  "catalogue_entry": {
+    "path": "Beach,_Amy/String_Quartet,_Op._89",
+    "name": "String Quartet, Op. 89",
+    "link": "https://musescore.com/openscore-string-quartets/scores/14387632",
+    "imslp": "#843310",
+    "set_id": 6406540
+  },
+  "transcriber": "ashmoggs",
+  "score_licence": "CC0",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-27",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  },
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Grave (one continuous movement)",
+      "bars": 437,
+      "pickup": true,
+      "physical_measures": 438
+    }
+  ],
+  "native_staff_count": 4,
+  "numbering_note": "The score is one continuous movement with an unnumbered pickup and 437 numbered bars.",
+  "source_bibliographic_description": "A-R Editions, 1994.",
+  "source_publisher": "A-R Editions",
+  "source_publication_year": 1994,
+  "source_editor": "Adrienne Fried Block",
+  "imslp_download_url": "https://imslp.eu/linkhandler.php?path=/imglnks/euimg/b/b0/IMSLP843310-PMLP1326806-Amy_Beach_-_String_Quartet_Op89_(Full_Score,_A-R,_1994).pdf"
+}

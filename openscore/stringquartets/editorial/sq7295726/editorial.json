@@ -1,0 +1,1136 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq7295726",
+  "policy_refs": [
+    "G1",
+    "G2"
+  ],
+  "context_markdown": "This public register records known, intentional differences between the supplied printed source and the present working edition. The choices listed here are adopted now; they do not establish the original transcribers’ intentions. Entries follow score order.\n\nAll 37 supplied source pages and all 31 incoming native engraving pages were compared across the four staves, followed by magnified checks of candidates. The supplied scan is the Rózsavölgyi first edition, catalogued 1911, reprinted by Boosey & Hawkes. This is a source comparison, not a fresh exhaustive note-by-note transcription, a collation of all historical witnesses or a guarantee that every small mark has been individually verified.\n\nMovement III has separately numbered **Introduzione** and **Allegro vivace** sections. The main Allegro’s standalone quarter-rest bar after 264 is source 265, labelled X1 in this edition. Thereafter source numbers are one higher than edition numbers until the source’s final system on PDF p.36 repeats 350 after a six-bar system beginning 349. From that system to the end, edition numbers are four higher than source numbers. The final source 375 is edition 379. Wherever numbers differ, entries show both; ordering follows physical score position, not the repeated printed numbers.",
+  "records": [
+    {
+      "id": "ED-001",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 339,
+      "physical_end": 339,
+      "measure_start": 268,
+      "measure_end": 268,
+      "source_measure_start": 268,
+      "source_measure_end": 268,
+      "edition_measure_start": 268,
+      "edition_measure_end": 268,
+      "location": "268",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit.",
+      "source_page": 14,
+      "edition_page": 13,
+      "title": "ED-001 — Tempo wording",
+      "body_markdown": "**Source:** ritardando.\n\n**Edition:** rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-source.png",
+          "caption": "Supplied source, PDF p.14; adjacent context included.",
+          "pdf_page": 14
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.13.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-002",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 356,
+      "physical_end": 356,
+      "measure_start": 285,
+      "measure_end": 285,
+      "source_measure_start": 285,
+      "source_measure_end": 285,
+      "edition_measure_start": 285,
+      "edition_measure_end": 285,
+      "location": "285",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit.",
+      "source_page": 15,
+      "edition_page": 13,
+      "title": "ED-002 — Tempo wording",
+      "body_markdown": "**Source:** ritard.\n\n**Edition:** rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-source.png",
+          "caption": "Supplied source, PDF p.15; adjacent context included.",
+          "pdf_page": 15
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.13.",
+          "pdf_page": 13
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-003",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 384,
+      "physical_end": 384,
+      "measure_start": 313,
+      "measure_end": 313,
+      "source_measure_start": 313,
+      "source_measure_end": 313,
+      "edition_measure_start": 313,
+      "edition_measure_end": 313,
+      "location": "313",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "Poco a poco rall.",
+      "source_page": 16,
+      "edition_page": 14,
+      "title": "ED-003 — Tempo wording",
+      "body_markdown": "**Source:** Poco a poco rallentando.\n\n**Edition:** Poco a poco rall.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-source.png",
+          "caption": "Supplied source, PDF p.16; adjacent context included.",
+          "pdf_page": 16
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.14.",
+          "pdf_page": 14
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-004",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 409,
+      "physical_end": 409,
+      "measure_start": 338,
+      "measure_end": 338,
+      "source_measure_start": 338,
+      "source_measure_end": 338,
+      "edition_measure_start": 338,
+      "edition_measure_end": 338,
+      "location": "338",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "Poco rit.",
+      "source_page": 16,
+      "edition_page": 15,
+      "title": "ED-004 — Tempo wording",
+      "body_markdown": "**Source:** Poco ritard.\n\n**Edition:** Poco rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-source.png",
+          "caption": "Supplied source, PDF p.16; adjacent context included.",
+          "pdf_page": 16
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.15.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-005",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 427,
+      "physical_end": 427,
+      "measure_start": 356,
+      "measure_end": 356,
+      "source_measure_start": 356,
+      "source_measure_end": 356,
+      "edition_measure_start": 356,
+      "edition_measure_end": 356,
+      "location": "356",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit.",
+      "source_page": 17,
+      "edition_page": 15,
+      "title": "ED-005 — Tempo wording",
+      "body_markdown": "**Source:** ritard.\n\n**Edition:** rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-source.png",
+          "caption": "Supplied source, PDF p.17; adjacent context included.",
+          "pdf_page": 17
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.15.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-006",
+      "movement": 2,
+      "movement_label": "II",
+      "section": "Allegretto",
+      "physical_start": 436,
+      "physical_end": 436,
+      "measure_start": 365,
+      "measure_end": 365,
+      "source_measure_start": 365,
+      "source_measure_end": 365,
+      "edition_measure_start": 365,
+      "edition_measure_end": 365,
+      "location": "365",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit.",
+      "source_page": 17,
+      "edition_page": 15,
+      "title": "ED-006 — Tempo wording",
+      "body_markdown": "**Source:** ritard.\n\n**Edition:** rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-source.png",
+          "caption": "Supplied source, PDF p.17; adjacent context included.",
+          "pdf_page": 17
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.15.",
+          "pdf_page": 15
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-007",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Introduzione",
+      "physical_start": 461,
+      "physical_end": 461,
+      "measure_start": 23,
+      "measure_end": 23,
+      "source_measure_start": 23,
+      "source_measure_end": 23,
+      "edition_measure_start": 23,
+      "edition_measure_end": 23,
+      "location": "Introduzione 23",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit.",
+      "source_page": 18,
+      "edition_page": 16,
+      "title": "ED-007 — Tempo wording",
+      "body_markdown": "**Source:** ritard.\n\n**Edition:** rit.\n\n**Editorial reason:** Retain the conventional, equivalent abbreviation for this working edition. The source-to-final wording difference is intentional; the sounding notes and tempo anchors are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-source.png",
+          "caption": "Supplied source, PDF p.18; adjacent context included.",
+          "pdf_page": 18
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.16.",
+          "pdf_page": 16
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-008",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 542,
+      "physical_end": 542,
+      "measure_start": 71,
+      "measure_end": 71,
+      "source_measure_start": 71,
+      "source_measure_end": 71,
+      "edition_measure_start": 71,
+      "edition_measure_end": 71,
+      "location": "Allegro 71",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "molto rit.",
+      "source_page": 21,
+      "edition_page": 19,
+      "title": "ED-008 — Tempo wording",
+      "body_markdown": "**Source:** molto ritard.\n\n**Edition:** molto rit.\n\n**Editorial reason:** Standard abbreviation retained; the verbal tempo instruction is unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-source.png",
+          "caption": "Supplied source, PDF p.21; adjacent context included.",
+          "pdf_page": 21
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.19.",
+          "pdf_page": 19
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-009",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 563,
+      "physical_end": 564,
+      "measure_start": 92,
+      "measure_end": 93,
+      "source_measure_start": 92,
+      "source_measure_end": 93,
+      "edition_measure_start": 92,
+      "edition_measure_end": 93,
+      "location": "Allegro 92–93",
+      "part": "Violin I / Violin II",
+      "type": "Measured tremolo notation",
+      "status": "accepted",
+      "summary": "Separate stems with a floating two-note tremolo stroke.",
+      "source_page": 22,
+      "edition_page": 20,
+      "title": "ED-009 — Measured tremolo notation",
+      "body_markdown": "**Source:** Hollow noteheads joined by an attached beam for measured alternation.\n\n**Edition:** Separate stems with a floating two-note tremolo stroke.\n\n**Editorial reason:** The edition retains conventional two-note tremolo notation for the measured alternating eighths. This is an engraving convention; preserve the measured durations in export.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-source.png",
+          "caption": "Supplied source, PDF p.22; adjacent context included.",
+          "pdf_page": 22
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.20.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-010",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 573,
+      "physical_end": 574,
+      "measure_start": 102,
+      "measure_end": 103,
+      "source_measure_start": 102,
+      "source_measure_end": 103,
+      "edition_measure_start": 102,
+      "edition_measure_end": 103,
+      "location": "Allegro 102–103",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rall.",
+      "source_page": 23,
+      "edition_page": 20,
+      "title": "ED-010 — Tempo wording",
+      "body_markdown": "**Source:** rallentando.\n\n**Edition:** rall.\n\n**Editorial reason:** Standard abbreviation retained. The instruction begins at the final half note of III.102 and continues into III.103.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-source.png",
+          "caption": "Supplied source, PDF p.23; adjacent context included.",
+          "pdf_page": 23
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.20.",
+          "pdf_page": 20
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-011",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 587,
+      "physical_end": 591,
+      "measure_start": 116,
+      "measure_end": 120,
+      "source_measure_start": 116,
+      "source_measure_end": 120,
+      "edition_measure_start": 116,
+      "edition_measure_end": 120,
+      "location": "Allegro 116–120",
+      "part": "System",
+      "type": "Tempo wording / continuation",
+      "status": "accepted",
+      "summary": "accel. with a dashed continuation line; (accel.) at the new system.",
+      "source_page": 24,
+      "edition_page": 21,
+      "title": "ED-011 — Tempo wording / continuation",
+      "body_markdown": "**Source:** accelerando divided into syllables across the passage.\n\n**Edition:** accel. with a dashed continuation line; (accel.) at the new system.\n\n**Editorial reason:** The full word is replaced by its standard abbreviation and a continuation line. The parenthesized repetition clarifies continuation after a system break.\n\n**Additional source evidence:** [PDF p.24, continuation or footnote](images/ed-011-source-2.png).\n\n**Edition continuation:** [Present edition, native MuseScore rendering; PDF p.21.](images/ed-011-edition-2.png).",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-source.png",
+          "caption": "Supplied source, PDF p.24; adjacent context included.",
+          "pdf_page": 24
+        },
+        {
+          "role": "source_2",
+          "path": "images/ed-011-source-2.png",
+          "caption": "Source 2"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.21.",
+          "pdf_page": 21
+        },
+        {
+          "role": "edition_2",
+          "path": "images/ed-011-edition-2.png",
+          "caption": "Edition 2"
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-012",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 724,
+      "physical_end": 725,
+      "measure_start": 253,
+      "measure_end": 254,
+      "source_measure_start": 253,
+      "source_measure_end": 254,
+      "edition_measure_start": 253,
+      "edition_measure_end": 254,
+      "location": "Allegro 253–254",
+      "part": "System",
+      "type": "Tempo wording / continuation",
+      "status": "accepted",
+      "summary": "rit. without printed continuation dashes.",
+      "source_page": 31,
+      "edition_page": 27,
+      "title": "ED-012 — Tempo wording / continuation",
+      "body_markdown": "**Source:** ritard. followed by continuation dashes.\n\n**Edition:** rit. without printed continuation dashes.\n\n**Editorial reason:** Standard abbreviation and simplified continuation typography retained. The encoded text span covers III.253–254; this entry concerns the visible notation, not a newly adopted numeric playback tempo.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-source.png",
+          "caption": "Supplied source, PDF p.31; adjacent context included.",
+          "pdf_page": 31
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.27.",
+          "pdf_page": 27
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-013",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 728,
+      "physical_end": 728,
+      "measure_start": 257,
+      "measure_end": 257,
+      "source_measure_start": 257,
+      "source_measure_end": 257,
+      "edition_measure_start": 257,
+      "edition_measure_end": 257,
+      "location": "Allegro 257",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "poco rit.",
+      "source_page": 32,
+      "edition_page": 27,
+      "title": "ED-013 — Tempo wording",
+      "body_markdown": "**Source:** poco ritard.\n\n**Edition:** poco rit.\n\n**Editorial reason:** Standard abbreviation retained; the qualifier poco is preserved.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-source.png",
+          "caption": "Supplied source, PDF p.32; adjacent context included.",
+          "pdf_page": 32
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.27.",
+          "pdf_page": 27
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    },
+    {
+      "id": "ED-014",
+      "movement": 3,
+      "movement_label": "III",
+      "section": "Allegro vivace",
+      "physical_start": 790,
+      "physical_end": 790,
+      "measure_start": 318,
+      "measure_end": 318,
+      "source_measure_start": 319,
+      "source_measure_end": 319,
+      "edition_measure_start": 318,
+      "edition_measure_end": 318,
+      "location": "Allegro 319 (edition 318)",
+      "part": "System",
+      "type": "Tempo wording",
+      "status": "accepted",
+      "summary": "rit. molto.",
+      "source_page": 34,
+      "edition_page": 29,
+      "title": "ED-014 — Tempo wording",
+      "body_markdown": "**Source:** ritard. molto.\n\n**Edition:** rit. molto.\n\n**Editorial reason:** Standard abbreviation retained; the qualifier molto is preserved. Source bar 319 corresponds to edition bar 318.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-source.png",
+          "caption": "Supplied source, PDF p.34; adjacent context included.",
+          "pdf_page": 34
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-edition.png",
+          "caption": "Present edition, native MuseScore rendering; PDF p.29.",
+          "pdf_page": 29
+        }
+      ],
+      "policy_refs": [],
+      "policy_review": {
+        "status": "clarification_needed",
+        "note": "Imported decision; its guideline references require review. The musical decision has not been changed.",
+        "proposal_ids": []
+      }
+    }
+  ],
+  "image_provenance": [
+    {
+      "record": "ED-001",
+      "role": "source",
+      "file": "images/ed-001-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 14,
+      "rect_pt": [
+        257.0,
+        268.0,
+        329.0,
+        309.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "0ddde1fadef3a989c80e0a783f4a5448e1a9105571c5c7c817c31a67e9bf5c91"
+    },
+    {
+      "record": "ED-001",
+      "role": "edition",
+      "file": "images/ed-001-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 13,
+      "rect_pt": [
+        421.1325378417969,
+        180.00999450683594,
+        483.1237487792969,
+        260.3500061035156
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "8a9da86590ba355f93fb01dffdd1b90136fbce2b81f9af25305eab9f09137046"
+    },
+    {
+      "record": "ED-002",
+      "role": "source",
+      "file": "images/ed-002-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 15,
+      "rect_pt": [
+        139.0,
+        30.0,
+        188.0,
+        78.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "94d7f5c4317a14d5b408fffa05b08975c82ffd71aa5bd7adacdef6c892c2169f"
+    },
+    {
+      "record": "ED-002",
+      "role": "edition",
+      "file": "images/ed-002-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 13,
+      "rect_pt": [
+        215.59971618652344,
+        473.05999755859375,
+        279.3424987792969,
+        553.4000244140625
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "89f6cda174893bdda0557b9989443ec2f224c4769cff80c795ef415129ea3f8a"
+    },
+    {
+      "record": "ED-003",
+      "role": "source",
+      "file": "images/ed-003-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 16,
+      "rect_pt": [
+        80.0,
+        30.0,
+        178.0,
+        75.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "91295fe1b64780e77b70ec9ef6be733f701f8a3df752051e33ff017dafdc52f7"
+    },
+    {
+      "record": "ED-003",
+      "role": "edition",
+      "file": "images/ed-003-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 14,
+      "rect_pt": [
+        123.25923919677734,
+        412.9200134277344,
+        212.9959716796875,
+        493.25
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "2457a56cdf371e587baf940a26fee16aa16e2bd2e605cb05ac39ea3ca694ca42"
+    },
+    {
+      "record": "ED-004",
+      "role": "source",
+      "file": "images/ed-004-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 16,
+      "rect_pt": [
+        94.0,
+        371.0,
+        151.0,
+        411.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "5100adce6f573b63eaa851a6d7819a4dbc42e7a37e9e04a4ed3b40cd31ec3188"
+    },
+    {
+      "record": "ED-004",
+      "role": "edition",
+      "file": "images/ed-004-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 15,
+      "rect_pt": [
+        114.5989761352539,
+        218.4600067138672,
+        203.5586395263672,
+        298.7900085449219
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "1d602c7c7e30972035bf2e0882142f6dfd42799984ca8f4d9624fd6fd4ea148c"
+    },
+    {
+      "record": "ED-005",
+      "role": "source",
+      "file": "images/ed-005-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 17,
+      "rect_pt": [
+        243.0,
+        35.0,
+        292.0,
+        76.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "14461b271036667b607e84a1ce8a6b6ee81b8730733509067286bff58d004f80"
+    },
+    {
+      "record": "ED-005",
+      "role": "edition",
+      "file": "images/ed-005-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 15,
+      "rect_pt": [
+        407.0556335449219,
+        412.04998779296875,
+        482.65313720703125,
+        492.3800048828125
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "a9c6f21376b16deba9e19ec7e27b4fe469d3bca4582be56f86d2115d58f54d26"
+    },
+    {
+      "record": "ED-006",
+      "role": "source",
+      "file": "images/ed-006-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 17,
+      "rect_pt": [
+        250.0,
+        147.0,
+        283.0,
+        188.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "d4a40233ae5ab96ead4de78f19e23458ac47a00c9f547548c343dfa4490b14e6"
+    },
+    {
+      "record": "ED-006",
+      "role": "edition",
+      "file": "images/ed-006-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 15,
+      "rect_pt": [
+        387.200927734375,
+        605.6400146484375,
+        464.9077453613281,
+        685.969970703125
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "3d062b75db45edc8a9b3bda23c2ffae7594f49d5f8665a2fce727edb2b4dc4d8"
+    },
+    {
+      "record": "ED-007",
+      "role": "source",
+      "file": "images/ed-007-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 18,
+      "rect_pt": [
+        208.0,
+        240.0,
+        264.0,
+        290.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "60353d0fd8953472e5cd1ec25c3db1c2766ecd1914b49ad875d795a30b26c5d5"
+    },
+    {
+      "record": "ED-007",
+      "role": "edition",
+      "file": "images/ed-007-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 16,
+      "rect_pt": [
+        314.19415283203125,
+        507.42999267578125,
+        421.0101013183594,
+        587.77001953125
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "39c8a9f44582799eb5c83568f807b25ac71599182c99a07f347456f1dde10088"
+    },
+    {
+      "record": "ED-008",
+      "role": "source",
+      "file": "images/ed-008-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 21,
+      "rect_pt": [
+        165.0,
+        374.0,
+        262.0,
+        428.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "745c8227be59a5b4a41a8fa586247e32a2d45b033b67dba2305b445ff981f489"
+    },
+    {
+      "record": "ED-008",
+      "role": "edition",
+      "file": "images/ed-008-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 19,
+      "rect_pt": [
+        277.85107421875,
+        178.2899932861328,
+        392.5690612792969,
+        258.6199951171875
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "c1955d92cda4beda4deba033c4131f622f9f8104a83ae6d8f46e46c8d3b5626a"
+    },
+    {
+      "record": "ED-009",
+      "role": "source",
+      "file": "images/ed-009-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 22,
+      "rect_pt": [
+        230.0,
+        376.0,
+        316.0,
+        432.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "76fc5f0a6b2e18643ed62f42d3c358018564c49b810ef1cb7067b848ae3b6107"
+    },
+    {
+      "record": "ED-009",
+      "role": "edition",
+      "file": "images/ed-009-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 20,
+      "rect_pt": [
+        343.6116638183594,
+        45.0,
+        564.9259643554688,
+        134.58999633789062
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "d9ba7ac91822b97519ea90e1c86df96da193ae13780d541886335f8eb1bf531e"
+    },
+    {
+      "record": "ED-010",
+      "role": "source",
+      "file": "images/ed-010-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 23,
+      "rect_pt": [
+        185.0,
+        137.0,
+        269.0,
+        198.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "80ab98f7564ec8dda498c0fdb08073887b789d449762a3226c91a7042dfd66e7"
+    },
+    {
+      "record": "ED-010",
+      "role": "edition",
+      "file": "images/ed-010-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 20,
+      "rect_pt": [
+        230.7536163330078,
+        330.2699890136719,
+        410.9232177734375,
+        410.6099853515625
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "0bf200645917a3e742478b7cf4ff03726755dc301e001dfe2480a8d3712f856b"
+    },
+    {
+      "record": "ED-011",
+      "role": "source",
+      "file": "images/ed-011-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 24,
+      "rect_pt": [
+        174.0,
+        22.0,
+        339.0,
+        76.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "df7b96e759680a33fd89b9fb648fc9c0a4fee377140a6abb75622650fe532f5b"
+    },
+    {
+      "record": "ED-011",
+      "role": "source",
+      "file": "images/ed-011-source-2.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 24,
+      "rect_pt": [
+        25.0,
+        125.0,
+        265.0,
+        195.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "2e3a7f46cb13b00a3da60184dfbd42cdd099673b403b83b2f8b675a13eab7b9b"
+    },
+    {
+      "record": "ED-011",
+      "role": "edition",
+      "file": "images/ed-011-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 21,
+      "rect_pt": [
+        275.6372375488281,
+        45.0,
+        564.7559204101562,
+        104.69999694824219
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "597f641bfab4c125794202139410d8f87e3bd228b76412de7763d0ac783e670f"
+    },
+    {
+      "record": "ED-011",
+      "role": "edition",
+      "file": "images/ed-011-edition-2.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 21,
+      "rect_pt": [
+        34.20315170288086,
+        177.30999755859375,
+        439.8166809082031,
+        246.64999389648438
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "77d9dd6a47fa7039beb9a39a387433c9253e49d8c0ec59991b7a67462387c4f1"
+    },
+    {
+      "record": "ED-012",
+      "role": "source",
+      "file": "images/ed-012-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 31,
+      "rect_pt": [
+        22.0,
+        383.0,
+        340.0,
+        438.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "0863b4103b731d67593975b50ec5d936e21876cf716a9d70caec503bc5847e99"
+    },
+    {
+      "record": "ED-012",
+      "role": "edition",
+      "file": "images/ed-012-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 27,
+      "rect_pt": [
+        262.74945068359375,
+        45.0,
+        564.7559204101562,
+        104.69999694824219
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "f401201067353e4e1498395c343745b0b6520d1e33b538016a74265474b293fa"
+    },
+    {
+      "record": "ED-013",
+      "role": "source",
+      "file": "images/ed-013-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 32,
+      "rect_pt": [
+        155.0,
+        28.0,
+        254.0,
+        79.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "0a25c38e12ca86ceac312d3ef27598021e767fbff823e0ae35fdff2f7467e990"
+    },
+    {
+      "record": "ED-013",
+      "role": "edition",
+      "file": "images/ed-013-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 27,
+      "rect_pt": [
+        262.8785705566406,
+        162.47999572753906,
+        371.8875732421875,
+        242.82000732421875
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "c5dce2b478ac857532b74b0d7a5fac6d7ae6715d433afa462d5be0f463015608"
+    },
+    {
+      "record": "ED-014",
+      "role": "source",
+      "file": "images/ed-014-source.png",
+      "input_filename": "IMSLP18895-PMLP12567-Bartók_-_String_Quartet_No._1,_Op._7_(score).pdf",
+      "input_sha256": "8ac5ff3202085b35c21aa85da2a606ba0bfd8bd28fc03bec14adcceb532df581",
+      "pdf_page": 34,
+      "rect_pt": [
+        260.0,
+        383.0,
+        344.0,
+        431.0
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "9b03979adf04fe2aff8755109e185bbcf0f3e01983b72744464d0a06eecb7bb5"
+    },
+    {
+      "record": "ED-014",
+      "role": "edition",
+      "file": "images/ed-014-edition.png",
+      "input_filename": "sq7295726.pdf",
+      "input_sha256": "fead9522c8df41784c30ee2c5a6b09eff216d25d7dfc4f54a9f9f32bfa609934",
+      "pdf_page": 29,
+      "rect_pt": [
+        442.6077880859375,
+        324.4200134277344,
+        564.755859375,
+        404.75
+      ],
+      "render_scale": 5,
+      "renderer": "PyMuPDF",
+      "image_sha256": "c5a3e04b0380a34f45c2ce236fc13506523e6dff5ffd45f04381961dc46021a6"
+    }
+  ]
+}

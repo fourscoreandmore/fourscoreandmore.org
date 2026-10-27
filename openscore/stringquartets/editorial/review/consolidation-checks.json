@@ -1,0 +1,74 @@
+{
+  "passed": true,
+  "review_date": "2026-10-26",
+  "scope": "Independent structural consolidation QA for the two locally available completed editions. Original score XML, images, record IDs, musical locations, status and source-reading prose were preserved.",
+  "editions": {
+    "sq8071278": {
+      "editorial_records": 16,
+      "private_records": 18,
+      "private_statuses": {
+        "open": 3,
+        "repaired": 15
+      },
+      "images": 83,
+      "native_score_sha256": "31f7cbc1d7255d00ddb28138276df3d5c2d2894ddb9788c9bfd8b1fad7b13605"
+    },
+    "sq10502527": {
+      "editorial_records": 18,
+      "private_records": 5,
+      "private_statuses": {
+        "open": 3,
+        "repaired": 2
+      },
+      "images": 48,
+      "native_score_sha256": "6f10fc57df840c2b75b873a1488abce79b8531e8c9e3251f3bd0dcd14f631617"
+    }
+  },
+  "checks": {
+    "migration_fidelity": 1210,
+    "renderer_and_runtime": 631,
+    "import_export": 244,
+    "final_export_and_markdown": 207
+  },
+  "additional_checks": [
+    "Fractional beat ordering in Markdown generation agrees with the renderer.",
+    "S2 import warning preserves existing status, severity and musical-reading prose.",
+    "Directory and ZIP batch imports both completed successfully.",
+    "Repeated batch imports with --skip-existing preserved all existing edition bytes.",
+    "External Markdown exports retain valid rebased image and evidence links.",
+    "Both current JSON Schema files parse; application CLI/renderer guards validate the actual data."
+  ],
+  "errors": [],
+  "unchanged_original_packages": true,
+  "all_131_image_bytes_unchanged": true,
+  "both_native_score_bytes_unchanged": true,
+  "public_export_isolation": "Verified public ZIP omits private reports, private images, review proposals and maintenance tools; one shared renderer is present.",
+  "offline_export": "Generated standalone data exactly matches the canonical JSON and uses the correct audience. Maintained HTML has no embedded copy.",
+  "limits": [
+    "No browser executable was available; actual JavaScript was tested in Node including a minimal DOM for loading and filtering. This is not a pixel-layout browser test.",
+    "No independent Draft2020-12 JSON Schema engine was installed. Structural validation was performed by the delivered CLI and renderer plus independent migration/reference checks.",
+    "This migration does not re-review musical source readings or rerender/revalidate scores in MuseScore. Native files are byte-identical to the previously delivered versions."
+  ],
+  "files_sha256": {
+    "assets/report.js": "9fb0c18ff54ebf751b2bfc36a7e5c1e5ffba15e9e51a5de02f4386f6e1433d3f",
+    "assets/report.css": "a7e9d05572e73dbb92be4868820e1e2468a9f6426d9e7673aece0d4ab26b8f7b",
+    "assets/policy-codes.json": "b80d66370fd966a43854e61081bbe99b6b8dffab3236de5921b87adf252c1204",
+    "templates/report.html": "d8b2350a6592c14da219dad7e661fa89482d8e100a59777883e3a9c0c5fb10ad",
+    "tools/editions.py": "fe15f91a46653dd7cfac2716815cbbba7f612eabe90d7a1134a1bb258068779e",
+    "schemas/metadata.schema.json": "c0226d3982d4de9ca1e3083bcd072445855c6b46d90d4e4011b9d13c21476b9e",
+    "schemas/report.schema.json": "812fa48b764458a3c02cb187e716702557dbb981a3d0e2e6ea18197762fcce27",
+    "README.md": "eac5727e296ce2f9096c0339b8ea84f52c92832db6eea3ba033ecf56b15949a0",
+    "review/policy-proposals.md": "17dced23a59d435779db74876a7131d17ab1686a211ee675cab3b25377adfbd3",
+    "sq8071278/metadata.json": "d104bdab862f67b979e3521a5e9354edb78bbe84f066287f95795ee122b1649b",
+    "sq8071278/editorial.json": "896f9089e1a045caeecdece9646b70063b63a19b7cddf7ad33507499aa32d209",
+    "sq8071278/private/corrections.json": "a2d4c18a0f0df19a12f0bd93a92ebd1bf32d567b2875259bec5dec8760375a86",
+    "sq8071278/index.html": "afcd15360019d38bcfe28a0fbe57db83795b6710e94dd679d6f809d2f1f7e78d",
+    "sq8071278/private/index.html": "2efee61ccbb528d9e4f068899d842c00b76384f0cf63f7dd93088a596b17b77c",
+    "sq10502527/metadata.json": "1f6c31575353f8e627d73856ec6da41954acd3e329889b0e836cff2d78abe08d",
+    "sq10502527/editorial.json": "006cad0ef97999387f03a92b8e849a641a151fa96e510bc9e347702726acab24",
+    "sq10502527/private/corrections.json": "d59b91881c61e8fa93101213eebe7964a5f7af3a0cedc09fbdceb200c3057c75",
+    "sq10502527/index.html": "afcd15360019d38bcfe28a0fbe57db83795b6710e94dd679d6f809d2f1f7e78d",
+    "sq10502527/private/index.html": "2efee61ccbb528d9e4f068899d842c00b76384f0cf63f7dd93088a596b17b77c"
+  },
+  "detailed_evidence_location": "tmp/consolidation/qa (working evidence; not required by the maintained collection)"
+}

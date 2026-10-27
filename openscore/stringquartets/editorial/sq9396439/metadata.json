@@ -1,0 +1,67 @@
+{
+  "sqid": "sq9396439",
+  "title": "String Quartet No.5 in A major, Op.18 No.5",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04759",
+  "source_filename": "IMSLP04759-Beethoven_-_String_Quartet_No.5_Dover.pdf",
+  "source_sha256": "a72b02077cce45b612cb142e2ba365750a7f273768f60eeda608416899f0299b",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.5,_Op.18_No.5/sq9396439.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 9396439,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.5,_Op.18_No.5",
+    "name": "String Quartet No.5, Op.18 No.5",
+    "link": "https://musescore.com/openscore-string-quartets/scores/9396439",
+    "imslp": "#04759",
+    "set_id": 5108479
+  },
+  "source_publisher": "Breitkopf & Härtel",
+  "source_publication_year": 1862,
+  "source_reprint": "New York: Dover Publications, 1970.",
+  "source_bibliographic_description": "Ludwig van Beethovens Werke, Serie 6: Quartette für 2 Violinen, Bratsche und Violoncell, Erster Band, No.41 (pp.83-102) Leipzig: Breitkopf und Härtel, n.d.[1862]. Plate B.41.",
+  "imslp_download_url": "https://s9.imslp.org/files/imglnks/usimg/a/ab/IMSLP04759-Beethoven_-_String_Quartet_No.5_Dover.pdf",
+  "transcriber": "Gijs Bikker",
+  "score_licence": "CC0",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Allegro",
+      "bars": 225
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Menuetto",
+      "bars": 106
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Andante cantabile",
+      "bars": 142
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "Allegro",
+      "bars": 301
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq9396439.mscx",
+  "score_sha256": "139604c3dda64fe553aa52191f9e60ea03f33c21d5e4ba65b08f690035a4d1a4",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

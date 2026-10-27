@@ -1,0 +1,68 @@
+{
+  "sqid": "sq10527526",
+  "title": "String Quartet No.12 in E-flat major, Op.127",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "October 2026",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04766",
+  "source_filename": "IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+  "source_sha256": "86a1b31a949a23e5abdab1a2a6ed13b73de5751651c7236db80d0b2cbe5d2414",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.12,_Op.127/sq10527526.mscx",
+  "openscore_baseline": "385201102a185d545f21a11860621269b182e749",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "7a17e45cddc0b7064fc3a179b62caeb57595e993",
+  "catalogue_url": "https://github.com/MALerLab/ossq-omr/blob/7a17e45cddc0b7064fc3a179b62caeb57595e993/data/scores.yaml",
+  "catalogue_key": 10527526,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.12,_Op.127",
+    "name": "String Quartet No.12, Op.127",
+    "link": "https://musescore.com/openscore-string-quartets/scores/10527526",
+    "imslp": "#04766",
+    "set_id": 5108657
+  },
+  "source_publisher": "Breitkopf & Härtel",
+  "source_publication_year": 1863,
+  "source_reprint": "New York: Dover Publications, 1970.",
+  "source_bibliographic_description": "Ludwig van Beethovens Werke, Serie 6, Band 2, No.48 (pp.47-78) Leipzig: Breitkopf und Härtel, n.d.[1863]. Plate B.48.",
+  "observed_source_pagination": "32 PDF pages, printed pp.47–78; plate B.48",
+  "imslp_download_url": "https://vmirror.imslp.org/files/imglnks/usimg/9/96/IMSLP04766-Beethoven_-_String_Quartet_No.12_Dover.pdf",
+  "transcriber": "flutemouse",
+  "score_licence": "CC0",
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Maestoso — Allegro",
+      "bars": 282
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Adagio, ma non troppo e molto cantabile",
+      "bars": 126
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Scherzando vivace",
+      "bars": 435
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "Finale",
+      "bars": 299
+    }
+  ],
+  "schema_version": 2,
+  "score_file": "sq10527526.mscx",
+  "score_sha256": "2fcbb9688fb59dd15a60acdfb34fbf5981840563a1f408fcdde4541933d14d25",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-26",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}
