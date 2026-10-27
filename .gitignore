@@ -4,4 +4,4 @@ _site
 .DS_Store
 /vendor
 .bundle
-.*
+.*!/.github

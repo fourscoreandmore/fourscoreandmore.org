@@ -1,0 +1,21 @@
+# Build the Jekyll site the same way as the Upsun build hook
+# (.platform.app.yaml), so breakages show up on PRs before deploy.
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    env:
+      JEKYLL_ENV: production
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2' # keep in sync with `type` in .platform.app.yaml
+          bundler-cache: true
+      - run: bundle exec jekyll build
