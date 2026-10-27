@@ -1,0 +1,55 @@
+# Lint and test apps-backend with the same Python and lockfile as the Upsun
+# build (apps-backend/.platform.app.yaml).
+#
+# The repo only allows local actions, so this avoids marketplace actions
+# (actions/checkout, actions/setup-python) and uses a Python container plus git.
+name: apps-backend
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    container: python:3.12 # keep in sync with `type` in apps-backend/.platform.app.yaml
+    defaults:
+      run:
+        working-directory: apps-backend
+    steps:
+      - name: Check out
+        working-directory: .
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          git config --global --add safe.directory "$PWD"
+          git init -q .
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)" \
+            fetch -q --depth 1 "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_SHA"
+          git checkout -q FETCH_HEAD
+
+      - name: Check Pipfile.lock is up to date
+        run: |
+          pip install -q --root-user-action=ignore pipenv
+          pipenv verify
+
+      - name: Install dependencies
+        run: pipenv install --deploy --dev --system
+
+      # The build hook copies romanUmpire.py from the When-in-Rome submodule.
+      # Fetch just that file, at the pinned commit, instead of the whole corpus.
+      - name: Fetch romanUmpire.py
+        run: |
+          sha=$(git ls-tree HEAD When-in-Rome | awk '{print $3}')
+          curl -sSfL -o app/romanUmpire.py \
+            "https://raw.githubusercontent.com/MarkGotham/When-in-Rome/$sha/Code/romanUmpire.py"
+
+      - name: Lint
+        run: ruff check --output-format=github .
+
+      - name: Test
+        run: pytest -v

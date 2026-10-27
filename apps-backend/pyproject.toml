@@ -1,0 +1,16 @@
+# Tool configuration only; dependencies are managed in the Pipfile.
+
+[tool.ruff]
+target-version = "py312"
+# romanUmpire.py is copied from the When-in-Rome submodule at build time.
+extend-exclude = ["When-in-Rome", "app/romanUmpire.py"]
+
+[tool.ruff.lint]
+# Errors only for now: syntax errors and undefined names.
+# Widen this (e.g. to "E4", "E7", "E9", "F") once the existing code is cleaned up.
+select = ["E9", "F63", "F7", "F82"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::music21.musicxml.xmlToM21.MusicXMLWarning"]

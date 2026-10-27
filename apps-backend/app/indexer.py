@@ -2,6 +2,7 @@ from pathlib import Path
 import json
 import jsonlines
 import logging
+import music21
 import os
 import xml.etree
 

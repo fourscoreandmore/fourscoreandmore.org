@@ -14,6 +14,8 @@ werkzeug = "*"
 music21 = "~=9.3.0"
 
 [dev-packages]
+pytest = "*"
+ruff = "*"
 
 [requires]
 python_version = "3.12"
