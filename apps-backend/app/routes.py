@@ -17,6 +17,16 @@ import os
 import logging
 
 
+def _download_dir(filename):
+    """Return the download directory containing filename, or abort with a 404."""
+    for dir in (app.config["SCORE_DOWNLOAD_PATH"], app.config["CORPUS_DOWNLOAD_PATH"]):
+        # safe_join returns None for paths that would escape the directory.
+        path = safe_join(dir, filename)
+        if path is not None and os.path.exists(path):
+            return dir
+    abort(404)
+
+
 @app.route(app.config["SCORE_DOWNLOAD_URI_PREFIX"] + "<path:filename>")
 def custom_static(filename):
     mimetype = None
@@ -27,12 +37,7 @@ def custom_static(filename):
     ):
         mimetype = "application/vnd.recordare.musicxml+xml"
 
-    if os.path.exists(safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
-        dir = app.config["SCORE_DOWNLOAD_PATH"]
-    elif os.path.exists(safe_join(app.config["CORPUS_DOWNLOAD_PATH"], filename)):
-        dir = app.config["CORPUS_DOWNLOAD_PATH"]
-    else:
-        abort(404)
+    dir = _download_dir(filename)
 
     # Total hack to give a more useful download filename for WIH.
     name = os.path.basename(filename)
@@ -50,12 +55,7 @@ def custom_static(filename):
 
 @app.route("/apps/score/" + "<path:filename>")
 def display_score(filename):
-    if os.path.exists(safe_join(app.config["SCORE_DOWNLOAD_PATH"], filename)):
-        dir = app.config["SCORE_DOWNLOAD_PATH"]
-    elif os.path.exists(safe_join(app.config["CORPUS_DOWNLOAD_PATH"], filename)):
-        dir = app.config["CORPUS_DOWNLOAD_PATH"]
-    else:
-        abort(404)
+    _download_dir(filename)  # 404 unless the score exists
 
     url = app.config["SCORE_DOWNLOAD_URI_PREFIX"] + filename
 
@@ -192,6 +192,8 @@ def wih_download(filename):
     abs_filename = safe_join(
         app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), filename
     )
+    if abs_filename is None:
+        abort(404)
 
     mimetype = None
     if (
