@@ -4,7 +4,7 @@ title: 'MusoRepo: Metadata'
 permalink: /musorepo/metadata/
 ---
 
-[← MusoRepo]({{ '/datasets/' | relative_url }})
+[← MusoRepo]({{ '/musoRepo/' | relative_url }})
 
 {% include musorepo/topic.html topic="metadata" %}
 

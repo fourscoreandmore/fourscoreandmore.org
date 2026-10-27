@@ -39,6 +39,7 @@ plugins:
 # Exclude files from processing by Jekyll.
 exclude:
   - apps-backend
+  - musoRepo/schemas
 
 # Enable GA.
 google_analytics: true

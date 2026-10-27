@@ -4,7 +4,7 @@ title: 'MusoRepo: Teaching'
 permalink: /musorepo/teaching/
 ---
 
-[← MusoRepo]({{ '/datasets/' | relative_url }})
+[← MusoRepo]({{ '/musoRepo/' | relative_url }})
 
 {% include musorepo/topic.html topic="teaching" %}
 
