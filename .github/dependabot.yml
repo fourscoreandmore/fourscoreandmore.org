@@ -1,0 +1,52 @@
+# Dependabot: one grouped PR per ecosystem, for both scheduled version
+# updates and security updates.
+#
+# Cooldown delays version updates until a release is 2 days old. It doesn't
+# apply to security updates, which are opened as soon as an alert appears.
+version: 2
+
+updates:
+  # Jekyll site
+  - package-ecosystem: bundler
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 2
+    groups:
+      ruby:
+        applies-to: version-updates
+        patterns: ["*"]
+      ruby-security:
+        applies-to: security-updates
+        patterns: ["*"]
+
+  # apps-backend (Pipfile / Pipfile.lock)
+  - package-ecosystem: pip
+    directory: /apps-backend
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 2
+    groups:
+      python:
+        applies-to: version-updates
+        patterns: ["*"]
+      python-security:
+        applies-to: security-updates
+        patterns: ["*"]
+
+  # apps-backend build-time JS (opensheetmusicdisplay, via pnpm)
+  - package-ecosystem: npm
+    directory: /apps-backend
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 2
+    groups:
+      npm:
+        applies-to: version-updates
+        patterns: ["*"]
+      npm-security:
+        applies-to: security-updates
+        patterns: ["*"]
