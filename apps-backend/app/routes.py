@@ -9,6 +9,7 @@ from flask import (
 from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
+from app.roman_text_validator import validate_roman_text
 from werkzeug.utils import safe_join
 import hashlib
 import uuid
@@ -292,6 +293,12 @@ def _working_in_harmony_process(lied, analysis, directory):
         and os.path.exists(os.path.join(directory, "feedback.txt"))
         and os.path.exists(os.path.join(directory, "result.mxl"))
     ):
+        return errors
+
+    try:
+        validate_roman_text(analysis)
+    except ValueError as e:
+        errors.append(str(e))
         return errors
 
     os.makedirs(directory, exist_ok=True)

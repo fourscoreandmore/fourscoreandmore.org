@@ -48,11 +48,14 @@ def test_analysis_produces_feedback_and_score(app, lied, tmp_path):
         assert os.path.getsize(os.path.join(out, filename)) > 0
 
 
-def test_unfilled_template_returns_an_error(app, lied, tmp_path):
-    """music21 9 crashes on RomanText with no chords; the user should get an error, not a 500."""
+def test_unfilled_template_explains_what_to_do(app, lied, tmp_path):
+    """music21 9 crashes on RomanText with no chords; tell the user to fill in the template."""
+    from app.roman_text_validator import NO_ROMAN_NUMERALS
     from app.routes import _working_in_harmony_process
 
+    out = tmp_path / "out"
     with app.app_context():
-        errors = _working_in_harmony_process(lied, TEMPLATE, str(tmp_path / "out"))
+        errors = _working_in_harmony_process(lied, TEMPLATE, str(out))
 
-    assert errors
+    assert errors == [NO_ROMAN_NUMERALS]
+    assert not out.exists()
