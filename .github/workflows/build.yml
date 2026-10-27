@@ -24,6 +24,7 @@ jobs:
         env:
           TOKEN: ${{ github.token }}
         run: |
+          git config --global --add safe.directory "$PWD"
           git init -q .
           git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)" \
             fetch -q --depth 1 "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_SHA"
