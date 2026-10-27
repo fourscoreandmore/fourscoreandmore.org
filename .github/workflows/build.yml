@@ -1,0 +1,38 @@
+# Build the Jekyll site the same way as the Upsun build hook
+# (.platform.app.yaml), so breakages show up on PRs before deploy.
+#
+# The repo only allows local actions, so this avoids marketplace actions
+# (actions/checkout, ruby/setup-ruby) and uses a Ruby container plus git.
+name: Build
+
+on:
+  pull_request:
+  push:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    container: ruby:3.2 # keep in sync with `type` in .platform.app.yaml
+    env:
+      JEKYLL_ENV: production
+    steps:
+      - name: Check out
+        env:
+          TOKEN: ${{ github.token }}
+        run: |
+          git config --global --add safe.directory "$PWD"
+          git init -q .
+          git -c http.extraheader="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$TOKEN" | base64 -w0)" \
+            fetch -q --depth 1 "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_SHA"
+          git checkout -q FETCH_HEAD
+      - name: Install gems
+        run: |
+          gem install bundler -v "$(tail -1 Gemfile.lock | tr -d ' ')"
+          bundle config set path vendor/bundle
+          bundle install
+      - name: Build
+        run: bundle exec jekyll build

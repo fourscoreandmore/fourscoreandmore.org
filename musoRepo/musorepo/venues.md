@@ -4,7 +4,7 @@ title: 'MusoRepo: Venues'
 permalink: /musorepo/venues/
 ---
 
-[← MusoRepo]({{ '/datasets/' | relative_url }})
+[← MusoRepo]({{ '/musoRepo/' | relative_url }})
 
 Journals, conferences and trade fairs relevant to music computing: for reading around the topic and,
 for newcomers, for ideas of where to submit work. “Link rot” is a well-known and persistent problem.
