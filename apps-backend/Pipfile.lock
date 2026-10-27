@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "066c32d6c36c6297e9684bfa598e667963e05e3c3a9133a3e620ac5932a2f3e8"
+            "sha256": "b63b7ad311961b0caa5f3d3059fb6cff27d85da32ed18e6e09687855e7899afe"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -1021,12 +1021,12 @@
         },
         "music21": {
             "hashes": [
-                "sha256:0cf4c67da2062ec164037280580d51ed06b58e84f78afc8d00f088c2bff74f4a",
-                "sha256:486763ad31750fe60035242fb054160a278b9d9bc922406795e887fff6809f0b"
+                "sha256:6256fe202f7eb5d8df0fb4105550727684c4d299ca54f1725ebe4e6f5e549ea0",
+                "sha256:dc3309498c4c95cebdf8d4f20c868deb6b63bce1d929cad4f51a7ccc982987b1"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
-            "version": "==9.3.0"
+            "markers": "python_version >= '3.11'",
+            "version": "==10.5.1"
         },
         "natsort": {
             "hashes": [
@@ -1227,7 +1227,7 @@
                 "sha256:3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd",
                 "sha256:7ebcb3c29a92f3ceafe79a7a48a5c45677e9e004bbeec5742ac0bbb00560b7a2"
             ],
-            "markers": "python_version >= '2.7' and python_version != '3.0' and python_version != '3.1' and python_version != '3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==3.0.0"
         },
         "requests": {
@@ -1243,7 +1243,7 @@
                 "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274",
                 "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"
             ],
-            "markers": "python_version >= '2.7' and python_version != '3.0' and python_version != '3.1' and python_version != '3.2'",
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2'",
             "version": "==1.17.0"
         },
         "tzdata": {
