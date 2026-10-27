@@ -1,0 +1,14 @@
+{%- comment -%}
+  Renders every category of one topic: {% include musorepo/topic.html topic="formats" %}
+  Categories and their order come from _data/musorepo/structure/categories.json.
+{%- endcomment -%}
+{%- assign cats = site.data.musorepo.structure.categories[include.topic] %}
+{%- for c in cats %}
+{%- assign items = site.data.musorepo[include.topic][c.id] %}
+
+<h2 id="{{ c.id }}">{{ c.title }}</h2>
+{%- if c.intro != "" %}
+{{ c.intro | replace: '@@BASE@@', site.baseurl | markdownify }}
+{%- endif %}
+{% include musorepo/entry-list.html items=items %}
+{%- endfor %}

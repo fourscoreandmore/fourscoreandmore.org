@@ -1,0 +1,26 @@
+[
+  {
+    "tier": "music",
+    "title": "Music Computing Journals and Conferences",
+    "latex_label": "sec:venues",
+    "intro": "Music computing journals and conferences to explore further. This sub-list is curated broadly according to the criterion ‘are there clearly musical and computational terms in the title?’, as a proxy for ‘is this primarily about music computing?’. Here ‘musical terms’ include ‘composition’ and similar, as far as ‘audio’ and ‘acoustics’, but not ‘sound’ or ‘signal’ alone."
+  },
+  {
+    "tier": "wider",
+    "title": "Wider Venues",
+    "latex_label": "sec:wider_venues",
+    "intro": "Wider journals and conferences that do not meet the above criterion but are relevant."
+  },
+  {
+    "tier": "trade",
+    "title": "Some Music Industry Trade Fairs",
+    "latex_label": "sec:trade_fairs",
+    "intro": ""
+  },
+  {
+    "tier": "former",
+    "title": "Former URLs",
+    "latex_label": "sec:former_venues",
+    "intro": "These institutions may or may not still be operational, but the URLs are dead and there is not an obvious replacement. There may be proceedings available via third parties, but the URLs are no longer live (and so are not linked here)."
+  }
+]

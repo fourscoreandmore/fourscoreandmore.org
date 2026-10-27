@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MusoRepo entry",
+  "description": "Used for editor validation; scripts/lint.py enforces the same rules plus cross-file checks (duplicates, ordering).",
+  "type": "object",
+  "required": ["id", "name", "url", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id":        {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Stable slug. Never change once published."},
+    "name":      {"type": "string", "description": "Display name. **Bold** marks the keyword phrase used for sorting and short titles."},
+    "url":       {"type": "string", "pattern": "^https://", "description": "Canonical https URL. http:// allowed only with 'http_only': true."},
+    "http_only": {"type": "boolean"},
+    "prev_urls": {"type": "array", "items": {"type": "string"}, "description": "Old URLs, kept so a failing URL can be recovered."},
+    "status":    {"enum": ["active", "offline", "archived"]},
+    "desc":      {"type": "string"},
+    "notes":     {"type": "string"},
+    "tags":      {"type": "array", "items": {"type": "string"}},
+    "access":    {"enum": ["open", "borderline"], "description": "Datasets/software/teaching. 'borderline' requires access_note."},
+    "access_note": {"type": "string"},
+    "license":   {"type": "string"},
+    "formats":   {"type": "array", "items": {"type": "string"}},
+    "todo":      {"type": "string", "description": "Maintainer note; never rendered."},
+    "kind":      {"enum": ["journal", "conference", "society", "series", "trade"], "description": "Venues only."},
+    "tier":      {"enum": ["music", "wider", "trade", "former"], "description": "Venues only."}
+  }
+}

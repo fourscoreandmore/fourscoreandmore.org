@@ -1,0 +1,16 @@
+{%- comment -%}
+  Usage: {% include musorepo/entry-list.html items=site.data.musorepo.datasets.analysis %}
+  Link health comes from _data/musorepo/link_status.json (written by scripts/check_links.py).
+{%- endcomment -%}
+<ul class="entries">
+{%- for e in include.items %}
+  {%- assign st = site.data.musorepo.link_status.urls[e.url] %}
+  <li id="{{ e.id }}">
+    <a href="{{ e.url }}">{{ e.name | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
+    {%- if e.desc %} – {{ e.desc | replace: '@@BASE@@', site.baseurl | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}
+    {%- if e.access == "borderline" %} <em class="borderline">(borderline: {{ e.access_note }})</em>{% endif %}
+    {%- if e.notes %} <span class="note">{{ e.notes }}</span>{% endif %}
+    {%- if st.state == "moved" %} <small>(link redirects; may have moved)</small>{% endif %}
+  </li>
+{%- endfor %}
+</ul>

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "audiocontentanalysis-datasets",
+    "name": "Alexander Lerch: datasets",
+    "url": "https://www.audiocontentanalysis.org/datasets",
+    "status": "active",
+    "desc": "Explicitly audio-focused.",
+    "tags": [
+      "datasets"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "awesome-music",
+    "name": "Awesome Music (noteflakes)",
+    "url": "https://github.com/noteflakes/awesome-music",
+    "status": "active",
+    "desc": "Part of the [Awesome](https://awesome.re) series. Also the place to look for music-making and live-coding software, which MusoRepo does not cover.",
+    "tags": [
+      "general",
+      "software"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "ccarh",
+    "name": "CCARH: Digital Resources for Musicology",
+    "url": "https://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology",
+    "status": "active",
+    "tags": [
+      "general"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "raffel-datasets",
+    "name": "Colin Raffel: MIR datasets",
+    "url": "https://colinraffel.com/wiki/mir_datasets",
+    "status": "active",
+    "notes": "Not maintained.",
+    "tags": [
+      "datasets"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "mcr-wiki",
+    "name": "dharasim: MCR wiki",
+    "url": "https://github.com/dharasim/MCR/wiki",
+    "status": "active",
+    "notes": "Not maintained.",
+    "tags": [
+      "datasets"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "holzmann-datasets",
+    "name": "Georg Holzmann: MIR datasets",
+    "url": "https://grh.mur.at/sites/default/files/mir_datasets_0.html",
+    "status": "active",
+    "notes": "Not maintained.",
+    "tags": [
+      "datasets"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "ismir-centers",
+    "name": "ISMIR: Research centers",
+    "url": "https://www.ismir.net/resources/research-centers/",
+    "status": "active",
+    "desc": "Research groups are listed here rather than on MusoRepo ([source on GitHub](https://github.com/ismir/ismir-home/blob/master/docs/pages/research-centers.md)).",
+    "tags": [
+      "general"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "ismir-resources",
+    "name": "ISMIR: Resources list",
+    "url": "https://www.ismir.net/resources.html",
+    "status": "active",
+    "desc": "Research centers, datasets and more, mostly for audio analysis.",
+    "tags": [
+      "general"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "franke-oa-journals",
+    "name": "Matthew Franke: List of Open-Access Music Journals",
+    "url": "https://matthewfrankemusicology.wordpress.com/list-of-open-access-journals/",
+    "status": "active",
+    "desc": "Overlaps in part with music computing.",
+    "tags": [
+      "venues"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "smt-mig",
+    "name": "SMT: Music Informatics Group",
+    "url": "https://sites.google.com/site/smtmig/",
+    "status": "active",
+    "tags": [
+      "general"
+    ],
+    "access": "borderline",
+    "access_note": "Login required."
+  },
+  {
+    "id": "wiki-scorewriters",
+    "name": "Wikipedia: Comparison of scorewriters",
+    "url": "https://en.wikipedia.org/wiki/Comparison_of_scorewriters",
+    "status": "active",
+    "desc": "Start here to compare notation software, including commercial products (Dorico, Sibelius, …), which MusoRepo does not list.",
+    "tags": [
+      "formats"
+    ],
+    "access": "open"
+  },
+  {
+    "id": "wiki-omr",
+    "name": "Wikipedia: Optical music recognition",
+    "url": "https://en.wikipedia.org/wiki/Optical_music_recognition",
+    "status": "active",
+    "desc": "Compares OMR software, including commercial products.",
+    "tags": [
+      "formats"
+    ],
+    "access": "open"
+  }
+]

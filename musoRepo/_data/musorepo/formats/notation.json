@@ -1,0 +1,110 @@
+[
+  {
+    "id": "abjad",
+    "name": "Abjad",
+    "url": "http://abjad.mbrsi.org/",
+    "status": "active",
+    "desc": "Python API for building LilyPond files.",
+    "access": "open",
+    "todo": "Old URL; confirm the project's current home."
+  },
+  {
+    "id": "denemo",
+    "name": "Denemo",
+    "url": "http://www.denemo.org/",
+    "status": "active",
+    "desc": "Score editor for LilyPond.",
+    "access": "open"
+  },
+  {
+    "id": "frescobaldi",
+    "name": "Frescobaldi",
+    "url": "https://sourceforge.net/projects/frescobaldi.mirror/",
+    "status": "active",
+    "desc": "Editor for LilyPond.",
+    "access": "open",
+    "todo": "Points to a SourceForge mirror; link the project site instead."
+  },
+  {
+    "id": "guido-engine",
+    "name": "GUIDO Engine library",
+    "url": "https://guidolib.sourceforge.net",
+    "status": "active",
+    "desc": "Library for rendering GUIDO and other notation.",
+    "access": "open"
+  },
+  {
+    "id": "gmn",
+    "name": "GUIDO Music Notation (GMN)",
+    "url": "https://guidolib.sourceforge.net/GUIDO/",
+    "status": "active",
+    "desc": "Plain-text music notation format.",
+    "access": "open"
+  },
+  {
+    "id": "hacklily",
+    "name": "Hacklily",
+    "url": "https://www.hacklily.org",
+    "status": "active",
+    "desc": "Online editor for LilyPond.",
+    "access": "open"
+  },
+  {
+    "id": "lilypond",
+    "name": "LilyPond",
+    "url": "https://lilypond.org/",
+    "status": "active",
+    "prev_urls": [
+      "http://lilypond.org/"
+    ],
+    "desc": "Text-based music engraving.",
+    "access": "open"
+  },
+  {
+    "id": "musescore",
+    "name": "MuseScore",
+    "url": "https://musescore.org/",
+    "status": "active",
+    "desc": "Open-source notation software.",
+    "notes": "The musescore.com sharing site is a separate, commercial service.",
+    "access": "open"
+  },
+  {
+    "id": "scorelib",
+    "name": "Scorelib",
+    "url": "http://scorelib.sapp.org/",
+    "status": "active",
+    "desc": "Library for parsing SCORE data files, by Craig Sapp (SCORE itself is abandoned software).",
+    "access": "open"
+  },
+  {
+    "id": "scoring-notes",
+    "name": "Scoring Notes",
+    "url": "https://www.scoringnotes.com/",
+    "status": "active",
+    "desc": "Blog and podcast with news and reviews of notation software, including commercial products.",
+    "access": "open"
+  },
+  {
+    "id": "verovio",
+    "name": "Verovio",
+    "url": "https://www.verovio.org/",
+    "status": "active",
+    "prev_urls": [
+      "http://www.verovio.org"
+    ],
+    "desc": "Fast, portable and lightweight library for engraving Music Encoding Initiative (MEI) scores into SVG.",
+    "access": "open"
+  },
+  {
+    "id": "vexflow",
+    "name": "VexFlow",
+    "url": "https://www.vexflow.com/",
+    "status": "active",
+    "prev_urls": [
+      "http://www.vexflow.com"
+    ],
+    "desc": "JavaScript library for rendering music notation.",
+    "access": "open"
+  }
+]

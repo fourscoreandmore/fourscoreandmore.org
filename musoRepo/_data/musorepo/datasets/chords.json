@@ -1,0 +1,106 @@
+[
+  {
+    "id": "algomus-group-datasets",
+    "name": "Algomus group datasets",
+    "url": "https://algomus.fr/data/",
+    "status": "active",
+    "access": "open",
+    "desc": "fugues, sonatas and more"
+  },
+  {
+    "id": "annotated-jazz-chord-progression-corpus",
+    "name": "Annotated jazz chord progression corpus",
+    "url": "https://jazzparser.granroth-wilding.co.uk/ParserPaper.html",
+    "status": "active",
+    "access": "open",
+    "desc": "Mark Granroth-Wilding and Mark Steedman"
+  },
+  {
+    "id": "billboard-project-ddmal",
+    "name": "Billboard Project (DDMAL)",
+    "url": "https://ddmal.music.mcgill.ca/research/billboard",
+    "status": "active",
+    "access": "open",
+    "desc": "chords, structure, instrumentation, and timing annotations of Billboard chart hits."
+  },
+  {
+    "id": "ewld-enhanced-wikifonia-leadsheet-dataset",
+    "name": "EWLD (Enhanced Wikifonia Leadsheet Dataset)",
+    "url": "https://zenodo.org/record/1476555",
+    "status": "active",
+    "access": "open",
+    "desc": "more than 5,000 leadsheets and rich metadata based on the crowd-sourced Wikifonia corpus, which is no longer online."
+  },
+  {
+    "id": "irb-jazz-corpus",
+    "name": "iRb Jazz Corpus",
+    "url": "https://csml.som.ohio-state.edu/home/index.php/iRb_Jazz_Corpus",
+    "status": "active",
+    "access": "open",
+    "desc": "OSU"
+  },
+  {
+    "id": "isophonics",
+    "name": "Isophonics",
+    "url": "https://www.isophonics.net/datasets",
+    "status": "active",
+    "access": "open",
+    "desc": "data (and software) from the [Centre for Digital Music (‘C4DM’)](https://c4dm.eecs.qmul.ac.uk/) across a range of repertoires and parameters (structure, key, chord, beats)."
+  },
+  {
+    "id": "jazz-audio-aligned-harmony-jaah-dataset",
+    "name": "Jazz Audio-Aligned Harmony (JAAH) Dataset",
+    "url": "https://zenodo.org/record/1290737",
+    "status": "active",
+    "access": "open",
+    "desc": "113 tracks selected from Smithsonian jazz collections. See also [MTG's Open Source Technologies](https://mtg.github.io/JAAH/)"
+  },
+  {
+    "id": "jazzomat-research-project-s-weimar-jazz-database",
+    "name": "Jazzomat Research Project’s ‘Weimar Jazz Database",
+    "url": "https://jazzomat.hfm-weimar.de/dbformat/dbcontent.html",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "peachnote",
+    "name": "Peachnote",
+    "url": "https://www.peachnote.com/datasets.html",
+    "status": "active",
+    "access": "open",
+    "desc": "Ngrams of melodies and chord progressions from IMSLP c.2011."
+  },
+  {
+    "id": "pop-rock-chord-progressions",
+    "name": "Pop/rock chord progressions",
+    "url": "https://rockcorpus.midside.com",
+    "status": "active",
+    "access": "open",
+    "desc": "from deClercq and Temperley 2011"
+  },
+  {
+    "id": "rwc-music-database",
+    "name": "RWC Music Database",
+    "url": "https://staff.aist.go.jp/m.goto/RWC-MDB/",
+    "status": "active",
+    "access": "borderline",
+    "desc": "various repertoires",
+    "access_note": "Free for research use but permission must be requested."
+  },
+  {
+    "id": "temperley-kostka-payne-chords",
+    "name": "Temperley / Kostka-Payne chords",
+    "url": "https://davidtemperley.com/kp-stats/",
+    "status": "active",
+    "access": "open",
+    "desc": "by Temperley, after the textbook by Kostka and Payne. Direct download [here](https://davidtemperley.com/wp-content/uploads/2016/09/kp-corpus-files.zip)"
+  },
+  {
+    "id": "ycac-dataset",
+    "name": "YCAC Dataset",
+    "url": "https://ycac.yale.edu/",
+    "status": "active",
+    "access": "open",
+    "desc": ".csv datasets of pitch 'slices' from the [Classical Archives](https://www.classicalarchives.com/) MIDI corpus"
+  }
+]

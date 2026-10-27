@@ -1,0 +1,7 @@
+# Merge these keys into the site's _config.yml
+exclude:
+  - scripts
+  - schemas
+  - build
+  - docs
+  - link_report.md

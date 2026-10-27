@@ -1,0 +1,50 @@
+[
+  {
+    "id": "beethovens-werkstatt",
+    "name": "Beethovens Werkstatt",
+    "url": "https://beethovens-werkstatt.de",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "dme",
+    "name": "Digitale Mozart-Edition",
+    "url": "https://dme.mozarteum.at",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "edirom",
+    "name": "Edirom",
+    "url": "https://www.edirom.de",
+    "status": "active",
+    "desc": "Digital music edition tools, based on Frans Wiering’s idea of a “multidimensional model” of a musical edition.",
+    "access": "open",
+    "todo": "Old list had no scheme (www.edirom.de); confirm."
+  },
+  {
+    "id": "freischuetz-digital",
+    "name": "Freischütz Digital",
+    "url": "https://www.freischuetz-digital.de",
+    "status": "active",
+    "access": "open",
+    "todo": "Old list had no scheme; confirm."
+  },
+  {
+    "id": "ocve",
+    "name": "Online Chopin Variorum Edition (OCVE)",
+    "url": "https://www.chopinonline.ac.uk/ocve/",
+    "status": "active",
+    "desc": "Collection and comparison of primary-source Chopin scores.",
+    "access": "open",
+    "todo": "Old list had no scheme; confirm."
+  },
+  {
+    "id": "opera",
+    "name": "OPERA",
+    "url": "https://www.opera.adwmainz.de/informationen.html",
+    "status": "active",
+    "access": "open",
+    "todo": "Old list had no scheme; confirm."
+  }
+]

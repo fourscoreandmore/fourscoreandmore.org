@@ -1,0 +1,15 @@
+{%- comment -%} Other people's lists, filtered by tag: {% include musorepo/see-also.html tag="datasets" %} {%- endcomment -%}
+{%- assign shown = 0 %}
+{%- capture body %}
+{%- for l in site.data.musorepo.lists %}{% if l.tags contains include.tag %}
+{%- assign shown = shown | plus: 1 %}
+  <li><a href="{{ l.url }}">{{ l.name }}</a>
+  {%- if l.desc %} – {{ l.desc | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% endif %}
+  {%- if l.access == "borderline" %} <em class="borderline">({{ l.access_note }})</em>{% endif %}
+  {%- if l.notes %} <span class="note">{{ l.notes }}</span>{% endif %}</li>
+{%- endif %}{% endfor %}
+{%- endcapture %}
+{%- if shown > 0 %}
+<h2 id="see-also">See also</h2>
+<ul class="entries">{{ body }}</ul>
+{%- endif %}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "audiveris",
+    "name": "Audiveris",
+    "url": "https://github.com/Audiveris/audiveris/wiki",
+    "status": "active",
+    "desc": "Open-source optical music recognition.",
+    "access": "open"
+  }
+]

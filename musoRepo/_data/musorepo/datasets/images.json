@@ -1,0 +1,57 @@
+[
+  {
+    "id": "digital-image-archive-of-medieval-music-diamm",
+    "name": "Digital Image Archive of Medieval Music (DIAMM)",
+    "url": "https://www.diamm.ac.uk/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "europeana",
+    "name": "Europeana",
+    "url": "https://www.europeana.eu/portal/en",
+    "status": "active",
+    "access": "open",
+    "desc": "includes music"
+  },
+  {
+    "id": "gesualdo-online",
+    "name": "Gesualdo Online",
+    "url": "https://ricercar.gesualdo-online.cesr.univ-tours.fr/",
+    "status": "active",
+    "access": "open",
+    "desc": "MEI sources also available"
+  },
+  {
+    "id": "hathitrust-research-center",
+    "name": "HathiTrust Research Center",
+    "url": "https://www.hathitrust.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "includes music"
+  },
+  {
+    "id": "international-music-score-library-project-imslp",
+    "name": "International Music Score Library Project (IMSLP)",
+    "url": "https://imslp.org",
+    "status": "active",
+    "access": "open",
+    "desc": "some encodings, primarily PDF"
+  },
+  {
+    "id": "measuring-polyphony",
+    "name": "Measuring Polyphony",
+    "url": "https://measuringpolyphony.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "polyphonic, late-medieval music"
+  },
+  {
+    "id": "web-library-of-seventeenth-century-music-wlscm",
+    "name": "Web Library of Seventeenth-Century Music (WLSCM)",
+    "url": "https://www.sscm-wlscm.org",
+    "status": "active",
+    "access": "open",
+    "desc": "Open access, peer-reviewed editions of seventeenth-century music."
+  }
+]

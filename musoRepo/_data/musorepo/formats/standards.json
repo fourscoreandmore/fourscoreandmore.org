@@ -1,0 +1,57 @@
+[
+  {
+    "id": "ieee-1599",
+    "name": "IEEE 1599",
+    "url": "http://ieee1599.lim.di.unimi.it/",
+    "status": "active",
+    "desc": "Multi-layer XML-based format for music.",
+    "access": "open"
+  },
+  {
+    "id": "midi",
+    "name": "MIDI",
+    "url": "https://www.midi.org",
+    "status": "active",
+    "desc": "The MIDI specifications, from the MIDI Association.",
+    "access": "open"
+  },
+  {
+    "id": "mnx",
+    "name": "MNX",
+    "url": "https://w3c.github.io/mnx/specification/",
+    "status": "active",
+    "desc": "Next-generation notation format from the W3C Music Notation Community Group; draft specification.",
+    "access": "open"
+  },
+  {
+    "id": "mei",
+    "name": "Music Encoding Initiative (MEI)",
+    "url": "https://music-encoding.org/",
+    "status": "active",
+    "prev_urls": [
+      "http://music-encoding.org/"
+    ],
+    "desc": "Open-source effort to define a system for encoding musical documents in a machine-readable structure.",
+    "access": "open"
+  },
+  {
+    "id": "musicxml",
+    "name": "MusicXML",
+    "url": "http://www.musicxml.com/",
+    "status": "active",
+    "desc": "The standard open format for exchanging digital sheet music.",
+    "access": "open",
+    "todo": "The specification is now developed by the W3C Music Notation Community Group; consider linking that instead."
+  },
+  {
+    "id": "smufl",
+    "name": "SMuFL (Standard Music Font Layout)",
+    "url": "https://www.smufl.org/",
+    "status": "active",
+    "prev_urls": [
+      "http://www.smufl.org/"
+    ],
+    "desc": "Specification for mapping music symbols to Unicode for use in music fonts.",
+    "access": "open"
+  }
+]

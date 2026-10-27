@@ -1,0 +1,65 @@
+[
+  {
+    "id": "audio-timeliner",
+    "name": "Audio Timeliner",
+    "url": "https://www.singanewsong.org/audiotimeliner/",
+    "status": "active",
+    "desc": "Timeline-style annotation tool.",
+    "access": "open"
+  },
+  {
+    "id": "briformer",
+    "name": "BriFormer",
+    "url": "https://www.brianedwardjarvis.com/MusicTheoryWebApps/BriFormer/briformer.html",
+    "status": "active",
+    "desc": "Timeline-style annotation tool.",
+    "access": "open"
+  },
+  {
+    "id": "dezrann",
+    "name": "Dezrann",
+    "url": "https://www.dezrann.net/",
+    "status": "active",
+    "desc": "Web platform for visualising and annotating music.",
+    "access": "open"
+  },
+  {
+    "id": "diva",
+    "name": "Diva.js",
+    "url": "https://ddmal.github.io/diva.js/",
+    "status": "active",
+    "desc": "Open-source viewer for high-resolution document images; used for scores as images.",
+    "access": "open"
+  },
+  {
+    "id": "music-connection-machine",
+    "name": "Music Connection Machine",
+    "url": "https://www.musicconnectionmachine.org/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "peachnote-apps",
+    "name": "Peachnote apps",
+    "url": "https://www.peachnote.de/",
+    "status": "active",
+    "desc": "Includes [Tuttitempi](https://tuttitempi.com/): score-aligned visualisation of the tempi used in multiple recordings.",
+    "access": "open"
+  },
+  {
+    "id": "pianoplayer",
+    "name": "pianoplayer",
+    "url": "https://github.com/marcomusy/pianoplayer",
+    "status": "active",
+    "desc": "Automatic fingering for any XML score.",
+    "access": "open"
+  },
+  {
+    "id": "tilia",
+    "name": "TiLiA",
+    "url": "https://tilia-ad98d.web.app/",
+    "status": "active",
+    "desc": "Timeline-style annotation tool.",
+    "access": "open"
+  }
+]

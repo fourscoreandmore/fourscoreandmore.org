@@ -1,0 +1,103 @@
+[
+  {
+    "id": "choral-public-domain-library-cpdl",
+    "name": "Choral Public Domain Library (CPDL)",
+    "url": "https://www.cpdl.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "vocal music in a range of formats"
+  },
+  {
+    "id": "elvis",
+    "name": "ELVIS",
+    "url": "https://database.elvisproject.ca/",
+    "status": "active",
+    "access": "open",
+    "desc": "metacorpus, various formats."
+  },
+  {
+    "id": "jrp",
+    "name": "JRP",
+    "url": "https://josquin.stanford.edu/",
+    "status": "active",
+    "access": "open",
+    "desc": "krn format. Works by Josquin and contemporaries."
+  },
+  {
+    "id": "kern-scores",
+    "name": "Kern Scores",
+    "url": "https://kern.ccarh.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "krn format."
+  },
+  {
+    "id": "musedata",
+    "name": "MuseData",
+    "url": "https://www.musedata.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "MuseData format, mostly Baroque and Classical music."
+  },
+  {
+    "id": "music21-corpus",
+    "name": "music21 Corpus",
+    "url": "https://web.mit.edu/music21/doc/about/referenceCorpus.html",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "mutopia",
+    "name": "Mutopia",
+    "url": "https://www.mutopiaproject.org",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "neuma",
+    "name": "Neuma",
+    "url": "https://neuma.huma-num.fr/",
+    "status": "active",
+    "access": "open",
+    "desc": "metacorpus, various formats."
+  },
+  {
+    "id": "nottingham-dataset-cleaned-version",
+    "name": "Nottingham dataset, cleaned version",
+    "url": "https://github.com/jukedeck/nottingham-dataset",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "openscore-lieder",
+    "name": "OpenScore Lieder",
+    "url": "https://github.com/OpenScore/Lieder",
+    "status": "active",
+    "access": "open",
+    "desc": "~1,300 songs, also on [musescore.com](https://musescore.com/openscore-lieder-corpus). Includes most of the earlier LvH French and German song corpora."
+  },
+  {
+    "id": "openscore-string-quartets",
+    "name": "OpenScore String Quartets",
+    "url": "https://github.com/OpenScore/StringQuartets/",
+    "status": "active",
+    "access": "open",
+    "desc": "~100 (multi-movement) quartets, also on [musescore.com](https://musescore.com/openscore-string-quartets)."
+  },
+  {
+    "id": "public-domain-song-anthology",
+    "name": "Public Domain Song Anthology",
+    "url": "https://aperio.press/site/books/10.32881/book2/",
+    "status": "active",
+    "access": "open",
+    "desc": "a book of leadsheets in several formats."
+  },
+  {
+    "id": "tasso-in-music-project",
+    "name": "Tasso in Music Project",
+    "url": "https://www.tassomusic.org/",
+    "status": "active",
+    "access": "open",
+    "desc": "Digital Edition of the [Musical] Settings of Torquato Tasso's Poetry."
+  }
+]

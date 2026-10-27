@@ -1,0 +1,17 @@
+[
+  {
+    "id": "mei-pedagogy",
+    "name": "MEI pedagogy resources",
+    "url": "https://music-encoding.org/resources/pedagogy.html",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "music21-guide",
+    "name": "music21 User’s Guide",
+    "url": "https://web.mit.edu/music21/doc/usersGuide/index.html",
+    "status": "active",
+    "desc": "Serves partly and incidentally to teach symbolic-music content.",
+    "access": "open"
+  }
+]

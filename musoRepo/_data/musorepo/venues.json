@@ -1,0 +1,514 @@
+[
+  {
+    "id": "aimc",
+    "name": "**AI Music** Creativity (AIMC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://2022.aimusiccreativity.org",
+    "status": "active"
+  },
+  {
+    "id": "jaes",
+    "name": "Journal of the **Audio Engineering** Society",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://aes.org/publications/journal/",
+    "prev_urls": [
+      "http://www.aes.org/journal/"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "eurasip-asmp",
+    "name": "EURASIP Journal on **Audio, Speech, and Music** Processing",
+    "kind": "journal",
+    "tier": "music",
+    "url": "http://asmp.eurasipjournals.com/",
+    "status": "active",
+    "todo": "check - not able to confirm Aug 2026"
+  },
+  {
+    "id": "escom",
+    "name": "European Society for the **Cognitive Sciences of Music** (ESCOM)",
+    "kind": "society",
+    "tier": "music",
+    "url": "https://www.escomsociety.org/",
+    "status": "active"
+  },
+  {
+    "id": "icccm",
+    "name": "International Conference on **Computational and Cognitive Musicology** (ICCCM)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://digital.musicology.org/",
+    "status": "active",
+    "notes": "From the IMS Study Group “Digital Musicology”."
+  },
+  {
+    "id": "evomusart",
+    "name": "International Conference on **Computational Intelligence in Music, Sound, Art, and Design** (EvoMUSART)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://www.evostar.org/2026/evomusart/",
+    "status": "active",
+    "todo": "Confirm series URL vs springer.com/conference/evomusart"
+  },
+  {
+    "id": "cmj",
+    "name": "**Computer Music** Journal (CMJ)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://direct.mit.edu/comj",
+    "prev_urls": [
+      "https://www.mitpressjournals.org/loi/comj",
+      "http://www.mitpressjournals.org/cmj"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "acmc",
+    "name": "Australasian **Computer Music** Conference (ACMC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://computermusic.org.au/conferences/",
+    "status": "active"
+  },
+  {
+    "id": "icmc",
+    "name": "International **Computer Music** Conference (ICMC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.computermusic.org/",
+    "status": "active"
+  },
+  {
+    "id": "cmmr",
+    "name": "International Symposium on **Computer Music** Multidisciplinary Research (CMMR)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.cmmr2020.gttm.jp/",
+    "status": "active"
+  },
+  {
+    "id": "jcms",
+    "name": "Journal of **Creative Music Systems** (JCMS)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://www.jcms.org.uk/",
+    "status": "active"
+  },
+  {
+    "id": "dafx",
+    "name": "International Conference on **Digital Audio Effects** (DAFX)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.dafx.de/",
+    "status": "active"
+  },
+  {
+    "id": "dlfm",
+    "name": "**Digital Libraries for Musicology** (DLfM)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://dlfm.web.ox.ac.uk",
+    "status": "active"
+  },
+  {
+    "id": "dmrn",
+    "name": "**Digital Music Research** Network",
+    "kind": "society",
+    "tier": "music",
+    "url": "https://www.qmul.ac.uk/dmrn/",
+    "status": "active"
+  },
+  {
+    "id": "ems",
+    "name": "**Electroacoustic Music** Studies (EMS) Network Conference",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.ems-network.org/",
+    "status": "active"
+  },
+  {
+    "id": "emr",
+    "name": "**Empirical Musicology** Review (EMR)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "http://emusicology.org/",
+    "status": "active"
+  },
+  {
+    "id": "jims",
+    "name": "Journal of **Interdisciplinary Music** Studies (JIMS)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "http://musicstudies.org",
+    "status": "active"
+  },
+  {
+    "id": "cim",
+    "name": "Conference on **Interdisciplinary Musicology** (CIM)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.idmusicology.com/cim/index2.htm",
+    "status": "active"
+  },
+  {
+    "id": "nime",
+    "name": "International Conference on New **Interfaces for Musical Expression** (NIME)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.nime.org/",
+    "status": "active"
+  },
+  {
+    "id": "lmj",
+    "name": "**Leonardo** Music Journal",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://leonardo.info/leonardo-music-journal",
+    "status": "active"
+  },
+  {
+    "id": "lac",
+    "name": "**Linux Audio** Conference (LAC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://linuxaudio.org/",
+    "status": "active"
+  },
+  {
+    "id": "iclc",
+    "name": "International Conference on **Live Coding** (ICLC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://iclc.livecodenetwork.org/",
+    "status": "active"
+  },
+  {
+    "id": "mcm",
+    "name": "International Conference on **Mathematics and Computation in Music** (MCM)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.smcm-net.info/",
+    "status": "active"
+  },
+  {
+    "id": "jmm",
+    "name": "Journal of **Mathematics and Music** (JMAM)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://www.tandfonline.com/toc/tmam20/current",
+    "status": "active"
+  },
+  {
+    "id": "acm-tomm",
+    "name": "ACM Transactions on **Multimedia Computing**, Communications, and Applications",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://dl.acm.org/journal/tomm",
+    "status": "active"
+  },
+  {
+    "id": "icmr",
+    "name": "ACM International Conference on **Multimedia Retrieval** (ICMR)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.sigmm.org/view_conference",
+    "status": "active"
+  },
+  {
+    "id": "music-and-data",
+    "name": "**Music and Data**",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://online.ucpress.edu/mad",
+    "status": "active"
+  },
+  {
+    "id": "music-and-science",
+    "name": "**Music and Science**",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://journals.sagepub.com/home/mns",
+    "status": "active"
+  },
+  {
+    "id": "mec",
+    "name": "**Music Encoding** Conference (MEC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://music-encoding.org/conference/",
+    "status": "active"
+  },
+  {
+    "id": "ismir",
+    "name": "International Society for **Music Information Retrieval** Conference (ISMIR)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.ismir.net/",
+    "status": "active"
+  },
+  {
+    "id": "mirex",
+    "name": "**Music Information Retrieval** EXchange (MIREX)",
+    "kind": "series",
+    "tier": "music",
+    "url": "https://www.music-ir.org/mirex/wiki/MIREX_HOME",
+    "status": "active"
+  },
+  {
+    "id": "tismir",
+    "name": "Transactions of the International Society for **Music Information Retrieval** (TISMIR)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://transactions.ismir.net",
+    "prev_urls": [
+      "http://tismir.ismir.net/"
+    ],
+    "status": "active"
+  },
+  {
+    "id": "iaml",
+    "name": "International Association of **Music Libraries, Archives and Documentation Centres** (IAML)",
+    "kind": "society",
+    "tier": "music",
+    "url": "http://www.iaml.info/",
+    "status": "active"
+  },
+  {
+    "id": "music-perception",
+    "name": "**Music Perception**",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://online.ucpress.edu/mp",
+    "status": "active"
+  },
+  {
+    "id": "icmpc",
+    "name": "International Conference of **Music Perception and Cognition** (ICMPC)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://www.icmpc.org/",
+    "status": "active"
+  },
+  {
+    "id": "musicae-scientiae",
+    "name": "**Musicae Scientiae**",
+    "kind": "journal",
+    "tier": "music",
+    "url": "http://msx.sagepub.com/",
+    "status": "active"
+  },
+  {
+    "id": "mume",
+    "name": "International Workshop on **Musical Metacreation** (MUME)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://musicalmetacreation.org/",
+    "status": "active"
+  },
+  {
+    "id": "jnmr",
+    "name": "Journal of **New Music Research** (JNMR)",
+    "kind": "journal",
+    "tier": "music",
+    "url": "http://www.tandfonline.com/toc/nnmr20/current",
+    "status": "active"
+  },
+  {
+    "id": "organised-sound",
+    "name": "**Organised Sound**",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://www.cambridge.org/core/journals/organised-sound",
+    "status": "active"
+  },
+  {
+    "id": "psychomusicology",
+    "name": "**Psychomusicology**: Music, Mind, and Brain",
+    "kind": "journal",
+    "tier": "music",
+    "url": "https://www.apa.org/pubs/journals/pmu",
+    "status": "active"
+  },
+  {
+    "id": "smc",
+    "name": "**Sound and Music Computing** (SMC) Conference of the SMC Network",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://smcnetwork.org/",
+    "status": "active"
+  },
+  {
+    "id": "nordicsmc",
+    "name": "The Nordic **Sound and Music Computing** Network (NordicSMC) conferences",
+    "kind": "conference",
+    "tier": "music",
+    "url": "https://nordicsmc.create.aau.dk/",
+    "status": "active"
+  },
+  {
+    "id": "tenor",
+    "name": "International Conference on **Technologies for Music Notation and Representation** (TENOR)",
+    "kind": "conference",
+    "tier": "music",
+    "url": "http://www.tenor-conference.org/",
+    "status": "active"
+  },
+  {
+    "id": "asa-meetings",
+    "name": "Meetings of the **Acoustical Society** of America",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://acousticalsociety.org/meetings",
+    "status": "active"
+  },
+  {
+    "id": "jasa",
+    "name": "Journal of the **Acoustical Society** of America",
+    "kind": "journal",
+    "tier": "wider",
+    "url": "http://asadl.org/jasa/",
+    "status": "active"
+  },
+  {
+    "id": "icassp",
+    "name": "IEEE International Conference on **Acoustics, Speech, and Signal Processing** (ICASSP)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.signalprocessingsociety.org/technical-committees/list/audio-tc/conferences-and-workshops/",
+    "status": "active"
+  },
+  {
+    "id": "acta-acustica",
+    "name": "Acta **Acustica**",
+    "kind": "journal",
+    "tier": "wider",
+    "url": "https://acta-acustica.edpsciences.org/",
+    "status": "active"
+  },
+  {
+    "id": "waspaa",
+    "name": "IEEE Workshop on **Applications of Signal Processing to Audio and Acoustics** (WASPAA)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.signalprocessingsociety.org/technical-committees/list/audio-tc/conferences-and-workshops/",
+    "status": "active"
+  },
+  {
+    "id": "aes-conferences",
+    "name": "**Audio Engineering** Society (AES) International Conferences",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.aes.org/events/conferences/",
+    "status": "active"
+  },
+  {
+    "id": "aes-conventions",
+    "name": "**Audio Engineering** Society (AES) Conventions",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.aes.org/events/conventions/",
+    "status": "active"
+  },
+  {
+    "id": "ieee-taslp",
+    "name": "IEEE Transactions on **Audio, Speech and Language Processing**",
+    "kind": "journal",
+    "tier": "wider",
+    "url": "https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing",
+    "status": "active"
+  },
+  {
+    "id": "icad",
+    "name": "International Conference on **Auditory Display** (ICAD)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "https://www.icad.org/conferences",
+    "status": "active"
+  },
+  {
+    "id": "sigir",
+    "name": "ACM Special Interest Group on **Information Retrieval** (SIGIR)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.sigir.org/",
+    "status": "active"
+  },
+  {
+    "id": "mmsp",
+    "name": "IEEE International Workshop on **Multimedia Signal Processing** (MMSP)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "http://www.signalprocessingsociety.org/technical-committees/list/mmsp-tc/conferences-workshops/",
+    "status": "active"
+  },
+  {
+    "id": "recsys",
+    "name": "ACM Conference on **Recommender Systems**",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "https://recsys.acm.org/",
+    "status": "active"
+  },
+  {
+    "id": "eusipco",
+    "name": "European **Signal Processing** Conference (EUSIPCO)",
+    "kind": "conference",
+    "tier": "wider",
+    "url": "https://eurasip.org/eusipco-conferences/",
+    "status": "active"
+  },
+  {
+    "id": "ai-music-tech",
+    "name": "**AI Music Tech** Tradeshow and Conference",
+    "kind": "trade",
+    "tier": "trade",
+    "url": "https://themusictechconference.com/",
+    "status": "active",
+    "notes": "Formerly known as the Music Tech Conference."
+  },
+  {
+    "id": "namm",
+    "name": "National Association of **Music Merchants** (NAMM)",
+    "kind": "trade",
+    "tier": "trade",
+    "url": "https://www.namm.org/",
+    "status": "active"
+  },
+  {
+    "id": "musikmesse",
+    "name": "**Musikmesse**",
+    "kind": "trade",
+    "tier": "trade",
+    "url": "https://music-china.hk.messefrankfurt.com/",
+    "status": "active",
+    "notes": "No longer held in Frankfurt, Germany; now hosted in Shanghai, China (Music China)."
+  },
+  {
+    "id": "superbooth",
+    "name": "**SUPER BOOTH**",
+    "kind": "trade",
+    "tier": "trade",
+    "url": "https://www.superbooth.com/",
+    "status": "active",
+    "notes": "Trade fair and festival for electronic musical instruments, FEZ-Berlin."
+  },
+  {
+    "id": "atmm",
+    "name": "**Audio Technologies** for Music and Media (ATMM)",
+    "kind": "conference",
+    "tier": "former",
+    "url": "http://atmm.org/",
+    "status": "offline"
+  },
+  {
+    "id": "ijcc",
+    "name": "International Journal of **Contemporary Composition**",
+    "kind": "journal",
+    "tier": "former",
+    "url": "http://www.ijournalcc.com/",
+    "status": "offline"
+  }
+]

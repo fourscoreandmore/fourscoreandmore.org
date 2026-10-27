@@ -1,0 +1,47 @@
+[
+  {
+    "id": "band-in-a-box-jazz-standards",
+    "name": "Band-in-a-Box Jazz standards",
+    "url": "https://bhs.minor9.com/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "bitmidi",
+    "name": "BitMidi",
+    "url": "https://bitmidi.com/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "classical-archives",
+    "name": "Classical Archives",
+    "url": "https://www.classicalarchives.com/",
+    "status": "active",
+    "access": "borderline",
+    "access_note": "Large commercial site; crowd-sourced MIDI free to browse, with restrictions on download at scale."
+  },
+  {
+    "id": "kunst-der-fuge",
+    "name": "Kunst der Fuge",
+    "url": "https://www.kunstderfuge.com/",
+    "status": "active",
+    "access": "borderline",
+    "access_note": "Crowd-sourced MIDI free to browse, with restrictions on download at scale."
+  },
+  {
+    "id": "lakh-midi-dataset",
+    "name": "Lakh MIDI Dataset",
+    "url": "https://colinraffel.com/projects/lmd/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "maestro-midi-and-audio-edited-for-synchronous-tracks-and-organization",
+    "name": "MAESTRO (MIDI and Audio Edited for Synchronous TRacks and Organization)",
+    "url": "https://magenta.tensorflow.org/datasets/maestro",
+    "status": "active",
+    "access": "open",
+    "desc": "piano performances with fine alignment between note labels and audio waveforms."
+  }
+]

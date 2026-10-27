@@ -1,0 +1,20 @@
+{%- comment -%}
+  Renders all venue tiers. Order within a tier is the file order (enforced by scripts/lint.py).
+{%- endcomment -%}
+{%- for t in site.data.musorepo.structure.venue_tiers %}
+{%- assign items = site.data.musorepo.venues | where: "tier", t.tier %}
+<h2 id="{{ t.tier }}">{{ t.title }}</h2>
+{%- if t.intro != "" %}{{ t.intro | markdownify }}{% endif %}
+<ul class="entries">
+{%- for v in items %}
+  <li id="{{ v.id }}">
+  {%- if v.status == "offline" %}
+    {{ v.name | markdownify | remove: '<p>' | remove: '</p>' | strip }} <code>{{ v.url }}</code>
+  {%- else %}
+    <a href="{{ v.url }}">{{ v.name | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>
+  {%- endif %}
+  {%- if v.notes %} – {{ v.notes }}{% endif %}
+  </li>
+{%- endfor %}
+</ul>
+{%- endfor %}

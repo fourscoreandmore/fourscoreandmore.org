@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bnf",
+    "name": "Bibliothèque nationale de France (BnF)",
+    "url": "https://catalogue.bnf.fr/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "dnb",
+    "name": "Deutsche Nationalbibliothek (DNB)",
+    "url": "https://d-nb.info/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "loc",
+    "name": "Library of Congress Linked Data Service",
+    "url": "https://id.loc.gov/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "ndl-japan",
+    "name": "National Diet Library, Japan",
+    "url": "https://www.ndl.go.jp/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "ndl-india",
+    "name": "National Digital Library of India",
+    "url": "https://ndl.iitkgp.ac.in/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "openlibrary",
+    "name": "Open Library",
+    "url": "https://openlibrary.org/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "snac",
+    "name": "Social Networks and Archival Context (SNAC)",
+    "url": "http://snaccooperative.org/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "trove",
+    "name": "Trove (National Library of Australia)",
+    "url": "https://nla.gov.au/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "viaf",
+    "name": "Virtual International Authority File (VIAF)",
+    "url": "https://viaf.org/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "worldcat",
+    "name": "WorldCat",
+    "url": "https://www.worldcat.org/",
+    "status": "active",
+    "access": "open"
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "humdrum",
+    "name": "Humdrum",
+    "url": "https://www.humdrum.org/",
+    "status": "active",
+    "desc": "Toolkit for music analysis, built around the **kern format and related encodings.",
+    "access": "open"
+  },
+  {
+    "id": "jfugue",
+    "name": "JFugue",
+    "url": "https://www.jfugue.org/",
+    "status": "active",
+    "desc": "Java/JVM library for writing programs that create and manipulate music.",
+    "access": "open"
+  },
+  {
+    "id": "midifile",
+    "name": "Midifile",
+    "url": "https://midifile.sapp.org/",
+    "status": "active",
+    "desc": "Library for parsing Standard MIDI Files, by [Craig Sapp](https://ccrma.stanford.edu/~craig/).",
+    "access": "open"
+  },
+  {
+    "id": "mido",
+    "name": "Mido",
+    "url": "https://github.com/mido/mido",
+    "status": "active",
+    "desc": "Python library for working with MIDI messages and files.",
+    "access": "open",
+    "todo": "New in this revision (not in the old list): confirm before publishing."
+  },
+  {
+    "id": "music21j",
+    "name": "music21 (JavaScript)",
+    "url": "https://web.mit.edu/music21/music21j/doc/index.html",
+    "status": "active",
+    "desc": "JavaScript port of music21.",
+    "access": "open"
+  },
+  {
+    "id": "music21",
+    "name": "music21 (Python)",
+    "url": "https://web.mit.edu/music21/",
+    "status": "active",
+    "desc": "Python toolkit for computer-aided musicology. Reads and writes many formats beyond the standards listed on the [Formats page](@@BASE@@/musorepo/formats/), including ABC, Capella, Humdrum, MuseData, Noteworthy, Scala, TinyNotation (native to music21) and Volpiano.",
+    "access": "open"
+  },
+  {
+    "id": "partitura",
+    "name": "partitura",
+    "url": "https://github.com/CPJKU/partitura",
+    "status": "active",
+    "desc": "Python package for handling symbolic musical information (scores and performances).",
+    "access": "open",
+    "todo": "New in this revision (not in the old list): confirm before publishing."
+  },
+  {
+    "id": "pretty-midi",
+    "name": "pretty_midi",
+    "url": "https://github.com/craffel/pretty-midi",
+    "status": "active",
+    "desc": "Python library for manipulating and analysing MIDI data.",
+    "access": "open",
+    "todo": "New in this revision (not in the old list): confirm before publishing."
+  }
+]

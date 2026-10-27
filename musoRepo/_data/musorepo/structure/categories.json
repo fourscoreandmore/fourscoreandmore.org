@@ -1,0 +1,92 @@
+{
+  "datasets": [
+    {
+      "id": "analysis",
+      "title": "Analyses",
+      "intro": "Annotated analyses (harmony, form, voice leading, …) aligned to scores."
+    },
+    {
+      "id": "chords",
+      "title": "Chord progressions, lead sheets and related",
+      "intro": "Harmonic and lead-sheet datasets, many audio-aligned."
+    },
+    {
+      "id": "scores",
+      "title": "Encoded scores",
+      "intro": "Symbolic scores in machine-readable formats."
+    },
+    {
+      "id": "midi",
+      "title": "MIDI",
+      "intro": "Performance and sequenced MIDI collections."
+    },
+    {
+      "id": "images",
+      "title": "Scores as images (not encoded)",
+      "intro": "Digitised sources; some also offer encodings."
+    }
+  ],
+  "formats": [
+    {
+      "id": "standards",
+      "title": "Standard formats",
+      "intro": "Open formats for encoding, exchanging and displaying music notation."
+    },
+    {
+      "id": "notation",
+      "title": "Notation and engraving (open source)",
+      "intro": "Open-source notation software and libraries. For commercial scorewriters see the comparison linked under *See also*."
+    },
+    {
+      "id": "omr",
+      "title": "Optical music recognition (OMR)",
+      "intro": ""
+    }
+  ],
+  "software": [
+    {
+      "id": "parsing",
+      "title": "Analysis, parsing and manipulation of scores",
+      "intro": ""
+    },
+    {
+      "id": "visualisation",
+      "title": "Visualisation and annotation",
+      "intro": ""
+    },
+    {
+      "id": "editions",
+      "title": "Digital editions",
+      "intro": "Projects and tools for digital music editions."
+    }
+  ],
+  "metadata": [
+    {
+      "id": "catalogues",
+      "title": "Music catalogues and linked data",
+      "intro": "Sources of metadata and linked open data relevant to music. Metadata and linked data also feature heavily at [DLfM](@@BASE@@/musorepo/venues/#dlfm)."
+    },
+    {
+      "id": "libraries",
+      "title": "Libraries and authority files",
+      "intro": "Not music-specific, but widely used for music metadata."
+    }
+  ],
+  "teaching": [
+    {
+      "id": "textbooks",
+      "title": "Audio and signal-processing textbooks",
+      "intro": "Two notable releases from protagonists of the ISMIR community."
+    },
+    {
+      "id": "theory",
+      "title": "Music theory, fundamentals and aural skills",
+      "intro": "Free and open resources."
+    },
+    {
+      "id": "guides",
+      "title": "Guides to symbolic-music tools",
+      "intro": ""
+    }
+  ]
+}

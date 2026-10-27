@@ -1,0 +1,58 @@
+[
+  {
+    "id": "annotated-beethoven-corpus",
+    "name": "Annotated Beethoven Corpus",
+    "url": "https://github.com/DCMLab/ABC",
+    "status": "active",
+    "access": "open",
+    "desc": "Harmonic analysis of the Beethoven String Quartets."
+  },
+  {
+    "id": "beethoven-piano-sonata-with-functional-harmony-dataset-bps-fh",
+    "name": "Beethoven Piano Sonata with Functional Harmony dataset (BPS-FH)",
+    "url": "https://github.com/Tsung-Ping/functional-harmony",
+    "status": "active",
+    "access": "open",
+    "desc": "harmonic and formal analyses of the first movements of Beethoven Piano Sonatas."
+  },
+  {
+    "id": "gttm",
+    "name": "GTTM",
+    "url": "https://gttm.jp/gttm/",
+    "status": "active",
+    "access": "open",
+    "desc": "Masatoshi Hamanaka's XML markups of musical examples from (and using the tree structure representation of) A Generative Theory of Tonal Music (Lerdahl and Jackendoff 1983)."
+  },
+  {
+    "id": "machine-readable-schenkerian-analyses",
+    "name": "Machine-readable Schenkerian analyses",
+    "url": "https://www.cs.rhodes.edu/~kirlinp/diss.html",
+    "status": "active",
+    "access": "open",
+    "desc": "."
+  },
+  {
+    "id": "taking-form",
+    "name": "Taking-Form",
+    "url": "https://github.com/MarkGotham/Taking-Form",
+    "status": "active",
+    "access": "open",
+    "desc": "formal analysis of c.150 Mozart and Beethoven movements along with conversion code."
+  },
+  {
+    "id": "tavern",
+    "name": "TAVERN",
+    "url": "https://u.osu.edu/tavern/",
+    "status": "active",
+    "access": "open",
+    "desc": "Theme And Variation Encodings with Roman Numerals. 27 sets of variations by Mozart and Beethoven."
+  },
+  {
+    "id": "when-in-rome",
+    "name": "When in Rome",
+    "url": "https://github.com/MarkGotham/When-in-Rome",
+    "status": "active",
+    "access": "open",
+    "desc": "a collection of harmonic analysis datasets in the 'Roman Text' format combining new corpora with conversions of all existing ones (ABC, BPS-FH, and TAVERN as above)."
+  }
+]

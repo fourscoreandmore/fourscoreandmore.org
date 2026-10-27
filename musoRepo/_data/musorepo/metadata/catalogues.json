@@ -1,0 +1,58 @@
+[
+  {
+    "id": "dahr",
+    "name": "Discography of American Historical Recordings (DAHR)",
+    "url": "https://adp.library.ucsb.edu/",
+    "status": "active",
+    "access": "open"
+  },
+  {
+    "id": "discogs",
+    "name": "Discogs",
+    "url": "https://www.discogs.com/",
+    "status": "active",
+    "access": "borderline",
+    "access_note": "Monthly data dumps are openly licensed; the website and API have their own terms.",
+    "todo": "Confirm current dump licence wording."
+  },
+  {
+    "id": "music-ontology",
+    "name": "Music Ontology",
+    "url": "http://musicontology.com/",
+    "status": "active",
+    "desc": "Ontology and data for music on the Semantic Web.",
+    "access": "open"
+  },
+  {
+    "id": "musicbrainz",
+    "name": "MusicBrainz",
+    "url": "https://musicbrainz.org/",
+    "status": "active",
+    "desc": "Open music encyclopedia and linked-data source.",
+    "access": "open"
+  },
+  {
+    "id": "muziekweb",
+    "name": "Muziekweb",
+    "url": "https://www.muziekweb.nl/",
+    "status": "active",
+    "desc": "Music library of the Netherlands.",
+    "access": "open"
+  },
+  {
+    "id": "rism",
+    "name": "RISM (Répertoire International des Sources Musicales)",
+    "url": "https://rism.online/",
+    "status": "active",
+    "desc": "Catalogue of musical sources (manuscripts and prints).",
+    "access": "open",
+    "todo": "New in this revision (not in the old list): confirm before publishing."
+  },
+  {
+    "id": "wikidata",
+    "name": "Wikidata",
+    "url": "https://www.wikidata.org/",
+    "status": "active",
+    "access": "open"
+  }
+]

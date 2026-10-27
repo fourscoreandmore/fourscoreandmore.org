@@ -1,0 +1,30 @@
+[
+  {
+    "id": "lerch",
+    "name": "Alexander Lerch: An Introduction to Audio Content Analysis",
+    "url": "https://www.audiocontentanalysis.org/",
+    "status": "active",
+    "prev_urls": [
+      "https://www.audiocontentanalysis.org/datasets"
+    ],
+    "access": "borderline",
+    "access_note": "The book is not free; the companion website is."
+  },
+  {
+    "id": "fmp-notebooks",
+    "name": "FMP Notebooks",
+    "url": "https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html",
+    "status": "active",
+    "desc": "Python notebooks for *Fundamentals of Music Processing*.",
+    "access": "open"
+  },
+  {
+    "id": "mueller-fmp",
+    "name": "Meinard Müller: Fundamentals of Music Processing",
+    "url": "https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP",
+    "status": "active",
+    "desc": "Springer, 2015/2021. Overview and links.",
+    "access": "borderline",
+    "access_note": "The book is not free; the companion materials are."
+  }
+]

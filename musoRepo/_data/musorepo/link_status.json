@@ -1,0 +1,1367 @@
+{
+ "_meta": {
+  "last_run": "2026-10-27",
+  "checked": 186
+ },
+ "urls": {
+  "http://abjad.mbrsi.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "http://acousticalsociety.org/meetings": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "http://asadl.org/jasa/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "http://asmp.eurasipjournals.com/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://link.springer.com/journal/13636?error=cookies_not_supported&code=41e0c0d8-bb74-4b4e-94dc-e78834c9c1c5"
+  },
+  "http://atmm.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://emusicology.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://guidolib.sourceforge.net": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://guidolib.sourceforge.io/"
+  },
+  "http://guidolib.sourceforge.net/GUIDO/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://guidolib.sourceforge.io/GUIDO/"
+  },
+  "http://ieee1599.lim.di.unimi.it/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://msx.sagepub.com/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "http://music-encoding.org/conference/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://musicalmetacreation.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 51] Network is unreachable"
+  },
+  "http://musicontology.com/": {
+   "state": "error",
+   "code": 503,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "http://musicstudies.org": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://www.togel808hoki.com/"
+  },
+  "http://scorelib.sapp.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://snaccooperative.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.aes.org/events/conferences/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "http://www.aes.org/events/conventions/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "http://www.cmmr2020.gttm.jp/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://www.cmmr2021.gttm.jp/"
+  },
+  "http://www.computermusic.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.dafx.de/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.denemo.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.ems-network.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.iaml.info/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.idmusicology.com/cim/index2.htm": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "http://www.ijournalcc.com/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "http://www.ismir.net/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.musicxml.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.nime.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.sigir.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.sigmm.org/view_conference": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.signalprocessingsociety.org/technical-committees/list/audio-tc/conferences-and-workshops/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "http://www.signalprocessingsociety.org/technical-committees/list/mmsp-tc/conferences-workshops/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "http://www.smcm-net.info/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "http://www.tandfonline.com/toc/nnmr20/current": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "http://www.tenor-conference.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://2022.aimusiccreativity.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://acta-acustica.edpsciences.org/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://adp.library.ucsb.edu/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://aes.org/publications/journal/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://algomus.fr/data/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://aperio.press/site/books/10.32881/book2/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://beethovens-werkstatt.de": {
+   "state": "error",
+   "code": 503,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 503"
+  },
+  "https://bhs.minor9.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://bitmidi.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://catalogue.bnf.fr/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://colinraffel.com/projects/lmd/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://colinraffel.com/wiki/mir_datasets": {
+   "state": "error",
+   "code": 500,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 500"
+  },
+  "https://computermusic.org.au/conferences/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://csml.som.ohio-state.edu/home/index.php/iRb_Jazz_Corpus": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "https://d-nb.info/": {
+   "state": "blocked",
+   "code": 429,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 429"
+  },
+  "https://database.elvisproject.ca/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://davidtemperley.com/kp-stats/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://ddmal.github.io/diva.js/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://ddmal.music.mcgill.ca/research/billboard": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://digital.musicology.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://direct.mit.edu/comj": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://dl.acm.org/journal/tomm": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://dlfm.web.ox.ac.uk": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://dme.mozarteum.at": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://en.wikipedia.org/wiki/Comparison_of_scorewriters": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://en.wikipedia.org/wiki/Optical_music_recognition": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://eurasip.org/eusipco-conferences/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://fourscoreandmore.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/Audiveris/audiveris/wiki": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/CPJKU/partitura": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/DCMLab/ABC": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/MarkGotham/Taking-Form": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/MarkGotham/When-in-Rome": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/OpenScore/Lieder": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/OpenScore/StringQuartets/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/Tsung-Ping/functional-harmony": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/craffel/pretty-midi": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/dharasim/MCR/wiki": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/jukedeck/nottingham-dataset": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/marcomusy/pianoplayer": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/mido/mido": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://github.com/noteflakes/awesome-music": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://grh.mur.at/sites/default/files/mir_datasets_0.html": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)"
+  },
+  "https://gttm.jp/gttm/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://iclc.livecodenetwork.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "https://id.loc.gov/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://imslp.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://jazzomat.hfm-weimar.de/dbformat/dbcontent.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://jazzparser.granroth-wilding.co.uk/ParserPaper.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://josquin.stanford.edu/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://journals.sagepub.com/home/mns": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://kern.ccarh.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: timed out"
+  },
+  "https://leonardo.info/leonardo-music-journal": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://lilypond.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://linuxaudio.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://magenta.tensorflow.org/datasets/maestro": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://matthewfrankemusicology.wordpress.com/list-of-open-access-journals/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://measuringpolyphony.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://midifile.sapp.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://musescore.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://music-china.hk.messefrankfurt.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://music-encoding.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://music-encoding.org/resources/pedagogy.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://music-theory-practice.com": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://musicbrainz.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://ndl.iitkgp.ac.in/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://neuma.huma-num.fr/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: timed out"
+  },
+  "https://nla.gov.au/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://www.library.gov.au/"
+  },
+  "https://nordicsmc.create.aau.dk/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://online.ucpress.edu/mad": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://online.ucpress.edu/mp": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://openlibrary.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://recsys.acm.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://ricercar.gesualdo-online.cesr.univ-tours.fr/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://rism.online/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://rockcorpus.midside.com": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://sites.google.com/site/smtmig/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://sites.google.com/site/smtmig/&followup=https://sites.google.com/site/smtmig/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1206911916:1793099332329799"
+  },
+  "https://smcnetwork.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "https://sourceforge.net/projects/frescobaldi.mirror/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://staff.aist.go.jp/m.goto/RWC-MDB/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://themusictechconference.com/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://www.aimusictechconference.com/"
+  },
+  "https://tilia-ad98d.web.app/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://transactions.ismir.net": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://u.osu.edu/tavern/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://viaf.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://viva.pressbooks.pub/openmusictheory/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://w3c.github.io/mnx/specification/": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://web.mit.edu/music21/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://web.mit.edu/music21/doc/about/referenceCorpus.html": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://web.mit.edu/music21/doc/usersGuide/index.html": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://web.mit.edu/music21/music21j/doc/index.html": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://wiki.ccarh.org/wiki/Digital_Resources_for_Musicology": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: timed out"
+  },
+  "https://www.apa.org/pubs/journals/pmu": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.audiocontentanalysis.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.audiocontentanalysis.org/datasets": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.audiolabs-erlangen.de/fau/professor/mueller/bookFMP": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.audiolabs-erlangen.de/resources/MIR/FMP/C0/C0.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.brianedwardjarvis.com/MusicTheoryWebApps/BriFormer/briformer.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.cambridge.org/core/journals/organised-sound": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.chopinonline.ac.uk/ocve/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.classicalarchives.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.cpdl.org/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://www.cs.rhodes.edu/~kirlinp/diss.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.dezrann.net/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.diamm.ac.uk/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.discogs.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.edirom.de": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.escomsociety.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.europeana.eu/portal/en": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.evostar.org/2026/evomusart/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.freischuetz-digital.de": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.hacklily.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.hathitrust.org/": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://www.humdrum.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.icad.org/conferences": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.icmpc.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 8] nodename nor servname provided, or not known"
+  },
+  "https://www.ismir.net/resources.html": {
+   "state": "gone",
+   "code": 404,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "HTTP 404"
+  },
+  "https://www.ismir.net/resources/research-centers/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.isophonics.net/datasets": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.jcms.org.uk/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.jfugue.org/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [Errno 54] Connection reset by peer"
+  },
+  "https://www.kunstderfuge.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.midi.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.musedata.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.music-ir.org/mirex/wiki/MIREX_HOME": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.music-ir.org'. (_ssl.c:1000)"
+  },
+  "https://www.musicconnectionmachine.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.musictheory.net": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.mutopiaproject.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.muziekweb.nl/": {
+   "state": "error",
+   "code": null,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 1,
+   "error": "URLError: timed out"
+  },
+  "https://www.namm.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.ndl.go.jp/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.opera.adwmainz.de/informationen.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.peachnote.com/datasets.html": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.peachnote.de/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.qmul.ac.uk/dmrn/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.scoringnotes.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.singanewsong.org/audiotimeliner/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.smufl.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.sscm-wlscm.org": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.superbooth.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.tandfonline.com/toc/tmam20/current": {
+   "state": "blocked",
+   "code": 403,
+   "checked": "2026-10-27",
+   "last_ok": null,
+   "fails": 0,
+   "error": "HTTP 403"
+  },
+  "https://www.tassomusic.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.verovio.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.vexflow.com/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.wikidata.org/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://www.worldcat.org/": {
+   "state": "moved",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0,
+   "final_url": "https://search.worldcat.org/"
+  },
+  "https://ycac.yale.edu/": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://zenodo.org/record/1290737": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  },
+  "https://zenodo.org/record/1476555": {
+   "state": "ok",
+   "code": 200,
+   "checked": "2026-10-27",
+   "last_ok": "2026-10-27",
+   "fails": 0
+  }
+ }
+}

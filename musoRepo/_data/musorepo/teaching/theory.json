@@ -1,0 +1,38 @@
+[
+  {
+    "id": "four-score",
+    "name": "Four Score and More",
+    "url": "https://fourscoreandmore.org/",
+    "status": "active",
+    "desc": "Music theory resources, including automatic generation of score exercises.",
+    "access": "open"
+  },
+  {
+    "id": "music-theory-practice",
+    "name": "Music Theory Practice",
+    "url": "https://music-theory-practice.com",
+    "status": "active",
+    "desc": "Includes [external recommendations](https://music-theory-practice.com/best-online-music-theory-courses.html).",
+    "access": "open"
+  },
+  {
+    "id": "musictheory-net",
+    "name": "musictheory.net",
+    "url": "https://www.musictheory.net",
+    "status": "active",
+    "desc": "Lessons and exercises.",
+    "access": "borderline",
+    "access_note": "Freemium: the web lessons and exercises are free, some apps are paid."
+  },
+  {
+    "id": "open-music-theory",
+    "name": "Open Music Theory",
+    "url": "https://viva.pressbooks.pub/openmusictheory/",
+    "status": "active",
+    "prev_urls": [
+      "http://openmusictheory.com/"
+    ],
+    "desc": "Open online textbook surveying Western music theory.",
+    "access": "open"
+  }
+]
