@@ -4,7 +4,7 @@ title: 'MusoRepo: Software'
 permalink: /musorepo/software/
 ---
 
-[← MusoRepo]({{ '/datasets/' | relative_url }})
+[← MusoRepo]({{ '/musoRepo/' | relative_url }})
 
 {% include musorepo/topic.html topic="software" %}
 

@@ -4,7 +4,7 @@ title: 'MusoRepo: Formats'
 permalink: /musorepo/formats/
 ---
 
-[← MusoRepo]({{ '/datasets/' | relative_url }})
+[← MusoRepo]({{ '/musoRepo/' | relative_url }})
 
 {% include musorepo/topic.html topic="formats" %}
 
