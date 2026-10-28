@@ -1,5 +1,6 @@
 from music21 import clef
 from music21 import chord
+from music21 import expressions
 from music21 import interval
 from music21 import layout
 
@@ -28,6 +29,8 @@ def makeCadenceExercise(score,
     full- or short- score presentation.
     """
 
+    score = deepcopy(score)  # Leave the original alone: parts are removed from it
+
     # Cut non-SATB parts
     # Possible TODO: return these instrumental parts at the end? (if not shortScore)
     legalList = ['Soprano', 'Alto', 'Tenor', 'Bass']
@@ -40,7 +43,7 @@ def makeCadenceExercise(score,
     fermataPositions = []
     sopNotes = score.parts[0].recurse().notes  # NB leave ties in for tied-to fermata.
     for note in sopNotes:
-        if note.expressions:  # TODO expressions.Fermata() not working
+        if any(isinstance(e, expressions.Fermata) for e in note.expressions):
             uniqueOffsetID = note.getOffsetInHierarchy(score.parts[0])
             fermataPositions.append(uniqueOffsetID)
 
@@ -174,7 +177,7 @@ def makeLiederExercise(score,
         score = transferTune(tempScore, measuresToDo)
     elif addition == 'chordHints':
         tempScore = transferClefs(score, measuresToDo)
-        score = addChords(tempScore, quarterLength=quarterLength)
+        score = addChords(tempScore, quarterLength=quarterLength, measuresToDo=measuresToDo)
 
     # Scrub lyrics inherited into piano part
     for item in score.parts[1].recurse().notesAndRests:
@@ -201,12 +204,22 @@ def makeLiederExercise(score,
 
 # LIEDER continued: Additions into the score
 
+def clefAt(measure):
+    """
+    The clef in force at the start of a measure: its own, else the one before it.
+    """
+    return measure.clef or measure.getContextByClass('Clef')
+
+
 def transferClefs(score,
                   measuresToDo):
     """
     Adjusts clefs to accommodate the new part (transferTune or chordHints).
     Optionally also does the transferTune while it's at it:
     """  # TODO: integrate with leaveRestBars.
+
+    if not measuresToDo:  # Nothing added
+        return score
 
     voiceMeasures = list(score.parts[0].getElementsByClass('Measure'))
     pianoMeasures = list(score.parts[1].getElementsByClass('Measure'))
@@ -224,15 +237,15 @@ def transferClefs(score,
         startGaps.append(finalGap)
 
     for index in range(len(startAdditions)):  # Either
-        vClefAdd = voiceMeasures[startAdditions[index]].getContextByClass('Clef')
-        pClefAdd = pianoMeasures[startAdditions[index]].getContextByClass('Clef')
-        if vClefAdd != pClefAdd:
-            AddClef = vClefAdd.sign + str(vClefAdd.line)  # TODO simplify?
+        vClefAdd = clefAt(voiceMeasures[startAdditions[index]])
+        pClefAdd = clefAt(pianoMeasures[startAdditions[index]])
+        if vClefAdd is not None and vClefAdd != pClefAdd:
             if index < len(startGaps):
-                pClefGap = pianoMeasures[startGaps[index]].getContextByClass('Clef')
-                GapClef = pClefGap.sign + str(pClefGap.line)
-                pianoMeasures[startGaps[index]].insert(0, clef.clefFromString(GapClef))
-            pianoMeasures[startAdditions[index]].insert(0, clef.clefFromString(AddClef))
+                gapMeasure = pianoMeasures[startGaps[index]]
+                pClefGap = clefAt(gapMeasure)
+                if gapMeasure.clef is None and pClefGap is not None:  # Else it has its own
+                    gapMeasure.insert(0, deepcopy(pClefGap))
+            pianoMeasures[startAdditions[index]].clef = deepcopy(vClefAdd)  # Replaces any there
 
     return score
 
@@ -252,16 +265,19 @@ def transferTune(score, measuresToDo):
         whereFrom = voiceMeasures[listIndex]
         whereTo = pianoMeasures[listIndex]
 
-        for e in whereFrom.recurse().notesAndRests:  # m.getElementsByClass():
+        # Notes, and voices (with their notes) in bars with more than one.
+        for e in list(whereFrom.notesAndRests) + list(whereFrom.voices):
             whereTo.insert(e.getOffsetBySite(whereFrom), e)
 
     return score
 
 
 def addChords(score,
-              quarterLength=1):
+              quarterLength=1,
+              measuresToDo=None):
     """
-    Inputs provisional chords based on leaps in the melodic line.
+    Inputs provisional chords based on leaps in the melodic line,
+    in the measures at the positions in measuresToDo (default: all).
     """
 
     # Raise exception for illegal beatStrengths
@@ -269,38 +285,37 @@ def addChords(score,
     if quarterLength not in validQuarterLengths:
         raise ValueError(f'Invalid quarter length: must be one of {validQuarterLengths}.')
 
-    # Prepare dict of offsets and corresponding lists of pitches
+    # Work by position in the list of measures, as makeLiederExercise does.
+    voiceMeasures = list(score.parts[0].getElementsByClass('Measure'))
+    pianoMeasures = list(score.parts[1].getElementsByClass('Measure'))
+    if measuresToDo is None:
+        measuresToDo = range(len(voiceMeasures))
+    positions = {id(m): listIndex for listIndex, m in enumerate(voiceMeasures)}
+
+    # Prepare dict of (measure position, beat) and corresponding lists of pitches
     chordDict = {}
     vpr = score.parts[0].recurse()
     for i in range(1, len(vpr.notesAndRests)): # starting pair index = [1] and [0]
         note2 = vpr.notesAndRests[i]
-        adjustedBeatPosition = floor(note2.offset / quarterLength) * quarterLength
+        measure = note2.getContextByClass('Measure')  # Not activeSite, which may be a Voice
+        offset = note2.getOffsetInHierarchy(measure)
+        adjustedBeatPosition = floor(offset / quarterLength) * quarterLength
         # i.e. floor(x * accuracy) / accuracy # signs reversed as < 1
-        if adjustedBeatPosition != note2.offset:  # metrically weak enough
-            if 'NotRest' in note2.classes:
+        if adjustedBeatPosition != offset:  # metrically weak enough
+            if 'Note' in note2.classes:  # Not a rest, nor a chord (e.g. divisi)
                 note1 = vpr.notesAndRests[i-1]
-                if 'NotRest' in note1.classes:
+                if 'Note' in note1.classes:
                     if abs(interval.notesToGeneric(note1, note2).directed) > 2: # a leap
-                        measureOffset = note2.activeSite.offset
-                        offset = measureOffset + adjustedBeatPosition # combined unique value
-                        if offset in chordDict.keys():  # Add to existing
-                            tempList = [x for x in chordDict[offset][0]]
-                            tempList.append(note1.pitch)
-                            tempList.append(note2.pitch)
-                            chordDict[offset][0] = tempList
-                        else:  # Create new entry
-                            chordDict[offset] = [[note1.pitch, note2.pitch],
-                                                 measureOffset,
-                                                 adjustedBeatPosition
-                                                 ]
+                        listIndex = positions.get(id(measure))
+                        if listIndex in measuresToDo:  # Not where the piano part is kept
+                            key = (listIndex, adjustedBeatPosition)
+                            chordDict.setdefault(key, []).extend([note1.pitch, note2.pitch])
 
     # Prepare and insert chords
-    for x in chordDict.keys():
-        noDuplicatesChord = chord.Chord(list(set([y for y in chordDict[x][0]])))
-        noDuplicatesChord.quarterLength = quarterLength
-        measureOffset = round(chordDict[x][1], 2)  # NB not int
-        adjustedBeatPosition = chordDict[x][2]
-        finalStep = score.parts[1].getElementsByClass('Measure').getElementsByOffset(measureOffset)[0]
-        finalStep.insert(adjustedBeatPosition, noDuplicatesChord)
+    for (listIndex, adjustedBeatPosition), pitches in chordDict.items():
+        noDuplicatesChord = chord.Chord(list(set(pitches)))
+        restOfBar = voiceMeasures[listIndex].quarterLength - adjustedBeatPosition
+        noDuplicatesChord.quarterLength = min(quarterLength, restOfBar)  # Not past the barline
+        pianoMeasures[listIndex].insert(adjustedBeatPosition, noDuplicatesChord)
 
     return score

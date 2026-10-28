@@ -20,7 +20,7 @@ def get_score_name(score):
         if score.metadata.movementNumber and score.metadata.movementNumber != title:
             title += ": " + score.metadata.movementNumber
 
-    return "{} - {}".format(score.metadata.composer, title)
+    return " - ".join(s for s in [score.metadata.composer, title] if s)
 
 
 def clean_path(path):
@@ -50,12 +50,12 @@ def get_score_index(path, reset=False):
 
 
 def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
-    fp = open(index_filename, "r")
     existing = {}
-    with jsonlines.Reader(fp) as reader:
-        for data in reader.iter(type=dict, skip_invalid=True):
-            if "relative_dir" in data:
-                existing[data["relative_dir"]] = data
+    if os.path.exists(index_filename):
+        with open(index_filename, "r") as fp, jsonlines.Reader(fp) as reader:
+            for data in reader.iter(type=dict, skip_invalid=True):
+                if "relative_dir" in data:
+                    existing[data["relative_dir"]] = data
 
     if len(existing) > 0 and not rebuild:
         return existing

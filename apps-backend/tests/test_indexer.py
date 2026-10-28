@@ -11,7 +11,7 @@ from app.indexer import clean_path, get_lieder_index, get_score_index, get_score
 
 def score_with(**fields):
     score = stream.Score()
-    score.metadata = metadata.Metadata(composer="Bach", **fields)
+    score.metadata = metadata.Metadata(**{"composer": "Bach", **fields})
     return score
 
 
@@ -24,6 +24,14 @@ def score_with(**fields):
     ({"movementName": "Allemande", "movementNumber": "2"}, "Bach - Allemande: 2"),
 ])
 def test_score_name(fields, name):
+    assert get_score_name(score_with(**fields)) == name
+
+
+@pytest.mark.parametrize("fields,name", [
+    ({"composer": None, "title": "Chorale"}, "Chorale"),
+    ({"title": None}, "Bach"),
+])
+def test_score_name_leaves_out_missing_metadata(fields, name):
     assert get_score_name(score_with(**fields)) == name
 
 
@@ -105,6 +113,14 @@ def test_lieder_index_is_read_back_unless_rebuilt(app, add_lied, song_path):
 
     assert list(get_lieder_index(corpus, index_filename=index_path)) == ["A/B/C"]
     assert get_lieder_index(corpus, index_filename=index_path, rebuild=True) == {}
+
+
+def test_lieder_index_is_built_when_missing(app, add_lied, song_path):
+    add_lied(song_path, "A/B/C")
+    os.remove(app.config["LIEDER_INDEX_PATH"])
+
+    assert list(scores.list_lieder()) == [("A/B/C", "A - B - C")]
+    assert os.path.exists(app.config["LIEDER_INDEX_PATH"])
 
 
 def test_list_lieder_can_require_files(app, add_lied, song_path):

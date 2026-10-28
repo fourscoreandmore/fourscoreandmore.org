@@ -80,15 +80,15 @@ def chorales():
             partsToCut=form.partsToCut.data,
             shortScore=form.shortScore.data == "short",
         )
+        files = []
         try:
             exercise.parse()
+            files = exercise.write(
+                directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "chorales")
+            )
         except:
             logging.error("Failed to parse file: " + filename)
             errors.append(("Failed to parse file: " + form.originalScore.data))
-        files = exercise.write(
-            directory=os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "chorales")
-        )
-        download = []
         for title, path in files:
             download.append(
                 (
