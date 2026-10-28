@@ -10,8 +10,10 @@ from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
 from app.roman_text_validator import validate_roman_text
+from app.time_limit import TimeLimitExceeded, run_with_time_limit
 from werkzeug.utils import safe_join
 import hashlib
+import shutil
 import uuid
 import urllib
 import os
@@ -290,7 +292,9 @@ def working_in_harmony_analysis(score=""):
         directory = os.path.join(
             app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), relative_directory
         )
-        errors = _working_in_harmony_process(lied, form.analysis.data, directory)
+        errors = _run_analysis(
+            _working_in_harmony_process, lied, form.analysis.data, directory
+        )
         if errors == []:
             with open(os.path.join(directory, "feedback.txt"), "r") as feedback_file:
                 feedback = feedback_file.read()
@@ -312,6 +316,28 @@ def working_in_harmony_analysis(score=""):
         errors=errors,
         feedback=feedback,
     )
+
+
+def _run_analysis(process, *args):
+    """Run a Working in Harmony process(*args, directory) under a time limit.
+
+    Returns its errors. If it fails or is stopped, deletes the directory, so a
+    half-written result isn't taken for a finished one next time.
+    """
+    directory = args[-1]
+    seconds = app.config["WIH_TIME_LIMIT"]
+    try:
+        return run_with_time_limit(seconds, process, *args)
+    except TimeLimitExceeded:
+        logging.warning("Working in Harmony analysis stopped after %s seconds", seconds)
+        errors = [
+            f"Sorry, the analysis took too long (over {seconds} seconds) and was stopped."
+        ]
+    except RuntimeError:
+        logging.exception("Working in Harmony analysis failed")
+        errors = ["Failed to analyse the score"]
+    shutil.rmtree(directory, ignore_errors=True)
+    return errors
 
 
 def _working_in_harmony_process(lied, analysis, directory):

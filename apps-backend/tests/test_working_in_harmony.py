@@ -158,3 +158,26 @@ def test_viewing_a_missing_result_is_not_found(client):
         session["wih_id"] = "test"
 
     assert client.get("/apps/working-in-harmony/view/x/result.mxl").status_code == 404
+
+
+def test_an_analysis_that_takes_too_long_is_stopped(app, client, lied, monkeypatch):
+    import time
+
+    def slow(lied, analysis, directory):
+        os.makedirs(directory)
+        open(os.path.join(directory, "feedback.txt"), "w").close()
+        time.sleep(5)
+        return []
+
+    monkeypatch.setattr("app.routes._working_in_harmony_process", slow)
+    app.config["WIH_TIME_LIMIT"] = 0.5
+
+    response = client.post(SELECTED, data={"analysis": ANALYSIS})
+
+    assert response.status_code == 200
+    assert b"the analysis took too long (over 0.5 seconds)" in response.data
+    assert b'class="feedback"' not in response.data
+    # The half-finished result is deleted, so it isn't reused next time.
+    with client.session_transaction() as session:
+        wih_dir = os.path.join(app.config["WIH_WRITABLE_PATH"], session["wih_id"])
+    assert not any(files for _, _, files in os.walk(wih_dir))
