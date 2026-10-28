@@ -43,7 +43,7 @@ if (builds.length === 0) {
 // The template with its Jinja placeholders filled in for this server.
 let page = fs.readFileSync(path.join(BACKEND, "app/templates/display-music.html"), "utf8")
   .replace(/{{ url_for\('static', filename='([^']+)'\) }}/g, "static/$1")
-  .replace(/"{{ file }}"/g, 'new URLSearchParams(location.search).get("f")')
+  .replace(/{{ file\|tojson }}/g, 'new URLSearchParams(location.search).get("f")')
   .replace(/{{ file }}|{{ basename }}/g, "");
 if (page.includes("{{") || page.includes("{%")) {
   console.error("display-music.html has Jinja this script doesn't fill in; update render-scores.js");

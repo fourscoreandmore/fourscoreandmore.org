@@ -54,6 +54,13 @@ def custom_static(filename):
     )
 
 
+def _view_url(filename):
+    """Return the URL to view a score in the browser, or "" if it isn't MusicXML."""
+    if filename.endswith((".xml", ".musicxml", ".mxl")):
+        return "/apps/score/" + filename
+    return ""
+
+
 @app.route("/apps/score/" + "<path:filename>")
 def display_score(filename):
     _download_dir(filename)  # 404 unless the score exists
@@ -97,7 +104,9 @@ def chorales():
                         app.config["SCORE_DOWNLOAD_PATH"] + "/",
                         app.config["SCORE_DOWNLOAD_URI_PREFIX"],
                     ),
-                    path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", ""),
+                    _view_url(
+                        path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", "")
+                    ),
                 )
             )
     elif "partsToCut" not in request.form:
@@ -148,7 +157,9 @@ def lieder():
                         app.config["SCORE_DOWNLOAD_PATH"] + "/",
                         app.config["SCORE_DOWNLOAD_URI_PREFIX"],
                     ),
-                    path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", ""),
+                    _view_url(
+                        path.replace(app.config["SCORE_DOWNLOAD_PATH"] + "/", "")
+                    ),
                 )
             )
     elif "preserveRestBars" not in request.form:
@@ -186,15 +197,26 @@ def working_in_harmony():
     )
 
 
-@app.route("/apps/working-in-harmony/download/<path:filename>")
-def wih_download(filename):
+def _wih_file(filename):
+    """Return the path of a file in this session's Working in Harmony directory.
+
+    Returns None if there is no session; aborts with a 404 if the file doesn't exist.
+    """
     if session.get("wih_id", "") == "":
-        return redirect("/working-in-harmony/", code=302)
+        return None
     abs_filename = safe_join(
         app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), filename
     )
-    if abs_filename is None:
+    if abs_filename is None or not os.path.isfile(abs_filename):
         abort(404)
+    return abs_filename
+
+
+@app.route("/apps/working-in-harmony/download/<path:filename>")
+def wih_download(filename):
+    abs_filename = _wih_file(filename)
+    if abs_filename is None:
+        return redirect("/working-in-harmony/", code=302)
 
     mimetype = None
     if (
@@ -210,6 +232,18 @@ def wih_download(filename):
         as_attachment=("download" in request.args),
         download_name=filename.replace("/", "_"),
         mimetype=mimetype,
+    )
+
+
+@app.route("/apps/working-in-harmony/view/<path:filename>")
+def wih_display_score(filename):
+    if _wih_file(filename) is None:
+        return redirect("/working-in-harmony/", code=302)
+
+    return render_template(
+        "display-music.html",
+        file="/apps/working-in-harmony/download/" + filename,
+        basename=filename.replace("/", "_"),
     )
 
 
@@ -230,7 +264,7 @@ def working_in_harmony_analysis(score=""):
         (
             lied["name"],
             app.config["SCORE_DOWNLOAD_URI_PREFIX"] + lied["relative_path"],
-            lied["relative_path"],
+            _view_url(lied["relative_path"]),
         )
     )
 
@@ -260,13 +294,13 @@ def working_in_harmony_analysis(score=""):
         if errors == []:
             with open(os.path.join(directory, "feedback.txt"), "r") as feedback_file:
                 feedback = feedback_file.read()
+            result = os.path.join(relative_directory, "result.mxl")
             download.append(
                 (
                     "Score with added analysis",
-                    "/apps/working-in-harmony/download/"
-                    + os.path.join(relative_directory, "result.mxl"),
-                    "",
-                )  # TODO sort out display in browser
+                    "/apps/working-in-harmony/download/" + result,
+                    "/apps/working-in-harmony/view/" + result,
+                )
             )
 
     return render_template(

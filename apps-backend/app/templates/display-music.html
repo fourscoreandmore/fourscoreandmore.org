@@ -27,7 +27,7 @@ div#container {
       drawPartAbbreviations: false
     });
     osmd
-      .load("{{ file }}")
+      .load({{ file|tojson }})
       .then(
         function() {
           var autoZoom = function () {
