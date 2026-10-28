@@ -52,7 +52,7 @@ if (page.includes("{{") || page.includes("{%")) {
 
 // /page/<build>/ is the page with that OSMD build as its static file.
 const server = http.createServer((req, res) => {
-  const parts = decodeURIComponent(new URL(req.url, "http://localhost").pathname).split("/");
+  const parts = new URL(req.url, "http://localhost").pathname.split("/").map(decodeURIComponent);
   let file;
   if (parts[1] === "page" && parts[3] === "") return res.end(page);
   if (parts[1] === "page" && parts[4] === "opensheetmusicdisplay.min.js") file = builds[Number(parts[2])];
@@ -83,7 +83,7 @@ const server = http.createServer((req, res) => {
         tab.on("pageerror", (e) => errors.push(e.message));
         tab.on("console", (m) => m.type() === "error" && errors.push(m.text()));
         const start = Date.now();
-        await tab.goto(`${base}/page/${b}/?f=${encodeURIComponent(`/score/${s}/${path.basename(score)}`)}`);
+        await tab.goto(`${base}/page/${b}/?f=${encodeURIComponent(`/score/${s}/${encodeURIComponent(path.basename(score))}`)}`);
         try {
           await tab.waitForSelector("#container svg", { timeout: 30000 });
         } catch {
@@ -110,7 +110,7 @@ const server = http.createServer((req, res) => {
         const tab = await context.newPage();
         await tab.setViewportSize({ width: viewport.width * builds.length + 20, height: 600 });
         await tab.setContent(`<body style="margin:0;display:flex;gap:20px;align-items:flex-start;background:#ccc;font:12px sans-serif">${
-          shots.map((shot, b) => `<div><div style="padding:4px">${builds[b]}</div><img src="${base}/shot/${shot}"></div>`).join("")}</body>`);
+          shots.map((shot, b) => `<div><div style="padding:4px">${builds[b]}</div><img src="${base}/shot/${shot.split("/").map(encodeURIComponent).join("/")}"></div>`).join("")}</body>`);
         await tab.waitForLoadState("networkidle");
         await tab.screenshot({ path: path.join(out, `${vname}/${label}.compare.png`), fullPage: true });
         await tab.close();
