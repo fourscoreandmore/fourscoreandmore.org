@@ -6,3 +6,5 @@ _site
 .bundle
 .*
 !/.github
+!/apps-backend/.environment
+!/apps-backend/.python-version

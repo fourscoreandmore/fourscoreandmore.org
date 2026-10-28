@@ -16,7 +16,10 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    container: python:3.12 # keep in sync with `type` in apps-backend/.platform.app.yaml
+    container: python:3.14 # keep in sync with `type` in apps-backend/.platform.app.yaml
+    env:
+      # As on Upsun: use the container's Python rather than downloading one.
+      UV_PYTHON_DOWNLOADS: never
     defaults:
       run:
         working-directory: apps-backend
@@ -32,24 +35,20 @@ jobs:
             fetch -q --depth 1 "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_SHA"
           git checkout -q FETCH_HEAD
 
-      - name: Check Pipfile.lock is up to date
-        run: |
-          pip install -q --root-user-action=ignore pipenv
-          pipenv verify
+      - name: Install uv
+        run: pip install -q --root-user-action=ignore uv
 
       - name: Install dependencies
-        run: pipenv install --deploy --dev --system
+        # --locked fails if uv.lock is out of date with pyproject.toml.
+        run: uv sync --locked
 
       # The build hook copies romanUmpire.py from the When-in-Rome submodule.
       # Fetch just that file, at the pinned commit, instead of the whole corpus.
       - name: Fetch romanUmpire.py
-        run: |
-          sha=$(git ls-tree HEAD When-in-Rome | awk '{print $3}')
-          curl -sSfL -o app/romanUmpire.py \
-            "https://raw.githubusercontent.com/MarkGotham/When-in-Rome/$sha/Code/romanUmpire.py"
+        run: scripts/fetch-roman-umpire.sh
 
       - name: Lint
-        run: ruff check --output-format=github .
+        run: uv run ruff check --output-format=github .
 
       - name: Test
-        run: pytest -v
+        run: uv run pytest -v

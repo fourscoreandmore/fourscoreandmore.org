@@ -1,16 +1,21 @@
 name: apps-backend
 
-type: "python:3.12"
+# Keep in sync with requires-python in pyproject.toml and the CI container.
+type: "python:3.14"
 
 disk: 3072
 
 variables:
   env:
     APP_PATH: '/apps'
+    # Use the image's Python rather than downloading one.
+    UV_PYTHON_DOWNLOADS: 'never'
+    # The uv cache is on a different filesystem from the app, so hardlinks fail.
+    UV_LINK_MODE: 'copy'
 
 web:
   commands:
-    start: python server.py
+    start: .venv/bin/python server.py
 
   locations:
     '/apps/static':
@@ -21,7 +26,7 @@ web:
 
 dependencies:
     python3:
-       pipenv: '*'
+       uv: '*'
     nodejs:
        pnpm: '*'
 
@@ -54,7 +59,8 @@ hooks:
 
     cp When-in-Rome/Code/romanUmpire.py app/
 
-    pipenv install --system
+    # Install the locked dependencies into .venv (see also .environment).
+    UV_CACHE_DIR="$PLATFORM_CACHE_DIR/uv" uv sync --frozen --no-dev
 
     pnpm install --no-optional
     cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
@@ -64,4 +70,4 @@ hooks:
     curl --max-time 5 -sS site.internal/template/index.html > app/templates/writable/base.html
   post_deploy: |
     cd app
-    timeout 600 python -c 'from indexer import *; get_lieder_index("../When-in-Rome/Corpus/OpenScore-LiederCorpus", index_filename="../resources/scores/lieder.jsonl", rebuild=True)'
+    timeout 600 "$PLATFORM_APP_DIR/.venv/bin/python" -c 'from indexer import *; get_lieder_index("../When-in-Rome/Corpus/OpenScore-LiederCorpus", index_filename="../resources/scores/lieder.jsonl", rebuild=True)'

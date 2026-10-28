@@ -1,0 +1,5 @@
+# Sourced by Upsun at runtime, in deploy hooks and in SSH sessions (not during
+# the build): use the virtualenv that `uv sync` created in the build hook, so
+# `python` in an SSH session has the app's dependencies.
+export VIRTUAL_ENV="$PLATFORM_APP_DIR/.venv"
+export PATH="$VIRTUAL_ENV/bin:$PATH"

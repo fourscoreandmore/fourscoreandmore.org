@@ -21,8 +21,8 @@ updates:
         applies-to: security-updates
         patterns: ["*"]
 
-  # apps-backend (Pipfile / Pipfile.lock)
-  - package-ecosystem: pip
+  # apps-backend (pyproject.toml / uv.lock)
+  - package-ecosystem: uv
     directory: /apps-backend
     schedule:
       interval: weekly
