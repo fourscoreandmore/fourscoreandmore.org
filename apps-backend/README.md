@@ -45,7 +45,16 @@ node scripts/render-scores.js --out /tmp/render \
   /tmp/samples/*
 ```
 
-`render-scores.js` needs Playwright with Chromium. It renders each score at
+`render-scores.js` needs Playwright with Chromium, which isn't an app dependency
+(the build would install it). If `node -e "require('playwright')"` fails, install
+them outside the app and point Node at them:
+
+```bash
+(mkdir -p /tmp/pw && cd /tmp/pw && npm install playwright && npx playwright install chromium)
+export NODE_PATH=/tmp/pw/node_modules
+```
+
+It renders each score at
 desktop and phone widths, writes `*.compare.png` side by side when given two
 builds, and fails if a score doesn't render or logs an error. Re-rendering the
 same build gives identical images, but between versions the layout shifts, so
@@ -60,5 +69,5 @@ When-in-Rome submodule without checking it all out:
 git clone --filter=blob:none --no-checkout https://github.com/MarkGotham/When-in-Rome.git /tmp/wir
 sha=$(git ls-tree HEAD When-in-Rome | awk '{print $3}')
 git -C /tmp/wir ls-tree -r --name-only "$sha" Corpus/OpenScore-LiederCorpus | grep 'score.mxl$'
-git -C /tmp/wir show "$sha:Corpus/OpenScore-LiederCorpus/<composer>/<set>/<song>/score.mxl" > /tmp/song.mxl
+git -C /tmp/wir show "$sha:Corpus/OpenScore-LiederCorpus/<composer>/<set>/<song>/score.mxl" > /tmp/samples/<song>.mxl
 ```

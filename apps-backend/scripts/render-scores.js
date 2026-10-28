@@ -7,11 +7,19 @@
 //   node scripts/render-scores.js --out DIR [--osmd BUILD.js ...] SCORE...
 //
 // --osmd defaults to the locked version in node_modules. Exits non-zero if
-// any score fails to render or logs an error. Needs Playwright with Chromium.
+// any score fails to render or logs an error. Needs Playwright with Chromium,
+// which isn't an app dependency: see "Checking score rendering" in README.md.
 const fs = require("fs");
 const http = require("http");
 const path = require("path");
-const { chromium } = require("playwright");
+
+let chromium;
+try {
+  ({ chromium } = require("playwright"));
+} catch {
+  console.error('Playwright not found: see "Checking score rendering" in apps-backend/README.md');
+  process.exit(2);
+}
 
 const BACKEND = path.dirname(__dirname);
 const VIEWPORTS = { desktop: { width: 1280, height: 900 }, mobile: { width: 390, height: 844 } };
@@ -67,6 +75,8 @@ const server = http.createServer((req, res) => {
     const context = await browser.newContext({ viewport, deviceScaleFactor: 1 });
     for (const [s, score] of scores.entries()) {
       const shots = [];
+      // Numbered, as Lieder Corpus files are all called score.mxl.
+      const label = `${String(s + 1).padStart(2, "0")}-${path.basename(score)}`;
       for (const b of builds.keys()) {
         const tab = await context.newPage();
         const errors = [];
@@ -86,7 +96,7 @@ const server = http.createServer((req, res) => {
           if (height === last) break;
           last = height;
         }
-        const name = `${vname}/${path.basename(score)}.${builds.length > 1 ? `osmd${b}.` : ""}png`;
+        const name = `${vname}/${label}.${builds.length > 1 ? `osmd${b}.` : ""}png`;
         fs.mkdirSync(path.join(out, vname), { recursive: true });
         await tab.screenshot({ path: path.join(out, name), fullPage: true });
         shots.push(name);
@@ -102,7 +112,7 @@ const server = http.createServer((req, res) => {
         await tab.setContent(`<body style="margin:0;display:flex;gap:20px;align-items:flex-start;background:#ccc;font:12px sans-serif">${
           shots.map((shot, b) => `<div><div style="padding:4px">${builds[b]}</div><img src="${base}/shot/${shot}"></div>`).join("")}</body>`);
         await tab.waitForLoadState("networkidle");
-        await tab.screenshot({ path: path.join(out, `${vname}/${path.basename(score)}.compare.png`), fullPage: true });
+        await tab.screenshot({ path: path.join(out, `${vname}/${label}.compare.png`), fullPage: true });
         await tab.close();
       }
     }
