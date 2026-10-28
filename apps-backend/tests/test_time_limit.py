@@ -34,7 +34,8 @@ def test_reports_an_exception():
     def fail():
         raise ValueError("bad score")
 
-    with pytest.raises(RuntimeError, match="exit code 0"):
+    # The exit code depends on whether the child exits before it's killed.
+    with pytest.raises(RuntimeError, match="Failed in a child process"):
         run_with_time_limit(10, fail)
 
 

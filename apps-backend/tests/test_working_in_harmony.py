@@ -225,7 +225,7 @@ def test_an_identical_submission_that_finished_first_is_kept(app, tmp_path):
 
     assert _run_analysis(other_request_finishes_first, directory) == []
     assert open(os.path.join(directory, "feedback.txt")).read() == "First"
-    assert os.listdir(tmp_path / "song") == ["hash"]
+    assert sorted(os.listdir(tmp_path / "song")) == ["hash", "hash.lock"]
 
 
 def test_an_incomplete_result_from_before_is_replaced(app, tmp_path):
@@ -237,4 +237,4 @@ def test_an_incomplete_result_from_before_is_replaced(app, tmp_path):
 
     assert _run_analysis(lambda directory: write_result(directory) or [], directory) == []
     assert open(os.path.join(directory, "feedback.txt")).read() == "Feedback"
-    assert os.listdir(tmp_path / "song") == ["hash"]
+    assert sorted(os.listdir(tmp_path / "song")) == ["hash", "hash.lock"]

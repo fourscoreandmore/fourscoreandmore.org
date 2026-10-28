@@ -12,6 +12,7 @@ from app import scores, TheoryExercises, exercises, romanUmpire
 from app.roman_text_validator import validate_roman_text
 from app.time_limit import TimeLimitExceeded, run_with_time_limit
 from werkzeug.utils import safe_join
+import fcntl
 import hashlib
 import shutil
 import tempfile
@@ -347,14 +348,13 @@ def _run_analysis(process, *args):
         errors = ["Failed to analyse the score"]
 
     if errors == []:
-        try:
-            os.rename(work_directory, directory)
-        except OSError:
-            # Either an identical submission finished first (so use its
-            # result), or a failure left files here before results were
-            # written this way.
+        # Lock so that identical submissions can't publish at the same time.
+        with open(directory + ".lock", "w") as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            # If an identical submission finished first, use its result.
             if not _has_result(directory):
-                shutil.rmtree(directory)
+                # Files left by a failure before results were written this way.
+                shutil.rmtree(directory, ignore_errors=True)
                 os.rename(work_directory, directory)
     shutil.rmtree(work_directory, ignore_errors=True)
     return errors
