@@ -59,6 +59,14 @@ def test_score_index_skips_files_that_fail_to_parse(scores_dir):
     assert list(get_score_index(scores_dir)) == ["bwv66.6.mxl"]
 
 
+def test_score_index_is_written_in_one_step(scores_dir):
+    index = get_score_index(scores_dir)
+
+    with open(os.path.join(scores_dir, "scores.json")) as f:
+        assert json.load(f) == index
+    assert not [name for name in os.listdir(scores_dir) if name.startswith(".partial-")]
+
+
 def test_score_index_is_cached(scores_dir):
     with open(os.path.join(scores_dir, "scores.json"), "w") as f:
         json.dump({"cached.xml": "Cached - Score"}, f)

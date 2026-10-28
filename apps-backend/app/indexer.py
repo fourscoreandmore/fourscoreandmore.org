@@ -4,6 +4,7 @@ import jsonlines
 import logging
 import music21
 import os
+import tempfile
 import xml.etree
 
 
@@ -43,8 +44,11 @@ def get_score_index(path, reset=False):
             except:
                 logging.exception("Failed to parse score: " + abspath)
 
-    with open(index_filename, "w") as index_handle:
+    # Write to a temporary file first: another worker mustn't read it half-written.
+    fd, temporary_filename = tempfile.mkstemp(prefix=".partial-", suffix=".json", dir=path)
+    with os.fdopen(fd, "w") as index_handle:
         json.dump(index, index_handle)
+    os.replace(temporary_filename, index_filename)
 
     return index
 
