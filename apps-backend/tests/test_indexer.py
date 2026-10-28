@@ -123,6 +123,22 @@ def test_lieder_index_is_read_back_unless_rebuilt(app, add_lied, song_path):
     assert get_lieder_index(corpus, index_filename=index_path, rebuild=True) == {}
 
 
+def test_lieder_index_is_replaced_in_one_step(app, add_lied, song_path):
+    add_lied(song_path, "A/B/C")
+    corpus = app.config["LIEDER_CORPUS_PATH"]
+    index_path = app.config["LIEDER_INDEX_PATH"]
+    os.makedirs(os.path.join(corpus, "D/E/F"))
+    shutil.copy(song_path, os.path.join(corpus, "D/E/F/score.mxl"))
+    before = os.stat(index_path).st_ino
+
+    assert sorted(get_lieder_index(corpus, index_filename=index_path, rebuild=True)) == ["A/B/C", "D/E/F"]
+
+    # A new file, renamed into place, rather than the old one rewritten.
+    assert os.stat(index_path).st_ino != before
+    assert sorted(get_lieder_index(corpus, index_filename=index_path)) == ["A/B/C", "D/E/F"]
+    assert not [name for name in os.listdir(os.path.dirname(index_path)) if name.startswith(".partial-")]
+
+
 def test_lieder_index_is_built_when_missing(app, add_lied, song_path):
     add_lied(song_path, "A/B/C")
     os.remove(app.config["LIEDER_INDEX_PATH"])
