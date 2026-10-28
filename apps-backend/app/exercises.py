@@ -39,7 +39,9 @@ class ExerciseBase(object):
         if not os.path.exists(filepath):
             return False
 
-        if os.path.getmtime(filepath) < os.path.getmtime(__file__):
+        # Files older than the code that makes them are stale.
+        code_changed = max(os.path.getmtime(__file__), os.path.getmtime(TheoryExercises.__file__))
+        if os.path.getmtime(filepath) < code_changed:
             return False
 
         return True
