@@ -51,3 +51,22 @@ def test_generate_exercise(app, client, chorales_dir, score_type, staves):
         score = music21.converter.parse(os.path.join(download_dir, filename))
         if filename.endswith("-exercise.xml"):
             assert len(score.parts) == staves
+
+
+def test_unreadable_chorale_is_reported(app, client, chorales_dir):
+    with open(os.path.join(chorales_dir, "broken.xml"), "w") as f:
+        f.write("<not-musicxml/>")
+    # As if the index was built while the file could still be read.
+    with open(os.path.join(chorales_dir, "scores.json"), "w") as f:
+        json.dump({"broken.xml": "Broken"}, f)
+
+    response = client.post("/apps/chorales/", data={
+        "originalScore": "broken.xml",
+        "beatsToCut": "2",
+        "partsToCut": ["alto"],
+        "shortScore": "full",
+    })
+
+    assert response.status_code == 200
+    assert b"Failed to parse file: broken.xml" in response.data
+    assert not os.path.exists(os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "chorales"))
