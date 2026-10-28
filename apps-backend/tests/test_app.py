@@ -1,4 +1,6 @@
+import json
 import os
+import re
 
 import pytest
 
@@ -73,3 +75,17 @@ def test_display_score_page_links_to_the_download(client, generated_score):
 
 def test_display_missing_score_is_not_found(client):
     assert client.get("/apps/score/chorales/nope.xml").status_code == 404
+
+
+def test_display_score_page_loads_scores_with_punctuation_in_the_name(client, app):
+    path = os.path.join(app.config["SCORE_DOWNLOAD_PATH"], "lieder", "L'été & co.xml")
+    os.makedirs(os.path.dirname(path))
+    with open(path, "w") as f:
+        f.write("<score-partwise/>")
+
+    response = client.get("/apps/score/lieder/L'été & co.xml")
+
+    # HTML escaping (&#39;) isn't decoded inside <script>, so the URL must be
+    # given to the JavaScript as a JSON string.
+    match = re.search(r"\.load\((.*)\)", response.get_data(as_text=True))
+    assert json.loads(match.group(1)) == "/apps/download/lieder/L'été & co.xml"
