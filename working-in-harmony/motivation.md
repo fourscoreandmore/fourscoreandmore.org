@@ -28,9 +28,9 @@ With an analysis in an encoded format, we can easily edit it, create a duplicate
 
 ## What Scores?
 
-The Working in Harmony web app on Four Score and More is currently limited to our lieder corpus.
-We aim to offer this service for any encoded scores soon.
-In the meantime, you're welcome to email your analysis to `Mark dot Gotham at uni dash Saarland dot de` (replacing the dot, at, dash, and second dot) and I'll run it for you. If you're in one of my classes then I'll get right back to you; if not that's fine but it'll take a bit longer ...
+For analyses typed in the Roman text format, the Working in Harmony web app on Four Score and More is currently limited to our lieder corpus.
+For any other encoded score, enter your analysis on the score itself and [upload it](/apps/working-in-harmony/upload/) (see the ['on-score' option](./analysis.md)).
+For a Roman text analysis of another score, you're welcome to email your analysis to `Mark dot Gotham at uni dash Saarland dot de` (replacing the dot, at, dash, and second dot) and I'll run it for you. If you're in one of my classes then I'll get right back to you; if not that's fine but it'll take a bit longer ...
 
 ## What Score Format?
 
