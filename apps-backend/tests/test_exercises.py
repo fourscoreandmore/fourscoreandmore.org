@@ -74,3 +74,20 @@ def test_saved_files_are_reused_until_the_code_changes(song_path, tmp_path):
     LiedExercise(song_path).write(str(tmp_path))
     with open(path) as f:
         assert f.read() != "saved"
+
+
+def test_saved_files_are_remade_when_the_exercise_generators_change(song_path, tmp_path, monkeypatch):
+    ((_, path),) = LiedExercise(song_path).write(str(tmp_path))
+    with open(path, "w") as f:
+        f.write("saved")
+
+    # TheoryExercises.py changes after the file was saved.
+    generators = tmp_path / "TheoryExercises.py"
+    generators.touch()
+    newer = os.path.getmtime(path) + 60
+    os.utime(generators, (newer, newer))
+    monkeypatch.setattr(exercises.TheoryExercises, "__file__", str(generators))
+
+    LiedExercise(song_path).write(str(tmp_path))
+    with open(path) as f:
+        assert f.read() != "saved"

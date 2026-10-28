@@ -21,7 +21,11 @@ div#container {
   </noscript>
   <div id="container"></div>
   <script type="text/javascript">
-    var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("container");
+    // Part abbreviations ("Pno", ...) on later systems take width from the
+    // music, which fits fewer bars per line on phones.
+    var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("container", {
+      drawPartAbbreviations: false
+    });
     osmd
       .load("{{ file }}")
       .then(
