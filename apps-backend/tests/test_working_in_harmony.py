@@ -164,7 +164,6 @@ def test_an_analysis_that_takes_too_long_is_stopped(app, client, lied, monkeypat
     import time
 
     def slow(lied, analysis, directory):
-        os.makedirs(directory)
         open(os.path.join(directory, "feedback.txt"), "w").close()
         time.sleep(5)
         return []
@@ -181,3 +180,61 @@ def test_an_analysis_that_takes_too_long_is_stopped(app, client, lied, monkeypat
     with client.session_transaction() as session:
         wih_dir = os.path.join(app.config["WIH_WRITABLE_PATH"], session["wih_id"])
     assert not any(files for _, _, files in os.walk(wih_dir))
+
+
+def write_result(directory, feedback="Feedback"):
+    os.makedirs(directory, exist_ok=True)
+    with open(os.path.join(directory, "feedback.txt"), "w") as f:
+        f.write(feedback)
+    with open(os.path.join(directory, "result.mxl"), "w") as f:
+        f.write("score")
+
+
+def test_a_finished_result_is_reused(app, tmp_path):
+    from app.routes import _run_analysis
+
+    directory = str(tmp_path / "song" / "hash")
+    write_result(directory)
+
+    assert _run_analysis(lambda directory: pytest.fail("analysed again"), directory) == []
+
+
+def test_a_failed_analysis_leaves_nothing_behind(app, tmp_path):
+    """Even if it wrote all its files before failing."""
+    from app.routes import _run_analysis
+
+    def fails(directory):
+        write_result(directory)
+        return ["Failed to write analysis to a score"]
+
+    errors = _run_analysis(fails, str(tmp_path / "song" / "hash"))
+
+    assert errors == ["Failed to write analysis to a score"]
+    assert os.listdir(tmp_path / "song") == []
+
+
+def test_an_identical_submission_that_finished_first_is_kept(app, tmp_path):
+    from app.routes import _run_analysis
+
+    directory = str(tmp_path / "song" / "hash")
+
+    def other_request_finishes_first(directory_arg):
+        write_result(directory, "First")
+        write_result(directory_arg, "Second")
+        return []
+
+    assert _run_analysis(other_request_finishes_first, directory) == []
+    assert open(os.path.join(directory, "feedback.txt")).read() == "First"
+    assert os.listdir(tmp_path / "song") == ["hash"]
+
+
+def test_an_incomplete_result_from_before_is_replaced(app, tmp_path):
+    from app.routes import _run_analysis
+
+    directory = str(tmp_path / "song" / "hash")
+    os.makedirs(directory)
+    open(os.path.join(directory, "feedback.txt"), "w").close()
+
+    assert _run_analysis(lambda directory: write_result(directory) or [], directory) == []
+    assert open(os.path.join(directory, "feedback.txt")).read() == "Feedback"
+    assert os.listdir(tmp_path / "song") == ["hash"]

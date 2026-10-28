@@ -14,6 +14,7 @@ from app.time_limit import TimeLimitExceeded, run_with_time_limit
 from werkzeug.utils import safe_join
 import hashlib
 import shutil
+import tempfile
 import uuid
 import urllib
 import os
@@ -321,13 +322,21 @@ def working_in_harmony_analysis(score=""):
 def _run_analysis(process, *args):
     """Run a Working in Harmony process(*args, directory) under a time limit.
 
-    Returns its errors. If it fails or is stopped, deletes the directory, so a
-    half-written result isn't taken for a finished one next time.
+    Returns its errors. The process writes to a new temporary directory, which
+    is renamed to directory only if it succeeds. So directory either holds a
+    finished result or doesn't exist, even if the process fails, is stopped, or
+    runs at the same time as an identical submission (e.g. a double click).
     """
-    directory = args[-1]
+    *args, directory = args
+    if _has_result(directory):
+        return []
+
+    parent = os.path.dirname(directory)
+    os.makedirs(parent, exist_ok=True)
+    work_directory = tempfile.mkdtemp(prefix=".partial-", dir=parent)
     seconds = app.config["WIH_TIME_LIMIT"]
     try:
-        return run_with_time_limit(seconds, process, *args)
+        errors = run_with_time_limit(seconds, process, *args, work_directory)
     except TimeLimitExceeded:
         logging.warning("Working in Harmony analysis stopped after %s seconds", seconds)
         errors = [
@@ -336,8 +345,26 @@ def _run_analysis(process, *args):
     except RuntimeError:
         logging.exception("Working in Harmony analysis failed")
         errors = ["Failed to analyse the score"]
-    shutil.rmtree(directory, ignore_errors=True)
+
+    if errors == []:
+        try:
+            os.rename(work_directory, directory)
+        except OSError:
+            # Either an identical submission finished first (so use its
+            # result), or a failure left files here before results were
+            # written this way.
+            if not _has_result(directory):
+                shutil.rmtree(directory)
+                os.rename(work_directory, directory)
+    shutil.rmtree(work_directory, ignore_errors=True)
     return errors
+
+
+def _has_result(directory):
+    return all(
+        os.path.isfile(os.path.join(directory, filename))
+        for filename in ("feedback.txt", "result.mxl")
+    )
 
 
 def _working_in_harmony_process(lied, analysis, directory):
@@ -346,14 +373,6 @@ def _working_in_harmony_process(lied, analysis, directory):
     filename = scores.normalizeScorePath(
         lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"]
     )
-
-    # Skip if already processed.
-    if (
-        os.path.exists(os.path.join(directory, "analysis.txt"))
-        and os.path.exists(os.path.join(directory, "feedback.txt"))
-        and os.path.exists(os.path.join(directory, "result.mxl"))
-    ):
-        return errors
 
     try:
         validate_roman_text(analysis)
