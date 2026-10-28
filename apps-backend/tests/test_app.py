@@ -18,6 +18,7 @@ def test_routes_are_registered(app):
     "/apps/download/../../app/config.py",
     "/apps/score/../../app/config.py",
     "/apps/working-in-harmony/download/../../../app/config.py",
+    "/apps/working-in-harmony/view/../../../app/config.py",
 ])
 def test_path_traversal_is_not_found(client, url):
     with client.session_transaction() as session:

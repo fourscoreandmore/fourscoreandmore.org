@@ -9,11 +9,11 @@
         {% endif %}
       </h2>
       <ul class="file-downloads">
-        {% for (name, file, file_short) in download %}
+        {% for (name, file, view_url) in download %}
           <li>
             <a href="{{ file }}?download=1">{{ name }}</a>
-            {% if file_short.endswith('.xml') or file_short.endswith('.musicxml') or file_short.endswith('.mxl') %}
-              <br />Alternatively, click <a href="/apps/score/{{ file_short }}" target="_blank">here to view in browser</a>
+            {% if view_url %}
+              <br />Alternatively, click <a href="{{ view_url }}" target="_blank">here to view in browser</a>
             {% endif %}
           </li>
         {% endfor %}

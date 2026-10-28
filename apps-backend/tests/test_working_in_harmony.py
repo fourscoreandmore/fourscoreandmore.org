@@ -131,9 +131,30 @@ def test_submitted_analysis_shows_feedback_and_the_annotated_score(client, lied)
     assert download.mimetype == "application/vnd.recordare.musicxml+xml"
     assert os.path.isdir(os.path.join(client.application.config["WIH_WRITABLE_PATH"], wih_id))
 
+    view_url = match.group(1).decode().replace("/download/", "/view/")
+    assert f'href="{view_url}"'.encode() in response.data
+    view = client.get(view_url)
+
+    assert view.status_code == 200
+    assert f'href="{match.group(1).decode()}?download=1"'.encode() in view.data
+
 
 def test_downloads_need_a_session(client):
     response = client.get("/apps/working-in-harmony/download/x/result.mxl")
 
     assert response.status_code == 302
     assert response.location == "/working-in-harmony/"
+
+
+def test_viewing_needs_a_session(client):
+    response = client.get("/apps/working-in-harmony/view/x/result.mxl")
+
+    assert response.status_code == 302
+    assert response.location == "/working-in-harmony/"
+
+
+def test_viewing_a_missing_result_is_not_found(client):
+    with client.session_transaction() as session:
+        session["wih_id"] = "test"
+
+    assert client.get("/apps/working-in-harmony/view/x/result.mxl").status_code == 404
