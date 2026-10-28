@@ -1,5 +1,5 @@
 import pytest
-from music21 import corpus, layout
+from music21 import clef, corpus, layout
 from music21.pitch import Pitch
 
 from app.TheoryExercises import addChords, makeCadenceExercise, makeLiederExercise
@@ -89,32 +89,31 @@ def test_lieder_exercise_keeps_the_piano_where_the_voice_rests(song):
     exercise = makeLiederExercise(song)
 
     assert bars(exercise.parts[0]) == bars(song.parts[0])
-    assert bars(exercise.parts[1])[:5] == [["E4"], [], ["F4"], [], []]
-    assert bars(exercise.parts[2])[:5] == [["C3"], [], ["G2"], [], []]
+    assert bars(exercise.parts[1]) == [["E4"], [], ["F4"], [], [], []]
+    assert bars(exercise.parts[2]) == [["C3"], [], ["G2"], [], [], []]
 
 
 def test_rest_length_sets_what_counts_as_resting(song):
     # Bar 3 has a two-beat rest: not enough when resting means three beats.
     exercise = makeLiederExercise(song, quarterLengthOfRest=3)
 
-    assert bars(exercise.parts[1])[:5] == [["E4"], [], [], [], []]
+    assert bars(exercise.parts[1]) == [["E4"], [], [], [], [], []]
 
 
 def test_lieder_exercise_can_remove_the_whole_piano_part(song):
     exercise = makeLiederExercise(song, leaveRestBars=False)
 
-    assert bars(exercise.parts[1])[:5] == [[]] * 5
-    assert bars(exercise.parts[2])[:5] == [[]] * 5
+    assert bars(exercise.parts[1]) == [[]] * 6
+    assert bars(exercise.parts[2]) == [[]] * 6
 
 
 def test_lieder_exercise_can_keep_the_bass_line(song):
     exercise = makeLiederExercise(song, leaveBassLine=True)
 
-    assert bars(exercise.parts[1])[:5] == [["E4"], [], ["F4"], [], []]
+    assert bars(exercise.parts[1]) == [["E4"], [], ["F4"], [], [], []]
     assert bars(exercise.parts[2]) == bars(song.parts[2])
 
 
-@pytest.mark.xfail(strict=True, reason="The final bar is never cut unless the score has an anacrusis")
 def test_lieder_exercise_cuts_the_final_bar(song):
     exercise = makeLiederExercise(song, leaveRestBars=False)
 
@@ -124,16 +123,90 @@ def test_lieder_exercise_cuts_the_final_bar(song):
 def test_transfer_tune_copies_the_melody_into_the_right_hand(song):
     exercise = makeLiederExercise(song, addition="transferTune")
 
-    assert bars(exercise.parts[1])[:5] == [
-        ["E4"], ["C5", "E5", "G5"], ["F4"], ["C5", "A4", "F5", "D5"], ["C5"],
+    assert bars(exercise.parts[1]) == [
+        ["E4"], ["C5", "E5", "G5"], ["F4"], ["C5", "A4", "F5", "D5"], ["C5"], ["E5"],
     ]
     assert not any(n.lyric for n in exercise.parts[1].recurse().notes)
+
+
+def renumber(score, numbers, suffixes=None):
+    """Give each bar of every part a new measure number, and a suffix by position."""
+    for part in score.parts:
+        for position, (measure, number) in enumerate(zip(part.getElementsByClass("Measure"), numbers)):
+            measure.number = number
+            measure.numberSuffix = (suffixes or {}).get(position)
+    return score
+
+
+@pytest.fixture
+def pickup_song(song):
+    """The song with its first bar as an anacrusis: bars 0 to 5."""
+    return renumber(song, range(6))
+
+
+def test_lieder_exercise_handles_a_pickup_bar(pickup_song):
+    exercise = makeLiederExercise(pickup_song)
+
+    assert [m.number for m in exercise.parts[1].getElementsByClass("Measure")] == list(range(6))
+    # The voice rests in bars 0 and 2.
+    assert bars(exercise.parts[1]) == [["E4"], [], ["F4"], [], [], []]
+    assert bars(exercise.parts[2]) == [["C3"], [], ["G2"], [], [], []]
+
+
+def test_lieder_exercise_cuts_a_pickup_bar_where_the_voice_sings(pickup_song):
+    exercise = makeLiederExercise(pickup_song, leaveRestBars=False)
+
+    assert bars(exercise.parts[1]) == [[]] * 6
+
+
+def test_lieder_exercise_handles_a_split_bar(song):
+    # As music21 parses a bar split across a system break: 1, 2, 2X1, 3, 4, 5.
+    renumber(song, [1, 2, 2, 3, 4, 5], suffixes={2: "X1"})
+
+    exercise = makeLiederExercise(song, addition="transferTune")
+
+    assert bars(exercise.parts[1]) == [
+        ["E4"], ["C5", "E5", "G5"], ["F4"], ["C5", "A4", "F5", "D5"], ["C5"], ["E5"],
+    ]
+    assert bars(exercise.parts[2]) == [["C3"], [], ["G2"], [], [], []]
+
+
+def test_transfer_tune_lines_up_with_a_pickup_bar(pickup_song):
+    exercise = makeLiederExercise(pickup_song, addition="transferTune")
+
+    assert bars(exercise.parts[1]) == [
+        ["E4"], ["C5", "E5", "G5"], ["F4"], ["C5", "A4", "F5", "D5"], ["C5"], ["E5"],
+    ]
+
+
+def test_chord_hints_line_up_with_a_pickup_bar(pickup_song):
+    exercise = makeLiederExercise(pickup_song, addition="chordHints", quarterLength=1)
+
+    assert bars(exercise.parts[1]) == [["E4"], [], ["F4"], ["chord"], [], []]
+    chord = exercise.parts[1].measure(3).recurse().getElementsByClass("Chord")[0]
+    assert sorted(p.nameWithOctave for p in chord.pitches) == ["A4", "F5"]
+
+
+@pytest.mark.parametrize("numbers", [range(1, 7), range(6)])
+def test_transferred_tune_brings_the_voice_clef_up_to_the_last_bar(song, numbers):
+    renumber(song, numbers)
+    rh = song.parts[1].getElementsByClass("Measure")[0]
+    rh.replace(rh.getElementsByClass("Clef")[0], clef.BassClef())
+
+    exercise = makeLiederExercise(song, addition="transferTune")
+
+    clefs = [
+        [c.name for c in m.getElementsByClass("Clef")]
+        for m in exercise.parts[1].getElementsByClass("Measure")
+    ]
+    # Treble while the right hand has the tune (bars 2, 4 to 6), bass in bar 3.
+    assert clefs == [["bass"], ["treble"], ["bass"], ["treble"], [], []]
 
 
 def test_chord_hints_follow_leaps_in_the_melody(song):
     exercise = makeLiederExercise(song, addition="chordHints", quarterLength=1)
 
-    assert bars(exercise.parts[1])[:5] == [["E4"], [], ["F4"], ["chord"], []]
+    assert bars(exercise.parts[1]) == [["E4"], [], ["F4"], ["chord"], [], []]
     chord = exercise.parts[1].measure(4).recurse().getElementsByClass("Chord")[0]
     assert chord.offset == 1
     assert chord.quarterLength == 1

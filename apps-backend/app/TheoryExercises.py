@@ -136,30 +136,33 @@ def makeLiederExercise(score,
 
     topPart = score.parts[0]
 
-    NumMeasures = len(score.parts[0].getElementsByClass('Measure'))
+    # Work by position in the list of measures, not by measure number: numbers
+    # start at 0 in songs with an anacrusis, and split measures repeat a number.
+    voiceMeasures = list(topPart.getElementsByClass('Measure'))
+    NumMeasures = len(voiceMeasures)
 
     # Find vocal rests
-    restBars = []  # Remains empty if not leaveRestBars
+    restBars = []  # Positions. Remains empty if not leaveRestBars
     if leaveRestBars:
-        for listIndex in range(0, NumMeasures - 1):  # NB list is 0 to N; measures is 1 to (N-1)
+        for listIndex, thisMeasure in enumerate(voiceMeasures):
             count = 0
-            thisMeasure = topPart.getElementsByClass('Measure')[listIndex]  # NB Above
             for item in thisMeasure.recurse().notesAndRests:
                 if item.isRest:
                     count += item.quarterLength
                     if count >= thisMeasure.quarterLength:  # Special case for anacrustic pieces.
-                        restBars.append(listIndex + 1)  # = measure number
+                        restBars.append(listIndex)
                         break  # No need to look at this measure any further
                     elif count >= quarterLengthOfRest:
-                        restBars.append(listIndex + 1)  # = measure number
+                        restBars.append(listIndex)
                         break  # No need to look at this measure any further
 
-    measuresToDo = [x for x in range(1, NumMeasures) if x not in restBars]
+    measuresToDo = [x for x in range(NumMeasures) if x not in restBars]  # Positions
 
     # Removals
-    for measureNumber in measuresToDo:
-        for partNo in parts:
-            for x in score.parts[partNo].measure(measureNumber).recurse().notesAndRests:
+    for partNo in parts:
+        pianoMeasures = list(score.parts[partNo].getElementsByClass('Measure'))
+        for listIndex in measuresToDo:
+            for x in list(pianoMeasures[listIndex].recurse().notesAndRests):
                 score.parts[partNo].remove(x, recurse=True)
 
     # Additions
@@ -205,6 +208,9 @@ def transferClefs(score,
     Optionally also does the transferTune while it's at it:
     """  # TODO: integrate with leaveRestBars.
 
+    voiceMeasures = list(score.parts[0].getElementsByClass('Measure'))
+    pianoMeasures = list(score.parts[1].getElementsByClass('Measure'))
+
     startAdditions = [measuresToDo[0]]  # First in measuresToDo definitely a startAddition
     startGaps = []
     for index in range(1, len(measuresToDo)):
@@ -213,20 +219,20 @@ def transferClefs(score,
             startGaps.append(oneMoreThanLastEntry)
             startAdditions.append(measuresToDo[index])
 
-    if measuresToDo[-1] != len(score.parts[0]):
+    if measuresToDo[-1] != len(voiceMeasures) - 1:  # No final gap if additions run to the end
         finalGap = measuresToDo[-1] + 1
         startGaps.append(finalGap)
 
     for index in range(len(startAdditions)):  # Either
-        vClefAdd = score.parts[0].measure(startAdditions[index]).getContextByClass('Clef')
-        pClefAdd = score.parts[1].measure(startAdditions[index]).getContextByClass('Clef')
-        # vClefGap = score.parts[0].measure(startGaps[index]).getContextByClass('Clef')
-        pClefGap = score.parts[1].measure(startGaps[index]).getContextByClass('Clef')
+        vClefAdd = voiceMeasures[startAdditions[index]].getContextByClass('Clef')
+        pClefAdd = pianoMeasures[startAdditions[index]].getContextByClass('Clef')
         if vClefAdd != pClefAdd:
             AddClef = vClefAdd.sign + str(vClefAdd.line)  # TODO simplify?
-            GapClef = pClefGap.sign + str(pClefGap.line)
-            score.parts[1].measure(startAdditions[index]).insert(0, clef.clefFromString(AddClef))
-            score.parts[1].measure(startGaps[index]).insert(0, clef.clefFromString(GapClef))
+            if index < len(startGaps):
+                pClefGap = pianoMeasures[startGaps[index]].getContextByClass('Clef')
+                GapClef = pClefGap.sign + str(pClefGap.line)
+                pianoMeasures[startGaps[index]].insert(0, clef.clefFromString(GapClef))
+            pianoMeasures[startAdditions[index]].insert(0, clef.clefFromString(AddClef))
 
     return score
 
@@ -237,12 +243,14 @@ def transferTune(score, measuresToDo):
     (Duplicates the above for running separately, without transfer clefs).
     """
 
-    for measureNumber in measuresToDo:
+    topPartCopy = deepcopy(score.parts[0])
+    voiceMeasures = list(topPartCopy.getElementsByClass('Measure'))
+    pianoMeasures = list(score.parts[1].getElementsByClass('Measure'))
 
-        topPartCopy = deepcopy(score.parts[0])
+    for listIndex in measuresToDo:  # Positions, not measure numbers
 
-        whereFrom = topPartCopy.measure(measureNumber)
-        whereTo = score.parts[1].measure(measureNumber)
+        whereFrom = voiceMeasures[listIndex]
+        whereTo = pianoMeasures[listIndex]
 
         for e in whereFrom.recurse().notesAndRests:  # m.getElementsByClass():
             whereTo.insert(e.getOffsetBySite(whereFrom), e)
