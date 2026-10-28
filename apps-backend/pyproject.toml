@@ -1,7 +1,31 @@
-# Tool configuration only; dependencies are managed in the Pipfile.
+[project]
+name = "apps-backend"
+version = "0"
+description = "Four Score and More apps: exercise generators and Working in Harmony"
+# Keep in sync with `type` in .platform.app.yaml and the CI container.
+requires-python = ">=3.14"
+dependencies = [
+    "flask",
+    "flask-wtf",
+    "gevent",
+    "jsonlines",
+    "music21~=10.5",
+    "natsort",
+    "werkzeug",
+    "wtforms",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+    "ruff",
+]
+
+[tool.uv]
+# An application, not a library: install the dependencies only.
+package = false
 
 [tool.ruff]
-target-version = "py312"
 # romanUmpire.py is copied from the When-in-Rome submodule at build time.
 extend-exclude = ["When-in-Rome", "app/romanUmpire.py"]
 

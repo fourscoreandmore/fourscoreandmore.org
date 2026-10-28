@@ -1,11 +1,10 @@
 import os
-import shutil
+import re
+import urllib.parse
 
 import pytest
 
 from conftest import requires_roman_umpire
-
-pytestmark = requires_roman_umpire
 
 ANALYSIS = """Composer: J. S. Bach
 Title: Christ unser Herr zum Jordan kam
@@ -28,14 +27,12 @@ m2 b1
 
 
 @pytest.fixture
-def lied(app, chorale_path):
+def lied(add_lied, chorale_path):
     """A stand-in for a lieder corpus entry, using the chorale as its score."""
-    song_dir = os.path.join(app.config["LIEDER_CORPUS_PATH"], "Bach", "bwv66.6")
-    os.makedirs(song_dir)
-    shutil.copy(chorale_path, os.path.join(song_dir, "score.mxl"))
-    return {"relative_path": "Bach/bwv66.6/score.mxl"}
+    return add_lied(chorale_path, "Bach/Chorales/bwv66.6", files={"template.txt": TEMPLATE, "slices.tsv": ""})
 
 
+@requires_roman_umpire
 def test_analysis_produces_feedback_and_score(app, lied, tmp_path):
     from app.routes import _working_in_harmony_process
 
@@ -59,3 +56,84 @@ def test_unfilled_template_explains_what_to_do(app, lied, tmp_path):
 
     assert errors == [NO_ROMAN_NUMERALS]
     assert not out.exists()
+
+
+SELECTED = "/apps/working-in-harmony/selected/Bach/Chorales/bwv66.6"
+
+
+def test_selection_lists_only_songs_with_a_template(client, lied, add_lied, song_path):
+    add_lied(song_path, "Tester/Songs/No_template")
+
+    response = client.get("/apps/working-in-harmony/")
+
+    assert response.status_code == 200
+    assert b"Bach - Chorales - bwv66.6" in response.data
+    assert b"No template" not in response.data
+
+
+def test_selecting_a_song_redirects_to_its_analysis_page(client, add_lied, chorale_path):
+    add_lied(chorale_path, "Bach/Chorales/Nr 1", files={"template.txt": "", "slices.tsv": ""})
+
+    response = client.post("/apps/working-in-harmony/", data={"originalScore": "Bach/Chorales/Nr 1"})
+
+    assert response.status_code == 302
+    assert response.location == "/apps/working-in-harmony/selected/" + urllib.parse.quote("Bach/Chorales/Nr 1")
+
+
+def test_analysis_page_starts_with_the_template(client, lied):
+    response = client.get(SELECTED)
+
+    assert response.status_code == 200
+    assert b"Proofreader:" in response.data
+    assert b"/apps/download/Bach/Chorales/bwv66.6/score.mxl" in response.data
+
+
+def test_analysis_page_reports_a_missing_template(client, add_lied, chorale_path):
+    add_lied(chorale_path, "Bach/Chorales/bwv66.6")
+
+    response = client.get(SELECTED)
+
+    assert response.status_code == 200
+    assert b"Template file not found" in response.data
+
+
+def test_unknown_song_redirects_to_the_selection(client, lied):
+    response = client.get("/apps/working-in-harmony/selected/Nobody/Nothing")
+
+    assert response.status_code == 302
+    assert response.location == "/apps/working-in-harmony"
+
+
+def test_submitting_the_template_explains_what_to_do(client, lied):
+    from app.roman_text_validator import NO_ROMAN_NUMERALS
+
+    response = client.post(SELECTED, data={"analysis": TEMPLATE})
+
+    assert response.status_code == 200
+    assert NO_ROMAN_NUMERALS.encode() in response.data.replace(b"&#34;", b'"')
+
+
+@requires_roman_umpire
+def test_submitted_analysis_shows_feedback_and_the_annotated_score(client, lied):
+    response = client.post(SELECTED, data={"analysis": ANALYSIS})
+
+    assert response.status_code == 200
+    assert b'class="feedback"' in response.data
+    with client.session_transaction() as session:
+        wih_id = session["wih_id"]
+    match = re.search(rb'href="(/apps/working-in-harmony/download/Bach_Chorales_bwv66\.6/\w+/result\.mxl)', response.data)
+    assert match
+
+    download = client.get(match.group(1).decode())
+
+    assert download.status_code == 200
+    assert download.data[:2] == b"PK"  # a compressed MusicXML file
+    assert download.mimetype == "application/vnd.recordare.musicxml+xml"
+    assert os.path.isdir(os.path.join(client.application.config["WIH_WRITABLE_PATH"], wih_id))
+
+
+def test_downloads_need_a_session(client):
+    response = client.get("/apps/working-in-harmony/download/x/result.mxl")
+
+    assert response.status_code == 302
+    assert response.location == "/working-in-harmony/"
