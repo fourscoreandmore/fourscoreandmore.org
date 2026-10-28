@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       opensheetmusicdisplay:
-        specifier: ^1.9.9
-        version: 1.9.9
+        specifier: ^2.2.1
+        version: 2.2.1
 
 packages:
 
@@ -177,8 +177,8 @@ packages:
   once@1.4.0:
     resolution: {integrity: sha512-lNaJgI+2Q5URQBkccEKHTQOPaXdUxnZZElQTZY0MFUAuaEqe1E+Nyvgdz/aIyNi6Z9MzO5dv1H8n58/GELp3+w==}
 
-  opensheetmusicdisplay@1.9.9:
-    resolution: {integrity: sha512-HS2uTSrmUyYaJFSdBdD3i3wNQh3XoRHkSE7bX3N+5x/+RHlrmVdCwINA24aIyXA4pjTeaiVYFpRpdnNXFttiZg==}
+  opensheetmusicdisplay@2.2.1:
+    resolution: {integrity: sha512-2DqI2lQKKzDDoIe7yD8yNyWTofSdRbFZYTD3nGRzEo1XmTK2DJWcUXLRXZ2E5xzOt7Pd+RmSGL1quFQZRCqDMw==}
 
   pako@1.0.11:
     resolution: {integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==}
@@ -484,7 +484,7 @@ snapshots:
       wrappy: 1.0.2
     optional: true
 
-  opensheetmusicdisplay@1.9.9:
+  opensheetmusicdisplay@2.2.1:
     dependencies:
       '@types/vexflow': 1.2.42
       jszip: 3.10.1
