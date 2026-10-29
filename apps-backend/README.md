@@ -51,11 +51,15 @@ They run this app's code (`TheoryExercises.py`, `exercises.py` and
 `romanUmpire.py`, called from `browser-apps/assets/apps.py`), so the site
 could be hosted as static files.
 
-Before `jekyll build`, `scripts/build-browser-apps.py` prepares their files
-(gitignored): the wheels pinned in `uv.lock` (music21 without most of its
-corpus), the app modules, OSMD from `pnpm-lock.yaml`, the chorales listed in
-`_data/chorales.json` (from music21's corpus), and the Lieder Corpus songs from
-the When-in-Rome submodule. To try them locally:
+They load their files from `/browser-apps/generated/`, which
+`scripts/build-browser-apps.py` writes: the wheels pinned in `uv.lock` (music21
+without most of its corpus), the app modules, OSMD from `pnpm-lock.yaml`, the
+chorales listed in `scripts/browser-apps-chorales.json` (from music21's
+corpus), and the Lieder Corpus songs from the When-in-Rome submodule, with
+lists of the chorales and songs. On Upsun, the site's build can't see this
+directory, so this app's build hook runs the script and serves the files
+(`.platform.app.yaml`, and the route in `.platform/routes.yaml`). Elsewhere,
+the script writes them into the site. To try the apps locally:
 
 ```bash
 python3 apps-backend/scripts/build-browser-apps.py

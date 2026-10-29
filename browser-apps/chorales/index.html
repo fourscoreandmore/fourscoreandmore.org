@@ -13,11 +13,7 @@ title: Chorales Exercise Generator
   <div class="form-field">
     <label for="originalScore">Original chorale</label>
     <div class="description">The chorale used as a base for the exercise.</div>
-    <select class="chosen" id="originalScore" name="originalScore" required>
-      {%- for chorale in site.data.chorales %}
-      <option value="{{ chorale.file }}">{{ chorale.name }}</option>
-      {%- endfor %}
-    </select>
+    <select class="chosen" id="originalScore" name="originalScore" required></select>
   </div>
 
   <div class="form-field">
@@ -51,6 +47,12 @@ title: Chorales Exercise Generator
 </form>
 
 <script>
+  BrowserApps.list("chorales").then(function (chorales) {
+    BrowserApps.fillSelect(document.getElementById("originalScore"), chorales, function (chorale) {
+      return { value: chorale.file, text: chorale.name };
+    });
+  });
+
   BrowserApps.onSubmit(document.querySelector("form[data-browser-app]"), function (form) {
     var data = new FormData(form);
     var select = form.elements.originalScore;

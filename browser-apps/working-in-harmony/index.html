@@ -12,11 +12,7 @@ title: Working in Harmony - App
   <div class="form-field">
     <label for="song">Select a song</label>
     <div class="description">Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.</div>
-    <select class="chosen" id="song" name="song" required>
-      {%- for song in site.data.generated.lieder %}{% if song.wih %}
-      <option value="{{ song.dir }}">{{ song.name }}</option>
-      {%- endif %}{% endfor %}
-    </select>
+    <select class="chosen" id="song" name="song" required></select>
   </div>
 
   <div class="form-actions">
@@ -24,3 +20,11 @@ title: Working in Harmony - App
     <input class="btn btn-primary" type="submit" value="Continue">
   </div>
 </form>
+
+<script>
+  BrowserApps.list("lieder").then(function (lieder) {
+    BrowserApps.fillSelect(document.getElementById("song"), lieder.filter(function (song) { return song.wih; }), function (song) {
+      return { value: song.dir, text: song.name };
+    });
+  });
+</script>

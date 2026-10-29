@@ -13,11 +13,7 @@ title: Lieder Exercise Generator
   <div class="form-field">
     <label for="originalScore">Select a song</label>
     <div class="description">Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.</div>
-    <select class="chosen" id="originalScore" name="originalScore" required>
-      {%- for song in site.data.generated.lieder %}
-      <option value="{{ song.dir }}" data-id="{{ song.id }}">{{ song.name }}</option>
-      {%- endfor %}
-    </select>
+    <select class="chosen" id="originalScore" name="originalScore" required></select>
   </div>
 
   <div class="form-field">
@@ -65,6 +61,12 @@ title: Lieder Exercise Generator
 <script>
   (function () {
     var form = document.querySelector("form[data-browser-app]");
+
+    BrowserApps.list("lieder").then(function (lieder) {
+      BrowserApps.fillSelect(form.elements.originalScore, lieder, function (song) {
+        return { value: song.dir, "data-id": song.id, text: song.name };
+      });
+    });
 
     // As the Flask form's validator (AnyOf in app/forms.py).
     var harmonicRhythms = [0.25, 0.5, 1, 1.5, 2, 3, 4];

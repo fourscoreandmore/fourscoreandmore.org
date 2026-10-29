@@ -38,9 +38,7 @@ For help with getting your analysis down in the right format, see the notes here
     var feedback = document.querySelector(".feedback");
     var results = document.getElementById("results");
 
-    fetch("/browser-apps/generated/lieder.json").then(function (response) {
-      return response.json();
-    }).then(function (lieder) {
+    BrowserApps.list("lieder").then(function (lieder) {
       var song = lieder.filter(function (song) { return song.wih && song.dir === dir; })[0];
       if (!song) {
         location.replace("../");

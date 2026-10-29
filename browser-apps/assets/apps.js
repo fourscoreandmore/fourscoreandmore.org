@@ -143,9 +143,34 @@ var BrowserApps = (function () {
     });
   }
 
+  var lists = {};
+
+  // Resolve with the list (chorales or lieder) that build-browser-apps.py wrote.
+  function list(name) {
+    lists[name] = lists[name] || fetch("/browser-apps/generated/" + name + ".json").then(function (response) {
+      if (!response.ok) throw new Error("Couldn't load the list of " + name);
+      return response.json();
+    });
+    return lists[name];
+  }
+
+  // Fill select with an option for each item, and update its Chosen widget.
+  function fillSelect(select, items, option) {
+    items.forEach(function (item) {
+      var attributes = option(item);
+      var text = attributes.text;
+      delete attributes.text;
+      select.append(element("option", attributes, [text]));
+    });
+    if (window.jQuery) jQuery(select).trigger("chosen:updated");
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
     if (document.querySelector("form[data-browser-app]")) startWorker();
   });
 
-  return { run: run, show: show, downloads: downloads, viewUrl: viewUrl, onSubmit: onSubmit, element: element };
+  return {
+    run: run, show: show, downloads: downloads, viewUrl: viewUrl, onSubmit: onSubmit, element: element,
+    list: list, fillSelect: fillSelect,
+  };
 })();

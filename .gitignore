@@ -11,4 +11,4 @@ _site
 
 # Written by apps-backend/scripts/build-browser-apps.py
 /browser-apps/generated
-/_data/generated
+/apps-backend/browser-apps-generated

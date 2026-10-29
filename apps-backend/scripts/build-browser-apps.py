@@ -2,20 +2,22 @@
 """Prepare the files for the in-browser apps (browser-apps/ in the Jekyll site).
 
 The in-browser apps run this app's music21 code in the browser with Pyodide,
-instead of on a server. Run this before `jekyll build`, from anywhere:
+instead of on a server. They load their files from /browser-apps/generated/,
+which this writes (by default to browser-apps/generated/ in the Jekyll site,
+which is gitignored):
 
-    python3 apps-backend/scripts/build-browser-apps.py
+    python3 apps-backend/scripts/build-browser-apps.py [--out DIR]
 
-It writes, all gitignored:
+The files are Python wheels (pinned in uv.lock), this app's music code, the
+chorale and lieder scores with lists of them, and the static files the pages
+share. Everything comes from this directory (apps-backend), as on Upsun this
+runs in this app's build, which can't see the rest of the repository: Upsun
+serves /browser-apps/generated/ from this app (see .platform.app.yaml).
 
-- browser-apps/generated/: Python wheels (pinned in uv.lock), this app's music
-  code, the chorale and lieder scores, and the static files the pages share.
-- _data/generated/lieder.json: the songs, for the pages' song lists.
-
-It uses only the standard library, because it runs in the Jekyll (Ruby)
-container. Downloads are checked against the hashes in uv.lock and
-pnpm-lock.yaml, and cached in $PLATFORM_CACHE_DIR if that's set.
+It uses only the standard library. Downloads are checked against the hashes
+in uv.lock and pnpm-lock.yaml, and cached in $PLATFORM_CACHE_DIR if that's set.
 """
+import argparse
 import base64
 import hashlib
 import io
@@ -30,9 +32,7 @@ import zipfile
 from pathlib import Path
 
 BACKEND = Path(__file__).resolve().parent.parent
-SITE = BACKEND.parent
-OUT = SITE / "browser-apps" / "generated"
-DATA_OUT = SITE / "_data" / "generated"
+OUT = BACKEND.parent / "browser-apps" / "generated"
 CACHE = Path(os.environ.get("PLATFORM_CACHE_DIR") or BACKEND / ".cache") / "browser-apps"
 LIEDER_CORPUS = BACKEND / "When-in-Rome" / "Corpus" / "OpenScore-LiederCorpus"
 
@@ -53,10 +53,12 @@ MUSIC21_DROP = re.compile(r"^music21/(corpus/.*(?<!\.py)|audioSearch/.*\.wav|omr
 
 
 def main():
+    global OUT
+    parser = argparse.ArgumentParser(description="Prepare the files for the in-browser apps.")
+    parser.add_argument("--out", type=Path, default=OUT, help="default: %(default)s")
+    OUT = parser.parse_args().out.resolve()
     shutil.rmtree(OUT, ignore_errors=True)
-    shutil.rmtree(DATA_OUT, ignore_errors=True)
     OUT.mkdir(parents=True)
-    DATA_OUT.mkdir(parents=True)
 
     wheels = [write_wheel(name) for name in WHEELS]
     copy_app_code()
@@ -65,7 +67,7 @@ def main():
     lieder = write_lieder()
     modules = sorted(p.name for p in (OUT / "app").iterdir())
     write_json(OUT / "manifest.json", {"wheels": wheels, "modules": modules, "songs": len(lieder)})
-    print("Wrote the in-browser apps' files to " + str(OUT.relative_to(SITE)))
+    print("Wrote the in-browser apps' files to " + str(OUT))
 
 
 def uv_lock_wheel(name):
@@ -110,10 +112,11 @@ def write_wheel(name):
 def trim_music21(content):
     """Return the music21 wheel without the files in MUSIC21_DROP.
 
-    Also writes the chorales that _data/chorales.json lists, from music21's
-    corpus, to chorales/.
+    Also writes the chorales that browser-apps-chorales.json lists, from
+    music21's corpus, to chorales/, and the list to chorales.json.
     """
-    chorales = json.loads((SITE / "_data" / "chorales.json").read_text(encoding="utf-8"))
+    chorales = json.loads((BACKEND / "scripts" / "browser-apps-chorales.json").read_text(encoding="utf-8"))
+    write_json(OUT / "chorales.json", chorales)
     wanted = {"music21/corpus/bach/" + c["file"]: c["file"] for c in chorales}
     (OUT / "chorales").mkdir()
     out = io.BytesIO()
@@ -216,7 +219,6 @@ def write_lieder():
             if lieder[-1]["wih"]:
                 shutil.copy(song / "template.txt", destination / "template.txt")
     lieder.sort(key=lambda song: natural_key(song["name"]))
-    write_json(DATA_OUT / "lieder.json", lieder)
     write_json(OUT / "lieder.json", lieder)
     print("Indexed %d songs" % len(lieder))
     return lieder
