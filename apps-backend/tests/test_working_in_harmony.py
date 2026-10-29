@@ -1,3 +1,4 @@
+import io
 import os
 import re
 import urllib.parse
@@ -160,6 +161,184 @@ def test_viewing_a_missing_result_is_not_found(client):
     assert client.get("/apps/working-in-harmony/view/x/result.mxl").status_code == 404
 
 
+UPLOAD = "/apps/working-in-harmony/upload/"
+
+
+@pytest.fixture
+def analysed_song(song):
+    """The test song with an analysis on a new, lowest part."""
+    from music21 import clef, meter, note, stream
+
+    part = stream.Part()
+    part.partName = "Analysis"
+    for number, lyric in enumerate(["C: I", "I", "V", "IV", "I", "I"], 1):
+        measure = stream.Measure(number=number)
+        if number == 1:
+            measure.append(clef.BassClef())
+            measure.append(meter.TimeSignature("4/4"))
+        n = note.Note("C3", quarterLength=4)
+        n.lyric = lyric
+        measure.append(n)
+        part.append(measure)
+    song.insert(0, part)
+    return song
+
+
+def score_bytes(score, tmp_path, fmt="mxl", extension=".mxl"):
+    path = tmp_path / ("upload" + extension)
+    score.write(fmt, fp=str(path))
+    return path.read_bytes()
+
+
+def upload(client, data, filename="song.mxl"):
+    return client.post(
+        UPLOAD,
+        data={"score": (io.BytesIO(data), filename)},
+        content_type="multipart/form-data",
+    )
+
+
+def test_selection_links_to_the_upload(client):
+    response = client.get("/apps/working-in-harmony/")
+
+    assert f'href="{UPLOAD}"'.encode() in response.data
+
+
+def test_upload_page_has_a_file_form(client):
+    response = client.get(UPLOAD)
+
+    assert response.status_code == 200
+    assert b'enctype="multipart/form-data"' in response.data
+    assert b'type="file"' in response.data
+
+
+@requires_roman_umpire
+@pytest.mark.parametrize("fmt, filename", [
+    ("mxl", "song.mxl"),
+    ("musicxml", "song.musicxml"),
+    ("musicxml", "Song.XML"),
+])
+def test_uploaded_analysis_shows_feedback_and_the_annotated_score(client, analysed_song, tmp_path, fmt, filename):
+    data = score_bytes(analysed_song, tmp_path, fmt, "." + filename.split(".")[-1].lower())
+
+    response = upload(client, data, filename)
+
+    assert response.status_code == 200
+    assert b'class="error"' not in response.data
+    assert b'class="feedback"' in response.data
+    assert b"PITCH COVERAGE" in response.data
+    match = re.search(rb'href="(/apps/working-in-harmony/download/upload/\w+/result\.mxl)\?download=1"', response.data)
+    assert match
+    download = client.get(match.group(1).decode())
+    assert download.status_code == 200
+    assert download.data[:2] == b"PK"
+    view_url = match.group(1).decode().replace("/download/", "/view/")
+    assert f'href="{view_url}"'.encode() in response.data
+    assert client.get(view_url).status_code == 200
+
+
+@requires_roman_umpire
+def test_feedback_points_out_wrong_chords(client, analysed_song, tmp_path):
+    """Bar 2 has C major in the piano, not ii."""
+    analysed_song.parts[-1].measure(2).notes[0].lyric = "ii"
+
+    response = upload(client, score_bytes(analysed_song, tmp_path))
+
+    assert b'class="feedback"' in response.data
+    assert b"Total cases: 1" in response.data
+
+
+@requires_roman_umpire
+def test_uploading_the_same_score_again_reuses_the_result(client, analysed_song, tmp_path, monkeypatch):
+    data = score_bytes(analysed_song, tmp_path)
+    first = upload(client, data)
+    monkeypatch.setattr("app.routes._write_feedback", lambda *a, **k: pytest.fail("analysed again"))
+
+    second = upload(client, data)
+
+    assert second.data == first.data
+
+
+def test_upload_reports_a_missing_analysis(client, song, tmp_path):
+    from app.on_score_validator import NO_LYRICS
+
+    response = upload(client, score_bytes(song, tmp_path))
+
+    assert response.status_code == 200
+    assert NO_LYRICS.encode() in response.data.replace(b"&#39;", b"'")
+    assert b'class="feedback"' not in response.data
+
+
+def test_upload_reports_bad_lyrics(client, analysed_song, tmp_path):
+    from app.on_score_validator import NOT_A_ROMAN_NUMERAL
+
+    analysed_song.parts[-1].measure(3).notes[0].lyric = "la"
+
+    response = upload(client, score_bytes(analysed_song, tmp_path))
+
+    message = NOT_A_ROMAN_NUMERAL.format(measure=3, lyric="la")
+    assert message.encode() in response.data.replace(b"&#34;", b'"')
+
+
+def test_upload_needs_a_file(client):
+    response = client.post(UPLOAD, data={}, content_type="multipart/form-data")
+
+    assert response.status_code == 200
+    assert b"field-error" in response.data
+
+
+def test_upload_rejects_other_file_types(client):
+    response = upload(client, b"m1 C: I\n", "analysis.txt")
+
+    assert b"Upload a MusicXML file" in response.data
+    assert b'class="feedback"' not in response.data
+
+
+@pytest.mark.parametrize("data, filename, message", [
+    (b"not a zip", "song.mxl", b"not a compressed MusicXML"),
+    (b"<not musicxml", "song.musicxml", b"could not be read as MusicXML"),
+])
+def test_upload_rejects_unreadable_files(client, data, filename, message):
+    response = upload(client, data, filename)
+
+    assert response.status_code == 200
+    assert message in response.data
+
+
+def test_upload_rejects_a_score_that_unzips_too_large(app, client, analysed_song, tmp_path):
+    app.config["WIH_MAX_UNZIPPED_SIZE"] = 1000
+
+    response = upload(client, score_bytes(analysed_song, tmp_path))
+
+    assert b"The score is too large." in response.data
+
+
+def test_upload_rejects_a_file_over_the_limit(app, client):
+    app.config["MAX_CONTENT_LENGTH"] = 1024 * 1024
+
+    response = upload(client, b"x" * (1024 * 1024 + 1))
+
+    assert response.status_code == 413
+    assert b"The file is too large: the limit is 1 MB." in response.data
+    assert b'type="file"' in response.data
+
+
+WOLF_EXAMPLE = os.path.join(
+    os.path.dirname(__file__), "..", "..", "working-in-harmony-backend", "app",
+    "Wolf_Hugo_-_Eichendorff-Lieder_Der verzweifelte Liebhaber.mxl",
+)
+
+
+@requires_roman_umpire
+def test_the_example_from_the_analysis_notes(client):
+    """The on-score example linked from working-in-harmony/analysis.md."""
+    with open(WOLF_EXAMPLE, "rb") as f:
+        response = upload(client, f.read(), os.path.basename(WOLF_EXAMPLE))
+
+    assert b'class="error"' not in response.data
+    assert b'class="feedback"' in response.data
+
+
 def test_an_analysis_that_takes_too_long_is_stopped(app, client, lied, monkeypatch):
     import time
 
@@ -238,3 +417,56 @@ def test_an_incomplete_result_from_before_is_replaced(app, tmp_path):
     assert _run_analysis(lambda directory: write_result(directory) or [], directory) == []
     assert open(os.path.join(directory, "feedback.txt")).read() == "Feedback"
     assert sorted(os.listdir(tmp_path / "song")) == ["hash", "hash.lock"]
+
+
+def test_an_upload_that_takes_too_long_is_stopped(app, client, monkeypatch):
+    import time
+
+    def slow(data, extension, directory):
+        write_result(directory)
+        time.sleep(5)
+        return []
+
+    monkeypatch.setattr("app.routes._working_in_harmony_upload_process", slow)
+    app.config["WIH_TIME_LIMIT"] = 0.5
+
+    response = upload(client, b"PK not really", "song.mxl")
+
+    assert b"the analysis took too long (over 0.5 seconds)" in response.data
+    assert b'class="feedback"' not in response.data
+    with client.session_transaction() as session:
+        wih_dir = os.path.join(app.config["WIH_WRITABLE_PATH"], session["wih_id"])
+    assert not any(files for _, _, files in os.walk(wih_dir))
+
+
+@requires_roman_umpire
+def test_an_uploaded_score_is_not_given_a_piano_brace(client, tmp_path):
+    """romanUmpire braces parts 2 and 3 of 4 as a piano, for the lieder."""
+    from music21 import converter, layout, meter, note, stream
+
+    score = stream.Score()
+    for name, pitches, lyrics in [
+        ("Violin", ["E5", "F5", "D5", "E5"], None),
+        ("Viola", ["G4", "A4", "B4", "G4"], None),
+        ("Cello", ["C3", "F2", "G2", "C3"], None),
+        ("Analysis", ["C3"] * 4, ["C: I", "IV", "V", "I"]),
+    ]:
+        part = stream.Part()
+        part.partName = name
+        for number, pitch in enumerate(pitches, 1):
+            measure = stream.Measure(number=number)
+            if number == 1:
+                measure.append(meter.TimeSignature("4/4"))
+            n = note.Note(pitch, quarterLength=4)
+            if lyrics:
+                n.lyric = lyrics[number - 1]
+            measure.append(n)
+            part.append(measure)
+        score.insert(0, part)
+
+    response = upload(client, score_bytes(score, tmp_path))
+
+    match = re.search(rb'href="(/apps/working-in-harmony/download/upload/\w+/result\.mxl)\?download=1"', response.data)
+    result = tmp_path / "result.mxl"
+    result.write_bytes(client.get(match.group(1).decode()).data)
+    assert list(converter.parse(str(result)).recurse().getElementsByClass(layout.StaffGroup)) == []

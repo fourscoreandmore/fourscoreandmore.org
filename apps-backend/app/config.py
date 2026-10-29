@@ -15,5 +15,9 @@ class Config(object):
     LIEDER_INDEX_PATH = os.path.join(appRoot, "resources/scores/lieder.jsonl")
     CORPUS_DOWNLOAD_PATH = os.path.join(appRoot, "When-in-Rome/Corpus/OpenScore-LiederCorpus")
     WIH_WRITABLE_PATH = os.path.join(appRoot, "wih-writable")
+    # Working in Harmony score uploads; other forms post far less.
+    MAX_CONTENT_LENGTH = 10 * 1024 * 1024
+    # The most an uploaded .mxl may unzip to.
+    WIH_MAX_UNZIPPED_SIZE = 50 * 1024 * 1024
     # Seconds a Working in Harmony analysis may take before it's stopped.
     WIH_TIME_LIMIT = 60

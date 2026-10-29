@@ -9,13 +9,18 @@ from flask import (
 from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
+from app.on_score_validator import find_on_score_errors
 from app.roman_text_validator import validate_roman_text
 from app.time_limit import TimeLimitExceeded, run_with_time_limit
+from music21 import converter, stream
+from werkzeug.exceptions import RequestEntityTooLarge
 from werkzeug.utils import safe_join
 import fcntl
 import hashlib
+import io
 import shutil
 import tempfile
+import zipfile
 import uuid
 import urllib
 import os
@@ -385,10 +390,20 @@ def _working_in_harmony_process(lied, analysis, directory):
     with open(romantext_filename, "w") as romantext_file:
         romantext_file.write(analysis)
 
+    return _write_feedback(
+        directory, scoreOrData=filename, analysisLocation=romantext_filename
+    )
+
+
+def _write_feedback(directory, lieder=True, **score_and_analysis):
+    """Write feedback.txt and result.mxl to directory, returning any errors.
+
+    lieder: whether to brace the second and third of four parts as a piano.
+    """
+    errors = []
+
     try:
-        analysis = romanUmpire.ScoreAndAnalysis(
-            scoreOrData=filename, analysisLocation=romantext_filename
-        )
+        analysis = romanUmpire.ScoreAndAnalysis(**score_and_analysis)
     except:
         logging.exception("Failed to load analysis or score")
         errors.append("Failed to load analysis or score")
@@ -402,9 +417,113 @@ def _working_in_harmony_process(lied, analysis, directory):
         return errors
 
     try:
-        analysis.writeScoreWithAnalysis(outPath=directory, outFile="result")
+        analysis.writeScoreWithAnalysis(outPath=directory, outFile="result", lieder=lieder)
     except:
         logging.exception("Failed to write analysis to a score")
         errors.append("Failed to write analysis to a score")
 
     return errors
+
+
+UPLOAD_URL = "/apps/working-in-harmony/upload/"
+
+
+def _render_upload(form, download=(), errors=(), feedback=""):
+    return render_template(
+        "working-in-harmony-upload-form.html",
+        back="/apps/working-in-harmony/",
+        form=form,
+        form_enctype="multipart/form-data",
+        download=list(download),
+        errors=list(errors),
+        feedback=feedback,
+    )
+
+
+@app.route(UPLOAD_URL, methods=["GET", "POST"])
+def working_in_harmony_upload():
+    form = WorkingInHarmonyUploadForm()
+    download = []
+    errors = []
+    feedback = ""
+
+    if form.validate_on_submit():
+        data = form.score.data.read()
+        extension = os.path.splitext(form.score.data.filename)[1].lower()
+        relative_directory = "upload/" + hashlib.sha512(data).hexdigest()[:16]
+        session["wih_id"] = session.get("wih_id", str(uuid.uuid4()))
+        directory = os.path.join(
+            app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), relative_directory
+        )
+        errors = _run_analysis(
+            _working_in_harmony_upload_process, data, extension, directory
+        )
+        if errors == []:
+            with open(os.path.join(directory, "feedback.txt"), "r") as feedback_file:
+                feedback = feedback_file.read()
+            result = os.path.join(relative_directory, "result.mxl")
+            download.append(
+                (
+                    "Score with feedback",
+                    "/apps/working-in-harmony/download/" + result,
+                    "/apps/working-in-harmony/view/" + result,
+                )
+            )
+
+    return _render_upload(form, download, errors, feedback)
+
+
+@app.errorhandler(RequestEntityTooLarge)
+def request_too_large(e):
+    if request.path != UPLOAD_URL:
+        return e
+    # formdata=None: the form mustn't read the request again.
+    form = WorkingInHarmonyUploadForm(formdata=None)
+    max_mb = app.config["MAX_CONTENT_LENGTH"] // (1024 * 1024)
+    return _render_upload(form, errors=[f"The file is too large: the limit is {max_mb} MB."]), 413
+
+
+def _mxl_error(data):
+    """Return a message if data isn't a compressed MusicXML file of a sensible size."""
+    try:
+        with zipfile.ZipFile(io.BytesIO(data)) as mxl:
+            size = sum(info.file_size for info in mxl.infolist())
+    except zipfile.BadZipFile:
+        return "The file is not a compressed MusicXML (.mxl) file."
+    if size > app.config["WIH_MAX_UNZIPPED_SIZE"]:
+        return "The score is too large."
+    return None
+
+
+def _working_in_harmony_upload_process(data, extension, directory):
+    """Analyse an uploaded score with the analysis on it as lyrics."""
+    if extension == ".mxl":
+        error = _mxl_error(data)
+        if error:
+            return [error]
+    else:
+        # music21 picks a parser by extension and doesn't know .xml.
+        extension = ".musicxml"
+
+    os.makedirs(directory, exist_ok=True)
+    score_filename = os.path.join(directory, "upload" + extension)
+    with open(score_filename, "wb") as score_file:
+        score_file.write(data)
+
+    try:
+        # Uploads are parsed once, so skip music21's cache of parsed files.
+        score = converter.parse(
+            score_filename, format="musicxml", forceSource=True, storePickle=False
+        )
+    except Exception:
+        logging.exception("Failed to parse an uploaded score")
+        return ["The file could not be read as MusicXML."]
+    if not isinstance(score, stream.Score):
+        return ["The file could not be read as a single score."]
+
+    errors = find_on_score_errors(score)
+    if errors:
+        return errors
+
+    # An uploaded score keeps its own layout (it may not be a song).
+    return _write_feedback(directory, lieder=False, scoreOrData=score)
