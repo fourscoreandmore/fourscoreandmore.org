@@ -17,7 +17,7 @@ title: Working in Harmony - App
 
   <div class="form-actions">
     <a class="btn btn-default" href="">Reset</a>
-    <input class="btn btn-primary" type="submit" value="Continue">
+    <input class="btn btn-primary" type="submit" value="Continue" disabled>
   </div>
 </form>
 
@@ -35,5 +35,6 @@ title: Working in Harmony - App
     BrowserApps.fillSelect(document.getElementById("song"), lieder.filter(function (song) { return song.wih; }), function (song) {
       return { value: song.dir, text: song.name };
     });
+    document.querySelector("form [type=submit]").disabled = false;
   });
 </script>

@@ -14,6 +14,8 @@ var BrowserApps = (function () {
   var state = { name: "loading", text: "Loading…" };
   // A failure to load what the page needs besides the app (e.g. a list).
   var pageFailure = null;
+  // How many lists are still loading: until they have, the forms are too.
+  var listsLoading = 0;
   var busy = false;
   var tasks = {};
   var nextId = 0;
@@ -21,7 +23,8 @@ var BrowserApps = (function () {
   // Show the state (or that a task is running) on each app form.
   function render() {
     // A page failure shows as the app failing to load.
-    var shown = pageFailure ? { name: "failed", text: pageFailure } : state;
+    var shown = pageFailure ? { name: "failed", text: pageFailure }
+      : listsLoading && state.name === "ready" ? { name: "loading", text: "Loading the list…" } : state;
     document.querySelectorAll("form[data-browser-app]").forEach(function (form) {
       var button = form.querySelector("[type=submit]");
       button.dataset.label = button.dataset.label || button.value;
@@ -33,7 +36,8 @@ var BrowserApps = (function () {
       status.classList.toggle("busy", busy || shown.name === "loading");
       status.classList.toggle("error", !busy && shown.name === "failed");
       status.textContent = busy ? form.dataset.busy || "Working…"
-        : shown.name === "loading" ? shown.text + " The first time, this downloads about 12 MB, so it can take a while."
+        : shown.name === "loading" ? shown.text
+          + (state.name === "loading" ? " The first time, this downloads about 12 MB, so it can take a while." : "")
         : shown.name === "failed" ? "Sorry, the app couldn't load (" + shown.text + "). Try reloading the page."
         : "";
       status.hidden = !status.textContent;
@@ -176,16 +180,23 @@ var BrowserApps = (function () {
   // Resolve with the list (chorales or lieder) that build-browser-apps.py wrote,
   // or with null if it can't be loaded, which the forms then show.
   function list(name) {
+    if (lists[name]) return lists[name];
+    listsLoading++;
     // Fresh, as it can change with each build.
-    lists[name] = lists[name] || fetch("/browser-apps/generated/" + name + ".json", { cache: "no-cache" })
+    lists[name] = fetch("/browser-apps/generated/" + name + ".json", { cache: "no-cache" })
       .then(function (response) {
         if (!response.ok) throw new Error(response.status);
         return response.json();
       })
       .catch(function (error) {
         pageFailure = "couldn't load the list of " + name + ": " + error.message;
-        render();
         return null;
+      })
+      .then(function (items) {
+        listsLoading--;
+        // After the page's own handler, which fills the form.
+        setTimeout(render);
+        return items;
       });
     return lists[name];
   }
