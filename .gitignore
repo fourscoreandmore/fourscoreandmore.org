@@ -8,3 +8,7 @@ _site
 !/.github
 !/apps-backend/.environment
 !/apps-backend/.python-version
+
+# Written by apps-backend/scripts/build-browser-apps.py
+/browser-apps/generated
+/apps-backend/browser-apps-generated

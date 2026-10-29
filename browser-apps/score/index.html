@@ -1,0 +1,74 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Four Score and More | Displaying a score</title>
+<link rel="stylesheet" href="/browser-apps/generated/static/main.css" />
+<style type="text/css">
+div#container {
+  width: 840px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+</style>
+<script type="text/javascript" src="/browser-apps/generated/static/opensheetmusicdisplay.min.js"></script>
+</head>
+<body>
+  <noscript>
+    <p>To see the score, turn on JavaScript, or download it from the page you came from.</p>
+  </noscript>
+  <p id="missing" hidden>
+    This score is no longer available: a score made in your browser can be viewed only until
+    the page that made it is closed or shows new results. To see it again, make it again there.
+  </p>
+  <p id="failed" hidden>
+    Sorry, this score couldn't be displayed. Try downloading it instead, from the page you came from.
+  </p>
+  <div id="container"></div>
+  <script type="text/javascript">
+    // As apps-backend/app/templates/display-music.html, but with the score's
+    // URL (perhaps a blob: URL from the page that made it) from ?f=.
+    var params = new URLSearchParams(location.search);
+    if (params.get("name")) document.title = "Four Score and More | Displaying: " + params.get("name");
+    // Part abbreviations ("Pno", ...) on later systems take width from the
+    // music, which fits fewer bars per line on phones.
+    var osmd = new opensheetmusicdisplay.OpenSheetMusicDisplay("container", {
+      drawPartAbbreviations: false
+    });
+    // Fetch it here (rather than osmd.load(url)), to tell when it's gone.
+    fetch(params.get("f"))
+      .then(function (response) {
+        if (!response.ok) throw new Error(response.status);
+        return response.blob();
+      })
+      .catch(function () {
+        document.getElementById("missing").hidden = false;
+        return null;
+      })
+      .then(function (score) {
+        if (!score) return;
+        return osmd.load(score).then(
+          function() {
+            var autoZoom = function () {
+              var viewPortWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+              osmd.zoom = viewPortWidth < 480 ? 0.6 : 0.8;
+            };
+            window.addEventListener("resize", autoZoom, {passive: true});
+            autoZoom();
+            osmd.autoResize();
+            osmd.render();
+          }
+        );
+      })
+      .catch(function (error) {
+        console.error(error);
+        document.getElementById("failed").hidden = false;
+      });
+  </script>
+</body>
+</html>
