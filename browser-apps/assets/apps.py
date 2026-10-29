@@ -9,7 +9,7 @@ with the same app modules.
 import logging
 import os
 
-from app import exercises, romanUmpire
+from app import exercises
 from app.roman_text_validator import validate_roman_text
 
 OUT = "/tmp/out"
@@ -55,6 +55,10 @@ def lied(path, name, preserve_rest_bars, rest_length, preserve_bass, addition, h
 
 def working_in_harmony(path, analysis):
     """As _working_in_harmony_process in routes.py."""
+    # Imported here: a build without the When-in-Rome submodule (e.g. in CI)
+    # has no romanUmpire.py, and the exercise generators should still work.
+    from app import romanUmpire
+
     def failed(message):
         return {"errors": [message], "files": [], "feedback": ""}
 

@@ -71,10 +71,22 @@ title: Lieder Exercise Generator
     // As the Flask form's validator (AnyOf in app/forms.py).
     var harmonicRhythms = [0.25, 0.5, 1, 1.5, 2, 3, 4];
     var harmonicRhythm = form.elements.harmonicRhythm;
-    harmonicRhythm.addEventListener("input", function () {
+    function checkHarmonicRhythm() {
       harmonicRhythm.setCustomValidity(harmonicRhythms.indexOf(Number(harmonicRhythm.value)) >= 0
         ? "" : "Invalid value, must be one of: " + harmonicRhythms.join(", ") + ".");
-    });
+    }
+    harmonicRhythm.addEventListener("input", checkHarmonicRhythm);
+
+    // lieder-form.js hides the fields that don't apply. Disable them too, so
+    // that an invalid value in a hidden field can't block the form.
+    function disableInactiveFields() {
+      form.elements.restLength.disabled = !form.elements.preserveRestBars.checked;
+      harmonicRhythm.disabled = form.elements.addition.value !== "chordHints";
+      checkHarmonicRhythm();
+    }
+    form.elements.preserveRestBars.addEventListener("change", disableInactiveFields);
+    form.elements.addition.addEventListener("change", disableInactiveFields);
+    disableInactiveFields();
 
     BrowserApps.onSubmit(form, function (form) {
       var data = new FormData(form);
@@ -86,10 +98,11 @@ title: Lieder Exercise Generator
       return BrowserApps.run("lied", "/browser-apps/generated/lieder/" + form.elements.originalScore.selectedOptions[0].dataset.id + "/score.mxl", [
         name,
         data.has("preserveRestBars"),
-        Number(data.get("restLength")),
+        // The Flask form's defaults when disabled (they're unused then).
+        Number(data.get("restLength") || 2),
         data.has("preserveBass"),
         data.get("addition"),
-        Number(data.get("harmonicRhythm")),
+        Number(data.get("harmonicRhythm") || 1),
       ], timeLimit).then(function (result) {
         BrowserApps.show(results, result.errors, BrowserApps.downloads(result));
       }, function (error) {
