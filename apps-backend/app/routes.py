@@ -395,8 +395,11 @@ def _working_in_harmony_process(lied, analysis, directory):
     )
 
 
-def _write_feedback(directory, **score_and_analysis):
-    """Write feedback.txt and result.mxl to directory, returning any errors."""
+def _write_feedback(directory, lieder=True, **score_and_analysis):
+    """Write feedback.txt and result.mxl to directory, returning any errors.
+
+    lieder: whether to brace the second and third of four parts as a piano.
+    """
     errors = []
 
     try:
@@ -414,7 +417,7 @@ def _write_feedback(directory, **score_and_analysis):
         return errors
 
     try:
-        analysis.writeScoreWithAnalysis(outPath=directory, outFile="result")
+        analysis.writeScoreWithAnalysis(outPath=directory, outFile="result", lieder=lieder)
     except:
         logging.exception("Failed to write analysis to a score")
         errors.append("Failed to write analysis to a score")
@@ -522,4 +525,5 @@ def _working_in_harmony_upload_process(data, extension, directory):
     if errors:
         return errors
 
-    return _write_feedback(directory, scoreOrData=score)
+    # An uploaded score keeps its own layout (it may not be a song).
+    return _write_feedback(directory, lieder=False, scoreOrData=score)

@@ -437,3 +437,36 @@ def test_an_upload_that_takes_too_long_is_stopped(app, client, monkeypatch):
     with client.session_transaction() as session:
         wih_dir = os.path.join(app.config["WIH_WRITABLE_PATH"], session["wih_id"])
     assert not any(files for _, _, files in os.walk(wih_dir))
+
+
+@requires_roman_umpire
+def test_an_uploaded_score_is_not_given_a_piano_brace(client, tmp_path):
+    """romanUmpire braces parts 2 and 3 of 4 as a piano, for the lieder."""
+    from music21 import converter, layout, meter, note, stream
+
+    score = stream.Score()
+    for name, pitches, lyrics in [
+        ("Violin", ["E5", "F5", "D5", "E5"], None),
+        ("Viola", ["G4", "A4", "B4", "G4"], None),
+        ("Cello", ["C3", "F2", "G2", "C3"], None),
+        ("Analysis", ["C3"] * 4, ["C: I", "IV", "V", "I"]),
+    ]:
+        part = stream.Part()
+        part.partName = name
+        for number, pitch in enumerate(pitches, 1):
+            measure = stream.Measure(number=number)
+            if number == 1:
+                measure.append(meter.TimeSignature("4/4"))
+            n = note.Note(pitch, quarterLength=4)
+            if lyrics:
+                n.lyric = lyrics[number - 1]
+            measure.append(n)
+            part.append(measure)
+        score.insert(0, part)
+
+    response = upload(client, score_bytes(score, tmp_path))
+
+    match = re.search(rb'href="(/apps/working-in-harmony/download/upload/\w+/result\.mxl)\?download=1"', response.data)
+    result = tmp_path / "result.mxl"
+    result.write_bytes(client.get(match.group(1).decode()).data)
+    assert list(converter.parse(str(result)).recurse().getElementsByClass(layout.StaffGroup)) == []

@@ -26,7 +26,12 @@ MAX_ERRORS = 20
 
 
 def normalize_lyric(lyric):
-    """Make the same substitutions as romanUmpire's _romanFromLyric."""
+    """Make the same substitutions as romanUmpire's _romanFromLyric.
+
+    As of the When-in-Rome commit the submodule pins. Later versions also split
+    lyrics at "//" (alternative or pivot chords) and newlines: follow them here
+    when the submodule is updated.
+    """
     lyric = lyric.replace(" ", "").replace("\xa0", "")
     lyric = lyric.replace("-", "b")
     lyric = lyric.replace("(", "[").replace(")", "]")
