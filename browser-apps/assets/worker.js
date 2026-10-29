@@ -62,10 +62,14 @@ onmessage = async ({ data: { id, task, score, args } }) => {
     FS.writeFile(path, bytes);
     postMessage({ id, started: true });
     const run = apps[task];
-    const proxy = run(path, ...args);
-    const result = proxy.toJs({ dict_converter: Object.fromEntries });
-    proxy.destroy();
-    run.destroy();
+    let proxy, result;
+    try {
+      proxy = run(path, ...args);
+      result = proxy.toJs({ dict_converter: Object.fromEntries });
+    } finally {
+      proxy?.destroy();
+      run?.destroy();
+    }
     for (const file of result.files) {
       file.data = FS.readFile(file.path);
       file.name = file.path.split("/").pop();
