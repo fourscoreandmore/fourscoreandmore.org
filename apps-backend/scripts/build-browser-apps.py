@@ -70,7 +70,7 @@ def main():
 
 def uv_lock_wheel(name):
     """Return the (url, sha256) of package name's pure-Python wheel in uv.lock."""
-    lock = (BACKEND / "uv.lock").read_text()
+    lock = (BACKEND / "uv.lock").read_text(encoding="utf-8")
     for block in lock.split("[[package]]"):
         if re.search(r'^name = "%s"$' % re.escape(name), block, re.M):
             match = re.search(r'url = "([^"]+-py3-none-any\.whl)", hash = "sha256:([0-9a-f]+)"', block)
@@ -113,7 +113,7 @@ def trim_music21(content):
     Also writes the chorales that _data/chorales.json lists, from music21's
     corpus, to chorales/.
     """
-    chorales = json.loads((SITE / "_data" / "chorales.json").read_text())
+    chorales = json.loads((SITE / "_data" / "chorales.json").read_text(encoding="utf-8"))
     wanted = {"music21/corpus/bach/" + c["file"]: c["file"] for c in chorales}
     (OUT / "chorales").mkdir()
     out = io.BytesIO()
@@ -155,7 +155,7 @@ def copy_static_files():
 
 def write_osmd():
     """Write OpenSheetMusicDisplay, the version in pnpm-lock.yaml (as the Flask app uses)."""
-    lock = (BACKEND / "pnpm-lock.yaml").read_text()
+    lock = (BACKEND / "pnpm-lock.yaml").read_text(encoding="utf-8")
     match = re.search(r"^  opensheetmusicdisplay@([^:]+):\n    resolution: \{integrity: sha512-([^}]+)\}", lock, re.M)
     if not match:
         sys.exit("No opensheetmusicdisplay in pnpm-lock.yaml")
@@ -167,9 +167,18 @@ def write_osmd():
     (OUT / "static" / "opensheetmusicdisplay.min.js").write_bytes(build)
 
 
+def utf8(path):
+    """Return path as a str, decoded as UTF-8 whatever the locale.
+
+    Without a UTF-8 locale (as in some build containers), Python decodes
+    non-ASCII filenames with surrogate escapes, which can't be written out.
+    """
+    return os.fsencode(str(path)).decode("utf-8")
+
+
 def clean_path(name):
     # As app/indexer.py does.
-    return name.replace("_", " ").strip()
+    return utf8(name).replace("_", " ").strip()
 
 
 def natural_key(text):
@@ -189,7 +198,7 @@ def write_lieder():
     else:
         for score in LIEDER_CORPUS.rglob("score.mxl"):
             song = score.parent
-            relative_dir = song.relative_to(LIEDER_CORPUS).as_posix()
+            relative_dir = utf8(song.relative_to(LIEDER_CORPUS).as_posix())
             files = os.listdir(song)
             parts = [clean_path(song.parent.parent.name), clean_path(song.parent.name), clean_path(song.name)]
             lieder.append({
@@ -214,7 +223,7 @@ def write_lieder():
 
 
 def write_json(path, data):
-    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":
