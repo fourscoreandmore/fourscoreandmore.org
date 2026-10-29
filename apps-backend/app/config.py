@@ -15,3 +15,5 @@ class Config(object):
     LIEDER_INDEX_PATH = os.path.join(appRoot, "resources/scores/lieder.jsonl")
     CORPUS_DOWNLOAD_PATH = os.path.join(appRoot, "When-in-Rome/Corpus/OpenScore-LiederCorpus")
     WIH_WRITABLE_PATH = os.path.join(appRoot, "wih-writable")
+    # Seconds a Working in Harmony analysis may take before it's stopped.
+    WIH_TIME_LIMIT = 60

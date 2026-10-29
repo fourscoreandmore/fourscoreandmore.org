@@ -4,6 +4,7 @@ import errno
 import music21
 import os
 import re
+import tempfile
 
 
 def mkdir_simple(directory):
@@ -12,6 +13,23 @@ def mkdir_simple(directory):
     except OSError as e:
         if e.errno != errno.EEXIST:
             raise
+
+
+def write_musicxml(stream, path):
+    """Write stream to path as MusicXML, via a temporary file.
+
+    Exercises are shared between requests, which Gunicorn handles in parallel,
+    so another request mustn't find the file half-written.
+    """
+    fd, temporary_path = tempfile.mkstemp(
+        prefix=".partial-", suffix=".xml", dir=os.path.dirname(path))
+    os.close(fd)
+    try:
+        stream.write(fmt="musicxml", fp=temporary_path)
+        os.replace(temporary_path, path)
+    finally:
+        if os.path.exists(temporary_path):
+            os.unlink(temporary_path)
 
 
 class ExerciseBase(object):
@@ -116,13 +134,13 @@ class ChoraleExercise(ExerciseBase):
 
         exercise_xml_path = prefix + "-exercise.xml"
         if not self.can_use_saved_file(exercise_xml_path):
-            self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
+            write_musicxml(self.exercise, exercise_xml_path)
         files.append((self.score_name + ": Exercise (MusicXML file)",
                       exercise_xml_path))
 
         solution_xml_path = prefix + "-solution.xml"
         if not self.can_use_saved_file(solution_xml_path):
-            self.solution.write(fmt="musicxml", fp=solution_xml_path)
+            write_musicxml(self.solution, solution_xml_path)
         files.append((self.score_name + ": Solution (MusicXML file)",
                       solution_xml_path))
 
@@ -184,7 +202,7 @@ class LiedExercise(ExerciseBase):
 
         exercise_xml_path = prefix + "-exercise.xml"
         if not self.can_use_saved_file(exercise_xml_path):
-            self.exercise.write(fmt="musicxml", fp=exercise_xml_path)
+            write_musicxml(self.exercise, exercise_xml_path)
         files.append((self.score_name + ": Exercise (MusicXML file)",
                       exercise_xml_path))
 

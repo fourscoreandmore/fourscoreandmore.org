@@ -10,8 +10,12 @@ from app import app
 from app.forms import *
 from app import scores, TheoryExercises, exercises, romanUmpire
 from app.roman_text_validator import validate_roman_text
+from app.time_limit import TimeLimitExceeded, run_with_time_limit
 from werkzeug.utils import safe_join
+import fcntl
 import hashlib
+import shutil
+import tempfile
 import uuid
 import urllib
 import os
@@ -290,7 +294,9 @@ def working_in_harmony_analysis(score=""):
         directory = os.path.join(
             app.config["WIH_WRITABLE_PATH"], session.get("wih_id"), relative_directory
         )
-        errors = _working_in_harmony_process(lied, form.analysis.data, directory)
+        errors = _run_analysis(
+            _working_in_harmony_process, lied, form.analysis.data, directory
+        )
         if errors == []:
             with open(os.path.join(directory, "feedback.txt"), "r") as feedback_file:
                 feedback = feedback_file.read()
@@ -314,20 +320,59 @@ def working_in_harmony_analysis(score=""):
     )
 
 
+def _run_analysis(process, *args):
+    """Run a Working in Harmony process(*args, directory) under a time limit.
+
+    Returns its errors. The process writes to a new temporary directory, which
+    is renamed to directory only if it succeeds. So directory either holds a
+    finished result or doesn't exist, even if the process fails, is stopped, or
+    runs at the same time as an identical submission (e.g. a double click).
+    """
+    *args, directory = args
+    if _has_result(directory):
+        return []
+
+    parent = os.path.dirname(directory)
+    os.makedirs(parent, exist_ok=True)
+    work_directory = tempfile.mkdtemp(prefix=".partial-", dir=parent)
+    seconds = app.config["WIH_TIME_LIMIT"]
+    try:
+        errors = run_with_time_limit(seconds, process, *args, work_directory)
+    except TimeLimitExceeded:
+        logging.warning("Working in Harmony analysis stopped after %s seconds", seconds)
+        errors = [
+            f"Sorry, the analysis took too long (over {seconds} seconds) and was stopped."
+        ]
+    except RuntimeError:
+        logging.exception("Working in Harmony analysis failed")
+        errors = ["Failed to analyse the score"]
+
+    if errors == []:
+        # Lock so that identical submissions can't publish at the same time.
+        with open(directory + ".lock", "w") as lock:
+            fcntl.flock(lock, fcntl.LOCK_EX)
+            # If an identical submission finished first, use its result.
+            if not _has_result(directory):
+                # Files left by a failure before results were written this way.
+                shutil.rmtree(directory, ignore_errors=True)
+                os.rename(work_directory, directory)
+    shutil.rmtree(work_directory, ignore_errors=True)
+    return errors
+
+
+def _has_result(directory):
+    return all(
+        os.path.isfile(os.path.join(directory, filename))
+        for filename in ("feedback.txt", "result.mxl")
+    )
+
+
 def _working_in_harmony_process(lied, analysis, directory):
     errors = []
 
     filename = scores.normalizeScorePath(
         lied["relative_path"], base_path=app.config["LIEDER_CORPUS_PATH"]
     )
-
-    # Skip if already processed.
-    if (
-        os.path.exists(os.path.join(directory, "analysis.txt"))
-        and os.path.exists(os.path.join(directory, "feedback.txt"))
-        and os.path.exists(os.path.join(directory, "result.mxl"))
-    ):
-        return errors
 
     try:
         validate_roman_text(analysis)
