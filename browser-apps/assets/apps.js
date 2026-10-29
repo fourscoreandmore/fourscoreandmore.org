@@ -182,12 +182,18 @@ var BrowserApps = (function () {
     if (window.jQuery) jQuery(select).trigger("chosen:updated");
   }
 
+  // Start loading the app on a page without an app form, so that the files it
+  // downloads are in the browser's cache by the time the next page needs them.
+  function preload() {
+    if (!worker) startWorker();
+  }
+
   document.addEventListener("DOMContentLoaded", function () {
-    if (document.querySelector("form[data-browser-app]")) startWorker();
+    if (document.querySelector("form[data-browser-app]")) preload();
   });
 
   return {
     run: run, show: show, downloads: downloads, viewUrl: viewUrl, onSubmit: onSubmit, element: element,
-    list: list, fillSelect: fillSelect,
+    list: list, fillSelect: fillSelect, preload: preload,
   };
 })();

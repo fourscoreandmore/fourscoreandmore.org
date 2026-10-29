@@ -22,6 +22,9 @@ title: Working in Harmony - App
 </form>
 
 <script>
+  // The analysis page then starts quicker, from the browser's cache.
+  BrowserApps.preload();
+
   BrowserApps.list("lieder").then(function (lieder) {
     BrowserApps.fillSelect(document.getElementById("song"), lieder.filter(function (song) { return song.wih; }), function (song) {
       return { value: song.dir, text: song.name };
