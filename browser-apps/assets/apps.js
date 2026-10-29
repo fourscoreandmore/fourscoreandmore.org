@@ -2,47 +2,64 @@
 // results, as the Flask app's templates do (macros/downloads.html and
 // macros/errors.html).
 //
-// The worker starts loading when the page does, so it's often ready by the
-// time the form is submitted.
+// The worker starts loading when the page does. Until it's ready, the form's
+// button says so and can't be pressed, and the status line beside it shows the
+// loading step; while a task runs, the button shows the form's data-busy
+// label (e.g. "Generating exercise…").
 var BrowserApps = (function () {
   "use strict";
 
   var worker = null;
-  var loadFailure = null;
+  // "loading", "ready" or "failed", and while loading, the step; or the error.
+  var state = { name: "loading", text: "Loading…" };
+  var busy = false;
   var tasks = {};
   var nextId = 0;
 
-  function status(text) {
-    document.querySelectorAll(".browser-apps-status").forEach(function (element) {
-      element.textContent = text;
-      element.hidden = !text;
+  // Show the state (or that a task is running) on each app form.
+  function render() {
+    document.querySelectorAll("form[data-browser-app]").forEach(function (form) {
+      var button = form.querySelector("[type=submit]");
+      button.dataset.label = button.dataset.label || button.value;
+      button.disabled = busy || state.name !== "ready";
+      button.value = busy ? form.dataset.busy || "Working…"
+        : state.name === "loading" ? "Loading…" : button.dataset.label;
+
+      var status = form.querySelector(".browser-apps-status");
+      status.classList.toggle("busy", busy || state.name === "loading");
+      status.classList.toggle("error", !busy && state.name === "failed");
+      status.textContent = busy ? form.dataset.busy || "Working…"
+        : state.name === "loading" ? state.text + " The first time, this downloads about 12 MB, so it can take a while."
+        : state.name === "failed" ? "Sorry, the app couldn't load (" + state.text + "). Try reloading the page."
+        : "";
+      status.hidden = !status.textContent;
     });
   }
 
+  function setState(name, text) {
+    state = { name: name, text: text };
+    render();
+  }
+
   function startWorker() {
-    loadFailure = null;
+    setState("loading", "Loading…");
     worker = new Worker("/browser-apps/assets/worker.js", { type: "module" });
     worker.onmessage = function (event) {
       var message = event.data;
-      if ("status" in message) {
-        if (message.failed) loadFailure = message.failed;
-        status(message.status);
-        return;
-      }
+      if (message.loading) return setState("loading", message.loading);
+      if (message.ready) return setState("ready", "");
+      if (message.failed) return setState("failed", message.failed);
       var task = tasks[message.id];
       if (!task) return;
-      if (message.started) {
-        task.onStarted();
-        return;
-      }
+      if (message.started) return task.onStarted();
       delete tasks[message.id];
       if (message.error) task.reject(new Error(message.error));
       else task.resolve(message.result);
     };
     worker.onerror = function (event) {
-      loadFailure = event.message || "The app's worker failed to start";
+      setState("failed", event.message || "the app's worker failed to start");
       Object.keys(tasks).forEach(function (id) {
-        tasks[id].reject(new Error(loadFailure));
+        tasks[id].reject(new Error(state.text));
         delete tasks[id];
       });
     };
@@ -54,13 +71,12 @@ var BrowserApps = (function () {
   // stopped and a new one started.
   function run(task, score, args, timeLimit) {
     if (!worker) startWorker();
-    if (loadFailure) return Promise.reject(new Error(loadFailure));
+    if (state.name === "failed") return Promise.reject(new Error(state.text));
     var id = ++nextId;
     return new Promise(function (resolve, reject) {
       var timer = null;
       tasks[id] = {
         onStarted: function () {
-          status("Working…");
           timer = setTimeout(function () {
             delete tasks[id];
             worker.terminate();
@@ -70,8 +86,8 @@ var BrowserApps = (function () {
             reject(error);
           }, timeLimit * 1000);
         },
-        resolve: function (result) { clearTimeout(timer); status(""); resolve(result); },
-        reject: function (error) { clearTimeout(timer); status(""); reject(error); },
+        resolve: function (result) { clearTimeout(timer); resolve(result); },
+        reject: function (error) { clearTimeout(timer); reject(error); },
       };
       worker.postMessage({ id: id, task: task, score: new URL(score, location.href).href, args: args });
     });
@@ -131,15 +147,16 @@ var BrowserApps = (function () {
   }
 
   // Handle form's submission with submit(form), a function that returns a
-  // promise, disabling the form's button until it settles.
+  // promise, showing that it's busy until that settles.
   function onSubmit(form, submit) {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
-      var button = form.querySelector("[type=submit]");
-      button.disabled = true;
+      if (busy || state.name !== "ready") return;
+      busy = true;
+      render();
       Promise.resolve()
         .then(function () { return submit(form); })
-        .finally(function () { button.disabled = false; });
+        .finally(function () { busy = false; render(); });
     });
   }
 

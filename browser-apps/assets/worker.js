@@ -2,8 +2,9 @@
 // thread. apps.js starts this worker, and stops it if a task takes too long.
 //
 // Messages in: {id, task, score, args}: fetch the score (a URL), then run
-// apps.<task>(score path, ...args). Messages out: {status} while loading,
-// {id, started: true} when the task starts, then {id, result} or {id, error}.
+// apps.<task>(score path, ...args). Messages out: {loading} with each step of
+// loading, then {ready: true} or {failed}; and for each task, {id, started:
+// true} when it starts, then {id, result} or {id, error}.
 // Each result file comes back with its "data" (bytes) and "name".
 import { loadPyodide } from "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/pyodide.mjs";
 
@@ -16,9 +17,10 @@ async function fetchOk(url) {
 }
 
 async function start() {
-  postMessage({ status: "Loading Python and music21 (this takes a while the first time)…" });
+  postMessage({ loading: "Loading Python…" });
   const manifest = await (await fetchOk(new URL("manifest.json", GENERATED))).json();
   const pyodide = await loadPyodide();
+  postMessage({ loading: "Loading music21…" });
   // requests (for music21) and attrs (for jsonlines) are Pyodide packages; the
   // other wheels are pinned in uv.lock (see build-browser-apps.py).
   await pyodide.loadPackage(
@@ -38,13 +40,14 @@ async function start() {
   const apps = await (await fetchOk(new URL("apps.py", import.meta.url))).text();
   pyodide.FS.writeFile(home + "/browser_apps.py", apps);
   pyodide.FS.mkdirTree("/tmp/scores");
+  postMessage({ loading: "Starting music21…" });
   return { FS: pyodide.FS, apps: pyodide.pyimport("browser_apps") };
 }
 
 const ready = start();
 ready.then(
-  () => postMessage({ status: "" }),
-  (error) => postMessage({ status: "", failed: String(error) }),
+  () => postMessage({ ready: true }),
+  (error) => postMessage({ failed: error.message || String(error) }),
 );
 
 let scoreNumber = 0;
