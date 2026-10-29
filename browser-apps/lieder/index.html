@@ -1,0 +1,100 @@
+---
+layout: default
+title: Lieder Exercise Generator
+---
+{% include browser-apps/form-assets.html title="Lieder Exercise Generator" server_url="/apps/lieder/" %}
+
+<p><i>Part of <a href="/cut-outs">Cut Outs</a></i></p>
+<p>This generates music theory completion exercises based on Romantic songs.</p>
+
+<div id="results"></div>
+
+<form action="" data-browser-app>
+  <div class="form-field">
+    <label for="originalScore">Select a song</label>
+    <div class="description">Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.</div>
+    <select class="chosen" id="originalScore" name="originalScore" required>
+      {%- for song in site.data.generated.lieder %}
+      <option value="{{ song.dir }}" data-id="{{ song.id }}">{{ song.name }}</option>
+      {%- endfor %}
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label for="preserveRestBars">Preserve piano part in rests</label>
+    <div class="description">Preserve the piano part in bars where the voice part is resting.</div>
+    <input checked id="preserveRestBars" name="preserveRestBars" type="checkbox" value="y">
+  </div>
+
+  <div class="form-field">
+    <label for="restLength">Rest length</label>
+    <div class="description">What does 'resting' mean? Choose a length (in 'quarter notes' / ‘crotchets') that acts as the benchmark. So, when the combined length of rests in one bar (measure) of the vocal part add up to this value, the piano part will be preserved.</div>
+    <input id="restLength" max="16" min="1" name="restLength" type="number" value="2" required>
+  </div>
+
+  <div class="form-field">
+    <label for="preserveBass">Preserve bass line</label>
+    <div class="description">Leave the piano part's left hand intact, and just work on the right hand.</div>
+    <input id="preserveBass" name="preserveBass" type="checkbox" value="y">
+  </div>
+
+  <div class="form-field">
+    <label for="addition">Additional features</label>
+    <select id="addition" name="addition">
+      <option value="none">None</option>
+      <option value="transferTune">Transfer Tune</option>
+      <option value="chordHints">Chord Hints</option>
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label for="harmonicRhythm">Harmonic rhythm for chord hints</label>
+    <div class="description">The harmonic rhythm (in 'quarter notes' / 'crotchets') of the chord hints.</div>
+    <input id="harmonicRhythm" name="harmonicRhythm" step="any" type="number" value="1" required>
+  </div>
+
+  <script src="/browser-apps/generated/static/lieder-form.js"></script>
+
+  <div class="form-actions">
+    <a class="btn btn-default" href="">Reset</a>
+    <input class="btn btn-primary" id="submit" type="submit" value="Generate exercise">
+  </div>
+  <p class="browser-apps-status" hidden></p>
+</form>
+
+<script>
+  (function () {
+    var form = document.querySelector("form[data-browser-app]");
+
+    // As the Flask form's validator (AnyOf in app/forms.py).
+    var harmonicRhythms = [0.25, 0.5, 1, 1.5, 2, 3, 4];
+    var harmonicRhythm = form.elements.harmonicRhythm;
+    harmonicRhythm.addEventListener("input", function () {
+      harmonicRhythm.setCustomValidity(harmonicRhythms.indexOf(Number(harmonicRhythm.value)) >= 0
+        ? "" : "Invalid value, must be one of: " + harmonicRhythms.join(", ") + ".");
+    });
+
+    BrowserApps.onSubmit(form, function (form) {
+      var data = new FormData(form);
+      var select = form.elements.originalScore;
+      var name = select.options[select.selectedIndex].text;
+      var results = document.getElementById("results");
+      // Generous: the Flask app has Gunicorn's 120-second timeout.
+      var timeLimit = 120;
+      return BrowserApps.run("lied", "/browser-apps/generated/lieder/" + form.elements.originalScore.selectedOptions[0].dataset.id + "/score.mxl", [
+        name,
+        data.has("preserveRestBars"),
+        Number(data.get("restLength")),
+        data.has("preserveBass"),
+        data.get("addition"),
+        Number(data.get("harmonicRhythm")),
+      ], timeLimit).then(function (result) {
+        BrowserApps.show(results, result.errors, BrowserApps.downloads(result));
+      }, function (error) {
+        BrowserApps.show(results, [error.timedOut
+          ? "Sorry, generating the exercise took too long (over " + timeLimit + " seconds) and was stopped."
+          : "Failed to generate the exercise: " + error.message], []);
+      });
+    });
+  })();
+</script>

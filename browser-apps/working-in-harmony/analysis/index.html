@@ -1,0 +1,89 @@
+---
+layout: default
+title: Working in Harmony - App
+---
+{% include browser-apps/form-assets.html title="Working in Harmony - App" server_url="/apps/working-in-harmony/" %}
+
+<p><i>Part of <a href="/working-in-harmony/">Working in Harmony</a></i></p>
+
+<p><a href="../">Select another score</a></p>
+
+<div class="feedback" hidden>
+  <h3>Feedback</h3>
+  <pre></pre>
+</div>
+
+<div id="results"></div>
+
+<form action="" data-browser-app hidden>
+  <div class="form-field">
+    <label for="analysis">Analysis</label>
+    <div class="description">Complete the template with your own Roman numeral analysis.
+Feel free to work offline in any text editor (simply cut'n'paste the text back in when you're done).
+For help with getting your analysis down in the right format, see the notes here: https://fourscoreandmore.org/working-in-harmony/analysis/</div>
+    <textarea id="analysis" maxlength="102400" name="analysis"></textarea>
+  </div>
+
+  <div class="form-actions">
+    <a class="btn btn-default" href="">Reset</a>
+    <input class="btn btn-primary" id="submit" type="submit" value="Submit analysis">
+  </div>
+  <p class="browser-apps-status" hidden></p>
+</form>
+
+<script>
+  (function () {
+    var dir = new URLSearchParams(location.search).get("song") || "";
+    var form = document.querySelector("form[data-browser-app]");
+    var feedback = document.querySelector(".feedback");
+    var results = document.getElementById("results");
+
+    fetch("/browser-apps/generated/lieder.json").then(function (response) {
+      return response.json();
+    }).then(function (lieder) {
+      var song = lieder.filter(function (song) { return song.wih && song.dir === dir; })[0];
+      if (!song) {
+        location.replace("../");
+        return;
+      }
+      var songUrl = "/browser-apps/generated/lieder/" + song.id + "/";
+      // The song's score, as the first download.
+      var score = {
+        title: song.name,
+        url: songUrl + "score.mxl",
+        name: dir.replace(/\//g, "_") + "_score.mxl",
+        view: BrowserApps.viewUrl(songUrl + "score.mxl", "score.mxl"),
+      };
+      BrowserApps.show(results, [], [score]);
+
+      fetch(songUrl + "template.txt").then(function (response) {
+        if (!response.ok) throw new Error();
+        return response.text();
+      }).then(function (template) {
+        form.elements.analysis.value = template;
+        form.hidden = false;
+      }, function () {
+        BrowserApps.show(results, ["Template file not found"], [score]);
+      });
+
+      // As the Flask app's WIH_TIME_LIMIT (app/config.py).
+      var timeLimit = 60;
+      BrowserApps.onSubmit(form, function (form) {
+        return BrowserApps.run("working_in_harmony", score.url, [form.elements.analysis.value], timeLimit)
+          .then(function (result) {
+            feedback.querySelector("pre").textContent = result.feedback;
+            feedback.hidden = !result.feedback;
+            var files = BrowserApps.downloads(result);
+            files.forEach(function (file) { file.name = dir.replace(/\//g, "_") + "_" + file.name; });
+            BrowserApps.show(results, result.errors, [score].concat(files));
+          }, function (error) {
+            feedback.hidden = true;
+            BrowserApps.show(results, [error.timedOut
+              ? "Sorry, the analysis took too long (over " + timeLimit + " seconds) and was stopped."
+              : "Failed to analyse the score"], [score]);
+            if (!error.timedOut) console.error(error);
+          });
+      });
+    });
+  })();
+</script>

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Working in Harmony - App
+---
+{% include browser-apps/form-assets.html title="Working in Harmony - App" server_url="/apps/working-in-harmony/" %}
+
+<p><i>Part of <a href="/working-in-harmony/">Working in Harmony</a></i></p>
+
+<p>Get instant feedback on your Roman numeral analysis.</p>
+
+<form action="analysis/" method="get">
+  <div class="form-field">
+    <label for="song">Select a song</label>
+    <div class="description">Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.</div>
+    <select class="chosen" id="song" name="song" required>
+      {%- for song in site.data.generated.lieder %}{% if song.wih %}
+      <option value="{{ song.dir }}">{{ song.name }}</option>
+      {%- endif %}{% endfor %}
+    </select>
+  </div>
+
+  <div class="form-actions">
+    <a class="btn btn-default" href="">Reset</a>
+    <input class="btn btn-primary" type="submit" value="Continue">
+  </div>
+</form>

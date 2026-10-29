@@ -29,4 +29,7 @@ hooks:
     set -e
     gem install bundler
     bundle install
+    # The in-browser apps (browser-apps/): see apps-backend/README.md.
+    python3 --version
+    python3 apps-backend/scripts/build-browser-apps.py
     bundle exec jekyll build

@@ -1,0 +1,74 @@
+---
+layout: default
+title: Chorales Exercise Generator
+---
+{% include browser-apps/form-assets.html title="Chorales Exercise Generator" server_url="/apps/chorales/" %}
+
+<p><i>Part of <a href="/cut-outs">Cut Outs</a></i></p>
+<p>This generates music theory completion exercises based on Bach chorales.</p>
+
+<div id="results"></div>
+
+<form action="" data-browser-app>
+  <div class="form-field">
+    <label for="originalScore">Original chorale</label>
+    <div class="description">The chorale used as a base for the exercise.</div>
+    <select class="chosen" id="originalScore" name="originalScore" required>
+      {%- for chorale in site.data.chorales %}
+      <option value="{{ chorale.file }}">{{ chorale.name }}</option>
+      {%- endfor %}
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label for="beatsToCut">Beats to cut</label>
+    <div class="description">The number of tactus beats ('crotchet' / 'quarter note') to cut from each phrase, before the pause.</div>
+    <input id="beatsToCut" max="64" min="1" name="beatsToCut" type="number" value="2" required>
+  </div>
+
+  <div class="form-field">
+    <label for="partsToCut">Voices to remove</label>
+    <ul id="partsToCut">
+      <li><input checked id="partsToCut-0" name="partsToCut" type="checkbox" value="alto"> <label for="partsToCut-0">Alto</label></li>
+      <li><input checked id="partsToCut-1" name="partsToCut" type="checkbox" value="tenor"> <label for="partsToCut-1">Tenor</label></li>
+      <li><input checked id="partsToCut-2" name="partsToCut" type="checkbox" value="bass"> <label for="partsToCut-2">Bass</label></li>
+    </ul>
+  </div>
+
+  <div class="form-field">
+    <label>Score type</label>
+    <ul id="shortScore">
+      <li><input checked id="shortScore-0" name="shortScore" type="radio" value="full"> <label for="shortScore-0">Full score (four staves)</label></li>
+      <li><input id="shortScore-1" name="shortScore" type="radio" value="short"> <label for="shortScore-1">Short score (two staves)</label></li>
+    </ul>
+  </div>
+
+  <div class="form-actions">
+    <a class="btn btn-default" href="">Reset</a>
+    <input class="btn btn-primary" id="submit" type="submit" value="Generate exercise">
+  </div>
+  <p class="browser-apps-status" hidden></p>
+</form>
+
+<script>
+  BrowserApps.onSubmit(document.querySelector("form[data-browser-app]"), function (form) {
+    var data = new FormData(form);
+    var select = form.elements.originalScore;
+    var name = select.options[select.selectedIndex].text;
+    var results = document.getElementById("results");
+    // Generous: the Flask app has Gunicorn's 120-second timeout.
+    var timeLimit = 120;
+    return BrowserApps.run("chorale", "/browser-apps/generated/chorales/" + data.get("originalScore"), [
+      name,
+      Number(data.get("beatsToCut")),
+      data.getAll("partsToCut"),
+      data.get("shortScore") === "short",
+    ], timeLimit).then(function (result) {
+      BrowserApps.show(results, result.errors, BrowserApps.downloads(result));
+    }, function (error) {
+      BrowserApps.show(results, [error.timedOut
+        ? "Sorry, generating the exercise took too long (over " + timeLimit + " seconds) and was stopped."
+        : "Failed to generate the exercise: " + error.message], []);
+    });
+  });
+</script>

@@ -1,0 +1,9 @@
+.browser-apps-notice {
+    border-left: 4px solid #337ab7;
+    padding: 5px 10px;
+    background: #f5f8fb;
+}
+.browser-apps-status {
+    color: #333333;
+    font-style: italic;
+}
