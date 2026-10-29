@@ -26,6 +26,9 @@ div#container {
     This score is no longer available: scores made in your browser can be viewed only while
     the page that made them is open.
   </p>
+  <p id="failed" hidden>
+    Sorry, this score couldn't be displayed. Try downloading it instead, from the page you came from.
+  </p>
   <div id="container"></div>
   <script type="text/javascript">
     // As apps-backend/app/templates/display-music.html, but with the score's
@@ -43,27 +46,29 @@ div#container {
         if (!response.ok) throw new Error(response.status);
         return response.blob();
       })
-      .then(
-        function(score) {
-          return osmd.load(score);
-        },
-        function() {
-          document.getElementById("missing").hidden = false;
-          return Promise.reject();
-        }
-      )
-      .then(
-        function() {
-          var autoZoom = function () {
-            var viewPortWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-            osmd.zoom = viewPortWidth < 480 ? 0.6 : 0.8;
-          };
-          window.addEventListener("resize", autoZoom, {passive: true});
-          autoZoom();
-          osmd.autoResize();
-          osmd.render();
-        }
-      );
+      .catch(function () {
+        document.getElementById("missing").hidden = false;
+        return null;
+      })
+      .then(function (score) {
+        if (!score) return;
+        return osmd.load(score).then(
+          function() {
+            var autoZoom = function () {
+              var viewPortWidth = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+              osmd.zoom = viewPortWidth < 480 ? 0.6 : 0.8;
+            };
+            window.addEventListener("resize", autoZoom, {passive: true});
+            autoZoom();
+            osmd.autoResize();
+            osmd.render();
+          }
+        );
+      })
+      .catch(function (error) {
+        console.error(error);
+        document.getElementById("failed").hidden = false;
+      });
   </script>
 </body>
 </html>

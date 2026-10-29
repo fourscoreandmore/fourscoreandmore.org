@@ -26,6 +26,12 @@ title: Working in Harmony - App
   BrowserApps.preload();
 
   BrowserApps.list("lieder").then(function (lieder) {
+    if (!lieder) {
+      var form = document.querySelector("form");
+      form.querySelector("[type=submit]").disabled = true;
+      form.append(BrowserApps.element("p", { class: "error" }, ["Sorry, the list of songs couldn't load. Try reloading the page."]));
+      return;
+    }
     BrowserApps.fillSelect(document.getElementById("song"), lieder.filter(function (song) { return song.wih; }), function (song) {
       return { value: song.dir, text: song.name };
     });

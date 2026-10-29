@@ -39,6 +39,10 @@ For help with getting your analysis down in the right format, see the notes here
     var results = document.getElementById("results");
 
     BrowserApps.list("lieder").then(function (lieder) {
+      if (!lieder) {
+        BrowserApps.show(results, ["Sorry, the list of songs couldn't load. Try reloading the page."], []);
+        return;
+      }
       var song = lieder.filter(function (song) { return song.wih && song.dir === dir; })[0];
       if (!song) {
         location.replace("../");

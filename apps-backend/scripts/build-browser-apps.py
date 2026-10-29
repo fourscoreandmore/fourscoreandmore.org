@@ -66,7 +66,20 @@ def main():
     write_osmd()
     lieder = write_lieder()
     modules = sorted(p.name for p in (OUT / "app").iterdir())
-    write_json(OUT / "manifest.json", {"wheels": wheels, "modules": modules, "songs": len(lieder)})
+    # The pages fetch the manifest fresh each time, and load the wheels from a
+    # directory named by this version (and the modules with it in their URLs),
+    # so that a browser never mixes files from different builds in its cache.
+    version = hashlib.sha256()
+    for path in [OUT / "wheels" / w for w in wheels] + [OUT / "app" / m for m in modules]:
+        version.update(path.read_bytes())
+    version = version.hexdigest()[:16]
+    os.rename(OUT / "wheels", OUT / version)
+    (OUT / "wheels").mkdir()
+    os.rename(OUT / version, OUT / "wheels" / version)
+    write_json(OUT / "manifest.json", {
+        "version": version, "wheels": [version + "/" + w for w in wheels],
+        "modules": modules, "songs": len(lieder),
+    })
     print("Wrote the in-browser apps' files to " + str(OUT))
 
 

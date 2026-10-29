@@ -10,15 +10,16 @@ import { loadPyodide } from "https://cdn.jsdelivr.net/pyodide/v314.0.7/full/pyod
 
 const GENERATED = new URL("../generated/", import.meta.url);
 
-async function fetchOk(url) {
-  const response = await fetch(url);
+async function fetchOk(url, options) {
+  const response = await fetch(url, options);
   if (!response.ok) throw new Error(`Couldn't load ${url} (${response.status})`);
   return response;
 }
 
 async function start() {
   postMessage({ loading: "Loading Python…" });
-  const manifest = await (await fetchOk(new URL("manifest.json", GENERATED))).json();
+  // Fresh, as it names this build's files (see build-browser-apps.py).
+  const manifest = await (await fetchOk(new URL("manifest.json", GENERATED), { cache: "no-cache" })).json();
   const pyodide = await loadPyodide();
   postMessage({ loading: "Loading music21…" });
   // requests (for music21) and attrs (for jsonlines) are Pyodide packages; the
@@ -34,7 +35,7 @@ async function start() {
   pyodide.FS.mkdirTree(home + "/app");
   pyodide.FS.writeFile(home + "/app/__init__.py", "");
   for (const module of manifest.modules) {
-    const source = await (await fetchOk(new URL("app/" + module, GENERATED))).text();
+    const source = await (await fetchOk(new URL("app/" + module + "?v=" + manifest.version, GENERATED))).text();
     pyodide.FS.writeFile(home + "/app/" + module, source);
   }
   const apps = await (await fetchOk(new URL("apps.py", import.meta.url))).text();
@@ -60,7 +61,11 @@ onmessage = async ({ data: { id, task, score, args } }) => {
     const path = `/tmp/scores/${++scoreNumber}${extension}`;
     FS.writeFile(path, bytes);
     postMessage({ id, started: true });
-    const result = apps[task](path, ...args).toJs({ dict_converter: Object.fromEntries });
+    const run = apps[task];
+    const proxy = run(path, ...args);
+    const result = proxy.toJs({ dict_converter: Object.fromEntries });
+    proxy.destroy();
+    run.destroy();
     for (const file of result.files) {
       file.data = FS.readFile(file.path);
       file.name = file.path.split("/").pop();

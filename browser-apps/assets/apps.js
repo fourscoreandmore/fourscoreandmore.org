@@ -12,25 +12,29 @@ var BrowserApps = (function () {
   var worker = null;
   // "loading", "ready" or "failed", and while loading, the step; or the error.
   var state = { name: "loading", text: "Loading…" };
+  // A failure to load what the page needs besides the app (e.g. a list).
+  var pageFailure = null;
   var busy = false;
   var tasks = {};
   var nextId = 0;
 
   // Show the state (or that a task is running) on each app form.
   function render() {
+    // A page failure shows as the app failing to load.
+    var shown = pageFailure ? { name: "failed", text: pageFailure } : state;
     document.querySelectorAll("form[data-browser-app]").forEach(function (form) {
       var button = form.querySelector("[type=submit]");
       button.dataset.label = button.dataset.label || button.value;
-      button.disabled = busy || state.name !== "ready";
+      button.disabled = busy || shown.name !== "ready";
       button.value = busy ? form.dataset.busy || "Working…"
-        : state.name === "loading" ? "Loading…" : button.dataset.label;
+        : shown.name === "loading" ? "Loading…" : button.dataset.label;
 
       var status = form.querySelector(".browser-apps-status");
-      status.classList.toggle("busy", busy || state.name === "loading");
-      status.classList.toggle("error", !busy && state.name === "failed");
+      status.classList.toggle("busy", busy || shown.name === "loading");
+      status.classList.toggle("error", !busy && shown.name === "failed");
       status.textContent = busy ? form.dataset.busy || "Working…"
-        : state.name === "loading" ? state.text + " The first time, this downloads about 12 MB, so it can take a while."
-        : state.name === "failed" ? "Sorry, the app couldn't load (" + state.text + "). Try reloading the page."
+        : shown.name === "loading" ? shown.text + " The first time, this downloads about 12 MB, so it can take a while."
+        : shown.name === "failed" ? "Sorry, the app couldn't load (" + shown.text + "). Try reloading the page."
         : "";
       status.hidden = !status.textContent;
     });
@@ -116,10 +120,17 @@ var BrowserApps = (function () {
     });
   }
 
+  // blob: URLs of the results shown, freed when they're replaced.
+  var shownUrls = [];
+
   // Show errors and downloads ({title, url, name, view}) in container, as the
   // Flask templates do.
   function show(container, errors, files) {
     container.replaceChildren();
+    shownUrls.forEach(function (url) {
+      if (files.every(function (file) { return file.url !== url; })) URL.revokeObjectURL(url);
+    });
+    shownUrls = files.map(function (file) { return file.url; }).filter(function (url) { return url.startsWith("blob:"); });
     errors.forEach(function (message) {
       container.append(element("p", { class: "error" }, [message]));
     });
@@ -162,17 +173,26 @@ var BrowserApps = (function () {
 
   var lists = {};
 
-  // Resolve with the list (chorales or lieder) that build-browser-apps.py wrote.
+  // Resolve with the list (chorales or lieder) that build-browser-apps.py wrote,
+  // or with null if it can't be loaded, which the forms then show.
   function list(name) {
-    lists[name] = lists[name] || fetch("/browser-apps/generated/" + name + ".json").then(function (response) {
-      if (!response.ok) throw new Error("Couldn't load the list of " + name);
-      return response.json();
-    });
+    // Fresh, as it can change with each build.
+    lists[name] = lists[name] || fetch("/browser-apps/generated/" + name + ".json", { cache: "no-cache" })
+      .then(function (response) {
+        if (!response.ok) throw new Error(response.status);
+        return response.json();
+      })
+      .catch(function (error) {
+        pageFailure = "couldn't load the list of " + name + ": " + error.message;
+        render();
+        return null;
+      });
     return lists[name];
   }
 
   // Fill select with an option for each item, and update its Chosen widget.
   function fillSelect(select, items, option) {
+    if (!items) return;
     items.forEach(function (item) {
       var attributes = option(item);
       var text = attributes.text;
