@@ -19,3 +19,5 @@ class Config(object):
     MAX_CONTENT_LENGTH = 10 * 1024 * 1024
     # The most an uploaded .mxl may unzip to.
     WIH_MAX_UNZIPPED_SIZE = 50 * 1024 * 1024
+    # Seconds a Working in Harmony analysis may take before it's stopped.
+    WIH_TIME_LIMIT = 60

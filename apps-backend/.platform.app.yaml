@@ -15,7 +15,7 @@ variables:
 
 web:
   commands:
-    start: .venv/bin/python server.py
+    start: .venv/bin/gunicorn app:app
 
   locations:
     '/apps/static':

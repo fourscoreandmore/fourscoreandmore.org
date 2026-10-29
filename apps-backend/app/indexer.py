@@ -4,6 +4,7 @@ import jsonlines
 import logging
 import music21
 import os
+import tempfile
 import xml.etree
 
 
@@ -43,8 +44,11 @@ def get_score_index(path, reset=False):
             except:
                 logging.exception("Failed to parse score: " + abspath)
 
-    with open(index_filename, "w") as index_handle:
+    # Write to a temporary file first: another worker mustn't read it half-written.
+    fd, temporary_filename = tempfile.mkstemp(prefix=".partial-", suffix=".json", dir=path)
+    with os.fdopen(fd, "w") as index_handle:
         json.dump(index, index_handle)
+    os.replace(temporary_filename, index_filename)
 
     return index
 
@@ -61,7 +65,11 @@ def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
         return existing
 
     index = {}
-    fp = open(index_filename, "w")
+    # Write to a temporary file and rename it at the end: other workers keep
+    # reading the old index (or build their own) until the new one is complete.
+    fd, temporary_filename = tempfile.mkstemp(
+        prefix=".partial-", suffix=".jsonl", dir=os.path.dirname(os.path.abspath(index_filename)))
+    fp = os.fdopen(fd, "w")
     writer = jsonlines.Writer(fp, flush=True, sort_keys=True)
     path=os.path.abspath(path)
     for score_path in Path(path).rglob("score.mxl"):
@@ -86,5 +94,6 @@ def get_lieder_index(path, index_filename="/tmp/lieder.jsonl", rebuild=False):
 
     writer.close()
     fp.close()
+    os.replace(temporary_filename, index_filename)
 
     return index

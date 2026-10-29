@@ -3,18 +3,11 @@ layout: page
 title: Four Score and More
 ---
 
-## Featured: OpenScore
-
-We're making use of FourScoreAndMore to host direct downloads of
-scores in the OpenScore corpora.
-
-Click below for ...
-- [... more on OpenScore](./openscore)
-- [... an example score page](./openscore/lieder/Schumann,_Clara/Lieder,_Op.12/04_Liebst_du_um_Sch%C3%B6nheit/)
-
 ## About
 
-‘Four Score and More’ is a social enterprise founded in 2018 which is dedicated to providing high-quality, digital resources for the teaching and learning of music, particularly music theory.
+‘Four Score and More’ is a social enterprise founded in 2018 which is dedicated to providing
+high-quality, digital resources for engaging with music,
+particularly historic musical scores (sheet music).
 
 We aim to provide resources that:
 - are immediately useful;
@@ -22,19 +15,36 @@ We aim to provide resources that:
 - enhance the learning experience, and / or enable a wider range of approaches;
 - help to democratise access by being free for all and accompanied by user-friendly instructions. We aim to enable anyone interested to develop their skills for free.
 
-## [Resources](/resources)
+Basically, we stand 'for [score](./score)(s) and [more](./more)'.
 
-Click [here](/resources) for the full listings of resources we currently offer or are actively working on.
+## [Score](./score)
+
+FourScoreAndMore is the public-facing site for direct downloads of
+scores in the OpenScore corpora among others.
+
+Click below for ...
+- [... more on OpenScore](./openscore)
+- [... an example score page](./openscore/lieder/Schumann,_Clara/Lieder,_Op.12/04_Liebst_du_um_Sch%C3%B6nheit/)
+
+## [More](./more)
+
+FourScoreAndMore provides resources (interactive and otherwise)
+built on musical scores including those from the corpora above.
 
 ## [Participation Projects](/participation)
 
-We are also proud to run participation projects whereby those learning music can also contribute to these kinds of projects by learning, while they learn. [Click here](/participation) if you'd like more information or to get involved.
+We are also proud to run participation projects whereby those learning music can also contribute to these kinds of projects by learning, while they learn.
+[Click here](/participation) if you'd like more information or to get involved.
 
 ## What’s in a name?
 
 ‘Four score’ is an old-fashioned method of counting, where a ‘score’ is a group or set of twenty. So, when Lincoln opened the Gettysburg Address by talking about the founding of America ‘four score and seven years ago’, he meant 87 years before 1863, i.e. 1776. Therefore, ‘four score and more’ amounts to ‘more than 80’ which, in musical terms is resonant as the number of keys on a modern, full-size piano (there’s some variety, but they’re mostly all in that range of 80+).
 
-Clearly, it also puns on ‘for scores and more’, which summarises the initiative’s core project, focused on scores but also including other forms of engagement with music and musical pedagogy. Nerdier still, even the logo puns on the idea of _4+_, using the figured bass for an augmented 4th, enlarging it, and placing it within the stave to make it look like a treble clef.
+Clearly, it also puns on ‘for scores and more’, which summarises the initiative’s core project, focused on scores 
+([score](/score))
+but also including other forms of engagement with music and musical pedagogy
+([more](/more)).
+Nerdier still, even the logo puns on the idea of _4+_, using the figured bass for an augmented 4th, enlarging it, and placing it within the stave to make it look like a treble clef.
 
 Anyway, hopefully it’s a memorable title, and a bit of fun.
 
