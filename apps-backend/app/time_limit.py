@@ -5,18 +5,28 @@ interrupt a thread, so run_with_time_limit forks a child, waits for its result
 and kills it if it takes too long. Forking copies the parent, imports and app
 config included, so the child starts at once. That's safe because Gunicorn's
 sync workers have a single thread.
+
+The child also sets an alarm, a little later than the parent would kill it,
+so it stops itself if the parent is killed first (e.g. by the OOM killer).
 """
 import logging
+import math
 import multiprocessing
+import signal
 
 _fork = multiprocessing.get_context("fork")
+
+# Seconds after the time limit at which the child's alarm stops it.
+_ALARM_MARGIN = 5
 
 
 class TimeLimitExceeded(Exception):
     pass
 
 
-def _run(sender, func, args):
+def _run(sender, func, args, seconds):
+    # SIGALRM's default action ends the process.
+    signal.alarm(math.ceil(seconds) + _ALARM_MARGIN)
     try:
         result = (True, func(*args))
     except BaseException:
@@ -33,7 +43,7 @@ def run_with_time_limit(seconds, func, *args):
     it raises an exception (which the child logs) or the child dies.
     """
     receiver, sender = _fork.Pipe(duplex=False)
-    child = _fork.Process(target=_run, args=(sender, func, args), daemon=True)
+    child = _fork.Process(target=_run, args=(sender, func, args, seconds), daemon=True)
     child.start()
     sender.close()
     try:
