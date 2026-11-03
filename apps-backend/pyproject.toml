@@ -7,7 +7,7 @@ requires-python = ">=3.14"
 dependencies = [
     "flask",
     "flask-wtf",
-    "gevent",
+    "gunicorn>=26.2.0",
     "jsonlines",
     "music21~=10.5",
     "natsort",

@@ -91,3 +91,30 @@ def test_saved_files_are_remade_when_the_exercise_generators_change(song_path, t
     LiedExercise(song_path).write(str(tmp_path))
     with open(path) as f:
         assert f.read() != "saved"
+
+
+def test_write_musicxml_replaces_the_file_in_one_step(tmp_path):
+    path = tmp_path / "exercise.xml"
+    path.write_text("old")
+
+    exercises.write_musicxml(music21.stream.Score([music21.stream.Part([music21.note.Note()])]), str(path))
+
+    assert path.read_text().startswith("<?xml")
+    assert os.listdir(tmp_path) == ["exercise.xml"]
+
+
+def test_write_musicxml_leaves_the_old_file_if_writing_fails(tmp_path):
+    path = tmp_path / "exercise.xml"
+    path.write_text("old")
+
+    class Broken:
+        def write(self, fmt, fp):
+            with open(fp, "w") as f:
+                f.write("<?xml half")
+            raise RuntimeError("music21 failed")
+
+    with pytest.raises(RuntimeError):
+        exercises.write_musicxml(Broken(), str(path))
+
+    assert path.read_text() == "old"
+    assert os.listdir(tmp_path) == ["exercise.xml"]

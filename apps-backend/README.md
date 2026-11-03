@@ -19,6 +19,30 @@ uv run ruff check .
 `romanUmpire.py` comes from the [When-in-Rome](https://github.com/MarkGotham/When-in-Rome)
 submodule. If the submodule is checked out, the tests use it from there.
 
+## Running
+
+On Upsun, [Gunicorn](https://gunicorn.org/) serves the app with the settings in
+`gunicorn.conf.py`: several worker processes, each handling one request at a
+time, because music21's work is CPU-bound. Set `WEB_CONCURRENCY` to change the
+number of workers. To run it locally:
+
+```bash
+PORT=8000 uv run gunicorn app:app
+```
+
+The pages extend `app/templates/writable/base.html`, which deployment replaces
+with the site's layout. The checked-in copy has a Liquid tag Jinja can't parse,
+so to see pages locally, replace it with a minimal layout first (and don't
+commit that):
+
+```bash
+echo '<html><body>{% block content %}{% endblock %}</body></html>' > app/templates/writable/base.html
+```
+
+Working in Harmony analyses run in a child process (`app/time_limit.py`), which
+is stopped after `WIH_TIME_LIMIT` seconds (`app/config.py`) so that a slow
+score can't hold up a worker.
+
 ## Dependencies
 
 Add or upgrade with `uv add <package>` or `uv lock --upgrade-package <package>`, and
