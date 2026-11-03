@@ -7,62 +7,71 @@ _Part of [Scores of Scores](/scores-of-scores)._
 
 ---
 
-For score download (in multiple formats including MuseScore and PDF), head to:
+To download scores (in multiple formats including MuseScore and PDF), head to:
 - [this page for the lieder](https://fourscoreandmore.org/openscore/lieder/)
 - [this page for the quartets](https://fourscoreandmore.org/openscore/stringquartets/).
 
 This page provides some additional information for transcribers
-and doubles as a reference guide to the editorial interventions we have made.
-
-Welcome and thanks for participating in this very exciting encoding project.
-
+and doubles as a reference guide to the limited editorial interventions we have made.
 On this page, we aim to answer some of the most frequently asked questions (FAQs)
 and common issues encountered in transcribing for this project and/or using the scores.
+More generally, this serves as a blueprint for the question:
+"what does it mean to transcribe a source faithfully but pragmatically in a modern app".
+
 We hope you find it useful!
 
 ## Contents
 
-| Code                                  | Section                                        |
-|---------------------------------------|------------------------------------------------|
-| [G](#g-general)                       | General                                        |
-| [M](#m-metadata)                      | Metadata: Score and Online                     |
-| [L](#l-layout)                        | Layout: System and Page breaks                 |
-| [T](#t-time)                          | Time: Time Signatures, Beaming, Tuplets, Tempo |
-| [O](#o-ornaments)                     | Ornaments including Grace Notes                |
-| [K](#k-key)                           | Key: Key Signatures and Accidentals            |
-| [C](#c-clefs-and-stems)               | Clefs                                          |
-| [D](#d-dynamics-and-lines)            | Dynamics (Cresc.) and Lines (Rit.)             |
-| [S](#s-ties-and-slurs)                | Ties and Slurs                                 |
-| [B](#b-editorial-brackets)            | Brackets                                       |
-| [P](#p-playing-instructions)          | Playing Instructions                           |
-| [W](#w-workflow-during-transcription) | Workflow: During Transcription                 |   
+| Code                                  | Section                                               |
+|---------------------------------------|-------------------------------------------------------|
+| [G](#g-general)                       | General                                               |
+| [M](#m-metadata)                      | Metadata: Storing the data, vs rendering in the score |
+| [L](#l-layout)                        | Layout: System and Page breaks                        |
+| [T](#t-time)                          | Time: Time Signatures, Beaming, Tuplets, Tempo        |
+| [O](#o-ornaments)                     | Ornaments including Grace Notes                       |
+| [K](#k-key)                           | Key: Key Signatures and Accidentals                   |
+| [C](#c-clefs-and-stems)               | Clefs                                                 |
+| [D](#d-dynamics-and-lines)            | Dynamics (Cresc.) and Lines (Rit.)                    |
+| [S](#s-ties-and-slurs)                | Ties and Slurs                                        |
+| [B](#b-editorial-brackets)            | Brackets                                              |
+| [P](#p-playing-instructions)          | Playing Instructions                                  |
+| [W](#w-workflow-during-transcription) | Workflow: During Transcription                        |   
 
 We also include some notes [about this page](#about-this-page).
 
 ## G: General
 
 1. Aim to produce as **exact** a copy of the source edition as possible.
-2. Use MuseScore **defaults** wherever possible so that as much information is transferred as effectively as possible to the parts and when converted into other formats like MusicXML.
-3. Where these two are in conflict (G1 exact copy vs G2 MuseScore defaults), the MuseScore defaults take priority. (More detailed notes follow below.)
+2. Use the app's **defaults** wherever possible so that as much information is transferred as effectively as possible
+when converting into other formats, and/or making parts etc.
+Apps come and go, and even different versions of the same app introduce breaking changes. 
+3. Where these two are in conflict (G1 exact copy vs G2 defaults), the latter (defaults) take priority.
+(More detailed notes follow below.)
 4. Aim to produce a score with strong internal **consistency**:
 if a motive recurs exactly, it should probably be edited similarly;
 if all parts have the same material, and one has divergent articulation,
 it should probably be edited to match. 
-5. Keep recognised musical terms like "cresc.", "andante" etc. in the source **language**;
+5. Keep recognised musical **terms** like "cresc.", "andante" etc. in the source **language**;
 provide a translation for anything non-standard.
-6. Edition of manuscript sources is often more complicated and introduces more exceptions to the guidance here.
+6. Edition of **manuscript** sources is often more complicated and introduces more exceptions to the guidance here.
 7. If in doubt, ask your reviewer and/or the team via Signal.
 
 ## M: Metadata
 
-1. **Title** and **composer** should already be present in their respective fields of the 'score properties' box and displayed on the score.
-Likewise, the **lyricist** in the case of the lieder.
-The naming convention on musescore.com should likewise have been handled by the reviewer/central team.
-Let us know if you spot any errors (do not make changes unless agreed with your reviewer).
-2. **Dedication:** We use a separate 'Vertical Frame', above the main 'Title frame' with text centred, italic, 9pt.
+In most cases, "more is more" for metadata.
+Specific inclusion of this data in the visual rendering of a score is more project specific.
+OUr projects handle this as th templating stage; here, for reference, are our defaults:
+
+1. **Title** and **composer** should be present in their respective fields of the 'score properties'
+and displayed on the score:
+title at the top of the page, centered;
+composer at the right hard side, just below the title. 
+In the case of songs, the **lyricist** is given on the left hard side,
+just below the title, roughly in line with the composer.
+2. **Dedication:** We use a separate 'Vertical Frame', above the main 'Title frame' also centred, and italicised.
 Again, this is handled at the templating stage.
 3. **Dates:** Birth and death dates are not shown for anyone (composer, lyricist or dedicatee).
-Some of that data is stored separately (not on the scores, but within the project data.)
+Some of that data is stored separately (not visually rendered in the score, but at least in the whole-project data.)
 4. **Date of composition:** not shown in the title frame.
 A date and place of composition may be shown at the end of the score if it appears on the source edition.
 
@@ -89,10 +98,10 @@ A date and place of composition may be shown at the end of the score if it appea
    E.g., editorial conventions for 6/8 time vary.
       1. This is partly for consistency (cf G4).
       2. _Exception:_ Composers sometimes use a deviation from the normal beaming pattern for a specific passage within a longer work.
-      Do copy this except where it means beaming across barlines at line breaks: there is no MuseScore provision for this, so separate the beam groupings there.
+      Do copy this except where it means beaming across barlines at line breaks (as long as there is no in-app provision for this; separate the beam groupings there).
 3. **Rest grouping**: As for beam grouping, use the pre-set time signature defaults (cf G2).
 This can lead to extensive visual divergence from the source, as long as it is consistent.
-4. **Tuplets:** Use only the MuseScore default bracket (right-angle corners) whatever the source uses.
+4. **Tuplets:** Use only the default bracket (right-angle corners) whatever the source uses.
    1. The settings in the Inspector for tuplets should be: `Direction = Auto`; `Number type = Number`; `Bracket type = Auto`
    2. In longer passages consistently in the same tuplet,
    provide the first tuplet marking for that long group, and make the rest invisible.
@@ -102,14 +111,15 @@ This can lead to extensive visual divergence from the source, as long as it is c
 
 1. Copy the source edition including noting the difference between:
    1. the presence (acciaccatura) or absence (appoggiatura) of a slash through the note.
-   2. positioning before / after the main note (MuseScore defaults support both).
-2. Use MuseScore defaults for the exact placement (e.g., before/after the barline, where relevant).
-3. Triplet (or other tuplet) grace notes cannot be entered into MuseScore. Enter them as grace notes of the appropriate type and use staff text to enter the appropriate number.
+   2. positioning before / after the main note (where the app supports both).
+2. Use defaults for the exact placement (e.g., before/after the barline, where relevant).
+3. Details such as a tuplet grace notes with a specific number of beams may not be possible to enter exactly.
+Use the nearest available (acciaccatura vs appoggiatura first, correct number of beams second, tuplet indication last with staff text (optional)).
 
 ## K: Key
 
 1. **Key signatures:** Include all key signatures exactly as given, except for …
-   1. **Cancelling naturals:** Never show cancelling naturals on a change of key signature (again, use the MuseScore default).
+   1. **Cancelling naturals:** Never show cancelling naturals on a change of key signature (again, use the default).
 Likewise, never use the "Natural-flat" or "Natural-sharp" symbols for individual accidental cancellation in adjacent measures.
 2. **Accidentals:** Any accidentals that need to be introduced (which were not present in the source) should be enclosed in square brackets `[]` to indicate an editorial change.
 
@@ -169,7 +179,7 @@ We may update these in due course.
 
 1. Make sure to include all ties as ties and slurs as slurs without mixing (they are not equivalent).
 2. Ties across barlines: Accidentals are not repeated at the beginning of the second (or subsequent) bar, even if it is a system or page break.
-If the note is repeated later in the bar, the accidental is shown (this is MuseScore default.)
+If the same pitch recurs later in the bar, the accidental is shown (this is both a default and worth keeping.)
 
 ## B: Editorial Brackets
 
