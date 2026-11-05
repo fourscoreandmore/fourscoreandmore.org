@@ -60,6 +60,13 @@ I.e., this page can double as a "where can I _put_ my data"?
 
 ## **Publicly Accessible Data Sources for Analysis**
 
+### Finding datasets and repositories
+
+- **[Google Dataset Search](https://datasetsearch.research.google.com/)**
+  > Search for datasets across repositories. Access and licences depend on the original provider.
+- **[re3data](https://www.re3data.org/)**
+  > Find research data repositories by subject, country, and other criteria; useful for finding and depositing data.
+
 ### For the Data Itself
 
 *✅ Hundreds of thousands of datasets, freely downloadable, across many formats and topics.*
@@ -77,6 +84,9 @@ I.e., this page can double as a "where can I _put_ my data"?
   > See also [OSF's API](https://developer.osf.io/).
 - **[Harvard Dataverse](https://dataverse.harvard.edu/)**
   > Research data across disciplines, with dataset citations and versioning. Some files have restricted access.
+- **[Dryad](https://datadryad.org/)**
+  > Curated research datasets across disciplines, freely available under CC0.
+  Curation checks support usability and documentation; depositing data may involve a fee.
 - **[Kaggle Datasets](https://www.kaggle.com/datasets)**  
   > Datasets as well as benchmarks, models and more.
 - **[Hugging Face Datasets](https://huggingface.co/datasets)**  
@@ -86,6 +96,9 @@ I.e., this page can double as a "where can I _put_ my data"?
 - **[GitHub Datasets](https://github.com/datasets)**  
   > This is a small list of curated public datasets via GitHub repos among the  
    many more [datasets on GitHub outside this](https://github.com/).
+- **[Project Gutenberg](https://www.gutenberg.org/)**
+  > Downloadable books, usually including plain text, for literary analysis and NLP.
+  Check copyright status in your country and use the site's designated bulk-download routes.
 
 ### **Paired Academic Publications**
 
@@ -125,6 +138,9 @@ Metadata may describe items whose underlying texts, images, or other files are n
 
 - **[OpenAlex](https://openalex.org/)**  
   Scholarly metadata linking works, authors, institutions, and citations. *Access via API and bulk downloads.*
+
+- **[MusicBrainz](https://musicbrainz.org/)**  
+  Music metadata linking artists, works, composers, and releases. *Downloadable data; licences vary by data subset.*
 
 ---
 
