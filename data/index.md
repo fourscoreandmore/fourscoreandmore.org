@@ -3,11 +3,11 @@ layout: post
 title: Where Can I Find Data?
 ---
 
-“Where can I find data?" may well be the question I am most often asked by students.
+"Where can I find data?" may well be the question I am most often asked by students.
 It's a good question, and although the answer changes over time,
 there are some relatively stable sites to point to.
-This page summarises some of those options as a staring point for further exploration.
-All sites have been manually checked against minimal criteria: URL works and data accessible.
+This page summarises some of those options as a starting point for further exploration.
+Access conditions vary: some sources require registration, approval, or a subscription.
 Other initiatives like [UNICC](https://www.unicc.org/artificial-intelligence/) are
 a matter of "watch this space" and not yet included.
 Consider these as you begin to explore what others have created,
@@ -30,9 +30,9 @@ In short, this is a sign-posting service to accessible data.
 
 ### In brief:
 - Title: "Where Can I Find Data?"
-- By: Mark Gotham, 2025
+- By: Mark Gotham, 2025-present
 - Licence: CC-By-SA
-- URLs last accessed and verified: October 2025
+- URLs last reviewed: November 2026
 - Suggestions/contributions: ... are welcome! PR or email ([contact details here](https://markgotham.github.io/))
 
 
@@ -44,8 +44,11 @@ Practical:
 - Accessing data with APIs takes a bit more technical overhead, but that's often worthwhile, especially if you want structured data from/about social media.
 
 Ethical:
-- Check licenses (e.g., MIT, etc.) before using data. Most of the datasets on the repositories listed here will have permissive licences that enable research (at least!), but always check.
-- "Scraping" websites is possible but should be considered a last resort for want of a better option, and having checked for any indication of permission/restrictions (e.g., `robots.txt` file). 
+- Check each dataset's licence and terms of use before using or redistributing it.
+Public availability does not imply permission for all and every use case.
+Most of the datasets on the repositories listed here will have permissive licences that enable research (at least!), but always check.
+- "Scraping" websites is possible but should be considered a last resort for want of a better option,
+and having checked for any indication of permission/restrictions (e.g., `robots.txt` file). 
 - ... and many more! E.g., among _your_ ethical considerations should be how _they_ made their datasets.
 
 Sensible:
@@ -63,14 +66,23 @@ I.e., this page can double as a "where can I _put_ my data"?
 
 *❌ Quality varies. Most are user-uploads and not subject to quality control (see 'Paired Academic Publications' below).*
 
-- **[Zenodo](http://zenodo.org/)**
+- **[Zenodo](https://zenodo.org/)**
   > "Built and operated by CERN and OpenAIRE to ensure that everyone can join in Open Science".
-- **[Open Science Foundation (OSF)](https://osf.io/)**
-  > A "free, open platform to support your research and enable collaboration".
+- **[Open Science Framework (OSF)](https://osf.io/)**
+  > Public research projects, data, and materials.
+  > [IMPORTANT UPDATE](https://www.cos.io/osf-changes): no new projects will be accepted from 16 November 2026;
+  projects become read-only after 19 February 2027.
+  Existing public projects will remain accessible. 
+  Choose another repository for new deposits.
+  > See also [OSF's API](https://developer.osf.io/).
+- **[Harvard Dataverse](https://dataverse.harvard.edu/)**
+  > Research data across disciplines, with dataset citations and versioning. Some files have restricted access.
 - **[Kaggle Datasets](https://www.kaggle.com/datasets)**  
   > Datasets as well as benchmarks, models and more.
 - **[Hugging Face Datasets](https://huggingface.co/datasets)**  
   > ML-focus. Includes search by modality (text, audio, vision).
+- **[UC Irvine (UCI) Machine Learning Repository](https://archive.ics.uci.edu/)**
+  > Documented datasets for machine learning, including many small tabular datasets suited to teaching.
 - **[GitHub Datasets](https://github.com/datasets)**  
   > This is a small list of curated public datasets via GitHub repos among the  
    many more [datasets on GitHub outside this](https://github.com/).
@@ -83,14 +95,14 @@ Having an associated academic publication (that has been properly reviewed) prov
 *❌ The academic journals themselves tend not to host the data (so you need the paired dataset above).
 There are many great datasets without a paired academic publication.*
 
-- **Journals focussed entirely on datasets:**  
-  > - Some high profile examples include [Data (MDPI)](https://www.mdpi.com/journal/data),
+- **Journals that focus on publishing datasets and their descriptions:**  
+  > - General (all subject) examples include [Data (MDPI)](https://www.mdpi.com/journal/data),
   [Scientific Data (Nature Portfolio)](https://www.nature.com/sdata/),
   [Earth System Science Data](https://www.earth-system-science-data.net/),
   [GigaScience](https://academic.oup.com/gigascience)
   > - Examples specific to the humanities include [Journal of Open Humanities Data (JOHD)](https://openhumanitiesdata.metajnl.com/)
 - **Humanities journals that include a "track" (or similar) specifically for introducing datasets**
-  > - [Digital Humanities Quarterly](https://www.digitalhumanities.org/dhq/),
+  > - [Digital Humanities Quarterly](https://dhq.digitalhumanities.org/),
   > - [Digital Scholarship in the Humanities](https://academic.oup.com/dsh),
   > - [Cultural Analytics](https://culturalanalytics.org/),
   > - [Transactions of the International Society for Music Information Retrieval (TISMIR)](https://transactions.ismir.net/)
@@ -103,18 +115,22 @@ There are many great datasets without a paired academic publication.*
 Individual datasets like those above may not adhere to such best practices.*
 
 *❌ Use for structure and relationships, not (usually) as a primary source of data.*
+Metadata may describe items whose underlying texts, images, or other files are not openly available.
 
 - **[Wikidata](https://www.wikidata.org)**  
   Free, collaborative knowledge base (not Wikipedia). *Use for: Entity relationships, multilingual facts, ontology.*
 
 - **[Europeana](https://www.europeana.eu)**  
-  Cultural heritage data (art, books, music). *10M+ items from European museums/libraries.*
+  Cultural heritage data (art, books, music). *Millions of items from European museums/libraries.*
+
+- **[OpenAlex](https://openalex.org/)**  
+  Scholarly metadata linking works, authors, institutions, and citations. *Access via API and bulk downloads.*
 
 ---
 
 ## **Aggregated and Processed Data**  
 
-*✅ Pre-processed, visualised, and updated by experts.*
+*✅ Pre-processed and visualised data, often with source links and regular updates.*
 
 *❌ Where the raw data is not provided, this leaves you less scope to explore your own analysis.*
 
@@ -123,13 +139,17 @@ Individual datasets like those above may not adhere to such best practices.*
 
 - **[Our World in Data (OWID)](https://ourworldindata.org)**  
   > Rigorous, source-verified datasets on global issues (climate, inequality, ...). 
-  Most of the studied include an option to download the data used directly,
+  Most cases include an option to download the data used directly,
   or (failing that) at least provide a redirect to the third-party website hosting that data. 
+
+- **[Global Data Tracker](https://globaldatatracker.com/)**  
+  > Interactive country comparisons and visualisations of World Bank indicators.
+  Follow the source links for underlying data; moving counters are estimates, not live measurements.
 
 - **[Google Trends](https://trends.google.com)**  
   > See what the world is searching for by topic (and also region, time, ...).
   Free, but limited to _trends_ (not raw counts).
-  See also [Google books' ngram viewer](https://books.google.com/ngrams/)
+  See also [Google Books Ngram Viewer](https://books.google.com/ngrams/)
 
 ---
 
@@ -142,8 +162,8 @@ Individual datasets like those above may not adhere to such best practices.*
 - **[Factiva](https://www.dowjones.com/factiva)**  
   > News, business, and financial data. *Available via university libraries.*
   
-- **[NexisLexis](https://www.lexisnexis.com)**  
-  > Legal, news, and business databases. *Typically included in academic library subscriptions.*
+- **[LexisNexis Nexis Uni](https://www.lexisnexis.com/en-us/products/nexis-uni.page)**  
+  > Legal, news, and business databases. *Available through subscribing academic libraries.*
 
 ---
 
@@ -158,22 +178,22 @@ Individual datasets like those above may not adhere to such best practices.*
 ### **Government and Similar**  
 
 - **[data.gov (USA)](https://data.gov)**  
-  > 250k+ datasets from US federal agencies (health, environment, economy).
+  > Public datasets from US government agencies (health, environment, economy).
 - **[data.gov.uk (UK)](https://data.gov.uk)**  
   > UK public sector data (crime, education, transport).
   Related UK sites include
-  [UK data service](https://ukdataservice.ac.uk/),
-  [Police data](https://ukdataservice.ac.uk/),
+  [UK Data Service](https://ukdataservice.ac.uk/),
+  [Police data](https://data.police.uk/),
   the [Office for National Statistics (ONS)](https://www.ons.gov.uk/),
-  and the [Open Data Institute (ODI)](https://www.ons.gov.uk/) (as a partner, not a source).
+  and the [Open Data Institute (ODI)](https://theodi.org/) (for guidance on data practice).
   Some cities and regions also offer public data, e.g.,
   the [London Data Store](https://data.london.gov.uk/)
   traverses jobs, transport, and more.
 
-- **[EU Open Data Portal](https://data.europa.eu)**  
-  > 500k+ datasets from EU institutions (trade, environment, research).  
-- **[UN Data](https://data.un.org)**  
-  > UN-aggregated global statistics (demographics, trade, SDGs).  
+- **[European Data Portal](https://data.europa.eu)**  
+  > Public datasets from EU institutions and European national and local portals (trade, environment, research).  
+- **[UN System Data Commons](https://data.un.org)**  
+  > Search across public data and statistics from UN agencies (demographics, health, development, ...).  
 
 ---
 
@@ -195,11 +215,13 @@ Individual datasets like those above may not adhere to such best practices.*
   > US economic time series data (GDP, unemployment, interest rates, ...).
   Most data is directly downloadable as CSV.
 - **[OpenCorporates](https://opencorporates.com)**  
-  > Global company registry (100M+ entities).
-- **[Open spending](http://openspending.org/)**
+  > Global company registry. API and bulk access have separate terms and may require a paid plan.
+- **[OpenSpending](https://www.openspending.org/)**
   > "Spending" (financial) data about countries all around the world.
 - **[World Bank Open Data](https://data.worldbank.org)**  
   > Many indicators for most countries across topics including poverty, education, and energy.  
+- **[OECD Data Explorer](https://data-explorer.oecd.org/)**  
+  > Comparable economic, social, and environmental statistics, with CSV downloads and an API.
 
 ---
 
@@ -207,8 +229,10 @@ Individual datasets like those above may not adhere to such best practices.*
  
 - **[WHO (World Health Organisation)](https://www.who.int/data/gho)**  
   > Global health statistics: diseases, mortality, healthcare access.
-- **[CDC (Centre for Disease Control) WONDER](https://wonder.cdc.gov)**  
-  > US public health data: mortality, births, infectious diseases).  
+- **[CDC (Centers for Disease Control and Prevention) WONDER](https://wonder.cdc.gov)**  
+  > US public health data: mortality, births, infectious diseases.  
+- **[GBIF (Global Biodiversity Information Facility)](https://www.gbif.org/)**  
+  > Species occurrence and biodiversity data worldwide. A free account is required to request occurrence downloads.
   
 ---
 
@@ -220,21 +244,22 @@ Many social media and related companies offer APIs which provide a structured se
 
 *❌ Not all APIs are equal, "free" can be a misnomer, and APIs are more technically demanding than direct downloads.*
 
-- **[Academic Torrents](https://academictorrents.com/docs/downloading.html#)**
-  > API or similar (CLI) required. Provided by a non-profit.
+- **[Academic Torrents](https://academictorrents.com/docs/downloading.html)**
+  > Download datasets using a BitTorrent client, command-line tools, or Python; an API is not required.
 - **[GDELT Project](https://www.gdeltproject.org)**
   > Global event data across the media (broadcast, print, and web).
-- **[Reddit API](https://www.reddit.com/wiki/api)**  
-  > Access Reddit API for posts/comments e.g., via
-  [`PRAW` (The Python Reddit API Wrapper)](https://praw.readthedocs.io/en/stable/).
-  Note: Tighter restrictions since 2023, e.g., `OAuth2` and Reddit account required.
-- **["X" / "Twitter" API](https://developer.x.com/en/docs/x-api)**
-    > 'Free', but be wary of rate limits.
-- **Facebook**
-    >  Not publicly accessible. There are ways, but generally to be avoided.
+- **[Reddit data access](https://support.reddithelp.com/hc/en-us/articles/14945211791892-Developer-Platform-Accessing-Reddit-Data)**  
+  > Academic research requires approval through [Reddit for Researchers](https://support.reddithelp.com/hc/en-us/articles/49381918834964-Reddit-for-Researchers-Program).
+  The general Data API and wrappers such as
+  [`PRAW` (The Python Reddit API Wrapper)](https://praw.readthedocs.io/en/stable/) have separate permitted uses.
+- **["X" / "Twitter" API](https://docs.x.com/overview)**
+    > Paid, usage-based access; check current pricing and rate limits before planning a project.
+- **[Meta Content Library (Facebook and Instagram)](https://www.icpsr.umich.edu/sites/somar/meta-content-library)**
+    > Research access to public content for approved, eligible researchers; 
+    application and access restrictions apply.
 - **Many other companies like [Spotify](https://developer.spotify.com/documentation/web-api)**
     > Restrictions apply and the data coverage can change without warning (it has done so in this case).
-    See also secondary representations such as https://spotifyplaylistarchive.com/.
+    See also secondary representations such as [Spotify Playlist Archive](https://spotifyplaylistarchive.com/).
 
 ---
 
