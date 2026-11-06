@@ -13,7 +13,7 @@ Pages:
 
 * [Datasets (including scores)](#datasets) – on this page
 * [Formats]({{ '/musorepo/formats/' | relative_url }}) – list of standards, open-source notation, OMR.
-And for a [very detailed report on divergence among the major standards, click here.](./musorepo/music-encoding-comparison.html)
+And for a [very detailed report on divergence among the major standards, click here.](./music-encoding-comparison.html)
 * [Software]({{ '/musorepo/software/' | relative_url }}) – parsing and analysis, visualisation, digital editions
 * [Metadata and linked data]({{ '/musorepo/metadata/' | relative_url }})
 * [Teaching]({{ '/musorepo/teaching/' | relative_url }})
