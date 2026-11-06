@@ -1,0 +1,27 @@
+{% extends "base/form-base.html" %}
+
+{% from "macros/forms.html" import form_field %}
+
+{% block page_title %}
+  Working in Harmony - App
+{% endblock %}
+
+{% block page_description %}
+  <p><i>Part of <a href="/working-in-harmony/">Working in Harmony</a></i></p>
+
+  <p>Upload a score with your Roman numeral analysis entered on it, as lyrics on a new, lowest part.</p>
+
+  <p><a href="{{ back }}">Or choose a song and type your analysis instead</a></p>
+
+  {% if feedback %}
+  <div class="feedback">
+    <h3>Feedback</h3>
+    <pre>{{ feedback }}</pre>
+  </div>
+  {% endif %}
+
+{% endblock %}
+
+{% block form_fields %}
+  {{ form_field(form.score) }}
+{% endblock %}
