@@ -21,7 +21,7 @@
     {{ list_downloads(download) }}
 
     {% if form %}
-      <form action="" method="{{ form_method|default('post') }}">
+      <form action="" method="{{ form_method|default('post') }}"{% if form_enctype %} enctype="{{ form_enctype }}"{% endif %}>
         {{ form.hidden_tag() }}
 
         {% block form_fields %}

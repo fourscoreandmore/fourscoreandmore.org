@@ -23,13 +23,13 @@ On other pages:
 
 ## How to enter an analysis
 
-Ultimately, we will offer two options for entering your analysis:
+There are two options for entering your analysis:
 
-1. **'On-score' option [Coming soon]** Directly in the encoded score itself as a 'lyric' on a newly added lowest part. To do this,
+1. **'On-score' option** Directly in the encoded score itself as a 'lyric' on a newly added lowest part, then [upload the score](/apps/working-in-harmony/upload/) as MusicXML (in MuseScore: File > Export). This works for any score, not just the songs in our list. To do this,
   - add a new part (e.g. press 'i' in MuseScore),
   - enter new notes (or perhaps copy over the rhythm from an existing part as a template), and
   - add Roman numeral lyrics to notes in that part. Here's an example analysis of a [Wolf song](../working-in-harmony-backend/app/Wolf_Hugo_-_Eichendorff-Lieder_Der verzweifelte Liebhaber.mxl). We need the new part because otherwise you'd have to change the music (adding notes in to attach lyrics to).
-2. **'Separate' option [Available now!]** Typing in the 'Roman text' format. This is a very simple and intuitive format which adds no jargon beyond that already involved in Roman numeral analysis.
+2. **'Separate' option** Typing in the 'Roman text' format. This is a very simple and intuitive format which adds no jargon beyond that already involved in Roman numeral analysis.
  - See the examples at the end of this page to get the gist of how it works at a glance. The complete version of the Bach analysis can be downloaded [here](../working-in-harmony-backend/app/1.txt).
  - Scroll down for more advice on the formatting.
  - For those interested in knowing more, the full documentation can be found in our research report for [ISMIR 2019](http://archives.ismir.net/ismir2019/paper/000012.pdf) or on music21's [code base](github.com/cuthbertLab/music21/tree/master/music21/romanText), [documentation](web.mit.edu/music21/doc/moduleReference/moduleRoman.html), and [User’s Guide](http://web.mit.edu/music21/doc/usersGuide/usersGuide_23_romanNumerals.html).

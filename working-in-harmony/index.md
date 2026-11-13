@@ -28,8 +28,8 @@ On other pages:
 
 ## How to use this app
 
-1. Choose a score from the dropdown list of lieder. [Coming soon: We aim to offer this for any music you have access to in an ‘encoded’ format that can convert to musicxml (midi, kern, Sibelius, Finale, etc.).]
-2. Write your analysis down and upload it following [these instructions](./analysis.md).
+1. Choose a score from the dropdown list of lieder, or use any music you have access to in an ‘encoded’ format that can convert to MusicXML (Sibelius, Finale, MuseScore, etc.).
+2. Write your analysis down, either as text or on the score itself, and submit it following [these instructions](./analysis.md).
 3. The system will evaluate your work and provide:
   - a new version of the score, with your analysis included on it as a lowest part;
   - a separate text file with feedback on your analysis.
