@@ -337,9 +337,7 @@ def _run_analysis(process, *args):
     if _has_result(directory):
         return []
 
-    parent = os.path.dirname(directory)
-    os.makedirs(parent, exist_ok=True)
-    work_directory = tempfile.mkdtemp(prefix=".partial-", dir=parent)
+    work_directory = _make_work_directory(os.path.dirname(directory))
     seconds = app.config["WIH_TIME_LIMIT"]
     try:
         errors = run_with_time_limit(seconds, process, *args, work_directory)
@@ -363,6 +361,21 @@ def _run_analysis(process, *args):
                 os.rename(work_directory, directory)
     shutil.rmtree(work_directory, ignore_errors=True)
     return errors
+
+
+def _make_work_directory(parent):
+    """Make a new temporary directory in parent, creating parent if need be.
+
+    The daily cleanup (see .platform.app.yaml) deletes empty directories, so
+    parent can disappear between being created and being used: try again.
+    """
+    for attempt in range(3):
+        os.makedirs(parent, exist_ok=True)
+        try:
+            return tempfile.mkdtemp(prefix=".partial-", dir=parent)
+        except FileNotFoundError:
+            if attempt == 2:
+                raise
 
 
 def _has_result(directory):

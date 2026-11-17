@@ -49,15 +49,15 @@ mounts:
 
 crons:
   # Working in Harmony keeps each session's analyses and uploads (up to 10 MB
-  # each) in wih-writable. Delete results more than a week old, and folders
-  # that have been empty for an hour (not ones a request has just created), so
-  # the disk doesn't fill up.
+  # each) in wih-writable. Delete results more than a week old, and any folders
+  # that leaves empty, so the disk doesn't fill up. (A request whose folder is
+  # deleted as it starts creates it again: see _make_work_directory.)
   wih-cleanup:
     spec: '23 4 * * *'
     commands:
       start: |
         find "$PLATFORM_APP_DIR/wih-writable" -mindepth 3 -maxdepth 3 -mtime +7 -exec rm -rf {} +
-        find "$PLATFORM_APP_DIR/wih-writable" -mindepth 1 -type d -empty -mmin +60 -delete
+        find "$PLATFORM_APP_DIR/wih-writable" -mindepth 1 -type d -empty -delete
 
 relationships:
   site: "site:http"

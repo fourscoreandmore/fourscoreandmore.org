@@ -470,3 +470,27 @@ def test_an_uploaded_score_is_not_given_a_piano_brace(client, tmp_path):
     result = tmp_path / "result.mxl"
     result.write_bytes(client.get(match.group(1).decode()).data)
     assert list(converter.parse(str(result)).recurse().getElementsByClass(layout.StaffGroup)) == []
+
+
+def test_an_analysis_survives_its_folder_being_cleaned_up_as_it_starts(app, tmp_path, monkeypatch):
+    """The daily cleanup deletes empty folders, which may be about to be used."""
+    import shutil
+    import tempfile
+
+    from app.routes import _run_analysis
+
+    directory = str(tmp_path / "session" / "song" / "hash")
+    real_mkdtemp = tempfile.mkdtemp
+    calls = []
+
+    def cleaned_up_first(**kwargs):
+        calls.append(kwargs)
+        if len(calls) == 1:
+            shutil.rmtree(tmp_path / "session")
+        return real_mkdtemp(**kwargs)
+
+    monkeypatch.setattr("app.routes.tempfile.mkdtemp", cleaned_up_first)
+
+    assert _run_analysis(lambda directory: write_result(directory) or [], directory) == []
+    assert len(calls) == 2
+    assert open(os.path.join(directory, "feedback.txt")).read() == "Feedback"
