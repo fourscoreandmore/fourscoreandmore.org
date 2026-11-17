@@ -12,7 +12,7 @@ It's not here to 'give out the answers', but simply to help out by catching typo
 If you appreciate having a spell checker for your text documents, and would like something similar for your Roman numeral analysis, then you came to the right place!
 
 Our aim is to support absolutely any music you have available in a suitable format.
-In this initial 'alpha' release, we are trialing this app with songs in the lieder corpus only.
+In this initial 'alpha' release, you can type an analysis for a song in the lieder corpus, or upload any score with your analysis entered on it.
 
 ## You are here
 

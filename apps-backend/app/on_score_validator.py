@@ -47,6 +47,8 @@ def find_on_score_errors(score):
 
     errors = []
     key = None
+    key_given = False
+    reported_no_key = False
     found = False
     for n in score.parts[-1].recurse().notes:
         if not n.lyric:
@@ -57,19 +59,22 @@ def find_on_score_errors(score):
             errors.append(NOT_A_ROMAN_NUMERAL.format(measure=n.measureNumber, lyric=n.lyric))
             continue
         if ":" in lyric:
+            key_given = True
             new_key, figure = lyric.split(":")
-        elif key is None:
-            # Unless the first lyric had a key that couldn't be read.
-            if not errors:
-                errors.append(NO_FIRST_KEY.format(measure=n.measureNumber, lyric=n.lyric))
-            break
         else:
             new_key, figure = key, lyric
         try:
-            if not roman.RomanNumeral(figure, new_key).figure:
+            # Without a key yet, check the figure against any key.
+            if not roman.RomanNumeral(figure, new_key or "C").figure:
                 raise ValueError(figure)
         except Exception:
             errors.append(NOT_A_ROMAN_NUMERAL.format(measure=n.measureNumber, lyric=n.lyric))
+            continue
+        if new_key is None:
+            # Once, and not if a key was given but couldn't be read.
+            if not key_given and not reported_no_key:
+                errors.append(NO_FIRST_KEY.format(measure=n.measureNumber, lyric=n.lyric))
+                reported_no_key = True
             continue
         key = new_key
 

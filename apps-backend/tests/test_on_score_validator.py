@@ -77,3 +77,20 @@ def test_limits_the_number_of_errors(song):
 
     assert len(errors) == MAX_ERRORS + 1
     assert errors[-1] == "... and 5 more."
+
+
+def test_a_first_lyric_that_is_not_a_numeral_is_reported_as_such(song):
+    errors = find_on_score_errors(with_analysis(song, ["la", "C: I"]))
+
+    assert errors == [NOT_A_ROMAN_NUMERAL.format(measure=1, lyric="la")]
+
+
+def test_checking_continues_after_a_missing_or_bad_key(song):
+    assert find_on_score_errors(with_analysis(song, [None, "I", "V", "la"])) == [
+        NO_FIRST_KEY.format(measure=2, lyric="I"),
+        NOT_A_ROMAN_NUMERAL.format(measure=4, lyric="la"),
+    ]
+    assert find_on_score_errors(with_analysis(song, ["Q: I", "V", "la"])) == [
+        NOT_A_ROMAN_NUMERAL.format(measure=1, lyric="Q: I"),
+        NOT_A_ROMAN_NUMERAL.format(measure=3, lyric="la"),
+    ]
