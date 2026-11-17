@@ -5,6 +5,7 @@ from app.on_score_validator import (
     MAX_ERRORS,
     NO_FIRST_KEY,
     NO_LYRICS,
+    NOT_A_KEY,
     NOT_A_ROMAN_NUMERAL,
     TOO_FEW_PARTS,
     find_on_score_errors,
@@ -28,6 +29,8 @@ def with_analysis(song, lyrics):
 VALID = {
     "keys and numerals": ["C: I", "IV", "V7", "I", "a: i", "V"],
     "spaces, brackets and flats as in notation software": ["C : I", "ii 6 5", "V(no5)", "-VI", "Vsus4", "I"],
+    "non-breaking spaces, which romanUmpire also removes": ["C:\xa0I", "V\xa0", "I"],
+    "sharp, flat and minor keys": ["F#: I", "bb: i", "B-: I", "c#: i"],
     "chords on some bars only": ["C: I", None, "V", None, None, "I"],
 }
 
@@ -57,19 +60,27 @@ def test_the_first_numeral_needs_a_key(song):
 
 
 def test_reports_each_lyric_that_is_not_a_roman_numeral(song):
-    errors = find_on_score_errors(with_analysis(song, ["C: I", "la", "V", "Q: I", "C: I:V", "I"]))
+    errors = find_on_score_errors(with_analysis(song, ["C: I", "la", "V", "C: Q", "C: I:V", "I"]))
 
     assert errors == [
         NOT_A_ROMAN_NUMERAL.format(measure=2, lyric="la"),
-        NOT_A_ROMAN_NUMERAL.format(measure=4, lyric="Q: I"),
+        NOT_A_ROMAN_NUMERAL.format(measure=4, lyric="C: Q"),
         NOT_A_ROMAN_NUMERAL.format(measure=5, lyric="C: I:V"),
     ]
+
+
+@pytest.mark.parametrize("lyric, key", [("H: I", "H"), (": I", ""), ("Q: I", "Q")])
+def test_reports_a_key_that_is_not_a_key(song, lyric, key):
+    """music21 can't make a key of these, so romanUmpire would fail on them."""
+    errors = find_on_score_errors(with_analysis(song, ["C: I", lyric, "V"]))
+
+    assert errors == [NOT_A_KEY.format(measure=2, lyric=lyric, key=key)]
 
 
 def test_a_bad_first_key_is_reported_once(song):
     errors = find_on_score_errors(with_analysis(song, ["Q: I", "V"]))
 
-    assert errors == [NOT_A_ROMAN_NUMERAL.format(measure=1, lyric="Q: I")]
+    assert errors == [NOT_A_KEY.format(measure=1, lyric="Q: I", key="Q")]
 
 
 def test_limits_the_number_of_errors(song):
@@ -91,6 +102,6 @@ def test_checking_continues_after_a_missing_or_bad_key(song):
         NOT_A_ROMAN_NUMERAL.format(measure=4, lyric="la"),
     ]
     assert find_on_score_errors(with_analysis(song, ["Q: I", "V", "la"])) == [
-        NOT_A_ROMAN_NUMERAL.format(measure=1, lyric="Q: I"),
+        NOT_A_KEY.format(measure=1, lyric="Q: I", key="Q"),
         NOT_A_ROMAN_NUMERAL.format(measure=3, lyric="la"),
     ]

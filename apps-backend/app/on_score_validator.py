@@ -5,7 +5,7 @@ crashes with unhelpful errors (an IndexError, or a music21 exception about
 "FAKE KEY") when that part has no lyrics, the first lyric has no key, or a
 lyric isn't a Roman numeral. These checks find those problems and say where.
 """
-from music21 import roman
+from music21 import key as m21key, roman
 
 TOO_FEW_PARTS = (
     "The score has only one part. Add your analysis as lyrics on a new, "
@@ -21,6 +21,10 @@ NO_FIRST_KEY = (
 )
 NOT_A_ROMAN_NUMERAL = (
     'Measure {measure}: "{lyric}" could not be read as a Roman numeral.'
+)
+NOT_A_KEY = (
+    'Measure {measure}: in "{lyric}", "{key}" is not a key: use a letter name, '
+    'upper case for major and lower case for minor (e.g. "C", "a", "F#", "bb").'
 )
 MAX_ERRORS = 20
 
@@ -61,6 +65,12 @@ def find_on_score_errors(score):
         if ":" in lyric:
             key_given = True
             new_key, figure = lyric.split(":")
+            try:
+                # As music21 reads the key romanUmpire gives RomanNumeral.
+                m21key.Key(new_key)
+            except Exception:
+                errors.append(NOT_A_KEY.format(measure=n.measureNumber, lyric=n.lyric, key=new_key))
+                continue
         else:
             new_key, figure = key, lyric
         try:
