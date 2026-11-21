@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       opensheetmusicdisplay:
-        specifier: ^2.3.0
-        version: 2.3.0
+        specifier: ^2.3.1
+        version: 2.3.1
 
 packages:
 
@@ -39,8 +39,8 @@ packages:
     resolution: {integrity: sha512-HgMmCqIJSAKqo68l0rS2AanEWfkxaZ5wNiEFb5ggm08lDs9Xl2KxBlX3PTcaD2chBM1gXAYf491/M2Rv8Jwayg==}
     engines: {node: '>= 0.6.0'}
 
-  opensheetmusicdisplay@2.3.0:
-    resolution: {integrity: sha512-3f6PgInIo16mEdyHKe5t5pa0DbVD82sVl5Ca1mETyYc1TI5g7u//pP4EkzkVXz8S7iuoErPsnowXxY7uLdU4zw==}
+  opensheetmusicdisplay@2.3.1:
+    resolution: {integrity: sha512-0mvP1KzFFi3/oYdOmsHqGbvFRxWiThkC9TAeGJPFWPHxD4HbfPXXqoDy+jCQr/dBNGnFKxeYeYwD3Cipgyz+Sg==}
 
   pako@1.0.11:
     resolution: {integrity: sha512-4hLB8Py4zZce5s4yd9XzopqwVv/yGNhV1Bl8NTmCq1763HeK2+EwVTv+leGeL13Dnh2wfbqowVPXCIO0z4taYw==}
@@ -94,7 +94,7 @@ snapshots:
 
   loglevel@1.9.2: {}
 
-  opensheetmusicdisplay@2.3.0:
+  opensheetmusicdisplay@2.3.1:
     dependencies:
       '@types/vexflow': 1.2.42
       jszip: 3.10.2
