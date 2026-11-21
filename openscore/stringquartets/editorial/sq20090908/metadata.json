@@ -1,0 +1,234 @@
+{
+  "schema_version": 2,
+  "sqid": "sq20090908",
+  "title": "String Quartet No.14 in C-sharp minor, Op.131",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "2026-10-28",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04768",
+  "source_filename": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+  "source_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+  "source_pages": 40,
+  "source_publisher": "Breitkopf & Härtel",
+  "source_reprint": "Dover reprint supplied as an IMSLP PDF.",
+  "score_file": "sq20090908.mscx",
+  "score_sha256": "ccbb91de401f0bf2d01bf13a0a060f2ebd860c9db492647400d0c36276040c95",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.14_in_C♯_minor,_Op.131/sq20090908.mscz",
+  "native_format": "4.70",
+  "native_program_version": "4.7.6",
+  "native_companions": [
+    {
+      "path": "Excerpts/0_Violin_1/0_Violin_1.mscx",
+      "sha256": "78cd4dbf641dda47180a054254e689e7faa1102d8c5ac2a993e35455036c7a4b",
+      "bytes": 3805193
+    },
+    {
+      "path": "Excerpts/0_Violin_1/0_Violin_1.mss",
+      "sha256": "01533f24fbb839bdb0d7d1f1144f8abf02ba8bdfa8db2cfc1137d7805040f132",
+      "bytes": 103809
+    },
+    {
+      "path": "Excerpts/0_Violin_1/audiosettings.json",
+      "sha256": "1da598fb27a48e9f0f88df890b01665a6a06338c00cd498e804ebebc0eef88a3",
+      "bytes": 794
+    },
+    {
+      "path": "Excerpts/0_Violin_1/viewsettings.json",
+      "sha256": "47e64f09cae0e2278f615c508a9fd933738ac854193fa472a412e75498fd81c9",
+      "bytes": 55
+    },
+    {
+      "path": "Excerpts/1_Violin_2/1_Violin_2.mscx",
+      "sha256": "0fe21fd29c4464b8505b1ebcad386388bb951bdf5295ce33e3259440de87b51e",
+      "bytes": 3950392
+    },
+    {
+      "path": "Excerpts/1_Violin_2/1_Violin_2.mss",
+      "sha256": "01533f24fbb839bdb0d7d1f1144f8abf02ba8bdfa8db2cfc1137d7805040f132",
+      "bytes": 103809
+    },
+    {
+      "path": "Excerpts/1_Violin_2/audiosettings.json",
+      "sha256": "effa382ec836bca2cace2aed06c3c00317a84c543202f08650f9e5a9e50a2684",
+      "bytes": 794
+    },
+    {
+      "path": "Excerpts/1_Violin_2/viewsettings.json",
+      "sha256": "47e64f09cae0e2278f615c508a9fd933738ac854193fa472a412e75498fd81c9",
+      "bytes": 55
+    },
+    {
+      "path": "Excerpts/2_Viola/2_Viola.mscx",
+      "sha256": "3ea21d33a31609ba1bc583c23620687fbfb3530be79ab813adc705e80d69a844",
+      "bytes": 3910336
+    },
+    {
+      "path": "Excerpts/2_Viola/2_Viola.mss",
+      "sha256": "676237cbd6a0e75503def9694efd7d3a09ce7f76598f829a62617e92ec2b1a49",
+      "bytes": 103810
+    },
+    {
+      "path": "Excerpts/2_Viola/audiosettings.json",
+      "sha256": "bf5c512a7ff1f7862555c910237571976a8ff2ba262aed3169819b4105553cd2",
+      "bytes": 603
+    },
+    {
+      "path": "Excerpts/2_Viola/viewsettings.json",
+      "sha256": "47e64f09cae0e2278f615c508a9fd933738ac854193fa472a412e75498fd81c9",
+      "bytes": 55
+    },
+    {
+      "path": "Excerpts/3_Violoncello/3_Violoncello.mscx",
+      "sha256": "cab87e8acc543592191aba7b7494c4988c62c258f11812a3d4a497304044df39",
+      "bytes": 3394717
+    },
+    {
+      "path": "Excerpts/3_Violoncello/3_Violoncello.mss",
+      "sha256": "676237cbd6a0e75503def9694efd7d3a09ce7f76598f829a62617e92ec2b1a49",
+      "bytes": 103810
+    },
+    {
+      "path": "Excerpts/3_Violoncello/audiosettings.json",
+      "sha256": "d7e9e0b96055ce29ccafb572c2b2f55b770b9813f67d35aece53564498c8da5a",
+      "bytes": 794
+    },
+    {
+      "path": "Excerpts/3_Violoncello/viewsettings.json",
+      "sha256": "47e64f09cae0e2278f615c508a9fd933738ac854193fa472a412e75498fd81c9",
+      "bytes": 55
+    },
+    {
+      "path": "META-INF/container.xml",
+      "sha256": "bc0fb369744ed4b10e96ec951d89ad03e16a04c6cf3fbb8ea8b62bf46ae62dfa",
+      "bytes": 1415
+    },
+    {
+      "path": "Thumbnails/thumbnail.png",
+      "sha256": "5f204c26290bdcc47250e11972ccd3259e963908e941e6ce3acb1e03f65a2003",
+      "bytes": 80521
+    },
+    {
+      "path": "audiosettings.json",
+      "sha256": "f262519a9c86b7fd991bb89f1d91d1c30a21ee2aec7050bf6ac3b39b647ff35f",
+      "bytes": 6794
+    },
+    {
+      "path": "automation.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "score_style.mss",
+      "sha256": "42d48aa7efc9a29da3b64eff80c0f0258a531e0be98dd4c2cb3f6017ee830899",
+      "bytes": 103808
+    },
+    {
+      "path": "viewsettings.json",
+      "sha256": "47e64f09cae0e2278f615c508a9fd933738ac854193fa472a412e75498fd81c9",
+      "bytes": 55
+    }
+  ],
+  "transcriber": "viddler",
+  "score_licence": "CC0",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": null,
+  "baseline_repository": "OpenScore/StringQuartets",
+  "baseline_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "catalogue_url": "https://github.com/OpenScore/StringQuartets/blob/2614b0b2958dd1ce3f52e172a43e5f4d0e29570f/data/scores.yaml",
+  "catalogue_key": 20090908,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.14_in_C♯_minor,_Op.131",
+    "name": "String Quartet No.14 in C♯ minor, Op.131",
+    "link": "https://musescore.com/openscore-string-quartets/scores/20090908",
+    "musescore_version": "4.7.3",
+    "imslp": "#04768 ",
+    "set_id": 5108659
+  },
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Adagio ma non troppo e molto espressivo",
+      "bars": 121,
+      "physical_start": 1,
+      "physical_end": 122,
+      "physical_count": 122,
+      "uncounted_physical_measures": [
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Allegro molto vivace",
+      "bars": 198,
+      "physical_start": 123,
+      "physical_end": 321,
+      "physical_count": 199,
+      "uncounted_physical_measures": [
+        123
+      ]
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Allegro moderato",
+      "bars": 11,
+      "physical_start": 322,
+      "physical_end": 332,
+      "physical_count": 11
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "Andante ma non troppo e molto cantabile",
+      "bars": 277,
+      "physical_start": 333,
+      "physical_end": 610,
+      "physical_count": 278,
+      "uncounted_physical_measures": [
+        518
+      ]
+    },
+    {
+      "number": 5,
+      "label": "V",
+      "title": "Presto",
+      "bars": 498,
+      "physical_start": 611,
+      "physical_end": 1110,
+      "physical_count": 500,
+      "uncounted_physical_measures": [
+        676,
+        677
+      ]
+    },
+    {
+      "number": 6,
+      "label": "VI",
+      "title": "Adagio quasi un poco andante",
+      "bars": 28,
+      "physical_start": 1111,
+      "physical_end": 1138,
+      "physical_count": 28
+    },
+    {
+      "number": 7,
+      "label": "VII",
+      "title": "Allegro",
+      "bars": 388,
+      "physical_start": 1139,
+      "physical_end": 1526,
+      "physical_count": 388
+    }
+  ],
+  "numbering_note": "Bar numbers restart in each of the seven movements. The opening pickups of I and II are unnumbered. First-ending measures in IV and V are excluded from the subsequent count. Physical measure indices retain every stored measure.",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-28",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  }
+}

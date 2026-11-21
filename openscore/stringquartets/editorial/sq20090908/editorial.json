@@ -1,0 +1,953 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq20090908",
+  "context_markdown": "Known intentional differences between the supplied IMSLP #04768 source and this edition, covering all movements and all four parts. Entries are ordered by their first occurrence in the score; repeated occurrences are listed within each entry.\n\nBar numbers restart in each of the seven movements. The opening pickups of I and II are unnumbered. First-ending measures in IV and V are excluded from the subsequent count. Physical measure indices retain every stored measure.",
+  "policy_refs": [
+    "C3",
+    "K1",
+    "G2",
+    "D3",
+    "L2",
+    "C2.3.1",
+    "C4",
+    "D1",
+    "T4",
+    "D5",
+    "P1",
+    "D4",
+    "D2.1"
+  ],
+  "records": [
+    {
+      "title": "Brief tenor-clef excursion retained in bass clef",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 24,
+      "measure_end": 26,
+      "physical_start": 25,
+      "physical_end": 27,
+      "location": "24–26",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Brief tenor-clef excursion retained in bass clef",
+      "policy_refs": [
+        "C3"
+      ],
+      "id": "ED-001",
+      "body_markdown": "**Source:** Tenor clef enters for the last quarter note of bar 24 and continues through the high notes of bars 25–26, before bass clef returns.\n\n**Edition:** Bass clef is retained throughout this short passage, with the same sounding pitches.\n\n**Editorial reason:** The short change is omitted under C3. This entry concerns the brief excursion at bars 24–26.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-01-source.png",
+          "caption": "Source scan; PDF page 1; movement I, 24–26.",
+          "pdf_page": 1,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            405,
+            590,
+            600,
+            641
+          ],
+          "sha256": "a7de9a1ca0222dd21c3ec8e76f2245ee2e0f3a36a37a613e83da89c0ad42001f"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-02-edition.png",
+          "caption": "Current edition; PDF page 1; movement I, 24–26.",
+          "pdf_page": 1,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            365,
+            489,
+            555,
+            530
+          ],
+          "sha256": "928acc503371cc24514dcfd5d9043dc0024bed51c2daf50cb561a1470c6e9e9e"
+        }
+      ]
+    },
+    {
+      "title": "Cancelling naturals omitted at the change to five flats",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 45,
+      "measure_end": 45,
+      "physical_start": 46,
+      "physical_end": 46,
+      "location": "45",
+      "part": "All parts",
+      "type": "Key signature",
+      "status": "accepted",
+      "summary": "Cancelling naturals omitted at the change to five flats",
+      "policy_refs": [
+        "K1",
+        "G2"
+      ],
+      "id": "ED-002",
+      "body_markdown": "**Source:** The four sharps are explicitly cancelled by naturals before the new five-flat signature (courtesy signature at the end of bar 44).\n\n**Edition:** The new five-flat key signature is shown without the cancellation naturals.\n\n**Editorial reason:** Apply K1 and the MuseScore default; pitch content is unchanged. This is a representative documented occurrence of the key-signature policy.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-01-source.png",
+          "caption": "Source scan; PDF page 2; movement I, 45.",
+          "pdf_page": 2,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            520,
+            50,
+            610,
+            200
+          ],
+          "sha256": "0b1659cf3c491989411f5796338a9f8a26573ed14fdb906558a9fa8c7804a168"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-02-edition.png",
+          "caption": "Current edition; PDF page 1; movement I, 45.",
+          "pdf_page": 1,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            505,
+            660,
+            565,
+            785
+          ],
+          "sha256": "524f284d33dc1b897f5ba1d4e6f555ff6eaccf7bce8030d5722c7fcb5d34c487"
+        }
+      ]
+    },
+    {
+      "title": "Standard abbreviation for un poco ritard.",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 7,
+      "measure_end": 7,
+      "physical_start": 130,
+      "physical_end": 130,
+      "location": "7",
+      "part": "All parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "Standard abbreviation for un poco ritard.",
+      "policy_refs": [
+        "D3",
+        "L2",
+        "G2"
+      ],
+      "id": "ED-003",
+      "body_markdown": "**Source:** un poco ritard. is printed separately below the four staves.\n\n**Edition:** poco rit. appears once above the system as a tempo instruction.\n\n**Editorial reason:** The equivalent abbreviation and system placement preserve the instruction while following D3 and L2.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-01-source.png",
+          "caption": "Source scan; PDF page 4; movement II, 7.",
+          "pdf_page": 4,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            370,
+            210,
+            540,
+            350
+          ],
+          "sha256": "cf78d4e15b0a450d9f0a89befe1bb9f76c738c003eda843de38d3883becbdf95"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-02-edition.png",
+          "caption": "Current edition; PDF page 4; movement II, 7.",
+          "pdf_page": 4,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            405,
+            95,
+            555,
+            250
+          ],
+          "sha256": "a2859317b659c4ce530bf5bdf82d1815d306611461f4c5aea28f7cf64474429d"
+        }
+      ]
+    },
+    {
+      "title": "Standard espr. abbreviation",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 83,
+      "measure_end": 83,
+      "physical_start": 206,
+      "physical_end": 206,
+      "location": "83",
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Standard espr. abbreviation",
+      "policy_refs": [
+        "D3"
+      ],
+      "id": "ED-004",
+      "body_markdown": "**Source:** p espress.\n\n**Edition:** p espr.\n\n**Editorial reason:** Retain the recognised shorter abbreviation for espressivo under D3; the piano dynamic is retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-01-source.png",
+          "caption": "Source scan; PDF page 6; movement II, 83.",
+          "pdf_page": 6,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            460,
+            45,
+            550,
+            192
+          ],
+          "sha256": "2b5011cb5ea647df62b042ddae7aa4c87b4b260c752d33be92562c45c432a84b"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-02-edition.png",
+          "caption": "Current edition; PDF page 6; movement II, 83.",
+          "pdf_page": 6,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            435,
+            53,
+            495,
+            190
+          ],
+          "sha256": "743ed43fa35b46d7a7afd10d257ffcfaad889d163a94b9693f9068be65da8d28"
+        }
+      ]
+    },
+    {
+      "title": "rinf. represented by rf",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 10,
+      "measure_end": 10,
+      "physical_start": 331,
+      "physical_end": 331,
+      "location": "10",
+      "part": "Violin I",
+      "type": "Dynamic text",
+      "status": "accepted",
+      "summary": "rinf. represented by rf",
+      "policy_refs": [
+        "D3",
+        "G2"
+      ],
+      "id": "ED-005",
+      "body_markdown": "**Source:** rinf. appears beneath the opening figure.\n\n**Edition:** The equivalent rf dynamic is used at the same point.\n\n**Editorial reason:** Use the native rinforzando dynamic and its recognised abbreviation; this also agrees with the accompanying lower-part rf indications.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-01-source.png",
+          "caption": "Source scan; PDF page 9; movement III, 10.",
+          "pdf_page": 9,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            310,
+            200,
+            490,
+            250
+          ],
+          "sha256": "4d9452e2688c7a0efc9eaf67edca6015128c674b98e7c4b4ff60d9af2b43443c"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-02-edition.png",
+          "caption": "Current edition; PDF page 9; movement III, 10.",
+          "pdf_page": 9,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            285,
+            560,
+            445,
+            620
+          ],
+          "sha256": "1e63f0ac0f4b3f32b8fe7bc9e8f315392b217bb5ff694c8c4540105f1fa90c6c"
+        }
+      ]
+    },
+    {
+      "title": "Historical cello treble notation replaced by tenor clef",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 130,
+      "measure_end": 131,
+      "physical_start": 462,
+      "physical_end": 463,
+      "location": "130–131",
+      "part": "Cello",
+      "type": "Clef / octave notation",
+      "status": "accepted",
+      "summary": "Historical cello treble notation replaced by tenor clef",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "id": "ED-006",
+      "body_markdown": "**Source:** The cello uses historical treble notation at the lower sounding octave; the opening written G-sharp5 represents sounding G-sharp4.\n\n**Edition:** Tenor clef is used at sounding pitch (opening G-sharp4), followed by the source bass-clef return.\n\n**Editorial reason:** Adopt modern sounding-octave cello notation under C2.3.1/C4. This is a notation change, not an octave change to the intended music.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-01-source.png",
+          "caption": "Source scan; PDF page 13; movement IV, 130–131.",
+          "pdf_page": 13,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            145,
+            735,
+            445,
+            815
+          ],
+          "sha256": "c9aacf2440c3da2eae10374f05ab2a9f0ff1590f1bdd379a73a868e5bc56c6e0"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-02-edition.png",
+          "caption": "Current edition; PDF page 14; movement IV, 130–131.",
+          "pdf_page": 14,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            145,
+            590,
+            435,
+            640
+          ],
+          "sha256": "e9ded0806c41d74ff9dbae5a22dbe56e22a185448b4285b4ba97428183e1f62f"
+        },
+        {
+          "role": "edition_context",
+          "path": "images/ed-006-03-edition-context.png",
+          "caption": "Current edition; preceding cello context, IV127–128, establishes the tenor clef retained at IV130; PDF page 14.",
+          "pdf_page": 14,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            350,
+            430,
+            555,
+            485
+          ],
+          "sha256": "84c20cc8586339f5feb5dc19c8ec6465080c880caba085d7a6950e0538d595c2"
+        }
+      ]
+    },
+    {
+      "title": "Modern tenor clef for the ascending cello figure",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 147,
+      "measure_end": 147,
+      "physical_start": 479,
+      "physical_end": 479,
+      "location": "147",
+      "part": "Cello",
+      "type": "Clef / octave notation",
+      "status": "accepted",
+      "summary": "Modern tenor clef for the ascending cello figure",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "id": "ED-007",
+      "body_markdown": "**Source:** Historical treble notation continues from the end of bar 146 into the ascending figure in 147, before the return to bass clef.\n\n**Edition:** The figure is notated in tenor clef at its intended sounding octave; the bass-clef return is retained.\n\n**Editorial reason:** Apply the established modern cello-octave convention, C2.3.1 and C4.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-01-source.png",
+          "caption": "Source scan; PDF page 14; movement IV, 147.",
+          "pdf_page": 14,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            28,
+            570,
+            210,
+            635
+          ],
+          "sha256": "d4fb4e0bc0060ba5ebb458e2b393fece2c9182af230ecfc6273b7effb091bf09"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-02-edition.png",
+          "caption": "Current edition; PDF page 15; movement IV, 147.",
+          "pdf_page": 15,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            32,
+            440,
+            195,
+            520
+          ],
+          "sha256": "5e65855ebdf5c179f2555d70cc54e01326ebdbac5fe946a07268b9264758c7dc"
+        }
+      ]
+    },
+    {
+      "title": "Modern tenor clef for the cello triplet ascent",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 224,
+      "measure_end": 225,
+      "physical_start": 557,
+      "physical_end": 558,
+      "location": "224–225",
+      "part": "Cello",
+      "type": "Clef / octave notation",
+      "status": "accepted",
+      "summary": "Modern tenor clef for the cello triplet ascent",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "id": "ED-008",
+      "body_markdown": "**Source:** The source changes to historical treble notation for the high phrase, then returns to bass clef in 225.\n\n**Edition:** Tenor clef replaces historical treble; the intended sounding register and the bass-clef return are preserved.\n\n**Editorial reason:** Apply C2.3.1/C4 rather than requiring a player to infer the historical octave convention.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-01-source.png",
+          "caption": "Source scan; PDF page 18; movement IV, 224–225.",
+          "pdf_page": 18,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            185,
+            155,
+            450,
+            220
+          ],
+          "sha256": "ac010c71e6c0d93d5580f04cf51e669cd6dbab15a634938f5040cdcde508b46c"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-02-edition.png",
+          "caption": "Current edition; PDF page 18; movement IV, 224–225.",
+          "pdf_page": 18,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            175,
+            735,
+            430,
+            793
+          ],
+          "sha256": "af2f473bfde42d82c8f12042fd71dea52a8e9ada776252621e4fa43656b19072"
+        }
+      ]
+    },
+    {
+      "title": "dim. e ritard. split into dynamic and tempo instructions",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 239,
+      "measure_end": 240,
+      "physical_start": 572,
+      "physical_end": 573,
+      "location": "239–240",
+      "part": "Violin I / system",
+      "type": "Dynamic and tempo text",
+      "status": "accepted",
+      "summary": "dim. e ritard. split into dynamic and tempo instructions",
+      "policy_refs": [
+        "D1",
+        "D3",
+        "L2"
+      ],
+      "id": "ED-009",
+      "body_markdown": "**Source:** dim. e ritard. runs beneath the violin line over bars 239–240.\n\n**Edition:** dim. remains below the staff, while rit. is a separate tempo instruction above the system.\n\n**Editorial reason:** Separate the simultaneous dynamic and tempo instructions using standard text and native placement, retaining their shared onset.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-01-source.png",
+          "caption": "Source scan; PDF page 18; movement IV, 239–240.",
+          "pdf_page": 18,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            145,
+            515,
+            345,
+            570
+          ],
+          "sha256": "d14a082858d36555d8048e7f747c1adac5b6c9f43babb371db73817b617837e9"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-02-edition.png",
+          "caption": "Current edition; PDF page 19; movement IV, 239–240.",
+          "pdf_page": 19,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            172,
+            348,
+            310,
+            410
+          ],
+          "sha256": "528f094794c0c0c3ad05472e5fab2efa49dea29161caeef70c0a9203f1c96012"
+        }
+      ]
+    },
+    {
+      "title": "Default brackets clarify mixed note-and-rest triplets",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 250,
+      "measure_end": 253,
+      "physical_start": 583,
+      "physical_end": 586,
+      "location": "250–253",
+      "part": "Violin II, viola and cello",
+      "type": "Tuplet notation",
+      "status": "accepted",
+      "summary": "Default brackets clarify mixed note-and-rest triplets",
+      "policy_refs": [
+        "T4",
+        "G2"
+      ],
+      "id": "ED-010",
+      "body_markdown": "**Source:** Triplet numerals appear without modern square-cornered brackets across the mixed note-and-rest groups.\n\n**Edition:** MuseScore supplies square-cornered brackets for those groups while retaining the musical slurs and durations.\n\n**Editorial reason:** Apply T4 and the default tuplet presentation. No rhythmic change is intended.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-01-source.png",
+          "caption": "Source scan; PDF page 19; movement IV, 250–253.",
+          "pdf_page": 19,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            28,
+            202,
+            600,
+            355
+          ],
+          "sha256": "883b92b6b0bec6210a3f6d59f36b59b6212768cf032f8b7b08dd3b43638ed7fe"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-02-edition.png",
+          "caption": "Current edition; PDF page 20; movement IV, 250–253.",
+          "pdf_page": 20,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            30,
+            43,
+            555,
+            230
+          ],
+          "sha256": "c79fe87b9fd9576f42346ef1a1986c51bd0c3cb3ac9bc127d3e00d0f535b14e6"
+        }
+      ]
+    },
+    {
+      "title": "dim. e rit. separated into native instructions",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 263,
+      "measure_end": 263,
+      "physical_start": 596,
+      "physical_end": 596,
+      "location": "263",
+      "part": "Violin I / system",
+      "type": "Dynamic and tempo text",
+      "status": "accepted",
+      "summary": "dim. e rit. separated into native instructions",
+      "policy_refs": [
+        "D1",
+        "D3",
+        "L2"
+      ],
+      "id": "ED-011",
+      "body_markdown": "**Source:** dim. e rit. is printed as a combined instruction below the violin staff.\n\n**Edition:** dim. is below the staff and rit. is separately placed above the system.\n\n**Editorial reason:** The two simultaneous instructions retain the same onset, with standard dynamic and tempo placement.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-01-source.png",
+          "caption": "Source scan; PDF page 19; movement IV, 263.",
+          "pdf_page": 19,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            480,
+            365,
+            605,
+            420
+          ],
+          "sha256": "ba9f684aacd160ef4337afcc2884be348cef635a1dc2a93c377e28cb24ce1b7b"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-02-edition.png",
+          "caption": "Current edition; PDF page 20; movement IV, 263.",
+          "pdf_page": 20,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            480,
+            245,
+            552,
+            305
+          ],
+          "sha256": "2d12246889c151b13610a9a477249079dbbfa05a9a0a139c7439803a2edf9d9c"
+        }
+      ]
+    },
+    {
+      "title": "Standard ritardando abbreviation and system marking",
+      "movement": 5,
+      "movement_label": "V",
+      "measure_start": 44,
+      "measure_end": 44,
+      "physical_start": 654,
+      "physical_end": 654,
+      "location": "44; also 210, 376, 424",
+      "part": "All parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "Repeated ritard. markings use a single functional rit. indication in the full score.",
+      "policy_refs": [
+        "D3",
+        "D5",
+        "L2"
+      ],
+      "id": "ED-012",
+      "body_markdown": "**Source:** The indication ritard. is repeated beneath all four staves at V.44, 210, 376 and 424.\n\n**Edition:** A system-level rit. marking appears above the score at the same passages. The instruction applies to all four parts.\n\n**Editorial reason:** Retain the recognised abbreviation and functional tempo object under D3 and D5; the source tempo instruction remains applicable to all parts. The illustrated example is V.44.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-01-source.png",
+          "caption": "Source scan; PDF p. 20.",
+          "pdf_page": 20,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            175,
+            650,
+            380,
+            805
+          ],
+          "sha256": "1d7177d42ffd2ddf62572705929d01470ad572759b7db54b33fe1fb3091bc2bf"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-02-edition.png",
+          "caption": "Current native edition; PDF p. 21.",
+          "pdf_page": 21,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            225,
+            650,
+            400,
+            790
+          ],
+          "sha256": "d35425bfdd70c27c41d2239edc5e49d2174b2436ce6d92d9b55694ef602de87d"
+        }
+      ]
+    },
+    {
+      "title": "Omission of an isolated tenor-clef excursion",
+      "movement": 5,
+      "movement_label": "V",
+      "measure_start": 164,
+      "measure_end": 166,
+      "physical_start": 776,
+      "physical_end": 778,
+      "location": "164–166",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "The lone pizzicato F-sharp4 at 164 stays in bass clef.",
+      "policy_refs": [
+        "C3"
+      ],
+      "id": "ED-013",
+      "body_markdown": "**Source:** Tenor clef is introduced for the isolated pizzicato F-sharp4 in V.164; two silent bars follow, before bass clef resumes at 167.\n\n**Edition:** The same sounding F-sharp4 is written with ledger lines in bass clef.\n\n**Editorial reason:** Retain this brief clef simplification under C3. This entry concerns the isolated note only.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-01-source.png",
+          "caption": "Source scan; PDF p. 23.",
+          "pdf_page": 23,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            275,
+            205,
+            510,
+            340
+          ],
+          "sha256": "58dec096e68ed1007f36128fa8d93c0b02800ce73af6ab531e5d29c532d4540f"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-02-edition.png",
+          "caption": "Current native edition; PDF p. 24.",
+          "pdf_page": 24,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            40,
+            60,
+            555,
+            183
+          ],
+          "sha256": "95671c7d77b6233b6089079111f8154c156b3781ac8ac649a832183055d9d64e"
+        }
+      ]
+    },
+    {
+      "title": "Modern cello notation for the sul ponticello passage",
+      "movement": 5,
+      "movement_label": "V",
+      "measure_start": 469,
+      "measure_end": 487,
+      "physical_start": 1081,
+      "physical_end": 1099,
+      "location": "469–487, first note",
+      "part": "Cello",
+      "type": "Clef / octave notation",
+      "status": "accepted",
+      "summary": "Historical treble notation is replaced by tenor clef at the sounding octave.",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "id": "ED-014",
+      "body_markdown": "**Source:** The cello sul ponticello passage uses historical treble notation interpreted one octave below its written pitches. It begins at V.469 and continues through the first note of V.487, after which bass clef resumes.\n\n**Edition:** Tenor clef represents the intended sounding octave. The opening figure sounds B4–G-sharp4–E4–G-sharp4. Bass clef resumes after the first quarter note of V.487.\n\n**Editorial reason:** Adopt modern cello octave notation under C2.3.1 and C4. The sounding pitches are retained; this is a notation change, not an octave transposition of the music.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-01-source.png",
+          "caption": "Source scan; PDF p. 29.",
+          "pdf_page": 29,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            15,
+            350,
+            595,
+            516
+          ],
+          "sha256": "aa994df681328978af4b8204992b98e6d77fd58fcd2ec6de65b073039b03d2cb"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-02-edition.png",
+          "caption": "Current native edition; PDF p. 29.",
+          "pdf_page": 29,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            40,
+            333,
+            555,
+            503
+          ],
+          "sha256": "d41c1eebf393bf726d4b300d524ece3bd849e41340b92f113931cac16caa26f7"
+        }
+      ]
+    },
+    {
+      "title": "Standard sul ponticello abbreviation",
+      "movement": 5,
+      "movement_label": "V",
+      "measure_start": 470,
+      "measure_end": 471,
+      "physical_start": 1082,
+      "physical_end": 1083,
+      "location": "470–471",
+      "part": "Violins I and II",
+      "type": "Playing instruction",
+      "status": "accepted",
+      "summary": "Sul ponticello is shortened to sul pont. in the two violin parts.",
+      "policy_refs": [
+        "D3",
+        "P1"
+      ],
+      "id": "ED-015",
+      "body_markdown": "**Source:** Violin I at V.470 and violin II at V.471 print sul ponticello.\n\n**Edition:** The two violin labels read sul pont.; viola and cello retain the full wording at their own entries.\n\n**Editorial reason:** Retain the recognised abbreviation, with the same technique and onset.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-015-01-source.png",
+          "caption": "Source scan; PDF p. 29.",
+          "pdf_page": 29,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            15,
+            350,
+            345,
+            516
+          ],
+          "sha256": "73dd22f4eadc37759a8009b326a1d27dc4ac2bf8391f30b2d8c50829967590b9"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-015-02-edition.png",
+          "caption": "Current native edition; PDF p. 29.",
+          "pdf_page": 29,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            40,
+            333,
+            280,
+            503
+          ],
+          "sha256": "3bceb3e807fff9452b705630c8dfcd877ce49a556aff131e237e81785cd3f4af"
+        }
+      ]
+    },
+    {
+      "title": "Functional line replaces syllabified ritardando",
+      "movement": 7,
+      "movement_label": "VII",
+      "measure_start": 68,
+      "measure_end": 71,
+      "physical_start": 1206,
+      "physical_end": 1209,
+      "location": "68–71; also 228–231 and 250–253",
+      "part": "All parts",
+      "type": "Tempo line",
+      "status": "accepted",
+      "summary": "A standard rit. line replaces the source’s divided ri–tar–dan–do text.",
+      "policy_refs": [
+        "D3",
+        "D4",
+        "D5"
+      ],
+      "id": "ED-016",
+      "body_markdown": "**Source:** Ritardando is divided into syllables across several bars and repeated on individual staves at VII.68–71, 228–231 and 250–253.\n\n**Edition:** A system-level native ritardando line carries the standard opening label rit. and, where a system break intervenes, continuation text (rit.).\n\n**Editorial reason:** Retain the functional tempo line and standard joined label under D3–D5 instead of manually placing syllables. The excerpt illustrates VII.68–71.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-016-01-source.png",
+          "caption": "Source scan; PDF p. 32.",
+          "pdf_page": 32,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            295,
+            185,
+            590,
+            350
+          ],
+          "sha256": "23bb025dd97193621b2e748e90d4681f6dc49bfcc431932c20ee37c7144191c3"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-016-02-edition.png",
+          "caption": "Current native edition; PDF p. 32.",
+          "pdf_page": 32,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            295,
+            650,
+            555,
+            789
+          ],
+          "sha256": "659e96aadb1f2b109e19dcf0928620f4b12f62de86d67a3b7d052a512c85037e"
+        }
+      ]
+    },
+    {
+      "title": "Modern spelling non legato",
+      "movement": 7,
+      "movement_label": "VII",
+      "measure_start": 128,
+      "measure_end": 128,
+      "physical_start": 1266,
+      "physical_end": 1266,
+      "location": "128; also 134, 139, 141, 144, 329",
+      "part": "Violins I and II; viola",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "The source spelling non ligato is standardised to non legato.",
+      "policy_refs": [
+        "D2.1"
+      ],
+      "id": "ED-017",
+      "body_markdown": "**Source:** Non ligato occurs at VII.128 (violin II), 134 (violin I), 139 (violin II), 141 (viola), 144 (violin I), and 329 (violin I).\n\n**Edition:** Each is written non legato, at the same musical location.\n\n**Editorial reason:** Adopt the standard modern spelling without altering the articulation instruction. The excerpts illustrate the first and last occurrences.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-017-01-source.png",
+          "caption": "Source scan; PDF p. 33.",
+          "pdf_page": 33,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            80,
+            662,
+            195,
+            807
+          ],
+          "sha256": "e813a26b2a468fd090f3fe67f0ead898b337acb60c558fcd4caf4797740dd300"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-017-02-edition.png",
+          "caption": "Current native edition; PDF p. 34.",
+          "pdf_page": 34,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            105,
+            346,
+            220,
+            485
+          ],
+          "sha256": "dd66c7fcd1227c8cedfea1ebd000c00fef7fa0c0c13ff0bf6d9b90cb58d691aa"
+        },
+        {
+          "role": "source",
+          "path": "images/ed-017-03-source.png",
+          "caption": "Source scan; PDF p. 39.",
+          "pdf_page": 39,
+          "pdf_document": "IMSLP04768-Beethoven_-_String_Quartet_No.14_Dover(1).pdf",
+          "pdf_sha256": "64fa89ea227c259b16c1c3dc262562e67ba1ffb405f19391c3989a94e1e45715",
+          "rect_points": [
+            315,
+            185,
+            470,
+            345
+          ],
+          "sha256": "1fe02b6922d19abbf8000c287b3fd81049784f99a5a994758a6453c830c90f76"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-017-04-edition.png",
+          "caption": "Current native edition; PDF p. 39.",
+          "pdf_page": 39,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "70e9c9dbf36cb55aa3fdd4f713f1c485fe9f9feb5b62546c68de30b8c6310fd5",
+          "rect_points": [
+            335,
+            650,
+            440,
+            790
+          ],
+          "sha256": "009db8503775136f049a593a92c71330511d801eebbbfd596830c3a6b271e985"
+        }
+      ]
+    }
+  ]
+}
