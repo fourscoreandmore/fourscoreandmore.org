@@ -1,0 +1,968 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq12397213",
+  "context_markdown": "Known intentional differences between the supplied IMSLP #04770 source and this edition, covering all movements and all four parts. Entries are ordered by their first occurrence in the score; repeated occurrences are listed within each entry.\n\nBar numbers follow the edition within each movement. Alternate-ending and other implicit measures in II and IV are excluded from subsequent numbering. The five illustrative motto measures before IV are unnumbered; they are recorded as “Motto before m. 1”, separately from the finale proper. Physical indices include these measures.",
+  "policy_refs": [
+    "C3",
+    "G2",
+    "D3",
+    "D4",
+    "K1",
+    "D1",
+    "C2.3.1",
+    "C4"
+  ],
+  "records": [
+    {
+      "title": "Bass clef retained through short tenor-clef passages",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 22,
+      "measure_end": 172,
+      "physical_start": 22,
+      "physical_end": 172,
+      "location": "22–172",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Several source tenor-clef changes are omitted; sounding pitches are retained.",
+      "policy_refs": [
+        "C3",
+        "G2"
+      ],
+      "occurrences": [
+        {
+          "start": 22,
+          "end": 22
+        },
+        {
+          "start": 31,
+          "end": 33
+        },
+        {
+          "start": 38,
+          "end": 49
+        },
+        {
+          "start": 60,
+          "end": 61
+        },
+        {
+          "start": 107,
+          "end": 107
+        },
+        {
+          "start": 145,
+          "end": 146
+        },
+        {
+          "start": 153,
+          "end": 154
+        },
+        {
+          "start": 172,
+          "end": 172
+        }
+      ],
+      "id": "ED-001",
+      "body_markdown": "**Source:** Tenor clef is used at m. 22; mm. 31–33; from the final triplet of m. 38 through m. 49; parts of mm. 60–61; m. 107; mm. 145–146; parts of mm. 153–154; and the short upper-register figure in m. 172.\n\n**Edition:** Bass clef continues through these passages at the same sounding pitches.\n\n**Editorial reason:** Adopt this local simplification under C3. Several of the source changes are brief, and the longer passage from m. 38 repeatedly returns to the lower register.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-01-source.png",
+          "caption": "Source scan; cello, mm. 17–24, including the brief tenor-clef change at m. 22. PDF p. 1.",
+          "pdf_page": 1,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            20,
+            588,
+            600,
+            643
+          ],
+          "sha256": "51738b2f09641132d5c71968747d0bf834b61895c9fe9bc01af8aceeaa92dd80"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-02-edition.png",
+          "caption": "Final edition; cello, mm. 17–24 in bass clef. PDF p. 1.",
+          "pdf_page": 1,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            35,
+            568,
+            553,
+            622
+          ],
+          "sha256": "4d1f8c1c3023b909154826728271e5dc18196d6a51ab97b1ce8b721542db4f7d"
+        },
+        {
+          "role": "source_continuation",
+          "path": "images/ed-001-03-source-continuation.png",
+          "caption": "Source scan; cello, tenor-clef passage beginning m. 31. PDF p. 1.",
+          "pdf_page": 1,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            350,
+            728,
+            600,
+            786
+          ],
+          "sha256": "1534c9c52c29255bc8a4d1c96024dad950f7eb11d9dbd57066400931a7bc15f3"
+        },
+        {
+          "role": "edition_continuation",
+          "path": "images/ed-001-04-edition-continuation.png",
+          "caption": "Final edition; cello, corresponding passage in bass clef. PDF p. 1.",
+          "pdf_page": 1,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            420,
+            738,
+            553,
+            792
+          ],
+          "sha256": "1c53241aae59cefb8007645cd00e02688f37749c79d7095a415d34bd11610892"
+        }
+      ]
+    },
+    {
+      "title": "Abbreviated poco ritardando",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 87,
+      "measure_end": 88,
+      "physical_start": 87,
+      "physical_end": 88,
+      "location": "87–88",
+      "part": "All parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "Distributed poco ritardando is presented as Poco rit.",
+      "policy_refs": [
+        "D3",
+        "D4",
+        "G2"
+      ],
+      "id": "ED-002",
+      "body_markdown": "**Source:** The words poco ri-tar-dan-do extend across mm. 87–88 and appear in all four staves.\n\n**Edition:** A single system tempo instruction, Poco rit., is placed at the start of the same passage.\n\n**Editorial reason:** Adopt the standard abbreviation and consolidated system placement. This records the notated instruction; it does not assert that playback reproduces a continuous ritardando.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-01-source.png",
+          "caption": "Source scan; distributed poco ritardando, mm. 87–88. PDF p. 3.",
+          "pdf_page": 3,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            425,
+            354,
+            600,
+            508
+          ],
+          "sha256": "de840879e0bb26c7da1319dc67911c0ec2df40a2c2aba2b518d5990b51c5c510"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-02-edition.png",
+          "caption": "Final edition; Poco rit., mm. 87–88. PDF p. 3.",
+          "pdf_page": 3,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            403,
+            344,
+            553,
+            494
+          ],
+          "sha256": "5373e2f2919916c132d8dd65a94d74def1555d74608d99c3b7a1e10db89bdbd4"
+        }
+      ]
+    },
+    {
+      "title": "Cancelling naturals omitted at key changes",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 93,
+      "measure_end": 101,
+      "physical_start": 93,
+      "physical_end": 101,
+      "location": "93–101",
+      "part": "All parts",
+      "type": "Key signature",
+      "status": "accepted",
+      "summary": "New key signatures replace cancellation naturals followed by the new signature.",
+      "policy_refs": [
+        "K1"
+      ],
+      "occurrences": [
+        {
+          "start": 93,
+          "end": 93
+        },
+        {
+          "start": 101,
+          "end": 101
+        }
+      ],
+      "id": "ED-003",
+      "body_markdown": "**Source:** The changes at mm. 93 and 101 show cancellation naturals before the new key signature.\n\n**Edition:** The new non-zero key signature is shown without the cancellation naturals.\n\n**Editorial reason:** Apply K1; the key changes and sounding pitches are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-01-source.png",
+          "caption": "Source scan; cancellation of the preceding sharp at m. 101. PDF p. 4.",
+          "pdf_page": 4,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            235,
+            32,
+            318,
+            194
+          ],
+          "sha256": "3f3591df98b5c785d0c288fc5e748ab03218b2af219e19ac3d4b08108c71cd73"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-02-edition.png",
+          "caption": "Final edition; new flat signature at m. 101. PDF p. 4.",
+          "pdf_page": 4,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            241,
+            35,
+            328,
+            197
+          ],
+          "sha256": "1b4efdf44425ff1b4d81b81c9c9a92cfd42d71b3f2a52d7b783e19b5dbe9b7ff"
+        }
+      ]
+    },
+    {
+      "title": "Scherzo cello clef simplifications",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 50,
+      "measure_end": 273,
+      "physical_start": 243,
+      "physical_end": 468,
+      "location": "50–273",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Source tenor-clef changes are omitted in favour of continuous bass clef.",
+      "policy_refs": [
+        "C3",
+        "G2"
+      ],
+      "occurrences": [
+        {
+          "start": 50,
+          "end": 57
+        },
+        {
+          "start": 90,
+          "end": 91
+        },
+        {
+          "start": 94,
+          "end": 120
+        },
+        {
+          "start": 122,
+          "end": 132
+        },
+        {
+          "start": 135,
+          "end": 139
+        },
+        {
+          "start": 140,
+          "end": 143
+        },
+        {
+          "start": 250,
+          "end": 257
+        },
+        {
+          "start": 270,
+          "end": 273
+        }
+      ],
+      "id": "ED-004",
+      "body_markdown": "**Source:** Tenor clef appears in the following passages: mm. 50–57 (through the first note of 57); 90–91; from the last beat of 94 through the first beat of 120; 122 through the first beat of 132; 135 through the first beat of 139; from the second beat of 140 through the first beat of 143; 250 through the first beat of 257; and 270–273.\n\n**Edition:** Bass clef continues at the same sounding pitches.\n\n**Editorial reason:** Adopt the consistent bass-clef presentation under C3. The upper notes generally remain within a modest number of ledger lines, avoiding frequent brief clef changes. Bar numbers here follow the edition, including its treatment of alternate endings.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-01-source.png",
+          "caption": "Source scan; cello, mm. 47–57, including tenor clef in mm. 50–57. PDF p. 7.",
+          "pdf_page": 7,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            15,
+            735,
+            600,
+            791
+          ],
+          "sha256": "af4cf880d2251de777bdd674b8582cccfc1ccb25817985f08b6e01cdc8d05ead"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-02-edition.png",
+          "caption": "Final edition; the corresponding cello passage in bass clef. PDF p. 7.",
+          "pdf_page": 7,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            35,
+            750,
+            553,
+            791
+          ],
+          "sha256": "831e0ccaed2b38d27ff363a1bde3e9900c091084361168a09fa0ed4352d3481f"
+        }
+      ]
+    },
+    {
+      "title": "Scherzo key-signature cancellations simplified",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 98,
+      "measure_end": 193,
+      "physical_start": 292,
+      "physical_end": 387,
+      "location": "98–193",
+      "part": "All parts",
+      "type": "Key signature",
+      "status": "accepted",
+      "summary": "Cancellation naturals before the new key signatures are omitted.",
+      "policy_refs": [
+        "K1"
+      ],
+      "occurrences": [
+        {
+          "start": 98,
+          "end": 98
+        },
+        {
+          "start": 193,
+          "end": 193
+        }
+      ],
+      "id": "ED-005",
+      "body_markdown": "**Source:** Cancellation naturals precede the new signatures at mm. 98 and 193.\n\n**Edition:** The new non-zero signature is shown directly, under K1. The changes in key and sounding pitch are retained.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-01-source.png",
+          "caption": "Source scan; return to the flat signature at m. 193. PDF p. 10.",
+          "pdf_page": 10,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            504,
+            354,
+            600,
+            507
+          ],
+          "sha256": "1941c92cbaa80c23f16b42a3c3c15e1d5878eb0b1fdc9121129d90a3c626f0e8"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-02-edition.png",
+          "caption": "Final edition; the same key change without cancellation naturals. PDF p. 10.",
+          "pdf_page": 10,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            485,
+            350,
+            553,
+            494
+          ],
+          "sha256": "bceac08f73f1120e98a6a9343338b13c6ec9b5339af158473b7cf2d81d0c1b38"
+        }
+      ]
+    },
+    {
+      "title": "Joined sempre più piano instruction",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 181,
+      "measure_end": 186,
+      "physical_start": 375,
+      "physical_end": 380,
+      "location": "181–186",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Sempre and più p are combined into one continued expression.",
+      "policy_refs": [
+        "D4",
+        "D1"
+      ],
+      "occurrences": [
+        {
+          "start": 181,
+          "end": 186
+        }
+      ],
+      "id": "ED-006",
+      "body_markdown": "**Source:** Sempre and più p are distributed over successive bars, followed by continuation dashes.\n\n**Edition:** Sempre più p begins at m. 181 with a dashed continuation line; the continuation at the next system is abbreviated (p).\n\n**Editorial reason:** Read the distributed source words as one progressive instruction and consolidate them under D4. The subsequent pp and ppp remain in their source locations.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-01-source.png",
+          "caption": "Source scan; sempre and più p distributed across the passage. PDF p. 10.",
+          "pdf_page": 10,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            345,
+            182,
+            600,
+            352
+          ],
+          "sha256": "d89e979ab0db6095892c0ad695f45f58f477c5d3d61df0ed467eb93faff6e641"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-02-edition.png",
+          "caption": "Final edition; joined sempre più p and continuation line. PDF p. 10.",
+          "pdf_page": 10,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            350,
+            190,
+            553,
+            344
+          ],
+          "sha256": "9eee71a9ed3b806d46df446ea2cf81964da75fd71324c6fe7d7b62ec8a1e09b5"
+        }
+      ]
+    },
+    {
+      "title": "Bass clef through the slow-movement upper register",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 13,
+      "measure_end": 21,
+      "physical_start": 481,
+      "physical_end": 489,
+      "location": "13–21",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "The source tenor-clef passage is written in bass clef at sounding pitch.",
+      "policy_refs": [
+        "C3"
+      ],
+      "occurrences": [
+        {
+          "start": 13,
+          "end": 21
+        }
+      ],
+      "id": "ED-007",
+      "body_markdown": "**Source:** Tenor clef begins within m. 13 and continues through m. 21, before the return to bass clef in m. 22.\n\n**Edition:** Bass clef is retained throughout.\n\n**Editorial reason:** Adopt this local clef choice under C3. Most of the passage remains near the top of the bass staff; the brief higher figures in mm. 20–21 use additional ledger lines. This is an adopted choice, not a requirement to replace tenor clef generally.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-01-source.png",
+          "caption": "Source scan; cello, tenor-clef passage beginning within m. 13. PDF p. 12.",
+          "pdf_page": 12,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            200,
+            282,
+            600,
+            350
+          ],
+          "sha256": "f37524a32a3cf5ccb7cbf5258142d7649bc331952024ca16d89acd5d4e357d2a"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-02-edition.png",
+          "caption": "Final edition; corresponding upper-register cello passage in bass clef. PDF p. 12.",
+          "pdf_page": 12,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            210,
+            376,
+            553,
+            424
+          ],
+          "sha256": "a21fc1d37f069ef4570becdd80b4492243c31086c7421a6ef9f6290e066e0614"
+        }
+      ]
+    },
+    {
+      "title": "Enharmonic key changes without cancellation naturals",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 23,
+      "measure_end": 32,
+      "physical_start": 491,
+      "physical_end": 500,
+      "location": "23–32",
+      "part": "All parts",
+      "type": "Key signature",
+      "status": "accepted",
+      "summary": "Cancellation naturals are omitted before the new sharp and flat signatures.",
+      "policy_refs": [
+        "K1"
+      ],
+      "occurrences": [
+        {
+          "start": 23,
+          "end": 23
+        },
+        {
+          "start": 32,
+          "end": 32
+        }
+      ],
+      "id": "ED-008",
+      "body_markdown": "**Source:** Naturals cancel the old key signature before the changes at mm. 23 and 32.\n\n**Edition:** The new four-sharp and five-flat signatures appear directly.\n\n**Editorial reason:** Apply K1. This alters the key-signature typography only; the notated pitches and enharmonic change remain.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-01-source.png",
+          "caption": "Source scan; cancellation naturals before the Più lento signature at m. 23. PDF p. 12.",
+          "pdf_page": 12,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            325,
+            352,
+            460,
+            511
+          ],
+          "sha256": "4ac174d629adc493f5e8da923b915f71cfd63aee0946db57d0464b03ea1aa537"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-02-edition.png",
+          "caption": "Final edition; four-sharp signature at m. 23. PDF p. 12.",
+          "pdf_page": 12,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            326,
+            441,
+            406,
+            610
+          ],
+          "sha256": "0c4f15cf57216d090561bc02b4f76b072194ae4b628dad969b9edfad41dad89d"
+        }
+      ]
+    },
+    {
+      "title": "Joined crescendo poco a poco",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 48,
+      "measure_end": 49,
+      "physical_start": 516,
+      "physical_end": 517,
+      "location": "48–49",
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "The distributed crescendo qualification is combined into one instruction.",
+      "policy_refs": [
+        "D4",
+        "D1"
+      ],
+      "id": "ED-009",
+      "body_markdown": "**Source:** Cresc. poco a poco is spaced across mm. 48–49.\n\n**Edition:** Cresc. poco a poco is presented at the beginning of the passage with a continuation line where used.\n\n**Editorial reason:** Consolidate the source phrase under D4 while retaining its gradual expressive meaning.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-01-source.png",
+          "caption": "Source scan; distributed cresc. poco a poco, mm. 48–49. PDF p. 13.",
+          "pdf_page": 13,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            370,
+            204,
+            600,
+            381
+          ],
+          "sha256": "8d0030826da7c64c2fdb8b9bae03b4efc610831199daba7671f8d35e8bebaabf"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-02-edition.png",
+          "caption": "Final edition; joined crescendo instruction. PDF p. 13.",
+          "pdf_page": 13,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            385,
+            425,
+            553,
+            590
+          ],
+          "sha256": "237e39fd2f5db5448e77b2004db4ad8c25b93da5f3e3764ceaf790b1f5522eac"
+        }
+      ]
+    },
+    {
+      "title": "Abbreviated final ritardando",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 54,
+      "measure_end": 54,
+      "physical_start": 522,
+      "physical_end": 522,
+      "location": "54",
+      "part": "All parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "Ritardando is rendered as the standard abbreviation rit.",
+      "policy_refs": [
+        "D3",
+        "G2"
+      ],
+      "id": "ED-010",
+      "body_markdown": "**Source:** Ritardando is printed beneath each staff in the final bar.\n\n**Edition:** Rit. appears as the shared tempo instruction above the score; the final fermatas remain.\n\n**Editorial reason:** Adopt the standard abbreviation and system placement under D3 and G2.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-01-source.png",
+          "caption": "Source scan; final ritardando and fermatas, m. 54. PDF p. 13.",
+          "pdf_page": 13,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            490,
+            382,
+            600,
+            560
+          ],
+          "sha256": "ead15bbd30491071c242d2c1f664c0623fc87e1f81e7eba154f0a743c7b01c47"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-02-edition.png",
+          "caption": "Final edition; rit. and retained fermatas. PDF p. 13.",
+          "pdf_page": 13,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            459,
+            610,
+            553,
+            798
+          ],
+          "sha256": "15d121610aea52424f4f0ac0537790041c7787c46d79e8f2985b270752f1bda9"
+        }
+      ]
+    },
+    {
+      "title": "Finale key-signature cancellations simplified",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 13,
+      "measure_end": 208,
+      "physical_start": 540,
+      "physical_end": 741,
+      "location": "Pickup to 13; 45; 133; 174; 200; 208",
+      "part": "All parts",
+      "type": "Key signature",
+      "status": "accepted",
+      "summary": "Cancellation naturals are omitted before non-zero replacement signatures.",
+      "policy_refs": [
+        "K1"
+      ],
+      "occurrences": [
+        {
+          "start": 13,
+          "end": 13,
+          "detail": "Allegro pickup before m. 13",
+          "physical_start": 540
+        },
+        {
+          "start": 45,
+          "end": 45
+        },
+        {
+          "start": 133,
+          "end": 133
+        },
+        {
+          "start": 174,
+          "end": 174
+        },
+        {
+          "start": 200,
+          "end": 200
+        },
+        {
+          "start": 208,
+          "end": 208
+        }
+      ],
+      "id": "ED-011",
+      "body_markdown": "**Source:** Several key changes print cancellation naturals before the replacement signature.\n\n**Edition:** At the Allegro pickup before m. 13 and at mm. 45, 133, 174, 200 and 208, the new non-zero signature is presented directly.\n\n**Editorial reason:** Apply K1. The keys and sounding pitches are unchanged.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-011-01-source.png",
+          "caption": "Source scan; cancellation naturals before the Allegro pickup to m. 13. PDF p. 14.",
+          "pdf_page": 14,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            475,
+            28,
+            608,
+            201
+          ],
+          "sha256": "d85a10030ff9ca692dd34a09fbf8c22c0351738529e6555533a8689557391ded"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-011-02-edition.png",
+          "caption": "Final edition; flat signature directly before the Allegro pickup to m. 13. PDF p. 14.",
+          "pdf_page": 14,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            470,
+            322,
+            553,
+            465
+          ],
+          "sha256": "76cc3e5383e0a69a928c7c871481df1848324d619e047e95b48d3046e0cd2237"
+        }
+      ]
+    },
+    {
+      "title": "Finale tenor-clef passages in bass clef",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 17,
+      "measure_end": 215,
+      "physical_start": 545,
+      "physical_end": 748,
+      "location": "17–215",
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Bass clef replaces several source tenor-clef passages without altering sounding pitches.",
+      "policy_refs": [
+        "C3"
+      ],
+      "occurrences": [
+        {
+          "start": 17,
+          "end": 28
+        },
+        {
+          "start": 88,
+          "end": 91
+        },
+        {
+          "start": 112,
+          "end": 113
+        },
+        {
+          "start": 120,
+          "end": 132
+        },
+        {
+          "start": 200,
+          "end": 215
+        }
+      ],
+      "id": "ED-012",
+      "body_markdown": "**Source:** Tenor clef appears in mm. 17–28; 88–91; 112–113 (followed by rests through 115); 120 through the first note of 132; and from within m. 200 through 215.\n\n**Edition:** Bass clef is retained.\n\n**Editorial reason:** Adopt the local simplification under C3, retaining the same sounding pitches. The subsequent historical treble-clef passage in mm. 216–223 is recorded separately.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-012-01-source.png",
+          "caption": "Source scan; cello, tenor clef beginning at m. 17. PDF p. 14.",
+          "pdf_page": 14,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            20,
+            286,
+            600,
+            344
+          ],
+          "sha256": "d31814afdffb5bef0357ede6c657ca674e3fe7c0947542a2fb2890cc440f1666"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-012-02-edition.png",
+          "caption": "Final edition; corresponding sustained cello passage in bass clef. PDF p. 14.",
+          "pdf_page": 14,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            35,
+            576,
+            553,
+            630
+          ],
+          "sha256": "6d455b3f240c1f05a44015e42ae476f546b06991d67e8b8b6b3e4a33d1b7427c"
+        }
+      ]
+    },
+    {
+      "title": "Consolidated ritardando before in tempo",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 153,
+      "measure_end": 154,
+      "physical_start": 686,
+      "physical_end": 687,
+      "location": "153–154",
+      "part": "All parts",
+      "type": "Tempo text",
+      "status": "accepted",
+      "summary": "The syllabically divided ritardando is abbreviated as rit.",
+      "policy_refs": [
+        "D3",
+        "D4",
+        "G2"
+      ],
+      "id": "ED-013",
+      "body_markdown": "**Source:** Ritar-dando is distributed across mm. 153–154 beneath the staves.\n\n**Edition:** A shared rit. instruction begins at m. 153, before the unchanged in tempo at m. 155.\n\n**Editorial reason:** Adopt the standard abbreviation and consolidated system placement under D3 and D4.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-013-01-source.png",
+          "caption": "Source scan; divided ritardando, mm. 153–154. PDF p. 16.",
+          "pdf_page": 16,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            204,
+            498,
+            355,
+            661
+          ],
+          "sha256": "200ff0dc7e72188c8bd2f342d8ca385e105de01f1ec47dc0f747d64418f6f8f5"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-013-02-edition.png",
+          "caption": "Final edition; rit. before in tempo. PDF p. 16.",
+          "pdf_page": 16,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            196,
+            511,
+            333,
+            649
+          ],
+          "sha256": "e637e17bee8a475aa41d4b989d6b81d38ca62f494916ebaa6415acced1367a0a"
+        }
+      ]
+    },
+    {
+      "title": "Historical cello treble notation at sounding pitch",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 216,
+      "measure_end": 223,
+      "physical_start": 749,
+      "physical_end": 756,
+      "location": "216–223",
+      "part": "Cello",
+      "type": "Clef and octave notation",
+      "status": "accepted",
+      "summary": "Historical octave-transposing treble notation is replaced by bass clef at sounding pitch.",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "occurrences": [
+        {
+          "start": 216,
+          "end": 223
+        }
+      ],
+      "id": "ED-014",
+      "body_markdown": "**Source:** The cello changes from tenor clef to historical treble notation in m. 216, returning to bass clef in m. 224. The first written F5 is understood as sounding F4 in context.\n\n**Edition:** The same sounding pitches are written directly in bass clef; the first note is F4.\n\n**Editorial reason:** Apply the historical-cello exception C2.3.1 and the modern-clef guidance C4. This is a change of notation, not a downward transposition of the intended sounding line.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-014-01-source.png",
+          "caption": "Source scan; cello, historical treble-clef change at m. 216. PDF p. 17.",
+          "pdf_page": 17,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            380,
+            738,
+            600,
+            792
+          ],
+          "sha256": "ad59719a7aa8bc6dec93b2710222d3bd08bee6ff2aad4be102d3b52c1ddfecb0"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-014-02-edition.png",
+          "caption": "Final edition; the same cello line at sounding pitch in bass clef. PDF p. 17.",
+          "pdf_page": 17,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            392,
+            746,
+            553,
+            795
+          ],
+          "sha256": "2a1fa579d2d30b6ef64740e1cbc36f6e82fc7b51b3b6c9c28e2c8ba2dd3d59e5"
+        },
+        {
+          "role": "source_continuation",
+          "path": "images/ed-014-03-source-continuation.png",
+          "caption": "Source scan; treble-clef continuation in mm. 220–223 and return to bass at 224. PDF p. 18.",
+          "pdf_page": 18,
+          "pdf_document": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+          "pdf_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+          "rect_points": [
+            15,
+            135,
+            285,
+            195
+          ],
+          "sha256": "ace8690b3c43dc968335ebe0a032d8e6cfc79be86b5a6e34c48e5a7d0ad4df3b"
+        },
+        {
+          "role": "edition_continuation",
+          "path": "images/ed-014-04-edition-continuation.png",
+          "caption": "Final edition; corresponding continuation in bass clef. PDF p. 18.",
+          "pdf_page": 18,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "b58675d0cfef3dd38df84747dec6ffc1cf0c1504522e2b98b642bf49a1627077",
+          "rect_points": [
+            35,
+            130,
+            288,
+            187
+          ],
+          "sha256": "08989b97c9aff4b9eebb23225909bd67c2feefea2f9579824e1e6055adfefc83"
+        }
+      ]
+    }
+  ]
+}

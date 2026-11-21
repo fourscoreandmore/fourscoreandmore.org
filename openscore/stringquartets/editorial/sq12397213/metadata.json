@@ -1,0 +1,104 @@
+{
+  "schema_version": 2,
+  "sqid": "sq12397213",
+  "title": "String Quartet No.16 in F major, Op.135",
+  "composer": "Ludwig van Beethoven",
+  "review_date": "2026-10-28",
+  "edition_status": "Working edition",
+  "imslp_file_id": "04770",
+  "source_filename": "IMSLP04770-Beethoven_-_String_Quartet_No.16_Dover(1).pdf",
+  "source_sha256": "380b3c726d32bc961a076d6ac81e317c406b6b02c3b92294fe6f400b226932dd",
+  "source_pages": 18,
+  "source_publisher": "Breitkopf & Härtel",
+  "source_reprint": "Dover reprint supplied as an IMSLP PDF.",
+  "score_file": "sq12397213.mscx",
+  "score_sha256": "c0e95de405c43c16e7d88b1e79578647af40a8033273bf957f9f66e797ef7a12",
+  "score_path": "scores/Beethoven,_Ludwig_van/String_Quartet_No.16_in_F_major,_Op.135/sq12397213.mscz",
+  "native_format": "3.02",
+  "native_program_version": "3.6.2",
+  "native_companions": [],
+  "transcriber": "viddler",
+  "score_licence": "CC0",
+  "openscore_current_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "maler_revision": null,
+  "baseline_repository": "OpenScore/StringQuartets",
+  "baseline_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "catalogue_path": "data/scores.yaml",
+  "catalogue_revision": "2614b0b2958dd1ce3f52e172a43e5f4d0e29570f",
+  "catalogue_url": "https://github.com/OpenScore/StringQuartets/blob/2614b0b2958dd1ce3f52e172a43e5f4d0e29570f/data/scores.yaml",
+  "catalogue_key": 12397213,
+  "catalogue_entry": {
+    "path": "Beethoven,_Ludwig_van/String_Quartet_No.16_in_F_major,_Op.135",
+    "name": "String Quartet No.16 in F major, Op.135",
+    "link": "https://musescore.com/openscore-string-quartets/scores/12397213",
+    "musescore_version": "4.7.3",
+    "imslp": "#04770",
+    "set_id": 5108661
+  },
+  "movements": [
+    {
+      "number": 1,
+      "label": "I",
+      "title": "Allegro",
+      "bars": 193,
+      "physical_start": 1,
+      "physical_end": 193,
+      "physical_count": 193
+    },
+    {
+      "number": 2,
+      "label": "II",
+      "title": "Vivace",
+      "bars": 273,
+      "physical_start": 194,
+      "physical_end": 468,
+      "physical_count": 275,
+      "uncounted_physical_measures": [
+        260,
+        461
+      ]
+    },
+    {
+      "number": 3,
+      "label": "III",
+      "title": "Lento assai, cantante e tranquillo",
+      "bars": 54,
+      "physical_start": 469,
+      "physical_end": 522,
+      "physical_count": 54
+    },
+    {
+      "number": 4,
+      "label": "IV",
+      "title": "Der schwer gefasste Entschluss. Grave ma non troppo tratto – Allegro",
+      "bars": 277,
+      "physical_start": 528,
+      "physical_end": 811,
+      "physical_count": 284,
+      "uncounted_physical_measures": [
+        540,
+        608,
+        609,
+        610,
+        611,
+        615,
+        776
+      ]
+    }
+  ],
+  "numbering_note": "Bar numbers follow the edition within each movement. Alternate-ending and other implicit measures in II and IV are excluded from subsequent numbering. The five illustrative motto measures before IV are unnumbered; they are recorded as “Motto before m. 1”, separately from the finale proper. Physical indices include these measures.",
+  "policy_source": {
+    "url": "https://fourscoreandmore.org/scores-of-scores/notes-for-transcribers/",
+    "checked_on": "2026-10-28",
+    "version_label": "October 2026",
+    "retrieval_note": "Code index checked against the current page, including T3 rest grouping, T4 tuplets, T5 tremolo and C1–C5. W is an unnumbered section. Labels below are short navigation labels; the linked page remains authoritative."
+  },
+  "unnumbered_sections": [
+    {
+      "label": "Illustrative motto before movement IV",
+      "physical_start": 523,
+      "physical_end": 527,
+      "physical_count": 5
+    }
+  ]
+}

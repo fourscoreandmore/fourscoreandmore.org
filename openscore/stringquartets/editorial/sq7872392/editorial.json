@@ -1,0 +1,621 @@
+{
+  "schema_version": 2,
+  "document": "editorial",
+  "sqid": "sq7872392",
+  "context_markdown": "Known intentional differences between the supplied IMSLP #04763 source and this edition, covering all movements and all four parts. Entries are ordered by their first occurrence in the score; repeated occurrences are listed within each entry.\n\nBar numbers follow the edition within each movement. Its numbering excludes the Allegro pickup in I and first-ending measures in I–III; physical measure indices identify the stored measures independently. First-ending and following second-ending bars can therefore share a displayed number.",
+  "policy_refs": [
+    "C2.3.1",
+    "C4",
+    "K2",
+    "B2",
+    "G7",
+    "D3",
+    "P1",
+    "G2",
+    "T2",
+    "D1",
+    "D4",
+    "P3"
+  ],
+  "records": [
+    {
+      "title": "Modern cello octave and tenor clef",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 64,
+      "measure_end": 69,
+      "physical_start": 65,
+      "part": "Cello",
+      "type": "Clef",
+      "status": "accepted",
+      "summary": "Modern cello octave and tenor clef",
+      "policy_refs": [
+        "C2.3.1",
+        "C4"
+      ],
+      "id": "ED-001",
+      "location": "64–69",
+      "body_markdown": "**Source:** Treble clef uses the historical cello convention, sounding an octave below the written notes.\n\n**Edition:** Tenor clef at the intended sounding octave.\n\n**Editorial reason:** Adopt modern cello notation under C2.3.1/C4.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-001-01-source.png",
+          "caption": "Source scan; movement I, bars 64–69; PDF page 2.",
+          "pdf_page": 2,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            220,
+            610,
+            600,
+            680
+          ],
+          "sha256": "60397e9d87ec44c66e46bdd2ac06a169702b7760c9c6af8372218073d64edca9"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-001-02-edition.png",
+          "caption": "Current edition; movement I, bars 64–69; PDF page 2.",
+          "pdf_page": 2,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            30,
+            580,
+            565,
+            642
+          ],
+          "sha256": "d7aa2144c92a011d7dbe02573de626e3dd7d85f9634e88c313ade4ced162bad2"
+        }
+      ]
+    },
+    {
+      "title": "Supplied cancellation natural after the trill termination",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 66,
+      "measure_end": 66,
+      "physical_start": 67,
+      "part": "Violin I",
+      "type": "Accidental",
+      "status": "accepted",
+      "summary": "Supplied cancellation natural after the trill termination",
+      "policy_refs": [
+        "K2",
+        "B2",
+        "G7"
+      ],
+      "id": "ED-002",
+      "location": "66",
+      "body_markdown": "**Source:** The final D5 has no cancelling sign after the chromatic trill termination.\n\n**Edition:** The final D5 carries a square-bracketed natural.\n\n**Editorial reason:** The bracketed natural makes the adopted D-natural explicit. This reading is supported by the G-based harmony; the brackets distinguish the supplied clarification from the source notation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-002-01-source.png",
+          "caption": "Source scan; movement I, bars 66; PDF page 2.",
+          "pdf_page": 2,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            390,
+            510,
+            555,
+            585
+          ],
+          "sha256": "067f65deb36c225bb33d514b97c1d42e541cb56e99d0d8a139afd74581ad590d"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-002-02-edition.png",
+          "caption": "Current edition; movement I, bars 66; PDF page 2.",
+          "pdf_page": 2,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            375,
+            490,
+            565,
+            545
+          ],
+          "sha256": "601a926b95faedc7f968166d85e25bc1e5b55964911c755f217c223c26119139"
+        }
+      ]
+    },
+    {
+      "title": "Expanded stringendo abbreviation",
+      "movement": 1,
+      "movement_label": "I",
+      "measure_start": 258,
+      "measure_end": 260,
+      "physical_start": 263,
+      "part": "All parts",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Expanded stringendo abbreviation",
+      "policy_refs": [
+        "D3"
+      ],
+      "id": "ED-003",
+      "location": "258–260",
+      "body_markdown": "**Source:** string. il tempo; cello begins at258, upper parts at260.\n\n**Edition:** stringendo il tempo at the same respective entries.\n\n**Editorial reason:** Expand the recognised abbreviation while preserving each part’s source entry point.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-003-01-source.png",
+          "caption": "Source scan; movement I, bars 258–260; PDF page 9.",
+          "pdf_page": 9,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            25,
+            195,
+            300,
+            360
+          ],
+          "sha256": "afececf0809789f1a45da93ab5ddfac2b174329335f5c45733b3b1d4161b7d6d"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-003-02-edition.png",
+          "caption": "Current edition; movement I, bars 258–260; PDF page 9.",
+          "pdf_page": 9,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            30,
+            312,
+            310,
+            515
+          ],
+          "sha256": "a981a316bfd6334a0597e0a1ff7cfb9702e71b84e531ea5fff6797dad8e04e91"
+        }
+      ]
+    },
+    {
+      "title": "Expanded dolce abbreviation",
+      "movement": 2,
+      "movement_label": "II",
+      "measure_start": 102,
+      "measure_end": 102,
+      "physical_start": 375,
+      "part": "Violin I",
+      "type": "Expression text",
+      "status": "accepted",
+      "summary": "Expanded dolce abbreviation",
+      "policy_refs": [
+        "D3"
+      ],
+      "id": "ED-004",
+      "location": "102",
+      "body_markdown": "**Source:** dol.\n\n**Edition:** dolce\n\n**Editorial reason:** Retain the equivalent full expression word at the same location.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-004-01-source.png",
+          "caption": "Source scan; movement II, bars 102; PDF page 12.",
+          "pdf_page": 12,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            20,
+            45,
+            250,
+            120
+          ],
+          "sha256": "d853d38ddf643c6447190fb436f93617c3167187a92256e3cd8ca505c3680e74"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-004-02-edition.png",
+          "caption": "Current edition; movement II, bars 102; PDF page 13.",
+          "pdf_page": 13,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            125,
+            45,
+            245,
+            100
+          ],
+          "sha256": "feca83e4019c8ba79d8ebd9e55564c06eb69adf6969234a69802d34f7bfa790c"
+        }
+      ]
+    },
+    {
+      "title": "Supplied return to bowed playing",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 1,
+      "measure_end": 1,
+      "physical_start": 478,
+      "location": "1",
+      "part": "All four parts",
+      "type": "Playing instruction",
+      "status": "accepted",
+      "summary": "[arco] clarifies the return from pizzicato at the movement opening.",
+      "policy_refs": [
+        "B2",
+        "P1"
+      ],
+      "id": "ED-005",
+      "body_markdown": "**Source:** No new arco indication is printed at the beginning of the Menuetto; the previous movement ends pizzicato.\n\n**Edition:** [arco] is supplied in all four parts.\n\n**Editorial reason:** The new movement clearly resumes bowed playing. The bracketed instruction makes that implicit change explicit without altering the music.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-005-01-source.png",
+          "caption": "Source scan; Menuetto opening, all four parts. PDF p. 14.",
+          "pdf_page": 14,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            674,
+            200,
+            828
+          ],
+          "sha256": "e4e744fbbf9e0bb69e07516a87dd9dd127e8f3bbc3284f052925a15e117b2bc1"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-005-02-edition.png",
+          "caption": "Final edition; bracketed [arco] instructions at III.1. PDF p. 16.",
+          "pdf_page": 16,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            65,
+            85,
+            200,
+            300
+          ],
+          "sha256": "b14875654ef491b06cd6f5d5ec130cea88f30861124cad6d46426fd2efa46562"
+        }
+      ]
+    },
+    {
+      "title": "Explicit return-to-coda navigation",
+      "movement": 3,
+      "movement_label": "III",
+      "measure_start": 38,
+      "measure_end": 77,
+      "physical_start": 515,
+      "location": "38–77",
+      "part": "All parts; navigation",
+      "type": "Repeat navigation",
+      "status": "accepted",
+      "summary": "Native To Coda and coda-sign markers clarify the Menuetto return.",
+      "policy_refs": [
+        "G2"
+      ],
+      "id": "ED-006",
+      "body_markdown": "**Source:** The Menuetto ends at its repeat barline; the Trio ends with Menuetto da Capo, followed by a separately titled Coda.\n\n**Edition:** To Coda is printed at the Menuetto ending; Menuetto D.C. returns to it, and a coda sign identifies the Coda.\n\n**Editorial reason:** Retain explicit native navigation markers for the conventional return. These identify the same musical route as the source.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-006-01-source.png",
+          "caption": "Source scan; Menuetto ending without a To Coda label. PDF p. 15.",
+          "pdf_page": 15,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            470,
+            696,
+            608,
+            840
+          ],
+          "sha256": "4adeafcafe0eb6dddc137d076ce8a93f7ed6a9c169b014cfae416f5832008c4b"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-02-edition.png",
+          "caption": "Edition; To Coda at III.38. PDF p. 17.",
+          "pdf_page": 17,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            460,
+            645,
+            558,
+            716
+          ],
+          "sha256": "9302adc3e4218f73bfd4e57d8e237cc141cf08f0b8bde77db8887eb893bf5d11"
+        },
+        {
+          "role": "source",
+          "path": "images/ed-006-03-source.png",
+          "caption": "Source scan; Menuetto da Capo at the Trio ending. PDF p. 17.",
+          "pdf_page": 17,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            475,
+            212,
+            610,
+            405
+          ],
+          "sha256": "91f2006b04c2541bf25f582be88cc0fd4443ab47680b432adddf2abfc5573ea6"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-04-edition.png",
+          "caption": "Edition; Menuetto D.C. at the Trio ending. PDF p. 19.",
+          "pdf_page": 19,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            435,
+            188,
+            558,
+            232
+          ],
+          "sha256": "efe344fb3a2aa56341833fd77bd4dbfcd352acfe72024fea8a69785d1c43a59c"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-006-05-edition.png",
+          "caption": "Edition; coda sign at III.77. PDF p. 19.",
+          "pdf_page": 19,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            40,
+            329,
+            160,
+            385
+          ],
+          "sha256": "14a6816554e9a3562f74ac3f2f0b16f1b0ca422bc6cf6e03dd93c02ec078c959"
+        },
+        {
+          "role": "source",
+          "path": "images/ed-006-06-source.png",
+          "caption": "Source scan; Coda title without a coda sign. PDF p. 17.",
+          "pdf_page": 17,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            370,
+            180,
+            435
+          ],
+          "sha256": "3692724db2918d672452cd7b0756f9050c91f25b10eadb672e9ed444ab11f7c1"
+        }
+      ]
+    },
+    {
+      "title": "Default half-bar beaming in the finale",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 1,
+      "measure_end": 429,
+      "physical_start": 574,
+      "location": "1–429",
+      "part": "All parts",
+      "type": "Beaming",
+      "status": "accepted",
+      "summary": "Continuous eighth-note runs use native half-bar beam groups.",
+      "policy_refs": [
+        "G2",
+        "T2"
+      ],
+      "id": "ED-007",
+      "body_markdown": "**Source:** Numerous complete bars of eighth notes are beamed as single eight-note groups.\n\n**Edition:** The same notes are grouped into two four-eighth beams under the native alla-breve defaults.\n\n**Editorial reason:** Retain the consistent default grouping under T2. Durations and pitches are unchanged. The image shows a representative passage rather than every instance.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-007-01-source.png",
+          "caption": "Source scan; representative eight-note beam in the viola, IV.9. PDF p. 18.",
+          "pdf_page": 18,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            288,
+            120,
+            335
+          ],
+          "sha256": "98efe7b8f793f9dd73c9cc32b5ea111e38d866907c58792a84e7391202b74520"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-007-02-edition.png",
+          "caption": "Edition; corresponding half-bar beam groups, IV.9. PDF p. 20.",
+          "pdf_page": 20,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            40,
+            285,
+            125,
+            329
+          ],
+          "sha256": "02da9a93094d6483c5c78323e53c759556939c75d47c9bf84ec4f65ca321325c"
+        }
+      ]
+    },
+    {
+      "title": "Joined crescendo wording and continuation lines",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 13,
+      "measure_end": 30,
+      "physical_start": 586,
+      "location": "13–30",
+      "part": "Violin II; viola; cello",
+      "type": "Expression line",
+      "status": "accepted",
+      "summary": "The opening crescendo wording is joined and carried by native dashed lines.",
+      "policy_refs": [
+        "D1",
+        "D3",
+        "D4"
+      ],
+      "id": "ED-008",
+      "body_markdown": "**Source:** Violin II and viola have cre-scen-do poco a poco split across bars 13–16, followed by sempre più crescendo at 22; cello begins cresc. poco a poco at 21.\n\n**Edition:** The full phrases appear at their onsets as cresc. poco a poco and sempre più cresc., with native dashed lines and (cresc.) continuation labels.\n\n**Editorial reason:** Retain continuous native expression lines and recognised abbreviations while preserving the source onsets and escalation.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-008-01-source.png",
+          "caption": "Source scan; distributed crescendo wording in IV.13–24. PDF p. 18.",
+          "pdf_page": 18,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            230,
+            603,
+            510
+          ],
+          "sha256": "787c2763f57ce9ba667e4d862a9e5eeb338600f25f0b212508b1779aa2720acb"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-008-02-edition.png",
+          "caption": "Edition; joined instructions and native continuation lines. PDF p. 20.",
+          "pdf_page": 20,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            40,
+            245,
+            558,
+            498
+          ],
+          "sha256": "4d1a2ec65c83e1022c6ef14dbe6115bb5e5d665b529bb70ff51b6930268e65a0"
+        }
+      ]
+    },
+    {
+      "title": "Repeated string-instruction continuation labels",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 154,
+      "measure_end": 167,
+      "physical_start": 727,
+      "location": "154–167",
+      "part": "Violin II; viola",
+      "type": "Playing-instruction line",
+      "status": "accepted",
+      "summary": "Continuation labels repeat una corda at the next system.",
+      "policy_refs": [
+        "G2",
+        "P3"
+      ],
+      "id": "ED-009",
+      "body_markdown": "**Source:** After sul una corda at 152 in violin II and 160 in viola, the source continues the restriction with dashes.\n\n**Edition:** The native lines repeat una corda at the following system starts, 154 and 162 respectively.\n\n**Editorial reason:** The continuation labels restate the existing instruction and clarify the line across a system break; they do not introduce a new string restriction.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-009-01-source.png",
+          "caption": "Source scan; dashed continuation of violin-II string instruction at IV.154. PDF p. 22.",
+          "pdf_page": 22,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            92,
+            202,
+            155
+          ],
+          "sha256": "3ff6d72db42eb000523a89c42384518cd1aaf324e1c3e0d3fed6672f47e19b8a"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-02-edition.png",
+          "caption": "Edition; una corda continuation at IV.154. PDF p. 24.",
+          "pdf_page": 24,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            40,
+            79,
+            205,
+            119
+          ],
+          "sha256": "7ff3d4f727e0e45233a92f655ea1bfb538a75b983e6d11c9b1cd9e21015c83be"
+        },
+        {
+          "role": "source",
+          "path": "images/ed-009-03-source.png",
+          "caption": "Source scan; dashed continuation of viola string instruction at IV.162. PDF p. 22.",
+          "pdf_page": 22,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            30,
+            275,
+            203,
+            340
+          ],
+          "sha256": "ea7daf22421c7e72dd3e9c6d67b6e403abfa23f66e6a8487ea3d4e54b24e8511"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-009-04-edition.png",
+          "caption": "Edition; una corda continuation at IV.162. PDF p. 24.",
+          "pdf_page": 24,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            40,
+            260,
+            205,
+            300
+          ],
+          "sha256": "364567ad847fb220f2ec1542e1d9934852285a282100fc749e92099e9d3df825"
+        }
+      ]
+    },
+    {
+      "title": "Native diminuendo line",
+      "movement": 4,
+      "movement_label": "IV",
+      "measure_start": 272,
+      "measure_end": 272,
+      "physical_start": 845,
+      "location": "272",
+      "part": "Violin I",
+      "type": "Expression line",
+      "status": "accepted",
+      "summary": "The source dim. is represented by a short native dashed line.",
+      "policy_refs": [
+        "G2",
+        "D1"
+      ],
+      "id": "ED-010",
+      "body_markdown": "**Source:** dim. appears halfway through bar 272 without a drawn continuation line.\n\n**Edition:** The same instruction is encoded as a native diminuendo line, with a short dashed continuation to the bar end.\n\n**Editorial reason:** Retain the native expression object and its visible continuation at the source onset.",
+      "images": [
+        {
+          "role": "source",
+          "path": "images/ed-010-01-source.png",
+          "caption": "Source scan; dim. in IV.272. PDF p. 25.",
+          "pdf_page": 25,
+          "pdf_document": "IMSLP04763-Beethoven_-_String_Quartet_No.9_Dover(1).pdf",
+          "pdf_sha256": "61b372c5ceede37228125255fc45e8f4acb766f99e637c85c8b30974896fc674",
+          "rect_points": [
+            110,
+            55,
+            200,
+            112
+          ],
+          "sha256": "43f83222c31b70c140e0998c6736629924c5c7f97e456f92ce67ba37fb5e6da4"
+        },
+        {
+          "role": "edition",
+          "path": "images/ed-010-02-edition.png",
+          "caption": "Edition; native diminuendo line at IV.272. PDF p. 27.",
+          "pdf_page": 27,
+          "pdf_document": "score.pdf",
+          "pdf_sha256": "f46a0a195d453e50d73e24f72275d1e44a926702c9216682ea80aa5fd7379d2c",
+          "rect_points": [
+            115,
+            42,
+            198,
+            91
+          ],
+          "sha256": "13f5ced1ac18e05eb6c135064ded862d9e99103b13fb1bd0e0947f2d32aad68e"
+        }
+      ]
+    }
+  ]
+}
