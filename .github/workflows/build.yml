@@ -34,5 +34,12 @@ jobs:
           gem install bundler -v "$(tail -1 Gemfile.lock | tr -d ' ')"
           bundle config set path vendor/bundle
           bundle install
+      # The in-browser apps' files (on Upsun, apps-backend builds them instead).
+      # Without the When-in-Rome submodule (not checked out here), the lieder
+      # apps have no songs, but everything else is built.
+      - name: Prepare the in-browser apps
+        run: |
+          command -v python3 || (apt-get update -qq && apt-get install -qq -y python3)
+          python3 apps-backend/scripts/build-browser-apps.py
       - name: Build
         run: bundle exec jekyll build

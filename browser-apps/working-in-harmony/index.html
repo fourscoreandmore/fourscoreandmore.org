@@ -1,0 +1,40 @@
+---
+layout: default
+title: Working in Harmony - App
+---
+{% include browser-apps/form-assets.html title="Working in Harmony - App" server_url="/apps/working-in-harmony/" %}
+
+<p><i>Part of <a href="/working-in-harmony/">Working in Harmony</a></i></p>
+
+<p>Get instant feedback on your Roman numeral analysis.</p>
+
+<form action="analysis/" method="get">
+  <div class="form-field">
+    <label for="song">Select a song</label>
+    <div class="description">Hint: The list is alphabetical but you can also start typing to search for a specific composer, song, or collection.</div>
+    <select class="chosen" id="song" name="song" required></select>
+  </div>
+
+  <div class="form-actions">
+    <a class="btn btn-default" href="">Reset</a>
+    <input class="btn btn-primary" type="submit" value="Continue" disabled>
+  </div>
+</form>
+
+<script>
+  // The analysis page then starts quicker, from the browser's cache.
+  BrowserApps.preload();
+
+  BrowserApps.list("lieder").then(function (lieder) {
+    if (!lieder) {
+      var form = document.querySelector("form");
+      form.querySelector("[type=submit]").disabled = true;
+      form.append(BrowserApps.element("p", { class: "error" }, ["Sorry, the list of songs couldn't load. Try reloading the page."]));
+      return;
+    }
+    BrowserApps.fillSelect(document.getElementById("song"), lieder.filter(function (song) { return song.wih; }), function (song) {
+      return { value: song.dir, text: song.name };
+    });
+    document.querySelector("form [type=submit]").disabled = false;
+  });
+</script>

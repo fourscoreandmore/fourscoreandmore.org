@@ -24,6 +24,14 @@ web:
       passthru: '/404/index.html'
       expires: 1h
 
+    # The in-browser apps' files (browser-apps/ in the site, which can't see
+    # this directory when it's built): see "In-browser apps" in README.md.
+    '/browser-apps/generated':
+      root: 'browser-apps-generated'
+      allow: true
+      scripts: false
+      expires: 1h
+
 dependencies:
     python3:
        uv: '*'
@@ -64,6 +72,8 @@ hooks:
 
     pnpm install --no-optional
     cp node_modules/opensheetmusicdisplay/build/opensheetmusicdisplay.min.js ./app/static/
+
+    python3 scripts/build-browser-apps.py --out browser-apps-generated
   deploy: |
     set -e
     touch resources/scores/lieder.jsonl

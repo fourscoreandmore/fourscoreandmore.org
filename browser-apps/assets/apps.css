@@ -1,0 +1,38 @@
+.browser-apps-notice {
+    border-left: 4px solid #337ab7;
+    padding: 5px 10px;
+    background: #f5f8fb;
+}
+.browser-apps-status {
+    color: #333333;
+    font-style: italic;
+}
+.browser-apps-status.error {
+    color: red;
+    font-style: normal;
+}
+/* A spinner while loading or working. */
+.browser-apps-status.busy::before {
+    content: "";
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.5em;
+    vertical-align: -0.1em;
+    border: 2px solid #337ab7;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: browser-apps-spin 0.8s linear infinite;
+}
+@keyframes browser-apps-spin {
+    to { transform: rotate(360deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .browser-apps-status.busy::before {
+        animation: none;
+    }
+}
+.btn[disabled] {
+    cursor: progress;
+    opacity: 0.7;
+}

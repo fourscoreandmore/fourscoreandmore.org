@@ -15,3 +15,11 @@ https://{default}/apps:
   cache:
     enabled: false
     cookies: ['session']
+
+# The in-browser apps' files, built by apps-backend (see apps-backend/README.md).
+https://{default}/browser-apps/generated:
+  type: upstream
+  upstream: apps-backend:http
+  cache:
+    enabled: true
+    cookies: []
