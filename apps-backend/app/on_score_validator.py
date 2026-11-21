@@ -1,0 +1,95 @@
+"""Checks on analyses entered on the score, before romanUmpire reads them.
+
+romanUmpire reads Roman numerals from lyrics in the score's last part. It
+crashes with unhelpful errors (an IndexError, or a music21 exception about
+"FAKE KEY") when that part has no lyrics, the first lyric has no key, or a
+lyric isn't a Roman numeral. These checks find those problems and say where.
+"""
+from music21 import key as m21key, roman
+
+TOO_FEW_PARTS = (
+    "The score has only one part. Add your analysis as lyrics on a new, "
+    "lowest part (e.g. press 'i' in MuseScore to add an instrument)."
+)
+NO_LYRICS = (
+    "No analysis found: the score's lowest part has no lyrics. Add a new, "
+    "lowest part and enter your Roman numerals as lyrics on its notes."
+)
+NO_FIRST_KEY = (
+    'The first Roman numeral ("{lyric}", in measure {measure}) needs a key, '
+    'e.g. "C: I" or "a: i".'
+)
+NOT_A_ROMAN_NUMERAL = (
+    'Measure {measure}: "{lyric}" could not be read as a Roman numeral.'
+)
+NOT_A_KEY = (
+    'Measure {measure}: in "{lyric}", "{key}" is not a key: use a letter name, '
+    'upper case for major and lower case for minor (e.g. "C", "a", "F#", "bb").'
+)
+MAX_ERRORS = 20
+
+
+def normalize_lyric(lyric):
+    """Make the same substitutions as romanUmpire's _romanFromLyric.
+
+    As of the When-in-Rome commit the submodule pins. Later versions also split
+    lyrics at "//" (alternative or pivot chords) and newlines: follow them here
+    when the submodule is updated.
+    """
+    lyric = lyric.replace(" ", "").replace("\xa0", "")
+    lyric = lyric.replace("-", "b")
+    lyric = lyric.replace("(", "[").replace(")", "]")
+    if "sus" in lyric:
+        lyric = lyric.replace("sus", "[add") + "]"
+    return lyric
+
+
+def find_on_score_errors(score):
+    """Return messages for the user about problems in an on-score analysis."""
+    if len(score.parts) < 2:
+        return [TOO_FEW_PARTS]
+
+    errors = []
+    key = None
+    key_given = False
+    reported_no_key = False
+    found = False
+    for n in score.parts[-1].recurse().notes:
+        if not n.lyric:
+            continue
+        found = True
+        lyric = normalize_lyric(n.lyric)
+        if lyric.count(":") > 1:
+            errors.append(NOT_A_ROMAN_NUMERAL.format(measure=n.measureNumber, lyric=n.lyric))
+            continue
+        if ":" in lyric:
+            key_given = True
+            new_key, figure = lyric.split(":")
+            try:
+                # As music21 reads the key romanUmpire gives RomanNumeral.
+                m21key.Key(new_key)
+            except Exception:
+                errors.append(NOT_A_KEY.format(measure=n.measureNumber, lyric=n.lyric, key=new_key))
+                continue
+        else:
+            new_key, figure = key, lyric
+        try:
+            # Without a key yet, check the figure against any key.
+            if not roman.RomanNumeral(figure, new_key or "C").figure:
+                raise ValueError(figure)
+        except Exception:
+            errors.append(NOT_A_ROMAN_NUMERAL.format(measure=n.measureNumber, lyric=n.lyric))
+            continue
+        if new_key is None:
+            # Once, and not if a key was given but couldn't be read.
+            if not key_given and not reported_no_key:
+                errors.append(NO_FIRST_KEY.format(measure=n.measureNumber, lyric=n.lyric))
+                reported_no_key = True
+            continue
+        key = new_key
+
+    if not found:
+        return [NO_LYRICS]
+    if len(errors) > MAX_ERRORS:
+        errors = errors[:MAX_ERRORS] + [f"... and {len(errors) - MAX_ERRORS} more."]
+    return errors

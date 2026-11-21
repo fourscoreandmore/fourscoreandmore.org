@@ -1,4 +1,5 @@
 from flask_wtf import FlaskForm
+from flask_wtf.file import FileAllowed, FileField, FileRequired
 from wtforms import DecimalField, IntegerField, BooleanField, RadioField, SelectField, SelectMultipleField, SubmitField, widgets, TextAreaField
 from wtforms.validators import AnyOf, DataRequired, NumberRange, Length
 from app import app
@@ -106,6 +107,20 @@ class WorkingInHarmonyAnalysisForm(FlaskForm):
         "Complete the template with your own Roman numeral analysis.\nFeel free to work offline in any text editor (simply cut'n'paste the text back in when you're done).\nFor help with getting your analysis down in the right format, see the notes here: https://fourscoreandmore.org/working-in-harmony/analysis/",
         validators=[
             Length(max=102400) # the analysis can be max 100 KB
+        ]
+    )
+
+    submit = SubmitField(label="Submit analysis")
+
+
+class WorkingInHarmonyUploadForm(FlaskForm):
+    score = FileField(
+        label="Score with your analysis",
+        description=
+        "A MusicXML file (.mxl, .musicxml or .xml, up to 10 MB) with your Roman numerals entered as lyrics on a new, lowest part.\nMost notation software can export MusicXML (in MuseScore: File > Export).\nFor how to enter the analysis, see the notes here: https://fourscoreandmore.org/working-in-harmony/analysis/",
+        validators=[
+            FileRequired(),
+            FileAllowed(["mxl", "musicxml", "xml"], "Upload a MusicXML file (.mxl, .musicxml or .xml)."),
         ]
     )
 

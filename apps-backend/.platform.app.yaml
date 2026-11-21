@@ -47,6 +47,16 @@ mounts:
     source: local
     source_path: 'wih-writable'
 
+crons:
+  # Working in Harmony keeps each session's analyses and uploads (up to 10 MB
+  # each) in wih-writable, at <session>/<song or upload>/<hash>. Delete those
+  # more than a week old, so the disk doesn't fill up. Leave the (empty)
+  # folders above them: a request may be about to use one.
+  wih-cleanup:
+    spec: '23 4 * * *'
+    commands:
+      start: find "$PLATFORM_APP_DIR/wih-writable" -mindepth 3 -maxdepth 3 -mtime +7 -exec rm -rf {} +
+
 relationships:
   site: "site:http"
 
